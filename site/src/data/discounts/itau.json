@@ -1,0 +1,262 @@
+{
+  "provider": "itau",
+  "label": "Itau",
+  "rules": [
+    {
+      "id": "itau-restaurantes-premium-25",
+      "merchant": "Restaurantes",
+      "category": "restaurante",
+      "percent": 25,
+      "tiers": [
+        "platinum",
+        "black",
+        "infinite"
+      ],
+      "validUntil": "2026-12-01",
+      "stackable": false,
+      "cardFamilies": [
+        "Personal Bank"
+      ]
+    },
+    {
+      "id": "itau-restaurantes-general-15",
+      "merchant": "Restaurantes",
+      "category": "restaurante",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "validUntil": "2026-12-01",
+      "cardFamilies": [
+        "Volar",
+        "Junior"
+      ],
+      "notes": "Cuenta Pocket excluida"
+    },
+    {
+      "merchant": "Moda",
+      "category": "indumentaria",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "validUntil": "2026-12-01",
+      "stackable": false,
+      "notes": "Solo locales adheridos"
+    },
+    {
+      "merchant": "iPlace",
+      "category": "electronica",
+      "percent": 15,
+      "tiers": [
+        "platinum",
+        "black",
+        "infinite"
+      ],
+      "validUntil": "2026-05-31",
+      "stackable": false,
+      "cardFamilies": [
+        "Personal Bank"
+      ],
+      "notes": "No aplica Cuenta Pocket"
+    },
+    {
+      "merchant": "Samsonite",
+      "category": "indumentaria",
+      "percent": 25,
+      "tiers": [
+        "black",
+        "infinite"
+      ],
+      "days": [
+        "jueves",
+        "sabado"
+      ],
+      "validUntil": "2026-06-30",
+      "stackable": false,
+      "cardFamilies": [
+        "Personal Bank"
+      ]
+    },
+    {
+      "merchant": "Samsonite",
+      "category": "indumentaria",
+      "percent": 15,
+      "tiers": [
+        "platinum"
+      ],
+      "days": [
+        "jueves",
+        "sabado"
+      ],
+      "validUntil": "2026-06-30",
+      "stackable": false
+    },
+    {
+      "merchant": "Bosch y Cia",
+      "category": "hogar",
+      "percent": 25,
+      "tiers": [
+        "todas"
+      ],
+      "validUntil": "2026-05-30",
+      "stackable": false
+    },
+    {
+      "merchant": "Farmacia El Túnel",
+      "category": "farmacia",
+      "percent": 25,
+      "tiers": [
+        "platinum",
+        "black",
+        "infinite"
+      ],
+      "days": [
+        "lunes",
+        "miercoles"
+      ],
+      "validUntil": "2026-05-31",
+      "stackable": true,
+      "channels": [
+        "online"
+      ],
+      "cardFamilies": [
+        "Personal Bank"
+      ]
+    },
+    {
+      "merchant": "Farmacia El Túnel",
+      "category": "farmacia",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "validUntil": "2026-05-31",
+      "stackable": true,
+      "channels": [
+        "online"
+      ],
+      "cardFamilies": [
+        "Volar"
+      ],
+      "networks": [
+        "visa",
+        "mastercard"
+      ]
+    },
+    {
+      "merchant": "Dobarro & Pichel",
+      "category": "hogar",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "validUntil": "2026-08-31",
+      "stackable": false,
+      "networks": [
+        "visa",
+        "mastercard"
+      ],
+      "notes": "Aplica únicamente en la compra de equipos"
+    },
+    {
+      "merchant": "Espacio Aroma",
+      "category": "hogar",
+      "percent": 25,
+      "tiers": [
+        "black",
+        "infinite"
+      ],
+      "validUntil": "2026-07-15",
+      "stackable": false,
+      "cardFamilies": [
+        "Personal Bank"
+      ],
+      "networks": [
+        "visa",
+        "mastercard"
+      ]
+    },
+    {
+      "merchant": "Espacio Aroma",
+      "category": "hogar",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "validUntil": "2026-07-15",
+      "stackable": false,
+      "networks": [
+        "visa",
+        "mastercard"
+      ]
+    },
+    {
+      "merchant": "CIR Acondicionamiento térmico",
+      "category": "hogar",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "validUntil": "2026-08-31",
+      "stackable": false,
+      "networks": [
+        "visa",
+        "mastercard"
+      ],
+      "notes": "Aplica en calefactores de leña Bosca y equipos a pellet"
+    },
+    {
+      "merchant": "Riviera Joyeria",
+      "category": "otros",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "validUntil": "2026-06-30",
+      "stackable": false
+    },
+    {
+      "merchant": "Starbucks",
+      "category": "restaurante",
+      "percent": 15,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles",
+        "jueves"
+      ],
+      "validUntil": "2026-07-31",
+      "stackable": false,
+      "cardFamilies": [
+        "Volar"
+      ],
+      "networks": [
+        "visa",
+        "mastercard"
+      ],
+      "notes": "Bebidas preparadas en barra. No aplica Cuenta Pocket"
+    },
+    {
+      "id": "itau-movie-debito-volar-2x1",
+      "merchant": "Movie",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "tiers": [
+        "todas"
+      ],
+      "validUntil": "2026-07-31",
+      "channels": [
+        "in-store",
+        "online"
+      ],
+      "cardFamilies": [
+        "Volar"
+      ],
+      "stackable": false,
+      "cap": "4 entradas por tarjeta por función",
+      "notes": "Débito Volar incluye junior. Débito por pago de sueldos (azules) y Cuenta Pocket aplican solo lunes a miércoles. Cuenta Pocket únicamente en compras web. No aplica a azules en vacaciones de julio."
+    }
+  ]
+}

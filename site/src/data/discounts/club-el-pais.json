@@ -1,0 +1,1797 @@
+{
+  "provider": "club-el-pais",
+  "label": "Club El País",
+  "rules": [
+    {
+      "merchant": "Djavan",
+      "category": "educacion",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "2x1. 27 de noviembre - 21hs. Lugar: Auditorio Adela Reta",
+      "validUntil": "2026-11-27"
+    },
+    {
+      "merchant": "La Ballena",
+      "category": "educacion",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "2x1. Lunes 20 de julio - 21hs. Lugar: Auditorio Adela Reta",
+      "validUntil": "2026-07-20"
+    },
+    {
+      "merchant": "La canción que resiste",
+      "category": "educacion",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "2x1. 5 de Junio - 20:30 hs. Lugar: Sala Camacuá",
+      "validUntil": "2026-06-05"
+    },
+    {
+      "merchant": "Detrés Escuela de Música",
+      "category": "educacion",
+      "percent": 25,
+      "notes": "Matrícula sin costo"
+    },
+    {
+      "merchant": "School Of Rock Montevideo",
+      "category": "educacion",
+      "percent": 25
+    },
+    {
+      "merchant": "ADM",
+      "category": "educacion",
+      "percent": 20
+    },
+    {
+      "merchant": "Coderhouse",
+      "category": "educacion",
+      "percent": 20
+    },
+    {
+      "merchant": "Goethe-Institut",
+      "category": "educacion",
+      "percent": 20
+    },
+    {
+      "merchant": "Luz Verde",
+      "category": "educacion",
+      "percent": 20
+    },
+    {
+      "merchant": "Alaclownddin",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "2x1. 27 de junio al 12 de julio. Lugar: ACJ Montevideo",
+      "validUntil": "2026-07-12"
+    },
+    {
+      "merchant": "Alaclownddin",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "2x1. 02 de julio - 16hs. Lugar: Centro Cultural La Experimental",
+      "validUntil": "2026-07-02"
+    },
+    {
+      "merchant": "Anita Martínez | Mamushka",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "2x1. 29 de Mayo - 21 hs. Lugar: Pueblo Narakan",
+      "validUntil": "2026-05-29"
+    },
+    {
+      "merchant": "Ballet Nacional Sodre",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1"
+    },
+    {
+      "merchant": "BNS – Cascanueces",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "2x1. 10 al 20 de diciembre. Lugar: Auditorio Adela Reta",
+      "validUntil": "2026-12-20"
+    },
+    {
+      "merchant": "Brainrots Italianos",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "2x1. 10 de julio. Lugar: Antel Arena",
+      "validUntil": "2026-07-10"
+    },
+    {
+      "merchant": "CNJS – Concierto VI",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "2x1. 26 de agosto - 20hs. Lugar: Auditorio Adela Reta",
+      "validUntil": "2026-08-26"
+    },
+    {
+      "merchant": "CNNS – 10º Aniversario del Coro Nacional de Niño",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "2x1. 29 de julio - 20hs. Lugar: Auditorio Adela Reta",
+      "validUntil": "2026-07-29"
+    },
+    {
+      "merchant": "Código Rojo",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "2x1. 28 de mayo - 21hs. Lugar: La Morada de Saturno",
+      "validUntil": "2026-05-28"
+    },
+    {
+      "merchant": "Conjunto Nacional de Música de Cámara",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1"
+    },
+    {
+      "merchant": "Copados",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "2x1. 13, 20 y 27 de junio - 4 de julio. Lugar: Teatro Alianza",
+      "validUntil": "2026-07-04"
+    },
+    {
+      "merchant": "El aplauso final – Iñaki Urlezaga",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "2x1. 29 de agosto - 21hs. Lugar: Auditorio Adela Reta",
+      "validUntil": "2026-08-29"
+    },
+    {
+      "merchant": "El Jefe del Jefe",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "2x1. 26 y 27 de noviembre - 20hs. Lugar: Teatro Movie",
+      "validUntil": "2026-11-27"
+    },
+    {
+      "merchant": "FutVolt",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1"
+    },
+    {
+      "merchant": "La Bella y la Bestia – El Musical",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "2x1. 27 de junio. 4 y 11 de julio. Lugar: ACJ Montevideo",
+      "validUntil": "2026-07-11"
+    },
+    {
+      "merchant": "La Bella y la Bestia – El Musical",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "2x1. 1 de julio - 16hs. Lugar: Centro Cultural La Experimental",
+      "validUntil": "2026-07-01"
+    },
+    {
+      "merchant": "La cena de los tontos",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "2x1. 13 y 14 de agosto - 20 hs.. Lugar: Teatro El Galpón",
+      "validUntil": "2026-08-14"
+    },
+    {
+      "merchant": "La Filarmónica – Beethoven #1",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "2x1. 24 de junio - 19:30 hs. Lugar: Teatro Solís",
+      "validUntil": "2026-06-24"
+    },
+    {
+      "merchant": "La Filarmónica Rossini – Haydn – Dvorak",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "2x1. 29 de julio - 19:30 hs. Lugar: Teatro Solís",
+      "validUntil": "2026-07-29"
+    },
+    {
+      "merchant": "La Granja de Zenon",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "2x1. 10 de julio - 14hs. Lugar: Antel Arena",
+      "validUntil": "2026-07-10"
+    },
+    {
+      "merchant": "La Madre",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "2x1. 8, 15, 22 y 29 de Mayo. Lugar: Teatro El Galpón",
+      "validUntil": "2026-05-29"
+    },
+    {
+      "merchant": "Lito Vitale – Hilda Lizarazu",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "2x1. 19 de Junio - 21 hs. Lugar: Pueblo Narakan",
+      "validUntil": "2026-06-19"
+    },
+    {
+      "merchant": "Luli Pampín",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "2x1. 09 de julio - 15hs. Lugar: Antel Arena",
+      "validUntil": "2026-07-09"
+    },
+    {
+      "merchant": "Maia Castro – 20 años",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "2x1. 22 de agosto - 20hs. Lugar: Teatro Solís",
+      "validUntil": "2026-08-22"
+    },
+    {
+      "merchant": "Margaritas en el Mar",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "2x1. Sábados y domingo de mayo - 20:30hs. Lugar: Teatro Solís"
+    },
+    {
+      "merchant": "Martín Masiello en Concierto",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "2x1. 06 de junio - 20:00 hs. Lugar: Auditorio Nelly Goitiño",
+      "validUntil": "2026-06-06"
+    },
+    {
+      "merchant": "Movie",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1"
+    },
+    {
+      "merchant": "Mundo Cartoon",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "2x1. A partir de $400"
+    },
+    {
+      "merchant": "Noelia Pace",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "2x1. 8 de setiembre. Lugar: Teatro El Galpón",
+      "validUntil": "2026-09-08"
+    },
+    {
+      "merchant": "OFM Gala Aniversario Del Teatro Solís",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "2x1. 19 de agosto - 19:30 hs. Lugar: Teatro Solís",
+      "validUntil": "2026-08-19"
+    },
+    {
+      "merchant": "Orquesta Sinfónia Nacional Sodre",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1"
+    },
+    {
+      "merchant": "OSSODRE – Eternidad",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "2x1. 25 de julio - 20hs. Lugar: Auditorio Adela Reta",
+      "validUntil": "2026-07-25"
+    },
+    {
+      "merchant": "OSSODRE – Homenaje",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "2x1. 17 de octubre - 20hs. Lugar: Auditorio Adela Reta",
+      "validUntil": "2026-10-17"
+    },
+    {
+      "merchant": "Por hoy dejamos acá",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "2x1. 9 al 30 de julio. Lugar: ACJ Montevideo",
+      "validUntil": "2026-07-30"
+    },
+    {
+      "merchant": "Recital de piano, Manuel de falla / 150 años",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "2x1. 23 de junio - 20hs. Lugar: Teatro Solís",
+      "validUntil": "2026-06-23"
+    },
+    {
+      "merchant": "Sentido Mensaje",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "2x1. 6 de mayo al 24 de junio. Lugar: ACJ - Sala George Williams",
+      "validUntil": "2026-06-24"
+    },
+    {
+      "merchant": "Sentido Mensaje",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "2x1. 21 de mayo - 3 y 10 de junio. Lugar: Finisterre",
+      "validUntil": "2026-06-10"
+    },
+    {
+      "merchant": "Sobre la Marcha – Nuestras Vidas",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "2x1. 18 de Junio - 21 hs. Lugar: Teatro Stella D'Italia. La Gaviota",
+      "validUntil": "2026-06-18"
+    },
+    {
+      "merchant": "Suma Camerata en vivo",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "2x1. 01 de agosto - 21hs. Lugar: La Trastienda",
+      "validUntil": "2026-08-01"
+    },
+    {
+      "merchant": "Tantoman – Porfiados",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "2x1. 15 de octubre - 20:30 hs. Lugar: Sala Zitarrosa",
+      "validUntil": "2026-10-15"
+    },
+    {
+      "merchant": "Teatrix",
+      "category": "entretenimiento",
+      "percent": 50
+    },
+    {
+      "merchant": "Tirria",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "2x1. 8 y 9 de octubre. Lugar: Teatro El Galpón",
+      "validUntil": "2026-10-09"
+    },
+    {
+      "merchant": "Un dios salvaje",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "2x1. 8, 15, 22 y 29 de Mayo - 20:30hs. Lugar: Teatro Alianza",
+      "validUntil": "2026-05-29"
+    },
+    {
+      "merchant": "Un Poyo Rojo",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "2x1. 24 de Julio - 20:30 hs. Lugar: Teatro Metro",
+      "validUntil": "2026-07-24"
+    },
+    {
+      "merchant": "Valeria Lynch en el Sodre",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "2x1. 01 de noviembre - 20:00 hs. Lugar: Auditorio Adela Reta",
+      "validUntil": "2026-11-01"
+    },
+    {
+      "merchant": "Voices: Una noche con Queen",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "2x1. 16, 23 y 30 de mayo. Lugar: Teatro Alianza",
+      "validUntil": "2026-05-30"
+    },
+    {
+      "merchant": "Librería Escaramuza",
+      "category": "entretenimiento",
+      "percent": 30,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Horneros Racket Club",
+      "category": "entretenimiento",
+      "percent": 20
+    },
+    {
+      "merchant": "Sushi Company",
+      "category": "entretenimiento",
+      "percent": 20,
+      "notes": "Take Away"
+    },
+    {
+      "merchant": "Club del Bosque",
+      "category": "entretenimiento",
+      "percent": 15
+    },
+    {
+      "merchant": "Palacio de la Música",
+      "category": "entretenimiento",
+      "percent": 15
+    },
+    {
+      "merchant": "Tu Movie Kids",
+      "category": "entretenimiento",
+      "percent": 15
+    },
+    {
+      "merchant": "Barraca Malvín",
+      "category": "hogar",
+      "percent": 25
+    },
+    {
+      "merchant": "Acher",
+      "category": "hogar",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Aguerrebere",
+      "category": "hogar",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Ai Haus",
+      "category": "hogar",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Alfombras Zurtan",
+      "category": "hogar",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Arredo",
+      "category": "hogar",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Bagno and Company",
+      "category": "hogar",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "BBQ",
+      "category": "hogar",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Darko Lighting",
+      "category": "hogar",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Deco Hogar",
+      "category": "hogar",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Duciel",
+      "category": "hogar",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Espacio Aroma",
+      "category": "hogar",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Fábrica Italiana",
+      "category": "hogar",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Florencia Tapices",
+      "category": "hogar",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Fumaya",
+      "category": "hogar",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Galería de Arte 6280",
+      "category": "hogar",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Glass Defender",
+      "category": "hogar",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes"
+      ]
+    },
+    {
+      "merchant": "Kratki",
+      "category": "hogar",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Lavakan",
+      "category": "hogar",
+      "percent": 20,
+      "days": [
+        "martes",
+        "miercoles",
+        "jueves"
+      ]
+    },
+    {
+      "merchant": "Le Blanc",
+      "category": "hogar",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Lyte Iluminación",
+      "category": "hogar",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Macadar",
+      "category": "hogar",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Martinika Deco",
+      "category": "hogar",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Mis Petates",
+      "category": "hogar",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Movelart",
+      "category": "hogar",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Natuzzi",
+      "category": "hogar",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Pacifica Casa",
+      "category": "hogar",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Papelería Goya",
+      "category": "hogar",
+      "percent": 20
+    },
+    {
+      "merchant": "Punto Color",
+      "category": "hogar",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Punto Design",
+      "category": "hogar",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Serlux",
+      "category": "hogar",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Soho",
+      "category": "hogar",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Tuttodeco",
+      "category": "hogar",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Uruguay Tapices",
+      "category": "hogar",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Viasono",
+      "category": "hogar",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Estela Jinchuk",
+      "category": "indumentaria",
+      "percent": 25,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Óptica Garese",
+      "category": "indumentaria",
+      "percent": 25,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Alma Boutique",
+      "category": "indumentaria",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Amadeus",
+      "category": "indumentaria",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Amén Shoes",
+      "category": "indumentaria",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Araliz",
+      "category": "indumentaria",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Baby City",
+      "category": "indumentaria",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Ballon",
+      "category": "indumentaria",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Be Ganesha",
+      "category": "indumentaria",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Benson And Thomas",
+      "category": "indumentaria",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Black",
+      "category": "indumentaria",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Blue glass",
+      "category": "indumentaria",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Brooksfield",
+      "category": "indumentaria",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Bubba",
+      "category": "indumentaria",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Cantegrill Joyas",
+      "category": "indumentaria",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Caro Criado",
+      "category": "indumentaria",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Clary Sage",
+      "category": "indumentaria",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Club House",
+      "category": "indumentaria",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Cuatroases",
+      "category": "indumentaria",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "D House",
+      "category": "indumentaria",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Don Baez",
+      "category": "indumentaria",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "El Volcán",
+      "category": "indumentaria",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Fahoma",
+      "category": "indumentaria",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "GAP",
+      "category": "indumentaria",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Garnié",
+      "category": "indumentaria",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Gladys T",
+      "category": "indumentaria",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Hush Puppies",
+      "category": "indumentaria",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Hush Puppies Kids",
+      "category": "indumentaria",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Joyería Revello",
+      "category": "indumentaria",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Kokino",
+      "category": "indumentaria",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "La Dolfina",
+      "category": "indumentaria",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Lanka",
+      "category": "indumentaria",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Limite",
+      "category": "indumentaria",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Ludovic",
+      "category": "indumentaria",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "M Concept",
+      "category": "indumentaria",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Magnolia",
+      "category": "indumentaria",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Mandinga",
+      "category": "indumentaria",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Manos del Uruguay",
+      "category": "indumentaria",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Margara Shaw",
+      "category": "indumentaria",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "María Cher",
+      "category": "indumentaria",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Marina Nature",
+      "category": "indumentaria",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Merrell",
+      "category": "indumentaria",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Mistral",
+      "category": "indumentaria",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Natalia Antolin",
+      "category": "indumentaria",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "NC Joyas",
+      "category": "indumentaria",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Panthai",
+      "category": "indumentaria",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Pasqualini",
+      "category": "indumentaria",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Pattytas",
+      "category": "indumentaria",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Pecarí",
+      "category": "indumentaria",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Petra",
+      "category": "indumentaria",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Petrichor",
+      "category": "indumentaria",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Polanco",
+      "category": "indumentaria",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Pompeya joyas",
+      "category": "indumentaria",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Puro Punto",
+      "category": "indumentaria",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Rockford",
+      "category": "indumentaria",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Rodwil",
+      "category": "indumentaria",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Samsonite",
+      "category": "indumentaria",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Savia",
+      "category": "indumentaria",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Shift",
+      "category": "indumentaria",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Srta. Peel",
+      "category": "indumentaria",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Under Armour",
+      "category": "indumentaria",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Uniform & Co",
+      "category": "indumentaria",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Urban Haus",
+      "category": "indumentaria",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Urban Haus Kids",
+      "category": "indumentaria",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "VDamiani",
+      "category": "indumentaria",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Veroca Joyas",
+      "category": "indumentaria",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Vichi Bijou",
+      "category": "indumentaria",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Watchme",
+      "category": "indumentaria",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Escool",
+      "category": "otros",
+      "percent": 20
+    },
+    {
+      "merchant": "Petit Baby",
+      "category": "otros",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Cauce",
+      "category": "restaurante",
+      "percent": 20
+    },
+    {
+      "merchant": "Charo Cocina y Café",
+      "category": "restaurante",
+      "percent": 20
+    },
+    {
+      "merchant": "Del Carmen",
+      "category": "restaurante",
+      "percent": 20
+    },
+    {
+      "merchant": "Delishop",
+      "category": "restaurante",
+      "percent": 20
+    },
+    {
+      "merchant": "deVino",
+      "category": "restaurante",
+      "percent": 20
+    },
+    {
+      "merchant": "IBER",
+      "category": "restaurante",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Il Baretto",
+      "category": "restaurante",
+      "percent": 20
+    },
+    {
+      "merchant": "Il Belvedere",
+      "category": "restaurante",
+      "percent": 20
+    },
+    {
+      "merchant": "Kakao Chocolates",
+      "category": "restaurante",
+      "percent": 20
+    },
+    {
+      "merchant": "La Carola",
+      "category": "restaurante",
+      "percent": 20
+    },
+    {
+      "merchant": "La Corniche",
+      "category": "restaurante",
+      "percent": 20
+    },
+    {
+      "merchant": "La Sin Rival",
+      "category": "restaurante",
+      "percent": 20
+    },
+    {
+      "merchant": "Las Ánimas Casa de Campo",
+      "category": "restaurante",
+      "percent": 20
+    },
+    {
+      "merchant": "Los Fontanes",
+      "category": "restaurante",
+      "percent": 20
+    },
+    {
+      "merchant": "Los Lagos",
+      "category": "restaurante",
+      "percent": 20
+    },
+    {
+      "merchant": "Misushi MVD",
+      "category": "restaurante",
+      "percent": 20
+    },
+    {
+      "merchant": "Moby Dick",
+      "category": "restaurante",
+      "percent": 20
+    },
+    {
+      "merchant": "Olivia Restó",
+      "category": "restaurante",
+      "percent": 20
+    },
+    {
+      "merchant": "Sudestada",
+      "category": "restaurante",
+      "percent": 20
+    },
+    {
+      "merchant": "Sushi Go",
+      "category": "restaurante",
+      "percent": 20
+    },
+    {
+      "merchant": "Sushimi",
+      "category": "restaurante",
+      "percent": 20
+    },
+    {
+      "merchant": "Tomás Restaurant",
+      "category": "restaurante",
+      "percent": 20
+    },
+    {
+      "merchant": "View Point",
+      "category": "restaurante",
+      "percent": 20
+    },
+    {
+      "merchant": "Watashi",
+      "category": "restaurante",
+      "percent": 20
+    },
+    {
+      "merchant": "Zule",
+      "category": "restaurante",
+      "percent": 20
+    },
+    {
+      "merchant": "McDonald’s",
+      "category": "restaurante",
+      "percent": 0,
+      "benefitType": "gift",
+      "notes": "Sundae de obsequio"
+    },
+    {
+      "merchant": "Pulso",
+      "category": "salud",
+      "percent": 50
+    },
+    {
+      "merchant": "PuntoVet",
+      "category": "salud",
+      "percent": 50
+    },
+    {
+      "merchant": "Bath & Body Works",
+      "category": "salud",
+      "percent": 35
+    },
+    {
+      "merchant": "Bethel Spa",
+      "category": "salud",
+      "percent": 20
+    },
+    {
+      "merchant": "Fabián Sciuto",
+      "category": "salud",
+      "percent": 20,
+      "days": [
+        "martes",
+        "miercoles",
+        "jueves",
+        "viernes"
+      ]
+    },
+    {
+      "merchant": "Colonia Express",
+      "category": "viajes",
+      "percent": 25
+    },
+    {
+      "merchant": "Don Antonio Posada",
+      "category": "viajes",
+      "percent": 25
+    },
+    {
+      "merchant": "Frontier Hotel Rivera",
+      "category": "viajes",
+      "percent": 25
+    },
+    {
+      "merchant": "Like Design Rivera",
+      "category": "viajes",
+      "percent": 25
+    },
+    {
+      "merchant": "Real Colonia Hotel & Suites",
+      "category": "viajes",
+      "percent": 25
+    },
+    {
+      "merchant": "UY Proa Sur Hotel",
+      "category": "viajes",
+      "percent": 25
+    },
+    {
+      "merchant": "Vivaldi",
+      "category": "viajes",
+      "percent": 25
+    },
+    {
+      "merchant": "Aereopuertos VIP Club",
+      "category": "viajes",
+      "percent": 20
+    },
+    {
+      "merchant": "Alamo Rent a Car",
+      "category": "viajes",
+      "percent": 20
+    },
+    {
+      "merchant": "Altos de la serena Apart Hotel",
+      "category": "viajes",
+      "percent": 20
+    },
+    {
+      "merchant": "AWA",
+      "category": "viajes",
+      "percent": 20
+    },
+    {
+      "merchant": "Barradas Parque Hotel & Spa",
+      "category": "viajes",
+      "percent": 20
+    },
+    {
+      "merchant": "Carrasco Traslada",
+      "category": "viajes",
+      "percent": 20
+    },
+    {
+      "merchant": "Casagrande Hotel & Beach Club",
+      "category": "viajes",
+      "percent": 20
+    },
+    {
+      "merchant": "Entre Pinos Eco Box",
+      "category": "viajes",
+      "percent": 20
+    },
+    {
+      "merchant": "Gran Hotel Brisas del Hum",
+      "category": "viajes",
+      "percent": 20
+    },
+    {
+      "merchant": "Gran Hotel Fray Bentos",
+      "category": "viajes",
+      "percent": 20
+    },
+    {
+      "merchant": "Hampton by Hilton",
+      "category": "viajes",
+      "percent": 20
+    },
+    {
+      "merchant": "Hilton Garden Inn Montevideo",
+      "category": "viajes",
+      "percent": 20
+    },
+    {
+      "merchant": "Hotel Casagrande",
+      "category": "viajes",
+      "percent": 20
+    },
+    {
+      "merchant": "Hotel Casino San Eugenio Del Cuareim",
+      "category": "viajes",
+      "percent": 20
+    },
+    {
+      "merchant": "Hotel Costanero",
+      "category": "viajes",
+      "percent": 20
+    },
+    {
+      "merchant": "Hotel La Capilla",
+      "category": "viajes",
+      "percent": 20
+    },
+    {
+      "merchant": "Hotel Solerios",
+      "category": "viajes",
+      "percent": 20
+    },
+    {
+      "merchant": "Hotel Soro Montevideo",
+      "category": "viajes",
+      "percent": 20
+    },
+    {
+      "merchant": "Posada Plaza Mayor",
+      "category": "viajes",
+      "percent": 20
+    },
+    {
+      "merchant": "Radisson Colonia del Sacramento",
+      "category": "viajes",
+      "percent": 20
+    },
+    {
+      "merchant": "Regency Park",
+      "category": "viajes",
+      "percent": 20
+    },
+    {
+      "merchant": "Salinas del Almirón Resort Termal",
+      "category": "viajes",
+      "percent": 20
+    }
+  ]
+}

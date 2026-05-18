@@ -1,0 +1,5 @@
+---
+export const prerender = false;
+const query = Astro.url.search;
+return Astro.redirect(`/${query}`, 301);
+---

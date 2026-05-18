@@ -1,0 +1,216 @@
+{
+  "provider": "brou",
+  "label": "BROU",
+  "rules": [
+    {
+      "merchant": "Ta-Ta",
+      "category": "supermercado",
+      "percent": 10,
+      "tiers": [
+        "todas"
+      ],
+      "excludedApps": [
+        "mercado-pago"
+      ],
+      "cardFamilies": [
+        "Recompensa"
+      ],
+      "networks": [
+        "mastercard"
+      ],
+      "days": [
+        "martes",
+        "jueves"
+      ],
+      "channels": [
+        "in-store",
+        "online"
+      ],
+      "cap": "Tope $2.000 de devolución mensual por cuenta",
+      "validUntil": "2027-04-30"
+    },
+    {
+      "merchant": "El Dorado",
+      "category": "supermercado",
+      "percent": 10,
+      "tiers": [
+        "todas"
+      ],
+      "excludedApps": [
+        "mercado-pago"
+      ],
+      "cardFamilies": [
+        "Recompensa"
+      ],
+      "networks": [
+        "mastercard"
+      ],
+      "days": [
+        "martes",
+        "jueves"
+      ],
+      "channels": [
+        "in-store",
+        "online"
+      ],
+      "cap": "Tope $2.000 de devolución mensual por cuenta",
+      "validUntil": "2027-04-30"
+    },
+    {
+      "merchant": "Macro Mercado",
+      "category": "supermercado",
+      "percent": 10,
+      "tiers": [
+        "todas"
+      ],
+      "excludedApps": [
+        "mercado-pago"
+      ],
+      "cardFamilies": [
+        "Recompensa"
+      ],
+      "networks": [
+        "mastercard"
+      ],
+      "days": [
+        "martes",
+        "jueves"
+      ],
+      "channels": [
+        "in-store",
+        "online"
+      ],
+      "cap": "Tope $2.000 de devolución mensual por cuenta",
+      "validUntil": "2027-04-30"
+    },
+    {
+      "merchant": "Tienda Inglesa",
+      "category": "supermercado",
+      "percent": 10,
+      "tiers": [
+        "todas"
+      ],
+      "excludedApps": [
+        "mercado-pago"
+      ],
+      "cardFamilies": [
+        "Recompensa"
+      ],
+      "networks": [
+        "mastercard"
+      ],
+      "days": [
+        "martes",
+        "jueves"
+      ],
+      "channels": [
+        "in-store",
+        "online"
+      ],
+      "cap": "Tope $2.000 de devolución mensual por cuenta",
+      "validUntil": "2027-04-30"
+    },
+    {
+      "merchant": "Micro Macro",
+      "category": "supermercado",
+      "percent": 10,
+      "tiers": [
+        "todas"
+      ],
+      "excludedApps": [
+        "mercado-pago"
+      ],
+      "cardFamilies": [
+        "Recompensa"
+      ],
+      "networks": [
+        "mastercard"
+      ],
+      "days": [
+        "martes",
+        "jueves"
+      ],
+      "channels": [
+        "in-store",
+        "online"
+      ],
+      "cap": "Tope $2.000 de devolución mensual por cuenta",
+      "validUntil": "2027-04-30"
+    },
+    {
+      "merchant": "Red Expres",
+      "category": "supermercado",
+      "percent": 10,
+      "tiers": [
+        "todas"
+      ],
+      "excludedApps": [
+        "mercado-pago"
+      ],
+      "cardFamilies": [
+        "Recompensa"
+      ],
+      "networks": [
+        "mastercard"
+      ],
+      "days": [
+        "martes",
+        "jueves"
+      ],
+      "channels": [
+        "in-store",
+        "online"
+      ],
+      "cap": "Tope $2.000 de devolución mensual por cuenta",
+      "validUntil": "2027-04-30"
+    },
+    {
+      "merchant": "Farmacias",
+      "category": "farmacia",
+      "percent": 10,
+      "tiers": [
+        "todas"
+      ],
+      "excludedApps": [
+        "mercado-pago"
+      ],
+      "cardFamilies": [
+        "Recompensa"
+      ],
+      "networks": [
+        "mastercard"
+      ],
+      "days": [
+        "miercoles",
+        "sabado",
+        "domingo"
+      ],
+      "cap": "Tope $1.000 de devolución mensual por cuenta",
+      "validUntil": "2027-04-30",
+      "notes": "Excepto farmacias de mutualistas"
+    },
+    {
+      "merchant": "ANCAP",
+      "category": "combustible",
+      "percent": 5,
+      "tiers": [
+        "todas"
+      ],
+      "excludedApps": [
+        "mercado-pago"
+      ],
+      "cardFamilies": [
+        "Recompensa"
+      ],
+      "networks": [
+        "mastercard"
+      ],
+      "days": [
+        "lunes",
+        "viernes"
+      ],
+      "cap": "Tope $500 de devolución mensual por cuenta",
+      "validUntil": "2027-04-30"
+    }
+  ]
+}

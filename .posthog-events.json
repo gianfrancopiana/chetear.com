@@ -1,0 +1,42 @@
+[
+  {
+    "event": "discount_viewed",
+    "description": "Fired when a user opens a discount detail (side panel on desktop, full page on mobile). Captures the merchant, provider, category, and percent.",
+    "file": "src/scripts/home-discounts.ts"
+  },
+  {
+    "event": "discount_scope_changed",
+    "description": "Fired when the user switches between 'Mis tarjetas' and 'Todas' scopes on the home page.",
+    "file": "src/scripts/home-discounts.ts"
+  },
+  {
+    "event": "discount_category_filtered",
+    "description": "Fired when the user selects a category chip filter on the home page.",
+    "file": "src/scripts/home-discounts.ts"
+  },
+  {
+    "event": "load_more_clicked",
+    "description": "Fired when the user clicks the 'Ver más' button to load more discounts.",
+    "file": "src/scripts/home-discounts.ts"
+  },
+  {
+    "event": "search_performed",
+    "description": "Fired when the user enters a non-empty query in the search overlay and results are rendered. Captures the query and number of results.",
+    "file": "src/scripts/standalone-search.ts"
+  },
+  {
+    "event": "search_result_clicked",
+    "description": "Fired when the user clicks on a search result link in the search overlay.",
+    "file": "src/scripts/standalone-search.ts"
+  },
+  {
+    "event": "card_tier_toggled",
+    "description": "Fired when the user selects or deselects a card tier in Ajustes. Captures the bank key, tier index, and the new toggled state (selected/deselected).",
+    "file": "src/scripts/tarjetas.ts"
+  },
+  {
+    "event": "discount_source_clicked",
+    "description": "Fired when the user clicks 'Verificar vigencia en el sitio de …' — the highest-intent action indicating they are about to redeem the discount.",
+    "file": "src/pages/descuento.astro"
+  }
+]

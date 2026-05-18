@@ -1,0 +1,158 @@
+[
+  {
+    "provider": "itau",
+    "label": "Itau",
+    "cadence": "weekly",
+    "outputPath": "site/src/data/discounts/itau.json",
+    "urls": [
+      "https://www.itau.com.uy/inst/beneficios.html"
+    ],
+    "mode": "browser",
+    "blueprintPath": "skills/discount-sync/references/provider-blueprints/itau.md",
+    "notes": "Always open Itaú benefit cards via Ver más/detail view and confirm tier/day splits before changing percentages.",
+    "inScope": [
+      { "title": "15% menos en restaurantes", "note": "Broad category, premium/general split" },
+      { "title": "15% menos en moda", "note": "Broad category" },
+      { "title": "15%  menos en iPlace", "note": "Premium/Personal Bank only. The double space in the title is on the live source." },
+      { "title": "25% menos en Bosch y Cia" },
+      { "title": "15% menos en Starbucks en bebidas", "note": "Day logic on bar-prepared drinks; preserve scope in notes" },
+      { "title": "15% menos en Riviera Joyería" },
+      { "title": "25% y 15% menos en Farmacia El Túnel", "note": "Premium vs general split with day logic" },
+      { "title": "25% y 15% menos en San Roque", "note": "Same shape as Farmacia El Túnel (premium/general + day)" },
+      { "title": "25% y 15% menos en Espacio Aroma", "note": "Premium/Personal Bank vs general-credit split" },
+      { "title": "15% menos en CIR Acondicionamiento térmico" },
+      { "title": "2x1 en Movie", "note": "benefitType=2-for-1; Débito Volar (incl. junior) all days, Débito azul + Cuenta Pocket Mon-Wed (Pocket web-only); cap 4 tickets/card per session; doesn't stack; July break skips azul; validUntil 2026-07-31" },
+      { "title": "2x1 en Freddo", "note": "benefitType=2-for-1; débito tab — verify days, tiers, and cap on next sync via the detail modal" },
+      { "title": "2x1 en Las Delicias", "note": "benefitType=2-for-1; débito tab — verify days, tiers, and cap on next sync" },
+      { "title": "2x1 en Heladería La Nevada - Salto", "note": "benefitType=2-for-1; débito tab; Salto only — verify days, tiers, cap on next sync" },
+      { "title": "10% menos en Mosca", "note": "Personal Bank tab — verify days, channels, cap on next sync" }
+    ],
+    "outOfScope": [
+      { "title": "Millas x 3 en Frog", "reason": "Miles, not a stable discount percent" },
+      { "title": "Taller de hongos en Deicas", "reason": "PDF/event one-off, not a stable merchant discount" },
+      { "title": "Compra de iPhone / Movigroup", "reason": "External landing page does not preserve a stable Itaú-specific rule beyond the teaser" },
+      { "title": "Boomerang", "reason": "Previous premium/general window ended 2026-05-16; re-include only if a new active window appears on the source." }
+    ]
+  },
+  {
+    "provider": "santander",
+    "label": "Santander",
+    "cadence": "weekly",
+    "outputPath": "site/src/data/discounts/santander.json",
+    "urls": [
+      "https://www.santander.com.uy/beneficios"
+    ],
+    "mode": "browser",
+    "blueprintPath": "skills/discount-sync/references/provider-blueprints/santander.md",
+    "notes": "Open the browser detail for each Santander merchant because tier and day logic often differs from the teaser card."
+  },
+  {
+    "provider": "bbva",
+    "label": "BBVA",
+    "cadence": "weekly",
+    "outputPath": "site/src/data/discounts/bbva.json",
+    "urls": [
+      "https://www.bbva.com.uy/personas/productos/tarjetas/descuentos.html"
+    ],
+    "mode": "fetch",
+    "fetchTimeoutSeconds": 90,
+    "fetchHeaders": {
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36",
+      "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+      "acceptLanguage": "es-UY,es;q=0.9,en;q=0.8",
+      "upgradeInsecureRequests": "1"
+    },
+    "fetchValidation": {
+      "mustContainAll": [
+        "Descuentos | BBVA Uruguay"
+      ],
+      "mustContainAny": [
+        "Gastronomía",
+        "Sodimac",
+        "Promociones",
+        "Beneficios"
+      ],
+      "mustNotContainAny": [
+        "Algo salió mal",
+        "Reference ID:",
+        "Para utilizar las funcionalidades completas de este sitio es necesario tener Cookies y JavaScript habilitado."
+      ]
+    },
+    "blueprintPath": "skills/discount-sync/references/provider-blueprints/bbva.md",
+    "notes": "Use the deterministic direct-fetch helper as the primary path from the Uruguay host, and treat validation markers as mandatory proof the real descuentos page loaded."
+  },
+  {
+    "provider": "scotiabank",
+    "label": "Scotiabank",
+    "cadence": "weekly",
+    "outputPath": "site/src/data/discounts/scotiabank.json",
+    "urls": [
+      "https://www.scotiabank.com.uy/Personas/Tarjetas/Beneficios/default"
+    ],
+    "mode": "browser",
+    "blueprintPath": "skills/discount-sync/references/provider-blueprints/scotiabank.md",
+    "notes": "Benefit pages may split cards and merchants across multiple sections, so use browser navigation and open the full detail state."
+  },
+  {
+    "provider": "brou",
+    "label": "BROU",
+    "cadence": "weekly",
+    "outputPath": "site/src/data/discounts/brou.json",
+    "urls": [
+      "https://beneficios.brou.com.uy"
+    ],
+    "mode": "browser",
+    "blueprintPath": "skills/discount-sync/references/provider-blueprints/brou.md",
+    "syncScriptPath": "skills/discount-sync/scripts/brou-snapshot.mjs",
+    "notes": "Use the deterministic BROU snapshot helper as the primary repo-local path. Preserve reimbursement caps when the source includes them, and audit against the expanded browser detail when the helper needs repair."
+  },
+  {
+    "provider": "oca",
+    "label": "OCA",
+    "cadence": "weekly",
+    "outputPath": "site/src/data/discounts/oca.json",
+    "urls": [
+      "https://oca.uy/beneficios.html"
+    ],
+    "mode": "browser",
+    "blueprintPath": "skills/discount-sync/references/provider-blueprints/oca.md",
+    "notes": "OCA and OCA Blue can diverge, so keep source distinctions visible and prefer full browser detail over teaser copy."
+  },
+  {
+    "provider": "prex",
+    "label": "Prex",
+    "cadence": "daily",
+    "outputPath": "site/src/data/discounts/prex.json",
+    "urls": [
+      "https://www.prexcard.com/beneficios"
+    ],
+    "mode": "browser",
+    "blueprintPath": "skills/discount-sync/references/provider-blueprints/prex.md",
+    "notes": "Traverse every current `Ver más` detail page under PROMOCIONES ESPECIALES and AHORRÁ TODOS LOS DÍAS from `/beneficios`. Inspect `/beneficiosarg` only to confirm it is AR-only and skip it for Uruguay runtime data. Ignore PROMOCIONES FINALIZADAS and any detail pages that do not map cleanly to the discount schema."
+  },
+  {
+    "provider": "antel",
+    "label": "Antel",
+    "cadence": "daily",
+    "outputPath": "site/src/data/discounts/antel.json",
+    "urls": [
+      "https://www.antel.com.uy/personas/promociones/beneficios"
+    ],
+    "mode": "browser",
+    "blueprintPath": "skills/discount-sync/references/provider-blueprints/antel.md",
+    "notes": "Traverse every first-level benefits page from `/beneficios`, then traverse every category under `/beneficios/descuentos`. Merchant offers are often embedded blocks inside category pages rather than separate URLs. Ignore raffles, telecom product perks without a discount percent, institutional convenios, and other non-schema noise."
+  },
+  {
+    "provider": "club-el-pais",
+    "label": "Club El País",
+    "cadence": "daily",
+    "outputPath": "site/src/data/discounts/club-el-pais.json",
+    "urls": [
+      "https://www.clubelpais.com.uy/"
+    ],
+    "mode": "browser",
+    "blueprintPath": "skills/discount-sync/references/provider-blueprints/club-el-pais.md",
+    "syncScriptPath": "skills/discount-sync/scripts/club-el-pais-snapshot.mjs",
+    "notes": "Use the homepage as the starting point, then traverse every live rubro page (`entretenimiento`, `gastronomia`, `vestimenta`, `ninos`, `bienestar`, `educacion`, `hogar`, `turismo`). Treat the `venta_online=1` query as an audit pass, not a separate source. Skip unavailable event cards (`AGOTADO`, `Suspendido`, `Función suspendida`) and cards that expose only campaign chrome without a stable current benefit figure."
+  }
+]

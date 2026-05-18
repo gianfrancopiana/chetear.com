@@ -1,0 +1,155 @@
+{
+  "provider": "santander",
+  "label": "Santander",
+  "rules": [
+    {
+      "merchant": "Hipermás",
+      "category": "supermercado",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "cap": "Tope $2.000 por periodo",
+      "notes": "Disco, Devoto, Geant y Fresh Market. Hasta 25% en categorias rotativas mensuales"
+    },
+    {
+      "merchant": "Heladerías adheridas",
+      "category": "restaurante",
+      "percent": 50,
+      "tiers": [
+        "black",
+        "infinite"
+      ],
+      "cap": "Tope $4.000/mes por comercio",
+      "cardFamilies": [
+        "Select"
+      ]
+    },
+    {
+      "merchant": "Heladerías adheridas",
+      "category": "restaurante",
+      "percent": 30,
+      "tiers": [
+        "todas"
+      ],
+      "cap": "Tope $2.000/mes por comercio"
+    },
+    {
+      "id": "santander-ruta-gourmet-premium-25",
+      "merchant": "Restaurantes",
+      "category": "restaurante",
+      "percent": 25,
+      "tiers": [
+        "platinum"
+      ],
+      "excludedApps": [
+        "mercado-pago",
+        "handy"
+      ],
+      "stackable": false,
+      "cap": "Tope mensual por restaurante: Private Banking $6.000, Select $4.000",
+      "cardFamilies": [
+        "Select",
+        "Private Banking"
+      ],
+      "notes": "Stackeable con devolución de puntos de IVA"
+    },
+    {
+      "id": "santander-ruta-gourmet-general-15",
+      "merchant": "Restaurantes",
+      "category": "restaurante",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "excludedApps": [
+        "mercado-pago",
+        "handy"
+      ],
+      "stackable": false,
+      "cap": "Tope $2.000/mes por restaurante",
+      "notes": "Crédito y débito Santander. No aplica al débito de Cuenta Nómina Básica. Stackeable con devolución de puntos de IVA"
+    },
+    {
+      "merchant": "Farmashop",
+      "category": "farmacia",
+      "percent": 25,
+      "tiers": [
+        "todas"
+      ],
+      "days": [
+        "martes",
+        "jueves",
+        "domingo"
+      ],
+      "cap": "Tope $5.000/mes",
+      "cardFamilies": [
+        "Farmacard"
+      ],
+      "notes": "Categorias seleccionadas"
+    },
+    {
+      "merchant": "Farmashop",
+      "category": "farmacia",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "days": [
+        "martes",
+        "jueves",
+        "domingo"
+      ],
+      "notes": "Categorías seleccionadas"
+    },
+    {
+      "merchant": "Farmashop",
+      "category": "farmacia",
+      "percent": 10,
+      "tiers": [
+        "todas"
+      ],
+      "cap": "Tope $5.000/mes",
+      "cardFamilies": [
+        "Farmacard"
+      ]
+    },
+    {
+      "merchant": "PedidosYa",
+      "category": "restaurante",
+      "percent": 15,
+      "tiers": [
+        "platinum",
+        "black",
+        "infinite"
+      ],
+      "days": [
+        "martes",
+        "sabado"
+      ],
+      "channels": [
+        "online"
+      ],
+      "refundType": "point-of-sale",
+      "validUntil": "2027-01-31",
+      "cap": "Tope $3.000 mensual por usuario"
+    },
+    {
+      "merchant": "Moda",
+      "category": "indumentaria",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ]
+    },
+    {
+      "merchant": "Buquebus",
+      "category": "viajes",
+      "percent": 10,
+      "tiers": [
+        "todas"
+      ],
+      "notes": "Paquetes a Argentina (min 2 noches hotel + transporte). 12 cuotas sin interes. Solo en oficinas UY"
+    }
+  ]
+}

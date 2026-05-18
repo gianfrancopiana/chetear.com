@@ -1,0 +1,222 @@
+{
+  "provider": "scotiabank",
+  "label": "Scotiabank",
+  "rules": [
+    {
+      "merchant": "Tienda Inglesa",
+      "category": "supermercado",
+      "percent": 10,
+      "tiers": [
+        "platinum",
+        "infinite",
+        "gold"
+      ],
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles",
+        "jueves",
+        "viernes"
+      ],
+      "validUntil": "2026-05-31",
+      "channels": [
+        "in-store"
+      ],
+      "cardFamilies": [
+        "Débito Premium",
+        "Club Card"
+      ],
+      "networks": [
+        "visa",
+        "amex"
+      ],
+      "notes": "Programa Save the Week. Excluye tecnología y electrónica"
+    },
+    {
+      "merchant": "Kinko",
+      "category": "supermercado",
+      "percent": 15,
+      "tiers": [
+        "platinum",
+        "infinite",
+        "gold"
+      ],
+      "validUntil": "2026-12-31",
+      "cardFamilies": [
+        "Débito Premium"
+      ],
+      "networks": [
+        "visa",
+        "amex"
+      ]
+    },
+    {
+      "merchant": "Kinko",
+      "category": "supermercado",
+      "percent": 10,
+      "tiers": [
+        "todas"
+      ],
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ],
+      "validUntil": "2026-12-31"
+    },
+    {
+      "merchant": "Tienda Farma",
+      "category": "farmacia",
+      "percent": 20,
+      "tiers": [
+        "todas"
+      ],
+      "cap": "Tope $10.000 por compra"
+    },
+    {
+      "merchant": "Pigalle",
+      "category": "farmacia",
+      "percent": 20,
+      "tiers": [
+        "todas"
+      ]
+    },
+    {
+      "merchant": "Farmacity",
+      "category": "farmacia",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "channels": [
+        "in-store",
+        "online"
+      ],
+      "cap": "Tope $2.500",
+      "notes": "Solo tarjetas de débito Scotiabank"
+    },
+    {
+      "merchant": "Mistral",
+      "category": "indumentaria",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "refundType": "point-of-sale",
+      "stackable": false
+    },
+    {
+      "merchant": "Brooksfield",
+      "category": "indumentaria",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "refundType": "point-of-sale",
+      "stackable": false,
+      "cap": "Tope $1.500 por compra",
+      "notes": "No aplica en productos de outlet"
+    },
+    {
+      "merchant": "Mconcept",
+      "category": "indumentaria",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "refundType": "point-of-sale",
+      "stackable": false,
+      "cap": "Tope $1.500 por compra",
+      "notes": "No aplica en productos de outlet"
+    },
+    {
+      "merchant": "Combustible + Telepeaje",
+      "category": "combustible",
+      "percent": 10,
+      "tiers": [
+        "platinum"
+      ],
+      "days": [
+        "jueves",
+        "domingo"
+      ],
+      "validUntil": "2026-12-31",
+      "cap": "Tope $1.200/mes por cuenta",
+      "networks": [
+        "amex"
+      ],
+      "cardFamilies": [
+        "The Platinum Card"
+      ],
+      "notes": "Combustible 10% + telepeaje 50%. Excluye ConnectMiles"
+    },
+    {
+      "merchant": "Restaurantes adheridos",
+      "category": "restaurante",
+      "percent": 25,
+      "tiers": [
+        "platinum",
+        "infinite",
+        "gold"
+      ],
+      "excludedApps": [
+        "mercado-pago",
+        "pedidos-ya",
+        "rappi"
+      ],
+      "cap": "tope variable por comercio",
+      "cardFamilies": [
+        "Débito Premium"
+      ]
+    },
+    {
+      "merchant": "Restaurantes adheridos",
+      "category": "restaurante",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "excludedApps": [
+        "mercado-pago",
+        "pedidos-ya",
+        "rappi"
+      ],
+      "cap": "tope variable por comercio"
+    },
+    {
+      "merchant": "Luccianos Heladeria",
+      "category": "restaurante",
+      "percent": 50,
+      "tiers": [
+        "platinum",
+        "infinite",
+        "gold"
+      ],
+      "excludedApps": [
+        "mercado-pago",
+        "pedidos-ya",
+        "rappi"
+      ],
+      "cap": "Tope $3.200/mes por cuenta",
+      "cardFamilies": [
+        "Débito Premium"
+      ],
+      "notes": "Locales de Montevideo y Punta del Este"
+    },
+    {
+      "merchant": "Luccianos Heladeria",
+      "category": "restaurante",
+      "percent": 30,
+      "tiers": [
+        "todas"
+      ],
+      "excludedApps": [
+        "mercado-pago",
+        "pedidos-ya",
+        "rappi"
+      ],
+      "cap": "Tope $3.200/mes por cuenta",
+      "notes": "Locales de Montevideo y Punta del Este"
+    }
+  ]
+}

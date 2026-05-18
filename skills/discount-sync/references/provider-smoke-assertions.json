@@ -1,0 +1,148 @@
+{
+  "itau": {
+    "minRules": 13,
+    "maxRules": 40,
+    "minUniqueMerchants": 9,
+    "mustContainMerchants": [
+      "Restaurantes",
+      "Moda",
+      "Starbucks"
+    ]
+  },
+  "santander": {
+    "minRules": 10,
+    "maxRules": 25,
+    "minUniqueMerchants": 7,
+    "mustContainMerchants": [
+      "Hipermás",
+      "Restaurantes",
+      "Farmashop",
+      "Heladerías adheridas"
+    ]
+  },
+  "bbva": {
+    "minRules": 24,
+    "maxRules": 45,
+    "minUniqueMerchants": 11,
+    "mustContainMerchants": [
+      "Dufour rural",
+      "RDC",
+      "Fantasy On Ice",
+      "Matías González",
+      "Glassy Waves",
+      "Optica Ernst",
+      "Uma Shoes"
+    ],
+    "mustNotContainMerchants": [
+      "Marina Nature",
+      "La pañalera",
+      "Foncho & Juanita",
+      "Tu Ración"
+    ]
+  },
+  "scotiabank": {
+    "minRules": 6,
+    "maxRules": 20,
+    "minUniqueMerchants": 5,
+    "mustContainMerchants": [
+      "Tienda Inglesa",
+      "Tienda Farma",
+      "Combustible + Telepeaje",
+      "Restaurantes adheridos"
+    ]
+  },
+  "brou": {
+    "minRules": 8,
+    "maxRules": 20,
+    "minUniqueMerchants": 8,
+    "mustContainMerchants": [
+      "ANCAP",
+      "Farmacias",
+      "Red Expres"
+    ],
+    "mustNotContainMerchants": [
+      "Red Express"
+    ],
+    "mustMatchRules": [
+      {
+        "merchant": "ANCAP",
+        "percent": 5,
+        "daysIncludes": [
+          "lunes",
+          "viernes"
+        ],
+        "cardFamiliesIncludes": [
+          "Recompensa"
+        ],
+        "networksIncludes": [
+          "mastercard"
+        ],
+        "excludedAppsIncludes": [
+          "mercado-pago"
+        ],
+        "capIncludes": "$500"
+      }
+    ]
+  },
+  "oca": {
+    "minRules": 20,
+    "maxRules": 40,
+    "minUniqueMerchants": 15,
+    "mustContainMerchants": [
+      "Macro Mercado",
+      "Burger King",
+      "Bela",
+      "Chajá",
+      "Movie"
+    ],
+    "mustMatchRules": [
+      {
+        "merchant": "Movie",
+        "percent": 50,
+        "benefitType": "2-for-1",
+        "cardFamiliesIncludes": [
+          "OCA Blue"
+        ],
+        "channelsIncludes": [
+          "online"
+        ],
+        "notesIncludes": "2x1"
+      }
+    ]
+  },
+  "prex": {
+    "minRules": 8,
+    "maxRules": 15,
+    "minUniqueMerchants": 6,
+    "mustContainMerchants": [
+      "Cabify",
+      "HolaSIM",
+      "STM",
+      "Abitab"
+    ]
+  },
+  "antel": {
+    "minRules": 18,
+    "maxRules": 35,
+    "minUniqueMerchants": 14,
+    "mustContainMerchants": [
+      "Grido",
+      "Movie",
+      "Samsung",
+      "Salados"
+    ]
+  },
+  "club-el-pais": {
+    "minRules": 150,
+    "maxRules": 400,
+    "minUniqueMerchants": 150,
+    "mustMatchRules": [
+      {
+        "merchant": "McDonald’s",
+        "percent": 0,
+        "benefitType": "gift",
+        "notesIncludes": "Sundae"
+      }
+    ]
+  }
+}

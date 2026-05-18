@@ -1,0 +1,285 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { allDiscountRules } from "../lib/data";
+import { benefitChip } from "../lib/condition-format";
+import { getTodayIso } from "../lib/engine";
+import SearchLauncher from "../components/SearchLauncher.astro";
+import { FilterTrigger } from "../components/FilterTrigger";
+import { FilterDrawer } from "../components/FilterDrawer";
+import { DetailDrawer } from "../components/DetailDrawer";
+import {
+  CAT_FILTERS,
+  discountDetailHref,
+  filterDiscounts,
+  INITIAL_VISIBLE_DISCOUNTS,
+  providerMeta,
+} from "../lib/discounts-ui";
+
+const todayIso = getTodayIso();
+const initialFiltered = filterDiscounts(allDiscountRules, "", todayIso);
+const initialVisible = initialFiltered.slice(0, INITIAL_VISIBLE_DISCOUNTS);
+
+const DAY_KEYS = ["lunes", "martes", "miercoles", "jueves", "viernes", "sabado", "domingo"];
+const DAY_LETTERS = ["L", "M", "M", "J", "V", "S", "D"];
+---
+
+<Layout activeTab="beneficios">
+  <div
+    data-discounts-page
+    data-today-iso={todayIso}
+  >
+    <div data-sticky-header class="sticky top-0 z-30 bg-surface md:hidden">
+      <div class="flex items-center gap-3 px-5 pt-5 pb-2.5">
+        <h1 class="font-logo font-extrabold text-[28px] leading-none text-ink" style="letter-spacing:-0.035em;">
+          chetear<span class="text-coral-deep">.com</span>
+        </h1>
+        <div class="flex-1"></div>
+        <FilterTrigger client:load />
+        <SearchLauncher />
+      </div>
+    </div>
+
+    <div data-filter-bar class="sticky z-20 bg-surface pt-1 pb-0.5 md:static md:bg-transparent md:pt-0">
+      {/*
+        Bleed the category scroller to the viewport right so chips that
+        overflow get cut off at the screen edge instead of the table's
+        right edge. The negative margin extends the scroll viewport;
+        the matching padding keeps the last chip visible with breathing
+        room when scrolled all the way through.
+      */}
+      <div
+        data-category-picker
+        class="cat-picker overflow-x-auto px-5 pb-3 md:px-0 md:pb-5"
+        style="-webkit-overflow-scrolling: touch;"
+      >
+        <div class="inline-flex gap-1.5 whitespace-nowrap">
+          {CAT_FILTERS.map((item) => (
+            <button
+              type="button"
+              data-cat-option
+              data-cat={item.k}
+              data-active={item.k === "todo" ? "true" : "false"}
+              class="home-cat-option rounded-full px-3.5 py-2 text-sm font-medium tracking-tight select-none"
+            >
+              {item.l}
+            </button>
+          ))}
+        </div>
+      </div>
+    </div>
+
+    <div class="px-5 md:px-0">
+      <div data-empty-state hidden class="py-10 text-center"></div>
+
+      <div
+        data-discount-card
+        class="lg:hidden overflow-hidden rounded-xl border border-divider bg-white"
+      >
+        <div data-discount-list>
+          {initialVisible.map((rule, index) => {
+            const meta = providerMeta(rule.provider);
+            const chip = benefitChip(rule);
+            return (
+              <a
+                href={discountDetailHref(rule)}
+                data-rule-id={rule.id}
+                class:list={[
+                  "flex items-center gap-3 px-3 py-2.5 no-underline transition-colors hover:bg-paper-2 active:bg-paper-2",
+                  index < initialVisible.length - 1 ? "border-b border-[oklch(0.95_0.006_60)]" : "",
+                ]}
+              >
+                {chip.kind === "numeric" ? (
+                  <div class:list={[
+                    "min-w-11 shrink-0 whitespace-nowrap font-bold leading-none tracking-[-0.02em] tabular-nums",
+                    chip.size === "medium" ? "text-[18px]" : "text-[24px]",
+                  ]} style={`color: ${meta.color};`}>
+                    {chip.primary}{chip.unit && <span class="font-sans text-[13px] font-medium text-ink-3">{chip.unit}</span>}
+                  </div>
+                ) : (
+                  <div class="min-w-11 shrink-0 whitespace-nowrap text-[11px] font-bold uppercase tracking-[0.04em] leading-none" style={`color: ${meta.color};`}>
+                    {chip.primary}
+                  </div>
+                )}
+                <div class="min-w-0 flex-1">
+                  <div class="truncate text-[14px] font-medium tracking-[-0.005em] text-ink">
+                    {rule.merchant}
+                  </div>
+                  <div class="mt-px flex items-center gap-[5px] truncate text-[11px] text-ink-3">
+                    <span
+                      class="inline-block shrink-0 rounded-full"
+                      style={`width: 5px; height: 5px; background: ${meta.color};`}
+                    />
+                    <span>{meta.label}</span>
+                    {rule.merchantLocation && (
+                      <>
+                        <span style="color: oklch(0.65 0.01 60);">·</span>
+                        <span>{rule.merchantLocation}</span>
+                      </>
+                    )}
+                    <span style="color: oklch(0.65 0.01 60);">·</span>
+                    <span>{rule.categoryLabel}</span>
+                  </div>
+                </div>
+                <svg width="14" height="14" viewBox="0 0 20 20" fill="none" class="shrink-0">
+                  <path d="M8 5l5 5-5 5" stroke="oklch(0.5 0.013 60)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </a>
+            );
+          })}
+        </div>
+      </div>
+
+      <div
+        data-discount-table
+        class="hidden lg:block overflow-hidden rounded-[14px] border border-rule bg-paper"
+        style="background: var(--aqua-bg); box-shadow: var(--aqua-shadow-float);"
+      >
+        <div class="grid grid-cols-[60px_minmax(0,1fr)_110px_120px_172px_18px] xl:grid-cols-[68px_minmax(0,1fr)_150px_150px_172px_20px] gap-3 xl:gap-4 px-5 py-3 text-[11px] tracking-[0.08em] uppercase font-semibold text-ink-3 border-b border-rule bg-paper-2">
+          <div>Beneficio</div>
+          <div>Comercio</div>
+          <div>Tarjeta</div>
+          <div>Categoría</div>
+          <div>Días</div>
+          <div></div>
+        </div>
+        <div data-discount-table-list>
+          {initialVisible.map((rule, index) => {
+            const meta = providerMeta(rule.provider);
+            const ruleDays = rule.days as string[] | undefined;
+            const activeDays = ruleDays && ruleDays.length > 0 ? new Set(ruleDays) : null;
+            const chip = benefitChip(rule);
+            return (
+              <a
+                href={discountDetailHref(rule)}
+                data-rule-id={rule.id}
+                class={
+                  "grid grid-cols-[60px_minmax(0,1fr)_110px_120px_172px_18px] xl:grid-cols-[68px_minmax(0,1fr)_150px_150px_172px_20px] gap-3 xl:gap-4 px-5 py-3.5 items-center no-underline transition-colors hover:bg-paper-2"
+                }
+                style={
+                  index < initialVisible.length - 1
+                    ? "border-bottom: 1px solid oklch(0.86 0.008 60);"
+                    : ""
+                }
+              >
+                {chip.kind === "numeric" ? (
+                  <div class:list={[
+                    "whitespace-nowrap font-bold leading-none tracking-[-0.02em] tabular-nums",
+                    chip.size === "medium" ? "text-[20px]" : "text-[28px]",
+                  ]} style={`color: ${meta.color};`}>
+                    {chip.primary}{chip.unit && <span class="font-sans text-[14px] font-medium text-ink-3">{chip.unit}</span>}
+                  </div>
+                ) : (
+                  <div class="whitespace-nowrap text-[13px] font-bold uppercase tracking-[0.04em] leading-none" style={`color: ${meta.color};`}>
+                    {chip.primary}
+                  </div>
+                )}
+                <div class="min-w-0">
+                  <div class="text-[15px] font-semibold tracking-[-0.005em] text-ink truncate">{rule.merchant}</div>
+                  {rule.merchantLocation && (
+                    <div class="mt-0.5 text-[12px] text-ink-3 truncate">{rule.merchantLocation}</div>
+                  )}
+                </div>
+                <div class="flex items-center gap-2 text-[13px] text-ink-2 min-w-0">
+                  <span
+                    class="flex h-5 w-5 shrink-0 items-center justify-center rounded-full text-[10px] font-bold"
+                    style={`background:${meta.color}; color:#fff;`}
+                  >
+                    {meta.label.slice(0, 1).toUpperCase()}
+                  </span>
+                  <span class="truncate">{meta.label}</span>
+                </div>
+                <div class="text-[13px] text-ink-2 truncate">{rule.categoryLabel}</div>
+                <div class="flex gap-[3px]">
+                  {DAY_KEYS.map((dk, di) => {
+                    const isOn = activeDays === null || activeDays.has(dk);
+                    return (
+                      <span
+                        class:list={[
+                          "flex h-[22px] w-[22px] items-center justify-center rounded-[5px] text-[9px] font-semibold tracking-[0.04em]",
+                          isOn ? "bg-ink text-paper" : "bg-paper-2 text-ink-3",
+                        ]}
+                      >
+                        {DAY_LETTERS[di]}
+                      </span>
+                    );
+                  })}
+                </div>
+                <svg width="16" height="16" viewBox="0 0 20 20" fill="none" class="text-ink-3">
+                  <path d="M8 5l5 5-5 5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </a>
+            );
+          })}
+        </div>
+      </div>
+
+      <div data-load-more-wrap hidden={initialVisible.length >= initialFiltered.length} class="pb-5 pt-3">
+        <button
+          type="button"
+          data-load-more
+          class="w-full rounded-[12px] border border-divider bg-white px-4 py-3 text-[13px] font-medium text-ink transition-transform active:scale-[0.98]"
+        >
+          Ver {Math.min(INITIAL_VISIBLE_DISCOUNTS, initialFiltered.length - initialVisible.length)} más
+        </button>
+      </div>
+      <div data-load-more-sentinel hidden={initialVisible.length >= initialFiltered.length} class="h-px" />
+    </div>
+
+    <FilterDrawer client:load />
+    <DetailDrawer client:load />
+
+    <script>
+      import "../scripts/home-discounts";
+    </script>
+  </div>
+</Layout>
+
+<style>
+  /*
+   * Entrance stagger for the first 8 rows after a filter change.
+   * Initial render skips this (no class applied), so a navigation to
+   * the home page doesn't pay the animation cost.
+   */
+  @keyframes chetear-row-enter {
+    from { opacity: 0; transform: translateY(4px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  .chetear-row-enter {
+    animation: chetear-row-enter 220ms cubic-bezier(0.2, 0.8, 0.3, 1) both;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .chetear-row-enter { animation: none; }
+  }
+
+  /*
+   * Hide the native scrollbar on the chip row — overflow scrolling
+   * stays functional, just without the wonky bar drifting under the
+   * pills. Firefox uses scrollbar-width; WebKit uses the pseudo.
+   */
+  .cat-picker {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  .cat-picker::-webkit-scrollbar {
+    display: none;
+  }
+
+  /*
+   * Desktop chip-row bleed: extend the scroll viewport to both screen
+   * edges so overflowing chips clip at the viewport, not at the 1200px
+   * content container. `50% - 50vw` is the distance from the container
+   * edge to the viewport edge; the matching padding preserves the
+   * content's visual start/end inside the bleed area.
+   */
+  @media (min-width: 640px) {
+    .cat-picker {
+      margin-left: calc(50% - 50vw);
+      margin-right: calc(50% - 50vw);
+      padding-left: calc(50vw - 50%);
+      padding-right: calc(50vw - 50%);
+    }
+  }
+
+</style>

@@ -1,0 +1,722 @@
+{
+  "provider": "bbva",
+  "label": "BBVA",
+  "rules": [
+    {
+      "merchant": "Dufour rural",
+      "category": "otros",
+      "percent": 10,
+      "tiers": [
+        "todas"
+      ],
+      "validUntil": "2027-04-30",
+      "excludedApps": [
+        "mercado-pago",
+        "mercado-libre",
+        "handy"
+      ],
+      "refundType": "split",
+      "channels": [
+        "in-store"
+      ],
+      "cap": "Tope $8.000 por cierre (Internacional/Oro/Pymes/Corporativas); $10.000 por cierre (Platinum/Black/Infinite)",
+      "cardFamilies": [
+        "Pymes",
+        "Corporativas",
+        "Internacional",
+        "Oro"
+      ],
+      "notes": "5% en punto de venta + 5% en estado de cuenta"
+    },
+    {
+      "merchant": "RDC",
+      "category": "indumentaria",
+      "percent": 20,
+      "tiers": [
+        "todas"
+      ],
+      "validUntil": "2027-05-31",
+      "excludedApps": [
+        "mercado-pago",
+        "mercado-libre",
+        "handy"
+      ],
+      "refundType": "split",
+      "channels": [
+        "in-store"
+      ],
+      "cap": "tope en punto de venta y tope $4000 por cierre",
+      "cardFamilies": [
+        "Pymes",
+        "Corporativas",
+        "Internacional",
+        "Oro"
+      ],
+      "notes": "10% en punto de venta + 10% en estado de cuenta"
+    },
+    {
+      "merchant": "RDC",
+      "category": "indumentaria",
+      "percent": 30,
+      "tiers": [
+        "platinum",
+        "black",
+        "infinite"
+      ],
+      "validUntil": "2027-05-31",
+      "excludedApps": [
+        "mercado-pago",
+        "mercado-libre",
+        "handy"
+      ],
+      "refundType": "split",
+      "channels": [
+        "in-store"
+      ],
+      "cap": "tope en punto de venta y tope $6000 por cierre",
+      "notes": "15% en punto de venta + 15% en estado de cuenta"
+    },
+    {
+      "merchant": "Fantasy On Ice",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles",
+        "jueves",
+        "viernes"
+      ],
+      "validUntil": "2026-07-12",
+      "excludedApps": [
+        "mercado-pago",
+        "mercado-libre",
+        "handy"
+      ],
+      "notes": "2x1 en entradas de lunes a viernes con todas las tarjetas de crédito. No aplica en vacaciones de julio entre el 30/06 y el 06/07 inclusive. 30 minutos extra por cada hora los sábados y domingos"
+    },
+    {
+      "merchant": "Matías González",
+      "category": "farmacia",
+      "percent": 20,
+      "tiers": [
+        "todas"
+      ],
+      "validUntil": "2026-09-30",
+      "excludedApps": [
+        "mercado-pago",
+        "mercado-libre",
+        "handy"
+      ],
+      "refundType": "split",
+      "channels": [
+        "in-store",
+        "online"
+      ],
+      "cap": "tope en punto de venta y tope $2000 por cierre",
+      "cardFamilies": [
+        "Pymes",
+        "Corporativas",
+        "Internacional",
+        "Oro"
+      ],
+      "notes": "Productos sin Farmadescuento. 10% en punto de venta + 10% en estado de cuenta"
+    },
+    {
+      "merchant": "Matías González",
+      "category": "farmacia",
+      "percent": 30,
+      "tiers": [
+        "platinum",
+        "black",
+        "infinite"
+      ],
+      "validUntil": "2026-09-30",
+      "excludedApps": [
+        "mercado-pago",
+        "mercado-libre",
+        "handy"
+      ],
+      "refundType": "split",
+      "channels": [
+        "in-store",
+        "online"
+      ],
+      "cap": "tope en punto de venta y tope $3000 por cierre",
+      "notes": "Productos sin Farmadescuento. 15% en punto de venta + 15% en estado de cuenta"
+    },
+    {
+      "merchant": "Matías González",
+      "category": "farmacia",
+      "percent": 12,
+      "tiers": [
+        "todas"
+      ],
+      "validUntil": "2026-09-30",
+      "excludedApps": [
+        "mercado-pago",
+        "mercado-libre",
+        "handy"
+      ],
+      "refundType": "statement-credit",
+      "channels": [
+        "in-store",
+        "online"
+      ],
+      "cap": "tope $2000 por cierre",
+      "cardFamilies": [
+        "Pymes",
+        "Corporativas",
+        "Internacional",
+        "Oro"
+      ],
+      "notes": "Productos con Farmadescuento. Reintegro en estado de cuenta"
+    },
+    {
+      "merchant": "Matías González",
+      "category": "farmacia",
+      "percent": 18,
+      "tiers": [
+        "platinum",
+        "black",
+        "infinite"
+      ],
+      "validUntil": "2026-09-30",
+      "excludedApps": [
+        "mercado-pago",
+        "mercado-libre",
+        "handy"
+      ],
+      "refundType": "statement-credit",
+      "channels": [
+        "in-store",
+        "online"
+      ],
+      "cap": "tope $3000 por cierre",
+      "notes": "Productos con Farmadescuento. Reintegro en estado de cuenta"
+    },
+    {
+      "merchant": "Glassy Waves",
+      "category": "indumentaria",
+      "percent": 20,
+      "tiers": [
+        "todas"
+      ],
+      "validUntil": "2027-02-28",
+      "excludedApps": [
+        "mercado-pago",
+        "mercado-libre",
+        "handy"
+      ],
+      "refundType": "split",
+      "channels": [
+        "in-store",
+        "online"
+      ],
+      "cap": "tope en punto de venta y tope $2000 por cierre",
+      "cardFamilies": [
+        "Pymes",
+        "Corporativas",
+        "Internacional",
+        "Oro"
+      ],
+      "notes": "6% en punto de venta + 14% en estado de cuenta"
+    },
+    {
+      "merchant": "Glassy Waves",
+      "category": "indumentaria",
+      "percent": 30,
+      "tiers": [
+        "platinum",
+        "black",
+        "infinite"
+      ],
+      "validUntil": "2027-02-28",
+      "excludedApps": [
+        "mercado-pago",
+        "mercado-libre",
+        "handy"
+      ],
+      "refundType": "split",
+      "channels": [
+        "in-store",
+        "online"
+      ],
+      "cap": "tope en punto de venta y tope $3000 por cierre",
+      "notes": "9% en punto de venta + 21% en estado de cuenta"
+    },
+    {
+      "merchant": "Optica Ernst",
+      "category": "salud",
+      "percent": 20,
+      "tiers": [
+        "todas"
+      ],
+      "validUntil": "2027-05-31",
+      "excludedApps": [
+        "mercado-pago",
+        "mercado-libre",
+        "handy"
+      ],
+      "refundType": "split",
+      "channels": [
+        "in-store",
+        "online"
+      ],
+      "cap": "tope en punto de venta y tope $2000 por cierre",
+      "cardFamilies": [
+        "Pymes",
+        "Corporativas",
+        "Internacional",
+        "Oro"
+      ],
+      "notes": "10% en punto de venta + 10% en estado de cuenta"
+    },
+    {
+      "merchant": "Optica Ernst",
+      "category": "salud",
+      "percent": 30,
+      "tiers": [
+        "platinum",
+        "black",
+        "infinite"
+      ],
+      "validUntil": "2027-05-31",
+      "excludedApps": [
+        "mercado-pago",
+        "mercado-libre",
+        "handy"
+      ],
+      "refundType": "split",
+      "channels": [
+        "in-store",
+        "online"
+      ],
+      "cap": "tope en punto de venta y tope $3000 por cierre",
+      "notes": "15% en punto de venta + 15% en estado de cuenta"
+    },
+    {
+      "merchant": "Dubai Signature",
+      "category": "salud",
+      "percent": 20,
+      "tiers": [
+        "todas"
+      ],
+      "validUntil": "2027-05-31",
+      "excludedApps": [
+        "mercado-pago",
+        "mercado-libre",
+        "handy"
+      ],
+      "refundType": "split",
+      "channels": [
+        "online"
+      ],
+      "cap": "tope en punto de venta y tope $4000 por cierre",
+      "cardFamilies": [
+        "Pymes",
+        "Corporativas",
+        "Internacional",
+        "Oro"
+      ],
+      "notes": "Compras en web. 10% en punto de venta + 10% en estado de cuenta"
+    },
+    {
+      "merchant": "Dubai Signature",
+      "category": "salud",
+      "percent": 30,
+      "tiers": [
+        "platinum",
+        "black",
+        "infinite"
+      ],
+      "validUntil": "2027-05-31",
+      "excludedApps": [
+        "mercado-pago",
+        "mercado-libre",
+        "handy"
+      ],
+      "refundType": "split",
+      "channels": [
+        "online"
+      ],
+      "cap": "tope en punto de venta y tope $6000 por cierre",
+      "notes": "Compras en web. 15% en punto de venta + 15% en estado de cuenta"
+    },
+    {
+      "merchant": "Uma Shoes",
+      "category": "indumentaria",
+      "percent": 20,
+      "tiers": [
+        "todas"
+      ],
+      "validUntil": "2027-04-30",
+      "excludedApps": [
+        "mercado-pago",
+        "mercado-libre",
+        "handy"
+      ],
+      "refundType": "split",
+      "channels": [
+        "in-store",
+        "online"
+      ],
+      "cap": "tope en punto de venta y tope $4000 por cierre",
+      "cardFamilies": [
+        "Pymes",
+        "Corporativas",
+        "Internacional",
+        "Oro"
+      ],
+      "notes": "10% en punto de venta + 10% en estado de cuenta"
+    },
+    {
+      "merchant": "Uma Shoes",
+      "category": "indumentaria",
+      "percent": 30,
+      "tiers": [
+        "platinum",
+        "black",
+        "infinite"
+      ],
+      "validUntil": "2027-04-30",
+      "excludedApps": [
+        "mercado-pago",
+        "mercado-libre",
+        "handy"
+      ],
+      "refundType": "split",
+      "channels": [
+        "in-store",
+        "online"
+      ],
+      "cap": "tope en punto de venta y tope $6000 por cierre",
+      "notes": "15% en punto de venta + 15% en estado de cuenta"
+    },
+    {
+      "merchant": "Lelé",
+      "category": "indumentaria",
+      "percent": 20,
+      "tiers": [
+        "todas"
+      ],
+      "validUntil": "2026-11-30",
+      "excludedApps": [
+        "mercado-pago",
+        "mercado-libre",
+        "handy"
+      ],
+      "refundType": "split",
+      "channels": [
+        "in-store",
+        "online"
+      ],
+      "cap": "tope en punto de venta y tope $4000 por cierre",
+      "cardFamilies": [
+        "Pymes",
+        "Corporativas",
+        "Internacional",
+        "Oro"
+      ],
+      "notes": "10% en punto de venta + 10% en estado de cuenta"
+    },
+    {
+      "merchant": "Lelé",
+      "category": "indumentaria",
+      "percent": 30,
+      "tiers": [
+        "platinum",
+        "black",
+        "infinite"
+      ],
+      "validUntil": "2026-11-30",
+      "excludedApps": [
+        "mercado-pago",
+        "mercado-libre",
+        "handy"
+      ],
+      "refundType": "split",
+      "channels": [
+        "in-store",
+        "online"
+      ],
+      "cap": "tope en punto de venta y tope $6000 por cierre",
+      "notes": "15% en punto de venta + 15% en estado de cuenta"
+    },
+    {
+      "merchant": "La Escondida",
+      "category": "indumentaria",
+      "percent": 20,
+      "tiers": [
+        "todas"
+      ],
+      "validUntil": "2026-11-30",
+      "excludedApps": [
+        "mercado-pago",
+        "mercado-libre",
+        "handy"
+      ],
+      "refundType": "split",
+      "channels": [
+        "in-store",
+        "online"
+      ],
+      "cap": "tope en punto de venta y tope $4000 por cierre",
+      "cardFamilies": [
+        "Pymes",
+        "Corporativas",
+        "Internacional",
+        "Oro"
+      ],
+      "notes": "10% en punto de venta + 10% en estado de cuenta"
+    },
+    {
+      "merchant": "La Escondida",
+      "category": "indumentaria",
+      "percent": 30,
+      "tiers": [
+        "platinum",
+        "black",
+        "infinite"
+      ],
+      "validUntil": "2026-11-30",
+      "excludedApps": [
+        "mercado-pago",
+        "mercado-libre",
+        "handy"
+      ],
+      "refundType": "split",
+      "channels": [
+        "in-store",
+        "online"
+      ],
+      "cap": "tope en punto de venta y tope $6000 por cierre",
+      "notes": "15% en punto de venta + 15% en estado de cuenta"
+    },
+    {
+      "merchant": "Josephine",
+      "category": "indumentaria",
+      "percent": 20,
+      "tiers": [
+        "todas"
+      ],
+      "validUntil": "2026-11-30",
+      "excludedApps": [
+        "mercado-pago",
+        "mercado-libre",
+        "handy"
+      ],
+      "refundType": "split",
+      "channels": [
+        "in-store",
+        "online"
+      ],
+      "cap": "tope en punto de venta y tope $4000 por cierre",
+      "cardFamilies": [
+        "Pymes",
+        "Corporativas",
+        "Internacional",
+        "Oro"
+      ],
+      "notes": "10% en punto de venta + 10% en estado de cuenta"
+    },
+    {
+      "merchant": "Josephine",
+      "category": "indumentaria",
+      "percent": 30,
+      "tiers": [
+        "platinum",
+        "black",
+        "infinite"
+      ],
+      "validUntil": "2026-11-30",
+      "excludedApps": [
+        "mercado-pago",
+        "mercado-libre",
+        "handy"
+      ],
+      "refundType": "split",
+      "channels": [
+        "in-store",
+        "online"
+      ],
+      "cap": "tope en punto de venta y tope $6000 por cierre",
+      "notes": "15% en punto de venta + 15% en estado de cuenta"
+    },
+    {
+      "merchant": "Guilad Joyas",
+      "category": "indumentaria",
+      "percent": 20,
+      "tiers": [
+        "todas"
+      ],
+      "validUntil": "2026-10-31",
+      "excludedApps": [
+        "mercado-pago",
+        "mercado-libre",
+        "handy"
+      ],
+      "refundType": "split",
+      "channels": [
+        "in-store",
+        "online"
+      ],
+      "cap": "tope en punto de venta y tope $2000 por cierre",
+      "cardFamilies": [
+        "Pymes",
+        "Corporativas",
+        "Internacional",
+        "Oro"
+      ],
+      "notes": "10% en punto de venta + 10% en estado de cuenta"
+    },
+    {
+      "merchant": "Guilad Joyas",
+      "category": "indumentaria",
+      "percent": 30,
+      "tiers": [
+        "platinum",
+        "black",
+        "infinite"
+      ],
+      "validUntil": "2026-10-31",
+      "excludedApps": [
+        "mercado-pago",
+        "mercado-libre",
+        "handy"
+      ],
+      "refundType": "split",
+      "channels": [
+        "in-store",
+        "online"
+      ],
+      "cap": "tope en punto de venta y tope $3000 por cierre",
+      "notes": "15% en punto de venta + 15% en estado de cuenta"
+    },
+    {
+      "merchant": "Grace",
+      "category": "indumentaria",
+      "percent": 20,
+      "tiers": [
+        "todas"
+      ],
+      "validUntil": "2026-11-30",
+      "excludedApps": [
+        "mercado-pago",
+        "mercado-libre",
+        "handy"
+      ],
+      "refundType": "split",
+      "channels": [
+        "in-store",
+        "online"
+      ],
+      "cap": "tope en punto de venta y tope $4000 por cierre",
+      "cardFamilies": [
+        "Pymes",
+        "Corporativas",
+        "Internacional",
+        "Oro"
+      ],
+      "notes": "10% en punto de venta + 10% en estado de cuenta"
+    },
+    {
+      "merchant": "Grace",
+      "category": "indumentaria",
+      "percent": 30,
+      "tiers": [
+        "platinum",
+        "black",
+        "infinite"
+      ],
+      "validUntil": "2026-11-30",
+      "excludedApps": [
+        "mercado-pago",
+        "mercado-libre",
+        "handy"
+      ],
+      "refundType": "split",
+      "channels": [
+        "in-store",
+        "online"
+      ],
+      "cap": "tope en punto de venta y tope $6000 por cierre",
+      "notes": "15% en punto de venta + 15% en estado de cuenta"
+    },
+    {
+      "merchant": "Fahoma",
+      "category": "indumentaria",
+      "percent": 20,
+      "tiers": [
+        "todas"
+      ],
+      "validUntil": "2026-05-31",
+      "excludedApps": [
+        "mercado-pago",
+        "mercado-libre",
+        "handy"
+      ],
+      "refundType": "split",
+      "channels": [
+        "in-store"
+      ],
+      "cap": "tope en punto de venta y tope $2000 por cierre",
+      "cardFamilies": [
+        "Pymes",
+        "Corporativas",
+        "Internacional",
+        "Oro"
+      ],
+      "notes": "Compras en local. 10% en punto de venta + 10% en estado de cuenta"
+    },
+    {
+      "merchant": "Fahoma",
+      "category": "indumentaria",
+      "percent": 30,
+      "tiers": [
+        "platinum",
+        "black",
+        "infinite"
+      ],
+      "validUntil": "2026-05-31",
+      "excludedApps": [
+        "mercado-pago",
+        "mercado-libre",
+        "handy"
+      ],
+      "refundType": "split",
+      "channels": [
+        "in-store"
+      ],
+      "cap": "tope en punto de venta y tope $3000 por cierre",
+      "notes": "Compras en local. 15% en punto de venta + 15% en estado de cuenta"
+    },
+    {
+      "merchant": "Tienda Oficial Club Nacional de Football",
+      "category": "indumentaria",
+      "percent": 10,
+      "tiers": [
+        "todas"
+      ],
+      "validUntil": "2026-12-31",
+      "excludedApps": [
+        "mercado-libre",
+        "handy"
+      ],
+      "refundType": "statement-credit",
+      "channels": [
+        "in-store",
+        "online"
+      ],
+      "cap": "tope $1000 por cierre",
+      "cardFamilies": [
+        "BBVA Club Nacional de Football",
+        "Internacional",
+        "Oro",
+        "Platinum"
+      ],
+      "notes": "Con tarjetas de crédito BBVA Club Nacional de Football. Aplica en local, web y Mercado Pago. Reintegro en estado de cuenta dentro de 60 días"
+    }
+  ]
+}

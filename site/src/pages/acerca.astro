@@ -1,0 +1,56 @@
+---
+import Layout from "../layouts/Layout.astro";
+import SearchLauncher from "../components/SearchLauncher.astro";
+---
+
+<Layout title="Qué es Chetear — Chetear" activeTab="about">
+  <div class="px-5 pt-5 pb-1 md:hidden">
+    <div class="flex items-center justify-between gap-3 min-h-[40px]">
+      <h1 class="font-logo font-extrabold text-[28px] leading-none text-ink" style="letter-spacing:-0.035em;">
+        chetear<span class="text-coral-deep">.com</span>
+      </h1>
+      <SearchLauncher />
+    </div>
+  </div>
+
+  <div class="px-5 pt-1.5 pb-14 md:px-0 md:pt-0 md:pb-0 md:max-w-[640px] md:mx-auto">
+    <div class="acerca-panel rounded-[14px] border border-rule p-5 md:p-10">
+      <div class="space-y-5 text-[15px] leading-[1.7] text-ink-body">
+        <p>
+          Chetear es un buscador de beneficios en Uruguay. Junta
+          en un solo lugar los descuentos y promos que ofrecen los bancos y
+          otros servicios, y filtra los que aplican a las tarjetas que tenés.
+        </p>
+        <p>
+          Lo armé porque estos beneficios viven en decenas de sitios
+          diferentes, cambian sin avisar y seguirles el ritmo a mano es
+          imposible. Acá se actualizan solos, una vez por día a primera hora.
+        </p>
+        <p>
+          Tus tarjetas y preferencias quedan en este dispositivo.
+        </p>
+        <p>
+          Vale aclarar que pueden haber errores. Ante una oferta dudosa,
+          conviene confirmar en el sitio del emisor.
+        </p>
+        <p>
+          Falta un beneficio o viste algo mal? Te interesa saber cómo funciona
+          este sitio? Se aceptan sugerencias y contribuciones en
+          <a
+            href="https://github.com/gianfrancopiana/chetear"
+            target="_blank"
+            rel="noopener"
+            class="text-ink underline decoration-ink-4 underline-offset-[3px] hover:text-ink"
+          >GitHub</a>.
+        </p>
+      </div>
+    </div>
+  </div>
+</Layout>
+
+<style>
+  .acerca-panel {
+    background: var(--aqua-bg);
+    box-shadow: var(--aqua-shadow);
+  }
+</style>

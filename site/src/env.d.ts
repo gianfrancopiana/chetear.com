@@ -1,0 +1,10 @@
+/// <reference types="astro/client" />
+
+import type { PostHog } from "posthog-js";
+
+declare global {
+  interface Window {
+    posthog?: PostHog;
+    __posthog_initialized?: boolean;
+  }
+}

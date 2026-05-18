@@ -1,0 +1,395 @@
+---
+import "../styles/global.css";
+import { ClientRouter } from "astro:transitions";
+import { FilterTrigger } from "../components/FilterTrigger";
+import SearchLauncher from "../components/SearchLauncher.astro";
+import PostHog from "../components/PostHog.astro";
+
+interface Props {
+  title?: string;
+  activeTab?: "beneficios" | "about";
+  hideTabBar?: boolean;
+}
+const {
+  title = "Chetear",
+  activeTab = "beneficios",
+  hideTabBar = false,
+} = Astro.props;
+
+// Keep this string in sync with the `description` field in
+// site/public/manifest.json — the PWA manifest is static JSON consumed
+// before JS runs and can't import this constant.
+const description =
+  "Chetear junta los descuentos y promos de bancos y otros servicios en Uruguay, y filtra los que aplican a las tarjetas que tenés.";
+const canonicalUrl = new URL(Astro.url.pathname + Astro.url.search, Astro.site).href;
+const ogImage = new URL("/icon-512.png", Astro.site).href;
+
+/*
+ * `label` is the canonical name shown in the desktop header. `short` is
+ * the optional mobile-bottom-bar variant — only set when the desktop
+ * label is too long to fit alongside other tabs without wrapping.
+ */
+const navTabs = [
+  { key: "beneficios", label: "Beneficios", href: "/" },
+  { key: "about", label: "Qué es chetear", short: "Acerca", href: "/acerca" },
+] as const;
+---
+
+<!doctype html>
+<html lang="es-UY">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonicalUrl} />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Chetear" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:image:alt" content="Logo de Chetear" />
+    <meta property="og:locale" content="es_UY" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImage} />
+    <meta name="twitter:image:alt" content="Logo de Chetear" />
+
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#f0e8df" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <link rel="preload" href="/fonts/inter.woff2" as="font" type="font/woff2" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Alan+Sans:wght@400;500;600;700;800&display=swap"
+    />
+    <style is:global>
+      @font-face {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400 700;
+        font-display: swap;
+        src: url("/fonts/inter.woff2") format("woff2");
+      }
+
+      /*
+       * PWA viewport + scroll policy.
+       *
+       * Sizing: full-height elements use `dvh` (dynamic viewport height),
+       * not `vh`. On iOS Safari, `vh` is locked to the largest viewport —
+       * content behind the address bar gets clipped. `dvh` tracks the
+       * visible area as browser chrome collapses/expands. Fallback to
+       * `vh` is automatic when `dvh` is unsupported (pre-iOS 15.4).
+       *
+       * Safe areas: top/bottom padding uses
+       *   max(env(safe-area-inset-{top,bottom},0px), <min>)
+       * so content clears the notch / Dynamic Island / home indicator in
+       * standalone PWA mode while keeping a sensible minimum on browsers
+       * that expose no inset.
+       *
+       * Scroll containment: `overscroll-behavior: none` on html/body
+       * disables pull-to-refresh and rubber-band scrolling in the PWA
+       * shell (those gestures feel broken when the app is full-screen).
+       * Inner scroll regions inside overlays should add
+       * `overscroll-contain` so their scroll never chains up into the
+       * background page.
+       */
+      html,
+      body {
+        overscroll-behavior: none;
+      }
+
+      /*
+       * Aqua-lite tokens — gentle 3D depth without going glossy. Used on
+       * interactive surfaces (search input, scope/cat buttons) and on the
+       * discount table. Centralized here so the recipe stays consistent
+       * across CSS, inline styles, and component classes.
+       */
+      :root {
+        --aqua-bg: linear-gradient(to bottom, #ffffff, oklch(0.97 0.005 80));
+        --aqua-shadow: 0 1px 2px oklch(0.2 0.02 60 / 0.05), inset 0 1px 0 rgba(255, 255, 255, 0.6);
+        --aqua-bg-dark: linear-gradient(to bottom, oklch(0.28 0.015 60), oklch(0.16 0.015 60));
+        --aqua-shadow-dark: 0 1px 2px oklch(0.2 0.02 60 / 0.18), inset 0 1px 0 rgba(255, 255, 255, 0.12);
+        --aqua-shadow-float: 0 1px 3px oklch(0.15 0.02 60 / 0.08), 0 12px 32px oklch(0.15 0.02 60 / 0.12);
+      }
+    </style>
+    {/*
+      Raw CSS (is:inline so the build's CSS minifier doesn't strip the
+      ::view-transition-group pseudo). The active-tab underline carries a
+      shared view-transition-name, so ClientRouter's cross-page transition
+      slides it from the old tab to the new one instead of cutting.
+
+      Duration is kept at the browser's default root-crossfade length: the
+      whole view transition (and the static snapshot that overlays the live
+      page) lasts as long as its LONGEST animation, so a slower underline
+      would freeze the nav — no hover/click — for that whole time.
+    */}
+    <style is:inline>
+      ::view-transition-group(nav-underline-d),
+      ::view-transition-group(nav-underline-m) {
+        animation-duration: 0.25s;
+        animation-timing-function: cubic-bezier(0.32, 0.72, 0, 1);
+      }
+    </style>
+    <ClientRouter fallback="swap" />
+    <PostHog />
+    <title>{title}</title>
+  </head>
+  <body class="bg-surface text-ink font-sans antialiased min-h-dvh">
+    <div hidden aria-hidden="true"><SearchLauncher /></div>
+    <div class="flex flex-col min-h-dvh">
+      <header
+        class="hidden md:flex sticky top-0 z-20 items-center gap-8 px-9 py-[18px]"
+        style="background:oklch(0.95 0.008 80 / 0.85); backdrop-filter:blur(8px); -webkit-backdrop-filter:blur(8px);"
+      >
+        <a
+          href="/"
+          data-astro-prefetch="viewport"
+          class="shrink-0 font-logo font-extrabold text-[22px] leading-none text-ink no-underline -translate-y-[2px]"
+          style="letter-spacing:-0.035em;"
+        >
+          chetear<span class="text-coral-deep">.com</span>
+        </a>
+        <nav class="flex items-center gap-6" aria-label="Navegación principal">
+          {navTabs.map((tab) => {
+            const on = tab.key === activeTab;
+            return (
+              <a
+                href={tab.href}
+                data-astro-prefetch="viewport"
+                aria-current={on ? "page" : undefined}
+                class:list={[
+                  "relative whitespace-nowrap select-none text-[11px] leading-none uppercase tracking-[0.12em] no-underline transition-colors",
+                  "after:absolute after:content-[''] after:-inset-3",
+                  on ? "font-semibold text-ink" : "font-medium text-ink-3 hover:text-ink",
+                ]}
+              >
+                {tab.label}
+                {on && (
+                  <span
+                    class="absolute left-1/2 -translate-x-1/2 -bottom-[7px] block h-[2px] w-6 rounded-full"
+                    style="background:#1a1815; view-transition-name:nav-underline-d"
+                  />
+                )}
+              </a>
+            );
+          })}
+        </nav>
+        {/*
+          Search collapses to a 40×40 icon button between md and lg so the
+          nav has room to breathe at narrow desktop widths. Same aqua-bg +
+          divider chrome as `<SearchLauncher />` in the mobile header
+          and the full lg+ Buscar pill — one paint, three shapes.
+
+          The filter trigger sits to its immediate left on /beneficios so
+          "narrow what I see" controls (filter, search) live as siblings.
+        */}
+        <div class="ml-auto flex items-center gap-2">
+          {activeTab === "beneficios" && <FilterTrigger client:load />}
+          <button
+            type="button"
+            data-standalone-search-open
+            aria-label="Abrir búsqueda"
+            class:list={[
+              "flex items-center border border-divider cursor-text select-none transition-colors",
+              "h-10 w-10 justify-center rounded-full p-0",
+              "transition-transform active:scale-[0.96]",
+              "lg:h-auto lg:w-[300px] lg:justify-start lg:gap-2.5 lg:px-3.5 lg:py-2.5",
+              "lg:rounded-xl lg:text-ink-3 lg:text-[16px]",
+              "lg:active:scale-100 lg:hover:border-ink-4",
+            ]}
+            style="background: var(--aqua-bg); box-shadow: var(--aqua-shadow);"
+          >
+            <svg width="17" height="17" viewBox="0 0 20 20" fill="none" stroke="#1a1815" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="shrink-0 lg:[width:15px] lg:[height:15px] lg:[stroke:currentColor] lg:[stroke-width:1.7]">
+              <circle cx="9" cy="9" r="5.5" />
+              <path d="M13 13l4 4" />
+            </svg>
+            <span class="hidden lg:block flex-1 min-w-0 truncate text-left">Buscar</span>
+            <kbd
+              data-search-shortcut
+              class="hidden lg:inline-flex shrink-0 text-[11px] px-1.5 py-0.5 rounded border border-rule bg-paper-2 text-ink-3"
+              style="font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', system-ui, sans-serif;"
+            >⌘K</kbd>
+          </button>
+        </div>
+      </header>
+
+      <div class="flex flex-col flex-1 w-full md:max-w-[1200px] md:mx-auto md:px-9 md:py-8">
+        <slot />
+        {!hideTabBar && <div class="pb-20 md:pb-8" />}
+        {hideTabBar && <div class="pb-8 md:hidden" />}
+      </div>
+    </div>
+    {!hideTabBar && (
+      <nav
+        data-bottom-nav
+        class="md:hidden fixed bottom-0 left-0 right-0 z-40 flex pt-3 pb-[max(env(safe-area-inset-bottom,0px),16px)] bg-gradient-to-t from-surface via-surface/95 to-transparent backdrop-blur-sm"
+        style="transition: transform 0.3s ease-out; will-change: transform;"
+        aria-label="Navegación principal"
+      >
+        {navTabs.map((tab) => {
+          const on = tab.key === activeTab;
+          return (
+            <a
+              href={tab.href}
+              data-astro-prefetch="viewport"
+              class="flex-1 flex flex-col items-center gap-[5px] py-2 no-underline select-none"
+              aria-current={on ? "page" : undefined}
+            >
+              <span
+                class:list={[
+                  "text-[11px] leading-none uppercase tracking-[0.12em]",
+                  on ? "font-semibold text-ink" : "font-medium",
+                ]}
+                style={on ? undefined : "color: oklch(0.5 0.013 60);"}
+              >
+                {"short" in tab ? tab.short : tab.label}
+              </span>
+              <span
+                class="block h-[2px] w-6 rounded-full"
+                style={on ? "background:#1a1815; view-transition-name:nav-underline-m" : "background:transparent"}
+              />
+            </a>
+          );
+        })}
+      </nav>
+    )}
+    <script>
+      const platform =
+        navigator.userAgentData?.platform || navigator.platform || navigator.userAgent;
+      const shortcutLabel = /Mac|iPhone|iPad|iPod/i.test(platform) ? "⌘K" : "Ctrl K";
+
+      const hydrateShortcutHint = () => {
+        document.querySelectorAll("[data-search-shortcut]").forEach((el) => {
+          el.textContent = shortcutLabel;
+        });
+      };
+
+      hydrateShortcutHint();
+      document.addEventListener("astro:page-load", hydrateShortcutHint);
+
+      /*
+       * Auto-hide the mobile bottom nav while scrolling down; reveal on
+       * scroll-up or near the top. Reclaims screen space when reading the
+       * list without hiding navigation behind a menu. The scroll listener
+       * lives on window (persists across ClientRouter swaps); the nav is
+       * re-queried each frame since it's replaced on navigation, and its
+       * transform resets to visible on the freshly rendered element.
+       */
+      (() => {
+        const REVEAL_NEAR_TOP_PX = 80; // always show within this distance of the top
+        const SCROLL_DELTA_PX = 8; // min scroll movement before reacting (ignores jitter)
+        let lastY = window.scrollY;
+        let ticking = false;
+        const update = () => {
+          ticking = false;
+          const nav = document.querySelector<HTMLElement>("[data-bottom-nav]");
+          if (!nav) return;
+          const y = window.scrollY;
+          const delta = y - lastY;
+          if (y < REVEAL_NEAR_TOP_PX || delta < -SCROLL_DELTA_PX) {
+            nav.style.transform = "";
+          } else if (delta > SCROLL_DELTA_PX) {
+            nav.style.transform = "translateY(100%)";
+          }
+          lastY = y;
+        };
+        window.addEventListener(
+          "scroll",
+          () => {
+            if (!ticking) {
+              ticking = true;
+              requestAnimationFrame(update);
+            }
+          },
+          { passive: true },
+        );
+        document.addEventListener("astro:page-load", () => {
+          lastY = window.scrollY;
+        });
+      })();
+
+      /*
+       * Skip the DOM swap for query-string-only navigations.
+       *
+       * The home detail panel pushes `?p=…` when a row is clicked and
+       * pops the entry to close. Both endpoints share the same pathname
+       * so ClientRouter has no real content to swap — but its default
+       * path replaces the body, which drops the rows the user pulled
+       * in via infinite scroll. The page then collapses, the browser
+       * clamps scrollY to the new (smaller) max, and the user snaps
+       * back toward the top even when Astro restored the right value.
+       *
+       * Replacing `event.swap` in `astro:before-swap` keeps the live
+       * DOM intact. (`astro:before-preparation` preventDefault is a
+       * worse hammer — Astro falls back to `location.href = …`,
+       * a full page reload.)
+       */
+      document.addEventListener("astro:before-swap", (event) => {
+        const ev = event as Event & {
+          from?: URL;
+          to?: URL;
+          swap: () => void;
+        };
+        if (ev.from && ev.to && ev.from.pathname === ev.to.pathname) {
+          ev.swap = () => {};
+        }
+      });
+
+      /*
+       * Suppress the View Transition crossfade for query-string-only pops.
+       *
+       * Astro's ClientRouter calls `document.startViewTransition()` for
+       * every navigation it picks up — including the detail panel's
+       * `?p=…` → `` close. The swap above is a no-op, but the browser
+       * still snapshots the page, runs the (no-op) update, and crossfades
+       * between the two snapshots. During that crossfade the Vaul drawer
+       * is mid-animation, so the user sees a page-wide opacity blend
+       * smeared over a transform slide — that's the "strange" feel
+       * compared to the filter drawer (which doesn't touch the URL and
+       * never triggers a transition).
+       *
+       * Replace `startViewTransition` with a synchronous no-transition
+       * stub for the duration of the same-pathname navigation. Restore
+       * the original on `astro:after-swap` so real cross-pathname nav
+       * still gets the crossfade Astro wants.
+       */
+      document.addEventListener("astro:before-preparation", (event) => {
+        const ev = event as Event & { from?: URL; to?: URL };
+        if (!ev.from || !ev.to || ev.from.pathname !== ev.to.pathname) return;
+        const original = (document as any).startViewTransition;
+        if (typeof original !== "function") return;
+        (document as any).startViewTransition = function (callback?: () => unknown) {
+          const result = Promise.resolve(callback ? callback() : undefined);
+          return {
+            ready: result,
+            updateCallbackDone: result,
+            finished: result,
+            skipTransition: () => {},
+          };
+        };
+        document.addEventListener(
+          "astro:after-swap",
+          () => {
+            (document as any).startViewTransition = original;
+          },
+          { once: true },
+        );
+      });
+
+      /*
+       * No SW registration. The kill-switch sw.js at /sw.js still self-installs
+       * for users who picked up the old worker, then unregisters and clears its
+       * caches. New visitors never get a worker at all.
+       */
+    </script>
+  </body>
+</html>

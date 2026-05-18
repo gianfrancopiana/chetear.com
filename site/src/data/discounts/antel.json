@@ -1,0 +1,201 @@
+{
+  "provider": "antel",
+  "label": "Antel",
+  "rules": [
+    {
+      "merchant": "Grido",
+      "category": "restaurante",
+      "percent": 18,
+      "validUntil": "2026-05-31",
+      "notes": "Comprando dos productos envasados en franquicias adheridas. No incluye línea familiar. Código desde MiAntel o *789*3#"
+    },
+    {
+      "merchant": "Salados",
+      "category": "educacion",
+      "percent": 30,
+      "notes": "Primer mes de inscripción en cualquier curso o programa de formación musical. Solo nuevas inscripciones. Código desde MiAntel o *789*8#"
+    },
+    {
+      "merchant": "Salados",
+      "category": "educacion",
+      "percent": 15,
+      "notes": "Mensualidad para el resto del año en cualquier curso o programa de formación musical. Solo nuevas inscripciones. Código desde MiAntel o *789*8#"
+    },
+    {
+      "merchant": "Grupocine",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "stackable": false,
+      "notes": "Entradas 2D y 3D. Código MiAntel o *789*1#"
+    },
+    {
+      "merchant": "Cinemateca",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "stackable": false,
+      "notes": "Entradas 2D y 3D. Código MiAntel o *789*1#"
+    },
+    {
+      "merchant": "LIFE Cinemas",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "stackable": false,
+      "channels": [
+        "online",
+        "in-store"
+      ],
+      "notes": "Entradas 2D y 3D. Código MiAntel o *789*1#"
+    },
+    {
+      "merchant": "Movie",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "stackable": false,
+      "channels": [
+        "online"
+      ],
+      "notes": "Entradas 2D y 3D. Código MiAntel o *789*1#"
+    },
+    {
+      "merchant": "Cines del Este",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "stackable": false,
+      "notes": "Entradas 2D y 3D. Código MiAntel o *789*1#"
+    },
+    {
+      "merchant": "Cine Impacto Fray Bentos",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "stackable": false,
+      "channels": [
+        "in-store"
+      ],
+      "notes": "Entradas 2D y 3D. Código MiAntel o *789*1#. Presentar en boletería"
+    },
+    {
+      "merchant": "Gravity",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "Pase de 1 hora. Código MiAntel o *789*6#. No incluye medias de alquiler. Un uso cada 30 días por servicio móvil. En CarOne aplica solo al sector de trampolines"
+    },
+    {
+      "merchant": "Sodre",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "Ballet Nacional del Sodre y cuerpos estables. Código MiAntel o *789#. Cupos limitados"
+    },
+    {
+      "merchant": "Vía Confort",
+      "category": "hogar",
+      "percent": 20,
+      "cap": "$2.000",
+      "channels": [
+        "online",
+        "in-store"
+      ],
+      "notes": "Compras web o presenciales en artículos de hogar, TV y audio, refrigeración, lavado, muebles, cuidado personal, bicicletas y somier. Código desde MiAntel o *789*4#"
+    },
+    {
+      "merchant": "BSE Seguro Familia Hogar",
+      "category": "hogar",
+      "percent": 20,
+      "notes": "Seguro Familia Hogar por hurto e incendio de contenido de vivienda. Código desde MiAntel o *789*4#; presentar en BSE o al corredor al firmar la póliza"
+    },
+    {
+      "merchant": "Centro Auditivo del Uruguay",
+      "category": "salud",
+      "percent": 20,
+      "notes": "Hasta 20% de descuento en el costo total del tratamiento con pago contado. Código desde *789*5#SEND o MiAntel"
+    },
+    {
+      "merchant": "Centro Auditivo del Uruguay",
+      "category": "salud",
+      "percent": 15,
+      "notes": "Hasta 15% de descuento en el costo total del tratamiento con tarjeta de crédito en 6 cuotas sin intereses. Código desde *789*5#SEND o MiAntel"
+    },
+    {
+      "merchant": "iPlace",
+      "category": "electronica",
+      "percent": 25,
+      "channels": [
+        "in-store",
+        "online"
+      ],
+      "notes": "Marca Originales iPlace. Código MiAntel o *789*9#"
+    },
+    {
+      "merchant": "Samsung",
+      "category": "electronica",
+      "percent": 20,
+      "stackable": false,
+      "channels": [
+        "in-store"
+      ],
+      "notes": "Accesorios de celulares y reparación de servicio técnico. Código desde MiAntel o *789*9#. Productos sujetos a stock. Excepto descuento Santander vigente en tiendas"
+    },
+    {
+      "merchant": "Samsung",
+      "category": "electronica",
+      "percent": 10,
+      "stackable": false,
+      "channels": [
+        "in-store"
+      ],
+      "notes": "Lavado y secado, microondas, lavavajillas, aspiradoras, audio y cocina. Código desde MiAntel o *789*9#. Productos sujetos a stock. Excepto descuento Santander vigente en tiendas"
+    },
+    {
+      "merchant": "Samsung",
+      "category": "electronica",
+      "percent": 10,
+      "stackable": false,
+      "channels": [
+        "in-store"
+      ],
+      "notes": "Heladeras y TV. Código desde MiAntel o *789*9#. Productos sujetos a stock. Excepto descuento Santander vigente en tiendas"
+    },
+    {
+      "merchant": "Samsung",
+      "category": "electronica",
+      "percent": 5,
+      "stackable": false,
+      "channels": [
+        "in-store"
+      ],
+      "notes": "Wearables y tablets. Código desde MiAntel o *789*9#. Productos sujetos a stock. Excepto descuento Santander vigente en tiendas"
+    },
+    {
+      "merchant": "Motorola",
+      "category": "electronica",
+      "percent": 10,
+      "stackable": false,
+      "notes": "Productos seleccionados del ecosistema Motorola: TV, moto buds y auriculares, moto Watch, cables y cargadores, y otros productos seleccionados. Válido en motorola.com.uy y en la Flagship Store de 18 de Julio 951. Código desde MiAntel o *789*9#. No incluye smartphones ni moto tag. Productos sujetos a stock"
+    },
+    {
+      "merchant": "Assist Card",
+      "category": "viajes",
+      "percent": 40,
+      "notes": "Hasta 40% de descuento a través de la landing Antel de Assist Card"
+    },
+    {
+      "merchant": "Trotamundos",
+      "category": "viajes",
+      "percent": 15,
+      "notes": "Descuento en todos los productos de la tienda. Código desde MiAntel o *789*7#"
+    },
+    {
+      "merchant": "Recargas digitales Antel",
+      "category": "otros",
+      "percent": 25,
+      "notes": "25% de saldo de regalo en recargas de saldo y datos realizadas por canales de Antel, excepto TuApp. El saldo se acredita dentro de 24 horas y vence a los 30 días"
+    }
+  ]
+}

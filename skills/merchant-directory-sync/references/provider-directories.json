@@ -1,0 +1,32 @@
+[
+  {
+    "provider": "itau",
+    "label": "Itau",
+    "outputPath": "site/src/data/merchant-directories/itau.json",
+    "urls": [
+      "https://www.itau.com.uy/inst/restaurantes.html"
+    ],
+    "mode": "browser",
+    "notes": "Use the location tabs (Montevideo, Punta del Este, Interior) and extract visible merchant links section by section. Only keep merchants that can be linked to first-class Itau runtime discounts; do not emit orphan subsection lists or source totals."
+  },
+  {
+    "provider": "santander",
+    "label": "Santander",
+    "outputPath": "site/src/data/merchant-directories/santander.json",
+    "urls": [
+      "https://www.santander.com.uy/beneficios"
+    ],
+    "mode": "browser",
+    "notes": "Start from Beneficios, discover the Ruta Gourmet list in the browser, and extract individual merchants from the actual list view rather than the teaser card. Normalize output to the runtime product model; do not carry source framing or source totals into runtime JSON."
+  },
+  {
+    "provider": "bbva",
+    "label": "BBVA",
+    "outputPath": "site/src/data/merchant-directories/bbva.json",
+    "urls": [
+      "https://www.bbva.com.uy/personas/productos/tarjetas/descuentos.html"
+    ],
+    "mode": "browser",
+    "notes": "Navigate from the discounts page to the gastronomy merchant list in the browser and extract only browser-visible merchant entries. Normalize labels to the runtime product model and do not carry source counts into runtime JSON."
+  }
+]

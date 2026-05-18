@@ -1,0 +1,280 @@
+---
+export const prerender = false;
+
+import Layout from "../layouts/Layout.astro";
+import SearchLauncher from "../components/SearchLauncher.astro";
+import {
+  buildDetailRows,
+  formatBenefitHeadline,
+  formatBenefitTitle,
+} from "../lib/condition-format";
+import { allProviders, allMerchantListProviders } from "../lib/data";
+import { findRuleForTarget, parseDetailParams } from "../lib/detail-url";
+import { tierLabel } from "../lib/engine";
+import {
+  PROVIDER_LABELS,
+  PROVIDER_URLS,
+  CATEGORY_LABELS,
+  type DayOfWeek,
+} from "../lib/schema";
+
+const target = parseDetailParams(Astro.url.searchParams);
+if (!target) return Astro.redirect("/");
+
+const providerData = allProviders.find((p) => p.provider === target.provider);
+if (!providerData) return Astro.redirect("/");
+
+const rule = findRuleForTarget(target, providerData.rules);
+if (!rule) return Astro.redirect("/");
+
+const provider = target.provider;
+const listId = target.listId ?? "";
+const merchantIdx = target.merchantIndex ?? -1;
+
+const provLabel = PROVIDER_LABELS[provider as keyof typeof PROVIDER_LABELS] || provider;
+const catLabel = CATEGORY_LABELS[rule.category] || rule.category;
+const tier = tierLabel(rule.tiers);
+
+const allDayKeys: { key: DayOfWeek; short: string }[] = [
+  { key: "lunes", short: "Lun" },
+  { key: "martes", short: "Mar" },
+  { key: "miercoles", short: "Mié" },
+  { key: "jueves", short: "Jue" },
+  { key: "viernes", short: "Vie" },
+  { key: "sabado", short: "Sáb" },
+  { key: "domingo", short: "Dom" },
+];
+
+const activeDays = rule.days
+  ? new Set(rule.days)
+  : new Set(allDayKeys.map((d) => d.key));
+
+const detailRows = buildDetailRows(rule);
+
+const merchantLists = allMerchantListProviders
+  .find((p) => p.provider === provider)
+  ?.lists.filter((l) => rule!.id && l.ruleIds?.includes(rule!.id)) || [];
+
+const selectedList = listId ? merchantLists.find((list) => list.id === listId) : undefined;
+const selectedMerchant =
+  selectedList && merchantIdx >= 0 && merchantIdx < selectedList.merchants.length
+    ? selectedList.merchants[merchantIdx]
+    : undefined;
+const displayMerchant = selectedMerchant?.name || rule.merchant;
+const sourceUrl =
+  selectedList?.sourceUrls[0] ||
+  merchantLists[0]?.sourceUrls[0] ||
+  PROVIDER_URLS[provider as keyof typeof PROVIDER_URLS];
+---
+
+<Layout title={`${displayMerchant} — ${formatBenefitTitle(rule)} — Chetear`} hideTabBar>
+  {/*
+    Desktop already shows this content in the side panel on the home page, so
+    the full detail page is redundant there. If a desktop visitor lands here
+    directly (shared link, typed URL, back/forward), bounce them to home with
+    the same params so the side panel opens to the right discount.
+  */}
+  <script is:inline>
+    (() => {
+      if (window.matchMedia("(min-width: 1024px)").matches) {
+        window.location.replace("/" + window.location.search);
+      }
+    })();
+  </script>
+
+  {/* Back button + search */}
+  <div class="px-5 pt-5 pb-1 flex items-center justify-between md:hidden">
+    <a
+      href="/"
+      aria-label="Volver a beneficios"
+      class="w-10 h-10 rounded-full flex items-center justify-center no-underline transition-transform active:scale-[0.96]"
+      style={`background: rgba(255,255,255,0.9); border: 1px solid rgba(0,0,0,0.06);`}
+    >
+      <svg width="17" height="17" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+        <path d="M12 5l-5 5 5 5" stroke="#1a1815" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+      </svg>
+    </a>
+    <SearchLauncher />
+  </div>
+
+  <div class="hidden md:block md:max-w-[640px] md:mx-auto md:w-full md:pb-8">
+    <div class="flex items-center gap-2 text-[13px] text-ink-3">
+      <a href="/" class="text-ink-3 no-underline transition-colors hover:text-ink">
+        Beneficios
+      </a>
+      <svg width="12" height="12" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+        <path d="M8 5l5 5-5 5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+      </svg>
+      <span class="text-ink">{provLabel}</span>
+    </div>
+  </div>
+
+  {/*
+    Single-column flow on every viewport — matches the mobile rhythm and
+    keeps the desktop from looking sparse when content is short. The
+    column tops out at ~640px so the longest condition lines stay
+    comfortably readable. Wrapped in the aqua-bg panel (border + rounded)
+    that all text-heavy pages share (ajustes, acerca, descuento).
+  */}
+  <div class="px-5 pt-3 pb-10 md:px-0 md:pt-0 md:pb-0 md:max-w-[640px] md:mx-auto">
+    <div class="descuento-panel rounded-[14px] border border-rule p-5 md:p-10">
+    {/*
+      Editorial hero: kicker (provider · category) → title (merchant) →
+      subhead (the discount). One coherent unit instead of two stacked
+      blocks that echoed each other's [primary, caption] shape. The
+      merchant is the headline because by the time the user is on this
+      page, the percent is reassurance; the identity is what they need
+      confirmed.
+    */}
+    <div class="text-[11px] tracking-[0.12em] uppercase font-medium text-ink-3">
+      {provLabel}{tier ? ` · ${tier}` : ""} · {catLabel}{selectedMerchant?.location ? ` · ${selectedMerchant.location}` : ""}
+    </div>
+    <h1 class="mt-3 text-[32px] md:text-[36px] font-semibold leading-[1.1] tracking-[-0.015em] text-ink break-words m-0" style="text-wrap: balance;">
+      {displayMerchant}
+    </h1>
+    <div class="mt-3 text-[18px] md:text-[20px] font-medium text-ink-2 tabular-nums">
+      {formatBenefitHeadline(rule)}
+    </div>
+
+    {/*
+      Sections sit on a shared rhythm: 32px gap from the hero, hairline
+      between sections, and a uniform 32px vertical breath inside each.
+      The hairlines give a visible structure instead of relying on
+      whitespace alone — easier to scan when content runs long.
+    */}
+    <section class="mt-10">
+      <div class="text-[11px] tracking-[0.1em] uppercase font-medium text-ink-3 mb-3.5">Cuándo aplica</div>
+      <div class="flex gap-5">
+        {allDayKeys.map((dd) => {
+          const on = activeDays.has(dd.key);
+          return (
+            <span class="flex flex-col items-center gap-1.5" aria-label={`${dd.short} — ${on ? "aplica" : "no aplica"}`}>
+              <span class:list={[
+                "text-[11px] uppercase tracking-[0.08em]",
+                on ? "font-semibold text-ink" : "font-medium text-ink-3",
+              ]}>
+                {dd.short}
+              </span>
+              <span class="block h-[2px] w-6" style={`background:${on ? "#1a1815" : "transparent"}`}></span>
+            </span>
+          );
+        })}
+      </div>
+    </section>
+
+    {detailRows.length > 0 && (
+      <section class="mt-8 border-t border-rule pt-8">
+        <dl class="m-0 space-y-3 text-[14px]">
+          {detailRows.map((row) => (
+            <div>
+              <dt class="text-[11px] uppercase tracking-[0.1em] font-medium text-ink-3 mb-0.5">{row.label}</dt>
+              <dd class="m-0 text-ink-2 leading-relaxed">{row.value}</dd>
+            </div>
+          ))}
+        </dl>
+      </section>
+    )}
+
+    {selectedMerchant && (
+      <section class="mt-8 border-t border-rule pt-8">
+        <div class="text-[11px] tracking-[0.1em] uppercase font-medium text-ink-3 mb-3">Comercio</div>
+        <div class="flex justify-between items-baseline gap-3 flex-wrap text-[14px]">
+          {selectedMerchant.url ? (
+            <a href={selectedMerchant.url} target="_blank" rel="noreferrer" class="text-ink underline decoration-ink-4 underline-offset-[3px] hover:text-coral-deep">
+              {selectedMerchant.name}<span class="sr-only"> (abre en nueva ventana)</span>
+            </a>
+          ) : (
+            <span class="text-ink">{selectedMerchant.name}</span>
+          )}
+          {selectedMerchant.location && <span class="text-ink-3">{selectedMerchant.location}</span>}
+        </div>
+      </section>
+    )}
+
+    {!selectedMerchant && merchantLists.length > 0 && (
+      <section class="mt-8 border-t border-rule pt-8">
+        <div class="text-[11px] tracking-[0.1em] uppercase font-medium text-ink-3 mb-3">Comercios adheridos</div>
+        <div class="flex flex-col gap-6">
+          {merchantLists.map((list) => (
+            <ul class="m-0 p-0 list-none">
+              {list.merchants.map((m, i) => (
+                <li class:list={[
+                  "flex justify-between items-baseline gap-3 py-2.5 flex-wrap text-[14px]",
+                  i < list.merchants.length - 1 ? "border-b border-divider" : "",
+                ]}>
+                  {m.url ? (
+                    <a href={m.url} target="_blank" rel="noreferrer" class="text-ink underline decoration-ink-4 underline-offset-[3px] hover:text-coral-deep">
+                      {m.name}<span class="sr-only"> (abre en nueva ventana)</span>
+                    </a>
+                  ) : (
+                    <span class="text-ink">{m.name}</span>
+                  )}
+                  {m.location && <span class="text-ink-3">{m.location}</span>}
+                </li>
+              ))}
+            </ul>
+          ))}
+        </div>
+      </section>
+    )}
+
+    {/*
+      Footer: validity + outbound source + back-to-category, grouped
+      under a hairline so they read as meta-information about the
+      page rather than another body section.
+    */}
+    <section class="mt-8 border-t border-rule pt-8 flex flex-col gap-2 text-[13px] text-ink-3">
+      {sourceUrl && (
+        <a
+          href={sourceUrl}
+          target="_blank"
+          rel="noopener"
+          data-track-source
+          data-provider={provider}
+          data-merchant={displayMerchant}
+          class="inline-flex items-center gap-1.5 text-ink-2 underline decoration-ink-4 underline-offset-[3px] hover:text-ink w-fit"
+        >
+          Verificar vigencia en el sitio de {provLabel}
+          <svg width="12" height="12" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+            <path d="M5 5h10v10M5 15L15 5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </a>
+      )}
+      <a
+        href={`/?cat=${rule.category}`}
+        class="inline-flex items-center gap-1.5 text-ink-2 underline decoration-ink-4 underline-offset-[3px] hover:text-ink w-fit"
+      >
+        Ver más de {catLabel}
+        <svg width="12" height="12" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+          <path d="M3 10h14M11 4l6 6-6 6" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </a>
+    </section>
+
+    </div>
+
+    <div class="h-6 md:hidden" />
+  </div>
+
+  <script is:inline>
+    function setupSourceTracking() {
+      document.querySelectorAll("[data-track-source]").forEach(function(el) {
+        el.addEventListener("click", function() {
+          window.posthog?.capture("discount_source_clicked", {
+            provider: el.dataset.provider,
+            merchant: el.dataset.merchant,
+          });
+        });
+      });
+    }
+    setupSourceTracking();
+    document.addEventListener("astro:page-load", setupSourceTracking);
+  </script>
+</Layout>
+
+<style>
+  .descuento-panel {
+    background: var(--aqua-bg);
+    box-shadow: var(--aqua-shadow);
+  }
+</style>

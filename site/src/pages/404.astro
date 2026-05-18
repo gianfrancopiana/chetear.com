@@ -1,0 +1,36 @@
+---
+import Layout from "../layouts/Layout.astro";
+import SearchLauncher from "../components/SearchLauncher.astro";
+---
+
+<Layout title="Página no encontrada — Chetear" hideTabBar>
+  <div class="px-5 pt-5 pb-1 md:hidden">
+    <div class="flex items-center justify-between gap-3 min-h-[40px]">
+      <a
+        href="/"
+        data-astro-prefetch="viewport"
+        class="font-logo font-extrabold text-[28px] leading-none text-ink no-underline"
+        style="letter-spacing:-0.035em;"
+      >
+        chetear<span class="text-coral-deep">.com</span>
+      </a>
+      <SearchLauncher />
+    </div>
+  </div>
+
+  <div class="flex flex-1 flex-col items-center justify-center px-5 py-24 text-center">
+    <p class="text-[13px] font-semibold uppercase tracking-[0.12em] text-coral-deep">404</p>
+    <h1 class="mt-3 text-[22px] font-semibold text-ink">Página no encontrada</h1>
+    <p class="mt-2 max-w-[320px] text-[15px] leading-[1.6] text-ink-body">
+      La página que buscás no existe o se mudó.
+    </p>
+    <a
+      href="/"
+      data-astro-prefetch="viewport"
+      class="mt-7 inline-flex h-10 items-center justify-center rounded-full border border-divider px-4 text-[13px] font-medium text-ink no-underline select-none transition-transform active:scale-[0.96]"
+      style="background: var(--aqua-bg); box-shadow: var(--aqua-shadow);"
+    >
+      Volver al inicio
+    </a>
+  </div>
+</Layout>

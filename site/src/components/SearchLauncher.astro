@@ -1,0 +1,103 @@
+---
+---
+
+<button
+  type="button"
+  data-standalone-search-open
+  aria-label="Abrir búsqueda"
+  class="flex h-10 w-10 items-center justify-center rounded-full border border-divider p-0 transition-transform active:scale-[0.96]"
+  style="background: var(--aqua-bg); box-shadow: var(--aqua-shadow);"
+>
+  <svg width="17" height="17" viewBox="0 0 20 20" fill="none">
+    <circle cx="9" cy="9" r="5.5" stroke="#1a1815" stroke-width="1.8" />
+    <path d="M13 13l4 4" stroke="#1a1815" stroke-width="1.8" stroke-linecap="round" />
+  </svg>
+</button>
+
+<script>
+  const stateKey = "__chetearStandaloneSearchState";
+
+  const globalWindow = window as unknown as Record<string, any>;
+  const state = (globalWindow[stateKey] ??= {
+    modulePromise: null,
+    warmed: false,
+    bound: false,
+  });
+
+  const shouldWarmInBackground = () => {
+    const connection = (navigator as any).connection;
+    if (!connection) {
+      return true;
+    }
+    if (connection.saveData) {
+      return false;
+    }
+    return connection.effectiveType !== "slow-2g" && connection.effectiveType !== "2g";
+  };
+
+  const loadModule = () => {
+    if (!state.modulePromise) {
+      state.modulePromise = import("../scripts/standalone-search");
+    }
+    return state.modulePromise;
+  };
+
+  if (!state.bound) {
+    state.bound = true;
+
+    document.addEventListener(
+      "pointerdown",
+      (event) => {
+        const target = event.target;
+        if (!(target instanceof Element) || !target.closest("[data-standalone-search-open]")) {
+          return;
+        }
+        void loadModule();
+      },
+      { passive: true },
+    );
+
+    document.addEventListener("click", (event) => {
+      const target = event.target;
+      if (!(target instanceof Element)) {
+        return;
+      }
+
+      const trigger = target.closest("[data-standalone-search-open]");
+      if (!(trigger instanceof HTMLButtonElement)) {
+        return;
+      }
+
+      event.preventDefault();
+      // Mouse / pointer activation → animate the sheet in.
+      // Keyboard activation (Enter/Space on a focused trigger) lands here too;
+      // event.detail === 0 distinguishes it from a real pointer click.
+      const animate = event.detail > 0;
+      void loadModule().then((module) =>
+        module.openStandaloneSearch({ animate, trigger }),
+      );
+    });
+
+    document.addEventListener("keydown", (event) => {
+      if (event.key !== "k" && event.key !== "K") return;
+      if (!(event.metaKey || event.ctrlKey)) return;
+      if (event.altKey || event.shiftKey) return;
+      event.preventDefault();
+      void loadModule().then((module) => module.toggleStandaloneSearch({ animate: false }));
+    });
+  }
+
+  if (!state.warmed && shouldWarmInBackground()) {
+    state.warmed = true;
+
+    const run = () => {
+      void loadModule().then((module) => module.preloadStandaloneSearch?.());
+    };
+
+    if ("requestIdleCallback" in window) {
+      window.requestIdleCallback(run, { timeout: 1800 });
+    } else {
+      window.setTimeout(run, 1800);
+    }
+  }
+</script>

@@ -1,0 +1,32 @@
+{
+  "name": "site",
+  "type": "module",
+  "version": "0.0.1",
+  "packageManager": "bun@1.3.11",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "validate:data": "node ./scripts/validate-runtime-data.mjs",
+    "check": "node ./scripts/validate-runtime-data.mjs && astro build"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "dependencies": {
+    "@astrojs/react": "^5.0.5",
+    "@astrojs/vercel": "^10.0.7",
+    "@radix-ui/react-dialog": "^1.1.15",
+    "@tailwindcss/vite": "^4.3.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.1",
+    "astro": "^6.3.3",
+    "posthog-js": "^1.374.2",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "tailwindcss": "^4.3.0",
+    "zod": "^4.4.3"
+  }
+}
