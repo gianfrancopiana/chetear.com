@@ -4,7 +4,8 @@ import path from "node:path";
 import { execFileSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
 
-const SCRIPT_DIR = path.dirname(fileURLToPath(import.meta.url));
+const SCRIPT_PATH = fileURLToPath(import.meta.url);
+const SCRIPT_DIR = path.dirname(SCRIPT_PATH);
 const REPO_ROOT = path.resolve(SCRIPT_DIR, "../../..");
 const SOURCES_PATH = path.join(
   REPO_ROOT,
@@ -281,6 +282,10 @@ function isUnavailable(text) {
   return /agotado|suspendid|cancelad/i.test(text);
 }
 
+function isGiftLabel(text) {
+  return /\b(?:obsequio|regalo|cortes[ií]a)\b/i.test(normaliseWhitespace(text));
+}
+
 function normaliseConditions(parts) {
   const seen = new Set();
   const cleaned = [];
@@ -366,13 +371,15 @@ function normaliseCard(card) {
     /^2x1$/i.test(normaliseWhitespace(card.percentLabel)) ||
     /^2x1$/i.test(normaliseWhitespace(card.badge)) ||
     /\b2x1\b/i.test(card.badge);
+  const isGift =
+    !numericPercent &&
+    !badgePercent &&
+    !isTwoForOne &&
+    [card.percentLabel, card.badge].some((value) => isGiftLabel(value));
 
   const percent = numericPercent ?? badgePercent ?? (isTwoForOne ? 50 : 0);
 
   const conditionsParts = [];
-  if (isTwoForOne) {
-    conditionsParts.push("2x1");
-  }
 
   const badge = normaliseEventDateText(card.badge);
   if (badge) {
@@ -406,6 +413,7 @@ function normaliseCard(card) {
       category: card.category,
       percent,
       ...(isTwoForOne ? { benefitType: "2-for-1" } : {}),
+      ...(isGift ? { benefitType: "gift" } : {}),
       ...(days ? { days } : {}),
       ...(notes ? { notes } : {}),
       ...(validUntil ? { validUntil } : {}),
@@ -491,9 +499,13 @@ function main() {
   }
 }
 
-try {
-  main();
-} catch (error) {
-  console.error(error.message || error);
-  process.exit(1);
+export { normaliseCard };
+
+if (process.argv[1] && path.resolve(process.argv[1]) === SCRIPT_PATH) {
+  try {
+    main();
+  } catch (error) {
+    console.error(error.message || error);
+    process.exit(1);
+  }
 }

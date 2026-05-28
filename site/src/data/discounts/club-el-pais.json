@@ -7,7 +7,7 @@
       "category": "educacion",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "2x1. 27 de noviembre - 21hs. Lugar: Auditorio Adela Reta",
+      "notes": "27 de noviembre - 21hs. Lugar: Auditorio Adela Reta",
       "validUntil": "2026-11-27"
     },
     {
@@ -15,7 +15,7 @@
       "category": "educacion",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "2x1. Lunes 20 de julio - 21hs. Lugar: Auditorio Adela Reta",
+      "notes": "Lunes 20 de julio - 21hs. Lugar: Auditorio Adela Reta",
       "validUntil": "2026-07-20"
     },
     {
@@ -23,7 +23,7 @@
       "category": "educacion",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "2x1. 5 de Junio - 20:30 hs. Lugar: Sala Camacuá",
+      "notes": "5 de Junio - 20:30 hs. Lugar: Sala Camacuá",
       "validUntil": "2026-06-05"
     },
     {
@@ -62,7 +62,7 @@
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "2x1. 27 de junio al 12 de julio. Lugar: ACJ Montevideo",
+      "notes": "27 de junio al 12 de julio. Lugar: ACJ Montevideo",
       "validUntil": "2026-07-12"
     },
     {
@@ -70,7 +70,7 @@
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "2x1. 02 de julio - 16hs. Lugar: Centro Cultural La Experimental",
+      "notes": "02 de julio - 16hs. Lugar: Centro Cultural La Experimental",
       "validUntil": "2026-07-02"
     },
     {
@@ -78,7 +78,7 @@
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "2x1. 29 de Mayo - 21 hs. Lugar: Pueblo Narakan",
+      "notes": "29 de Mayo - 21 hs. Lugar: Pueblo Narakan",
       "validUntil": "2026-05-29"
     },
     {
@@ -92,7 +92,7 @@
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "2x1. 10 al 20 de diciembre. Lugar: Auditorio Adela Reta",
+      "notes": "10 al 20 de diciembre. Lugar: Auditorio Adela Reta",
       "validUntil": "2026-12-20"
     },
     {
@@ -100,15 +100,23 @@
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "2x1. 10 de julio. Lugar: Antel Arena",
+      "notes": "10 de julio. Lugar: Antel Arena",
       "validUntil": "2026-07-10"
+    },
+    {
+      "merchant": "Canto del Cisne – La Filarmónica",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "11 de noviembre - 19:30 hs. Lugar: Teatro Solís",
+      "validUntil": "2026-11-11"
     },
     {
       "merchant": "CNJS – Concierto VI",
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "2x1. 26 de agosto - 20hs. Lugar: Auditorio Adela Reta",
+      "notes": "26 de agosto - 20hs. Lugar: Auditorio Adela Reta",
       "validUntil": "2026-08-26"
     },
     {
@@ -116,7 +124,7 @@
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "2x1. 29 de julio - 20hs. Lugar: Auditorio Adela Reta",
+      "notes": "29 de julio - 20hs. Lugar: Auditorio Adela Reta",
       "validUntil": "2026-07-29"
     },
     {
@@ -124,7 +132,7 @@
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "2x1. 28 de mayo - 21hs. Lugar: La Morada de Saturno",
+      "notes": "28 de mayo - 21hs. Lugar: La Morada de Saturno",
       "validUntil": "2026-05-28"
     },
     {
@@ -138,7 +146,7 @@
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "2x1. 13, 20 y 27 de junio - 4 de julio. Lugar: Teatro Alianza",
+      "notes": "13, 20 y 27 de junio - 4 de julio. Lugar: Teatro Alianza",
       "validUntil": "2026-07-04"
     },
     {
@@ -146,7 +154,7 @@
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "2x1. 29 de agosto - 21hs. Lugar: Auditorio Adela Reta",
+      "notes": "29 de agosto - 21hs. Lugar: Auditorio Adela Reta",
       "validUntil": "2026-08-29"
     },
     {
@@ -154,7 +162,7 @@
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "2x1. 26 y 27 de noviembre - 20hs. Lugar: Teatro Movie",
+      "notes": "26 y 27 de noviembre - 20hs. Lugar: Teatro Movie",
       "validUntil": "2026-11-27"
     },
     {
@@ -168,7 +176,7 @@
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "2x1. 27 de junio. 4 y 11 de julio. Lugar: ACJ Montevideo",
+      "notes": "27 de junio. 4 y 11 de julio. Lugar: ACJ Montevideo",
       "validUntil": "2026-07-11"
     },
     {
@@ -176,7 +184,7 @@
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "2x1. 1 de julio - 16hs. Lugar: Centro Cultural La Experimental",
+      "notes": "1 de julio - 16hs. Lugar: Centro Cultural La Experimental",
       "validUntil": "2026-07-01"
     },
     {
@@ -184,15 +192,23 @@
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "2x1. 13 y 14 de agosto - 20 hs.. Lugar: Teatro El Galpón",
+      "notes": "13 y 14 de agosto - 20 hs.. Lugar: Teatro El Galpón",
       "validUntil": "2026-08-14"
+    },
+    {
+      "merchant": "La Dolce Vita – La Filarmónica",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "21 de octubre - 19:30 hs. Lugar: Teatro Solís",
+      "validUntil": "2026-10-21"
     },
     {
       "merchant": "La Filarmónica – Beethoven #1",
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "2x1. 24 de junio - 19:30 hs. Lugar: Teatro Solís",
+      "notes": "24 de junio - 19:30 hs. Lugar: Teatro Solís",
       "validUntil": "2026-06-24"
     },
     {
@@ -200,7 +216,7 @@
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "2x1. 29 de julio - 19:30 hs. Lugar: Teatro Solís",
+      "notes": "29 de julio - 19:30 hs. Lugar: Teatro Solís",
       "validUntil": "2026-07-29"
     },
     {
@@ -208,7 +224,7 @@
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "2x1. 10 de julio - 14hs. Lugar: Antel Arena",
+      "notes": "10 de julio - 14hs. Lugar: Antel Arena",
       "validUntil": "2026-07-10"
     },
     {
@@ -216,15 +232,22 @@
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "2x1. 8, 15, 22 y 29 de Mayo. Lugar: Teatro El Galpón",
+      "notes": "8, 15, 22 y 29 de Mayo. Lugar: Teatro El Galpón",
       "validUntil": "2026-05-29"
+    },
+    {
+      "merchant": "Las HIjas",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "15 y 16 e octubre. Lugar: Teatro El Galpón"
     },
     {
       "merchant": "Lito Vitale – Hilda Lizarazu",
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "2x1. 19 de Junio - 21 hs. Lugar: Pueblo Narakan",
+      "notes": "19 de Junio - 21 hs. Lugar: Pueblo Narakan",
       "validUntil": "2026-06-19"
     },
     {
@@ -232,7 +255,7 @@
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "2x1. 09 de julio - 15hs. Lugar: Antel Arena",
+      "notes": "09 de julio - 15hs. Lugar: Antel Arena",
       "validUntil": "2026-07-09"
     },
     {
@@ -240,7 +263,7 @@
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "2x1. 22 de agosto - 20hs. Lugar: Teatro Solís",
+      "notes": "22 de agosto - 20hs. Lugar: Teatro Solís",
       "validUntil": "2026-08-22"
     },
     {
@@ -248,14 +271,14 @@
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "2x1. Sábados y domingo de mayo - 20:30hs. Lugar: Teatro Solís"
+      "notes": "Sábados y domingo de mayo - 20:30hs. Lugar: Teatro Solís"
     },
     {
       "merchant": "Martín Masiello en Concierto",
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "2x1. 06 de junio - 20:00 hs. Lugar: Auditorio Nelly Goitiño",
+      "notes": "06 de junio - 20:00 hs. Lugar: Auditorio Nelly Goitiño",
       "validUntil": "2026-06-06"
     },
     {
@@ -269,14 +292,14 @@
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "2x1. A partir de $400"
+      "notes": "A partir de $400"
     },
     {
       "merchant": "Noelia Pace",
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "2x1. 8 de setiembre. Lugar: Teatro El Galpón",
+      "notes": "8 de setiembre. Lugar: Teatro El Galpón",
       "validUntil": "2026-09-08"
     },
     {
@@ -284,7 +307,7 @@
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "2x1. 19 de agosto - 19:30 hs. Lugar: Teatro Solís",
+      "notes": "19 de agosto - 19:30 hs. Lugar: Teatro Solís",
       "validUntil": "2026-08-19"
     },
     {
@@ -298,7 +321,7 @@
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "2x1. 25 de julio - 20hs. Lugar: Auditorio Adela Reta",
+      "notes": "25 de julio - 20hs. Lugar: Auditorio Adela Reta",
       "validUntil": "2026-07-25"
     },
     {
@@ -306,7 +329,7 @@
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "2x1. 17 de octubre - 20hs. Lugar: Auditorio Adela Reta",
+      "notes": "17 de octubre - 20hs. Lugar: Auditorio Adela Reta",
       "validUntil": "2026-10-17"
     },
     {
@@ -314,7 +337,7 @@
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "2x1. 9 al 30 de julio. Lugar: ACJ Montevideo",
+      "notes": "9 al 30 de julio. Lugar: ACJ Montevideo",
       "validUntil": "2026-07-30"
     },
     {
@@ -322,7 +345,7 @@
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "2x1. 23 de junio - 20hs. Lugar: Teatro Solís",
+      "notes": "23 de junio - 20hs. Lugar: Teatro Solís",
       "validUntil": "2026-06-23"
     },
     {
@@ -330,7 +353,7 @@
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "2x1. 6 de mayo al 24 de junio. Lugar: ACJ - Sala George Williams",
+      "notes": "6 de mayo al 24 de junio. Lugar: ACJ - Sala George Williams",
       "validUntil": "2026-06-24"
     },
     {
@@ -338,7 +361,7 @@
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "2x1. 21 de mayo - 3 y 10 de junio. Lugar: Finisterre",
+      "notes": "21 de mayo - 3 y 10 de junio. Lugar: Finisterre",
       "validUntil": "2026-06-10"
     },
     {
@@ -346,7 +369,7 @@
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "2x1. 18 de Junio - 21 hs. Lugar: Teatro Stella D'Italia. La Gaviota",
+      "notes": "18 de Junio - 21 hs. Lugar: Teatro Stella D'Italia. La Gaviota",
       "validUntil": "2026-06-18"
     },
     {
@@ -354,7 +377,7 @@
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "2x1. 01 de agosto - 21hs. Lugar: La Trastienda",
+      "notes": "01 de agosto - 21hs. Lugar: La Trastienda",
       "validUntil": "2026-08-01"
     },
     {
@@ -362,8 +385,16 @@
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "2x1. 15 de octubre - 20:30 hs. Lugar: Sala Zitarrosa",
+      "notes": "15 de octubre - 20:30 hs. Lugar: Sala Zitarrosa",
       "validUntil": "2026-10-15"
+    },
+    {
+      "merchant": "Tchaikovsky en Primavera",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "07 de octubre - 19:30 hs. Lugar: Teatro Solís",
+      "validUntil": "2026-10-07"
     },
     {
       "merchant": "Teatrix",
@@ -375,7 +406,7 @@
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "2x1. 8 y 9 de octubre. Lugar: Teatro El Galpón",
+      "notes": "8 y 9 de octubre. Lugar: Teatro El Galpón",
       "validUntil": "2026-10-09"
     },
     {
@@ -383,7 +414,7 @@
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "2x1. 8, 15, 22 y 29 de Mayo - 20:30hs. Lugar: Teatro Alianza",
+      "notes": "8, 15, 22 y 29 de Mayo - 20:30hs. Lugar: Teatro Alianza",
       "validUntil": "2026-05-29"
     },
     {
@@ -391,7 +422,7 @@
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "2x1. 24 de Julio - 20:30 hs. Lugar: Teatro Metro",
+      "notes": "24 de Julio - 20:30 hs. Lugar: Teatro Metro",
       "validUntil": "2026-07-24"
     },
     {
@@ -399,7 +430,7 @@
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "2x1. 01 de noviembre - 20:00 hs. Lugar: Auditorio Adela Reta",
+      "notes": "01 de noviembre - 20:00 hs. Lugar: Auditorio Adela Reta",
       "validUntil": "2026-11-01"
     },
     {
@@ -407,7 +438,7 @@
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "2x1. 16, 23 y 30 de mayo. Lugar: Teatro Alianza",
+      "notes": "16, 23 y 30 de mayo. Lugar: Teatro Alianza",
       "validUntil": "2026-05-30"
     },
     {
