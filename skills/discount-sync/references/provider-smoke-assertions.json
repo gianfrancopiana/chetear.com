@@ -17,7 +17,37 @@
       "Hipermás",
       "Restaurantes",
       "Farmashop",
-      "Heladerías adheridas"
+      "Heladerías adheridas",
+      "Moda"
+    ],
+    "mustMatchRules": [
+      {
+        "id": "santander-moda-general-15",
+        "merchant": "Moda",
+        "category": "indumentaria",
+        "percent": 15,
+        "tiersIncludes": [
+          "todas"
+        ]
+      }
+    ],
+    "mustHaveLinkedMerchantLists": [
+      {
+        "id": "santander-moda-general-directory",
+        "ruleId": "santander-moda-general-15",
+        "minMerchants": 80,
+        "maxMerchants": 90,
+        "mustContainMerchants": [
+          "Optica Estela Jinchuk",
+          "Mónaco Calzados",
+          "The North Face"
+        ],
+        "mustNotContainMerchants": [
+          "Under Armour",
+          "Nike",
+          "Sportline"
+        ]
+      }
     ]
   },
   "bbva": {

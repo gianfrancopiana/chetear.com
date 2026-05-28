@@ -17,8 +17,8 @@ Extract Santander benefits with the correct tier, card-family, cap, and broad-ru
    - premium vs general splits (`Infinite`, `Black`, `Select`, `Platinum`, etc.)
    - debit vs credit differences
    - caps per month / per merchant / per period
-   - category-wide or directory-backed rules such as `Ruta Gourmet`, `Hipermás`, or broad heladería groups
-4. When Santander uses broad merchant networks or directories, keep the runtime discount broad here and only enumerate merchants elsewhere if a dedicated first-party directory workflow exists.
+   - category-wide or directory-backed rules such as `Ruta Gourmet`, `Hipermás`, `Moda`, or broad heladería groups
+4. When Santander uses broad merchant networks or directories, keep the runtime discount broad here and only enumerate merchants elsewhere if a dedicated first-party directory workflow exists. Santander `Moda` has a first-party grid at `https://www.santander.com.uy/beneficios?categoria=20`; keep the rule label broad, preserve rule id `santander-moda-general-15`, and link eligible 15% cards through `santander-moda-general-directory`.
 5. Prefer the detail copy over the teaser card whenever the teaser compresses multiple tiers or caps.
 
 ## What belongs in runtime
@@ -47,7 +47,7 @@ every sync run. This section only fixes which merchants/groups are in scope.
 - `Restaurantes` / `Ruta Gourmet` — premium vs general split
 - `Farmashop` — day-specific tiers plus a separate Farmacard rule (emit each as a distinct runtime rule when the source clearly splits them)
 - `PedidosYa` — restaurants only, premium-credit tiers with day logic
-- `Moda` (broad category)
+- `Moda` (broad category with first-party category grid; include only cards that explicitly show 15% discount, not points-only cards)
 - `Buquebus`
 
 ## Conditions extraction
@@ -63,5 +63,5 @@ live in the section below.
 - Use provider identity `santander` / label `Santander`.
 - Preserve monthly caps and whether they are per merchant, per restaurant, or per period.
 - Preserve `Select` / premium vs general splits when the detail page distinguishes them.
-- Keep broad rules like `Ruta Gourmet`, `Hipermás`, or `Heladerías adheridas` broad in runtime; do not invent a merchant list inside `santander.json`.
+- Keep broad rules like `Ruta Gourmet`, `Hipermás`, `Moda`, or `Heladerías adheridas` broad in runtime; do not invent a merchant list inside `santander.json`. For `Moda`, the broad rule must keep id `santander-moda-general-15` so the runtime can expand the linked merchant directory.
 - Keep extra perks like IVA mentions or payment-channel exclusions in `notes`.
