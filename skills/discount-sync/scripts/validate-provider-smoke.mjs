@@ -58,6 +58,7 @@ function textIncludes(value, includesSpec) {
 }
 
 function ruleMatches(rule, spec) {
+  if (spec.id && rule.id !== spec.id) return false;
   if (spec.merchant && rule.merchant !== spec.merchant) return false;
   if (spec.category && rule.category !== spec.category) return false;
   if (typeof spec.percent === "number" && rule.percent !== spec.percent) return false;
@@ -74,6 +75,67 @@ function ruleMatches(rule, spec) {
   if (!textIncludes(rule.cap, spec.capIncludes)) return false;
 
   return true;
+}
+
+function loadProviderMerchantLists(provider) {
+  const filePath = path.join(REPO_ROOT, "site/src/data/merchant-directories", `${provider}.json`);
+  if (!fs.existsSync(filePath)) {
+    return null;
+  }
+  return JSON.parse(fs.readFileSync(filePath, "utf8"));
+}
+
+function validateLinkedMerchantLists(provider, rules, assertions) {
+  const specs = assertions.mustHaveLinkedMerchantLists || [];
+  if (specs.length === 0) {
+    return [];
+  }
+
+  const errors = [];
+  const directory = loadProviderMerchantLists(provider);
+  if (!directory) {
+    return [`missing merchant-directory file for linked-list assertions`];
+  }
+
+  const ruleIds = new Set(rules.map((rule) => rule.id).filter(Boolean));
+  for (const spec of specs) {
+    const list = (directory.lists || []).find((candidate) => candidate.id === spec.id);
+    if (!list) {
+      errors.push(`missing linked merchant list: ${spec.id}`);
+      continue;
+    }
+
+    if (spec.ruleId) {
+      if (!ruleIds.has(spec.ruleId)) {
+        errors.push(`linked merchant list ${spec.id} expects missing discount rule id: ${spec.ruleId}`);
+      }
+      if (!(list.ruleIds || []).includes(spec.ruleId)) {
+        errors.push(`linked merchant list ${spec.id} is not linked to ruleId ${spec.ruleId}`);
+      }
+    }
+
+    const merchants = list.merchants || [];
+    const merchantNames = new Set(merchants.map((merchant) => merchant.name));
+    if (typeof spec.minMerchants === "number" && merchants.length < spec.minMerchants) {
+      errors.push(`linked merchant list ${spec.id} merchant count ${merchants.length} < minMerchants ${spec.minMerchants}`);
+    }
+    if (typeof spec.maxMerchants === "number" && merchants.length > spec.maxMerchants) {
+      errors.push(`linked merchant list ${spec.id} merchant count ${merchants.length} > maxMerchants ${spec.maxMerchants}`);
+    }
+
+    for (const merchant of spec.mustContainMerchants || []) {
+      if (!merchantNames.has(merchant)) {
+        errors.push(`linked merchant list ${spec.id} missing required merchant: ${merchant}`);
+      }
+    }
+    for (const merchant of spec.mustNotContainMerchants || []) {
+      if (merchantNames.has(merchant)) {
+        errors.push(`linked merchant list ${spec.id} contains forbidden merchant: ${merchant}`);
+      }
+    }
+  }
+
+  return errors;
 }
 
 function validateProvider(provider, rules, assertions) {
@@ -122,6 +184,8 @@ function validateProvider(provider, rules, assertions) {
       errors.push(`missing required rule match: ${JSON.stringify(spec)}`);
     }
   }
+
+  errors.push(...validateLinkedMerchantLists(provider, rules, assertions));
 
   return {
     provider,
