@@ -12,7 +12,7 @@
     "notes": "Always open Itaú benefit cards via Ver más/detail view and confirm tier/day splits before changing percentages.",
     "inScope": [
       { "title": "15% menos en restaurantes", "note": "Broad category, premium/general split" },
-      { "title": "15% menos en moda", "note": "Broad category" },
+      { "title": "15% menos en moda", "note": "Broad category label with first-party merchant grid; link to merchant directory so runtime expands individual stores" },
       { "title": "15%  menos en iPlace", "note": "Premium/Personal Bank only. The double space in the title is on the live source." },
       { "title": "25% menos en Bosch y Cia" },
       { "title": "15% menos en Starbucks en bebidas", "note": "Day logic on bar-prepared drinks; preserve scope in notes" },
