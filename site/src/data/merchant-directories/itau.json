@@ -79,6 +79,54 @@
         { "name": "Virazón", "url": "https://www.instagram.com/virazon.restoran/", "location": "Punta del Este" },
         { "name": "Yacht Club Uruguayo", "url": "https://www.instagram.com/restoyachtcluburuguayo/", "location": "Punta del Este" }
       ]
+    },
+    {
+      "id": "itau-moda-general-directory",
+      "ruleIds": [
+        "itau-moda-general-15"
+      ],
+      "sourceUrls": [
+        "https://www.itau.com.uy/inst/moda.html"
+      ],
+      "merchants": [
+        { "name": "Amadeus", "url": "https://www.instagram.com/amadeus.pde/" },
+        { "name": "Amén", "url": "https://www.instagram.com/amenshoes/" },
+        { "name": "Anthea", "url": "https://www.instagram.com/anthea.uy/" },
+        { "name": "Brixton", "url": "https://www.brixton.com.uy/" },
+        { "name": "By Florencia", "url": "https://www.instagram.com/by_florencia/" },
+        { "name": "Capri", "url": "https://www.instagram.com/capri_uy/" },
+        { "name": "Damen", "url": "https://www.instagram.com/_damen_" },
+        { "name": "Denali" },
+        { "name": "Don Baez", "url": "https://www.instagram.com/donbaez.uy" },
+        { "name": "El beso", "url": "https://www.instagram.com/elbeso.store/" },
+        { "name": "Ferrero Studio" },
+        { "name": "Jibona", "url": "https://www.instagram.com/jibonastore/" },
+        { "name": "Kevingston", "url": "https://www.brixton.com.uy/" },
+        { "name": "LA BOUTIQUE PARIS" },
+        { "name": "Lanka", "url": "https://www.instagram.com/lanka_leathergoods" },
+        { "name": "Magnolia" },
+        { "name": "Mandinga", "url": "https://www.instagram.com/mandinga_mandinga" },
+        { "name": "Marimba", "url": "https://www.instagram.com/marimba.uy/" },
+        { "name": "Maura", "url": "https://www.instagram.com/maurastore.uy" },
+        { "name": "Oklo", "url": "https://www.instagram.com/oklo.uy" },
+        { "name": "Óptica Nova", "url": "https://www.instagram.com/opticanova" },
+        { "name": "Panthai", "url": "https://www.instagram.com/panthaistore" },
+        { "name": "Perpetua", "url": "https://www.instagram.com/perpetuashoes" },
+        { "name": "Petra", "url": "https://www.instagram.com/petra.store" },
+        { "name": "Petrichor", "url": "https://www.instagram.com/petrichoruruguay/" },
+        { "name": "Pura Lana", "url": "https://www.instagram.com/pura.lana/" },
+        { "name": "Puro Punto", "url": "https://www.instagram.com/puropunto/" },
+        { "name": "Rupia", "url": "https://www.instagram.com/rupia_uy" },
+        { "name": "Shill", "url": "https://www.instagram.com/shill.bidder/" },
+        { "name": "Sonsoles", "url": "https://www.instagram.com/sonsoles.camino" },
+        { "name": "Suma" },
+        { "name": "Tascani", "url": "https://www.instagram.com/tascaniuruguay" },
+        { "name": "Urban Haus" },
+        { "name": "Vopero", "url": "https://www.instagram.com/vopero.uy/" },
+        { "name": "Wanama", "url": "https://www.instagram.com/wanama.uy/" },
+        { "name": "Watchme", "url": "https://www.instagram.com/watchmeuy/" },
+        { "name": "Yamba", "url": "https://www.instagram.com/yamba.store" }
+      ]
     }
   ]
 }

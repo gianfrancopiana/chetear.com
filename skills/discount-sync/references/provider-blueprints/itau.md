@@ -19,7 +19,7 @@ Extract the current Itaú benefits with the correct tier, debit/credit, day, cap
    - debit vs credit differences (`Volar`, `Junior`, debit vs credit)
    - exclusions like `Cuenta Pocket`
    - day-specific logic and validity windows
-5. When the source exposes a broad category benefit (for example restaurants or fashion) instead of a merchant list, keep the runtime rule broad unless a dedicated merchant list is clearly first-party and stable.
+5. When the source exposes a broad category benefit (for example restaurants or fashion) instead of a merchant list, keep the runtime rule broad unless a dedicated merchant list is clearly first-party and stable. Itaú Moda currently has a first-party merchant grid on `https://www.itau.com.uy/inst/moda.html`; keep the discount rule label as `Moda`, but link it to `itau-moda-general-directory` so runtime/search expands to the individual stores.
 
 ## What belongs in runtime
 
@@ -54,7 +54,8 @@ refreshed by every sync run. The JSON arrays only fix which
 merchants/categories are in scope and why some are excluded.
 
 Provider-level cues (independent of any single card):
-- Restaurantes and Moda are broad-category rules — keep them broad unless the source clearly turns them into first-class merchant-specific rules.
+- Restaurantes is a broad-category rule with a merchant list; keep the rule label broad but preserve the linked restaurant merchant directory.
+- Moda is a broad-category rule with a first-party merchant grid; keep the rule label broad but preserve the linked fashion merchant directory so users see the individual stores rather than a single `Moda` result.
 - Merchants whose expanded detail window has ended and no longer reappear should drop out of `inScope` on the next reconciliation pass.
 - Cards whose detail copy is internally inconsistent on validity dates — skip (add to `outOfScope` with the conflict noted) until the source resolves it.
 
@@ -91,6 +92,6 @@ live in the section below.
 - Use provider identity `itau` / label `Itau`.
 - Preserve the premium/general split when the detail page distinguishes `Personal Bank` / premium cards from standard cards.
 - Preserve exclusions like `Cuenta Pocket` in `notes`.
-- When Itaú uses broad group labels like `Restaurantes` or `Moda`, keep them broad unless the source clearly turns them into first-class merchant-specific rules.
+- When Itaú uses broad group labels like `Restaurantes` or `Moda`, keep the checked-in discount rule label broad, but attach any clearly first-party merchant grid through `site/src/data/merchant-directories/itau.json` and matching `ruleIds`.
 - When a visible card is future-dated or externally ambiguous, skip it rather than inventing a start date or merchant detail that the runtime schema cannot represent cleanly.
 - Remove historical merchants once they disappear from the live benefits page instead of carrying them forward indefinitely.
