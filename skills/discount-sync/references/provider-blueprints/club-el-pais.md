@@ -105,7 +105,7 @@ live in the section below.
   - `turismo` -> `viajes`
   - `ninos` -> `otros` **unless** the same merchant also appears in a more specific rubro page, in which case prefer the more specific rubro’s category.
 - Plain percent cards: encode the visible percent directly with `benefitType: "discount"` (or simply omit `benefitType` since `"discount"` is the default).
-- `2x1` cards: set `benefitType: "2-for-1"` and `percent: 50`, and keep `2x1` plus any showtime/venue context in `notes`. The runtime renders `2×1` in the chip and "Compra 2 por 1" in the headline — do not let the chip lie that it's a flat 50% off.
+- `2x1` cards: set `benefitType: "2-for-1"` and `percent: 50`. Do not put a standalone `2x1`/`2×1` string in `notes`; keep only residual showtime, venue, or date context there. The runtime renders `2×1` in the chip and "Compra 2 por 1" in the headline — do not let the chip lie that it's a flat 50% off.
 - Freebie/gift cards with no percent: set `benefitType: "gift"` and `percent: 0`. Put the specific item in `notes` ("Sundae de obsequio", "Postre de cortesía"). The chip renders `Regalo`.
 - Mixed cards (`25%` + extra perk like `Matrícula sin costo`): keep the numeric percent and `benefitType: "discount"`; preserve the extra perk in `notes`. Do NOT use `"gift"` when there's a real headline percent — `"gift"` is only for the no-percent freebie case.
 - Price-floor qualifiers (`A partir de $400`) stay in `notes`; do not invent a new percent from the floor.
