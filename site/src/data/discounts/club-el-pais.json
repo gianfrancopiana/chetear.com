@@ -128,14 +128,6 @@
       "validUntil": "2026-07-29"
     },
     {
-      "merchant": "Código Rojo",
-      "category": "entretenimiento",
-      "percent": 50,
-      "benefitType": "2-for-1",
-      "notes": "28 de mayo - 21hs. Lugar: La Morada de Saturno",
-      "validUntil": "2026-05-28"
-    },
-    {
       "merchant": "Conjunto Nacional de Música de Cámara",
       "category": "entretenimiento",
       "percent": 50,
@@ -280,6 +272,14 @@
       "benefitType": "2-for-1",
       "notes": "06 de junio - 20:00 hs. Lugar: Auditorio Nelly Goitiño",
       "validUntil": "2026-06-06"
+    },
+    {
+      "merchant": "Matías Gómez presenta: ¡Será Posible!",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "27 de junio al 12 de julio. Lugar: Magnolio Sala",
+      "validUntil": "2026-07-12"
     },
     {
       "merchant": "Movie",
