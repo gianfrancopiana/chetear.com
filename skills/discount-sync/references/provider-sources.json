@@ -44,7 +44,8 @@
     ],
     "mode": "browser",
     "blueprintPath": "skills/discount-sync/references/provider-blueprints/santander.md",
-    "notes": "Open the browser detail for each Santander merchant because tier and day logic often differs from the teaser card. Santander Moda is a broad 15% rule backed by the first-party categoria=20 grid; preserve the linked merchant-directory expansion and exclude points-only cards."
+    "syncScriptPath": "skills/discount-sync/scripts/santander-snapshot.mjs",
+    "notes": "Run the Santander helper first. It preserves curated broad rules for Supermercados/Heladerías/Ruta Gourmet/Moda, then scans configured Santander category pages for merchant-specific cards with explicit single-percent discounts. Do not treat a Puntos tag as exclusion when the teaser/detail has a real percent discount."
   },
   {
     "provider": "bbva",

@@ -11,20 +11,22 @@ Extract Santander benefits with the correct tier, card-family, cap, and broad-ru
 
 ## Daily traversal routine
 
-1. Open `https://www.santander.com.uy/beneficios`.
-2. Traverse every relevant benefit card through its full detail state.
-3. For each detail, check specifically for:
+1. Run `node skills/discount-sync/scripts/santander-snapshot.mjs --print-summary` as the primary automation path when `provider-sources.json` declares its `syncScriptPath`.
+2. The helper keeps curated broad rules for `Supermercados`, `Heladerías`, `Ruta Gourmet`, and `Moda`, then scans configured Santander category pages for merchant-specific cards with one explicit percent discount.
+3. If the helper reports zero cards or the source layout drifts, fall back to the browser flow below only long enough to repair the helper; do not hand-edit newly discovered merchants into `santander.json`.
+4. Browser/audit flow: open `https://www.santander.com.uy/beneficios` and traverse every relevant benefit card through its full detail state.
+5. For each detail, check specifically for:
    - premium vs general splits (`Infinite`, `Black`, `Select`, `Platinum`, etc.)
    - debit vs credit differences
    - caps per month / per merchant / per period
    - category-wide or directory-backed rules such as `Ruta Gourmet`, `Hipermás`, `Moda`, or broad heladería groups
-4. When Santander uses broad merchant networks or directories, keep the runtime discount broad here and only enumerate merchants elsewhere if a dedicated first-party directory workflow exists. Santander `Moda` has a first-party grid at `https://www.santander.com.uy/beneficios?categoria=20`; keep the rule label broad, preserve rule id `santander-moda-general-15`, and link eligible 15% cards through `santander-moda-general-directory`.
-5. Prefer the detail copy over the teaser card whenever the teaser compresses multiple tiers or caps.
+6. When Santander uses broad merchant networks or directories, keep the runtime discount broad here and only enumerate merchants elsewhere if a dedicated first-party directory workflow exists. Santander `Moda` has a first-party grid at `https://www.santander.com.uy/beneficios?categoria=20`; keep the rule label broad, preserve rule id `santander-moda-general-15`, and link eligible 15% cards through `santander-moda-general-directory`.
+7. Prefer the detail copy over the teaser card whenever the teaser compresses multiple tiers or caps.
 
 ## What belongs in runtime
 
 Include benefits that map cleanly to the runtime schema, including:
-- merchant-specific discounts with explicit percentages
+- merchant-specific discounts with explicit percentages, even when Santander also tags the card as `Puntos`
 - broad category/network rules with explicit percentages and caps
 - debit-only or premium-only variants when clearly separated in the detail view
 
@@ -49,6 +51,7 @@ every sync run. This section only fixes which merchants/groups are in scope.
 - `PedidosYa` — restaurants only, premium-credit tiers with day logic
 - `Moda` (broad category with first-party category grid; include only cards that explicitly show 15% discount, not points-only cards)
 - `Buquebus`
+- Merchant-specific simple percent cards discovered by `santander-snapshot.mjs` from configured Santander category pages outside the broad directory groups (for example category `Otros`, `Deco y hogar`, `Tecnología`, etc.). These are generated from the source each run; do not add one-off merchant rules by hand when the scanner can classify them.
 
 ## Conditions extraction
 
@@ -64,4 +67,5 @@ live in the section below.
 - Preserve monthly caps and whether they are per merchant, per restaurant, or per period.
 - Preserve `Select` / premium vs general splits when the detail page distinguishes them.
 - Keep broad rules like `Ruta Gourmet`, `Hipermás`, `Moda`, or `Heladerías adheridas` broad in runtime; do not invent a merchant list inside `santander.json`. For `Moda`, the broad rule must keep id `santander-moda-general-15` so the runtime can expand the linked merchant directory.
+- A `Puntos` tag is not by itself an exclusion. Skip points-only cards when no explicit percent appears, but include cards whose teaser/detail exposes a real percent discount.
 - Keep extra perks like IVA mentions or payment-channel exclusions in `notes`.

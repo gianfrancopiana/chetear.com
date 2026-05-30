@@ -151,6 +151,747 @@
         "todas"
       ],
       "notes": "Paquetes a Argentina (min 2 noches hotel + transporte). 12 cuotas sin interes. Solo en oficinas UY"
+    },
+    {
+      "merchant": "Bookshop",
+      "category": "educacion",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "refundType": "point-of-sale",
+      "stackable": false,
+      "notes": "El beneficio aplica únicamente para la compra de libros. Promoción no válida para textos de estudio. Quedan excluidas aquellas correspondientes al paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera, BIN 48 31 14 y BIN 43 03 07 20)"
+    },
+    {
+      "merchant": "Fundación de Cultura Universitaria",
+      "category": "educacion",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "refundType": "statement-credit",
+      "stackable": false,
+      "excludedApps": [
+        "mercado-pago",
+        "handy"
+      ],
+      "cap": "• Tope de Devolución: 500 pesos uruguayos por cliente por mes",
+      "notes": "• Los descuentos aplican a las tarjetas de CRÉDITO y DEBITO emitidas por Banco Santander S.A. (Uruguay), con excepción de la tarjeta débito incluida dentro del paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera) emitido por Banco Santander S.A. • A éstos descuentos se les sumará el correspondiente a la devolución de puntos de IVA, de acuerdo a la Ley 17.934. Banco Santander es ajeno a los problemas de comunicación que puedan existir para que se realice íntegramente la transacción"
+    },
+    {
+      "merchant": "Imprenta La Canasta",
+      "category": "educacion",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "refundType": "point-of-sale",
+      "stackable": false,
+      "notes": "Quedan excluidas aquellas correspondientes al paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera, BIN 48 31 14)"
+    },
+    {
+      "merchant": "Librería Difusión",
+      "category": "educacion",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "refundType": "point-of-sale",
+      "stackable": false,
+      "notes": "Quedan excluidas aquellas correspondientes al paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera, BIN 48 31 14 y BIN 43 03 07 20)"
+    },
+    {
+      "merchant": "Pencil",
+      "category": "educacion",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "refundType": "point-of-sale",
+      "stackable": false,
+      "notes": "Quedan excluidas aquellas correspondientes al paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera, BIN 48 31 14 y BIN 43 03 07 20)"
+    },
+    {
+      "merchant": "Renart Libros",
+      "category": "educacion",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "refundType": "point-of-sale",
+      "stackable": false,
+      "notes": "Quedan excluidas aquellas correspondientes al paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera, BIN 48 31 14 y BIN 43 03 07 20)"
+    },
+    {
+      "merchant": "Samsung",
+      "category": "electronica",
+      "percent": 20,
+      "tiers": [
+        "todas"
+      ],
+      "refundType": "point-of-sale",
+      "stackable": false,
+      "notes": "Samsung te ayuda a descubrir una amplia gama de dispositivos electrónicos con tecnología de punta, incluyendo smartphones, televisores y más. Quedan excluidas aquellas correspondientes al paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera, BIN 48 31 14 y BIN 43 03 07 20)"
+    },
+    {
+      "merchant": "Mundo Mac",
+      "category": "electronica",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "refundType": "point-of-sale",
+      "stackable": false,
+      "notes": "Quedan excluidas aquellas correspondientes al paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera, BIN 48 31 14 y BIN 43 03 07 20)"
+    },
+    {
+      "merchant": "Nstore",
+      "category": "electronica",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "refundType": "point-of-sale",
+      "stackable": false,
+      "notes": "Nstore.uy es una tienda online que vende tecnología, electrodomésticos, bicicletas y motos eléctricas. También son distribuidores oficiales de Samsung. Quedan excluidas aquellas correspondientes al paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera, BIN 48 31 14 y BIN 43 03 07 20)"
+    },
+    {
+      "merchant": "Edusil",
+      "category": "farmacia",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "refundType": "point-of-sale",
+      "stackable": false,
+      "notes": "Quedan excluidas aquellas correspondientes al paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera, BIN 48 31 14 y BIN 43 03 07 20)"
+    },
+    {
+      "merchant": "Ai Haus",
+      "category": "hogar",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "refundType": "point-of-sale",
+      "stackable": false,
+      "notes": "Ai Haus es una importadora de muebles, amantes del diseño y la decoración de interiores. Quedan excluidas aquellas correspondientes al paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera, BIN 48 31 14 y BIN 43 03 07 20)"
+    },
+    {
+      "merchant": "Arredo",
+      "category": "hogar",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "refundType": "point-of-sale",
+      "stackable": false,
+      "notes": "Quedan excluidas aquellas correspondientes al paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera, BIN 48 31 14 y BIN 43 03 07 20)"
+    },
+    {
+      "merchant": "Bagno & Company",
+      "category": "hogar",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "refundType": "point-of-sale",
+      "stackable": false,
+      "notes": "La promoción no aplica para la compra de electrodomésticos. Este descuento no aplica para el Outlet de Bagno & Company. Quedan excluidas aquellas correspondientes al paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera, BIN 48 31 14 y BIN 43 03 07 20)"
+    },
+    {
+      "merchant": "Balcony Shop",
+      "category": "hogar",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "refundType": "point-of-sale",
+      "stackable": false,
+      "notes": "Balcony Shop vende macetas de cerámica, muebles de exterior y tela Sunbrella especiales para espacios exteriores. Quedan excluidas aquellas correspondientes al paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera, BIN 48 31 14 y BIN 43 03 07 20)"
+    },
+    {
+      "merchant": "Bazar La Familia",
+      "category": "hogar",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "refundType": "point-of-sale",
+      "stackable": false,
+      "notes": "Quedan excluidas aquellas correspondientes al paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera, BIN 48 31 14 y BIN 43 03 07 20)"
+    },
+    {
+      "merchant": "Brote",
+      "category": "hogar",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "refundType": "point-of-sale",
+      "stackable": false,
+      "notes": "Brote es una tienda de plantas exóticas en Montevideo que vende orquídeas, plantas carnívoras, cactus y palmeras. Quedan excluidas aquellas correspondientes al paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera, BIN 48 31 14 y BIN 43 03 07 20)"
+    },
+    {
+      "merchant": "Centro Hogar",
+      "category": "hogar",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "refundType": "point-of-sale",
+      "stackable": false,
+      "notes": "Quedan excluidas aquellas correspondientes al paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera, BIN 48 31 14 y BIN 43 03 07 20)"
+    },
+    {
+      "merchant": "De Arcos",
+      "category": "hogar",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "refundType": "point-of-sale",
+      "stackable": false,
+      "notes": "Tienda de muebles, accesorios de decoración, iluminación y regalos!. Quedan excluidas aquellas correspondientes al paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera, BIN 48 31 14 y BIN 43 03 07 20)"
+    },
+    {
+      "merchant": "Deco Hogar",
+      "category": "hogar",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "refundType": "point-of-sale",
+      "stackable": false,
+      "notes": "Quedan excluidas aquellas correspondientes al paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera, BIN 48 31 14 y BIN 43 03 07 20)"
+    },
+    {
+      "merchant": "Ecoflex",
+      "category": "hogar",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "refundType": "point-of-sale",
+      "stackable": false,
+      "notes": "Ecoflex es una marca de colchones y sommiers. Quedan excluidas aquellas correspondientes al paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera, BIN 48 31 14 y BIN 43 03 07 20)"
+    },
+    {
+      "merchant": "El Cabeza Ferretería",
+      "category": "hogar",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "refundType": "point-of-sale",
+      "stackable": false,
+      "notes": "En ferretería el cabeza encontrara todo lo que pueda necesitar para el trabajo, hogar y construcción. Quedan excluidas aquellas correspondientes al paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera, BIN 48 31 14 y BIN 43 03 07 20)"
+    },
+    {
+      "merchant": "El Cabeza Mueblería",
+      "category": "hogar",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "refundType": "point-of-sale",
+      "stackable": false,
+      "notes": "Quedan excluidas aquellas correspondientes al paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera, BIN 48 31 14 y BIN 43 03 07 20)"
+    },
+    {
+      "merchant": "El Colmenar",
+      "category": "hogar",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "refundType": "point-of-sale",
+      "stackable": false,
+      "notes": "El Colmenar es un reconocido centro de compras con locales en Mercedes, Nueva Palmira, Fray Bentos y Dolores. Quedan excluidas aquellas correspondientes al paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera, BIN 48 31 14 y BIN 43 03 07 20)"
+    },
+    {
+      "merchant": "Ferretería la Hogareña",
+      "category": "hogar",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "refundType": "point-of-sale",
+      "stackable": false,
+      "notes": "Quedan excluidas aquellas correspondientes al paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera, BIN 48 31 14)"
+    },
+    {
+      "merchant": "Fivisa",
+      "category": "hogar",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "refundType": "point-of-sale",
+      "stackable": false,
+      "notes": "Quedan excluidas aquellas correspondientes al paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera, BIN 48 31 14 y BIN 43 03 07 20)"
+    },
+    {
+      "merchant": "Incasa",
+      "category": "hogar",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "refundType": "point-of-sale",
+      "stackable": false,
+      "notes": "Quedan excluidas aquellas correspondientes al paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera, BIN 48 31 14 y BIN 43 03 07 20)"
+    },
+    {
+      "merchant": "Indian Home",
+      "category": "hogar",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "refundType": "point-of-sale",
+      "stackable": false,
+      "notes": "El descuento se hace en el punto de venta"
+    },
+    {
+      "merchant": "Kave Home",
+      "category": "hogar",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "refundType": "point-of-sale",
+      "stackable": false,
+      "notes": "Quedan excluidas aquellas correspondientes al paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera, BIN 48 31 14 y BIN 43 03 07 20)"
+    },
+    {
+      "merchant": "La Asturiana",
+      "category": "hogar",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "refundType": "point-of-sale",
+      "stackable": false,
+      "notes": "La Asturiana es una tienda en Durazno que vende electrodomésticos, muebles e informática. Quedan excluidas aquellas correspondientes al paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera, BIN 48 31 14 y BIN 43 03 07 20)"
+    },
+    {
+      "merchant": "Mikenpacking",
+      "category": "hogar",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "refundType": "point-of-sale",
+      "stackable": false,
+      "notes": "Quedan excluidas aquellas correspondientes al paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera, BIN 48 31 14)"
+    },
+    {
+      "merchant": "Mis Petates",
+      "category": "hogar",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "refundType": "point-of-sale",
+      "stackable": false,
+      "notes": "Quedan excluidas aquellas correspondientes al paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera, BIN 48 31 14 y BIN 43 03 07 20)"
+    },
+    {
+      "merchant": "ML Center",
+      "category": "hogar",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "refundType": "point-of-sale",
+      "stackable": false,
+      "notes": "Suministro e instalación de seguridad y accesorios para vehículos, casas y comercios. En 2006 se suma el rubro Home, en el cual incluyen alarmas, cámaras de seguridad, cercas eléctricas, entre otros. Quedan excluidas aquellas correspondientes al paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera, BIN 48 31 14 y BIN 43 03 07 20)"
+    },
+    {
+      "merchant": "Nicolini",
+      "category": "hogar",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "refundType": "point-of-sale",
+      "stackable": false,
+      "notes": "Quedan excluidas aquellas correspondientes al paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera, BIN 48 31 14 y BIN 43 03 07 20)"
+    },
+    {
+      "merchant": "Pintelux",
+      "category": "hogar",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "refundType": "point-of-sale",
+      "stackable": false,
+      "notes": "Quedan excluidas aquellas correspondientes al paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera, BIN 48 31 14 y BIN 43 03 07 20)"
+    },
+    {
+      "merchant": "Sentido",
+      "category": "hogar",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "refundType": "statement-credit",
+      "cap": "Tope de descuento de 20.000 pesos uruguayos por cliente por mes",
+      "notes": "Quedan excluidas aquellas correspondientes al paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera, BIN 48 31 14 y BIN 43 03 07 20)"
+    },
+    {
+      "merchant": "Velas de la Ballena",
+      "category": "hogar",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "refundType": "point-of-sale",
+      "stackable": false,
+      "notes": "Quedan excluidas aquellas correspondientes al paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera, BIN 48 31 14 y BIN 43 03 07 20)"
+    },
+    {
+      "merchant": "Viasono",
+      "category": "hogar",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "refundType": "point-of-sale",
+      "stackable": false,
+      "notes": "Quedan excluidas aquellas correspondientes al paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera, BIN 48 31 14 y BIN 43 03 07 20)"
+    },
+    {
+      "merchant": "Vidriería BIA",
+      "category": "hogar",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "refundType": "point-of-sale",
+      "stackable": false,
+      "notes": "Quedan excluidas aquellas correspondientes al paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera, BIN 48 31 14 y BIN 43 03 07 20)"
+    },
+    {
+      "merchant": "Walnut - Home & Deco",
+      "category": "hogar",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "refundType": "point-of-sale",
+      "stackable": false,
+      "notes": "Somos una marca uruguaya dedicada a la fabricación, importación, distribución y venta de muebles y accesorios de decoración para el hogar. Nuestro objetivo es proveer al mercado uruguayo de la decoración con productos de buena calidad, accesibles y contemporáneos. Es por eso que, alineados a las tendencias a nivel mundial, buscamos y elegimos con atención y pasión cada artículo de nuestro catálogo. Nos destacamos por la calidad y diseño de nuestros productos. Contamos con una selección cuidadosa de productos fabricados local e internacionalmente. Además representamos marcas exclusivas europeas que destacan por su diseño y calidad. Contamos con un equipo especializado en diseño de interiores y arquitectura, ofrecemos a nuestros clientes un servicio de atención al público exclusivo y personalizado, permitiendo que cada cliente reciba una experiencia única y satisfactoria al momento de adquirir sus productos. ¡Estamos encantadas de asesorarte y ayudarte con la decoración de tu hogar!. Quedan excluidas aquellas correspondientes al paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera, BIN 48 31 14)"
+    },
+    {
+      "merchant": "Baby City",
+      "category": "otros",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "refundType": "point-of-sale",
+      "stackable": false,
+      "notes": "Baby City es una tienda infantil multimarca, cuenta con una amplia variedad de productos pensados para facilitarle a padres y madres el cuidado y entretenimiento de sus hijos. Quedan excluidas aquellas correspondientes al paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera, BIN 48 31 14 y BIN 43 03 07 20)"
+    },
+    {
+      "merchant": "Campera Almacen",
+      "category": "otros",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "refundType": "point-of-sale",
+      "stackable": false,
+      "notes": "Quedan excluidas aquellas correspondientes al paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera, BIN 48 31 14 y BIN 43 03 07 20)"
+    },
+    {
+      "merchant": "Cymaco",
+      "category": "otros",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "refundType": "point-of-sale",
+      "stackable": false,
+      "notes": "Quedan excluidas aquellas correspondientes al paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera, BIN 48 31 14 y BIN 43 03 07 20)"
+    },
+    {
+      "merchant": "Fresa y Lima",
+      "category": "otros",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "refundType": "point-of-sale",
+      "stackable": false,
+      "notes": "Quedan excluidas aquellas correspondientes al paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera, BIN 48 31 14 y BIN 43 03 07 20)"
+    },
+    {
+      "merchant": "Iber",
+      "category": "otros",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "refundType": "point-of-sale",
+      "stackable": false,
+      "notes": "Quedan excluidas aquellas correspondientes al paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera, BIN 48 31 14)"
+    },
+    {
+      "merchant": "Infantozzi",
+      "category": "otros",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "refundType": "point-of-sale",
+      "stackable": false,
+      "notes": "Aplica únicamente en local de Infantozzi ubicado en Avenida Uruguay 1653 (Montevideo). El descuento aplica únicamente para compras a consumidor final. No aplica sobre compras de Colegios y otras instituciones. Quedan excluidas aquellas correspondientes al paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera, BIN 48 31 14 y BIN 43 03 07 20)"
+    },
+    {
+      "merchant": "Jugetería Avellana",
+      "category": "otros",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "refundType": "point-of-sale",
+      "stackable": false,
+      "notes": "Quedan excluidas aquellas correspondientes al paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera, BIN 48 31 14 y BIN 43 03 07 20)"
+    },
+    {
+      "merchant": "Jump Club",
+      "category": "otros",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "refundType": "point-of-sale",
+      "stackable": false,
+      "notes": "Quedan excluidas aquellas correspondientes al paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera, BIN 48 31 14 y BIN 43 03 07 20)"
+    },
+    {
+      "merchant": "La Buhardilla",
+      "category": "otros",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "refundType": "point-of-sale",
+      "stackable": false,
+      "notes": "Quedan excluidas aquellas correspondientes al paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera, BIN 48 31 14 y BIN 43 03 07 20)"
+    },
+    {
+      "merchant": "Matilda",
+      "category": "otros",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "refundType": "point-of-sale",
+      "stackable": false,
+      "notes": "Quedan excluidas aquellas correspondientes al paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera, BIN 48 31 14 y BIN 43 03 07 20)"
+    },
+    {
+      "merchant": "Ositos & Cia",
+      "category": "otros",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "refundType": "point-of-sale",
+      "stackable": false,
+      "notes": "Quedan excluidas aquellas correspondientes al paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera, BIN 48 31 14 y BIN 43 03 07 20)"
+    },
+    {
+      "merchant": "Peekaboo",
+      "category": "otros",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "refundType": "point-of-sale",
+      "stackable": false,
+      "notes": "Peekaboo es una tienda infantil multimarca, cuenta con una amplia variedad de productos pensados para facilitarle a padres y madres el cuidado y entretenimiento de sus hijos. Quedan excluidas aquellas correspondientes al paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera, BIN 48 31 14 y BIN 43 03 07 20)"
+    },
+    {
+      "merchant": "Pekemundo",
+      "category": "otros",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "refundType": "point-of-sale",
+      "stackable": false,
+      "notes": "Quedan excluidas aquellas correspondientes al paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera, BIN 48 31 14 y BIN 43 03 07 20)"
+    },
+    {
+      "merchant": "Petit Baby",
+      "category": "otros",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "refundType": "point-of-sale",
+      "stackable": false,
+      "notes": "Quedan excluidas aquellas correspondientes al paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera, BIN 48 31 14 y BIN 43 03 07 20)"
+    },
+    {
+      "merchant": "Smart",
+      "category": "otros",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "refundType": "point-of-sale",
+      "stackable": false,
+      "notes": "Quedan excluidas aquellas correspondientes al paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera, BIN 48 31 14 y BIN 43 03 07 20)"
+    },
+    {
+      "merchant": "Sucan",
+      "category": "otros",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "refundType": "point-of-sale",
+      "stackable": false,
+      "notes": "Comida y accesorios para mascotas. Quedan excluidas aquellas correspondientes al paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera, BIN 48 31 14 y BIN 43 03 07 20)"
+    },
+    {
+      "merchant": "Veterinaria Cavia",
+      "category": "otros",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "refundType": "point-of-sale",
+      "stackable": false,
+      "notes": "Quedan excluidas aquellas correspondientes al paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera, BIN 48 31 14 y BIN 43 03 07 20)"
+    },
+    {
+      "merchant": "Life Distrito M",
+      "category": "salud",
+      "percent": 25,
+      "tiers": [
+        "todas"
+      ],
+      "refundType": "point-of-sale",
+      "stackable": false,
+      "notes": "Descuento válido para mensualidades pagas con débito automático de tarjeta de crédito, y para compra de membresías de mínimo 3 meses con tarjeta de débito o crédito. Más que un club y centro de entrenamiento. Un estilo de vida. Un lugar donde la actividad física, la innovación y la motivación constante se fusionan para crear experiencias únicas y memorables. Quedan excluidas aquellas correspondientes al paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera, BIN 48 31 14 y BIN 43 03 07 20)"
+    },
+    {
+      "merchant": "Life Zonamérica",
+      "category": "salud",
+      "percent": 25,
+      "tiers": [
+        "todas"
+      ],
+      "refundType": "point-of-sale",
+      "stackable": false,
+      "notes": "Descuento válido para mensualidades pagas con débito automático de tarjeta de crédito, y para compra de membresías de mínimo 3 meses con tarjeta de débito o crédito. Más que un club y centro de entrenamiento. Un estilo de vida. Un lugar donde la actividad física, la innovación y la motivación constante se fusionan para crear experiencias únicas y memorables. Quedan excluidas aquellas correspondientes al paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera, BIN 48 31 14 y BIN 43 03 07 20)"
+    },
+    {
+      "merchant": "Be Padel",
+      "category": "salud",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "refundType": "statement-credit",
+      "stackable": false,
+      "excludedApps": [
+        "mercado-pago",
+        "handy"
+      ],
+      "cap": "• Tope de Devolución: el mismo se calcula por tipo de tarjeta: crédito o débito",
+      "notes": "• Los descuentos aplican a las tarjetas de CRÉDITO y DEBITO emitidas por Banco Santander S.A. (Uruguay), con excepción de la tarjeta débito incluida dentro del paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera) emitido por Banco Santander S.A. • A éstos descuentos se les sumará el correspondiente a la devolución de puntos de IVA, de acuerdo a la Ley 17.934. Para tarjetas de crédito Select : la devolución es de hasta UYU 4.000 en la suma de tarjetas por cada restaurant. Para tarjetas de débito Select la devolución es de hasta UYU 4.000 en la suma en tarjetas por mes por cada restaurant. Banco Santander es ajeno a los problemas de comunicación que puedan existir para que se realice íntegramente la transacción"
+    },
+    {
+      "merchant": "Boss Padel",
+      "category": "salud",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "refundType": "statement-credit",
+      "stackable": false,
+      "excludedApps": [
+        "mercado-pago",
+        "handy"
+      ],
+      "cap": "• Tope de Devolución: 20.000 pesos uruguayos por mes por cliente",
+      "notes": "Boss Padel es un lugar de entrenamiento para jugar al pádel para todos los niveles. • Los descuentos aplican a las tarjetas de CRÉDITO y DEBITO emitidas por Banco Santander S.A. (Uruguay), con excepción de la tarjeta débito incluida dentro del paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera) emitido por Banco Santander S.A. • A éstos descuentos se les sumará el correspondiente a la devolución de puntos de IVA, de acuerdo a la Ley 17.934. Banco Santander es ajeno a los problemas de comunicación que puedan existir para que se realice íntegramente la transacción"
+    },
+    {
+      "merchant": "By Pass Padel",
+      "category": "salud",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "refundType": "point-of-sale",
+      "stackable": false,
+      "notes": "Quedan excluidas aquellas correspondientes al paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera, BIN 48 31 14 y BIN 43 03 07 20)"
+    },
+    {
+      "merchant": "Extreme Force",
+      "category": "salud",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "refundType": "point-of-sale",
+      "stackable": false,
+      "notes": "Extreme Force es una cadena de tiendas especializadas en la venta de suplementos nutricionales y accesorios para fitness, ofrecemos soluciones a medida para cada cliente. Quedan excluidas aquellas correspondientes al paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera, BIN 48 31 14 y BIN 43 03 07 20)"
+    },
+    {
+      "merchant": "Gymtonic",
+      "category": "salud",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "refundType": "point-of-sale",
+      "stackable": false,
+      "notes": "Quedan excluidas aquellas correspondientes al paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera, BIN 48 31 14 y BIN 43 03 07 20)"
+    },
+    {
+      "merchant": "Indoor Padel",
+      "category": "salud",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "refundType": "point-of-sale",
+      "stackable": false,
+      "notes": "Indoor Pádel Montevideo es un club de pádel con cuatro canchas panorámicas en Carrasco, Montevideo. El club cuenta con: Vestuario, Club house, Barbacoa, Estacionamiento privado, Torneos mensuales. Quedan excluidas aquellas correspondientes al paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera, BIN 48 31 14 y BIN 43 03 07 20)"
+    },
+    {
+      "merchant": "Pando Pádel Club",
+      "category": "salud",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "refundType": "point-of-sale",
+      "stackable": false,
+      "notes": "Quedan excluidas aquellas correspondientes al paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera, BIN 48 31 14 y BIN 43 03 07 20)"
+    },
+    {
+      "merchant": "Top Ten",
+      "category": "salud",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "refundType": "point-of-sale",
+      "stackable": false,
+      "notes": "Quedan excluidas aquellas correspondientes al paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera, BIN 48 31 14 y BIN 43 03 07 20)"
     }
   ]
 }

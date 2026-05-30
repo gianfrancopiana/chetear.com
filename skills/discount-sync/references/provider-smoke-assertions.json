@@ -10,15 +10,16 @@
     ]
   },
   "santander": {
-    "minRules": 10,
-    "maxRules": 25,
-    "minUniqueMerchants": 7,
+    "minRules": 70,
+    "maxRules": 95,
+    "minUniqueMerchants": 65,
     "mustContainMerchants": [
       "Hipermás",
       "Restaurantes",
       "Farmashop",
       "Heladerías adheridas",
-      "Moda"
+      "Moda",
+      "Sucan"
     ],
     "mustMatchRules": [
       {
