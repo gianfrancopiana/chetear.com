@@ -74,14 +74,6 @@
       "validUntil": "2026-07-02"
     },
     {
-      "merchant": "Anita Martínez | Mamushka",
-      "category": "entretenimiento",
-      "percent": 50,
-      "benefitType": "2-for-1",
-      "notes": "29 de Mayo - 21 hs. Lugar: Pueblo Narakan",
-      "validUntil": "2026-05-29"
-    },
-    {
       "merchant": "Ballet Nacional Sodre",
       "category": "entretenimiento",
       "percent": 50,
@@ -220,19 +212,12 @@
       "validUntil": "2026-07-10"
     },
     {
-      "merchant": "La Madre",
+      "merchant": "Las Hijas",
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "8, 15, 22 y 29 de Mayo. Lugar: Teatro El Galpón",
-      "validUntil": "2026-05-29"
-    },
-    {
-      "merchant": "Las HIjas",
-      "category": "entretenimiento",
-      "percent": 50,
-      "benefitType": "2-for-1",
-      "notes": "15 y 16 e octubre. Lugar: Teatro El Galpón"
+      "notes": "15 y 16 de octubre. Lugar: Teatro El Galpón",
+      "validUntil": "2026-10-16"
     },
     {
       "merchant": "Lito Vitale – Hilda Lizarazu",
@@ -243,27 +228,12 @@
       "validUntil": "2026-06-19"
     },
     {
-      "merchant": "Luli Pampín",
-      "category": "entretenimiento",
-      "percent": 50,
-      "benefitType": "2-for-1",
-      "notes": "09 de julio - 15hs. Lugar: Antel Arena",
-      "validUntil": "2026-07-09"
-    },
-    {
       "merchant": "Maia Castro – 20 años",
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
       "notes": "22 de agosto - 20hs. Lugar: Teatro Solís",
       "validUntil": "2026-08-22"
-    },
-    {
-      "merchant": "Margaritas en el Mar",
-      "category": "entretenimiento",
-      "percent": 50,
-      "benefitType": "2-for-1",
-      "notes": "Sábados y domingo de mayo - 20:30hs. Lugar: Teatro Solís"
     },
     {
       "merchant": "Martín Masiello en Concierto",
@@ -365,14 +335,6 @@
       "validUntil": "2026-06-10"
     },
     {
-      "merchant": "Sobre la Marcha – Nuestras Vidas",
-      "category": "entretenimiento",
-      "percent": 50,
-      "benefitType": "2-for-1",
-      "notes": "18 de Junio - 21 hs. Lugar: Teatro Stella D'Italia. La Gaviota",
-      "validUntil": "2026-06-18"
-    },
-    {
       "merchant": "Suma Camerata en vivo",
       "category": "entretenimiento",
       "percent": 50,
@@ -410,14 +372,6 @@
       "validUntil": "2026-10-09"
     },
     {
-      "merchant": "Un dios salvaje",
-      "category": "entretenimiento",
-      "percent": 50,
-      "benefitType": "2-for-1",
-      "notes": "8, 15, 22 y 29 de Mayo - 20:30hs. Lugar: Teatro Alianza",
-      "validUntil": "2026-05-29"
-    },
-    {
       "merchant": "Un Poyo Rojo",
       "category": "entretenimiento",
       "percent": 50,
@@ -432,14 +386,6 @@
       "benefitType": "2-for-1",
       "notes": "01 de noviembre - 20:00 hs. Lugar: Auditorio Adela Reta",
       "validUntil": "2026-11-01"
-    },
-    {
-      "merchant": "Voices: Una noche con Queen",
-      "category": "entretenimiento",
-      "percent": 50,
-      "benefitType": "2-for-1",
-      "notes": "16, 23 y 30 de mayo. Lugar: Teatro Alianza",
-      "validUntil": "2026-05-30"
     },
     {
       "merchant": "Librería Escaramuza",
@@ -469,11 +415,6 @@
     },
     {
       "merchant": "Palacio de la Música",
-      "category": "entretenimiento",
-      "percent": 15
-    },
-    {
-      "merchant": "Tu Movie Kids",
       "category": "entretenimiento",
       "percent": 15
     },
