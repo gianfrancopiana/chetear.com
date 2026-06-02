@@ -124,11 +124,23 @@ const ProviderDiscounts = z
   })
   .strict();
 
+// Uruguay bounding box. Coordinates outside it mean the geocoder returned a
+// point in the wrong country, which is a hard validation error.
+const MerchantGeo = z
+  .object({
+    lat: z.number().min(-35.5).max(-29.5),
+    lng: z.number().min(-58.6).max(-52.8),
+    confidence: z.enum(["high", "low"]).optional(),
+  })
+  .strict();
+
 const MerchantListMerchant = z
   .object({
     name: z.string().min(1),
     url: z.string().url().optional(),
     location: z.string().min(1).optional(),
+    geo: MerchantGeo.optional(),
+    mapsUrl: z.string().url().optional(),
   })
   .strict();
 

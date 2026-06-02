@@ -12,128 +12,494 @@
         "https://www.santander.com.uy/beneficios"
       ],
       "merchants": [
-        { "name": "Bruta", "url": "https://www.santander.com.uy/beneficios/bruta" },
-        { "name": "Nora Rey", "url": "https://www.santander.com.uy/beneficios/nora-rey" },
-        { "name": "La Pasiva Arocena", "url": "https://www.santander.com.uy/beneficios/la-pasiva-arocena" },
-        { "name": "Facal", "url": "https://www.santander.com.uy/beneficios/facal" },
-        { "name": "Parador El Paso", "url": "https://www.santander.com.uy/beneficios/parador-el-paso" },
-        { "name": "NONA", "url": "https://www.santander.com.uy/beneficios/nona" },
-        { "name": "PedidosYa", "url": "https://www.santander.com.uy/beneficios/pedidosya" },
-        { "name": "La Rural", "url": "https://www.santander.com.uy/beneficios/la-rural" },
-        { "name": "Crepas (Montevideo)", "url": "https://www.santander.com.uy/beneficios/crepas-montevideo" },
-        { "name": "Isidora Restaurant", "url": "https://www.santander.com.uy/beneficios/isidora-restaurant" },
-        { "name": "Restaurante Oscar", "url": "https://www.santander.com.uy/beneficios/restaurante-oscar" },
-        { "name": "PRINCIPES DEL SUR", "url": "https://www.santander.com.uy/beneficios/principes-del-sur" },
-        { "name": "ORIUNDO", "url": "https://www.santander.com.uy/beneficios/oriundo" },
-        { "name": "Posto 5", "url": "https://www.santander.com.uy/beneficios/posto-5" },
-        { "name": "Cafe del Sol", "url": "https://www.santander.com.uy/beneficios/cafe-del-sol" },
-        { "name": "Porto Vanila", "url": "https://www.santander.com.uy/beneficios/porto-vanila" },
-        { "name": "Los Leños", "url": "https://www.santander.com.uy/beneficios/los-lenos" },
-        { "name": "La Trattoria", "url": "https://www.santander.com.uy/beneficios/la-trattoria" },
-        { "name": "PIZZORNO FAMILY STATES", "url": "https://www.santander.com.uy/beneficios/pizzorno-family-states" },
-        { "name": "Late", "url": "https://www.santander.com.uy/beneficios/late" },
-        { "name": "Provaca", "url": "https://www.santander.com.uy/beneficios/provaca" },
-        { "name": "Naru Sushi Bar", "url": "https://www.santander.com.uy/beneficios/naru-sushi-bar" },
-        { "name": "Artico Sea Food", "url": "https://www.santander.com.uy/beneficios/artico-sea-food" },
-        { "name": "Toledo", "url": "https://www.santander.com.uy/beneficios/toledo" },
-        { "name": "BBC BURGUER & SUSHI", "url": "https://www.santander.com.uy/beneficios/bbc-burguer-sushi" },
-        { "name": "UMAMI", "url": "https://www.santander.com.uy/beneficios/umami" },
-        { "name": "Mendizabal", "url": "https://www.santander.com.uy/beneficios/mendizabal" },
-        { "name": "Dakota Steakhouse & Bar", "url": "https://www.santander.com.uy/beneficios/dakota-steakhouse-bar" },
-        { "name": "La Marea", "url": "https://www.santander.com.uy/beneficios/la-marea" },
-        { "name": "481 Gourmet", "url": "https://www.santander.com.uy/beneficios/481-gourmet" },
-        { "name": "Panadería Brava", "url": "https://www.santander.com.uy/beneficios/panaderia-brava" },
-        { "name": "Donut City", "url": "https://www.santander.com.uy/beneficios/donut-city" },
-        { "name": "MISION", "url": "https://www.santander.com.uy/beneficios/mision" },
-        { "name": "Duciana Cafetería", "url": "https://www.santander.com.uy/beneficios/duciana-cafeteria" },
-        { "name": "Montevideo Beer Company", "url": "https://www.santander.com.uy/beneficios/montevideo-beer-company" },
-        { "name": "Shark Club", "url": "https://www.santander.com.uy/beneficios/shark-club" },
-        { "name": "SushiAPP", "url": "https://www.santander.com.uy/beneficios/sushiapp" },
-        { "name": "Gouda", "url": "https://www.santander.com.uy/beneficios/gouda" },
-        { "name": "Restaurante García", "url": "https://www.santander.com.uy/beneficios/restaurante-garcia" },
-        { "name": "Lavender", "url": "https://www.santander.com.uy/beneficios/lavender" },
-        { "name": "Lo de Marcos", "url": "https://www.santander.com.uy/beneficios/lo-de-marcos" },
-        { "name": "Soho", "url": "https://www.santander.com.uy/beneficios/soho" },
-        { "name": "MEAT HOUSE", "url": "https://www.santander.com.uy/beneficios/meat-house" },
-        { "name": "Ramona", "url": "https://www.santander.com.uy/beneficios/ramona" },
-        { "name": "LA ESQUINA", "url": "https://www.santander.com.uy/beneficios/la-esquina" },
-        { "name": "I’Marangatú", "url": "https://www.santander.com.uy/beneficios/imarangatu" },
-        { "name": "Finca Boutique de Carnes", "url": "https://www.santander.com.uy/beneficios/finca-boutique-de-carnes" },
-        { "name": "El Bar", "url": "https://www.santander.com.uy/beneficios/el-bar" },
-        { "name": "Cafetto Prado", "url": "https://www.santander.com.uy/beneficios/cafetto-prado" },
-        { "name": "Orbe", "url": "https://www.santander.com.uy/beneficios/orbe" },
-        { "name": "Pellicer Parrilla Gourmet", "url": "https://www.santander.com.uy/beneficios/pellicer-parrilla-gourmet" },
-        { "name": "Otero (By Rotunda)", "url": "https://www.santander.com.uy/beneficios/otero-rotunda" },
-        { "name": "Dilema Café & Restobar", "url": "https://www.santander.com.uy/beneficios/dilema-cafe-restobar" },
-        { "name": "Charo Cocina y Café", "url": "https://www.santander.com.uy/beneficios/charo-cocina-y-cafe" },
-        { "name": "La Pasiva 26 de Marzo", "url": "https://www.santander.com.uy/beneficios/la-pasiva-26-de-marzo" },
-        { "name": "El Mingus", "url": "https://www.santander.com.uy/beneficios/el-mingus" },
-        { "name": "Las Pavas", "url": "https://www.santander.com.uy/beneficios/las-pavas" },
-        { "name": "Cafe Julisa", "url": "https://www.santander.com.uy/beneficios/cafe-julisa" },
-        { "name": "Café Salvo", "url": "https://www.santander.com.uy/beneficios/cafe-salvo" },
-        { "name": "Tato Pescador", "url": "https://www.santander.com.uy/beneficios/tato-pescador" },
-        { "name": "Cali Cafe", "url": "https://www.santander.com.uy/beneficios/cali-cafe" },
-        { "name": "Innato", "url": "https://www.santander.com.uy/beneficios/innato" },
-        { "name": "Bodega Spinoglio", "url": "https://www.santander.com.uy/beneficios/bodega-spinoglio" },
-        { "name": "Café Butiá", "url": "https://www.santander.com.uy/beneficios/cafe-butia" },
-        { "name": "Bar Arehucas", "url": "https://www.santander.com.uy/beneficios/bar-arehucas" },
-        { "name": "Sintel", "url": "https://www.santander.com.uy/beneficios/sintel" },
-        { "name": "Medialunas Calentitas", "url": "https://www.santander.com.uy/beneficios/medialunas-calentitas-0" },
-        { "name": "Popei", "url": "https://www.santander.com.uy/beneficios/popei-0" },
-        { "name": "OrderEat", "url": "https://www.santander.com.uy/beneficios/ordereat" },
-        { "name": "Ocho Nudos", "url": "https://www.santander.com.uy/beneficios/ocho-nudos" },
-        { "name": "Felix Caffè", "url": "https://www.santander.com.uy/beneficios/felix-caffe" },
-        { "name": "La Mantequería", "url": "https://www.santander.com.uy/beneficios/la-mantequeria" },
-        { "name": "Raza Nuestra", "url": "https://www.santander.com.uy/beneficios/raza-nuestra" },
-        { "name": "City Winery", "url": "https://www.santander.com.uy/beneficios/city-winery" },
-        { "name": "Knuss heladería y café", "url": "https://www.santander.com.uy/beneficios/knuss-heladeria-y-cafe" },
-        { "name": "De Diez Burger", "url": "https://www.santander.com.uy/beneficios/de-diez-burger" },
-        { "name": "Bequelo", "url": "https://www.santander.com.uy/beneficios/bequelo" },
-        { "name": "Empanadas Calentitas", "url": "https://www.santander.com.uy/beneficios/empanadas-calentitas" },
-        { "name": "Lolo", "url": "https://www.santander.com.uy/beneficios/lolo" },
-        { "name": "Cresta Cafe", "url": "https://www.santander.com.uy/beneficios/cresta-cafe" },
-        { "name": "Delirio", "url": "https://www.santander.com.uy/beneficios/delirio" },
-        { "name": "Laferre", "url": "https://www.santander.com.uy/beneficios/laferre" },
-        { "name": "Life Bistro", "url": "https://www.santander.com.uy/beneficios/life-bistro" },
-        { "name": "Papirosen", "url": "https://www.santander.com.uy/beneficios/papirosen" },
-        { "name": "La Cocktelería", "url": "https://www.santander.com.uy/beneficios/la-cockteleria" },
-        { "name": "Manantiales Point", "url": "https://www.santander.com.uy/beneficios/manantiales-point" },
-        { "name": "Gabbs", "url": "https://www.santander.com.uy/beneficios/gabbs" },
-        { "name": "Mariapasión", "url": "https://www.santander.com.uy/beneficios/mariapasion" },
-        { "name": "Café Mallorca", "url": "https://www.santander.com.uy/beneficios/cafe-mallorca" },
-        { "name": "Almar", "url": "https://www.santander.com.uy/beneficios/almar" },
-        { "name": "Rullé", "url": "https://www.santander.com.uy/beneficios/rulle" },
-        { "name": "Entre Panes", "url": "https://www.santander.com.uy/beneficios/entre-panes" },
-        { "name": "La Vuelta", "url": "https://www.santander.com.uy/beneficios/la-vuelta" },
-        { "name": "The Beer House", "url": "https://www.santander.com.uy/beneficios/beer-house" },
-        { "name": "Gryk", "url": "https://www.santander.com.uy/beneficios/gryk" },
-        { "name": "Bravo Restó", "url": "https://www.santander.com.uy/beneficios/bravo-resto" },
-        { "name": "El Fondin", "url": "https://www.santander.com.uy/beneficios/el-fondin" },
-        { "name": "El Garage de George", "url": "https://www.santander.com.uy/beneficios/el-garage-de-george" },
-        { "name": "La Perrera", "url": "https://www.santander.com.uy/beneficios/la-perrera" },
-        { "name": "Arraí", "url": "https://www.santander.com.uy/beneficios/arrai" },
-        { "name": "Cafetería Ferran", "url": "https://www.santander.com.uy/beneficios/cafeteria-ferran" },
-        { "name": "Franca", "url": "https://www.santander.com.uy/beneficios/franca" },
-        { "name": "Genuina", "url": "https://www.santander.com.uy/beneficios/genuina" },
-        { "name": "Irisarri", "url": "https://www.santander.com.uy/beneficios/irisarri" },
-        { "name": "Boutique de Carnes", "url": "https://www.santander.com.uy/beneficios/boutique-de-carnes" },
-        { "name": "La Casita by Cari", "url": "https://www.santander.com.uy/beneficios/la-casita-cari" },
-        { "name": "La Pasiva Solanas", "url": "https://www.santander.com.uy/beneficios/la-pasiva-solanas" },
-        { "name": "Legua", "url": "https://www.santander.com.uy/beneficios/legua" },
-        { "name": "Lincanto", "url": "https://www.santander.com.uy/beneficios/lincanto" },
-        { "name": "Manon", "url": "https://www.santander.com.uy/beneficios/manon" },
-        { "name": "Menos Mal", "url": "https://www.santander.com.uy/beneficios/menos-mal" },
-        { "name": "Parador 8 de la Brava", "url": "https://www.santander.com.uy/beneficios/parador-8-de-la-brava" },
-        { "name": "Parador San Rafael", "url": "https://www.santander.com.uy/beneficios/parador-san-rafael" },
-        { "name": "Sushi Meshi", "url": "https://www.santander.com.uy/beneficios/sushi-meshi" },
-        { "name": "Tommy Bistro", "url": "https://www.santander.com.uy/beneficios/tommy-bistro" },
-        { "name": "Las Tres Marias", "url": "https://www.santander.com.uy/beneficios/las-tres-marias" },
-        { "name": "Da Haus", "url": "https://www.santander.com.uy/beneficios/da-haus" },
-        { "name": "Gelato House", "url": "https://www.santander.com.uy/beneficios/gelato-house" },
-        { "name": "Nihon Sushi", "url": "https://www.santander.com.uy/beneficios/nihon-sushi" },
-        { "name": "El Berretin", "url": "https://www.santander.com.uy/beneficios/el-berretin-0" },
-        { "name": "Bardo", "url": "https://www.santander.com.uy/beneficios/bardo" },
-        { "name": "Burger Point", "url": "https://www.santander.com.uy/beneficios/burger-point" }
+        {
+          "name": "Bruta",
+          "url": "https://www.santander.com.uy/beneficios/bruta"
+        },
+        {
+          "name": "Nora Rey",
+          "url": "https://www.santander.com.uy/beneficios/nora-rey"
+        },
+        {
+          "name": "La Pasiva Arocena",
+          "url": "https://www.santander.com.uy/beneficios/la-pasiva-arocena"
+        },
+        {
+          "name": "Facal",
+          "url": "https://www.santander.com.uy/beneficios/facal"
+        },
+        {
+          "name": "Parador El Paso",
+          "url": "https://www.santander.com.uy/beneficios/parador-el-paso"
+        },
+        {
+          "name": "NONA",
+          "url": "https://www.santander.com.uy/beneficios/nona"
+        },
+        {
+          "name": "PedidosYa",
+          "url": "https://www.santander.com.uy/beneficios/pedidosya"
+        },
+        {
+          "name": "La Rural",
+          "url": "https://www.santander.com.uy/beneficios/la-rural"
+        },
+        {
+          "name": "Crepas (Montevideo)",
+          "url": "https://www.santander.com.uy/beneficios/crepas-montevideo"
+        },
+        {
+          "name": "Isidora Restaurant",
+          "url": "https://www.santander.com.uy/beneficios/isidora-restaurant"
+        },
+        {
+          "name": "Restaurante Oscar",
+          "url": "https://www.santander.com.uy/beneficios/restaurante-oscar"
+        },
+        {
+          "name": "PRINCIPES DEL SUR",
+          "url": "https://www.santander.com.uy/beneficios/principes-del-sur"
+        },
+        {
+          "name": "ORIUNDO",
+          "url": "https://www.santander.com.uy/beneficios/oriundo"
+        },
+        {
+          "name": "Posto 5",
+          "url": "https://www.santander.com.uy/beneficios/posto-5"
+        },
+        {
+          "name": "Cafe del Sol",
+          "url": "https://www.santander.com.uy/beneficios/cafe-del-sol"
+        },
+        {
+          "name": "Porto Vanila",
+          "url": "https://www.santander.com.uy/beneficios/porto-vanila"
+        },
+        {
+          "name": "Los Leños",
+          "url": "https://www.santander.com.uy/beneficios/los-lenos"
+        },
+        {
+          "name": "La Trattoria",
+          "url": "https://www.santander.com.uy/beneficios/la-trattoria"
+        },
+        {
+          "name": "PIZZORNO FAMILY STATES",
+          "url": "https://www.santander.com.uy/beneficios/pizzorno-family-states"
+        },
+        {
+          "name": "Late",
+          "url": "https://www.santander.com.uy/beneficios/late"
+        },
+        {
+          "name": "Provaca",
+          "url": "https://www.santander.com.uy/beneficios/provaca"
+        },
+        {
+          "name": "Naru Sushi Bar",
+          "url": "https://www.santander.com.uy/beneficios/naru-sushi-bar"
+        },
+        {
+          "name": "Artico Sea Food",
+          "url": "https://www.santander.com.uy/beneficios/artico-sea-food"
+        },
+        {
+          "name": "Toledo",
+          "url": "https://www.santander.com.uy/beneficios/toledo"
+        },
+        {
+          "name": "BBC BURGUER & SUSHI",
+          "url": "https://www.santander.com.uy/beneficios/bbc-burguer-sushi"
+        },
+        {
+          "name": "UMAMI",
+          "url": "https://www.santander.com.uy/beneficios/umami"
+        },
+        {
+          "name": "Mendizabal",
+          "url": "https://www.santander.com.uy/beneficios/mendizabal"
+        },
+        {
+          "name": "Dakota Steakhouse & Bar",
+          "url": "https://www.santander.com.uy/beneficios/dakota-steakhouse-bar"
+        },
+        {
+          "name": "La Marea",
+          "url": "https://www.santander.com.uy/beneficios/la-marea"
+        },
+        {
+          "name": "481 Gourmet",
+          "url": "https://www.santander.com.uy/beneficios/481-gourmet"
+        },
+        {
+          "name": "Panadería Brava",
+          "url": "https://www.santander.com.uy/beneficios/panaderia-brava"
+        },
+        {
+          "name": "Donut City",
+          "url": "https://www.santander.com.uy/beneficios/donut-city"
+        },
+        {
+          "name": "MISION",
+          "url": "https://www.santander.com.uy/beneficios/mision"
+        },
+        {
+          "name": "Duciana Cafetería",
+          "url": "https://www.santander.com.uy/beneficios/duciana-cafeteria"
+        },
+        {
+          "name": "Montevideo Beer Company",
+          "url": "https://www.santander.com.uy/beneficios/montevideo-beer-company"
+        },
+        {
+          "name": "Shark Club",
+          "url": "https://www.santander.com.uy/beneficios/shark-club"
+        },
+        {
+          "name": "SushiAPP",
+          "url": "https://www.santander.com.uy/beneficios/sushiapp"
+        },
+        {
+          "name": "Gouda",
+          "url": "https://www.santander.com.uy/beneficios/gouda"
+        },
+        {
+          "name": "Restaurante García",
+          "url": "https://www.santander.com.uy/beneficios/restaurante-garcia"
+        },
+        {
+          "name": "Lavender",
+          "url": "https://www.santander.com.uy/beneficios/lavender"
+        },
+        {
+          "name": "Lo de Marcos",
+          "url": "https://www.santander.com.uy/beneficios/lo-de-marcos"
+        },
+        {
+          "name": "Soho",
+          "url": "https://www.santander.com.uy/beneficios/soho"
+        },
+        {
+          "name": "MEAT HOUSE",
+          "url": "https://www.santander.com.uy/beneficios/meat-house"
+        },
+        {
+          "name": "Ramona",
+          "url": "https://www.santander.com.uy/beneficios/ramona"
+        },
+        {
+          "name": "LA ESQUINA",
+          "url": "https://www.santander.com.uy/beneficios/la-esquina"
+        },
+        {
+          "name": "I’Marangatú",
+          "url": "https://www.santander.com.uy/beneficios/imarangatu"
+        },
+        {
+          "name": "Finca Boutique de Carnes",
+          "url": "https://www.santander.com.uy/beneficios/finca-boutique-de-carnes"
+        },
+        {
+          "name": "El Bar",
+          "url": "https://www.santander.com.uy/beneficios/el-bar"
+        },
+        {
+          "name": "Cafetto Prado",
+          "url": "https://www.santander.com.uy/beneficios/cafetto-prado"
+        },
+        {
+          "name": "Orbe",
+          "url": "https://www.santander.com.uy/beneficios/orbe"
+        },
+        {
+          "name": "Pellicer Parrilla Gourmet",
+          "url": "https://www.santander.com.uy/beneficios/pellicer-parrilla-gourmet"
+        },
+        {
+          "name": "Otero (By Rotunda)",
+          "url": "https://www.santander.com.uy/beneficios/otero-rotunda"
+        },
+        {
+          "name": "Dilema Café & Restobar",
+          "url": "https://www.santander.com.uy/beneficios/dilema-cafe-restobar"
+        },
+        {
+          "name": "Charo Cocina y Café",
+          "url": "https://www.santander.com.uy/beneficios/charo-cocina-y-cafe"
+        },
+        {
+          "name": "La Pasiva 26 de Marzo",
+          "url": "https://www.santander.com.uy/beneficios/la-pasiva-26-de-marzo"
+        },
+        {
+          "name": "El Mingus",
+          "url": "https://www.santander.com.uy/beneficios/el-mingus"
+        },
+        {
+          "name": "Las Pavas",
+          "url": "https://www.santander.com.uy/beneficios/las-pavas"
+        },
+        {
+          "name": "Cafe Julisa",
+          "url": "https://www.santander.com.uy/beneficios/cafe-julisa"
+        },
+        {
+          "name": "Café Salvo",
+          "url": "https://www.santander.com.uy/beneficios/cafe-salvo"
+        },
+        {
+          "name": "Tato Pescador",
+          "url": "https://www.santander.com.uy/beneficios/tato-pescador"
+        },
+        {
+          "name": "Cali Cafe",
+          "url": "https://www.santander.com.uy/beneficios/cali-cafe"
+        },
+        {
+          "name": "Innato",
+          "url": "https://www.santander.com.uy/beneficios/innato"
+        },
+        {
+          "name": "Bodega Spinoglio",
+          "url": "https://www.santander.com.uy/beneficios/bodega-spinoglio"
+        },
+        {
+          "name": "Café Butiá",
+          "url": "https://www.santander.com.uy/beneficios/cafe-butia"
+        },
+        {
+          "name": "Bar Arehucas",
+          "url": "https://www.santander.com.uy/beneficios/bar-arehucas"
+        },
+        {
+          "name": "Sintel",
+          "url": "https://www.santander.com.uy/beneficios/sintel"
+        },
+        {
+          "name": "Medialunas Calentitas",
+          "url": "https://www.santander.com.uy/beneficios/medialunas-calentitas-0"
+        },
+        {
+          "name": "Popei",
+          "url": "https://www.santander.com.uy/beneficios/popei-0"
+        },
+        {
+          "name": "OrderEat",
+          "url": "https://www.santander.com.uy/beneficios/ordereat"
+        },
+        {
+          "name": "Ocho Nudos",
+          "url": "https://www.santander.com.uy/beneficios/ocho-nudos"
+        },
+        {
+          "name": "Felix Caffè",
+          "url": "https://www.santander.com.uy/beneficios/felix-caffe"
+        },
+        {
+          "name": "La Mantequería",
+          "url": "https://www.santander.com.uy/beneficios/la-mantequeria"
+        },
+        {
+          "name": "Raza Nuestra",
+          "url": "https://www.santander.com.uy/beneficios/raza-nuestra"
+        },
+        {
+          "name": "City Winery",
+          "url": "https://www.santander.com.uy/beneficios/city-winery"
+        },
+        {
+          "name": "Knuss heladería y café",
+          "url": "https://www.santander.com.uy/beneficios/knuss-heladeria-y-cafe"
+        },
+        {
+          "name": "De Diez Burger",
+          "url": "https://www.santander.com.uy/beneficios/de-diez-burger"
+        },
+        {
+          "name": "Bequelo",
+          "url": "https://www.santander.com.uy/beneficios/bequelo"
+        },
+        {
+          "name": "Empanadas Calentitas",
+          "url": "https://www.santander.com.uy/beneficios/empanadas-calentitas"
+        },
+        {
+          "name": "Lolo",
+          "url": "https://www.santander.com.uy/beneficios/lolo"
+        },
+        {
+          "name": "Cresta Cafe",
+          "url": "https://www.santander.com.uy/beneficios/cresta-cafe"
+        },
+        {
+          "name": "Delirio",
+          "url": "https://www.santander.com.uy/beneficios/delirio"
+        },
+        {
+          "name": "Laferre",
+          "url": "https://www.santander.com.uy/beneficios/laferre"
+        },
+        {
+          "name": "Life Bistro",
+          "url": "https://www.santander.com.uy/beneficios/life-bistro"
+        },
+        {
+          "name": "Papirosen",
+          "url": "https://www.santander.com.uy/beneficios/papirosen"
+        },
+        {
+          "name": "La Cocktelería",
+          "url": "https://www.santander.com.uy/beneficios/la-cockteleria"
+        },
+        {
+          "name": "Manantiales Point",
+          "url": "https://www.santander.com.uy/beneficios/manantiales-point"
+        },
+        {
+          "name": "Gabbs",
+          "url": "https://www.santander.com.uy/beneficios/gabbs"
+        },
+        {
+          "name": "Mariapasión",
+          "url": "https://www.santander.com.uy/beneficios/mariapasion"
+        },
+        {
+          "name": "Café Mallorca",
+          "url": "https://www.santander.com.uy/beneficios/cafe-mallorca"
+        },
+        {
+          "name": "Almar",
+          "url": "https://www.santander.com.uy/beneficios/almar"
+        },
+        {
+          "name": "Rullé",
+          "url": "https://www.santander.com.uy/beneficios/rulle"
+        },
+        {
+          "name": "Entre Panes",
+          "url": "https://www.santander.com.uy/beneficios/entre-panes"
+        },
+        {
+          "name": "La Vuelta",
+          "url": "https://www.santander.com.uy/beneficios/la-vuelta"
+        },
+        {
+          "name": "The Beer House",
+          "url": "https://www.santander.com.uy/beneficios/beer-house"
+        },
+        {
+          "name": "Gryk",
+          "url": "https://www.santander.com.uy/beneficios/gryk"
+        },
+        {
+          "name": "Bravo Restó",
+          "url": "https://www.santander.com.uy/beneficios/bravo-resto"
+        },
+        {
+          "name": "El Fondin",
+          "url": "https://www.santander.com.uy/beneficios/el-fondin"
+        },
+        {
+          "name": "El Garage de George",
+          "url": "https://www.santander.com.uy/beneficios/el-garage-de-george"
+        },
+        {
+          "name": "La Perrera",
+          "url": "https://www.santander.com.uy/beneficios/la-perrera"
+        },
+        {
+          "name": "Arraí",
+          "url": "https://www.santander.com.uy/beneficios/arrai"
+        },
+        {
+          "name": "Cafetería Ferran",
+          "url": "https://www.santander.com.uy/beneficios/cafeteria-ferran"
+        },
+        {
+          "name": "Franca",
+          "url": "https://www.santander.com.uy/beneficios/franca"
+        },
+        {
+          "name": "Genuina",
+          "url": "https://www.santander.com.uy/beneficios/genuina"
+        },
+        {
+          "name": "Irisarri",
+          "url": "https://www.santander.com.uy/beneficios/irisarri"
+        },
+        {
+          "name": "Boutique de Carnes",
+          "url": "https://www.santander.com.uy/beneficios/boutique-de-carnes"
+        },
+        {
+          "name": "La Casita by Cari",
+          "url": "https://www.santander.com.uy/beneficios/la-casita-cari"
+        },
+        {
+          "name": "La Pasiva Solanas",
+          "url": "https://www.santander.com.uy/beneficios/la-pasiva-solanas"
+        },
+        {
+          "name": "Legua",
+          "url": "https://www.santander.com.uy/beneficios/legua"
+        },
+        {
+          "name": "Lincanto",
+          "url": "https://www.santander.com.uy/beneficios/lincanto"
+        },
+        {
+          "name": "Manon",
+          "url": "https://www.santander.com.uy/beneficios/manon"
+        },
+        {
+          "name": "Menos Mal",
+          "url": "https://www.santander.com.uy/beneficios/menos-mal"
+        },
+        {
+          "name": "Parador 8 de la Brava",
+          "url": "https://www.santander.com.uy/beneficios/parador-8-de-la-brava"
+        },
+        {
+          "name": "Parador San Rafael",
+          "url": "https://www.santander.com.uy/beneficios/parador-san-rafael"
+        },
+        {
+          "name": "Sushi Meshi",
+          "url": "https://www.santander.com.uy/beneficios/sushi-meshi"
+        },
+        {
+          "name": "Tommy Bistro",
+          "url": "https://www.santander.com.uy/beneficios/tommy-bistro"
+        },
+        {
+          "name": "Las Tres Marias",
+          "url": "https://www.santander.com.uy/beneficios/las-tres-marias"
+        },
+        {
+          "name": "Da Haus",
+          "url": "https://www.santander.com.uy/beneficios/da-haus"
+        },
+        {
+          "name": "Gelato House",
+          "url": "https://www.santander.com.uy/beneficios/gelato-house"
+        },
+        {
+          "name": "Nihon Sushi",
+          "url": "https://www.santander.com.uy/beneficios/nihon-sushi"
+        },
+        {
+          "name": "El Berretin",
+          "url": "https://www.santander.com.uy/beneficios/el-berretin-0"
+        },
+        {
+          "name": "Bardo",
+          "url": "https://www.santander.com.uy/beneficios/bardo"
+        },
+        {
+          "name": "Burger Point",
+          "url": "https://www.santander.com.uy/beneficios/burger-point"
+        }
       ]
     },
     {
@@ -145,88 +511,334 @@
         "https://www.santander.com.uy/beneficios?categoria=20"
       ],
       "merchants": [
-        { "name": "Optica Estela Jinchuk", "url": "https://www.santander.com.uy/beneficios/optica-estela-jinchuk" },
-        { "name": "Mónaco Calzados", "url": "https://www.santander.com.uy/beneficios/monaco-calzados" },
-        { "name": "Suóptica", "url": "https://www.santander.com.uy/beneficios/suoptica" },
-        { "name": "Merrell", "url": "https://www.santander.com.uy/beneficios/merrell" },
-        { "name": "Tienda Ezquerra", "url": "https://www.santander.com.uy/beneficios/tienda-ezquerra" },
-        { "name": "Rotunda", "url": "https://www.santander.com.uy/beneficios/rotunda" },
-        { "name": "Optica Lombardi", "url": "https://www.santander.com.uy/beneficios/optica-lombardi" },
-        { "name": "Shoe Express", "url": "https://www.santander.com.uy/beneficios/shoe-express" },
-        { "name": "Indian", "url": "https://www.santander.com.uy/beneficios/indian" },
-        { "name": "Savia", "url": "https://www.santander.com.uy/beneficios/savia" },
-        { "name": "Lemon", "url": "https://www.santander.com.uy/beneficios/lemon" },
-        { "name": "Hush Puppies", "url": "https://www.santander.com.uy/beneficios/hush-puppies" },
-        { "name": "Las Nazarenas", "url": "https://www.santander.com.uy/beneficios/las-nazarenas" },
-        { "name": "Columbia", "url": "https://www.santander.com.uy/beneficios/columbia" },
-        { "name": "Tranquera", "url": "https://www.santander.com.uy/beneficios/tranquera" },
-        { "name": "SiSi", "url": "https://www.santander.com.uy/beneficios/sisi" },
-        { "name": "Royce", "url": "https://www.santander.com.uy/beneficios/royce" },
-        { "name": "Cat", "url": "https://www.santander.com.uy/beneficios/cat" },
-        { "name": "Limite", "url": "https://www.santander.com.uy/beneficios/limite" },
-        { "name": "Mazzam", "url": "https://www.santander.com.uy/beneficios/mazzam" },
-        { "name": "No se lo Digas a Nadie", "url": "https://www.santander.com.uy/beneficios/no-se-lo-digas-nadie" },
-        { "name": "Rockford", "url": "https://www.santander.com.uy/beneficios/rockford" },
-        { "name": "La Isla", "url": "https://www.santander.com.uy/beneficios/la-isla" },
-        { "name": "Chiarino Uniformes", "url": "https://www.santander.com.uy/beneficios/chiarino-uniformes" },
-        { "name": "Desigual", "url": "https://www.santander.com.uy/beneficios/desigual" },
-        { "name": "JP Uniformes", "url": "https://www.santander.com.uy/beneficios/jp-uniformes" },
-        { "name": "Cayetana Calzados", "url": "https://www.santander.com.uy/beneficios/cayetana-calzados" },
-        { "name": "Uniform & Co", "url": "https://www.santander.com.uy/beneficios/uniform-co" },
-        { "name": "Baquiano", "url": "https://www.santander.com.uy/beneficios/baquiano" },
-        { "name": "Reina Urbana", "url": "https://www.santander.com.uy/beneficios/reina-urbana" },
-        { "name": "Calabaza", "url": "https://www.santander.com.uy/beneficios/calabaza" },
-        { "name": "Asterisco", "url": "https://www.santander.com.uy/beneficios/asterisco" },
-        { "name": "Dhouse", "url": "https://www.santander.com.uy/beneficios/dhouse" },
-        { "name": "Olivia", "url": "https://www.santander.com.uy/beneficios/olivia" },
-        { "name": "Fuel Oil", "url": "https://www.santander.com.uy/beneficios/fuel-oil" },
-        { "name": "Óptica Meerhoff", "url": "https://www.santander.com.uy/beneficios/optica-meerhoff" },
-        { "name": "Mónaco Athletic", "url": "https://www.santander.com.uy/beneficios/monaco-athletic" },
-        { "name": "Cloé", "url": "https://www.santander.com.uy/beneficios/cloe" },
-        { "name": "Mango", "url": "https://www.santander.com.uy/beneficios/mango" },
-        { "name": "Pasqualini", "url": "https://www.santander.com.uy/beneficios/pasqualini" },
-        { "name": "Margo Baridon", "url": "https://www.santander.com.uy/beneficios/margo-baridon" },
-        { "name": "Minimon", "url": "https://www.santander.com.uy/beneficios/minimon-0" },
-        { "name": "Bersal", "url": "https://www.santander.com.uy/beneficios/bersal" },
-        { "name": "Adoré", "url": "https://www.santander.com.uy/beneficios/adore" },
-        { "name": "Cienta", "url": "https://www.santander.com.uy/beneficios/cienta" },
-        { "name": "Inside", "url": "https://www.santander.com.uy/beneficios/inside" },
-        { "name": "Para Tus Bajitos", "url": "https://www.santander.com.uy/beneficios/para-tus-bajitos" },
-        { "name": "Venancio", "url": "https://www.santander.com.uy/beneficios/venancio" },
-        { "name": "Aire", "url": "https://www.santander.com.uy/beneficios/aire" },
-        { "name": "Las Marías", "url": "https://www.santander.com.uy/beneficios/las-marias" },
-        { "name": "Luxo", "url": "https://www.santander.com.uy/beneficios/luxo" },
-        { "name": "Oh Jacinta! - The Kul Store", "url": "https://www.santander.com.uy/beneficios/oh-jacinta-kul-store" },
-        { "name": "Chili Accesorios - The Kul Store", "url": "https://www.santander.com.uy/beneficios/chili-accesorios-kul-store" },
-        { "name": "Baleine - The Kul Store", "url": "https://www.santander.com.uy/beneficios/baleine-kul-store" },
-        { "name": "Macushop - The Kul Store", "url": "https://www.santander.com.uy/beneficios/macushop-kul-store" },
-        { "name": "The Kul Store", "url": "https://www.santander.com.uy/beneficios/kul-store" },
-        { "name": "Gocco", "url": "https://www.santander.com.uy/beneficios/gocco" },
-        { "name": "Ardido - The Kul Store", "url": "https://www.santander.com.uy/beneficios/ardido-kul-store" },
-        { "name": "Coppelia", "url": "https://www.santander.com.uy/beneficios/coppelia" },
-        { "name": "Alma Mía Boutique", "url": "https://www.santander.com.uy/beneficios/alma-mia-boutique" },
-        { "name": "Will B - The Kul Store", "url": "https://www.santander.com.uy/beneficios/will-b-kul-store" },
-        { "name": "Flavia Donatti", "url": "https://www.santander.com.uy/beneficios/flavia-donatti" },
-        { "name": "Todomoda", "url": "https://www.santander.com.uy/beneficios/todomoda" },
-        { "name": "Isadora", "url": "https://www.santander.com.uy/beneficios/isadora" },
-        { "name": "Pour La Plage", "url": "https://www.santander.com.uy/beneficios/pour-la-plage" },
-        { "name": "By Vero Melo", "url": "https://www.santander.com.uy/beneficios/vero-melo" },
-        { "name": "Tero Mates", "url": "https://www.santander.com.uy/beneficios/tero-mates" },
-        { "name": "Anushka Elliot", "url": "https://www.santander.com.uy/beneficios/anushka-elliot" },
-        { "name": "Azu -The Kul Store", "url": "https://www.santander.com.uy/beneficios/azu-kul-store" },
-        { "name": "Brownie", "url": "https://www.santander.com.uy/beneficios/brownie" },
-        { "name": "Casa Ribera", "url": "https://www.santander.com.uy/beneficios/casa-ribera" },
-        { "name": "Felix", "url": "https://www.santander.com.uy/beneficios/felix" },
-        { "name": "The Mood House", "url": "https://www.santander.com.uy/beneficios/mood-house" },
-        { "name": "Dropz - The Kul Store", "url": "https://www.santander.com.uy/beneficios/dropz-kul-store" },
-        { "name": "Especie Humana - The Kul Store", "url": "https://www.santander.com.uy/beneficios/especie-humana-kul-store" },
-        { "name": "Manu.be - The Kul Store", "url": "https://www.santander.com.uy/beneficios/manube-kul-store" },
-        { "name": "Vang - The Kul Store", "url": "https://www.santander.com.uy/beneficios/vang-kul-store" },
-        { "name": "Adoré Dolores", "url": "https://www.santander.com.uy/beneficios/adore-dolores" },
-        { "name": "Aimée", "url": "https://www.santander.com.uy/beneficios/aimee" },
-        { "name": "Periplo", "url": "https://www.santander.com.uy/beneficios/periplo" },
-        { "name": "Tuya - The Kul Store", "url": "https://www.santander.com.uy/beneficios/tuya-kul-store" },
-        { "name": "The North Face", "url": "https://www.santander.com.uy/beneficios/north-face" }
+        {
+          "name": "Optica Estela Jinchuk",
+          "url": "https://www.santander.com.uy/beneficios/optica-estela-jinchuk"
+        },
+        {
+          "name": "Mónaco Calzados",
+          "url": "https://www.santander.com.uy/beneficios/monaco-calzados"
+        },
+        {
+          "name": "Suóptica",
+          "url": "https://www.santander.com.uy/beneficios/suoptica"
+        },
+        {
+          "name": "Merrell",
+          "url": "https://www.santander.com.uy/beneficios/merrell"
+        },
+        {
+          "name": "Tienda Ezquerra",
+          "url": "https://www.santander.com.uy/beneficios/tienda-ezquerra"
+        },
+        {
+          "name": "Rotunda",
+          "url": "https://www.santander.com.uy/beneficios/rotunda"
+        },
+        {
+          "name": "Optica Lombardi",
+          "url": "https://www.santander.com.uy/beneficios/optica-lombardi"
+        },
+        {
+          "name": "Shoe Express",
+          "url": "https://www.santander.com.uy/beneficios/shoe-express"
+        },
+        {
+          "name": "Indian",
+          "url": "https://www.santander.com.uy/beneficios/indian"
+        },
+        {
+          "name": "Savia",
+          "url": "https://www.santander.com.uy/beneficios/savia"
+        },
+        {
+          "name": "Lemon",
+          "url": "https://www.santander.com.uy/beneficios/lemon"
+        },
+        {
+          "name": "Hush Puppies",
+          "url": "https://www.santander.com.uy/beneficios/hush-puppies"
+        },
+        {
+          "name": "Las Nazarenas",
+          "url": "https://www.santander.com.uy/beneficios/las-nazarenas"
+        },
+        {
+          "name": "Columbia",
+          "url": "https://www.santander.com.uy/beneficios/columbia"
+        },
+        {
+          "name": "Tranquera",
+          "url": "https://www.santander.com.uy/beneficios/tranquera"
+        },
+        {
+          "name": "SiSi",
+          "url": "https://www.santander.com.uy/beneficios/sisi"
+        },
+        {
+          "name": "Royce",
+          "url": "https://www.santander.com.uy/beneficios/royce"
+        },
+        {
+          "name": "Cat",
+          "url": "https://www.santander.com.uy/beneficios/cat"
+        },
+        {
+          "name": "Limite",
+          "url": "https://www.santander.com.uy/beneficios/limite"
+        },
+        {
+          "name": "Mazzam",
+          "url": "https://www.santander.com.uy/beneficios/mazzam"
+        },
+        {
+          "name": "No se lo Digas a Nadie",
+          "url": "https://www.santander.com.uy/beneficios/no-se-lo-digas-nadie"
+        },
+        {
+          "name": "Rockford",
+          "url": "https://www.santander.com.uy/beneficios/rockford"
+        },
+        {
+          "name": "La Isla",
+          "url": "https://www.santander.com.uy/beneficios/la-isla"
+        },
+        {
+          "name": "Chiarino Uniformes",
+          "url": "https://www.santander.com.uy/beneficios/chiarino-uniformes"
+        },
+        {
+          "name": "Desigual",
+          "url": "https://www.santander.com.uy/beneficios/desigual"
+        },
+        {
+          "name": "JP Uniformes",
+          "url": "https://www.santander.com.uy/beneficios/jp-uniformes"
+        },
+        {
+          "name": "Cayetana Calzados",
+          "url": "https://www.santander.com.uy/beneficios/cayetana-calzados"
+        },
+        {
+          "name": "Uniform & Co",
+          "url": "https://www.santander.com.uy/beneficios/uniform-co"
+        },
+        {
+          "name": "Baquiano",
+          "url": "https://www.santander.com.uy/beneficios/baquiano"
+        },
+        {
+          "name": "Reina Urbana",
+          "url": "https://www.santander.com.uy/beneficios/reina-urbana"
+        },
+        {
+          "name": "Calabaza",
+          "url": "https://www.santander.com.uy/beneficios/calabaza"
+        },
+        {
+          "name": "Asterisco",
+          "url": "https://www.santander.com.uy/beneficios/asterisco"
+        },
+        {
+          "name": "Dhouse",
+          "url": "https://www.santander.com.uy/beneficios/dhouse"
+        },
+        {
+          "name": "Olivia",
+          "url": "https://www.santander.com.uy/beneficios/olivia"
+        },
+        {
+          "name": "Fuel Oil",
+          "url": "https://www.santander.com.uy/beneficios/fuel-oil"
+        },
+        {
+          "name": "Óptica Meerhoff",
+          "url": "https://www.santander.com.uy/beneficios/optica-meerhoff"
+        },
+        {
+          "name": "Mónaco Athletic",
+          "url": "https://www.santander.com.uy/beneficios/monaco-athletic"
+        },
+        {
+          "name": "Cloé",
+          "url": "https://www.santander.com.uy/beneficios/cloe"
+        },
+        {
+          "name": "Mango",
+          "url": "https://www.santander.com.uy/beneficios/mango"
+        },
+        {
+          "name": "Pasqualini",
+          "url": "https://www.santander.com.uy/beneficios/pasqualini"
+        },
+        {
+          "name": "Margo Baridon",
+          "url": "https://www.santander.com.uy/beneficios/margo-baridon"
+        },
+        {
+          "name": "Minimon",
+          "url": "https://www.santander.com.uy/beneficios/minimon-0"
+        },
+        {
+          "name": "Bersal",
+          "url": "https://www.santander.com.uy/beneficios/bersal"
+        },
+        {
+          "name": "Adoré",
+          "url": "https://www.santander.com.uy/beneficios/adore"
+        },
+        {
+          "name": "Cienta",
+          "url": "https://www.santander.com.uy/beneficios/cienta"
+        },
+        {
+          "name": "Inside",
+          "url": "https://www.santander.com.uy/beneficios/inside"
+        },
+        {
+          "name": "Para Tus Bajitos",
+          "url": "https://www.santander.com.uy/beneficios/para-tus-bajitos"
+        },
+        {
+          "name": "Venancio",
+          "url": "https://www.santander.com.uy/beneficios/venancio"
+        },
+        {
+          "name": "Aire",
+          "url": "https://www.santander.com.uy/beneficios/aire"
+        },
+        {
+          "name": "Las Marías",
+          "url": "https://www.santander.com.uy/beneficios/las-marias"
+        },
+        {
+          "name": "Luxo",
+          "url": "https://www.santander.com.uy/beneficios/luxo"
+        },
+        {
+          "name": "Oh Jacinta! - The Kul Store",
+          "url": "https://www.santander.com.uy/beneficios/oh-jacinta-kul-store"
+        },
+        {
+          "name": "Chili Accesorios - The Kul Store",
+          "url": "https://www.santander.com.uy/beneficios/chili-accesorios-kul-store"
+        },
+        {
+          "name": "Baleine - The Kul Store",
+          "url": "https://www.santander.com.uy/beneficios/baleine-kul-store"
+        },
+        {
+          "name": "Macushop - The Kul Store",
+          "url": "https://www.santander.com.uy/beneficios/macushop-kul-store"
+        },
+        {
+          "name": "The Kul Store",
+          "url": "https://www.santander.com.uy/beneficios/kul-store"
+        },
+        {
+          "name": "Gocco",
+          "url": "https://www.santander.com.uy/beneficios/gocco"
+        },
+        {
+          "name": "Ardido - The Kul Store",
+          "url": "https://www.santander.com.uy/beneficios/ardido-kul-store"
+        },
+        {
+          "name": "Coppelia",
+          "url": "https://www.santander.com.uy/beneficios/coppelia"
+        },
+        {
+          "name": "Alma Mía Boutique",
+          "url": "https://www.santander.com.uy/beneficios/alma-mia-boutique"
+        },
+        {
+          "name": "Will B - The Kul Store",
+          "url": "https://www.santander.com.uy/beneficios/will-b-kul-store"
+        },
+        {
+          "name": "Flavia Donatti",
+          "url": "https://www.santander.com.uy/beneficios/flavia-donatti"
+        },
+        {
+          "name": "Todomoda",
+          "url": "https://www.santander.com.uy/beneficios/todomoda"
+        },
+        {
+          "name": "Isadora",
+          "url": "https://www.santander.com.uy/beneficios/isadora"
+        },
+        {
+          "name": "Pour La Plage",
+          "url": "https://www.santander.com.uy/beneficios/pour-la-plage"
+        },
+        {
+          "name": "By Vero Melo",
+          "url": "https://www.santander.com.uy/beneficios/vero-melo"
+        },
+        {
+          "name": "Tero Mates",
+          "url": "https://www.santander.com.uy/beneficios/tero-mates"
+        },
+        {
+          "name": "Anushka Elliot",
+          "url": "https://www.santander.com.uy/beneficios/anushka-elliot"
+        },
+        {
+          "name": "Azu -The Kul Store",
+          "url": "https://www.santander.com.uy/beneficios/azu-kul-store"
+        },
+        {
+          "name": "Brownie",
+          "url": "https://www.santander.com.uy/beneficios/brownie"
+        },
+        {
+          "name": "Casa Ribera",
+          "url": "https://www.santander.com.uy/beneficios/casa-ribera"
+        },
+        {
+          "name": "Felix",
+          "url": "https://www.santander.com.uy/beneficios/felix"
+        },
+        {
+          "name": "The Mood House",
+          "url": "https://www.santander.com.uy/beneficios/mood-house"
+        },
+        {
+          "name": "Dropz - The Kul Store",
+          "url": "https://www.santander.com.uy/beneficios/dropz-kul-store"
+        },
+        {
+          "name": "Especie Humana - The Kul Store",
+          "url": "https://www.santander.com.uy/beneficios/especie-humana-kul-store"
+        },
+        {
+          "name": "Manu.be - The Kul Store",
+          "url": "https://www.santander.com.uy/beneficios/manube-kul-store"
+        },
+        {
+          "name": "Vang - The Kul Store",
+          "url": "https://www.santander.com.uy/beneficios/vang-kul-store"
+        },
+        {
+          "name": "Adoré Dolores",
+          "url": "https://www.santander.com.uy/beneficios/adore-dolores"
+        },
+        {
+          "name": "Aimée",
+          "url": "https://www.santander.com.uy/beneficios/aimee"
+        },
+        {
+          "name": "Periplo",
+          "url": "https://www.santander.com.uy/beneficios/periplo"
+        },
+        {
+          "name": "Tuya - The Kul Store",
+          "url": "https://www.santander.com.uy/beneficios/tuya-kul-store"
+        },
+        {
+          "name": "The North Face",
+          "url": "https://www.santander.com.uy/beneficios/north-face"
+        }
       ]
     }
   ]

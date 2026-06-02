@@ -9,6 +9,7 @@ import type {
   Channel,
   DayOfWeek,
   ExcludedApp,
+  MerchantGeo,
   Provider,
   RefundType,
 } from "./schema";
@@ -37,6 +38,8 @@ export interface DiscountItem {
   ruleId?: string;
   merchantUrl?: string;
   merchantLocation?: string;
+  merchantGeo?: MerchantGeo;
+  merchantMapsUrl?: string;
   parentMerchant?: string;
   listId?: string;
   merchantIndex?: number;

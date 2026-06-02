@@ -261,10 +261,40 @@ export const ProviderDiscounts = z.object({
 });
 export type ProviderDiscounts = z.infer<typeof ProviderDiscounts>;
 
+/*
+ * Resolved coordinates for a physical merchant, consumed by the map view.
+ *
+ * Filled by the daily agent: it opens the merchant's Google Maps search link
+ * in the browser, reads the place the results resolve to, and stores the
+ * coordinates. Done once per merchant (the agent skips any merchant that
+ * already has `geo`). A merchant the agent can't confidently place is left
+ * without `geo` — it stays off the map rather than showing a wrong pin. See
+ * `automation/daily-sync.md` → "Daily merchant geocoding".
+ *
+ * lat/lng bounds are Uruguay's bounding box — a cheap guard against a stored
+ * point in another country.
+ *
+ * `confidence` is optional and legacy; the agent flow does not set it.
+ */
+export const MerchantGeo = z.object({
+  lat: z.number().min(-35.5).max(-29.5),
+  lng: z.number().min(-58.6).max(-52.8),
+  confidence: z.enum(["high", "low"]).optional(),
+});
+export type MerchantGeo = z.infer<typeof MerchantGeo>;
+
 export const MerchantListMerchant = z.object({
   name: z.string(),
   url: z.string().optional(),
   location: z.string().optional(),
+  geo: MerchantGeo.optional(),
+  /*
+   * Canonical Google Maps place URL the agent captured when resolving `geo`
+   * (the `…/place/…` link the search resolved to). Lands exactly on the
+   * place when tapped. Optional — when absent, the UI derives a plain Google
+   * Maps search link from name + location, which also works.
+   */
+  mapsUrl: z.string().optional(),
 });
 export type MerchantListMerchant = z.infer<typeof MerchantListMerchant>;
 

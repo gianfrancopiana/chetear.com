@@ -7,6 +7,7 @@ import SearchLauncher from "../components/SearchLauncher.astro";
 import { FilterTrigger } from "../components/FilterTrigger";
 import { FilterDrawer } from "../components/FilterDrawer";
 import { DetailDrawer } from "../components/DetailDrawer";
+import MapView from "../components/MapView";
 import {
   CAT_FILTERS,
   discountDetailHref,
@@ -68,7 +69,33 @@ const DAY_LETTERS = ["L", "M", "M", "J", "V", "S", "D"];
       </div>
     </div>
 
-    <div class="px-5 md:px-0">
+    <div class="px-5 md:px-0 mb-3 mt-1 md:mt-0">
+      <div
+        data-view-toggle
+        class="inline-flex rounded-full border border-divider bg-white p-0.5 text-[13px] font-medium"
+      >
+        <button
+          type="button"
+          data-view-option
+          data-view="list"
+          aria-pressed="true"
+          class="rounded-full px-3.5 py-1.5 text-ink"
+        >
+          Lista
+        </button>
+        <button
+          type="button"
+          data-view-option
+          data-view="map"
+          aria-pressed="false"
+          class="rounded-full px-3.5 py-1.5 text-ink-3"
+        >
+          Mapa
+        </button>
+      </div>
+    </div>
+
+    <div data-list-view class="px-5 md:px-0">
       <div data-empty-state hidden class="py-10 text-center"></div>
 
       <div
@@ -223,6 +250,15 @@ const DAY_LETTERS = ["L", "M", "M", "J", "V", "S", "D"];
         </button>
       </div>
       <div data-load-more-sentinel hidden={initialVisible.length >= initialFiltered.length} class="h-px" />
+    </div>
+
+    <div data-map-view class="!hidden px-5 md:px-0">
+      <div
+        class="relative w-full overflow-hidden rounded-xl border border-divider"
+        style="height: calc(100dvh - 230px); min-height: 440px"
+      >
+        <MapView client:only="react" />
+      </div>
     </div>
 
     <FilterDrawer client:load />

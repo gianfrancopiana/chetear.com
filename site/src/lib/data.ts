@@ -8,6 +8,7 @@ import {
   type Category,
   type DayOfWeek,
   type DiscountRule,
+  type MerchantGeo,
   type MerchantListMerchant,
 } from "./schema";
 
@@ -51,6 +52,8 @@ export interface DiscountListItem {
   ruleId?: string;
   merchantUrl?: string;
   merchantLocation?: string;
+  merchantGeo?: MerchantGeo;
+  merchantMapsUrl?: string;
   parentMerchant?: string;
   listId?: string;
   merchantIndex?: number;
@@ -159,6 +162,8 @@ function buildDiscountEntries(
     merchant: entry.merchant.name,
     merchantUrl: entry.merchant.url,
     merchantLocation: entry.merchant.location,
+    merchantGeo: entry.merchant.geo,
+    merchantMapsUrl: entry.merchant.mapsUrl,
     parentMerchant: rule.merchant,
     listId: entry.listId,
     merchantIndex: entry.merchantIndex,

@@ -4,11 +4,15 @@ This file defines the runtime data rules for chetear.com.
 
 ## Product model
 
-The product is a single home view.
+The product is a single home view with two lenses: a list and a map.
 
 - Discounts are the primary objects.
 - Merchant lists are supporting data attached to discount rules.
 - Do not model a separate user-facing "directorio" concept in runtime data.
+- The map is a *view toggle* on the home/benefits page, not a separate page or
+  data concept. It shares the list's filter state and plots the merchant-list
+  entries that carry a `geo` pin, reusing the discount + merchant-list JSON — no
+  map-specific runtime files. (There is no standalone `/mapa` route.)
 
 ## Runtime discount labels
 
@@ -41,13 +45,36 @@ Keep only runtime-useful fields:
         {
           "name": "Basílico",
           "url": "https://example.com",
-          "location": "Montevideo"
+          "location": "Montevideo",
+          "geo": { "lat": -34.9087, "lng": -56.1456 },
+          "mapsUrl": "https://www.google.com/maps/place/..."
         }
       ]
     }
   ]
 }
 ```
+
+## Merchant `geo` and `mapsUrl` (map view)
+
+`geo` (`{ lat, lng }`) and the optional `mapsUrl` are runtime-useful fields that
+power the map view, and are allowed to stay in runtime JSON.
+
+- They are filled by the **daily agent**, not the directory scrape: the agent
+  opens the merchant's Google Maps search link in the browser, reads the place
+  the results resolve to, and stores the coordinates (plus the canonical place
+  URL as `mapsUrl`). Do not hand-author them during extraction. See
+  `automation/daily-sync.md` → "Daily merchant geocoding".
+- `geo` is present **only** for merchants the agent could confidently place.
+  Merchants it can't place have no `geo` — they stay off the map (and surface in
+  the map's "sin ubicación" list with a plain search link) rather than showing a
+  wrong pin. Same "record ambiguity instead of guessing" rule the discount flow
+  uses.
+- The agent does this **once per merchant** (it skips any merchant that already
+  has `geo`). A directory refresh must **preserve** an existing `geo`/`mapsUrl`
+  on a merchant it is not changing; do not strip them.
+- `mapsUrl` is optional — when absent the UI derives a Google Maps search link
+  from name + location, which also works.
 
 ## What must stay out of runtime data
 

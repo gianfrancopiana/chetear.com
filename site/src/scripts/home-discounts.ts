@@ -23,12 +23,16 @@ import {
   DETAIL_CLOSE_EVENT,
   DETAIL_DISMISS_REQUEST_EVENT,
   DETAIL_OPEN_EVENT,
+  DISCOUNTS_FILTERED_EVENT,
+  MAP_SHOWN_EVENT,
   TARJETAS_CHANGED_EVENT,
 } from "../lib/events";
 import { escapeHtml } from "../lib/strings";
 import { loadJSON, saveJSON } from "../lib/storage";
 
-const DISCOUNTS_CACHE_KEY = "chetear-discounts-cache-v4";
+// Bumped to v5 when merchant geo + mapsUrl were added to the cached shape, so
+// clients holding a pre-geo cache refetch instead of rendering a map with no pins.
+const DISCOUNTS_CACHE_KEY = "chetear-discounts-cache-v5";
 
 let cleanupHomeDiscountsPage: (() => void) | null = null;
 /*
@@ -92,6 +96,47 @@ export default function initHomeDiscountsPage(): void {
   const loadMoreWrap = root.querySelector<HTMLElement>("[data-load-more-wrap]");
   const loadMoreButton = root.querySelector<HTMLButtonElement>("[data-load-more]");
   const loadMoreSentinel = root.querySelector<HTMLElement>("[data-load-more-sentinel]");
+
+  // List ↔ map view toggle. The map is a lens on the same filtered data, so
+  // switching never refetches or re-filters: it shows/hides containers and the
+  // map island (which listens for the filtered broadcast) draws what the list
+  // shows. Persisted so the choice survives navigation.
+  const VIEW_KEY = "chetear-view-v1";
+  const viewToggleButtons = Array.from(
+    root.querySelectorAll<HTMLButtonElement>("[data-view-option]"),
+  );
+  const listView = root.querySelector<HTMLElement>("[data-list-view]");
+  const mapView = root.querySelector<HTMLElement>("[data-map-view]");
+  let view: "list" | "map" = loadJSON<string>(VIEW_KEY, "list") === "map" ? "map" : "list";
+
+  function applyView(): void {
+    const mapMode = view === "map";
+    listView?.classList.toggle("!hidden", mapMode);
+    mapView?.classList.toggle("!hidden", !mapMode);
+    for (const button of viewToggleButtons) {
+      const on = button.dataset.view === view;
+      button.setAttribute("aria-pressed", on ? "true" : "false");
+      button.classList.toggle("bg-surface", on);
+      button.classList.toggle("shadow-sm", on);
+      button.classList.toggle("text-ink", on);
+      button.classList.toggle("text-ink-3", !on);
+    }
+    // Leaflet needs a size recompute when its container becomes visible.
+    if (mapMode) window.dispatchEvent(new CustomEvent(MAP_SHOWN_EVENT));
+  }
+
+  for (const button of viewToggleButtons) {
+    button.addEventListener(
+      "click",
+      () => {
+        view = button.dataset.view === "map" ? "map" : "list";
+        saveJSON(VIEW_KEY, view);
+        applyView();
+      },
+      { signal },
+    );
+  }
+  applyView();
 
   if (
     !filterBar ||
@@ -304,6 +349,15 @@ export default function initHomeDiscountsPage(): void {
     }
     const visible = filtered.slice(0, visibleCount);
     currentFilteredLength = filtered.length;
+
+    // Keep the latest filtered set on the global so the map island can read it
+    // when it becomes visible (and on mount). Only broadcast a live update when
+    // the map is actually showing — no point rebuilding a hidden map on every
+    // filter/keystroke, or on load-more (which doesn't change `filtered`).
+    window.__chetearFilteredItems = filtered;
+    if (view === "map") {
+      window.dispatchEvent(new CustomEvent(DISCOUNTS_FILTERED_EVENT, { detail: { items: filtered } }));
+    }
 
     renderControls();
 
