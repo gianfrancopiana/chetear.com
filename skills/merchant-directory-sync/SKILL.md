@@ -89,11 +89,18 @@ Procedure, once per merchant (skip any merchant that already has `geo`):
 2. Look at what the results resolve to, as a person would.
    - **Single clear place** → read its coordinates from the resolved
      `…/place/…/@lat,lng…` URL and capture that canonical place URL.
-   - **Ambiguous / several unrelated results / a multi-branch chain** → do not
-     guess. Leave the merchant without `geo`; the search link still lets the
-     user pick the right place at tap time.
+   - **Multiple exact branch results and the task explicitly asks for every
+     location** → split the original merchant into one branch entry per exact
+     place result, preserving the original source URL and adding the branch
+     address as `location`.
+   - **Ambiguous / several unrelated results / a multi-branch chain with no
+     exact branch confidence** → do not guess. Leave the merchant without `geo`;
+     the search link still lets the user pick the right place at tap time.
 3. Write `geo: { lat, lng }` (≈6 decimals) and `mapsUrl: <canonical URL>` onto
-   the merchant.
+   the exact merchant entry resolved by **name + location**. If the same merchant
+   name appears in multiple locations, do not stamp every duplicate with one
+   result; only update the location you searched or the explicit branch entries
+   you split above.
 
 Rules:
 

@@ -14,27 +14,73 @@
       "merchants": [
         {
           "name": "Bruta",
-          "url": "https://www.santander.com.uy/beneficios/bruta"
+          "url": "https://www.santander.com.uy/beneficios/bruta",
+          "location": "Luis de la Torre 818",
+          "geo": {
+            "lat": -34.915858,
+            "lng": -56.15599
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.915858,-56.15599"
         },
         {
           "name": "Nora Rey",
-          "url": "https://www.santander.com.uy/beneficios/nora-rey"
+          "url": "https://www.santander.com.uy/beneficios/nora-rey",
+          "location": "Blvr. 26 de Marzo 1153",
+          "geo": {
+            "lat": -34.910066,
+            "lng": -56.149804
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.910066,-56.1498038"
+        },
+        {
+          "name": "Nora Rey",
+          "url": "https://www.santander.com.uy/beneficios/nora-rey",
+          "location": "Dr. Alejandro Schroeder 6464",
+          "geo": {
+            "lat": -34.884934,
+            "lng": -56.048963
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.884934,-56.0489633"
         },
         {
           "name": "La Pasiva Arocena",
-          "url": "https://www.santander.com.uy/beneficios/la-pasiva-arocena"
+          "url": "https://www.santander.com.uy/beneficios/la-pasiva-arocena",
+          "location": "Arocena 1644",
+          "geo": {
+            "lat": -34.887614,
+            "lng": -56.057693
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.887614,-56.0576935"
         },
         {
           "name": "Facal",
-          "url": "https://www.santander.com.uy/beneficios/facal"
+          "url": "https://www.santander.com.uy/beneficios/facal",
+          "location": "Av. 18 de Julio 1249, 11100 Montevideo, Departamento de Montevideo",
+          "geo": {
+            "lat": -34.905555,
+            "lng": -56.189166
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.905555,-56.189166"
         },
         {
           "name": "Parador El Paso",
-          "url": "https://www.santander.com.uy/beneficios/parador-el-paso"
+          "url": "https://www.santander.com.uy/beneficios/parador-el-paso",
+          "location": "Ruta 5 - Km 252 - Paso de los Toros",
+          "geo": {
+            "lat": -32.80232,
+            "lng": -56.525341
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.80232,-56.525341"
         },
         {
           "name": "NONA",
-          "url": "https://www.santander.com.uy/beneficios/nona"
+          "url": "https://www.santander.com.uy/beneficios/nona",
+          "location": "Costa Rica 1555, 11500 Montevideo",
+          "geo": {
+            "lat": -34.88971,
+            "lng": -56.055274
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.88971,-56.0552743"
         },
         {
           "name": "PedidosYa",
@@ -42,247 +88,870 @@
         },
         {
           "name": "La Rural",
-          "url": "https://www.santander.com.uy/beneficios/la-rural"
+          "url": "https://www.santander.com.uy/beneficios/la-rural",
+          "location": "Gral. Justino Muniz 703, Melo, Cerro Largo.",
+          "geo": {
+            "lat": -32.371576,
+            "lng": -54.170172
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.371576,-54.170172"
         },
         {
           "name": "Crepas (Montevideo)",
-          "url": "https://www.santander.com.uy/beneficios/crepas-montevideo"
+          "url": "https://www.santander.com.uy/beneficios/crepas-montevideo",
+          "location": "Luis Alberto de Herrera 1248, World Trade Center",
+          "geo": {
+            "lat": -34.904385,
+            "lng": -56.136958
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.904385,-56.136958"
+        },
+        {
+          "name": "Crepas Carrasco",
+          "url": "https://www.santander.com.uy/beneficios/crepas-montevideo",
+          "location": "Av. Alfredo Arocena 1556",
+          "geo": {
+            "lat": -34.889887,
+            "lng": -56.056241
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.889887,-56.056241"
         },
         {
           "name": "Isidora Restaurant",
-          "url": "https://www.santander.com.uy/beneficios/isidora-restaurant"
+          "url": "https://www.santander.com.uy/beneficios/isidora-restaurant",
+          "location": "La Galerna y Rambla Gral. Artigas",
+          "geo": {
+            "lat": -34.963465,
+            "lng": -54.946397
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.963465,-54.946397"
         },
         {
           "name": "Restaurante Oscar",
-          "url": "https://www.santander.com.uy/beneficios/restaurante-oscar"
+          "url": "https://www.santander.com.uy/beneficios/restaurante-oscar",
+          "location": "Calle 8 esquina Calle 11, Puerto de Punta del Este",
+          "geo": {
+            "lat": -34.965403,
+            "lng": -54.953844
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.965403,-54.953844"
         },
         {
           "name": "PRINCIPES DEL SUR",
-          "url": "https://www.santander.com.uy/beneficios/principes-del-sur"
+          "url": "https://www.santander.com.uy/beneficios/principes-del-sur",
+          "location": "Eusebio E. Gimenez 747, 75000 Mercedes, Departamento de Soriano",
+          "geo": {
+            "lat": -33.247505,
+            "lng": -58.029899
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.247505,-58.0298986"
         },
         {
           "name": "ORIUNDO",
-          "url": "https://www.santander.com.uy/beneficios/oriundo"
+          "url": "https://www.santander.com.uy/beneficios/oriundo",
+          "location": "Dirección Dr. Pablo de María 1015, 11200 Montevideo, Departamento de Montevideo",
+          "geo": {
+            "lat": -34.910405,
+            "lng": -56.170758
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.910405,-56.170758"
         },
         {
           "name": "Posto 5",
-          "url": "https://www.santander.com.uy/beneficios/posto-5"
+          "url": "https://www.santander.com.uy/beneficios/posto-5",
+          "geo": {
+            "lat": -34.947656,
+            "lng": -54.941666
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.947656,-54.941666"
         },
         {
           "name": "Cafe del Sol",
-          "url": "https://www.santander.com.uy/beneficios/cafe-del-sol"
+          "url": "https://www.santander.com.uy/beneficios/cafe-del-sol",
+          "location": "75000 Mercedes, Departamento de Soriano",
+          "geo": {
+            "lat": -33.24308,
+            "lng": -58.029085
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.24308,-58.0290854"
+        },
+        {
+          "name": "Porto Vanila Caffé",
+          "url": "https://www.santander.com.uy/beneficios/porto-vanila",
+          "location": "Plaza de Comidas, Av. Luis Alberto de Herrera 1290",
+          "geo": {
+            "lat": -34.902811,
+            "lng": -56.137348
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Porto+Vanila+Caff%C3%A9/data=!4m7!3m6!1s0x959f8102a7ddafc1:0xfcc7fbbe29cc5fda!8m2!3d-34.902811!4d-56.1373479!16s%2Fg%2F11mts3x_59!19sChIJwa_dpwKBn5UR2l_MKb77x_w"
         },
         {
           "name": "Porto Vanila",
-          "url": "https://www.santander.com.uy/beneficios/porto-vanila"
+          "url": "https://www.santander.com.uy/beneficios/porto-vanila",
+          "location": "Dr José Scoseria 2942",
+          "geo": {
+            "lat": -34.916195,
+            "lng": -56.149133
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Porto+Vanila/data=!4m7!3m6!1s0x959f81723b8fdb59:0xbdba8d15789880e9!8m2!3d-34.9161951!4d-56.1491332!16s%2Fg%2F11hd1mmsqk!19sChIJWduPO3KBn5UR6YCYeBWNur0"
+        },
+        {
+          "name": "Porto Vanila",
+          "url": "https://www.santander.com.uy/beneficios/porto-vanila",
+          "location": "3RXP+Q5J, Bv. Gral. Artigas",
+          "geo": {
+            "lat": -34.900537,
+            "lng": -56.16462
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Porto+Vanila/data=!4m7!3m6!1s0x959f81007cb31f57:0xf0fdb48406ca6f4a!8m2!3d-34.9005369!4d-56.1646201!16s%2Fg%2F11wg7tlk16!19sChIJVx-zfACBn5URSm_KBoS0_fA"
+        },
+        {
+          "name": "Porto Vanila",
+          "url": "https://www.santander.com.uy/beneficios/porto-vanila",
+          "location": "Plaza de Comidas, Portones Shopping, Av. Italia 5775",
+          "geo": {
+            "lat": -34.881604,
+            "lng": -56.081174
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Porto+Vanila/data=!4m7!3m6!1s0x959f86f00065a26b:0x138681fe3ac1e889!8m2!3d-34.8816036!4d-56.0811737!16s%2Fg%2F1pp2wwh2s!19sChIJa6JlAPCGn5URiejBOv6BhhM"
+        },
+        {
+          "name": "Porto Vanila",
+          "url": "https://www.santander.com.uy/beneficios/porto-vanila",
+          "location": "José Ellauri 351",
+          "geo": {
+            "lat": -34.923399,
+            "lng": -56.159779
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Porto+Vanila/data=!4m7!3m6!1s0x959f819d6efa587d:0xafe3fddc2d81b451!8m2!3d-34.923399!4d-56.159779!16s%2Fg%2F11b75fwkd6!19sChIJfVj6bp2Bn5URUbSBLdz9468"
         },
         {
           "name": "Los Leños",
-          "url": "https://www.santander.com.uy/beneficios/los-lenos"
+          "url": "https://www.santander.com.uy/beneficios/los-lenos",
+          "location": "San José 909",
+          "geo": {
+            "lat": -34.907193,
+            "lng": -56.198806
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.907193,-56.198806"
         },
         {
           "name": "La Trattoria",
-          "url": "https://www.santander.com.uy/beneficios/la-trattoria"
+          "url": "https://www.santander.com.uy/beneficios/la-trattoria",
+          "location": "Uruguay Nº 755 - Salto",
+          "geo": {
+            "lat": -31.387484,
+            "lng": -57.965971
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-31.387484,-57.965971"
         },
         {
           "name": "PIZZORNO FAMILY STATES",
-          "url": "https://www.santander.com.uy/beneficios/pizzorno-family-states"
+          "url": "https://www.santander.com.uy/beneficios/pizzorno-family-states",
+          "location": "7RPM+658, 15900 Montevideo, Departamento de Montevideo",
+          "geo": {
+            "lat": -34.714462,
+            "lng": -56.167051
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.714462,-56.167051"
         },
         {
           "name": "Late",
-          "url": "https://www.santander.com.uy/beneficios/late"
+          "url": "https://www.santander.com.uy/beneficios/late",
+          "location": "Parada 7 de la Mansa, Av Los Alpes esquina, 20100 Punta del Este, Departamento de Maldonado",
+          "geo": {
+            "lat": -34.941323,
+            "lng": -54.938327
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.941323,-54.9383274"
         },
         {
           "name": "Provaca",
-          "url": "https://www.santander.com.uy/beneficios/provaca"
+          "url": "https://www.santander.com.uy/beneficios/provaca",
+          "location": "Av. Millán 3721",
+          "geo": {
+            "lat": -34.859635,
+            "lng": -56.195491
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.859635,-56.1954911"
+        },
+        {
+          "name": "Provaca",
+          "url": "https://www.santander.com.uy/beneficios/provaca",
+          "location": "Arocena 1990",
+          "geo": {
+            "lat": -34.881066,
+            "lng": -56.063346
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.881066,-56.063346"
         },
         {
           "name": "Naru Sushi Bar",
-          "url": "https://www.santander.com.uy/beneficios/naru-sushi-bar"
+          "url": "https://www.santander.com.uy/beneficios/naru-sushi-bar",
+          "location": "Roque Graseras 604",
+          "geo": {
+            "lat": -34.920854,
+            "lng": -56.15231
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.920854,-56.1523105"
         },
         {
           "name": "Artico Sea Food",
-          "url": "https://www.santander.com.uy/beneficios/artico-sea-food"
+          "url": "https://www.santander.com.uy/beneficios/artico-sea-food",
+          "location": "Sarandí 502",
+          "geo": {
+            "lat": -34.907566,
+            "lng": -56.206994
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.907566,-56.206994"
+        },
+        {
+          "name": "Ártico Sea Food",
+          "url": "https://www.santander.com.uy/beneficios/artico-sea-food",
+          "location": "El Trinquete 1181",
+          "geo": {
+            "lat": -34.964716,
+            "lng": -54.954068
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.964716,-54.954068"
         },
         {
           "name": "Toledo",
-          "url": "https://www.santander.com.uy/beneficios/toledo"
+          "url": "https://www.santander.com.uy/beneficios/toledo",
+          "location": "Dr. Pablo de María 1018, 11200 Montevideo, Departamento de Montevideo",
+          "geo": {
+            "lat": -34.910405,
+            "lng": -56.170758
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.910405,-56.170758"
         },
         {
-          "name": "BBC BURGUER & SUSHI",
-          "url": "https://www.santander.com.uy/beneficios/bbc-burguer-sushi"
+          "name": "BBC Burger & Sushi",
+          "url": "https://www.santander.com.uy/beneficios/bbc-burguer-sushi",
+          "location": "Dr. Emilio Penza 864",
+          "geo": {
+            "lat": -33.378023,
+            "lng": -56.523685
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.378023,-56.523685"
+        },
+        {
+          "name": "BBC BURGER & SUSHI",
+          "url": "https://www.santander.com.uy/beneficios/bbc-burguer-sushi",
+          "location": "Av. Instrucciones del Año XIII 792",
+          "geo": {
+            "lat": -34.7281,
+            "lng": -56.225408
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.7281,-56.225408"
+        },
+        {
+          "name": "BBC BURGER & SUSHI",
+          "url": "https://www.santander.com.uy/beneficios/bbc-burguer-sushi",
+          "location": "Pedro F. Berro 1348",
+          "geo": {
+            "lat": -34.908839,
+            "lng": -56.145798
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.908839,-56.145798"
+        },
+        {
+          "name": "BBC BURGER & SUSHI",
+          "url": "https://www.santander.com.uy/beneficios/bbc-burguer-sushi",
+          "location": "Av. Luis Alberto de Herrera 4009",
+          "geo": {
+            "lat": -34.862344,
+            "lng": -56.183661
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.862344,-56.183661"
+        },
+        {
+          "name": "Umami",
+          "url": "https://www.santander.com.uy/beneficios/umami",
+          "location": "Punta Carretas: Manuel J. Errazquin 2387",
+          "geo": {
+            "lat": -34.928138,
+            "lng": -56.160151
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.928138,-56.1601506"
         },
         {
           "name": "UMAMI",
-          "url": "https://www.santander.com.uy/beneficios/umami"
+          "url": "https://www.santander.com.uy/beneficios/umami",
+          "location": "Mones Roses 6663",
+          "geo": {
+            "lat": -34.880274,
+            "lng": -56.061242
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.880274,-56.0612421"
         },
         {
-          "name": "Mendizabal",
-          "url": "https://www.santander.com.uy/beneficios/mendizabal"
+          "name": "Bar Mendizabal",
+          "url": "https://www.santander.com.uy/beneficios/mendizabal",
+          "location": "Gabriel Pereira 3151",
+          "geo": {
+            "lat": -34.909087,
+            "lng": -56.147914
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Bar+Mendizabal/data=!4m7!3m6!1s0x959f8100616ba131:0xffabfeb02be11c74!8m2!3d-34.9090872!4d-56.1479145!16s%2Fg%2F11lnqrk0rd!19sChIJMaFrYQCBn5URdBzhK7D-q_8"
+        },
+        {
+          "name": "Bar Mendizábal",
+          "url": "https://www.santander.com.uy/beneficios/mendizabal",
+          "location": "Av. Italia 5750",
+          "geo": {
+            "lat": -34.883361,
+            "lng": -56.083062
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Bar+Mendiz%C3%A1bal/data=!4m7!3m6!1s0x959f86f7eac1275b:0x611576610774659f!8m2!3d-34.8833613!4d-56.0830623!16s%2Fg%2F11bcd_rwx1!19sChIJWyfB6veGn5URn2V0B2F2FWE"
         },
         {
           "name": "Dakota Steakhouse & Bar",
-          "url": "https://www.santander.com.uy/beneficios/dakota-steakhouse-bar"
+          "url": "https://www.santander.com.uy/beneficios/dakota-steakhouse-bar",
+          "location": "21 de Setiembre 2752 y Luis de la Torre",
+          "geo": {
+            "lat": -34.917827,
+            "lng": -56.157367
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.917827,-56.157367"
         },
         {
           "name": "La Marea",
-          "url": "https://www.santander.com.uy/beneficios/la-marea"
+          "url": "https://www.santander.com.uy/beneficios/la-marea",
+          "location": "El Trinquete 1181",
+          "geo": {
+            "lat": -34.964716,
+            "lng": -54.954068
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.964716,-54.954068"
         },
         {
           "name": "481 Gourmet",
-          "url": "https://www.santander.com.uy/beneficios/481-gourmet"
+          "url": "https://www.santander.com.uy/beneficios/481-gourmet",
+          "location": "Ave Pedragosa Sierra, 20100 Punta del Este, Departamento de Maldonado",
+          "geo": {
+            "lat": -34.934403,
+            "lng": -54.924368
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.934403,-54.9243676"
         },
         {
           "name": "Panadería Brava",
-          "url": "https://www.santander.com.uy/beneficios/panaderia-brava"
+          "url": "https://www.santander.com.uy/beneficios/panaderia-brava",
+          "location": "José Ellauri 532",
+          "geo": {
+            "lat": -34.92081,
+            "lng": -56.157167
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.92081,-56.157167"
         },
         {
-          "name": "Donut City",
-          "url": "https://www.santander.com.uy/beneficios/donut-city"
+          "name": "DONUT CITY Parque Batlle - Café / Take away",
+          "url": "https://www.santander.com.uy/beneficios/donut-city",
+          "location": "Av. Ramón Anador 3367",
+          "geo": {
+            "lat": -34.895623,
+            "lng": -56.144037
+          },
+          "mapsUrl": "https://www.google.com/maps/place/DONUT+CITY+Parque+Batlle+-+Caf%C3%A9+%2F+Take+away/data=!4m7!3m6!1s0x959f81ca9cc00003:0x343d55baa0c89444!8m2!3d-34.8956228!4d-56.1440374!16s%2Fg%2F11dxns5xvq!19sChIJAwDAnMqBn5URRJTIoLpVPTQ"
+        },
+        {
+          "name": "DONUT CITY Barrio Sur - Café / Restaurante",
+          "url": "https://www.santander.com.uy/beneficios/donut-city",
+          "location": "Convención 1150 esq, Maldonado",
+          "geo": {
+            "lat": -34.910123,
+            "lng": -56.196449
+          },
+          "mapsUrl": "https://www.google.com/maps/place/DONUT+CITY+Barrio+Sur+-+Caf%C3%A9+%2F+Restaurante/data=!4m7!3m6!1s0x959f8196aa084fc7:0xb6b7219293195fc1!8m2!3d-34.9101235!4d-56.1964485!16s%2Fg%2F11mmhf5l1g!19sChIJx08IqpaBn5URwV8Zk5Iht7Y"
+        },
+        {
+          "name": "DONUT CITY Punta Carretas - Café / Take away",
+          "url": "https://www.santander.com.uy/beneficios/donut-city",
+          "location": "21 de Septiembre 2689",
+          "geo": {
+            "lat": -34.915795,
+            "lng": -56.158995
+          },
+          "mapsUrl": "https://www.google.com/maps/place/DONUT+CITY+Punta+Carretas+-+Caf%C3%A9+%2F+Take+away/data=!4m7!3m6!1s0x959f81006da1e379:0xaa0db6f436241701!8m2!3d-34.9157951!4d-56.1589952!16s%2Fg%2F11xl6gwdr1!19sChIJeeOhbQCBn5URARckNvS2Dao"
+        },
+        {
+          "name": "DONUT CITY Café",
+          "url": "https://www.santander.com.uy/beneficios/donut-city",
+          "location": "Plaza de comidas - Portones Shopping",
+          "geo": {
+            "lat": -34.881083,
+            "lng": -56.081525
+          },
+          "mapsUrl": "https://www.google.com/maps/place/DONUT+CITY+Caf%C3%A9/data=!4m7!3m6!1s0x959f87efdc451e63:0x15a0a3ecc151a2b7!8m2!3d-34.8810833!4d-56.0815253!16s%2Fg%2F11ygqxtp4f!19sChIJYx5F3O-Hn5URt6JRweyjoBU"
         },
         {
           "name": "MISION",
-          "url": "https://www.santander.com.uy/beneficios/mision"
+          "url": "https://www.santander.com.uy/beneficios/mision",
+          "location": "Dr. Pablo de María 1015, 11200 Montevideo",
+          "geo": {
+            "lat": -34.910417,
+            "lng": -56.170554
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.910417,-56.170554"
         },
         {
           "name": "Duciana Cafetería",
-          "url": "https://www.santander.com.uy/beneficios/duciana-cafeteria"
+          "url": "https://www.santander.com.uy/beneficios/duciana-cafeteria",
+          "location": "Montevideo 3504",
+          "geo": {
+            "lat": -32.699926,
+            "lng": -57.635079
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.699926,-57.6350792"
         },
         {
           "name": "Montevideo Beer Company",
-          "url": "https://www.santander.com.uy/beneficios/montevideo-beer-company"
+          "url": "https://www.santander.com.uy/beneficios/montevideo-beer-company",
+          "location": "Br. España 2614",
+          "geo": {
+            "lat": -34.913367,
+            "lng": -56.157993
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.913367,-56.157993"
+        },
+        {
+          "name": "Montevideo Beer Company World Trade Center",
+          "url": "https://www.santander.com.uy/beneficios/montevideo-beer-company",
+          "location": "Luis Alberto de Herrera 1248",
+          "geo": {
+            "lat": -34.904666,
+            "lng": -56.139081
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.904666,-56.139081"
+        },
+        {
+          "name": "Montevideo Beer Company Design",
+          "url": "https://www.santander.com.uy/beneficios/montevideo-beer-company",
+          "location": "Eduardo Victor Haedo 2244 Local 2",
+          "geo": {
+            "lat": -34.896469,
+            "lng": -56.170887
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.896469,-56.170887"
         },
         {
           "name": "Shark Club",
-          "url": "https://www.santander.com.uy/beneficios/shark-club"
+          "url": "https://www.santander.com.uy/beneficios/shark-club",
+          "location": "Rambla Claudio Williman, Playa Mansa, Parada 3, Punta del Este",
+          "geo": {
+            "lat": -34.952091,
+            "lng": -54.942686
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.952091,-54.942686"
         },
         {
           "name": "SushiAPP",
-          "url": "https://www.santander.com.uy/beneficios/sushiapp"
+          "url": "https://www.santander.com.uy/beneficios/sushiapp",
+          "location": "Av Gabriela Mistral 2127, 15000 Ciudad de la Costa, Departamento de Canelones/ Coordenadas",
+          "geo": {
+            "lat": -34.865377,
+            "lng": -56.033745
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.865377,-56.033745"
         },
         {
           "name": "Gouda",
-          "url": "https://www.santander.com.uy/beneficios/gouda"
+          "url": "https://www.santander.com.uy/beneficios/gouda",
+          "location": "Los Romances, 20001 La Barra, Departamento de Maldonado",
+          "geo": {
+            "lat": -34.915382,
+            "lng": -54.856708
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.915382,-54.856708"
         },
         {
           "name": "Restaurante García",
-          "url": "https://www.santander.com.uy/beneficios/restaurante-garcia"
+          "url": "https://www.santander.com.uy/beneficios/restaurante-garcia",
+          "location": "Av. Alfredo Arocena 1587",
+          "geo": {
+            "lat": -34.8894,
+            "lng": -56.059257
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.8894,-56.059257"
+        },
+        {
+          "name": "Restaurante Garcia",
+          "url": "https://www.santander.com.uy/beneficios/restaurante-garcia",
+          "location": "Guipúzcoa 331",
+          "geo": {
+            "lat": -34.925179,
+            "lng": -56.157056
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.925179,-56.157056"
         },
         {
           "name": "Lavender",
-          "url": "https://www.santander.com.uy/beneficios/lavender"
+          "url": "https://www.santander.com.uy/beneficios/lavender",
+          "location": "Mones Roses 6605",
+          "geo": {
+            "lat": -34.88105,
+            "lng": -56.064622
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.88105,-56.064622"
         },
         {
           "name": "Lo de Marcos",
-          "url": "https://www.santander.com.uy/beneficios/lo-de-marcos"
+          "url": "https://www.santander.com.uy/beneficios/lo-de-marcos",
+          "geo": {
+            "lat": -34.881277,
+            "lng": -56.060972
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Lo+de+Marcos/@-34.8812768,-56.060972,17z/data=!3m1!4b1!4m6!3m5!1s0x959f865c8a91118b:0x2a1003da1428f79!8m2!3d-34.8812768!4d-56.060972!16s%2Fg%2F1pp2wwfj8"
         },
         {
           "name": "Soho",
-          "url": "https://www.santander.com.uy/beneficios/soho"
+          "url": "https://www.santander.com.uy/beneficios/soho",
+          "location": "Rambla Artigas entre calles 10 y 12, Puerto Punta del Este",
+          "geo": {
+            "lat": -34.96537,
+            "lng": -54.952016
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.96537,-54.952016"
         },
         {
           "name": "MEAT HOUSE",
-          "url": "https://www.santander.com.uy/beneficios/meat-house"
+          "url": "https://www.santander.com.uy/beneficios/meat-house",
+          "location": "Federico Garcia Lorca, Ciudad de la Costa, Departamento de Canelones",
+          "geo": {
+            "lat": -34.865332,
+            "lng": -56.033745
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.865332,-56.033745"
         },
         {
           "name": "Ramona",
-          "url": "https://www.santander.com.uy/beneficios/ramona"
+          "url": "https://www.santander.com.uy/beneficios/ramona",
+          "location": "San José 900 esq. Convención",
+          "geo": {
+            "lat": -34.907215,
+            "lng": -56.196938
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.907215,-56.196938"
+        },
+        {
+          "name": "Ramona",
+          "url": "https://www.santander.com.uy/beneficios/ramona",
+          "location": "Luis de la Torre 701 esq. Solano Antuña",
+          "geo": {
+            "lat": -34.913817,
+            "lng": -56.156274
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.913817,-56.156274"
         },
         {
           "name": "LA ESQUINA",
-          "url": "https://www.santander.com.uy/beneficios/la-esquina"
+          "url": "https://www.santander.com.uy/beneficios/la-esquina",
+          "location": "Asencio 2002 esq. Tomàs Gomez - Dolores – Soriano",
+          "geo": {
+            "lat": -33.536602,
+            "lng": -58.213481
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.536602,-58.213481"
         },
         {
           "name": "I’Marangatú",
-          "url": "https://www.santander.com.uy/beneficios/imarangatu"
+          "url": "https://www.santander.com.uy/beneficios/imarangatu",
+          "location": "Rambla Claudio Williman, Parada 7, Playa Mansa",
+          "geo": {
+            "lat": -34.944417,
+            "lng": -54.94426
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.944417,-54.94426"
         },
         {
           "name": "Finca Boutique de Carnes",
-          "url": "https://www.santander.com.uy/beneficios/finca-boutique-de-carnes"
+          "url": "https://www.santander.com.uy/beneficios/finca-boutique-de-carnes",
+          "location": "Luis B. Cavia 2622",
+          "geo": {
+            "lat": -34.907907,
+            "lng": -56.157508
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.907907,-56.1575084"
         },
         {
           "name": "El Bar",
-          "url": "https://www.santander.com.uy/beneficios/el-bar"
+          "url": "https://www.santander.com.uy/beneficios/el-bar",
+          "location": "Luis A. Herrera 955 - Paysandu",
+          "geo": {
+            "lat": -32.316997,
+            "lng": -58.082956
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.316997,-58.0829558"
         },
         {
           "name": "Cafetto Prado",
-          "url": "https://www.santander.com.uy/beneficios/cafetto-prado"
+          "url": "https://www.santander.com.uy/beneficios/cafetto-prado",
+          "location": "Av. Joaquín Suárez 3640",
+          "geo": {
+            "lat": -34.861092,
+            "lng": -56.196244
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.861092,-56.196244"
         },
         {
-          "name": "Orbe",
-          "url": "https://www.santander.com.uy/beneficios/orbe"
+          "name": "Orbe - Pizza & Burger",
+          "url": "https://www.santander.com.uy/beneficios/orbe",
+          "location": "Matisse Mall, Av. Gabriela Mistral 2127",
+          "geo": {
+            "lat": -34.865313,
+            "lng": -56.033789
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Orbe+-+Pizza+%26+Burger/data=!4m7!3m6!1s0x959f872177efd5ab:0x9723f52c9e295bf6!8m2!3d-34.8653131!4d-56.0337895!16s%2Fg%2F11vwf752yq!19sChIJq9XvdyGHn5UR9lspniz1I5c"
         },
         {
           "name": "Pellicer Parrilla Gourmet",
-          "url": "https://www.santander.com.uy/beneficios/pellicer-parrilla-gourmet"
+          "url": "https://www.santander.com.uy/beneficios/pellicer-parrilla-gourmet",
+          "location": "José L. Terra 2220, 11800 Montevideo, Departamento de Montevideo",
+          "geo": {
+            "lat": -34.88622,
+            "lng": -56.18379
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.88622,-56.18379"
         },
         {
           "name": "Otero (By Rotunda)",
-          "url": "https://www.santander.com.uy/beneficios/otero-rotunda"
+          "url": "https://www.santander.com.uy/beneficios/otero-rotunda",
+          "location": "Dr. Gabriel Otero 6590, 11500 Montevideo",
+          "geo": {
+            "lat": -34.888265,
+            "lng": -56.052805
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.888265,-56.0528048"
         },
         {
           "name": "Dilema Café & Restobar",
-          "url": "https://www.santander.com.uy/beneficios/dilema-cafe-restobar"
+          "url": "https://www.santander.com.uy/beneficios/dilema-cafe-restobar",
+          "location": "Cambara 1628, 11500 Montevideo, Departamento de Montevideo",
+          "geo": {
+            "lat": -34.888083,
+            "lng": -56.058308
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.888083,-56.0583081"
+        },
+        {
+          "name": "Dilema Pocitos",
+          "url": "https://www.santander.com.uy/beneficios/dilema-cafe-restobar",
+          "location": "Tomás Diago 879, 11300 Montevideo, Departamento de Montevideo",
+          "geo": {
+            "lat": -34.915009,
+            "lng": -56.151943
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.915009,-56.151943"
         },
         {
           "name": "Charo Cocina y Café",
-          "url": "https://www.santander.com.uy/beneficios/charo-cocina-y-cafe"
+          "url": "https://www.santander.com.uy/beneficios/charo-cocina-y-cafe",
+          "location": "Rambla República de México 6363, 11500 Montevideo, Departamento de Montevideo",
+          "geo": {
+            "lat": -34.8916,
+            "lng": -56.0572
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.8916,-56.0572"
         },
         {
           "name": "La Pasiva 26 de Marzo",
-          "url": "https://www.santander.com.uy/beneficios/la-pasiva-26-de-marzo"
+          "url": "https://www.santander.com.uy/beneficios/la-pasiva-26-de-marzo",
+          "location": "Blvr. 26 de Marzo 3564",
+          "geo": {
+            "lat": -34.905403,
+            "lng": -56.13535
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.905403,-56.1353497"
         },
         {
           "name": "El Mingus",
-          "url": "https://www.santander.com.uy/beneficios/el-mingus"
+          "url": "https://www.santander.com.uy/beneficios/el-mingus",
+          "location": "San Salvador 1952",
+          "geo": {
+            "lat": -34.911099,
+            "lng": -56.172596
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.911099,-56.1725964"
         },
         {
           "name": "Las Pavas",
-          "url": "https://www.santander.com.uy/beneficios/las-pavas"
+          "url": "https://www.santander.com.uy/beneficios/las-pavas",
+          "location": "El Trinquete 828",
+          "geo": {
+            "lat": -34.966063,
+            "lng": -54.951965
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.966063,-54.9519647"
         },
         {
           "name": "Cafe Julisa",
-          "url": "https://www.santander.com.uy/beneficios/cafe-julisa"
+          "url": "https://www.santander.com.uy/beneficios/cafe-julisa",
+          "location": "51 Esquina, Misiones de los Tapes",
+          "geo": {
+            "lat": -34.472168,
+            "lng": -57.852902
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.472168,-57.8529025"
         },
         {
           "name": "Café Salvo",
-          "url": "https://www.santander.com.uy/beneficios/cafe-salvo"
+          "url": "https://www.santander.com.uy/beneficios/cafe-salvo",
+          "location": "Pl. Independencia 846 BIS, 11000 Montevideo, Departamento de Montevideo",
+          "geo": {
+            "lat": -34.906524,
+            "lng": -56.198487
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.906524,-56.1984865"
         },
         {
           "name": "Tato Pescador",
-          "url": "https://www.santander.com.uy/beneficios/tato-pescador"
+          "url": "https://www.santander.com.uy/beneficios/tato-pescador",
+          "location": "Los Biguá y Eugenio Sainz Martinez",
+          "geo": {
+            "lat": -34.842814,
+            "lng": -54.637663
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.842814,-54.6376626"
         },
         {
           "name": "Cali Cafe",
-          "url": "https://www.santander.com.uy/beneficios/cali-cafe"
+          "url": "https://www.santander.com.uy/beneficios/cali-cafe",
+          "location": "entre, Ruta 10, Los Remansos y, 20000 La Barra",
+          "geo": {
+            "lat": -34.91489,
+            "lng": -54.85679
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.91489,-54.85679"
+        },
+        {
+          "name": "Cali Cafe Montevideo",
+          "url": "https://www.santander.com.uy/beneficios/cali-cafe",
+          "location": "Claudio Williman 642",
+          "geo": {
+            "lat": -34.916854,
+            "lng": -56.158705
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.916854,-56.1587053"
         },
         {
           "name": "Innato",
-          "url": "https://www.santander.com.uy/beneficios/innato"
+          "url": "https://www.santander.com.uy/beneficios/innato",
+          "location": "Rbla. Pdte. Wilson",
+          "geo": {
+            "lat": -34.915812,
+            "lng": -56.169019
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.915812,-56.169019"
         },
         {
           "name": "Bodega Spinoglio",
-          "url": "https://www.santander.com.uy/beneficios/bodega-spinoglio"
+          "url": "https://www.santander.com.uy/beneficios/bodega-spinoglio",
+          "location": "Av. Don Pedro de Mendoza 8238, 12400 Montevideo",
+          "geo": {
+            "lat": -34.741204,
+            "lng": -56.163556
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.741204,-56.1635557"
         },
         {
           "name": "Café Butiá",
-          "url": "https://www.santander.com.uy/beneficios/cafe-butia"
+          "url": "https://www.santander.com.uy/beneficios/cafe-butia",
+          "location": "21 de Setiembre 2815, 11300 Montevideo",
+          "geo": {
+            "lat": -34.91782,
+            "lng": -56.156228
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.91782,-56.156228"
         },
         {
           "name": "Bar Arehucas",
-          "url": "https://www.santander.com.uy/beneficios/bar-arehucas"
+          "url": "https://www.santander.com.uy/beneficios/bar-arehucas",
+          "geo": {
+            "lat": -34.865344,
+            "lng": -56.033665
+          },
+          "mapsUrl": "https://www.google.com/maps/place/El+Bar+Arehucas/@-34.8653441,-56.0336649,17z/data=!3m1!4b1!4m6!3m5!1s0x959f87b84b737975:0xfac959612d86be19!8m2!3d-34.8653441!4d-56.0336649!16s%2Fg%2F11lc9t29j0"
         },
         {
           "name": "Sintel",
-          "url": "https://www.santander.com.uy/beneficios/sintel"
+          "url": "https://www.santander.com.uy/beneficios/sintel",
+          "location": "Brigadier Gral. Fructuoso Rivera 9898, 94000 Florida",
+          "geo": {
+            "lat": -34.096493,
+            "lng": -56.1961
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.096493,-56.1961002"
         },
         {
           "name": "Medialunas Calentitas",
-          "url": "https://www.santander.com.uy/beneficios/medialunas-calentitas-0"
+          "url": "https://www.santander.com.uy/beneficios/medialunas-calentitas-0",
+          "location": "Ruta Interbalnearia - Km. 118.500 Punta Ballena, 20003",
+          "geo": {
+            "lat": -34.881543,
+            "lng": -55.048171
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.881543,-55.0481714"
+        },
+        {
+          "name": "Medialunas Calentitas 21 de setiembre",
+          "url": "https://www.santander.com.uy/beneficios/medialunas-calentitas-0",
+          "location": "21 de Setiembre 2982, 11300 Montevideo",
+          "geo": {
+            "lat": -34.919604,
+            "lng": -56.152875
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.919604,-56.1528745"
+        },
+        {
+          "name": "Medialunas Calentitas Av de las Américas",
+          "url": "https://www.santander.com.uy/beneficios/medialunas-calentitas-0",
+          "location": "Av. de las Américas 6000, 15000 Canelones",
+          "geo": {
+            "lat": -34.870102,
+            "lng": -56.031111
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.870102,-56.0311113"
+        },
+        {
+          "name": "Medialunas Calentitas el Pinar",
+          "url": "https://www.santander.com.uy/beneficios/medialunas-calentitas-0",
+          "location": "Av. Perez Butler M151 S3, 15800 Ciudad de la Costa",
+          "geo": {
+            "lat": -34.800832,
+            "lng": -55.917352
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.800832,-55.9173523"
+        },
+        {
+          "name": "Medialunas Calentitas La Barra",
+          "url": "https://www.santander.com.uy/beneficios/medialunas-calentitas-0",
+          "location": "Ruta 10 km 120, 20001 La Barra",
+          "geo": {
+            "lat": -34.909503,
+            "lng": -54.865575
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.909503,-54.8655747"
+        },
+        {
+          "name": "Medialunas Calentitas Puerto",
+          "url": "https://www.santander.com.uy/beneficios/medialunas-calentitas-0",
+          "location": "Rbla. Gral. Artigas, 20100 Punta del Este",
+          "geo": {
+            "lat": -34.965393,
+            "lng": -54.949022
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.965393,-54.9490222"
         },
         {
           "name": "Popei",
-          "url": "https://www.santander.com.uy/beneficios/popei-0"
+          "url": "https://www.santander.com.uy/beneficios/popei-0",
+          "location": "esq. Los Tordos, 20402 Faro de José Ignacio",
+          "geo": {
+            "lat": -34.844415,
+            "lng": -54.635652
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.844415,-54.635652"
         },
         {
           "name": "OrderEat",
@@ -290,87 +959,263 @@
         },
         {
           "name": "Ocho Nudos",
-          "url": "https://www.santander.com.uy/beneficios/ocho-nudos"
+          "url": "https://www.santander.com.uy/beneficios/ocho-nudos",
+          "location": "20200 Piriápolis, Departamento de Maldonado",
+          "geo": {
+            "lat": -34.872416,
+            "lng": -55.276816
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.872416,-55.2768157"
         },
         {
           "name": "Felix Caffè",
-          "url": "https://www.santander.com.uy/beneficios/felix-caffe"
+          "url": "https://www.santander.com.uy/beneficios/felix-caffe",
+          "location": "Av. Pedragosa sierra y, 20100 Punta del Este, Departamento de Maldonado",
+          "geo": {
+            "lat": -34.938252,
+            "lng": -54.927256
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.938252,-54.9272558"
         },
         {
           "name": "La Mantequería",
-          "url": "https://www.santander.com.uy/beneficios/la-mantequeria"
+          "url": "https://www.santander.com.uy/beneficios/la-mantequeria",
+          "location": "Av. Juan Gorlero 951",
+          "geo": {
+            "lat": -34.959149,
+            "lng": -54.940387
+          },
+          "mapsUrl": "https://www.google.com/maps/place/La+Mantequer%C3%ADa/data=!4m7!3m6!1s0x95750500126482d5:0x210aaee7a51c78ef!8m2!3d-34.9591486!4d-54.9403866!16s%2Fg%2F11lcj8qpxc!19sChIJ1YJkEgAFdZUR73gcpeeuCiE"
         },
         {
           "name": "Raza Nuestra",
-          "url": "https://www.santander.com.uy/beneficios/raza-nuestra"
+          "url": "https://www.santander.com.uy/beneficios/raza-nuestra",
+          "location": "Zorrilla de San Martin 551",
+          "geo": {
+            "lat": -34.336736,
+            "lng": -56.714093
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Raza+Nuestra/data=!4m7!3m6!1s0x95a177007cb96bb1:0xae935affe903354d!8m2!3d-34.3367355!4d-56.7140929!16s%2Fg%2F11y50cvz1h!19sChIJsWu5fAB3oZURTTUD6f9ak64"
         },
         {
           "name": "City Winery",
-          "url": "https://www.santander.com.uy/beneficios/city-winery"
+          "url": "https://www.santander.com.uy/beneficios/city-winery",
+          "location": "Dr. Joaquín Requena 1094",
+          "geo": {
+            "lat": -34.908222,
+            "lng": -56.168281
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.908222,-56.1682805"
         },
         {
           "name": "Knuss heladería y café",
-          "url": "https://www.santander.com.uy/beneficios/knuss-heladeria-y-cafe"
+          "url": "https://www.santander.com.uy/beneficios/knuss-heladeria-y-cafe",
+          "location": "General Flores 111, local 07",
+          "geo": {
+            "lat": -34.470388,
+            "lng": -57.851625
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.470388,-57.8516252"
         },
         {
           "name": "De Diez Burger",
-          "url": "https://www.santander.com.uy/beneficios/de-diez-burger"
+          "url": "https://www.santander.com.uy/beneficios/de-diez-burger",
+          "location": "Ruta 3-General Jose Artigas Km 91.600",
+          "geo": {
+            "lat": -34.340055,
+            "lng": -56.730915
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.340055,-56.730915"
         },
         {
           "name": "Bequelo",
-          "url": "https://www.santander.com.uy/beneficios/bequelo"
+          "url": "https://www.santander.com.uy/beneficios/bequelo",
+          "location": "Estivao 1569",
+          "geo": {
+            "lat": -34.89594,
+            "lng": -56.1333
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.89594,-56.1332996"
         },
         {
           "name": "Empanadas Calentitas",
-          "url": "https://www.santander.com.uy/beneficios/empanadas-calentitas"
+          "url": "https://www.santander.com.uy/beneficios/empanadas-calentitas",
+          "location": "31 y gorlero",
+          "geo": {
+            "lat": -34.958534,
+            "lng": -54.939624
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.958534,-54.9396235"
+        },
+        {
+          "name": "Empanadas Calentitas - Maldonado",
+          "url": "https://www.santander.com.uy/beneficios/empanadas-calentitas",
+          "location": "18 de Julio 842",
+          "geo": {
+            "lat": -34.908704,
+            "lng": -54.958599
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.908704,-54.9585993"
         },
         {
           "name": "Lolo",
-          "url": "https://www.santander.com.uy/beneficios/lolo"
+          "url": "https://www.santander.com.uy/beneficios/lolo",
+          "location": "Ave Pedragosa Sierra y Julio Herrera y Reissing",
+          "geo": {
+            "lat": -34.944032,
+            "lng": -54.933565
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.944032,-54.9335648"
         },
         {
           "name": "Cresta Cafe",
-          "url": "https://www.santander.com.uy/beneficios/cresta-cafe"
+          "url": "https://www.santander.com.uy/beneficios/cresta-cafe",
+          "location": "Los Meros, 20100 Punta del Este, Departamento de Maldonado",
+          "geo": {
+            "lat": -34.961875,
+            "lng": -54.940779
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.961875,-54.940779"
         },
         {
           "name": "Delirio",
-          "url": "https://www.santander.com.uy/beneficios/delirio"
+          "url": "https://www.santander.com.uy/beneficios/delirio",
+          "location": "Colombia y Benteveo",
+          "geo": {
+            "lat": -34.892742,
+            "lng": -55.248581
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.892742,-55.2485806"
         },
         {
           "name": "Laferre",
-          "url": "https://www.santander.com.uy/beneficios/laferre"
+          "url": "https://www.santander.com.uy/beneficios/laferre",
+          "location": "20003 Punta Ballena, Departamento de Maldonado",
+          "geo": {
+            "lat": -34.877755,
+            "lng": -55.05697
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.877755,-55.0569704"
         },
         {
           "name": "Life Bistro",
-          "url": "https://www.santander.com.uy/beneficios/life-bistro"
+          "url": "https://www.santander.com.uy/beneficios/life-bistro",
+          "location": "Av. Pedragosa sierra y San Ciro",
+          "geo": {
+            "lat": -34.94045,
+            "lng": -54.929307
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.94045,-54.9293068"
         },
         {
           "name": "Papirosen",
-          "url": "https://www.santander.com.uy/beneficios/papirosen"
+          "url": "https://www.santander.com.uy/beneficios/papirosen",
+          "location": "El Remanso 20 y, 20100 Punta del Este, Departamento de Maldonado",
+          "geo": {
+            "lat": -34.961166,
+            "lng": -54.943769
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.961166,-54.9437691"
         },
         {
           "name": "La Cocktelería",
-          "url": "https://www.santander.com.uy/beneficios/la-cockteleria"
+          "url": "https://www.santander.com.uy/beneficios/la-cockteleria",
+          "location": "Luis B. Cavia 2898",
+          "geo": {
+            "lat": -34.911641,
+            "lng": -56.153406
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.911641,-56.1534056"
         },
         {
           "name": "Manantiales Point",
-          "url": "https://www.santander.com.uy/beneficios/manantiales-point"
+          "url": "https://www.santander.com.uy/beneficios/manantiales-point",
+          "location": "Ruta 10 esquina Sarandí",
+          "geo": {
+            "lat": -34.905275,
+            "lng": -54.82647
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.905275,-54.8264701"
+        },
+        {
+          "name": "Manantiales Point Puerto",
+          "url": "https://www.santander.com.uy/beneficios/manantiales-point",
+          "location": "Rambla Artigas esquina El Foque",
+          "geo": {
+            "lat": -34.965323,
+            "lng": -54.948433
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.965323,-54.9484329"
         },
         {
           "name": "Gabbs",
-          "url": "https://www.santander.com.uy/beneficios/gabbs"
+          "url": "https://www.santander.com.uy/beneficios/gabbs",
+          "location": "Luis Alberto de Herrera 1249",
+          "geo": {
+            "lat": -34.904894,
+            "lng": -56.137233
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.904894,-56.1372328"
+        },
+        {
+          "name": "Gabbs - Ciudad Vieja",
+          "url": "https://www.santander.com.uy/beneficios/gabbs",
+          "location": "Alzáibar 1367",
+          "geo": {
+            "lat": -34.908272,
+            "lng": -56.20777
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.908272,-56.2077704"
+        },
+        {
+          "name": "Gabbs - Centro",
+          "url": "https://www.santander.com.uy/beneficios/gabbs",
+          "location": "Convención 1321 bis",
+          "geo": {
+            "lat": -34.906782,
+            "lng": -56.196732
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.906782,-56.1967318"
         },
         {
           "name": "Mariapasión",
-          "url": "https://www.santander.com.uy/beneficios/mariapasion"
+          "url": "https://www.santander.com.uy/beneficios/mariapasion",
+          "location": "Punta Carretas Shopping, Nivel 2",
+          "geo": {
+            "lat": -34.924815,
+            "lng": -56.158536
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.924815,-56.1585357"
+        },
+        {
+          "name": "Mariapasión Carrasco",
+          "url": "https://www.santander.com.uy/beneficios/mariapasion",
+          "location": "Gabriel Otero 6374 esq. Blanes Viale",
+          "geo": {
+            "lat": -34.890832,
+            "lng": -56.058431
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.890832,-56.058431"
         },
         {
           "name": "Café Mallorca",
-          "url": "https://www.santander.com.uy/beneficios/cafe-mallorca"
+          "url": "https://www.santander.com.uy/beneficios/cafe-mallorca",
+          "location": "Hadeo y Sánchez, Mercedes, Soriano",
+          "geo": {
+            "lat": -33.251749,
+            "lng": -58.032245
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.251749,-58.0322454"
         },
         {
           "name": "Almar",
-          "url": "https://www.santander.com.uy/beneficios/almar"
+          "url": "https://www.santander.com.uy/beneficios/almar",
+          "location": "Rambla República de México 5535",
+          "geo": {
+            "lat": -34.89868,
+            "lng": -56.082079
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.89868,-56.0820787"
         },
         {
           "name": "Rullé",
@@ -382,123 +1227,303 @@
         },
         {
           "name": "La Vuelta",
-          "url": "https://www.santander.com.uy/beneficios/la-vuelta"
+          "url": "https://www.santander.com.uy/beneficios/la-vuelta",
+          "location": "10 y Sarandi, 20000 Manantiales, Departamento de Maldonado",
+          "geo": {
+            "lat": -34.90541,
+            "lng": -54.826081
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.90541,-54.8260813"
         },
         {
           "name": "The Beer House",
-          "url": "https://www.santander.com.uy/beneficios/beer-house"
+          "url": "https://www.santander.com.uy/beneficios/beer-house",
+          "location": "Monsenor Joaquín Arrospide 496",
+          "geo": {
+            "lat": -33.380686,
+            "lng": -56.525807
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.380686,-56.5258069"
         },
         {
           "name": "Gryk",
-          "url": "https://www.santander.com.uy/beneficios/gryk"
+          "url": "https://www.santander.com.uy/beneficios/gryk",
+          "location": "Av. Juan Gorlero 53",
+          "geo": {
+            "lat": -34.960555,
+            "lng": -54.94161
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.960555,-54.9416101"
         },
         {
           "name": "Bravo Restó",
-          "url": "https://www.santander.com.uy/beneficios/bravo-resto"
+          "url": "https://www.santander.com.uy/beneficios/bravo-resto",
+          "location": "Joaquin Lenzina-Ansina, 20100 Punta del Este, Departamento de Maldonado",
+          "geo": {
+            "lat": -34.953734,
+            "lng": -54.93339
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.953734,-54.9333898"
         },
         {
           "name": "El Fondin",
-          "url": "https://www.santander.com.uy/beneficios/el-fondin"
+          "url": "https://www.santander.com.uy/beneficios/el-fondin",
+          "location": "Avenida Eduardo Victor Haedo, Manantiales",
+          "geo": {
+            "lat": -34.906139,
+            "lng": -54.824191
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.906139,-54.8241913"
         },
         {
           "name": "El Garage de George",
-          "url": "https://www.santander.com.uy/beneficios/el-garage-de-george"
+          "url": "https://www.santander.com.uy/beneficios/el-garage-de-george",
+          "location": "Av. Nicolás Solari esq, 27400 La Paloma, Departamento de Rocha",
+          "geo": {
+            "lat": -34.663431,
+            "lng": -54.155377
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.663431,-54.155377"
         },
         {
           "name": "La Perrera",
-          "url": "https://www.santander.com.uy/beneficios/la-perrera"
+          "url": "https://www.santander.com.uy/beneficios/la-perrera",
+          "location": "Avenida Principal, 27400 La Pedrera, Departamento de Rocha",
+          "geo": {
+            "lat": -34.59181,
+            "lng": -54.124958
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.59181,-54.1249575"
         },
         {
           "name": "Arraí",
-          "url": "https://www.santander.com.uy/beneficios/arrai"
+          "url": "https://www.santander.com.uy/beneficios/arrai",
+          "location": "Playa de la viuda, 27200 Punta del Diablo, Departamento de Rocha",
+          "geo": {
+            "lat": -34.048739,
+            "lng": -53.540477
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.048739,-53.540477"
         },
         {
           "name": "Cafetería Ferran",
-          "url": "https://www.santander.com.uy/beneficios/cafeteria-ferran"
+          "url": "https://www.santander.com.uy/beneficios/cafeteria-ferran",
+          "location": "Av. Juan Gorlero 62, 20100 Punta del Este, Departamento de Maldonado",
+          "geo": {
+            "lat": -34.958635,
+            "lng": -54.939853
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.958635,-54.9398532"
         },
         {
           "name": "Franca",
-          "url": "https://www.santander.com.uy/beneficios/franca"
+          "url": "https://www.santander.com.uy/beneficios/franca",
+          "location": "Avenida rocha esquina palmarés, 27001 La Pedrera, Departamento de Rocha",
+          "geo": {
+            "lat": -34.591764,
+            "lng": -54.124554
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.591764,-54.1245538"
         },
         {
           "name": "Genuina",
-          "url": "https://www.santander.com.uy/beneficios/genuina"
+          "url": "https://www.santander.com.uy/beneficios/genuina",
+          "location": "Av. La Paloma 17, 20100 Punta del Este, Departamento de Maldonado",
+          "geo": {
+            "lat": -34.937998,
+            "lng": -54.927152
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.937998,-54.9271515"
         },
         {
           "name": "Irisarri",
-          "url": "https://www.santander.com.uy/beneficios/irisarri"
+          "url": "https://www.santander.com.uy/beneficios/irisarri",
+          "location": "Av. Pedragosa sierra y, 20100 Punta del Este, Departamento de Maldonado",
+          "geo": {
+            "lat": -34.940649,
+            "lng": -54.929873
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.940649,-54.9298728"
         },
         {
           "name": "Boutique de Carnes",
-          "url": "https://www.santander.com.uy/beneficios/boutique-de-carnes"
+          "url": "https://www.santander.com.uy/beneficios/boutique-de-carnes",
+          "location": "Avenida Rocha esq, 27400 La Pedrera, Departamento de Rocha",
+          "geo": {
+            "lat": -34.591761,
+            "lng": -54.124205
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.591761,-54.124205"
         },
         {
           "name": "La Casita by Cari",
-          "url": "https://www.santander.com.uy/beneficios/la-casita-cari"
+          "url": "https://www.santander.com.uy/beneficios/la-casita-cari",
+          "location": "Av. Pedragosa sierra y, 20100 Punta del Este, Departamento de Maldonado",
+          "geo": {
+            "lat": -34.940642,
+            "lng": -54.929865
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.940642,-54.9298651"
         },
         {
           "name": "La Pasiva Solanas",
-          "url": "https://www.santander.com.uy/beneficios/la-pasiva-solanas"
+          "url": "https://www.santander.com.uy/beneficios/la-pasiva-solanas",
+          "location": "Ruta 12 9001, 20000 Punta Ballena, Departamento de Maldonado",
+          "geo": {
+            "lat": -34.881455,
+            "lng": -55.048366
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.881455,-55.0483657"
         },
         {
           "name": "Legua",
-          "url": "https://www.santander.com.uy/beneficios/legua"
+          "url": "https://www.santander.com.uy/beneficios/legua",
+          "location": "10, 20000 La Barra, Departamento de Maldonado",
+          "geo": {
+            "lat": -34.915751,
+            "lng": -54.852076
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.915751,-54.852076"
         },
         {
           "name": "Lincanto",
-          "url": "https://www.santander.com.uy/beneficios/lincanto"
+          "url": "https://www.santander.com.uy/beneficios/lincanto",
+          "location": "Av. Pedragosa sierra y, 20100 Punta del Este, Departamento de Maldonado",
+          "geo": {
+            "lat": -34.936953,
+            "lng": -54.92619
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.936953,-54.9261902"
         },
         {
           "name": "Manon",
-          "url": "https://www.santander.com.uy/beneficios/manon"
+          "url": "https://www.santander.com.uy/beneficios/manon",
+          "location": "Ruta 10, Km 164 e, Sarandí y, 20000 Manantiales",
+          "geo": {
+            "lat": -34.905839,
+            "lng": -54.825285
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.905839,-54.8252849"
         },
         {
           "name": "Menos Mal",
-          "url": "https://www.santander.com.uy/beneficios/menos-mal"
+          "url": "https://www.santander.com.uy/beneficios/menos-mal",
+          "location": "Avenida Eduardo Victor Haedo y, 20000 La Barra, Departamento de Maldonado",
+          "geo": {
+            "lat": -34.909453,
+            "lng": -54.864957
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.909453,-54.8649573"
         },
         {
           "name": "Parador 8 de la Brava",
-          "url": "https://www.santander.com.uy/beneficios/parador-8-de-la-brava"
+          "url": "https://www.santander.com.uy/beneficios/parador-8-de-la-brava",
+          "location": "Parada 8 de la Playa Brava, 20000 Punta del Este, Departamento de Maldonado",
+          "geo": {
+            "lat": -34.948355,
+            "lng": -54.923356
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.948355,-54.9233563"
         },
         {
           "name": "Parador San Rafael",
-          "url": "https://www.santander.com.uy/beneficios/parador-san-rafael"
+          "url": "https://www.santander.com.uy/beneficios/parador-san-rafael",
+          "location": "Parada 12 de la Brava",
+          "geo": {
+            "lat": -34.942255,
+            "lng": -54.914028
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.942255,-54.914028"
         },
         {
           "name": "Sushi Meshi",
-          "url": "https://www.santander.com.uy/beneficios/sushi-meshi"
+          "url": "https://www.santander.com.uy/beneficios/sushi-meshi",
+          "location": "Las Gaviotas 135-134, 20100 Punta del Este, Departamento de Maldonado",
+          "geo": {
+            "lat": -34.960481,
+            "lng": -54.940747
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.960481,-54.9407473"
         },
         {
           "name": "Tommy Bistro",
-          "url": "https://www.santander.com.uy/beneficios/tommy-bistro"
+          "url": "https://www.santander.com.uy/beneficios/tommy-bistro",
+          "location": "Ruta Interbalnearia Km 115.5, Playa Tio Tom, Punta del Este, 20000 Maldonado, Departamento de Maldonado",
+          "geo": {
+            "lat": -34.877664,
+            "lng": -55.078484
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.877664,-55.0784841"
         },
         {
           "name": "Las Tres Marias",
-          "url": "https://www.santander.com.uy/beneficios/las-tres-marias"
+          "url": "https://www.santander.com.uy/beneficios/las-tres-marias",
+          "location": "27400 La Paloma, Departamento de Rocha",
+          "geo": {
+            "lat": -34.663425,
+            "lng": -54.172456
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.663425,-54.1724556"
         },
         {
           "name": "Da Haus",
-          "url": "https://www.santander.com.uy/beneficios/da-haus"
+          "url": "https://www.santander.com.uy/beneficios/da-haus",
+          "location": "Guillermo Rawson y Rbla de los Ingleses",
+          "geo": {
+            "lat": -34.887836,
+            "lng": -55.277013
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.887836,-55.2770131"
         },
         {
           "name": "Gelato House",
-          "url": "https://www.santander.com.uy/beneficios/gelato-house"
+          "url": "https://www.santander.com.uy/beneficios/gelato-house",
+          "location": "Av. Nicolás Solari S/n, 27400 La Paloma, Departamento de Rocha",
+          "geo": {
+            "lat": -34.661167,
+            "lng": -54.155378
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.661167,-54.1553775"
         },
         {
           "name": "Nihon Sushi",
-          "url": "https://www.santander.com.uy/beneficios/nihon-sushi"
+          "url": "https://www.santander.com.uy/beneficios/nihon-sushi",
+          "location": "Avenida Al Paso de la Cadena Esquina, 20000 Punta del Este, Departamento de Maldonado",
+          "geo": {
+            "lat": -34.935242,
+            "lng": -54.93626
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.935242,-54.9362602"
         },
         {
           "name": "El Berretin",
-          "url": "https://www.santander.com.uy/beneficios/el-berretin-0"
+          "url": "https://www.santander.com.uy/beneficios/el-berretin-0",
+          "location": "Dr. José María Montero 3052, 11300 Montevideo, Departamento de Montevideo",
+          "geo": {
+            "lat": -34.922537,
+            "lng": -56.155218
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.922537,-56.1552184"
         },
         {
           "name": "Bardo",
-          "url": "https://www.santander.com.uy/beneficios/bardo"
+          "url": "https://www.santander.com.uy/beneficios/bardo",
+          "location": "Coronel Mora 631",
+          "geo": {
+            "lat": -34.918649,
+            "lng": -56.157061
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.918649,-56.1570611"
         },
         {
           "name": "Burger Point",
-          "url": "https://www.santander.com.uy/beneficios/burger-point"
+          "url": "https://www.santander.com.uy/beneficios/burger-point",
+          "location": "21 de Setiembre 2752, 11300 Montevideo, Departamento de Montevideo",
+          "geo": {
+            "lat": -34.917943,
+            "lng": -56.157265
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.917943,-56.1572654"
         }
       ]
     },
@@ -512,332 +1537,2443 @@
       ],
       "merchants": [
         {
-          "name": "Optica Estela Jinchuk",
-          "url": "https://www.santander.com.uy/beneficios/optica-estela-jinchuk"
+          "name": "Óptica Estela Jinchuk",
+          "url": "https://www.santander.com.uy/beneficios/optica-estela-jinchuk",
+          "location": "Av. Luis Alberto de Herrera 1290",
+          "geo": {
+            "lat": -34.902733,
+            "lng": -56.136807
+          },
+          "mapsUrl": "https://www.google.com/maps/place/%C3%93ptica+Estela+Jinchuk/data=!4m7!3m6!1s0x959f81159d2d7059:0xe8632c7296c6fbd5!8m2!3d-34.9027327!4d-56.1368072!16s%2Fg%2F11bxgbgh4n!19sChIJWXAtnRWBn5UR1fvGlnIsY-g"
+        },
+        {
+          "name": "Óptica Estela Jinchuk",
+          "url": "https://www.santander.com.uy/beneficios/optica-estela-jinchuk",
+          "location": "Bv. Gral. Artigas 1825",
+          "geo": {
+            "lat": -34.89346,
+            "lng": -56.166143
+          },
+          "mapsUrl": "https://www.google.com/maps/place/%C3%93ptica+Estela+Jinchuk/data=!4m7!3m6!1s0x959f81db13452d71:0x6cf216988536b742!8m2!3d-34.8934597!4d-56.1661434!16s%2Fg%2F11qnvn8bdn!19sChIJcS1FE9uBn5URQrc2hZgW8mw"
+        },
+        {
+          "name": "Óptica Estela Jinchuk",
+          "url": "https://www.santander.com.uy/beneficios/optica-estela-jinchuk",
+          "location": "José Ellauri 350",
+          "geo": {
+            "lat": -34.924053,
+            "lng": -56.158697
+          },
+          "mapsUrl": "https://www.google.com/maps/place/%C3%93ptica+Estela+Jinchuk/data=!4m7!3m6!1s0x959f8177e2ffffff:0x9fd2a5f7bcc5c012!8m2!3d-34.9240531!4d-56.1586968!16s%2Fg%2F11dztsgz2t!19sChIJ____4neBn5UREsDFvPel0p8"
+        },
+        {
+          "name": "Óptica Estela Jinchuk",
+          "url": "https://www.santander.com.uy/beneficios/optica-estela-jinchuk",
+          "location": "Avenida Domingo Sarmiento 2494 esquina, Luis Franzini",
+          "geo": {
+            "lat": -34.914623,
+            "lng": -56.15894
+          },
+          "mapsUrl": "https://www.google.com/maps/place/%C3%93ptica+Estela+Jinchuk/data=!4m7!3m6!1s0x959f810aa8a8392f:0x22bed719f0c4621e!8m2!3d-34.9146228!4d-56.1589404!16s%2Fg%2F11bxgb5jnk!19sChIJLzmoqAqBn5URHmLE8BnXviI"
         },
         {
           "name": "Mónaco Calzados",
-          "url": "https://www.santander.com.uy/beneficios/monaco-calzados"
+          "url": "https://www.santander.com.uy/beneficios/monaco-calzados",
+          "location": "Sarandí 372",
+          "geo": {
+            "lat": -30.896972,
+            "lng": -55.538147
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-30.896972,-55.538147"
         },
         {
           "name": "Suóptica",
-          "url": "https://www.santander.com.uy/beneficios/suoptica"
+          "url": "https://www.santander.com.uy/beneficios/suoptica",
+          "location": "18 de Julio 731",
+          "geo": {
+            "lat": -32.368876,
+            "lng": -54.167498
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.368876,-54.167498"
         },
         {
           "name": "Merrell",
-          "url": "https://www.santander.com.uy/beneficios/merrell"
+          "url": "https://www.santander.com.uy/beneficios/merrell",
+          "location": "Luis A. de Herrera 1290 Local 284 – Montevideo Shopping",
+          "geo": {
+            "lat": -34.903172,
+            "lng": -56.138211
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.903172,-56.138211"
+        },
+        {
+          "name": "Merrell",
+          "url": "https://www.santander.com.uy/beneficios/merrell",
+          "location": "Ellauri 350 Local 308 – Punta Carretas Shopping",
+          "geo": {
+            "lat": -34.924029,
+            "lng": -56.160628
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.924029,-56.160628"
+        },
+        {
+          "name": "Merrell",
+          "url": "https://www.santander.com.uy/beneficios/merrell",
+          "location": "Avda. Italia 5775 Local 249 – Portones Shopping",
+          "geo": {
+            "lat": -34.881138,
+            "lng": -56.083531
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.881138,-56.083531"
         },
         {
           "name": "Tienda Ezquerra",
-          "url": "https://www.santander.com.uy/beneficios/tienda-ezquerra"
+          "url": "https://www.santander.com.uy/beneficios/tienda-ezquerra",
+          "location": "25 De Mayo 325",
+          "geo": {
+            "lat": -31.71565,
+            "lng": -55.984466
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-31.71565,-55.984466"
         },
         {
           "name": "Rotunda",
-          "url": "https://www.santander.com.uy/beneficios/rotunda"
+          "url": "https://www.santander.com.uy/beneficios/rotunda",
+          "location": "Punta Carretas Shopping - Planta Baja, Montevideo.",
+          "geo": {
+            "lat": -34.924122,
+            "lng": -56.158585
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.924122,-56.158585"
+        },
+        {
+          "name": "ROTUNDA CARRASCO",
+          "url": "https://www.santander.com.uy/beneficios/rotunda",
+          "location": "Av. Alfredo Arocena 1680 - Arocena Shopping Mall.",
+          "geo": {
+            "lat": -34.886584,
+            "lng": -56.060201
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.886584,-56.060201"
+        },
+        {
+          "name": "ROTUNDA TIEMPO",
+          "url": "https://www.santander.com.uy/beneficios/rotunda",
+          "location": "Punta Carretas Shopping - Planta Alta, Montevideo.",
+          "geo": {
+            "lat": -34.924122,
+            "lng": -56.158585
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.924122,-56.158585"
+        },
+        {
+          "name": "ROTUNDA CIUDAD VIEJA",
+          "url": "https://www.santander.com.uy/beneficios/rotunda",
+          "location": "Sarandí 483 , entre Treinta y Tres y Misiones, Montevideo.",
+          "geo": {
+            "lat": -34.907303,
+            "lng": -56.208037
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.907303,-56.208037"
+        },
+        {
+          "name": "ROTUNDA SALTO",
+          "url": "https://www.santander.com.uy/beneficios/rotunda",
+          "location": "Uruguay 620",
+          "geo": {
+            "lat": -31.387327,
+            "lng": -57.970117
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-31.387327,-57.970117"
+        },
+        {
+          "name": "ROTUNDA MONTEVIDEO SHOPPING",
+          "url": "https://www.santander.com.uy/beneficios/rotunda",
+          "location": "Av. Dr. Luis Alberto de Herrera 1290, Montevideo.",
+          "geo": {
+            "lat": -34.902732,
+            "lng": -56.138995
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.902732,-56.138995"
+        },
+        {
+          "name": "ROTUNDA CALLE 20",
+          "url": "https://www.santander.com.uy/beneficios/rotunda",
+          "location": "Calle 20 ( El Remanso ) esq 27 ( Los Muergos ), Punta Del Este.",
+          "geo": {
+            "lat": -34.960874,
+            "lng": -54.946088
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.960874,-54.946088"
+        },
+        {
+          "name": "ROTUNDA LA BARRA",
+          "url": "https://www.santander.com.uy/beneficios/rotunda",
+          "location": "Ruta 10 esq. Las Estrellas, La Barra",
+          "geo": {
+            "lat": -34.915018,
+            "lng": -54.86225
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.915018,-54.86225"
         },
         {
           "name": "Optica Lombardi",
-          "url": "https://www.santander.com.uy/beneficios/optica-lombardi"
+          "url": "https://www.santander.com.uy/beneficios/optica-lombardi",
+          "location": "18 de Julio 515",
+          "geo": {
+            "lat": -33.37824,
+            "lng": -56.52387
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.37824,-56.52387"
         },
         {
           "name": "Shoe Express",
-          "url": "https://www.santander.com.uy/beneficios/shoe-express"
+          "url": "https://www.santander.com.uy/beneficios/shoe-express",
+          "location": "Av. Garzón 1969",
+          "geo": {
+            "lat": -34.804044,
+            "lng": -56.225436
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.804044,-56.225436"
+        },
+        {
+          "name": "Shoe Express",
+          "url": "https://www.santander.com.uy/beneficios/shoe-express",
+          "location": "Arenal Grande 2178 bis",
+          "geo": {
+            "lat": -34.888987,
+            "lng": -56.183609
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.888987,-56.183609"
+        },
+        {
+          "name": "Shoe Express",
+          "url": "https://www.santander.com.uy/beneficios/shoe-express",
+          "location": "Av. 8 de Octubre 3430 esq. Propios",
+          "geo": {
+            "lat": -34.879026,
+            "lng": -56.149353
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.879026,-56.149353"
+        },
+        {
+          "name": "Shoe Express",
+          "url": "https://www.santander.com.uy/beneficios/shoe-express",
+          "location": "Av. 18 de Julio 1704 local 004",
+          "geo": {
+            "lat": -34.903399,
+            "lng": -56.181605
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.903399,-56.181605"
+        },
+        {
+          "name": "Shoe Express",
+          "url": "https://www.santander.com.uy/beneficios/shoe-express",
+          "location": "Luis A. de Herrera 2472 Local 001",
+          "geo": {
+            "lat": -34.883174,
+            "lng": -56.153617
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.883174,-56.153617"
+        },
+        {
+          "name": "Shoe Express",
+          "url": "https://www.santander.com.uy/beneficios/shoe-express",
+          "location": "Dionisio Oribe 3090",
+          "geo": {
+            "lat": -34.887044,
+            "lng": -56.15032
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.887044,-56.15032"
+        },
+        {
+          "name": "Shoe Express",
+          "url": "https://www.santander.com.uy/beneficios/shoe-express",
+          "location": "Av. 8 de Octubre 3626 entre Pernas y Comercio",
+          "geo": {
+            "lat": -34.876811,
+            "lng": -56.145554
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.876811,-56.145554"
         },
         {
           "name": "Indian",
-          "url": "https://www.santander.com.uy/beneficios/indian"
+          "url": "https://www.santander.com.uy/beneficios/indian",
+          "location": "Avenida Italia 4250 Local- 119",
+          "geo": {
+            "lat": -34.888019,
+            "lng": -56.117914
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.888019,-56.1179143"
+        },
+        {
+          "name": "Factory Outlet Punta Market",
+          "url": "https://www.santander.com.uy/beneficios/indian",
+          "location": "Av. Gorlero y Calle 31",
+          "geo": {
+            "lat": -34.958934,
+            "lng": -54.94019
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.958934,-54.9401897"
+        },
+        {
+          "name": "Indian Portones Shopping",
+          "url": "https://www.santander.com.uy/beneficios/indian",
+          "location": "Av. Italia 5775, Local 227-228",
+          "geo": {
+            "lat": -34.881486,
+            "lng": -56.081191
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.881486,-56.0811907"
+        },
+        {
+          "name": "Indian Roxlo",
+          "url": "https://www.santander.com.uy/beneficios/indian",
+          "location": "18 de Julio 1601 Esquina Roxlo",
+          "geo": {
+            "lat": -34.903901,
+            "lng": -56.181613
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.903901,-56.1816135"
+        },
+        {
+          "name": "Indian Las Piedras Shopping",
+          "url": "https://www.santander.com.uy/beneficios/indian",
+          "location": "Bvar. del Bicentenario 318, Local 50-51-61-62",
+          "geo": {
+            "lat": -34.725335,
+            "lng": -56.203573
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.725335,-56.2035727"
+        },
+        {
+          "name": "Indian Salto",
+          "url": "https://www.santander.com.uy/beneficios/indian",
+          "location": "Uruguay 869",
+          "geo": {
+            "lat": -31.387365,
+            "lng": -57.964384
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-31.387365,-57.9643844"
+        },
+        {
+          "name": "Indian Paysandú",
+          "url": "https://www.santander.com.uy/beneficios/indian",
+          "location": "18 de julio 1121",
+          "geo": {
+            "lat": -32.317475,
+            "lng": -58.082213
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.317475,-58.082213"
+        },
+        {
+          "name": "Indian Minas",
+          "url": "https://www.santander.com.uy/beneficios/indian",
+          "location": "25 de Mayo 540 Esquina 18 de Julio",
+          "geo": {
+            "lat": -34.37698,
+            "lng": -55.236887
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.37698,-55.2368874"
+        },
+        {
+          "name": "Indian Chuy",
+          "url": "https://www.santander.com.uy/beneficios/indian",
+          "location": "Av. Brasil 405",
+          "geo": {
+            "lat": -33.693181,
+            "lng": -53.452435
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.693181,-53.4524354"
+        },
+        {
+          "name": "Indian Tacuarembó",
+          "url": "https://www.santander.com.uy/beneficios/indian",
+          "location": "18 de Julio 239",
+          "geo": {
+            "lat": -31.713401,
+            "lng": -55.980689
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-31.713401,-55.9806894"
+        },
+        {
+          "name": "Indian Atlántico Shopping",
+          "url": "https://www.santander.com.uy/beneficios/indian",
+          "location": "Av. Camacho esq. Roosevelt",
+          "geo": {
+            "lat": -34.915776,
+            "lng": -54.960448
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.915776,-54.9604477"
+        },
+        {
+          "name": "Factory Outlet 18 de Julio y Vázquez",
+          "url": "https://www.santander.com.uy/beneficios/indian",
+          "location": "18 de Julio 1477 Esquina Vázquez",
+          "geo": {
+            "lat": -34.904825,
+            "lng": -56.184233
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.904825,-56.1842328"
+        },
+        {
+          "name": "Factory Outlet 18 de Julio y Tristán Narvaja",
+          "url": "https://www.santander.com.uy/beneficios/indian",
+          "location": "18 de Julio 1771 Esquina Tristán Narvaja",
+          "geo": {
+            "lat": -34.902543,
+            "lng": -56.178131
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.902543,-56.178131"
+        },
+        {
+          "name": "Indian Emporium",
+          "url": "https://www.santander.com.uy/beneficios/indian",
+          "location": "Sarandí 935",
+          "geo": {
+            "lat": -34.906595,
+            "lng": -54.957754
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.906595,-54.957754"
+        },
+        {
+          "name": "Indian Emporium",
+          "url": "https://www.santander.com.uy/beneficios/indian",
+          "location": "Av Batlle 2265 - Local 201B",
+          "geo": {
+            "lat": -31.384909,
+            "lng": -57.94407
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-31.384909,-57.94407"
+        },
+        {
+          "name": "Indian Emporium",
+          "url": "https://www.santander.com.uy/beneficios/indian",
+          "location": "Don Bosco 738 - Local 28",
+          "geo": {
+            "lat": -33.25678,
+            "lng": -58.027998
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.25678,-58.027998"
+        },
+        {
+          "name": "Indian Emporium",
+          "url": "https://www.santander.com.uy/beneficios/indian",
+          "location": "Aparicio Saravia 680",
+          "geo": {
+            "lat": -32.364661,
+            "lng": -54.166503
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.364661,-54.166503"
+        },
+        {
+          "name": "Indian Emporium",
+          "url": "https://www.santander.com.uy/beneficios/indian",
+          "location": "Gorlero entre 27 y 28",
+          "geo": {
+            "lat": -34.961249,
+            "lng": -54.942505
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.961249,-54.942505"
+        },
+        {
+          "name": "Indian Emporium",
+          "url": "https://www.santander.com.uy/beneficios/indian",
+          "location": "Punta Shopping",
+          "geo": {
+            "lat": -34.94072,
+            "lng": -54.934267
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.94072,-54.934267"
+        },
+        {
+          "name": "Indian Emporium",
+          "url": "https://www.santander.com.uy/beneficios/indian",
+          "location": "Av. Artigas 656",
+          "geo": {
+            "lat": -34.72689,
+            "lng": -56.217953
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.72689,-56.2179528"
+        },
+        {
+          "name": "Indian Emporium",
+          "url": "https://www.santander.com.uy/beneficios/indian",
+          "location": "Avda. Luis Alberto de Herrera y Bvar. Artigas - Local 58",
+          "geo": {
+            "lat": -34.86912,
+            "lng": -56.169555
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.86911973,-56.16955519"
+        },
+        {
+          "name": "Indian Emporium",
+          "url": "https://www.santander.com.uy/beneficios/indian",
+          "location": "Ellauri 350, Locales 1244 y 1245",
+          "geo": {
+            "lat": -34.923862,
+            "lng": -56.158483
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.923862,-56.158483"
+        },
+        {
+          "name": "Indian Emporium",
+          "url": "https://www.santander.com.uy/beneficios/indian",
+          "location": "Luis A. de Herrera 1290, Local 163",
+          "geo": {
+            "lat": -34.903013,
+            "lng": -56.1362
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.903013,-56.1362"
+        },
+        {
+          "name": "Indian Emporium",
+          "url": "https://www.santander.com.uy/beneficios/indian",
+          "location": "18 de Julio 1763 esq. Gaboto",
+          "geo": {
+            "lat": -34.902754,
+            "lng": -56.1781
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.902754,-56.1781"
+        },
+        {
+          "name": "Indian Emporium",
+          "url": "https://www.santander.com.uy/beneficios/indian",
+          "location": "18 de Julio 902 esq. Convención",
+          "geo": {
+            "lat": -34.906326,
+            "lng": -56.1968
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.906326,-56.1968"
+        },
+        {
+          "name": "Indian Emporium",
+          "url": "https://www.santander.com.uy/beneficios/indian",
+          "location": "Av.Franklin D. Roosevelt 458, Local 1-2A",
+          "geo": {
+            "lat": -34.465678,
+            "lng": -57.83482
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.465678,-57.83482"
+        },
+        {
+          "name": "Indian Emporium",
+          "url": "https://www.santander.com.uy/beneficios/indian",
+          "location": "Av. Artigas 1076",
+          "geo": {
+            "lat": -34.720182,
+            "lng": -55.954855
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.720182,-55.954855"
+        },
+        {
+          "name": "Indian Emporium",
+          "url": "https://www.santander.com.uy/beneficios/indian",
+          "location": "Av. Giannattasio km 21, Local 36-37-38-39",
+          "geo": {
+            "lat": -34.841066,
+            "lng": -55.993379
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.841066,-55.993379"
+        },
+        {
+          "name": "Indian Emporium",
+          "url": "https://www.santander.com.uy/beneficios/indian",
+          "location": "Bvar. Gral. Artigas 1867 / Locales 45 y 146",
+          "geo": {
+            "lat": -34.893819,
+            "lng": -56.1663
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.893819,-56.1663"
+        },
+        {
+          "name": "Indian Emporium",
+          "url": "https://www.santander.com.uy/beneficios/indian",
+          "location": "Bvr. Artigas 770 locales 17-18 y 37",
+          "geo": {
+            "lat": -32.315849,
+            "lng": -58.072611
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.315849,-58.072611"
+        },
+        {
+          "name": "Indian Emporium",
+          "url": "https://www.santander.com.uy/beneficios/indian",
+          "location": "18 de Julio 1215 Esquina Yí",
+          "geo": {
+            "lat": -34.905407,
+            "lng": -56.187914
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.905407,-56.187914"
+        },
+        {
+          "name": "Indian Emporium",
+          "url": "https://www.santander.com.uy/beneficios/indian",
+          "location": "Arenal Grande 2147",
+          "geo": {
+            "lat": -34.900232,
+            "lng": -56.174405
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900232,-56.174405"
+        },
+        {
+          "name": "Indian Emporium",
+          "url": "https://www.santander.com.uy/beneficios/indian",
+          "location": "8 de Octubre 3777",
+          "geo": {
+            "lat": -34.875356,
+            "lng": -56.142421
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.875356,-56.142421"
+        },
+        {
+          "name": "Indian Emporium",
+          "url": "https://www.santander.com.uy/beneficios/indian",
+          "location": "Agraciada 4051",
+          "geo": {
+            "lat": -34.858939,
+            "lng": -56.216815
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.858939,-56.216815"
+        },
+        {
+          "name": "Indian Emporium",
+          "url": "https://www.santander.com.uy/beneficios/indian",
+          "location": "18 de Julio esq. Penza",
+          "geo": {
+            "lat": -33.378182,
+            "lng": -56.523987
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.378182,-56.523987"
+        },
+        {
+          "name": "Indian Emporium",
+          "url": "https://www.santander.com.uy/beneficios/indian",
+          "location": "Asamblea 650",
+          "geo": {
+            "lat": -34.340136,
+            "lng": -56.714495
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.340136,-56.714495"
+        },
+        {
+          "name": "Indian Emporium",
+          "url": "https://www.santander.com.uy/beneficios/indian",
+          "location": "Sarandí 438",
+          "geo": {
+            "lat": -30.89843,
+            "lng": -55.539014
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-30.89843,-55.539014"
         },
         {
           "name": "Savia",
-          "url": "https://www.santander.com.uy/beneficios/savia"
+          "url": "https://www.santander.com.uy/beneficios/savia",
+          "location": "José María Montero 3089",
+          "geo": {
+            "lat": -34.923448,
+            "lng": -56.155566
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.923448,-56.155566"
+        },
+        {
+          "name": "Savia",
+          "url": "https://www.santander.com.uy/beneficios/savia",
+          "location": "Av. Arocena 1559",
+          "geo": {
+            "lat": -34.89017,
+            "lng": -56.058751
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.89017,-56.058751"
         },
         {
           "name": "Lemon",
-          "url": "https://www.santander.com.uy/beneficios/lemon"
+          "url": "https://www.santander.com.uy/beneficios/lemon",
+          "location": "Colonia Shopping",
+          "geo": {
+            "lat": -34.465859,
+            "lng": -57.834457
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.465859,-57.834457"
+        },
+        {
+          "name": "Lemon",
+          "url": "https://www.santander.com.uy/beneficios/lemon",
+          "location": "Lecueder 197",
+          "geo": {
+            "lat": -30.399042,
+            "lng": -56.462896
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-30.399042,-56.462896"
+        },
+        {
+          "name": "Lemon",
+          "url": "https://www.santander.com.uy/beneficios/lemon",
+          "location": "25 de agosto 210",
+          "geo": {
+            "lat": -31.714126,
+            "lng": -55.981852
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-31.714126,-55.981852"
+        },
+        {
+          "name": "Lemon",
+          "url": "https://www.santander.com.uy/beneficios/lemon",
+          "location": "Juan Antonio Lavalleja 1313.",
+          "geo": {
+            "lat": -33.231033,
+            "lng": -54.386362
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.231033,-54.386362"
+        },
+        {
+          "name": "Lemon",
+          "url": "https://www.santander.com.uy/beneficios/lemon",
+          "location": "Don Bosco 734",
+          "geo": {
+            "lat": -33.255835,
+            "lng": -58.020951
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.255835,-58.020951"
+        },
+        {
+          "name": "Lemon",
+          "url": "https://www.santander.com.uy/beneficios/lemon",
+          "location": "Batlle y Ordóñez 648",
+          "geo": {
+            "lat": -34.338613,
+            "lng": -56.708474
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.338613,-56.708474"
+        },
+        {
+          "name": "Lemon",
+          "url": "https://www.santander.com.uy/beneficios/lemon",
+          "location": "Leandro Gomez 1157",
+          "geo": {
+            "lat": -32.31788,
+            "lng": -58.082674
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.31788,-58.082674"
+        },
+        {
+          "name": "Lemon",
+          "url": "https://www.santander.com.uy/beneficios/lemon",
+          "location": "Uruguay 744",
+          "geo": {
+            "lat": -31.387526,
+            "lng": -57.966074
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-31.387526,-57.966074"
+        },
+        {
+          "name": "Lemon",
+          "url": "https://www.santander.com.uy/beneficios/lemon",
+          "location": "Calle 20 esq. Calle 27",
+          "geo": {
+            "lat": -34.960642,
+            "lng": -54.94399
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.960642,-54.94399"
+        },
+        {
+          "name": "Lemon",
+          "url": "https://www.santander.com.uy/beneficios/lemon",
+          "location": "Punta Shopping",
+          "geo": {
+            "lat": -34.940791,
+            "lng": -54.93402
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.940791,-54.93402"
+        },
+        {
+          "name": "Lemon",
+          "url": "https://www.santander.com.uy/beneficios/lemon",
+          "location": "Francisco Fondar 657",
+          "geo": {
+            "lat": -33.517823,
+            "lng": -56.897523
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.517823,-56.897523"
+        },
+        {
+          "name": "Lemon",
+          "url": "https://www.santander.com.uy/beneficios/lemon",
+          "location": "18 de Julio 384",
+          "geo": {
+            "lat": -33.377147,
+            "lng": -56.526301
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.377147,-56.526301"
+        },
+        {
+          "name": "Lemon",
+          "url": "https://www.santander.com.uy/beneficios/lemon",
+          "location": "Local 260-261",
+          "geo": {
+            "lat": -34.924236,
+            "lng": -56.158596
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.92423621,-56.15859568"
+        },
+        {
+          "name": "Lemon",
+          "url": "https://www.santander.com.uy/beneficios/lemon",
+          "location": "18 de Julio 730",
+          "geo": {
+            "lat": -32.367694,
+            "lng": -54.167344
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.367694,-54.167344"
+        },
+        {
+          "name": "Lemon",
+          "url": "https://www.santander.com.uy/beneficios/lemon",
+          "location": "Independencia 1030",
+          "geo": {
+            "lat": -34.720305,
+            "lng": -55.961585
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.720305,-55.961585"
+        },
+        {
+          "name": "Lemon",
+          "url": "https://www.santander.com.uy/beneficios/lemon",
+          "location": "Costa Urbana Shopping Local 35",
+          "geo": {
+            "lat": -34.841066,
+            "lng": -55.993379
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.841066,-55.993379"
+        },
+        {
+          "name": "Lemon",
+          "url": "https://www.santander.com.uy/beneficios/lemon",
+          "location": "Sarandí y Bartolomé Mitre 649 BIS",
+          "geo": {
+            "lat": -34.906562,
+            "lng": -56.202
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.906562,-56.202"
+        },
+        {
+          "name": "Lemon",
+          "url": "https://www.santander.com.uy/beneficios/lemon",
+          "location": "18 de Julio 1231",
+          "geo": {
+            "lat": -34.905755,
+            "lng": -56.1893
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.905755,-56.1893"
+        },
+        {
+          "name": "Lemon",
+          "url": "https://www.santander.com.uy/beneficios/lemon",
+          "location": "18 de Julio 1038 / Local 1",
+          "geo": {
+            "lat": -34.906177,
+            "lng": -56.1938
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.906177,-56.1938"
+        },
+        {
+          "name": "Lemon",
+          "url": "https://www.santander.com.uy/beneficios/lemon",
+          "location": "Local 114",
+          "geo": {
+            "lat": -34.868905,
+            "lng": -56.1701
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.868905,-56.1701"
+        },
+        {
+          "name": "Lemon",
+          "url": "https://www.santander.com.uy/beneficios/lemon",
+          "location": "Local 29",
+          "geo": {
+            "lat": -34.893958,
+            "lng": -56.166
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.893958,-56.166"
+        },
+        {
+          "name": "Lemon",
+          "url": "https://www.santander.com.uy/beneficios/lemon",
+          "location": "Local 259",
+          "geo": {
+            "lat": -34.880809,
+            "lng": -56.0812
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.880809,-56.0812"
+        },
+        {
+          "name": "Lemon",
+          "url": "https://www.santander.com.uy/beneficios/lemon",
+          "location": "Local 269-270",
+          "geo": {
+            "lat": -34.903073,
+            "lng": -56.135631
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.90307308,-56.13563061"
         },
         {
           "name": "Hush Puppies",
-          "url": "https://www.santander.com.uy/beneficios/hush-puppies"
+          "url": "https://www.santander.com.uy/beneficios/hush-puppies",
+          "location": "Avda. 18 de Julio 972",
+          "geo": {
+            "lat": -34.906302,
+            "lng": -56.197481
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.906302,-56.197481"
+        },
+        {
+          "name": "Hush Puppies",
+          "url": "https://www.santander.com.uy/beneficios/hush-puppies",
+          "location": "Avda. Roosevelt 458 Local 21 – Colonia Shopping",
+          "geo": {
+            "lat": -34.465872,
+            "lng": -57.836844
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.465872,-57.836844"
+        },
+        {
+          "name": "Hush Puppies",
+          "url": "https://www.santander.com.uy/beneficios/hush-puppies",
+          "location": "Avda. Gianattasio km21-local 276 – Costa Urbana Shopping",
+          "geo": {
+            "lat": -34.84099,
+            "lng": -55.99558
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.84099,-55.99558"
+        },
+        {
+          "name": "Hush Puppies",
+          "url": "https://www.santander.com.uy/beneficios/hush-puppies",
+          "location": "Luis A. de Herrera 1290 Local 323 – Montevideo Shopping",
+          "geo": {
+            "lat": -34.903172,
+            "lng": -56.138211
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.903172,-56.138211"
+        },
+        {
+          "name": "Hush Puppies",
+          "url": "https://www.santander.com.uy/beneficios/hush-puppies",
+          "location": "Luis A. de Herrera 33 65 local 218 – Nuevocentro Shopping",
+          "geo": {
+            "lat": -34.868941,
+            "lng": -56.171984
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.868941,-56.171984"
+        },
+        {
+          "name": "Hush Puppies",
+          "url": "https://www.santander.com.uy/beneficios/hush-puppies",
+          "location": "Avda. Italia 5775 local 264 – Portones Shopping",
+          "geo": {
+            "lat": -34.881138,
+            "lng": -56.083531
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.881138,-56.083531"
+        },
+        {
+          "name": "Hush Puppies",
+          "url": "https://www.santander.com.uy/beneficios/hush-puppies",
+          "location": "Ellauri 350 Local 234 – Punta Carretas Shopping",
+          "geo": {
+            "lat": -34.924029,
+            "lng": -56.160628
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.924029,-56.160628"
+        },
+        {
+          "name": "Hush Puppies",
+          "url": "https://www.santander.com.uy/beneficios/hush-puppies",
+          "location": "Avda. Roosevelt esq. Los Alpes Local 337 – Punta Shopping",
+          "geo": {
+            "lat": -34.940777,
+            "lng": -54.936445
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.940777,-54.936445"
+        },
+        {
+          "name": "Hush Puppies",
+          "url": "https://www.santander.com.uy/beneficios/hush-puppies",
+          "location": "Bvar. Artigas 1825 Local 164– Tres Cruces Shopping",
+          "geo": {
+            "lat": -34.893896,
+            "lng": -56.168909
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.893896,-56.168909"
         },
         {
           "name": "Las Nazarenas",
-          "url": "https://www.santander.com.uy/beneficios/las-nazarenas"
+          "url": "https://www.santander.com.uy/beneficios/las-nazarenas",
+          "location": "Luis A. de Herrera 612",
+          "geo": {
+            "lat": -32.369411,
+            "lng": -54.17088
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.369411,-54.17088"
         },
         {
-          "name": "Columbia",
-          "url": "https://www.santander.com.uy/beneficios/columbia"
+          "name": "Columbia Sportswear",
+          "url": "https://www.santander.com.uy/beneficios/columbia",
+          "location": "Local 321 y 322, Montevideo Shopping, Av. Luis Alberto de Herrera 1290",
+          "geo": {
+            "lat": -34.903307,
+            "lng": -56.136716
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Columbia+Sportswear/data=!4m7!3m6!1s0x959f8115ffcadb79:0x71b7d273fd3e90c4!8m2!3d-34.903307!4d-56.136716!16s%2Fg%2F11c1nj476_!19sChIJedvK_xWBn5URxJA-_XPSt3E"
+        },
+        {
+          "name": "Columbia Sportswear",
+          "url": "https://www.santander.com.uy/beneficios/columbia",
+          "location": "Bv. Gral. Artigas 1825",
+          "geo": {
+            "lat": -34.893808,
+            "lng": -56.166047
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Columbia+Sportswear/data=!4m7!3m6!1s0x959f8053c3d1823f:0x29d7131d653e8423!8m2!3d-34.893808!4d-56.166047!16s%2Fg%2F11csqtw4kl!19sChIJP4LRw1OAn5URI4Q-ZR0T1yk"
+        },
+        {
+          "name": "Columbia Sportswear",
+          "url": "https://www.santander.com.uy/beneficios/columbia",
+          "location": "José Ellauri 350 - Local 256-257, Punta Carretas Shopping",
+          "geo": {
+            "lat": -34.924051,
+            "lng": -56.158389
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Columbia+Sportswear/data=!4m7!3m6!1s0x959f8177e49d27af:0xf9f1de012f7d6f6b!8m2!3d-34.9240507!4d-56.1583885!16s%2Fg%2F11c51xs14v!19sChIJryed5HeBn5URa299LwHe8fk"
+        },
+        {
+          "name": "Columbia Factory Store",
+          "url": "https://www.santander.com.uy/beneficios/columbia",
+          "location": "Av. 18 de Julio 928",
+          "geo": {
+            "lat": -34.906333,
+            "lng": -56.196223
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Columbia+Factory+Store/data=!4m7!3m6!1s0x959f802cdbc35637:0xd0ed2e7f071b0ee9!8m2!3d-34.9063329!4d-56.1962234!16s%2Fg%2F11cmhl3s_x!19sChIJN1bD2yyAn5UR6Q4bB38u7dA"
         },
         {
           "name": "Tranquera",
-          "url": "https://www.santander.com.uy/beneficios/tranquera"
+          "url": "https://www.santander.com.uy/beneficios/tranquera",
+          "location": "Lecueder 502",
+          "geo": {
+            "lat": -30.403127,
+            "lng": -56.470345
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-30.403127,-56.470345"
+        },
+        {
+          "name": "Tranquera",
+          "url": "https://www.santander.com.uy/beneficios/tranquera",
+          "location": "Fray Ubeda 674",
+          "geo": {
+            "lat": -33.516793,
+            "lng": -56.902202
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.516793,-56.902202"
+        },
+        {
+          "name": "Tranquera",
+          "url": "https://www.santander.com.uy/beneficios/tranquera",
+          "location": "Manuel Melendez 1241",
+          "geo": {
+            "lat": -33.229952,
+            "lng": -54.386129
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.229952,-54.386129"
+        },
+        {
+          "name": "Tranquera",
+          "url": "https://www.santander.com.uy/beneficios/tranquera",
+          "location": "Sarandi 414",
+          "geo": {
+            "lat": -30.897704,
+            "lng": -55.540641
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-30.897704,-55.540641"
+        },
+        {
+          "name": "Tranquera",
+          "url": "https://www.santander.com.uy/beneficios/tranquera",
+          "location": "Artigas 900",
+          "geo": {
+            "lat": -34.717901,
+            "lng": -55.96362
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.717901,-55.96362"
+        },
+        {
+          "name": "Tranquera",
+          "url": "https://www.santander.com.uy/beneficios/tranquera",
+          "location": "Artigas 352",
+          "geo": {
+            "lat": -33.250622,
+            "lng": -58.031359
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.250622,-58.031359"
+        },
+        {
+          "name": "Tranquera",
+          "url": "https://www.santander.com.uy/beneficios/tranquera",
+          "location": "Rivera 3320",
+          "geo": {
+            "lat": -34.09586,
+            "lng": -56.216814
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.09586,-56.216814"
+        },
+        {
+          "name": "Tranquera",
+          "url": "https://www.santander.com.uy/beneficios/tranquera",
+          "location": "Manuel Oribe 702",
+          "geo": {
+            "lat": -33.381553,
+            "lng": -56.525756
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.381553,-56.525756"
+        },
+        {
+          "name": "Tranquera",
+          "url": "https://www.santander.com.uy/beneficios/tranquera",
+          "location": "Gral flores 204",
+          "geo": {
+            "lat": -34.470758,
+            "lng": -57.852938
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.470758,-57.852938"
+        },
+        {
+          "name": "Tranquera",
+          "url": "https://www.santander.com.uy/beneficios/tranquera",
+          "location": "Ellauri 438",
+          "geo": {
+            "lat": -34.923022,
+            "lng": -56.161316
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.923022,-56.161316"
+        },
+        {
+          "name": "Tranquera",
+          "url": "https://www.santander.com.uy/beneficios/tranquera",
+          "location": "Alejandro Schroeder 6468",
+          "geo": {
+            "lat": -34.887432,
+            "lng": -56.059349
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.887432,-56.059349"
+        },
+        {
+          "name": "Tranquera",
+          "url": "https://www.santander.com.uy/beneficios/tranquera",
+          "location": "18 de Julio 943 entre Río Branco y Convención",
+          "geo": {
+            "lat": -34.906222,
+            "lng": -56.198189
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.906222,-56.198189"
+        },
+        {
+          "name": "Tranquera",
+          "url": "https://www.santander.com.uy/beneficios/tranquera",
+          "location": "Montecaseros 942",
+          "geo": {
+            "lat": -32.317558,
+            "lng": -58.082364
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.317558,-58.082364"
+        },
+        {
+          "name": "Tranquera",
+          "url": "https://www.santander.com.uy/beneficios/tranquera",
+          "location": "18 de Julio 317 Bis",
+          "geo": {
+            "lat": -31.715453,
+            "lng": -55.985055
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-31.715453,-55.985055"
+        },
+        {
+          "name": "Tranquera",
+          "url": "https://www.santander.com.uy/beneficios/tranquera",
+          "location": "Colón 557",
+          "geo": {
+            "lat": -34.338951,
+            "lng": -56.712889
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.338951,-56.712889"
+        },
+        {
+          "name": "Tranquera",
+          "url": "https://www.santander.com.uy/beneficios/tranquera",
+          "location": "Saravia 789",
+          "geo": {
+            "lat": -32.367901,
+            "lng": -54.169504
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.367901,-54.169504"
+        },
+        {
+          "name": "Tranquera",
+          "url": "https://www.santander.com.uy/beneficios/tranquera",
+          "location": "San José 1041",
+          "geo": {
+            "lat": -34.907123,
+            "lng": -56.19577
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.907123,-56.19577"
         },
         {
           "name": "SiSi",
-          "url": "https://www.santander.com.uy/beneficios/sisi"
+          "url": "https://www.santander.com.uy/beneficios/sisi",
+          "location": "2622 0491",
+          "geo": {
+            "lat": -34.902749,
+            "lng": -56.136775
+          },
+          "mapsUrl": "https://www.google.com/maps/place/SiSi/data=!4m7!3m6!1s0x959f811603110275:0x368f7872fd6967d!8m2!3d-34.9027495!4d-56.1367745!16s%2Fg%2F11g4dnd1ml!19sChIJdQIRAxaBn5URfZbWL4f3aAM"
+        },
+        {
+          "name": "SiSi",
+          "url": "https://www.santander.com.uy/beneficios/sisi",
+          "location": "Av. 18 de Julio 1955",
+          "geo": {
+            "lat": -34.900827,
+            "lng": -56.173652
+          },
+          "mapsUrl": "https://www.google.com/maps/place/SiSi/data=!4m7!3m6!1s0x959f81b33b07586b:0x3b5d1727f38d4ba6!8m2!3d-34.9008274!4d-56.1736519!16s%2Fg%2F11cmq_9p7_!19sChIJa1gHO7OBn5URpkuN8ycXXTs"
+        },
+        {
+          "name": "SiSi Outlet",
+          "url": "https://www.santander.com.uy/beneficios/sisi",
+          "location": "Av. Gral. Flores 2059",
+          "geo": {
+            "lat": -34.889814,
+            "lng": -56.18691
+          },
+          "mapsUrl": "https://www.google.com/maps/place/SiSi+Outlet/data=!4m7!3m6!1s0x959f803eac019ecd:0x5275a1bede65d4e0!8m2!3d-34.8898141!4d-56.1869099!16s%2Fg%2F11cn6d8jj3!19sChIJzZ4BrD6An5UR4NRl3r6hdVI"
+        },
+        {
+          "name": "SiSi",
+          "url": "https://www.santander.com.uy/beneficios/sisi",
+          "location": "Bv. Gral. Artigas 1522",
+          "geo": {
+            "lat": -34.900433,
+            "lng": -56.164002
+          },
+          "mapsUrl": "https://www.google.com/maps/place/SiSi/data=!4m7!3m6!1s0x959f81ab88e3909b:0x34d1abf7b5372b4b!8m2!3d-34.9004332!4d-56.1640023!16s%2Fg%2F11gfhz2wrz!19sChIJm5DjiKuBn5URSys3tfer0TQ"
         },
         {
           "name": "Royce",
-          "url": "https://www.santander.com.uy/beneficios/royce"
+          "url": "https://www.santander.com.uy/beneficios/royce",
+          "location": "Uruguay 874",
+          "geo": {
+            "lat": -31.387469,
+            "lng": -57.964545
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-31.387469,-57.964545"
         },
         {
           "name": "Cat",
-          "url": "https://www.santander.com.uy/beneficios/cat"
+          "url": "https://www.santander.com.uy/beneficios/cat",
+          "location": "Av. 18 de Julio 935 entre Río Branco y Convención",
+          "geo": {
+            "lat": -34.906229,
+            "lng": -56.198341
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.906229,-56.198341"
+        },
+        {
+          "name": "CAT",
+          "url": "https://www.santander.com.uy/beneficios/cat",
+          "location": "Avda. Gianattasio km21 Local 274 – Costa Urbana Shopping",
+          "geo": {
+            "lat": -34.84099,
+            "lng": -55.99558
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.84099,-55.99558"
+        },
+        {
+          "name": "CAT",
+          "url": "https://www.santander.com.uy/beneficios/cat",
+          "location": "Gral. Pablo Galarza Local 339 – Montevideo Shopping",
+          "geo": {
+            "lat": -34.903172,
+            "lng": -56.138211
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.903172,-56.138211"
+        },
+        {
+          "name": "CAT",
+          "url": "https://www.santander.com.uy/beneficios/cat",
+          "location": "Luis A. de Herrera 3365 Local 244 – Nuevocentro Shopping",
+          "geo": {
+            "lat": -34.868941,
+            "lng": -56.171984
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.868941,-56.171984"
+        },
+        {
+          "name": "CAT",
+          "url": "https://www.santander.com.uy/beneficios/cat",
+          "location": "Avda. Italia 5775 Local 222 (nivel 2) – Portones Shopping",
+          "geo": {
+            "lat": -34.881138,
+            "lng": -56.083531
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.881138,-56.083531"
+        },
+        {
+          "name": "CAT",
+          "url": "https://www.santander.com.uy/beneficios/cat",
+          "location": "Av. Roosevelt esq. Los Alpes Local 307 – Punta Shopping",
+          "geo": {
+            "lat": -34.940777,
+            "lng": -54.936445
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.940777,-54.936445"
+        },
+        {
+          "name": "CAT",
+          "url": "https://www.santander.com.uy/beneficios/cat",
+          "location": "Ellauri 350 Loc 258 (nivel 2) – Punta Carretas Shopping",
+          "geo": {
+            "lat": -34.924029,
+            "lng": -56.160628
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.924029,-56.160628"
+        },
+        {
+          "name": "CAT",
+          "url": "https://www.santander.com.uy/beneficios/cat",
+          "location": "Bulevar del Bicentenario 318 Local 34– Las Piedras Shopping",
+          "geo": {
+            "lat": -34.725507,
+            "lng": -56.205629
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.725507,-56.205629"
+        },
+        {
+          "name": "CAT",
+          "url": "https://www.santander.com.uy/beneficios/cat",
+          "location": "Bvar. Artigas 1825 Local 106 – Tres Cruces Shopping",
+          "geo": {
+            "lat": -34.893896,
+            "lng": -56.168909
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.893896,-56.168909"
         },
         {
           "name": "Limite",
-          "url": "https://www.santander.com.uy/beneficios/limite"
+          "url": "https://www.santander.com.uy/beneficios/limite",
+          "location": "Pdte. Berro 561, 85000 Trinidad, Departamento de Flores",
+          "geo": {
+            "lat": -33.517964,
+            "lng": -56.897538
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.517964,-56.897538"
+        },
+        {
+          "name": "Limite",
+          "url": "https://www.santander.com.uy/beneficios/limite",
+          "location": "Punta Carretas Shopping Local 226 / 227",
+          "geo": {
+            "lat": -34.92432,
+            "lng": -56.158671
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.92431978,-56.15867078"
+        },
+        {
+          "name": "Limite",
+          "url": "https://www.santander.com.uy/beneficios/limite",
+          "location": "Portones Shopping Local 275",
+          "geo": {
+            "lat": -34.880957,
+            "lng": -56.081
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.880957,-56.081"
+        },
+        {
+          "name": "Limite",
+          "url": "https://www.santander.com.uy/beneficios/limite",
+          "location": "18 de Julio 945 esq. Río Branco",
+          "geo": {
+            "lat": -34.906278,
+            "lng": -56.1959
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.906278,-56.1959"
+        },
+        {
+          "name": "Limite",
+          "url": "https://www.santander.com.uy/beneficios/limite",
+          "location": "Peatonal Sarandi 661",
+          "geo": {
+            "lat": -34.906506,
+            "lng": -56.2018
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.906506,-56.2018"
+        },
+        {
+          "name": "Limite",
+          "url": "https://www.santander.com.uy/beneficios/limite",
+          "location": "Av. 18 de Julio 1785 bis esq. Gaboto",
+          "geo": {
+            "lat": -34.902238,
+            "lng": -56.177302
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.902238,-56.177302"
+        },
+        {
+          "name": "Limite",
+          "url": "https://www.santander.com.uy/beneficios/limite",
+          "location": "26 de marzo 990 esq. Cavia",
+          "geo": {
+            "lat": -34.912503,
+            "lng": -56.152851
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.912503,-56.152851"
+        },
+        {
+          "name": "Limite",
+          "url": "https://www.santander.com.uy/beneficios/limite",
+          "location": "18 de Julio 1257 esq. Yi",
+          "geo": {
+            "lat": -34.905366,
+            "lng": -56.188809
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.905366,-56.1888089"
+        },
+        {
+          "name": "Limite",
+          "url": "https://www.santander.com.uy/beneficios/limite",
+          "location": "Uruguay 862 Bis esq. Dr Francisco Soca",
+          "geo": {
+            "lat": -31.387463,
+            "lng": -57.964604
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-31.387463,-57.9646041"
         },
         {
           "name": "Mazzam",
-          "url": "https://www.santander.com.uy/beneficios/mazzam"
+          "url": "https://www.santander.com.uy/beneficios/mazzam",
+          "location": "18 de Julio 118",
+          "geo": {
+            "lat": -31.719081,
+            "lng": -55.986718
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-31.719081,-55.986718"
         },
         {
           "name": "No se lo Digas a Nadie",
-          "url": "https://www.santander.com.uy/beneficios/no-se-lo-digas-nadie"
+          "url": "https://www.santander.com.uy/beneficios/no-se-lo-digas-nadie",
+          "location": "Sarandí 210",
+          "geo": {
+            "lat": -31.712743,
+            "lng": -55.98231
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-31.712743,-55.98231"
         },
         {
           "name": "Rockford",
-          "url": "https://www.santander.com.uy/beneficios/rockford"
+          "url": "https://www.santander.com.uy/beneficios/rockford",
+          "location": "Avda. Roosevelt 458 Local 34 – Colonia Shopping",
+          "geo": {
+            "lat": -34.465872,
+            "lng": -57.836844
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.465872,-57.836844"
+        },
+        {
+          "name": "Rockford",
+          "url": "https://www.santander.com.uy/beneficios/rockford",
+          "location": "Avda. Gianattasio km21 local 283 – Costa Urbana Shopping",
+          "geo": {
+            "lat": -34.84099,
+            "lng": -55.99558
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.84099,-55.99558"
+        },
+        {
+          "name": "Rockford",
+          "url": "https://www.santander.com.uy/beneficios/rockford",
+          "location": "Luis A. de Herrera 1290 Local 337 – Montevideo Shopping",
+          "geo": {
+            "lat": -34.903172,
+            "lng": -56.138211
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.903172,-56.138211"
+        },
+        {
+          "name": "Rockford",
+          "url": "https://www.santander.com.uy/beneficios/rockford",
+          "location": "Luis A. de Herrera 3365 Local 250/ 251 – Nuevocentro Shopping",
+          "geo": {
+            "lat": -34.868941,
+            "lng": -56.171984
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.868941,-56.171984"
+        },
+        {
+          "name": "Rockford",
+          "url": "https://www.santander.com.uy/beneficios/rockford",
+          "location": "Avda. Italia 5775 Local 219 – Portones Shopping",
+          "geo": {
+            "lat": -34.881138,
+            "lng": -56.083531
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.881138,-56.083531"
+        },
+        {
+          "name": "Rockford",
+          "url": "https://www.santander.com.uy/beneficios/rockford",
+          "location": "Av. Roosevelt esq. Los Alpes Local 306 – Punta Shopping",
+          "geo": {
+            "lat": -34.940777,
+            "lng": -54.936445
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.940777,-54.936445"
+        },
+        {
+          "name": "Rockford",
+          "url": "https://www.santander.com.uy/beneficios/rockford",
+          "location": "Ellauri 350 Local 5125 – Punta Carretas Shopping",
+          "geo": {
+            "lat": -34.924029,
+            "lng": -56.160628
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.924029,-56.160628"
+        },
+        {
+          "name": "Rockford",
+          "url": "https://www.santander.com.uy/beneficios/rockford",
+          "location": "Av. 18 de Julio 887",
+          "geo": {
+            "lat": -34.906242,
+            "lng": -56.199436
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.906242,-56.199436"
+        },
+        {
+          "name": "Rockford",
+          "url": "https://www.santander.com.uy/beneficios/rockford",
+          "location": "Bvar. Artigas 1825 Local 137/138 – Tres Cruces Shopping",
+          "geo": {
+            "lat": -34.893838,
+            "lng": -56.168561
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.893838,-56.168561"
         },
         {
           "name": "La Isla",
-          "url": "https://www.santander.com.uy/beneficios/la-isla"
+          "url": "https://www.santander.com.uy/beneficios/la-isla",
+          "location": "L. A. de Herrera 3365 / Local 249",
+          "geo": {
+            "lat": -34.869454,
+            "lng": -56.168804
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.86945423,-56.16880417"
+        },
+        {
+          "name": "La Isla",
+          "url": "https://www.santander.com.uy/beneficios/la-isla",
+          "location": "Ellauri 350 / Local 250",
+          "geo": {
+            "lat": -34.924073,
+            "lng": -56.158762
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.92407347,-56.15876198"
+        },
+        {
+          "name": "La Isla",
+          "url": "https://www.santander.com.uy/beneficios/la-isla",
+          "location": "Av. Italia / Local 269",
+          "geo": {
+            "lat": -34.881053,
+            "lng": -56.0809
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.881053,-56.0809"
+        },
+        {
+          "name": "La Isla",
+          "url": "https://www.santander.com.uy/beneficios/la-isla",
+          "location": "Br. Artigas 1825 / Local K34",
+          "geo": {
+            "lat": -34.893939,
+            "lng": -56.166122
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.89393926,-56.16612196"
+        },
+        {
+          "name": "La Isla",
+          "url": "https://www.santander.com.uy/beneficios/la-isla",
+          "location": "L. A. de Herrera 1290 / Local 266",
+          "geo": {
+            "lat": -34.903407,
+            "lng": -56.136317
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.90340744,-56.13631725"
+        },
+        {
+          "name": "La Isla",
+          "url": "https://www.santander.com.uy/beneficios/la-isla",
+          "location": "21 de Setiembre 2716",
+          "geo": {
+            "lat": -34.918722,
+            "lng": -56.1562
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.918722,-56.1562"
+        },
+        {
+          "name": "La Isla",
+          "url": "https://www.santander.com.uy/beneficios/la-isla",
+          "location": "Av. Arocena 1551",
+          "geo": {
+            "lat": -34.884424,
+            "lng": -56.0595
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.884424,-56.0595"
+        },
+        {
+          "name": "La Isla",
+          "url": "https://www.santander.com.uy/beneficios/la-isla",
+          "location": "Calle 20, esquina 27. Local 005",
+          "geo": {
+            "lat": -34.960686,
+            "lng": -54.943925
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.960686,-54.943925"
         },
         {
           "name": "Chiarino Uniformes",
-          "url": "https://www.santander.com.uy/beneficios/chiarino-uniformes"
+          "url": "https://www.santander.com.uy/beneficios/chiarino-uniformes",
+          "location": "Calle San Francisco entre Pascual Gattas y Los Alpes Local 2",
+          "geo": {
+            "lat": -34.940797,
+            "lng": -54.93534
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.940797,-54.93534"
+        },
+        {
+          "name": "M. Cecilia Chiarino Uniformes",
+          "url": "https://www.santander.com.uy/beneficios/chiarino-uniformes",
+          "location": "Mariano Uriarte 6394",
+          "geo": {
+            "lat": -34.884444,
+            "lng": -56.069859
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.884444,-56.069859"
+        },
+        {
+          "name": "M. Cecilia Chiarino Uniformes",
+          "url": "https://www.santander.com.uy/beneficios/chiarino-uniformes",
+          "location": "Luis de la Torre 958",
+          "geo": {
+            "lat": -34.913035,
+            "lng": -56.158378
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.913035,-56.158378"
         },
         {
           "name": "Desigual",
-          "url": "https://www.santander.com.uy/beneficios/desigual"
+          "url": "https://www.santander.com.uy/beneficios/desigual",
+          "location": "Calle 29 Las Gaviotas esq 18 y 20",
+          "geo": {
+            "lat": -34.9591,
+            "lng": -54.942878
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.9591,-54.942878"
+        },
+        {
+          "name": "Desigual",
+          "url": "https://www.santander.com.uy/beneficios/desigual",
+          "location": "Luis Alberto de Herrera 1118",
+          "geo": {
+            "lat": -34.90734,
+            "lng": -56.136551
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.90734,-56.136551"
         },
         {
           "name": "JP Uniformes",
-          "url": "https://www.santander.com.uy/beneficios/jp-uniformes"
+          "url": "https://www.santander.com.uy/beneficios/jp-uniformes",
+          "location": "Pablo de Maria 909, Montevideo",
+          "geo": {
+            "lat": -34.912331,
+            "lng": -56.170319
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.912331,-56.170319"
         },
         {
           "name": "Cayetana Calzados",
-          "url": "https://www.santander.com.uy/beneficios/cayetana-calzados"
+          "url": "https://www.santander.com.uy/beneficios/cayetana-calzados",
+          "location": "18 de julio 1907",
+          "geo": {
+            "lat": -32.6995,
+            "lng": -57.626902
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.6995,-57.6269015"
         },
         {
           "name": "Uniform & Co",
-          "url": "https://www.santander.com.uy/beneficios/uniform-co"
+          "url": "https://www.santander.com.uy/beneficios/uniform-co",
+          "location": "Segundo piso / Local 29",
+          "geo": {
+            "lat": -34.903654,
+            "lng": -56.136682
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.9036538,-56.13668203"
+        },
+        {
+          "name": "Uniform&Co",
+          "url": "https://www.santander.com.uy/beneficios/uniform-co",
+          "location": "Segundo piso / Local 216",
+          "geo": {
+            "lat": -34.92461,
+            "lng": -56.158805
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.92461007,-56.15880489"
+        },
+        {
+          "name": "Uniform&Co",
+          "url": "https://www.santander.com.uy/beneficios/uniform-co",
+          "location": "Segundo piso / Local 256",
+          "geo": {
+            "lat": -34.880983,
+            "lng": -56.0811
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.880983,-56.0811"
+        },
+        {
+          "name": "Uniform&Co",
+          "url": "https://www.santander.com.uy/beneficios/uniform-co",
+          "location": "Local 131",
+          "geo": {
+            "lat": -34.893922,
+            "lng": -56.16653
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.89392166,-56.16652966"
         },
         {
           "name": "Baquiano",
-          "url": "https://www.santander.com.uy/beneficios/baquiano"
+          "url": "https://www.santander.com.uy/beneficios/baquiano",
+          "location": "18 de Julio 738 - Paso de los Toros",
+          "geo": {
+            "lat": -32.811182,
+            "lng": -56.51473
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.811182,-56.51473"
         },
         {
           "name": "Reina Urbana",
-          "url": "https://www.santander.com.uy/beneficios/reina-urbana"
+          "url": "https://www.santander.com.uy/beneficios/reina-urbana",
+          "location": "Gral. Flores 502",
+          "geo": {
+            "lat": -34.470288,
+            "lng": -57.840384
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.470288,-57.840384"
         },
         {
           "name": "Calabaza",
-          "url": "https://www.santander.com.uy/beneficios/calabaza"
+          "url": "https://www.santander.com.uy/beneficios/calabaza",
+          "location": "18 de julio 742 - Paso de los Toros",
+          "geo": {
+            "lat": -32.81109,
+            "lng": -56.514772
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.81109,-56.514772"
         },
         {
           "name": "Asterisco",
-          "url": "https://www.santander.com.uy/beneficios/asterisco"
+          "url": "https://www.santander.com.uy/beneficios/asterisco",
+          "location": "18 de Julio 235",
+          "geo": {
+            "lat": -31.719081,
+            "lng": -55.986718
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-31.719081,-55.986718"
         },
         {
           "name": "Dhouse",
-          "url": "https://www.santander.com.uy/beneficios/dhouse"
+          "url": "https://www.santander.com.uy/beneficios/dhouse",
+          "location": "Sarandí 874",
+          "geo": {
+            "lat": -34.9078,
+            "lng": -54.959845
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.9078,-54.959845"
+        },
+        {
+          "name": "Dhouse",
+          "url": "https://www.santander.com.uy/beneficios/dhouse",
+          "location": "Boulevard Artigas y 25 de Mayo local 9 y 10",
+          "geo": {
+            "lat": -32.321696,
+            "lng": -58.073023
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.321696,-58.073023"
+        },
+        {
+          "name": "Dhouse",
+          "url": "https://www.santander.com.uy/beneficios/dhouse",
+          "location": "Avda. Jose Batlle y Ordoñez 2265 Local 219-220",
+          "geo": {
+            "lat": -31.384281,
+            "lng": -57.946394
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-31.384281,-57.946394"
+        },
+        {
+          "name": "Dhouse",
+          "url": "https://www.santander.com.uy/beneficios/dhouse",
+          "location": "Avenida Italia 4348",
+          "geo": {
+            "lat": -34.887454,
+            "lng": -56.117732
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.887454,-56.117732"
         },
         {
           "name": "Olivia",
-          "url": "https://www.santander.com.uy/beneficios/olivia"
+          "url": "https://www.santander.com.uy/beneficios/olivia",
+          "location": "Dr. Emilio Penza 846. Esquina 18 de Julio",
+          "geo": {
+            "lat": -33.378389,
+            "lng": -56.523971
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.378389,-56.5239712"
         },
         {
           "name": "Fuel Oil",
-          "url": "https://www.santander.com.uy/beneficios/fuel-oil"
+          "url": "https://www.santander.com.uy/beneficios/fuel-oil",
+          "location": "18 de Julio 721 - Paso de los Toros",
+          "geo": {
+            "lat": -32.811409,
+            "lng": -56.51433
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.811409,-56.51433"
         },
         {
-          "name": "Óptica Meerhoff",
-          "url": "https://www.santander.com.uy/beneficios/optica-meerhoff"
+          "name": "Óptica Meerhoff Pocitos",
+          "url": "https://www.santander.com.uy/beneficios/optica-meerhoff",
+          "location": "2746 Bulevar España",
+          "geo": {
+            "lat": -34.913977,
+            "lng": -56.154376
+          },
+          "mapsUrl": "https://www.google.com/maps/place/%C3%93ptica+Meerhoff+Pocitos/data=!4m7!3m6!1s0x959f8174b5b37593:0xb1310c86d9c0bf7c!8m2!3d-34.913977!4d-56.154376!16s%2Fg%2F1q6jzg5dd!19sChIJk3WztXSBn5URfL_A2YYMMbE"
+        },
+        {
+          "name": "Óptica Meerhoff Centro",
+          "url": "https://www.santander.com.uy/beneficios/optica-meerhoff",
+          "location": "Av. 18 de Julio 1240",
+          "geo": {
+            "lat": -34.905915,
+            "lng": -56.189328
+          },
+          "mapsUrl": "https://www.google.com/maps/place/%C3%93ptica+Meerhoff+Centro/data=!4m7!3m6!1s0x959f81cc4711bced:0x95ab777e51e14ed8!8m2!3d-34.905915!4d-56.1893278!16s%2Fg%2F1q6j205bm!19sChIJ7bwRR8yBn5UR2E7hUX53q5U"
         },
         {
           "name": "Mónaco Athletic",
-          "url": "https://www.santander.com.uy/beneficios/monaco-athletic"
+          "url": "https://www.santander.com.uy/beneficios/monaco-athletic",
+          "location": "Ituzaingó 223",
+          "geo": {
+            "lat": -31.71298,
+            "lng": -55.980426
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-31.71298,-55.980426"
         },
         {
           "name": "Cloé",
-          "url": "https://www.santander.com.uy/beneficios/cloe"
+          "url": "https://www.santander.com.uy/beneficios/cloe",
+          "location": "21 de Septiembre 2889",
+          "geo": {
+            "lat": -34.919166,
+            "lng": -56.156662
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.919166,-56.156662"
         },
         {
           "name": "Mango",
-          "url": "https://www.santander.com.uy/beneficios/mango"
+          "url": "https://www.santander.com.uy/beneficios/mango",
+          "location": "Luis Alberto de Herrera 1290",
+          "geo": {
+            "lat": -34.903007,
+            "lng": -56.136473
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.903007,-56.136473"
         },
         {
           "name": "Pasqualini",
-          "url": "https://www.santander.com.uy/beneficios/pasqualini"
+          "url": "https://www.santander.com.uy/beneficios/pasqualini",
+          "location": "Av. Luis A. de Herrera 1290",
+          "geo": {
+            "lat": -34.90299,
+            "lng": -56.136472
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.90299,-56.136472"
+        },
+        {
+          "name": "Pasqualini Punta Carretas",
+          "url": "https://www.santander.com.uy/beneficios/pasqualini",
+          "location": "José Ellauri 350",
+          "geo": {
+            "lat": -34.92372,
+            "lng": -56.158852
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.92372,-56.158852"
+        },
+        {
+          "name": "Pasqualini Portones",
+          "url": "https://www.santander.com.uy/beneficios/pasqualini",
+          "location": "Avenida Italia 5775",
+          "geo": {
+            "lat": -34.881048,
+            "lng": -56.082024
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.881048,-56.082024"
         },
         {
           "name": "Margo Baridon",
-          "url": "https://www.santander.com.uy/beneficios/margo-baridon"
+          "url": "https://www.santander.com.uy/beneficios/margo-baridon",
+          "location": "Rostand 1551",
+          "geo": {
+            "lat": -34.889804,
+            "lng": -56.06035
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.889804,-56.06035"
         },
         {
           "name": "Minimon",
-          "url": "https://www.santander.com.uy/beneficios/minimon-0"
+          "url": "https://www.santander.com.uy/beneficios/minimon-0",
+          "location": "Schroeder 6447",
+          "geo": {
+            "lat": -34.886778,
+            "lng": -56.058701
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.886778,-56.058701"
         },
         {
           "name": "Bersal",
-          "url": "https://www.santander.com.uy/beneficios/bersal"
+          "url": "https://www.santander.com.uy/beneficios/bersal",
+          "location": "18 de Julio 1786",
+          "geo": {
+            "lat": -32.701823,
+            "lng": -57.629895
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.701823,-57.6298948"
         },
         {
           "name": "Adoré",
-          "url": "https://www.santander.com.uy/beneficios/adore"
+          "url": "https://www.santander.com.uy/beneficios/adore",
+          "location": "Schroeder 6478",
+          "geo": {
+            "lat": -34.887421,
+            "lng": -56.056768
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.887421,-56.0567684"
         },
         {
           "name": "Cienta",
-          "url": "https://www.santander.com.uy/beneficios/cienta"
+          "url": "https://www.santander.com.uy/beneficios/cienta",
+          "location": "Av. Alfredo Arocena 1571, Galería Roma",
+          "geo": {
+            "lat": -34.889599,
+            "lng": -56.057009
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.889599,-56.0570088"
         },
         {
           "name": "Inside",
-          "url": "https://www.santander.com.uy/beneficios/inside"
+          "url": "https://www.santander.com.uy/beneficios/inside",
+          "location": "Grito de Asencio 1798",
+          "geo": {
+            "lat": -33.533335,
+            "lng": -58.21585
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.533335,-58.2158498"
         },
         {
           "name": "Para Tus Bajitos",
-          "url": "https://www.santander.com.uy/beneficios/para-tus-bajitos"
+          "url": "https://www.santander.com.uy/beneficios/para-tus-bajitos",
+          "location": "Gral. Jose Gervasio Artigas 429",
+          "geo": {
+            "lat": -33.378737,
+            "lng": -56.520247
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.378737,-56.5202472"
         },
         {
           "name": "Venancio",
-          "url": "https://www.santander.com.uy/beneficios/venancio"
+          "url": "https://www.santander.com.uy/beneficios/venancio",
+          "location": "Benigno Paiva 1165",
+          "geo": {
+            "lat": -34.904011,
+            "lng": -56.129743
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.904011,-56.1297426"
+        },
+        {
+          "name": "Venancio Trinidad",
+          "url": "https://www.santander.com.uy/beneficios/venancio",
+          "location": "Sarandí 501",
+          "geo": {
+            "lat": -33.51501,
+            "lng": -56.901687
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.51501,-56.9016871"
         },
         {
           "name": "Aire",
-          "url": "https://www.santander.com.uy/beneficios/aire"
+          "url": "https://www.santander.com.uy/beneficios/aire",
+          "location": "Tomás Diago 632",
+          "geo": {
+            "lat": -34.92003,
+            "lng": -56.153258
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.92003,-56.1532579"
         },
         {
           "name": "Las Marías",
-          "url": "https://www.santander.com.uy/beneficios/las-marias"
+          "url": "https://www.santander.com.uy/beneficios/las-marias",
+          "location": "Luis B. Cavia 3093, Lázaro Gadea esq",
+          "geo": {
+            "lat": -34.913904,
+            "lng": -56.150084
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.913904,-56.1500845"
+        },
+        {
+          "name": "Las Marías Punta del Este",
+          "url": "https://www.santander.com.uy/beneficios/las-marias",
+          "location": "Gorlero 811 esq, 27 - Los Muergos",
+          "geo": {
+            "lat": -34.961412,
+            "lng": -54.942927
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.961412,-54.942927"
         },
         {
           "name": "Luxo",
-          "url": "https://www.santander.com.uy/beneficios/luxo"
+          "url": "https://www.santander.com.uy/beneficios/luxo",
+          "location": "entre, Ruta 10, Los Romances y, 20000 La Barra",
+          "geo": {
+            "lat": -34.915334,
+            "lng": -54.857165
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.915334,-54.8571649"
+        },
+        {
+          "name": "LUXO Montevideo",
+          "url": "https://www.santander.com.uy/beneficios/luxo",
+          "location": "Claudio Williman 642",
+          "geo": {
+            "lat": -34.916852,
+            "lng": -56.15871
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.916852,-56.1587105"
         },
         {
           "name": "Oh Jacinta! - The Kul Store",
-          "url": "https://www.santander.com.uy/beneficios/oh-jacinta-kul-store"
+          "url": "https://www.santander.com.uy/beneficios/oh-jacinta-kul-store",
+          "location": "Calle 30 esquina, C. 22",
+          "geo": {
+            "lat": -34.959159,
+            "lng": -54.940723
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.959159,-54.9407228"
         },
         {
           "name": "Chili Accesorios - The Kul Store",
-          "url": "https://www.santander.com.uy/beneficios/chili-accesorios-kul-store"
+          "url": "https://www.santander.com.uy/beneficios/chili-accesorios-kul-store",
+          "location": "Calle 30 esquina, C. 22 y, 20000",
+          "geo": {
+            "lat": -34.95905,
+            "lng": -54.940773
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.95905,-54.940773"
         },
         {
           "name": "Baleine - The Kul Store",
-          "url": "https://www.santander.com.uy/beneficios/baleine-kul-store"
+          "url": "https://www.santander.com.uy/beneficios/baleine-kul-store",
+          "location": "Calle 30 esquina, C. 22 y, 20000",
+          "geo": {
+            "lat": -34.95905,
+            "lng": -54.940773
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.95905,-54.940773"
         },
         {
           "name": "Macushop - The Kul Store",
-          "url": "https://www.santander.com.uy/beneficios/macushop-kul-store"
+          "url": "https://www.santander.com.uy/beneficios/macushop-kul-store",
+          "location": "Calle 30 esquina, C. 22 y, 20000",
+          "geo": {
+            "lat": -34.958998,
+            "lng": -54.940865
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.958998,-54.940865"
         },
         {
           "name": "The Kul Store",
-          "url": "https://www.santander.com.uy/beneficios/kul-store"
+          "url": "https://www.santander.com.uy/beneficios/kul-store",
+          "location": "Calle 30 esquina, C. 22 y, 20000",
+          "geo": {
+            "lat": -34.959092,
+            "lng": -54.940757
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.959092,-54.940757"
         },
         {
           "name": "Gocco",
-          "url": "https://www.santander.com.uy/beneficios/gocco"
+          "url": "https://www.santander.com.uy/beneficios/gocco",
+          "location": "Av. Alfredo Arocena 1571, 11500 Montevideo",
+          "geo": {
+            "lat": -34.889038,
+            "lng": -56.057232
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.889038,-56.057232"
         },
         {
           "name": "Ardido - The Kul Store",
-          "url": "https://www.santander.com.uy/beneficios/ardido-kul-store"
+          "url": "https://www.santander.com.uy/beneficios/ardido-kul-store",
+          "location": "Calle 30 esquina, C. 22 y, 20000 Punta del Este, Departamento de Maldonado",
+          "geo": {
+            "lat": -34.959148,
+            "lng": -54.940749
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.959148,-54.9407492"
         },
         {
           "name": "Coppelia",
-          "url": "https://www.santander.com.uy/beneficios/coppelia"
+          "url": "https://www.santander.com.uy/beneficios/coppelia",
+          "location": "Calle 30, esquina Av. Juan Gorlero",
+          "geo": {
+            "lat": -34.959113,
+            "lng": -54.940779
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.959113,-54.9407791"
         },
         {
           "name": "Alma Mía Boutique",
-          "url": "https://www.santander.com.uy/beneficios/alma-mia-boutique"
+          "url": "https://www.santander.com.uy/beneficios/alma-mia-boutique",
+          "location": "Dr. Adalberto Schuster 1328",
+          "geo": {
+            "lat": -33.532113,
+            "lng": -58.218053
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.532113,-58.218053"
         },
         {
           "name": "Will B - The Kul Store",
-          "url": "https://www.santander.com.uy/beneficios/will-b-kul-store"
+          "url": "https://www.santander.com.uy/beneficios/will-b-kul-store",
+          "location": "Calle 30, esquina Av. Juan Gorlero",
+          "geo": {
+            "lat": -34.959122,
+            "lng": -54.940779
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.959122,-54.9407791"
         },
         {
           "name": "Flavia Donatti",
-          "url": "https://www.santander.com.uy/beneficios/flavia-donatti"
+          "url": "https://www.santander.com.uy/beneficios/flavia-donatti",
+          "location": "Lavalleja 780, Las Piedras",
+          "geo": {
+            "lat": -34.733544,
+            "lng": -56.217166
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.733544,-56.2171664"
         },
         {
           "name": "Todomoda",
-          "url": "https://www.santander.com.uy/beneficios/todomoda"
+          "url": "https://www.santander.com.uy/beneficios/todomoda",
+          "location": "Av. 18 de Julio 1425",
+          "geo": {
+            "lat": -34.90534,
+            "lng": -56.185577
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.90534,-56.1855771"
+        },
+        {
+          "name": "Todomoda - Nuevocentro Shopping",
+          "url": "https://www.santander.com.uy/beneficios/todomoda",
+          "location": "Avenida Luis Alberto de Herrera 3365",
+          "geo": {
+            "lat": -34.868911,
+            "lng": -56.169793
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.868911,-56.1697927"
+        },
+        {
+          "name": "Todomoda - Tres Cruces Shopping",
+          "url": "https://www.santander.com.uy/beneficios/todomoda",
+          "location": "Bv. Gral. Artigas 1825, Montevideo",
+          "geo": {
+            "lat": -34.893736,
+            "lng": -56.16612
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.893736,-56.1661203"
+        },
+        {
+          "name": "Todomoda - La Blanqueada",
+          "url": "https://www.santander.com.uy/beneficios/todomoda",
+          "location": "Av. 8 de Octubre 3371",
+          "geo": {
+            "lat": -34.879361,
+            "lng": -56.148486
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.879361,-56.1484861"
+        },
+        {
+          "name": "Todomoda - Punta del Este",
+          "url": "https://www.santander.com.uy/beneficios/todomoda",
+          "location": "Av.Roosevelt y Parada 7",
+          "geo": {
+            "lat": -34.940629,
+            "lng": -54.933853
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.940629,-54.9338525"
+        },
+        {
+          "name": "Todomoda - Costa Urbana Shopping",
+          "url": "https://www.santander.com.uy/beneficios/todomoda",
+          "location": "Av. Giannattasio Km 21",
+          "geo": {
+            "lat": -34.840902,
+            "lng": -55.992924
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.840902,-55.9929239"
         },
         {
           "name": "Isadora",
-          "url": "https://www.santander.com.uy/beneficios/isadora"
+          "url": "https://www.santander.com.uy/beneficios/isadora",
+          "location": "Av. Luis Alberto de Herrera 1290, 11300 Montevideo, Departamento de Montevideo",
+          "geo": {
+            "lat": -34.902699,
+            "lng": -56.136735
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.902699,-56.1367348"
+        },
+        {
+          "name": "Isadora - Tres Cruces Shopping",
+          "url": "https://www.santander.com.uy/beneficios/isadora",
+          "location": "Bv. Gral. Artigas 1825, 11800 Montevideo, Departamento de Montevideo",
+          "geo": {
+            "lat": -34.893867,
+            "lng": -56.16613
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.893867,-56.1661302"
+        },
+        {
+          "name": "Isadora - Punta Carretas Shopping",
+          "url": "https://www.santander.com.uy/beneficios/isadora",
+          "location": "José Ellauri 350 esq. Solano García y Francisco, F. García Cortinas, 11300 Montevideo",
+          "geo": {
+            "lat": -34.924066,
+            "lng": -56.158126
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.924066,-56.1581261"
+        },
+        {
+          "name": "Isadora - Centro",
+          "url": "https://www.santander.com.uy/beneficios/isadora",
+          "location": "Avenida 18 de Julio 911",
+          "geo": {
+            "lat": -34.906143,
+            "lng": -56.196621
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.906143,-56.1966214"
+        },
+        {
+          "name": "Isadora - Costa Urbana Shopping",
+          "url": "https://www.santander.com.uy/beneficios/isadora",
+          "location": "Avenida Giannattasio km 21 - Local 42",
+          "geo": {
+            "lat": -34.840919,
+            "lng": -55.992867
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.840919,-55.9928666"
         },
         {
           "name": "Pour La Plage",
-          "url": "https://www.santander.com.uy/beneficios/pour-la-plage"
+          "url": "https://www.santander.com.uy/beneficios/pour-la-plage",
+          "location": "Calle 30 esquina, Av. Juan Gorlero",
+          "geo": {
+            "lat": -34.95917,
+            "lng": -54.940747
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.95917,-54.940747"
         },
         {
           "name": "By Vero Melo",
-          "url": "https://www.santander.com.uy/beneficios/vero-melo"
+          "url": "https://www.santander.com.uy/beneficios/vero-melo",
+          "location": "Aparicio Saravia 832",
+          "geo": {
+            "lat": -32.367247,
+            "lng": -54.168168
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.367247,-54.1681679"
         },
         {
           "name": "Tero Mates",
-          "url": "https://www.santander.com.uy/beneficios/tero-mates"
+          "url": "https://www.santander.com.uy/beneficios/tero-mates",
+          "geo": {
+            "lat": -34.910114,
+            "lng": -56.147337
+          },
+          "mapsUrl": "https://www.google.com/maps/place/TERO+STORE/@-34.9101135,-56.1473371,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81b5ad82359b:0x84f9a3c21ad4e879!8m2!3d-34.9101135!4d-56.1473371!16s%2Fg%2F11y5_5dd2m"
         },
         {
           "name": "Anushka Elliot",
-          "url": "https://www.santander.com.uy/beneficios/anushka-elliot"
+          "url": "https://www.santander.com.uy/beneficios/anushka-elliot",
+          "location": "Los Cisnes, 20000 Faro de José Ignacio, Departamento de Maldonado",
+          "geo": {
+            "lat": -34.842051,
+            "lng": -54.633725
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.842051,-54.6337246"
         },
         {
           "name": "Azu -The Kul Store",
-          "url": "https://www.santander.com.uy/beneficios/azu-kul-store"
+          "url": "https://www.santander.com.uy/beneficios/azu-kul-store",
+          "location": "Calle 30 esquina, Av. Juan Gorlero y, 20000 Punta del Este, Departamento de Maldonado",
+          "geo": {
+            "lat": -34.959089,
+            "lng": -54.940788
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.959089,-54.940788"
         },
         {
           "name": "Brownie",
-          "url": "https://www.santander.com.uy/beneficios/brownie"
+          "url": "https://www.santander.com.uy/beneficios/brownie",
+          "location": "29, Las Gaviotas esq, 20100 Maldonado",
+          "geo": {
+            "lat": -34.958664,
+            "lng": -54.942799
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.958664,-54.9427991"
         },
         {
           "name": "Casa Ribera",
-          "url": "https://www.santander.com.uy/beneficios/casa-ribera"
+          "url": "https://www.santander.com.uy/beneficios/casa-ribera",
+          "location": "10 &, 20000 Manantiales, Departamento de Maldonado",
+          "geo": {
+            "lat": -34.905569,
+            "lng": -54.826291
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.905569,-54.8262909"
         },
         {
           "name": "Felix",
-          "url": "https://www.santander.com.uy/beneficios/felix"
+          "url": "https://www.santander.com.uy/beneficios/felix",
+          "location": "Los Cisnes y, 20000 Faro de José Ignacio, Departamento de Maldonado",
+          "geo": {
+            "lat": -34.841946,
+            "lng": -54.639024
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.841946,-54.6390237"
         },
         {
           "name": "The Mood House",
-          "url": "https://www.santander.com.uy/beneficios/mood-house"
+          "url": "https://www.santander.com.uy/beneficios/mood-house",
+          "location": "Sarandí 487, 80000 San José de Mayo, Departamento de San José",
+          "geo": {
+            "lat": -34.34005,
+            "lng": -56.711824
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.34005,-56.7118245"
         },
         {
           "name": "Dropz - The Kul Store",
-          "url": "https://www.santander.com.uy/beneficios/dropz-kul-store"
+          "url": "https://www.santander.com.uy/beneficios/dropz-kul-store",
+          "location": "Calle 30 esquina, Av. Juan Gorlero y, 20000 Punta del Este, Departamento de Maldonado",
+          "geo": {
+            "lat": -34.95909,
+            "lng": -54.940791
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.95909,-54.940791"
         },
         {
           "name": "Especie Humana - The Kul Store",
-          "url": "https://www.santander.com.uy/beneficios/especie-humana-kul-store"
+          "url": "https://www.santander.com.uy/beneficios/especie-humana-kul-store",
+          "location": "Calle 30 esquina, Av. Juan Gorlero y, 20000 Punta del Este, Departamento de Maldonado",
+          "geo": {
+            "lat": -34.95909,
+            "lng": -54.940791
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.95909,-54.940791"
         },
         {
           "name": "Manu.be - The Kul Store",
-          "url": "https://www.santander.com.uy/beneficios/manube-kul-store"
+          "url": "https://www.santander.com.uy/beneficios/manube-kul-store",
+          "location": "Calle 30 esquina, Av. Juan Gorlero y, 20000 Punta del Este, Departamento de Maldonado",
+          "geo": {
+            "lat": -34.959069,
+            "lng": -54.940751
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.959069,-54.9407513"
         },
         {
           "name": "Vang - The Kul Store",
-          "url": "https://www.santander.com.uy/beneficios/vang-kul-store"
+          "url": "https://www.santander.com.uy/beneficios/vang-kul-store",
+          "location": "Calle 30 esquina, Av. Juan Gorlero y, 20000 Punta del Este, Departamento de Maldonado",
+          "geo": {
+            "lat": -34.959069,
+            "lng": -54.940751
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.959069,-54.940751"
         },
         {
           "name": "Adoré Dolores",
-          "url": "https://www.santander.com.uy/beneficios/adore-dolores"
+          "url": "https://www.santander.com.uy/beneficios/adore-dolores",
+          "location": "Grito de Asencio 1669",
+          "geo": {
+            "lat": -33.530982,
+            "lng": -58.216947
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.530982,-58.2169471"
         },
         {
           "name": "Aimée",
-          "url": "https://www.santander.com.uy/beneficios/aimee"
+          "url": "https://www.santander.com.uy/beneficios/aimee",
+          "location": "21 de Setiembre 2784",
+          "geo": {
+            "lat": -34.918219,
+            "lng": -56.157104
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.918219,-56.1571036"
         },
         {
           "name": "Periplo",
-          "url": "https://www.santander.com.uy/beneficios/periplo"
+          "url": "https://www.santander.com.uy/beneficios/periplo",
+          "location": "18 de Julio 701, 45100 Paso de los Toros, Departamento de Tacuarembó",
+          "geo": {
+            "lat": -32.811315,
+            "lng": -56.511554
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.811315,-56.5115543"
         },
         {
           "name": "Tuya - The Kul Store",
-          "url": "https://www.santander.com.uy/beneficios/tuya-kul-store"
+          "url": "https://www.santander.com.uy/beneficios/tuya-kul-store",
+          "location": "Calle 30 esquina, Av. Juan Gorlero y, 20000 Punta del Este, Departamento de Maldonado",
+          "geo": {
+            "lat": -34.959088,
+            "lng": -54.940798
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.959088,-54.940798"
         },
         {
           "name": "The North Face",
-          "url": "https://www.santander.com.uy/beneficios/north-face"
+          "url": "https://www.santander.com.uy/beneficios/north-face",
+          "location": "José Ellauri 350, Solano García Esq, 11300 Montevideo",
+          "geo": {
+            "lat": -34.923935,
+            "lng": -56.158481
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.923935,-56.1584806"
         }
       ]
     }
