@@ -58,6 +58,14 @@
       "percent": 20
     },
     {
+      "merchant": "Agarrate Catalina",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "10 de septiembre - 21hs. Lugar: Antel Arena",
+      "validUntil": "2026-09-10"
+    },
+    {
       "merchant": "Alaclownddin",
       "category": "entretenimiento",
       "percent": 50,
