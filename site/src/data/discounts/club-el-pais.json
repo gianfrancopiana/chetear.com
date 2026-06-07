@@ -58,6 +58,14 @@
       "percent": 20
     },
     {
+      "merchant": "Agarrate Catalina",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "10 de septiembre - 21hs. Lugar: Antel Arena",
+      "validUntil": "2026-09-10"
+    },
+    {
       "merchant": "Alaclownddin",
       "category": "entretenimiento",
       "percent": 50,
@@ -72,6 +80,14 @@
       "benefitType": "2-for-1",
       "notes": "02 de julio - 16hs. Lugar: Centro Cultural La Experimental",
       "validUntil": "2026-07-02"
+    },
+    {
+      "merchant": "Aladdín: un musical genial",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "27 de junio al 5 de julio. Lugar: Auditorio Nelly Goitiño",
+      "validUntil": "2026-07-05"
     },
     {
       "merchant": "Ballet Nacional Sodre",
@@ -142,6 +158,14 @@
       "validUntil": "2026-08-29"
     },
     {
+      "merchant": "El camino de los árboles",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "27 de junio al 5 de julio. Lugar: Auditorio Adela Reta",
+      "validUntil": "2026-07-05"
+    },
+    {
       "merchant": "El Jefe del Jefe",
       "category": "entretenimiento",
       "percent": 50,
@@ -150,10 +174,34 @@
       "validUntil": "2026-11-27"
     },
     {
+      "merchant": "El Principito, El musical",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "27 de junio al 5 de julio. Lugar: Auditorio Nelly Goitiño",
+      "validUntil": "2026-07-05"
+    },
+    {
       "merchant": "FutVolt",
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1"
+    },
+    {
+      "merchant": "Guillermo Wood",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "16 de julio - 21hs. Lugar: Auditorio Adela Reta",
+      "validUntil": "2026-07-16"
+    },
+    {
+      "merchant": "Julieta Díaz & Diego Presa Quinteto",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "18 de Julio - 21 hs. Lugar: Sala Rondeau",
+      "validUntil": "2026-07-18"
     },
     {
       "merchant": "La Bella y la Bestia – El Musical",
@@ -252,6 +300,14 @@
       "validUntil": "2026-07-12"
     },
     {
+      "merchant": "Montoya Woman 6k",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "11 de Octubre - 10 hs. Lugar: OH! LA BARRA",
+      "validUntil": "2026-10-11"
+    },
+    {
       "merchant": "Movie",
       "category": "entretenimiento",
       "percent": 50,
@@ -303,6 +359,14 @@
       "validUntil": "2026-10-17"
     },
     {
+      "merchant": "Plim Plim",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "4 de julio - 15hs. Lugar: Movie Montevideo",
+      "validUntil": "2026-07-04"
+    },
+    {
       "merchant": "Por hoy dejamos acá",
       "category": "entretenimiento",
       "percent": 50,
@@ -317,6 +381,14 @@
       "benefitType": "2-for-1",
       "notes": "23 de junio - 20hs. Lugar: Teatro Solís",
       "validUntil": "2026-06-23"
+    },
+    {
+      "merchant": "Salvaje: Opa! Payasos",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "2, 3 y 4 de julio. Lugar: Sala Zitarrosa",
+      "validUntil": "2026-07-04"
     },
     {
       "merchant": "Sentido Mensaje",
@@ -372,6 +444,14 @@
       "validUntil": "2026-10-09"
     },
     {
+      "merchant": "Tributo a Paco de Lucía",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "30 de septiembre - 20hs. Lugar: Sala Zitarrosa",
+      "validUntil": "2026-09-30"
+    },
+    {
       "merchant": "Un Poyo Rojo",
       "category": "entretenimiento",
       "percent": 50,
@@ -380,27 +460,18 @@
       "validUntil": "2026-07-24"
     },
     {
-      "merchant": "Valeria Lynch en el Sodre",
+      "merchant": "Horneros Racket Club",
       "category": "entretenimiento",
-      "percent": 50,
-      "benefitType": "2-for-1",
-      "notes": "01 de noviembre - 20:00 hs. Lugar: Auditorio Adela Reta",
-      "validUntil": "2026-11-01"
+      "percent": 20
     },
     {
       "merchant": "Librería Escaramuza",
       "category": "entretenimiento",
-      "percent": 30,
+      "percent": 20,
       "days": [
-        "lunes",
-        "martes",
-        "miercoles"
-      ]
-    },
-    {
-      "merchant": "Horneros Racket Club",
-      "category": "entretenimiento",
-      "percent": 20
+        "martes"
+      ],
+      "notes": "Primer martes de cada mes"
     },
     {
       "merchant": "Sushi Company",
