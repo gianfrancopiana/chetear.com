@@ -24,6 +24,7 @@ import {
   DETAIL_DISMISS_REQUEST_EVENT,
   DETAIL_OPEN_EVENT,
   DISCOUNTS_FILTERED_EVENT,
+  MAP_EXPAND_EVENT,
   MAP_SHOWN_EVENT,
   TARJETAS_CHANGED_EVENT,
 } from "../lib/events";
@@ -90,29 +91,33 @@ export default function initHomeDiscountsPage(): void {
   const categoryOptions = Array.from(root.querySelectorAll<HTMLButtonElement>("[data-cat-option]"));
   const list = root.querySelector<HTMLElement>("[data-discount-list]");
   const listCard = root.querySelector<HTMLElement>("[data-discount-card]");
-  const tableList = root.querySelector<HTMLElement>("[data-discount-table-list]");
-  const tableCard = root.querySelector<HTMLElement>("[data-discount-table]");
   const emptyState = root.querySelector<HTMLElement>("[data-empty-state]");
   const loadMoreWrap = root.querySelector<HTMLElement>("[data-load-more-wrap]");
   const loadMoreButton = root.querySelector<HTMLButtonElement>("[data-load-more]");
   const loadMoreSentinel = root.querySelector<HTMLElement>("[data-load-more-sentinel]");
+  // On desktop the list scrolls inside this element (the map stays put), so the
+  // infinite-scroll observer must watch it rather than the viewport.
+  const listViewEl = root.querySelector<HTMLElement>("[data-list-view]");
 
-  // List ↔ map view toggle. The map is a lens on the same filtered data, so
-  // switching never refetches or re-filters: it shows/hides containers and the
-  // map island (which listens for the filtered broadcast) draws what the list
-  // shows. Persisted so the choice survives navigation.
+  // List / map view. Visibility is driven by CSS off `data-view` on the page
+  // root (see index.astro): below lg it's a real one-at-a-time toggle; at lg+
+  // the list and map show side by side (the split) and `data-view` is ignored.
+  // The map is the same filtered data as the list — switching never refetches.
   const VIEW_KEY = "chetear-view-v1";
   const viewToggleButtons = Array.from(
     root.querySelectorAll<HTMLButtonElement>("[data-view-option]"),
   );
-  const listView = root.querySelector<HTMLElement>("[data-list-view]");
-  const mapView = root.querySelector<HTMLElement>("[data-map-view]");
+  const desktopMq = window.matchMedia("(min-width: 1024px)");
   let view: "list" | "map" = loadJSON<string>(VIEW_KEY, "list") === "map" ? "map" : "list";
 
+  // The map is on-screen when the desktop split is showing, or the user toggled
+  // to it on mobile. Used to avoid rebuilding a hidden map (see renderDiscounts).
+  function mapVisible(): boolean {
+    return desktopMq.matches || view === "map";
+  }
+
   function applyView(): void {
-    const mapMode = view === "map";
-    listView?.classList.toggle("!hidden", mapMode);
-    mapView?.classList.toggle("!hidden", !mapMode);
+    root.dataset.view = view;
     for (const button of viewToggleButtons) {
       const on = button.dataset.view === view;
       button.setAttribute("aria-pressed", on ? "true" : "false");
@@ -121,8 +126,9 @@ export default function initHomeDiscountsPage(): void {
       button.classList.toggle("text-ink", on);
       button.classList.toggle("text-ink-3", !on);
     }
-    // Leaflet needs a size recompute when its container becomes visible.
-    if (mapMode) window.dispatchEvent(new CustomEvent(MAP_SHOWN_EVENT));
+    // Map just became visible (or its container size changed): let Leaflet
+    // recompute size and draw the current filtered set.
+    if (mapVisible()) window.dispatchEvent(new CustomEvent(MAP_SHOWN_EVENT));
   }
 
   for (const button of viewToggleButtons) {
@@ -136,6 +142,19 @@ export default function initHomeDiscountsPage(): void {
       { signal },
     );
   }
+
+  // Desktop expand/collapse: the map island's button toggles the map to full
+  // width (hiding the list) and back. CSS keys off [data-map-expanded].
+  window.addEventListener(
+    MAP_EXPAND_EVENT,
+    (event) => {
+      root.toggleAttribute("data-map-expanded", event.detail.expanded);
+      window.dispatchEvent(new CustomEvent(MAP_SHOWN_EVENT));
+    },
+    { signal },
+  );
+
+
   applyView();
 
   if (
@@ -150,23 +169,41 @@ export default function initHomeDiscountsPage(): void {
     return;
   }
 
-  const loadMoreObserver = new IntersectionObserver(
-    ([entry]) => {
-      if (!entry?.isIntersecting || visibleCount >= currentFilteredLength) {
-        return;
-      }
-
-      visibleCount = Math.min(visibleCount + VISIBLE_DISCOUNT_STEP, currentFilteredLength);
-      renderDiscounts();
+  // Recreated when crossing the lg breakpoint: on desktop the list scrolls
+  // inside `listViewEl` (root = that element); on mobile the page scrolls
+  // (root = viewport).
+  let loadMoreObserver: IntersectionObserver | null = null;
+  function setupLoadMoreObserver(): void {
+    loadMoreObserver?.disconnect();
+    loadMoreObserver = new IntersectionObserver(
+      ([entry]) => {
+        if (!entry?.isIntersecting || visibleCount >= currentFilteredLength) {
+          return;
+        }
+        visibleCount = Math.min(visibleCount + VISIBLE_DISCOUNT_STEP, currentFilteredLength);
+        renderDiscounts();
+      },
+      { root: desktopMq.matches ? listViewEl : null, rootMargin: "320px 0px" },
+    );
+    loadMoreObserver.observe(loadMoreSentinel);
+  }
+  setupLoadMoreObserver();
+  // One handler for crossing the lg breakpoint: re-sync the view (reveals/hides
+  // the map and resizes it) and re-point the infinite-scroll observer (page
+  // scroll on mobile, internal list scroll on desktop).
+  desktopMq.addEventListener(
+    "change",
+    () => {
+      applyView();
+      setupLoadMoreObserver();
     },
-    { rootMargin: "320px 0px" },
+    { signal },
   );
-  loadMoreObserver.observe(loadMoreSentinel);
 
   cleanupHomeDiscountsPage = () => {
     controller.abort();
     cancelWarmup();
-    loadMoreObserver.disconnect();
+    loadMoreObserver?.disconnect();
   };
 
   function syncStickyOffset(): void {
@@ -279,59 +316,6 @@ export default function initHomeDiscountsPage(): void {
     </a>`;
   }
 
-  const DAY_KEYS_TABLE: ReadonlyArray<string> = [
-    "lunes", "martes", "miercoles", "jueves", "viernes", "sabado", "domingo",
-  ];
-  const DAY_LETTERS_TABLE: ReadonlyArray<string> = ["L", "M", "M", "J", "V", "S", "D"];
-
-  function renderDiscountTableRow(rule: DiscountItem, index: number, total: number, stagger: boolean): string {
-    const meta = providerMeta(rule.provider);
-    const divider = index < total - 1 ? "border-bottom: 1px solid oklch(0.86 0.008 60);" : "";
-    const initial = escapeHtml(meta.label.slice(0, 1).toUpperCase());
-    const activeDays = rule.days && rule.days.length > 0
-      ? new Set(rule.days as ReadonlyArray<string>)
-      : null;
-    const dayCells = DAY_KEYS_TABLE.map((dk, di) => {
-      const isOn = activeDays === null || activeDays.has(dk);
-      const cls = isOn
-        ? "bg-ink text-paper"
-        : "bg-paper-2 text-ink-3";
-      return `<span class="flex h-[22px] w-[22px] items-center justify-center rounded-[5px] text-[9px] font-semibold tracking-[0.04em] ${cls}">${DAY_LETTERS_TABLE[di]}</span>`;
-    }).join("");
-    const locationLine = rule.merchantLocation
-      ? `<div class="mt-0.5 text-[12px] text-ink-3 truncate">${escapeHtml(rule.merchantLocation)}</div>`
-      : "";
-    const { className: staggerClass, styleFragment: staggerStyle } = staggerAttrs(index, stagger);
-    const chipTable = benefitChip(rule);
-    const chipTableUnit = chipTable.unit
-      ? `<span class="font-sans text-[14px] font-medium text-ink-3">${chipTable.unit}</span>`
-      : "";
-    const chipTableSize = chipTable.size === "medium" ? "text-[20px]" : "text-[28px]";
-    const chipTableHtml = chipTable.kind === "numeric"
-      ? `<div class="whitespace-nowrap ${chipTableSize} font-bold leading-none tracking-[-0.02em] tabular-nums" style="color:${meta.color}">
-        ${chipTable.primary}${chipTableUnit}
-      </div>`
-      : `<div class="whitespace-nowrap text-[13px] font-bold uppercase tracking-[0.04em] leading-none" style="color:${meta.color}">
-        ${escapeHtml(chipTable.primary)}
-      </div>`;
-    return `<a href="${discountDetailHref(rule)}" data-rule-id="${escapeHtml(rule.id)}" class="grid grid-cols-[60px_minmax(0,1fr)_110px_120px_172px_18px] xl:grid-cols-[68px_minmax(0,1fr)_150px_150px_172px_20px] gap-3 xl:gap-4 px-5 py-3.5 items-center no-underline transition-colors hover:bg-paper-2${staggerClass}" style="${staggerStyle}${divider}">
-      ${chipTableHtml}
-      <div class="min-w-0">
-        <div class="text-[15px] font-semibold tracking-[-0.005em] text-ink truncate">${escapeHtml(rule.merchant)}</div>
-        ${locationLine}
-      </div>
-      <div class="flex items-center gap-2 text-[13px] text-ink-2 min-w-0">
-        <span class="flex h-5 w-5 shrink-0 items-center justify-center rounded-full text-[10px] font-bold" style="background:${meta.color};color:#fff">${initial}</span>
-        <span class="truncate">${escapeHtml(meta.label)}</span>
-      </div>
-      <div class="text-[13px] text-ink-2 truncate">${escapeHtml(rule.categoryLabel)}</div>
-      <div class="flex gap-[3px]">${dayCells}</div>
-      <svg width="16" height="16" viewBox="0 0 20 20" fill="none" class="text-ink-3">
-        <path d="M8 5l5 5-5 5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"></path>
-      </svg>
-    </a>`;
-  }
-
   function renderDiscounts(options: { stagger?: boolean } = {}): void {
     if (!rules) {
       return;
@@ -355,7 +339,7 @@ export default function initHomeDiscountsPage(): void {
     // the map is actually showing — no point rebuilding a hidden map on every
     // filter/keystroke, or on load-more (which doesn't change `filtered`).
     window.__chetearFilteredItems = filtered;
-    if (view === "map") {
+    if (mapVisible()) {
       window.dispatchEvent(new CustomEvent(DISCOUNTS_FILTERED_EVENT, { detail: { items: filtered } }));
     }
 
@@ -363,7 +347,6 @@ export default function initHomeDiscountsPage(): void {
 
     const noResults = filtered.length === 0;
     if (listCard) listCard.classList.toggle("!hidden", noResults);
-    if (tableCard) tableCard.classList.toggle("!hidden", noResults);
     emptyState.hidden = !noResults;
     if (filtered.length === 0) {
       emptyState.innerHTML = `<div class="text-[22px] mb-1.5 text-ink">Sin resultados</div>
@@ -375,11 +358,6 @@ export default function initHomeDiscountsPage(): void {
     }
 
     list.innerHTML = visible.map((rule, index) => renderDiscountRow(rule, index, visible.length, stagger)).join("");
-    if (tableList) {
-      tableList.innerHTML = visible
-        .map((rule, index) => renderDiscountTableRow(rule, index, visible.length, stagger))
-        .join("");
-    }
     const hasMore = visible.length < filtered.length;
     loadMoreWrap.hidden = !hasMore;
     loadMoreSentinel.hidden = !hasMore;
@@ -545,9 +523,6 @@ export default function initHomeDiscountsPage(): void {
 
   if (list) {
     list.addEventListener("click", handleRowActivate, { signal });
-  }
-  if (tableList) {
-    tableList.addEventListener("click", handleRowActivate, { signal });
   }
 
   categoryOptions.forEach((button) => {

@@ -10,6 +10,9 @@ export const FILTER_OPEN_EVENT = "chetear:open-filter" as const;
 // becomes visible (so Leaflet can recompute its size + refit bounds).
 export const DISCOUNTS_FILTERED_EVENT = "chetear:discounts-filtered" as const;
 export const MAP_SHOWN_EVENT = "chetear:map-shown" as const;
+// Desktop only: the map island's expand/collapse button asks the page to grow
+// the map to full width (hiding the list) or restore the split.
+export const MAP_EXPAND_EVENT = "chetear:map-expand" as const;
 
 declare global {
   interface WindowEventMap {
@@ -20,6 +23,7 @@ declare global {
     [FILTER_OPEN_EVENT]: CustomEvent<void>;
     [DISCOUNTS_FILTERED_EVENT]: CustomEvent<{ items: DiscountItem[] }>;
     [MAP_SHOWN_EVENT]: CustomEvent<void>;
+    [MAP_EXPAND_EVENT]: CustomEvent<{ expanded: boolean }>;
   }
   interface Window {
     // Latest filtered discounts, kept current by the benefits controller so a

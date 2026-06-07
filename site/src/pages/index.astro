@@ -19,9 +19,6 @@ import {
 const todayIso = getTodayIso();
 const initialFiltered = filterDiscounts(allDiscountRules, "", todayIso);
 const initialVisible = initialFiltered.slice(0, INITIAL_VISIBLE_DISCOUNTS);
-
-const DAY_KEYS = ["lunes", "martes", "miercoles", "jueves", "viernes", "sabado", "domingo"];
-const DAY_LETTERS = ["L", "M", "M", "J", "V", "S", "D"];
 ---
 
 <Layout activeTab="beneficios">
@@ -69,7 +66,7 @@ const DAY_LETTERS = ["L", "M", "M", "J", "V", "S", "D"];
       </div>
     </div>
 
-    <div class="px-5 md:px-0 mb-3 mt-1 md:mt-0">
+    <div class="px-5 md:px-0 mb-3 mt-1 md:mt-0 lg:hidden">
       <div
         data-view-toggle
         class="inline-flex rounded-full border border-divider bg-white p-0.5 text-[13px] font-medium"
@@ -95,12 +92,20 @@ const DAY_LETTERS = ["L", "M", "M", "J", "V", "S", "D"];
       </div>
     </div>
 
-    <div data-list-view class="px-5 md:px-0">
+    {/*
+      Desktop split: a fixed-height row where the list scrolls internally and
+      the map stays put (Airbnb pattern). The 203px = sticky header (~82) +
+      category bar (~57) + the wrapper's top+bottom padding (~64). If the header
+      or filter bar height changes, update this constant (and the mobile map
+      height below, calc(100dvh-230px)).
+    */}
+    <div data-results class="lg:flex lg:gap-5 lg:h-[calc(100dvh-203px)] lg:overflow-hidden">
+    <div data-list-view class="px-5 md:px-0 lg:flex-1 lg:min-w-0 lg:h-full lg:overflow-y-auto lg:pr-1">
       <div data-empty-state hidden class="py-10 text-center"></div>
 
       <div
         data-discount-card
-        class="lg:hidden overflow-hidden rounded-xl border border-divider bg-white"
+        class="overflow-hidden rounded-xl border border-divider bg-white"
       >
         <div data-discount-list>
           {initialVisible.map((rule, index) => {
@@ -156,90 +161,6 @@ const DAY_LETTERS = ["L", "M", "M", "J", "V", "S", "D"];
         </div>
       </div>
 
-      <div
-        data-discount-table
-        class="hidden lg:block overflow-hidden rounded-[14px] border border-rule bg-paper"
-        style="background: var(--aqua-bg); box-shadow: var(--aqua-shadow-float);"
-      >
-        <div class="grid grid-cols-[60px_minmax(0,1fr)_110px_120px_172px_18px] xl:grid-cols-[68px_minmax(0,1fr)_150px_150px_172px_20px] gap-3 xl:gap-4 px-5 py-3 text-[11px] tracking-[0.08em] uppercase font-semibold text-ink-3 border-b border-rule bg-paper-2">
-          <div>Beneficio</div>
-          <div>Comercio</div>
-          <div>Tarjeta</div>
-          <div>Categoría</div>
-          <div>Días</div>
-          <div></div>
-        </div>
-        <div data-discount-table-list>
-          {initialVisible.map((rule, index) => {
-            const meta = providerMeta(rule.provider);
-            const ruleDays = rule.days as string[] | undefined;
-            const activeDays = ruleDays && ruleDays.length > 0 ? new Set(ruleDays) : null;
-            const chip = benefitChip(rule);
-            return (
-              <a
-                href={discountDetailHref(rule)}
-                data-rule-id={rule.id}
-                class={
-                  "grid grid-cols-[60px_minmax(0,1fr)_110px_120px_172px_18px] xl:grid-cols-[68px_minmax(0,1fr)_150px_150px_172px_20px] gap-3 xl:gap-4 px-5 py-3.5 items-center no-underline transition-colors hover:bg-paper-2"
-                }
-                style={
-                  index < initialVisible.length - 1
-                    ? "border-bottom: 1px solid oklch(0.86 0.008 60);"
-                    : ""
-                }
-              >
-                {chip.kind === "numeric" ? (
-                  <div class:list={[
-                    "whitespace-nowrap font-bold leading-none tracking-[-0.02em] tabular-nums",
-                    chip.size === "medium" ? "text-[20px]" : "text-[28px]",
-                  ]} style={`color: ${meta.color};`}>
-                    {chip.primary}{chip.unit && <span class="font-sans text-[14px] font-medium text-ink-3">{chip.unit}</span>}
-                  </div>
-                ) : (
-                  <div class="whitespace-nowrap text-[13px] font-bold uppercase tracking-[0.04em] leading-none" style={`color: ${meta.color};`}>
-                    {chip.primary}
-                  </div>
-                )}
-                <div class="min-w-0">
-                  <div class="text-[15px] font-semibold tracking-[-0.005em] text-ink truncate">{rule.merchant}</div>
-                  {rule.merchantLocation && (
-                    <div class="mt-0.5 text-[12px] text-ink-3 truncate">{rule.merchantLocation}</div>
-                  )}
-                </div>
-                <div class="flex items-center gap-2 text-[13px] text-ink-2 min-w-0">
-                  <span
-                    class="flex h-5 w-5 shrink-0 items-center justify-center rounded-full text-[10px] font-bold"
-                    style={`background:${meta.color}; color:#fff;`}
-                  >
-                    {meta.label.slice(0, 1).toUpperCase()}
-                  </span>
-                  <span class="truncate">{meta.label}</span>
-                </div>
-                <div class="text-[13px] text-ink-2 truncate">{rule.categoryLabel}</div>
-                <div class="flex gap-[3px]">
-                  {DAY_KEYS.map((dk, di) => {
-                    const isOn = activeDays === null || activeDays.has(dk);
-                    return (
-                      <span
-                        class:list={[
-                          "flex h-[22px] w-[22px] items-center justify-center rounded-[5px] text-[9px] font-semibold tracking-[0.04em]",
-                          isOn ? "bg-ink text-paper" : "bg-paper-2 text-ink-3",
-                        ]}
-                      >
-                        {DAY_LETTERS[di]}
-                      </span>
-                    );
-                  })}
-                </div>
-                <svg width="16" height="16" viewBox="0 0 20 20" fill="none" class="text-ink-3">
-                  <path d="M8 5l5 5-5 5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
-                </svg>
-              </a>
-            );
-          })}
-        </div>
-      </div>
-
       <div data-load-more-wrap hidden={initialVisible.length >= initialFiltered.length} class="pb-5 pt-3">
         <button
           type="button"
@@ -252,13 +173,16 @@ const DAY_LETTERS = ["L", "M", "M", "J", "V", "S", "D"];
       <div data-load-more-sentinel hidden={initialVisible.length >= initialFiltered.length} class="h-px" />
     </div>
 
-    <div data-map-view class="!hidden px-5 md:px-0">
+    <div
+      data-map-view
+      class="px-5 md:px-0 lg:w-[42%] lg:shrink-0 lg:h-full"
+    >
       <div
-        class="relative w-full overflow-hidden rounded-xl border border-divider"
-        style="height: calc(100dvh - 230px); min-height: 440px"
+        class="relative w-full overflow-hidden rounded-xl border border-divider h-[calc(100dvh-230px)] min-h-[440px] lg:h-full lg:min-h-0"
       >
         <MapView client:only="react" />
       </div>
+    </div>
     </div>
 
     <FilterDrawer client:load />
@@ -316,6 +240,27 @@ const DAY_LETTERS = ["L", "M", "M", "J", "V", "S", "D"];
       padding-left: calc(50vw - 50%);
       padding-right: calc(50vw - 50%);
     }
+  }
+
+  /*
+   * List / map view switching.
+   *
+   * Below lg: one view at a time, keyed off [data-view] (set by the
+   * controller) — the mobile toggle. Above lg: list + map always show side by
+   * side (the split), the toggle is hidden, and [data-view] is ignored. When
+   * [data-map-expanded] is set (the map's expand button), the map fills the
+   * full width and the list hides.
+   *
+   * The two breakpoints are mutually exclusive so the mobile display:none rules
+   * never fight the desktop split (no specificity tug-of-war).
+   */
+  @media (max-width: 1023.98px) {
+    [data-discounts-page][data-view="map"] [data-list-view] { display: none; }
+    [data-discounts-page]:not([data-view="map"]) [data-map-view] { display: none; }
+  }
+  @media (min-width: 1024px) {
+    [data-discounts-page][data-map-expanded] [data-list-view] { display: none; }
+    [data-discounts-page][data-map-expanded] [data-map-view] { width: 100%; }
   }
 
 </style>

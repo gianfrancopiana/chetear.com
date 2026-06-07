@@ -5,10 +5,13 @@ import type { DiscountItem } from "../lib/discounts-ui";
 import { providerColor, type BenefitType } from "../lib/schema";
 import { googleMapsSearchUrl } from "../lib/maps";
 import { escapeHtml } from "../lib/strings";
-import { DISCOUNTS_FILTERED_EVENT, MAP_SHOWN_EVENT } from "../lib/events";
+import { DISCOUNTS_FILTERED_EVENT, MAP_EXPAND_EVENT, MAP_SHOWN_EVENT } from "../lib/events";
 
 // Uruguay-ish default view, used until we fit to the actual pins.
 const URUGUAY_CENTER: [number, number] = [-34.6, -56.0];
+
+// Soft floating-control shadow, matching the Airbnb map button treatment.
+const CONTROL_SHADOW = "0 1px 2px rgba(0,0,0,0.15), 0 3px 8px rgba(0,0,0,0.12)";
 
 interface Benefit {
   provider: string;
@@ -142,16 +145,31 @@ export default function MapView() {
   const mapRef = useRef<L.Map | null>(null);
   const userMarkerRef = useRef<L.Marker | null>(null);
   const fittedRef = useRef(false);
+  // The last item array we built markers for. A show/expand/resize re-fires with
+  // the same array reference (filters didn't change), so we skip the rebuild;
+  // a real filter change always produces a fresh array → markers rebuild.
+  const renderedRef = useRef<DiscountItem[] | null>(null);
   const [anywhere, setAnywhere] = useState<Anywhere[]>([]);
   const [onMapCount, setOnMapCount] = useState(0);
   const [trayOpen, setTrayOpen] = useState(false);
   const [locating, setLocating] = useState(false);
   const [locateError, setLocateError] = useState<string | null>(null);
+  const [expanded, setExpanded] = useState(false);
+
+  function toggleExpand() {
+    const next = !expanded;
+    setExpanded(next);
+    // The page (home-discounts) owns the layout; it widens the map and hides
+    // the list, then re-fires MAP_SHOWN so Leaflet resizes.
+    window.dispatchEvent(new CustomEvent(MAP_EXPAND_EVENT, { detail: { expanded: next } }));
+  }
 
   useEffect(() => {
     if (!containerRef.current || mapRef.current) return;
 
-    const map = L.map(containerRef.current, { center: URUGUAY_CENTER, zoom: 7 });
+    // No default Leaflet zoom control — we render Airbnb-style controls in React
+    // (top-right) so they match the rest of the chrome exactly.
+    const map = L.map(containerRef.current, { center: URUGUAY_CENTER, zoom: 7, zoomControl: false });
     mapRef.current = map;
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
       maxZoom: 19,
@@ -160,6 +178,8 @@ export default function MapView() {
     const markers = L.layerGroup().addTo(map);
 
     function render(items: DiscountItem[]) {
+      if (items === renderedRef.current) return; // unchanged set → markers already correct
+      renderedRef.current = items;
       const { points, anywhere } = buildPoints(items);
       markers.clearLayers();
       const latlngs: L.LatLngExpression[] = [];
@@ -180,6 +200,9 @@ export default function MapView() {
     }
 
     render(window.__chetearFilteredItems ?? []);
+    // Container size may settle a frame after mount (sticky column / calc
+    // height); recompute so tiles fill it on first paint.
+    requestAnimationFrame(() => map.invalidateSize());
 
     const onFiltered = (e: WindowEventMap[typeof DISCOUNTS_FILTERED_EVENT]) => render(e.detail.items);
     // The container was hidden (display:none) while in list view, so Leaflet
@@ -232,24 +255,77 @@ export default function MapView() {
     );
   }
 
+    // `isolate` contains the high z-index map controls (z-[500]/z-[600], needed
+    // to sit above Leaflet's panes) in their own stacking context, so they
+    // can't paint over app-level overlays like the detail drawer.
   return (
-    <div className="relative h-full w-full">
+    <div className="relative h-full w-full isolate">
       <div ref={containerRef} className="absolute inset-0 z-0" />
 
+      {/* Cerca mío — top left */}
       <button
         type="button"
         onClick={locateMe}
         disabled={locating}
-        className="absolute z-[500] top-4 right-4 flex items-center gap-2 rounded-full bg-white px-4 py-2 text-sm font-semibold text-ink shadow-md disabled:opacity-60"
-        style={{ boxShadow: "0 1px 3px rgba(0,0,0,0.12), 0 4px 16px rgba(0,0,0,0.12)" }}
+        className="absolute z-[500] top-4 left-4 flex items-center gap-2 rounded-full bg-white px-4 py-2 text-sm font-semibold text-ink disabled:opacity-60"
+        style={{ boxShadow: CONTROL_SHADOW }}
       >
         {locating ? "Buscando…" : "📍 Cerca mío"}
       </button>
       {locateError && (
-        <div className="absolute z-[500] top-16 right-4 max-w-[220px] rounded-lg bg-white px-3 py-2 text-xs text-ink-2 shadow-md">
+        <div className="absolute z-[500] top-16 left-4 max-w-[220px] rounded-lg bg-white px-3 py-2 text-xs text-ink-2 shadow-md">
           {locateError}
         </div>
       )}
+
+      {/* Expand + zoom — top right, Airbnb style */}
+      <div className="absolute z-[500] top-4 right-4 flex flex-col items-end gap-3">
+        {/* Expand / collapse (desktop only; mobile already shows the map full). */}
+        <button
+          type="button"
+          onClick={toggleExpand}
+          aria-label={expanded ? "Contraer mapa" : "Expandir mapa"}
+          className="hidden lg:flex h-11 w-11 items-center justify-center rounded-full bg-white text-ink"
+          style={{ boxShadow: CONTROL_SHADOW }}
+        >
+          {expanded ? (
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+              <path d="M18 6 6 18M6 6l12 12" />
+            </svg>
+          ) : (
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+              <path d="M15 3h6v6M21 3l-7 7M9 21H3v-6M3 21l7-7" />
+            </svg>
+          )}
+        </button>
+        {/* Zoom in / out */}
+        <div
+          className="flex flex-col overflow-hidden rounded-[22px] bg-white"
+          style={{ boxShadow: CONTROL_SHADOW }}
+        >
+          <button
+            type="button"
+            onClick={() => mapRef.current?.zoomIn()}
+            aria-label="Acercar"
+            className="flex h-11 w-11 items-center justify-center text-ink hover:bg-paper-2"
+          >
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" aria-hidden="true">
+              <path d="M12 5v14M5 12h14" />
+            </svg>
+          </button>
+          <div className="h-px w-full bg-divider" />
+          <button
+            type="button"
+            onClick={() => mapRef.current?.zoomOut()}
+            aria-label="Alejar"
+            className="flex h-11 w-11 items-center justify-center text-ink hover:bg-paper-2"
+          >
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" aria-hidden="true">
+              <path d="M5 12h14" />
+            </svg>
+          </button>
+        </div>
+      </div>
 
       <div className="absolute z-[500] bottom-4 left-4 flex flex-col gap-2">
         <div className="rounded-full bg-white px-3 py-1.5 text-xs font-medium text-ink-2 shadow-md">
