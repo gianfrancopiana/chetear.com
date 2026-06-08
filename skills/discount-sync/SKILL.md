@@ -69,12 +69,13 @@ Use this workflow for browser-first providers that do **not** have a repo-local 
 
 1. Preserve stable provider identity already used by the site.
 2. Capture tiers, networks, caps, day logic, channels, and validity windows when present.
-3. When a teaser card summarizes multiple benefits (for example `25% y 15% menos`), open the detail view and split the output into distinct rules using the full context.
-4. Do not invent details that are not visible in the source.
-5. Prefer explicit ambiguity over false precision.
-6. If confidence is low, keep the last known good data and report why.
-7. Normalize merchant names only when the source wording is clearly noisy.
-8. When a source exposes a separate merchant directory behind a broad rule like `80+ restaurantes`, keep the discount rule broad here and use `merchant-directory-sync` for the individual merchant list.
+3. If a current source card/detail is still visible but its detail text shows a clearly past validity date, source visibility overrides the stale date. Keep the runtime rule active by omitting the past `validUntil` unless the source provides a current/future replacement, and record the conflict in provider policy/reference notes.
+4. When a teaser card summarizes multiple benefits (for example `25% y 15% menos`), open the detail view and split the output into distinct rules using the full context.
+5. Do not invent details that are not visible in the source.
+6. Prefer explicit ambiguity over false precision.
+7. If confidence is low, keep the last known good data and report why.
+8. Normalize merchant names only when the source wording is clearly noisy.
+9. When a source exposes a separate merchant directory behind a broad rule like `80+ restaurantes`, keep the discount rule broad here and use `merchant-directory-sync` for the individual merchant list.
 
 ### Merchant-name hygiene (required)
 

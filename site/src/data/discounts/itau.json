@@ -146,6 +146,50 @@
       ]
     },
     {
+      "id": "itau-san-roque-premium-25",
+      "merchant": "San Roque",
+      "category": "farmacia",
+      "percent": 25,
+      "tiers": [
+        "platinum",
+        "black",
+        "infinite"
+      ],
+      "days": [
+        "martes",
+        "jueves"
+      ],
+      "stackable": true,
+      "channels": [
+        "online",
+        "in-store"
+      ],
+      "cardFamilies": [
+        "Personal Bank"
+      ]
+    },
+    {
+      "id": "itau-san-roque-general-15",
+      "merchant": "San Roque",
+      "category": "farmacia",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "stackable": true,
+      "channels": [
+        "online",
+        "in-store"
+      ],
+      "cardFamilies": [
+        "Volar"
+      ],
+      "networks": [
+        "visa",
+        "mastercard"
+      ]
+    },
+    {
       "merchant": "Dobarro & Pichel",
       "category": "hogar",
       "percent": 15,
