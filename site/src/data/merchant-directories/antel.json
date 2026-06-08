@@ -1,0 +1,91 @@
+{
+  "provider": "antel",
+  "label": "Antel",
+  "lists": [
+    {
+      "id": "antel-movie-directory",
+      "ruleIds": [
+        "antel-movie-2x1"
+      ],
+      "sourceUrls": [
+        "https://api.movie.com.uy/api/concession/cinemas/list"
+      ],
+      "merchants": [
+        {
+          "name": "Movie Montevideo",
+          "location": "Montevideo Shopping, Av. Luis Alberto de Herrera 1290, Montevideo",
+          "geo": {
+            "lat": -34.903471,
+            "lng": -56.136638
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Movie/@-34.9034711,-56.1366379,17z/data=!3m1!4b1!4m6!3m5!1s0x959f813dff810887:0xf1b436131db05c1c!8m2!3d-34.9034711!4d-56.1366379!16s%2Fg%2F1tkc7vzt"
+        },
+        {
+          "name": "Movie Portones",
+          "location": "Portones Shopping, Av. Italia 5775, Montevideo",
+          "geo": {
+            "lat": -34.881495,
+            "lng": -56.081209
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Movie/@-34.8814947,-56.0812093,17z/data=!3m1!4b1!4m6!3m5!1s0x959f86efe48a391d:0x19c0b1ba9376f549!8m2!3d-34.8814947!4d-56.0812093!16s%2Fg%2F1tczg2c3"
+        },
+        {
+          "name": "Movie Punta Carretas",
+          "location": "Punta Carretas Shopping, F. García Cortinas 2484, Montevideo",
+          "geo": {
+            "lat": -34.924352,
+            "lng": -56.158852
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Movie/@-34.924352,-56.1588524,17z/data=!3m1!4b1!4m6!3m5!1s0x959f8177e36ec0c7:0x86bd2675603ad9a!8m2!3d-34.924352!4d-56.1588524!16s%2Fg%2F11c56538ln"
+        },
+        {
+          "name": "Movie Nuevocentro",
+          "location": "Nuevocentro Shopping, Luis Alberto de Herrera 3365, Montevideo",
+          "geo": {
+            "lat": -34.868711,
+            "lng": -56.170201
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Movie+Nuevocentro/@-34.8687111,-56.1702009,17z/data=!3m1!4b1!4m6!3m5!1s0x959f8070764ff37b:0xd07bf61a3ded1677!8m2!3d-34.8687111!4d-56.1702009!16s%2Fg%2F11cr_ymdrl"
+        }
+      ]
+    },
+    {
+      "id": "antel-iplace-directory",
+      "ruleIds": [
+        "antel-iplace-originales-25"
+      ],
+      "sourceUrls": [
+        "https://www.iplace.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "iPlace Montevideo Shopping",
+          "location": "Montevideo Shopping, Av. Luis Alberto de Herrera 1290, Montevideo",
+          "geo": {
+            "lat": -34.902733,
+            "lng": -56.136807
+          },
+          "mapsUrl": "https://www.google.com/maps/place/iPlace/@-34.902733,-56.1368072,17z/data=!3m1!4b1!4m6!3m5!1s0x959f816f94405f39:0xd2572fc95fdfa9b4!8m2!3d-34.9027327!4d-56.1368072!16s%2Fg%2F11y9kccts3"
+        },
+        {
+          "name": "iPlace Punta Carretas",
+          "location": "Punta Carretas Shopping, Ellauri 350, Montevideo",
+          "geo": {
+            "lat": -34.923982,
+            "lng": -56.159401
+          },
+          "mapsUrl": "https://www.google.com/maps/place/iPlace/@-34.9239822,-56.1594012,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81330689d551:0x314f4f80de221b34!8m2!3d-34.9239822!4d-56.1594012!16s%2Fg%2F11r9w6k14h"
+        },
+        {
+          "name": "iPlace Nuevocentro Shopping",
+          "location": "Nuevocentro Shopping, Luis Alberto de Herrera 3365, Montevideo",
+          "geo": {
+            "lat": -34.869214,
+            "lng": -56.169396
+          },
+          "mapsUrl": "https://www.google.com/maps/place/iPlace/@-34.8692138,-56.1693956,17z/data=!3m1!4b1!4m6!3m5!1s0x959f810039cc5cc3:0x516fad0a2e71b3b5!8m2!3d-34.8692138!4d-56.1693956!16s%2Fg%2F11wfx1c7p4"
+        }
+      ]
+    }
+  ]
+}

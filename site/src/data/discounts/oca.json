@@ -19,7 +19,8 @@
         "mastercard",
         "oca"
       ],
-      "notes": "Mejor escala de precios Mastercard: 3 cuotas sin recargo en supermercado y 12 cuotas en non-food"
+      "notes": "Mejor escala de precios Mastercard: 3 cuotas sin recargo en supermercado y 12 cuotas en non-food",
+      "id": "oca-macro-mercado-installments"
     },
     {
       "merchant": "Burger King",
@@ -148,7 +149,8 @@
       "networks": [
         "oca"
       ],
-      "notes": "Categorías seleccionadas por día: lunes congelados (máx. 10 kg), martes pollo y cerdo (máx. 10 kg), miércoles frutas y verduras, jueves fiambres y cervezas (máx. 3 kg de fiambres y 12 litros de cerveza), viernes bazar. Promoción válida para consumo familiar"
+      "notes": "Categorías seleccionadas por día: lunes congelados (máx. 10 kg), martes pollo y cerdo (máx. 10 kg), miércoles frutas y verduras, jueves fiambres y cervezas (máx. 3 kg de fiambres y 12 litros de cerveza), viernes bazar. Promoción válida para consumo familiar",
+      "id": "oca-tata-general-20"
     },
     {
       "merchant": "Juan Construye",
@@ -352,7 +354,8 @@
       "networks": [
         "oca"
       ],
-      "notes": "10% descuento + mejor precio"
+      "notes": "10% descuento + mejor precio",
+      "id": "oca-blue-macro-mercado-10"
     },
     {
       "merchant": "Burger King",
@@ -538,7 +541,8 @@
       "networks": [
         "oca"
       ],
-      "notes": "2x1 en entradas para peliculas 2D o 3D y en combo pop + refresco mediano. Maximo cuatro entradas por tarjeta por compra. Web y boleteria presencial. No aplica peliculas 4D"
+      "notes": "2x1 en entradas para peliculas 2D o 3D y en combo pop + refresco mediano. Maximo cuatro entradas por tarjeta por compra. Web y boleteria presencial. No aplica peliculas 4D",
+      "id": "oca-blue-movie-2x1"
     },
     {
       "merchant": "Restaurantes Uruguay",

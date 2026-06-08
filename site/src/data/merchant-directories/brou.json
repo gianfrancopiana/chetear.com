@@ -1,0 +1,1990 @@
+{
+  "provider": "brou",
+  "label": "BROU",
+  "lists": [
+    {
+      "id": "brou-tata-directory",
+      "ruleIds": [
+        "brou-tata-recompensa-10"
+      ],
+      "sourceUrls": [
+        "https://www.precios.uy/sipc2Web/recursos/sipc/obtenerEstablecimientos"
+      ],
+      "merchants": [
+        {
+          "name": "Ta-Ta Hiper Artigas",
+          "url": "http://www.tata.com.uy ",
+          "location": "Av, Dr. Luis Alberto de Herrera 539, Artigas, Artigas",
+          "geo": {
+            "lat": -30.402,
+            "lng": -56.467
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-30.402000,-56.467000"
+        },
+        {
+          "name": "Ta-Ta Hiper Canelones",
+          "url": "http://www.tata.com.uy ",
+          "location": "José Batlle y Ordoñez 960, Canelones, Canelones",
+          "geo": {
+            "lat": -34.517,
+            "lng": -56.282
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.517000,-56.282000"
+        },
+        {
+          "name": "Ta-Ta Hiper Carmelo",
+          "url": "http://www.tata.com.uy ",
+          "location": "Juan Zorrilla de San Martin 278, Carmelo, Colonia",
+          "geo": {
+            "lat": -33.999,
+            "lng": -58.286
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.999000,-58.286000"
+        },
+        {
+          "name": "Ta-Ta Hiper Colonia",
+          "url": "http://www.tata.com.uy ",
+          "location": "Avenida Franklin D. Roosevelt 458, Colonia Del Sacramento, Colonia",
+          "geo": {
+            "lat": -34.469,
+            "lng": -57.839
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.469000,-57.839000"
+        },
+        {
+          "name": "Ta-Ta Durazno",
+          "url": "http://www.tata.com.uy ",
+          "location": "18 de Julio 580, Durazno, Durazno",
+          "geo": {
+            "lat": -33.379,
+            "lng": -56.522
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.379000,-56.522000"
+        },
+        {
+          "name": "Ta-Ta W.F.Aldunate (Durazno)",
+          "url": "http://www.tata.com.uy ",
+          "location": "Wilson Ferreira Aldunate 419, Durazno, Durazno",
+          "geo": {
+            "lat": -33.387,
+            "lng": -56.525
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.387000,-56.525000"
+        },
+        {
+          "name": "Ta-Ta Florida",
+          "url": "http://www.tata.com.uy ",
+          "location": "Fructuoso Rivera 3320, Florida, Florida",
+          "geo": {
+            "lat": -34.101,
+            "lng": -55.649
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.101000,-55.649000"
+        },
+        {
+          "name": "Ta-Ta Fray Bentos",
+          "url": "http://www.tata.com.uy ",
+          "location": "18 de Julio 1625, Fray Bentos, Rio Negro",
+          "geo": {
+            "lat": -33.122,
+            "lng": -58.306
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.122000,-58.306000"
+        },
+        {
+          "name": "Ta-Ta Juan Lacaze",
+          "url": "http://www.tata.com.uy ",
+          "location": "José Salvo 100 100, Juan Lacaze, Colonia",
+          "geo": {
+            "lat": -34.434,
+            "lng": -57.442
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.434000,-57.442000"
+        },
+        {
+          "name": "Ta-Ta La Paz",
+          "url": "http://www.tata.com.uy ",
+          "location": "Conrado Moller 260, La Paz, Canelones",
+          "geo": {
+            "lat": -34.763,
+            "lng": -56.225
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.763000,-56.225000"
+        },
+        {
+          "name": "Ta-Ta Costa Urbana",
+          "url": "http://www.tata.com.uy ",
+          "location": "Av. Giannattasio 49, Lagomar, Canelones",
+          "geo": {
+            "lat": -34.841,
+            "lng": -55.993
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.841000,-55.993000"
+        },
+        {
+          "name": "Ta-Ta Hiper Piedras",
+          "url": "http://www.tata.com.uy ",
+          "location": "Av Artigas 810, Las Piedras, Canelones",
+          "geo": {
+            "lat": -34.752,
+            "lng": -56.224
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.752000,-56.224000"
+        },
+        {
+          "name": "Ta-Ta Hiper Maldonado",
+          "url": "http://www.tata.com.uy ",
+          "location": "25 de Mayo 600, Maldonado, Maldonado",
+          "geo": {
+            "lat": -34.871,
+            "lng": -55.269
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.871000,-55.269000"
+        },
+        {
+          "name": "Ta-Ta San Carlos",
+          "url": "http://www.tata.com.uy ",
+          "location": "Carlos Alberto Cal 738, Maldonado, Maldonado",
+          "geo": {
+            "lat": -34.793,
+            "lng": -54.919
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.793000,-54.919000"
+        },
+        {
+          "name": "Ta-Ta Melo",
+          "url": "http://www.tata.com.uy ",
+          "location": "Aparicio Saravia 665, Melo, Cerro Largo",
+          "geo": {
+            "lat": -32.368,
+            "lng": -54.168
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.368000,-54.168000"
+        },
+        {
+          "name": "Ta-Ta Hiper Melo",
+          "url": "http://www.tata.com.uy ",
+          "location": "Villanueva Saravia 777, Melo, Cerro Largo",
+          "geo": {
+            "lat": -32.364,
+            "lng": -54.168
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.364000,-54.168000"
+        },
+        {
+          "name": "Ta-Ta Mercedes",
+          "url": "http://www.tata.com.uy ",
+          "location": "Don Bosco 734, Mercedes, Soriano",
+          "geo": {
+            "lat": -33.257,
+            "lng": -58.028
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.257000,-58.028000"
+        },
+        {
+          "name": "Ta-Ta Hiper Mercedes",
+          "url": "http://www.tata.com.uy ",
+          "location": "Jose Enrique Rodo 758, Mercedes, Soriano",
+          "geo": {
+            "lat": -33.25,
+            "lng": -58.029
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.250000,-58.029000"
+        },
+        {
+          "name": "Ta-Ta Minas",
+          "url": "http://www.tata.com.uy ",
+          "location": "18 de Julio 620, Minas, Lavalleja",
+          "geo": {
+            "lat": -34.599,
+            "lng": -55.468
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.599000,-55.468000"
+        },
+        {
+          "name": "Ta-Ta 419 - 21 de Setiembre",
+          "url": "http://www.tata.com.uy",
+          "location": "21 de Setiembre 2738, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.91728,
+            "lng": -56.15783
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.917280,-56.157830"
+        },
+        {
+          "name": "Ta-Ta Agraciada",
+          "url": "http://www.tata.com.uy ",
+          "location": "Agraciada 2560, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.885,
+            "lng": -56.193
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.885000,-56.193000"
+        },
+        {
+          "name": "Ta-Ta Colon",
+          "url": "http://www.tata.com.uy ",
+          "location": "Av Gral Eugenio Garzón 1952, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.804,
+            "lng": -56.223
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.804000,-56.223000"
+        },
+        {
+          "name": "Ta-Ta 18 De Julio",
+          "url": "http://www.tata.com.uy ",
+          "location": "Av. 18 de Julio 1280, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.906,
+            "lng": -56.188
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.906000,-56.188000"
+        },
+        {
+          "name": "Ta-Ta Cordon",
+          "url": "http://www.tata.com.uy ",
+          "location": "Av. 18 de Julio 1593, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.904,
+            "lng": -56.182
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.904000,-56.182000"
+        },
+        {
+          "name": "Ta-Ta Centro",
+          "url": "http://www.tata.com.uy ",
+          "location": "Av. 18 de Julio 880, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.906,
+            "lng": -56.197
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.906000,-56.197000"
+        },
+        {
+          "name": "Ta-Ta Blanqueada",
+          "url": "http://www.tata.com.uy ",
+          "location": "Av. 8 de Octubre 3340, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.88,
+            "lng": -56.149
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.880000,-56.149000"
+        },
+        {
+          "name": "Ta-Ta Union",
+          "url": "http://www.tata.com.uy ",
+          "location": "Av. 8 de Octubre 3723, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.875,
+            "lng": -56.141
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.875000,-56.141000"
+        },
+        {
+          "name": "Ta-Ta Paso Molino",
+          "url": "http://www.tata.com.uy ",
+          "location": "Av. Agraciada 4214, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.856,
+            "lng": -56.22
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.856000,-56.220000"
+        },
+        {
+          "name": "Ta-Ta Lezica",
+          "url": "http://www.tata.com.uy ",
+          "location": "Av. Lezica 6345, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.797,
+            "lng": -56.248
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.797000,-56.248000"
+        },
+        {
+          "name": "Ta-Ta Avda. Italia",
+          "url": "http://www.tata.com.uy ",
+          "location": "Avda. Italia 3796, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.887,
+            "lng": -56.13
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.887000,-56.130000"
+        },
+        {
+          "name": "Ta-Ta Tres Cruces",
+          "url": "http://www.tata.com.uy ",
+          "location": "Bulevar General Artigas 1825, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.894,
+            "lng": -56.166
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.894000,-56.166000"
+        },
+        {
+          "name": "Ta-Ta Jardines",
+          "url": "http://www.tata.com.uy ",
+          "location": "Camino Maldonado 5757, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.841,
+            "lng": -56.123
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.841000,-56.123000"
+        },
+        {
+          "name": "Ta-Ta Canelones",
+          "url": "http://www.tata.com.uy ",
+          "location": "Canelones 888, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.909,
+            "lng": -56.197
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.909000,-56.197000"
+        },
+        {
+          "name": "Ta-Ta Cerro",
+          "url": "http://www.tata.com.uy ",
+          "location": "Carlos María Ramírez 1490, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.874,
+            "lng": -56.247
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.874000,-56.247000"
+        },
+        {
+          "name": "Ta-Ta C.M Ramirez",
+          "url": "http://www.tata.com.uy ",
+          "location": "Carlos María Ramírez 932, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.867,
+            "lng": -56.237
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.867000,-56.237000"
+        },
+        {
+          "name": "Ta-Ta Cavia",
+          "url": "http://www.tata.com.uy ",
+          "location": "Cavia 2610, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.908,
+            "lng": -56.158
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.908000,-56.158000"
+        },
+        {
+          "name": "Ta-Ta Malvin Alto",
+          "url": "http://www.tata.com.uy ",
+          "location": "Cno. Carrasco 4654, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.872,
+            "lng": -56.118
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.872000,-56.118000"
+        },
+        {
+          "name": "Ta-Ta Comercio",
+          "url": "http://www.tata.com.uy ",
+          "location": "Comercio 2445, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.878,
+            "lng": -56.141
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.878000,-56.141000"
+        },
+        {
+          "name": "Ta-Ta Constituyente",
+          "url": "http://www.tata.com.uy ",
+          "location": "Constituyente 1570, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.906,
+            "lng": -56.182
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.906000,-56.182000"
+        },
+        {
+          "name": "Ta-Ta Cooper",
+          "url": "http://www.tata.com.uy ",
+          "location": "Cooper 2390, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.873,
+            "lng": -56.069
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.873000,-56.069000"
+        },
+        {
+          "name": "Ta-Ta Cufre",
+          "url": "http://www.tata.com.uy ",
+          "location": "Cufré 2687, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.878,
+            "lng": -56.171
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.878000,-56.171000"
+        },
+        {
+          "name": "Ta-Ta Cilindro",
+          "url": "http://www.tata.com.uy ",
+          "location": "El Cano 3301, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.86,
+            "lng": -56.151
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.860000,-56.151000"
+        },
+        {
+          "name": "Ta-Ta Felipe Carape",
+          "url": "http://www.tata.com.uy ",
+          "location": "Felipé Carapé 4478, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.853,
+            "lng": -56.194
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.853000,-56.194000"
+        },
+        {
+          "name": "Ta-Ta J.H. Figueiras",
+          "url": "http://www.tata.com.uy ",
+          "location": "Figueiras 2301, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.916,
+            "lng": -56.164
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.916000,-56.164000"
+        },
+        {
+          "name": "Ta-Ta Gral Flores",
+          "url": "http://www.tata.com.uy ",
+          "location": "Gral. Flores 4104, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.855,
+            "lng": -56.162
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.855000,-56.162000"
+        },
+        {
+          "name": "Ta-Ta Gral. Flores",
+          "url": "http://www.tata.com.uy ",
+          "location": "Gral. Flores 4649, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.846,
+            "lng": -56.155
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.846000,-56.155000"
+        },
+        {
+          "name": "Ta-Ta Piedras Blancas",
+          "url": "http://www.tata.com.uy ",
+          "location": "Gral. Flores 5493, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.829,
+            "lng": -56.142
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.829000,-56.142000"
+        },
+        {
+          "name": "Ta-Ta Cerro",
+          "url": "http://www.tata.com.uy ",
+          "location": "Grecia 3396, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.89,
+            "lng": -56.248
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.890000,-56.248000"
+        },
+        {
+          "name": "Ta-Ta Igua",
+          "url": "http://www.tata.com.uy ",
+          "location": "Iguá 4498, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.882,
+            "lng": -56.115
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.882000,-56.115000"
+        },
+        {
+          "name": "Ta-Ta Jackson",
+          "url": "http://www.tata.com.uy ",
+          "location": "Jackson 1222, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.907,
+            "lng": -56.173
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.907000,-56.173000"
+        },
+        {
+          "name": "Ta-Ta J.B. Y Ordoñez",
+          "url": "http://www.tata.com.uy ",
+          "location": "José Batlle y Ordoñez 1703, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.894,
+            "lng": -56.129
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.894000,-56.129000"
+        },
+        {
+          "name": "Ta-Ta J.B. Y Ordoñez",
+          "url": "http://www.tata.com.uy ",
+          "location": "José Batlle y Ordoñez 6609, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.825,
+            "lng": -56.224
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.825000,-56.224000"
+        },
+        {
+          "name": "Ta-Ta Belloni",
+          "url": "http://www.tata.com.uy ",
+          "location": "José Belloni 4393, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.823,
+            "lng": -56.141
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.823000,-56.141000"
+        },
+        {
+          "name": "Ta-Ta Rodo",
+          "url": "http://www.tata.com.uy ",
+          "location": "José Enrique Rodó 1802, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.905,
+            "lng": -56.177
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.905000,-56.177000"
+        },
+        {
+          "name": "Ta-Ta Mercado Agricola",
+          "url": "http://www.tata.com.uy ",
+          "location": "José L. Terra 2220, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.887,
+            "lng": -56.184
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.887000,-56.184000"
+        },
+        {
+          "name": "Ta-Ta Libertad",
+          "url": "http://www.tata.com.uy ",
+          "location": "Libertad 2545, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.911,
+            "lng": -56.158
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.911000,-56.158000"
+        },
+        {
+          "name": "Ta-Ta Miguelete",
+          "url": "http://www.tata.com.uy ",
+          "location": "Miguelete 2726, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.897,
+            "lng": -56.184
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.897000,-56.184000"
+        },
+        {
+          "name": "Ta-Ta Paraguay",
+          "url": "http://www.tata.com.uy ",
+          "location": "Paraguay 1017, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.912,
+            "lng": -56.192
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.912000,-56.192000"
+        },
+        {
+          "name": "Ta-Ta Malvin Norte",
+          "url": "http://www.tata.com.uy ",
+          "location": "Pirán 2101 2101, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.874,
+            "lng": -56.122
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.874000,-56.122000"
+        },
+        {
+          "name": "Ta-Ta Rio Branco",
+          "url": "http://www.tata.com.uy ",
+          "location": "Rio Branco 1382, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.906,
+            "lng": -56.196
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.906000,-56.196000"
+        },
+        {
+          "name": "Ta-Ta Rivera",
+          "url": "http://www.tata.com.uy ",
+          "location": "Rivera 4250, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.896,
+            "lng": -56.122
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.896000,-56.122000"
+        },
+        {
+          "name": "Ta-Ta San Jose",
+          "url": "http://www.tata.com.uy ",
+          "location": "San José 882, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.907,
+            "lng": -56.197
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.907000,-56.197000"
+        },
+        {
+          "name": "Ta-Ta San Martin",
+          "url": "http://www.tata.com.uy ",
+          "location": "San Martín 2700, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.876,
+            "lng": -56.186
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.876000,-56.186000"
+        },
+        {
+          "name": "Ta-Ta Pando",
+          "url": "http://www.tata.com.uy ",
+          "location": "Gral.Artigas 851 851, Pando, Canelones",
+          "geo": {
+            "lat": -34.684,
+            "lng": -55.705
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.684000,-55.705000"
+        },
+        {
+          "name": "Ta-Ta Paso de los Toros",
+          "url": "http://www.tata.com.uy",
+          "location": "Leandro Gomez 325, Paso De Los Toros, Tacuarembo",
+          "geo": {
+            "lat": -32.81455,
+            "lng": -56.50623
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.814550,-56.506230"
+        },
+        {
+          "name": "Ta-Ta Hiper Superstar",
+          "url": "http://www.tata.com.uy ",
+          "location": "Bulevar Artigas 1673, Paysandú, Paysandu",
+          "geo": {
+            "lat": -32.322,
+            "lng": -58.071
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.322000,-58.071000"
+        },
+        {
+          "name": "Ta-Ta Hiper Shopping Ss",
+          "url": "http://www.tata.com.uy ",
+          "location": "Dr Luis Alberto De Herrera 925, Paysandú, Paysandu",
+          "geo": {
+            "lat": -32.318,
+            "lng": -58.083
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.318000,-58.083000"
+        },
+        {
+          "name": "Ta-Ta Hiper Plaza Ss",
+          "url": "http://www.tata.com.uy ",
+          "location": "Zelmar Michelini 947, Paysandú, Paysandu",
+          "geo": {
+            "lat": -32.317,
+            "lng": -58.096
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.317000,-58.096000"
+        },
+        {
+          "name": "Ta-Ta Hiper Norte Ss",
+          "url": "http://www.tata.com.uy ",
+          "location": "Zorrilla de San Martin 1705, Paysandú, Paysandu",
+          "geo": {
+            "lat": -32.303,
+            "lng": -58.079
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.303000,-58.079000"
+        },
+        {
+          "name": "Ta-Ta Rivera II",
+          "url": "http://www.tata.com.uy ",
+          "location": "Av. Sepé 51, Rivera, Rivera",
+          "geo": {
+            "lat": -30.9,
+            "lng": -55.527
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-30.900000,-55.527000"
+        },
+        {
+          "name": "Ta-Ta Hiper Rivera",
+          "url": "http://www.tata.com.uy ",
+          "location": "Sarandí 950, Rivera, Rivera",
+          "geo": {
+            "lat": -30.906,
+            "lng": -55.544
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-30.906000,-55.544000"
+        },
+        {
+          "name": "Ta-Ta Hiper Rocha",
+          "url": "http://www.tata.com.uy ",
+          "location": "General Artigas 221 221, Rocha, Rocha",
+          "geo": {
+            "lat": -33.695,
+            "lng": -53.455
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.695000,-53.455000"
+        },
+        {
+          "name": "Ta-Ta Rosario",
+          "url": "http://www.tata.com.uy ",
+          "location": "Artigas 200, Rosario, Colonia",
+          "geo": {
+            "lat": -33.875,
+            "lng": -57.36
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.875000,-57.360000"
+        },
+        {
+          "name": "Ta-Ta D.Lamas (Salto)",
+          "url": "http://www.tata.com.uy ",
+          "location": "Diego Lamas 2274, Salto, Salto",
+          "geo": {
+            "lat": -31.384,
+            "lng": -57.944
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-31.384000,-57.944000"
+        },
+        {
+          "name": "Ta-Ta Hiper Salto",
+          "url": "http://www.tata.com.uy ",
+          "location": "Dr Fco Soca 220, Salto, Salto",
+          "geo": {
+            "lat": -31.387,
+            "lng": -57.955
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-31.387000,-57.955000"
+        },
+        {
+          "name": "Ta-Ta Hiper Salto II",
+          "url": "http://www.tata.com.uy ",
+          "location": "Grito de Asencio 1499, Salto, Salto",
+          "geo": {
+            "lat": -31.372,
+            "lng": -57.962
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-31.372000,-57.962000"
+        },
+        {
+          "name": "Ta-Ta San Jose",
+          "url": "http://www.tata.com.uy ",
+          "location": "Asamblea 620, San José De Mayo, San Jose",
+          "geo": {
+            "lat": -34.34,
+            "lng": -56.711
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.340000,-56.711000"
+        },
+        {
+          "name": "Ta-Ta Solymar",
+          "url": "http://www.tata.com.uy ",
+          "location": "Av. Gianattasio Km 23.300 0, Solymar, Canelones",
+          "geo": {
+            "lat": -34.828,
+            "lng": -55.968
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.828000,-55.968000"
+        },
+        {
+          "name": "Ta-Ta Mimatec 18 Tacuaremb",
+          "url": "http://www.tata.com.uy ",
+          "location": "18 de Julio 430, Tacuarembó, Tacuarembo",
+          "geo": {
+            "lat": -31.719,
+            "lng": -55.986
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-31.719000,-55.986000"
+        },
+        {
+          "name": "Ta-Ta Glra Flores (Tcbo)",
+          "url": "http://www.tata.com.uy ",
+          "location": "Gral. Flores 315, Tacuarembó, Tacuarembo",
+          "geo": {
+            "lat": -31.716,
+            "lng": -55.982
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-31.716000,-55.982000"
+        },
+        {
+          "name": "Ta-Ta Hiper Tacuarembo",
+          "url": "http://www.tata.com.uy ",
+          "location": "Joaquin Suárez 259, Tacuarembó, Tacuarembo",
+          "geo": {
+            "lat": -31.713,
+            "lng": -55.978
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-31.713000,-55.978000"
+        },
+        {
+          "name": "Ta-Ta .Ferreira (Tcbo)",
+          "url": "http://www.tata.com.uy ",
+          "location": "Nelson Ferreira 130, Tacuarembó, Tacuarembo",
+          "geo": {
+            "lat": -31.722,
+            "lng": -55.977
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-31.722000,-55.977000"
+        },
+        {
+          "name": "Ta-Ta Treinta Y Tres",
+          "url": "http://www.tata.com.uy ",
+          "location": "Juan. A Lavalleja 1774, Treinta Y Tres, Treinta Y Tres",
+          "geo": {
+            "lat": -33.234,
+            "lng": -54.386
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.234000,-54.386000"
+        },
+        {
+          "name": "Ta-Ta Fondar (Trinidad)",
+          "url": "http://www.tata.com.uy ",
+          "location": "Francisco Fondar 785, Trinidad, Flores",
+          "geo": {
+            "lat": -33.52,
+            "lng": -56.898
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.520000,-56.898000"
+        },
+        {
+          "name": "Ta-Ta Hiper Trinidad",
+          "url": "http://www.tata.com.uy ",
+          "location": "Presidente Berro 474, Trinidad, Flores",
+          "geo": {
+            "lat": -33.519,
+            "lng": -56.896
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.519000,-56.896000"
+        },
+        {
+          "name": "Ta-Ta Young",
+          "url": "http://www.tata.com.uy ",
+          "location": "18 de Julio 1923, Young, Rio Negro",
+          "geo": {
+            "lat": -32.703,
+            "lng": -57.633
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.703000,-57.633000"
+        }
+      ]
+    },
+    {
+      "id": "brou-el-dorado-directory",
+      "ruleIds": [
+        "brou-el-dorado-recompensa-10"
+      ],
+      "sourceUrls": [
+        "https://www.precios.uy/sipc2Web/recursos/sipc/obtenerEstablecimientos"
+      ],
+      "merchants": [
+        {
+          "name": "El Dorado Ciudad de Aiguá",
+          "url": "http://www.eldorado.com.uy",
+          "location": "Gral. de la Llana 0, Aiguá, Maldonado",
+          "geo": {
+            "lat": -34.202729,
+            "lng": -54.76592
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.202729,-54.765920"
+        },
+        {
+          "name": "El Dorado Balneario Buenos Aires",
+          "url": "http://www.eldorado.com.uy",
+          "location": "Calle 49 y Calle 25 0, Buenos Aires, Maldonado",
+          "geo": {
+            "lat": -34.889334,
+            "lng": -54.795939
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.889334,-54.795939"
+        },
+        {
+          "name": "El Dorado Cardona",
+          "url": "http://www.eldorado.com.uy",
+          "location": "Libertad y Florencio Sánchez 0, Cardona, Soriano",
+          "geo": {
+            "lat": -33.873147,
+            "lng": -57.367134
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.873147,-57.367134"
+        },
+        {
+          "name": "El Dorado Chuy - Arachanes",
+          "url": "http://www.eldorado.com.uy",
+          "location": "Arachanes 559, Chuy, Rocha",
+          "geo": {
+            "lat": -33.694289,
+            "lng": -53.455803
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.694289,-53.455803"
+        },
+        {
+          "name": "El Dorado Colonia",
+          "url": "http://www.eldorado.com.uy",
+          "location": "Avda. José Batlle y Ordoñez y Ruta 21 0, Colonia Del Sacramento, Colonia",
+          "geo": {
+            "lat": -34.45369,
+            "lng": -57.83902
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.453690,-57.839020"
+        },
+        {
+          "name": "El Dorado DOLORES",
+          "url": "https://www.eldorado.com.uy/",
+          "location": "Carlos P. Puig esquina Adalberto Schuster 1410, Dolores, Soriano",
+          "geo": {
+            "lat": -33.531075,
+            "lng": -58.215715
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.531075,-58.215715"
+        },
+        {
+          "name": "El Dorado DURAZNO",
+          "location": "Dr. Morquio 600 equina Eusebio Pirez 0, Durazno, Durazno",
+          "geo": {
+            "lat": -33.382448,
+            "lng": -56.524108
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.382448,-56.524108"
+        },
+        {
+          "name": "El Dorado 996",
+          "location": "Av. Gral. Artigas 1576 0, Ecilda Paullier, San Jose",
+          "geo": {
+            "lat": -34.358459,
+            "lng": -57.048148
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.358459,-57.048148"
+        },
+        {
+          "name": "El Dorado Fray Bentos",
+          "url": "http://www.eldorado.com.uy",
+          "location": "Zorrilla de San Martin entre Roberto Young y Enrique Beaulieu 0, Fray Bentos, Rio Negro",
+          "geo": {
+            "lat": -33.121415,
+            "lng": -58.304866
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.121415,-58.304866"
+        },
+        {
+          "name": "El Dorado Super Eco Varela",
+          "url": "http://www.eldorado.com.uy",
+          "location": "Dr. Podestá Carnelli 0, José Pedro Varela, Lavalleja",
+          "geo": {
+            "lat": -33.455502,
+            "lng": -54.536041
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.455502,-54.536041"
+        },
+        {
+          "name": "El Dorado Maldonado - La Barra",
+          "url": "http://www.eldorado.com.uy",
+          "location": "Ruta 10 Km. 160.10 1, La Barra, Maldonado",
+          "geo": {
+            "lat": -34.909,
+            "lng": -54.867
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.909000,-54.867000"
+        },
+        {
+          "name": "El Dorado Rocha - Solari y Antares",
+          "url": "http://www.eldorado.com.uy",
+          "location": "Av. Nicolas Solari 1, La Paloma, Rocha",
+          "geo": {
+            "lat": -34.660412,
+            "lng": -54.15564
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.660412,-54.155640"
+        },
+        {
+          "name": "El Dorado La Paloma - Sagitario y Alfa",
+          "url": "http://www.eldorado.com.uy",
+          "location": "Av. Sagitario, La Paloma, Rocha",
+          "geo": {
+            "lat": -34.660537,
+            "lng": -54.164809
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.660537,-54.164809"
+        },
+        {
+          "name": "El Dorado La Paloma - Solari y Sirio",
+          "url": "http://www.eldorado.com.uy",
+          "location": "Solari, La Paloma, Rocha",
+          "geo": {
+            "lat": -34.664,
+            "lng": -54.156
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.664000,-54.156000"
+        },
+        {
+          "name": "El Dorado La Pedrera - Ruta 10",
+          "url": "http://www.eldorado.com.uy",
+          "location": "Ruta 10 Y calle Principal 0, La Pedrera, Rocha",
+          "geo": {
+            "lat": -34.589481,
+            "lng": -54.131768
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.589481,-54.131768"
+        },
+        {
+          "name": "El Dorado La Tuna",
+          "url": "http://www.eldorado.com.uy",
+          "location": "Charruas, La Tuna, Canelones",
+          "geo": {
+            "lat": -34.780107,
+            "lng": -55.560774
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.780107,-55.560774"
+        },
+        {
+          "name": "El Dorado Las Flores",
+          "url": "https://www.eldorado.com.uy/",
+          "location": "Ruta 10 y Las Violetas 560, Las Flores - Estación, Maldonado",
+          "geo": {
+            "lat": -34.813007,
+            "lng": -55.330896
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.813007,-55.330896"
+        },
+        {
+          "name": "El Dorado Las Piedras",
+          "url": "http://www.eldorado.com.uy",
+          "location": "Avda. Instrucciones del año XIII 609, Las Piedras, Canelones",
+          "geo": {
+            "lat": -34.728247,
+            "lng": -56.216257
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.728247,-56.216257"
+        },
+        {
+          "name": "El Dorado Las Toscas",
+          "location": "Mario Ferreira, Las Toscas, Canelones",
+          "geo": {
+            "lat": -34.77045,
+            "lng": -55.732202
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.770450,-55.732202"
+        },
+        {
+          "name": "El Dorado Lascano - 25 de Agosto y Rincón",
+          "url": "http://www.eldorado.com.uy",
+          "location": "25 de Agosto, Lascano, Rocha",
+          "geo": {
+            "lat": -33.674,
+            "lng": -54.206
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.674000,-54.206000"
+        },
+        {
+          "name": "El Dorado Maldonado - Av. Batlle y Ordóñez",
+          "url": "http://www.eldorado.com.uy",
+          "location": "Avda. Batlle y Ordoñez, Maldonado, Maldonado",
+          "geo": {
+            "lat": -34.899,
+            "lng": -54.954
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.899000,-54.954000"
+        },
+        {
+          "name": "El Dorado Maldonado - Lussich y Messina",
+          "url": "http://www.eldorado.com.uy",
+          "location": "Camino Lussich, Maldonado, Maldonado",
+          "geo": {
+            "lat": -34.899,
+            "lng": -54.967
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.899000,-54.967000"
+        },
+        {
+          "name": "El Dorado Maldonado - Cerro Pelado",
+          "url": "http://www.eldorado.com.uy",
+          "location": "Cuchilla de la India Muerta y Tpanbaé 1, Maldonado, Maldonado",
+          "geo": {
+            "lat": -34.881774,
+            "lng": -54.974456
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.881774,-54.974456"
+        },
+        {
+          "name": "El Dorado Maldonado - 18 de Julio",
+          "url": "http://www.eldorado.com.uy",
+          "location": "Dodera 882, Maldonado, Maldonado",
+          "geo": {
+            "lat": -34.907596,
+            "lng": -54.959297
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.907596,-54.959297"
+        },
+        {
+          "name": "El Dorado Terra Bio",
+          "url": "http://www.eldorado.com.uy",
+          "location": "Dodera casi Ituzaingó 0, Maldonado, Maldonado",
+          "geo": {
+            "lat": -34.907473,
+            "lng": -54.959593
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.907473,-54.959593"
+        },
+        {
+          "name": "El Dorado Vialidad",
+          "url": "http://www.eldorado.com.uy",
+          "location": "Juana Cardenas esquina María Manduy 0, Maldonado, Maldonado",
+          "geo": {
+            "lat": -34.897277,
+            "lng": -54.947808
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.897277,-54.947808"
+        },
+        {
+          "name": "El Dorado Ruta 39",
+          "url": "http://www.eldorado.com.uy",
+          "location": "Ruta 39 km 7 0, Maldonado, Maldonado",
+          "geo": {
+            "lat": -34.879456,
+            "lng": -54.949701
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.879456,-54.949701"
+        },
+        {
+          "name": "El Dorado Maldonado - Solanas",
+          "url": "http://www.eldorado.com.uy",
+          "location": "Ruta10 Km. 127.500, Maldonado, Maldonado",
+          "geo": {
+            "lat": -34.880863,
+            "lng": -55.049785
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.880863,-55.049785"
+        },
+        {
+          "name": "El Dorado Maldonado - Bvar. Artigas",
+          "url": "http://www.eldorado.com.uy",
+          "location": "Tacuarembó, Maldonado, Maldonado",
+          "geo": {
+            "lat": -34.915,
+            "lng": -54.945
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.915000,-54.945000"
+        },
+        {
+          "name": "El Dorado Maldonado - Tobías Polakof",
+          "url": "http://www.eldorado.com.uy",
+          "location": "Tobías Polakof 1031 1, Maldonado, Maldonado",
+          "geo": {
+            "lat": -34.905408,
+            "lng": -54.950171
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.905408,-54.950171"
+        },
+        {
+          "name": "El Dorado Melo",
+          "url": "http://www.eldorado.com.uy",
+          "location": "Castellanos casi Gral Muñoz 0, Melo, Cerro Largo",
+          "geo": {
+            "lat": -32.374091,
+            "lng": -54.160272
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.374091,-54.160272"
+        },
+        {
+          "name": "El Dorado Melo - Herrera y Muniz",
+          "url": "http://www.eldorado.com.uy",
+          "location": "Luis A. De Herrera, Melo, Cerro Largo",
+          "geo": {
+            "lat": -32.377768,
+            "lng": -54.170958
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.377768,-54.170958"
+        },
+        {
+          "name": "El Dorado Sucursal Mercedes",
+          "location": "Colón y Gimenez 1, Mercedes, Soriano",
+          "geo": {
+            "lat": -33.248086,
+            "lng": -58.030927
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.248086,-58.030927"
+        },
+        {
+          "name": "El Dorado Minas - Ruta 8",
+          "url": "http://www.eldorado.com.uy",
+          "location": "Luis A. de Herrera 515, Minas, Lavalleja",
+          "geo": {
+            "lat": -34.373,
+            "lng": -55.244
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.373000,-55.244000"
+        },
+        {
+          "name": "El Dorado Minas - Morales Arrillaga",
+          "url": "http://www.eldorado.com.uy",
+          "location": "Morales Arrillaga 757, Minas, Lavalleja",
+          "geo": {
+            "lat": -34.374,
+            "lng": -55.234
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.374000,-55.234000"
+        },
+        {
+          "name": "El Dorado Minas - 18 de Julio",
+          "url": "http://www.eldorado.com.uy",
+          "location": "Williman, Minas, Lavalleja",
+          "geo": {
+            "lat": -34.375,
+            "lng": -55.24
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.375000,-55.240000"
+        },
+        {
+          "name": "El Dorado Tristán Narvaja",
+          "location": "18 de Julio 1807/ 1809 esq. Tristan Narvaja 0, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.90252,
+            "lng": -56.177292
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.902520,-56.177292"
+        },
+        {
+          "name": "El Dorado Pablo de María",
+          "url": "http://www.eldorado.com.uy",
+          "location": "18 de Julio 2006 1, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.900857,
+            "lng": -56.172153
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900857,-56.172153"
+        },
+        {
+          "name": "El Dorado Montevideo - Yi",
+          "url": "http://www.eldorado.com.uy",
+          "location": "18 de julio y Yi 1, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.905777,
+            "lng": -56.189102
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.905777,-56.189102"
+        },
+        {
+          "name": "El Dorado Garibaldi",
+          "location": "Garibaldi 2579 2579, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.886591,
+            "lng": -56.163209
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.886591,-56.163209"
+        },
+        {
+          "name": "El Dorado 995",
+          "url": "http://www.eldorado.com.uy",
+          "location": "Minas y Constituyente 0, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.906182,
+            "lng": -56.179587
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.906182,-56.179587"
+        },
+        {
+          "name": "El Dorado Montevideo - Plaza Matriz",
+          "location": "Peatonal Sarandí 584 entre Juan Carlos Gomez e Ituzaingó 1, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.907113,
+            "lng": -56.203299
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.907113,-56.203299"
+        },
+        {
+          "name": "El Dorado 997",
+          "location": "Frau Vogel, 70300 0, Nueva Helvecia, Colonia",
+          "geo": {
+            "lat": -34.286756,
+            "lng": -57.229655
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.286756,-57.229655"
+        },
+        {
+          "name": "El Dorado ueva Palmira",
+          "url": "http://www.eldorado.com.uy",
+          "location": "Argentina y José Enrique Rodó 0, Nueva Palmira, Colonia",
+          "geo": {
+            "lat": -33.873666,
+            "lng": -58.409252
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.873666,-58.409252"
+        },
+        {
+          "name": "El Dorado Pan de Azúcar - Félix de Lizarza",
+          "url": "http://www.eldorado.com.uy",
+          "location": "Félix de Lizarza 775, Pan De Azúcar, Maldonado",
+          "geo": {
+            "lat": -34.78,
+            "lng": -55.228
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.780000,-55.228000"
+        },
+        {
+          "name": "El Dorado Florencio S",
+          "location": "Florencio Sánchez 0, Paso De Los Toros, Tacuarembo",
+          "geo": {
+            "lat": -32.809521,
+            "lng": -56.520627
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.809521,-56.520627"
+        },
+        {
+          "name": "El Dorado PASO DE LOS TOROS",
+          "location": "carlos berrutti, Paso De Los Toros, Tacuarembo",
+          "geo": {
+            "lat": -32.810877,
+            "lng": -56.509948
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.810877,-56.509948"
+        },
+        {
+          "name": "El Dorado Paysandú",
+          "url": "http://www.eldorado.com.uy",
+          "location": "Av. Boulevard Artigas y Horacio Meriggi s/N 0, Paysandú, Paysandu",
+          "geo": {
+            "lat": -32.308379,
+            "lng": -58.069678
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.308379,-58.069678"
+        },
+        {
+          "name": "El Dorado Paysandu Cerrito",
+          "url": "http://www.eldorado.com.uy",
+          "location": "Cerrito y 25 de mayo 0, Paysandú, Paysandu",
+          "geo": {
+            "lat": -32.321594,
+            "lng": -58.077122
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.321594,-58.077122"
+        },
+        {
+          "name": "El Dorado Pinares",
+          "location": "leandro gomez, Pinares - Las Delicias, Maldonado",
+          "geo": {
+            "lat": -34.900395,
+            "lng": -54.992356
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900395,-54.992356"
+        },
+        {
+          "name": "El Dorado Pueblo Obrero",
+          "location": "Gabriel Pereira y Maua 0, Piriápolis, Maldonado",
+          "geo": {
+            "lat": -34.842736,
+            "lng": -55.270145
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.842736,-55.270145"
+        },
+        {
+          "name": "El Dorado Piriápolis - Simón del Pino",
+          "url": "http://www.eldorado.com.uy",
+          "location": "Simón del Pino, Piriápolis, Maldonado",
+          "geo": {
+            "lat": -34.859,
+            "lng": -55.277
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.859000,-55.277000"
+        },
+        {
+          "name": "El Dorado Piriápolis - Av. Piria",
+          "url": "http://www.eldorado.com.uy",
+          "location": "Tucumán, Piriápolis, Maldonado",
+          "geo": {
+            "lat": -34.869,
+            "lng": -55.273
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.869000,-55.273000"
+        },
+        {
+          "name": "El Dorado San José - Playa Pascual",
+          "url": "http://www.eldorado.com.uy",
+          "location": "Río de la Plata 1, Playa Pascual, San Jose",
+          "geo": {
+            "lat": -34.741407,
+            "lng": -56.449861
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.741407,-56.449861"
+        },
+        {
+          "name": "El Dorado Punta del Este - Av. Francia",
+          "url": "http://www.eldorado.com.uy",
+          "location": "Av. Francia entre Vaz Ferreira, Punta Del Este, Maldonado",
+          "geo": {
+            "lat": -34.953149,
+            "lng": -54.936699
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.953149,-54.936699"
+        },
+        {
+          "name": "El Dorado Punta del Este - Calle 29",
+          "url": "http://www.eldorado.com.uy",
+          "location": "Calle 29, Punta Del Este, Maldonado",
+          "geo": {
+            "lat": -34.96,
+            "lng": -54.941
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.960000,-54.941000"
+        },
+        {
+          "name": "El Dorado Punta del Este - Virazón",
+          "url": "http://www.eldorado.com.uy",
+          "location": "Virazón 1, Punta Del Este, Maldonado",
+          "geo": {
+            "lat": -34.96823,
+            "lng": -54.950094
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.968230,-54.950094"
+        },
+        {
+          "name": "El Dorado Rocha - Gral. Artigas",
+          "url": "http://www.eldorado.com.uy",
+          "location": "General Artigas 169, Rocha, Rocha",
+          "geo": {
+            "lat": -34.481535,
+            "lng": -54.33502
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.481535,-54.335020"
+        },
+        {
+          "name": "El Dorado Rocha - Ruta 9",
+          "url": "http://www.eldorado.com.uy",
+          "location": "Ruta 9 Km. 207 1, Rocha, Rocha",
+          "geo": {
+            "lat": -34.490093,
+            "lng": -54.322393
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.490093,-54.322393"
+        },
+        {
+          "name": "El Dorado Río Branco - Uriarte",
+          "url": "http://www.eldorado.com.uy",
+          "location": "José H. Uriarte, Río Branco, Cerro Largo",
+          "geo": {
+            "lat": -32.581,
+            "lng": -53.376
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.581000,-53.376000"
+        },
+        {
+          "name": "El Dorado 998",
+          "location": "Av.Barbieri esquina Luis Alb.de Herrera e Invernizzi 0, Salto, Salto",
+          "geo": {
+            "lat": -31.382898,
+            "lng": -57.958655
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-31.382898,-57.958655"
+        },
+        {
+          "name": "El Dorado San Carlos - Sarandí",
+          "url": "http://www.eldorado.com.uy",
+          "location": "25 de Agosto, San Carlos, Maldonado",
+          "geo": {
+            "lat": -34.791,
+            "lng": -54.913
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.791000,-54.913000"
+        },
+        {
+          "name": "El Dorado San Carlos - Ceberio",
+          "url": "http://www.eldorado.com.uy",
+          "location": "Ceberio, San Carlos, Maldonado",
+          "geo": {
+            "lat": -34.795,
+            "lng": -54.922
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.795000,-54.922000"
+        },
+        {
+          "name": "El Dorado San Carlos 3",
+          "url": "https://www.eldorado.com.uy/",
+          "location": "Wilson Ferreira Aldunate esquina Islas Canarias 352, San Carlos, Maldonado",
+          "geo": {
+            "lat": -34.780476,
+            "lng": -54.920781
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.780476,-54.920781"
+        },
+        {
+          "name": "El Dorado San José",
+          "url": "http://www.eldorado.com.uy",
+          "location": "Ituzaingó entre Asamblea y Dr. Evaristo Ciganda 1, San José De Mayo, San Jose",
+          "geo": {
+            "lat": -34.340815,
+            "lng": -56.715274
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.340815,-56.715274"
+        },
+        {
+          "name": "El Dorado 1000",
+          "location": "Batlle y Ordoñez y Arapey 0, San Ramón, Canelones",
+          "geo": {
+            "lat": -34.296468,
+            "lng": -55.957148
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.296468,-55.957148"
+        },
+        {
+          "name": "El Dorado 999",
+          "location": "Batlle y Ordoñez y Panela 0, San Ramón, Canelones",
+          "geo": {
+            "lat": -34.287535,
+            "lng": -55.957039
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.287535,-55.957039"
+        },
+        {
+          "name": "El Dorado Santa Lucia - Av. Rivera",
+          "url": "http://www.eldorado.com.uy",
+          "location": "Rivera, Santa Lucía, Canelones",
+          "geo": {
+            "lat": -34.452252,
+            "lng": -56.388019
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.452252,-56.388019"
+        },
+        {
+          "name": "El Dorado SARANDÍ GRANDE",
+          "url": "https://www.eldorado.com.uy/",
+          "location": "Libertad 1034, Sarandí Grande, Florida",
+          "geo": {
+            "lat": -33.72319,
+            "lng": -56.331681
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.723190,-56.331681"
+        },
+        {
+          "name": "El Dorado Medanos",
+          "url": "http://www.eldorado.com.uy",
+          "location": "De los Medanos y Paralela al Sur 0, Solymar, Canelones",
+          "geo": {
+            "lat": -34.816801,
+            "lng": -55.948225
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.816801,-55.948225"
+        },
+        {
+          "name": "El Dorado Maldonado - Solis",
+          "url": "http://www.eldorado.com.uy",
+          "location": "Avda. Barreira Pda. 28 28, Solís, Maldonado",
+          "geo": {
+            "lat": -34.787165,
+            "lng": -55.383497
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.787165,-55.383497"
+        },
+        {
+          "name": "El Dorado Treinta y Tres - Basilio Araújo",
+          "url": "http://www.eldorado.com.uy",
+          "location": "Basilio Araujo 1067, Treinta Y Tres, Treinta Y Tres",
+          "geo": {
+            "lat": -33.233,
+            "lng": -54.388
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.233000,-54.388000"
+        },
+        {
+          "name": "El Dorado Treinta y Tres - Enrique Rodó",
+          "url": "http://www.eldorado.com.uy",
+          "location": "Enrique Rodó 1559, Treinta Y Tres, Treinta Y Tres",
+          "geo": {
+            "lat": -32.835167,
+            "lng": -54.766945
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.835167,-54.766945"
+        },
+        {
+          "name": "El Dorado Treinta y Tres - Meléndez y Juan Rosas",
+          "url": "http://www.eldorado.com.uy",
+          "location": "Manuel Meléndez 852, Treinta Y Tres, Treinta Y Tres",
+          "geo": {
+            "lat": -33.229,
+            "lng": -54.383
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.229000,-54.383000"
+        }
+      ]
+    },
+    {
+      "id": "brou-macro-mercado-directory",
+      "ruleIds": [
+        "brou-macro-mercado-recompensa-10"
+      ],
+      "sourceUrls": [
+        "https://www.precios.uy/sipc2Web/recursos/sipc/obtenerEstablecimientos"
+      ],
+      "merchants": [
+        {
+          "name": "Macro Mercado Colonia N°17",
+          "location": "Luis A. de Herrera 1400, Colonia Del Sacramento, Colonia",
+          "geo": {
+            "lat": -34.448,
+            "lng": -57.844
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.448000,-57.844000"
+        },
+        {
+          "name": "Macro Mercado Las Piedras N°16",
+          "url": "http://www.macromercado.com.uy",
+          "location": "Ruta 5 Km 22 22, Las Piedras, Canelones",
+          "geo": {
+            "lat": -34.732104,
+            "lng": -56.248139
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.732104,-56.248139"
+        },
+        {
+          "name": "Macro Mercado Maldonado N°8",
+          "url": "http://www.macromercado.com.uy/home/",
+          "location": "Bvar. Artigas y 3 de febrero 1, Maldonado, Maldonado",
+          "geo": {
+            "lat": -34.915,
+            "lng": -54.945
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.915000,-54.945000"
+        },
+        {
+          "name": "Macro Mercado La Teja N°5",
+          "url": "http://www.macromercado.com.uy/home/",
+          "location": "Avda. Dr. Carlos Ma. Ramírez 574, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.862026,
+            "lng": -56.231215
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.862026,-56.231215"
+        },
+        {
+          "name": "Macro Mercado Oeste N°4",
+          "url": "http://www.macromercado.com.uy/",
+          "location": "Avda. Luis Batlle Berres 6149, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.846,
+            "lng": -56.25
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.846000,-56.250000"
+        },
+        {
+          "name": "Macro Mercado Punta de Rieles N°7",
+          "url": "http://www.macromercado.com.uy/",
+          "location": "Camino Maldonado 6783, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.825,
+            "lng": -56.102
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.825000,-56.102000"
+        },
+        {
+          "name": "Macro Mercado Casa Central / San Martín N°1",
+          "url": "http://www.macromercado.com.uy/home/",
+          "location": "Pugnalini 1847, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.867,
+            "lng": -56.18
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.867000,-56.180000"
+        },
+        {
+          "name": "Macro Mercado Rivera N°9",
+          "url": "http://www.macromercado.com.uy",
+          "location": "Julio M. Sosa 1726, Rivera, Rivera",
+          "geo": {
+            "lat": -30.920575,
+            "lng": -55.538736
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-30.920575,-55.538736"
+        },
+        {
+          "name": "Macro Mercado Carrasco N°3",
+          "url": "http://www.macromercado.com.uy/home/",
+          "location": "Avda. al Parque Roosvelt 2495, Santa Lucía Del Este, Canelones",
+          "geo": {
+            "lat": -34.871,
+            "lng": -56.023
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.871000,-56.023000"
+        }
+      ]
+    },
+    {
+      "id": "brou-tienda-inglesa-directory",
+      "ruleIds": [
+        "brou-tienda-inglesa-recompensa-10"
+      ],
+      "sourceUrls": [
+        "https://www.precios.uy/sipc2Web/recursos/sipc/obtenerEstablecimientos"
+      ],
+      "merchants": [
+        {
+          "name": "Tienda Inglesa Car One",
+          "location": "Ruta Interbalnearia y Cno de los Horneros 0, Altos De La Tahona, Canelones",
+          "geo": {
+            "lat": -34.816085,
+            "lng": -55.979617
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.816085,-55.979617"
+        },
+        {
+          "name": "Tienda Inglesa Atlántida",
+          "url": "http://www.tiendainglesa.com.uy",
+          "location": "Ruta Interbalnearia Km 45, Atlántida, Canelones",
+          "geo": {
+            "lat": -34.768,
+            "lng": -55.769
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.768000,-55.769000"
+        },
+        {
+          "name": "Tienda Inglesa La Barra",
+          "location": "Ruta 10 km 110 110, La Barra, Maldonado",
+          "geo": {
+            "lat": -34.915487,
+            "lng": -54.855643
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.915487,-54.855643"
+        },
+        {
+          "name": "Tienda Inglesa Lagomar",
+          "url": "http://www.tiendainglesa.com.uy",
+          "location": "Avda. Ing. Luis Giannattasio Km.21800, Lagomar, Canelones",
+          "geo": {
+            "lat": -34.824992,
+            "lng": -55.996904
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.824992,-55.996904"
+        },
+        {
+          "name": "Tienda Inglesa Punta del Este",
+          "url": "http://www.tiendainglesa.com.uy",
+          "location": "Roosevelt y Los Alpes Parada 7, Maldonado, Maldonado",
+          "geo": {
+            "lat": -34.939,
+            "lng": -54.934
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.939000,-54.934000"
+        },
+        {
+          "name": "Tienda Inglesa Tower 18",
+          "location": "18 de julio 1530, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.904613,
+            "lng": -56.182612
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.904613,-56.182612"
+        },
+        {
+          "name": "Tienda Inglesa Cordón",
+          "location": "Arenal Grande 1605, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.899553,
+            "lng": -56.175231
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.899553,-56.175231"
+        },
+        {
+          "name": "Tienda Inglesa Planeta",
+          "location": "Av. Gral. Rivera 2336, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.902695,
+            "lng": -56.164475
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.902695,-56.164475"
+        },
+        {
+          "name": "Tienda Inglesa Unión",
+          "url": "http://www.tiendainglesa.com.uy",
+          "location": "Avda. 8 de Octubre 4086, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.871,
+            "lng": -56.135
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.871000,-56.135000"
+        },
+        {
+          "name": "Tienda Inglesa Posadas",
+          "url": "http://www.tiendainglesa.com.uy",
+          "location": "Avda. Dr. Luis A. de Herrera 4462, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.858,
+            "lng": -56.195
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.858000,-56.195000"
+        },
+        {
+          "name": "Tienda Inglesa Shopping",
+          "url": "http://www.tiendainglesa.com.uy",
+          "location": "Avda. Dr. Luis A. de Herrera 1290, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.904,
+            "lng": -56.137
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.904000,-56.137000"
+        },
+        {
+          "name": "Tienda Inglesa Central",
+          "url": "http://www.tiendainglesa.com.uy",
+          "location": "Avda. Italia 5820, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.883,
+            "lng": -56.081
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.883000,-56.081000"
+        },
+        {
+          "name": "Tienda Inglesa Propios",
+          "url": "http://www.tiendainglesa.com.uy",
+          "location": "Bvar. José Batlle y Ordoñez 3770, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.866,
+            "lng": -56.164
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.866000,-56.164000"
+        },
+        {
+          "name": "Tienda Inglesa Arocena",
+          "url": "http://www.tiendainglesa.com.uy",
+          "location": "Dr. Alejandro Schroeder 6436, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.888,
+            "lng": -56.059
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.888000,-56.059000"
+        },
+        {
+          "name": "Tienda Inglesa Garibaldi",
+          "location": "Garibaldi 2484, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.885473,
+            "lng": -56.165151
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.885473,-56.165151"
+        },
+        {
+          "name": "Tienda Inglesa Pocitos",
+          "url": "http://www.tiendainglesa.com.uy",
+          "location": "Juan Benito Blanco 966, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.914,
+            "lng": -56.149
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.914000,-56.149000"
+        },
+        {
+          "name": "Tienda Inglesa Libertad",
+          "location": "Libertad 2475, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.911634,
+            "lng": -56.159682
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.911634,-56.159682"
+        },
+        {
+          "name": "Tienda Inglesa Solanas",
+          "location": "Ruta Interbalnearia Km118 y Ruta 12 1, Punta Ballena, Maldonado",
+          "geo": {
+            "lat": -34.879506,
+            "lng": -55.052866
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.879506,-55.052866"
+        },
+        {
+          "name": "Tienda Inglesa Atlántico",
+          "location": "Av. Roosevelt Parada 22, Punta Del Este, Maldonado",
+          "geo": {
+            "lat": -34.915083,
+            "lng": -54.960871
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.915083,-54.960871"
+        }
+      ]
+    },
+    {
+      "id": "brou-micro-macro-directory",
+      "ruleIds": [
+        "brou-micro-macro-recompensa-10"
+      ],
+      "sourceUrls": [
+        "https://www.precios.uy/sipc2Web/recursos/sipc/obtenerEstablecimientos"
+      ],
+      "merchants": [
+        {
+          "name": "Micro Macro Gral. Rivera N°45 - Colonia",
+          "location": "Gral. Rivera 185, Colonia Del Sacramento, Colonia",
+          "geo": {
+            "lat": -34.47,
+            "lng": -57.844
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.470000,-57.844000"
+        },
+        {
+          "name": "Micro Macro J.P Varela N°44 - Colonia",
+          "location": "José Pedro Varela 401, Colonia Del Sacramento, Colonia",
+          "geo": {
+            "lat": -34.466399,
+            "lng": -57.838549
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.466399,-57.838549"
+        },
+        {
+          "name": "Micro Macro Libertad N°43",
+          "location": "Ruta 1 km.52 /Lavalleja 52, Libertad, San Jose",
+          "geo": {
+            "lat": -34.639,
+            "lng": -56.619
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.639000,-56.619000"
+        },
+        {
+          "name": "Micro Macro 21 de Setiembre N°41",
+          "location": "21 de Setiembre 2973, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.92,
+            "lng": -56.153
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.920000,-56.153000"
+        },
+        {
+          "name": "Micro Macro San José N°42",
+          "location": "San José 1042, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.907,
+            "lng": -56.194
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.907000,-56.194000"
+        },
+        {
+          "name": "Micro Macro Piriápolis N°40",
+          "location": "Celedonio Rojas Salon 01 esq Rambla de los Argentinos 40, Piriápolis, Maldonado",
+          "geo": {
+            "lat": -34.861889,
+            "lng": -55.281278
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.861889,-55.281278"
+        }
+      ]
+    },
+    {
+      "id": "brou-red-expres-directory",
+      "ruleIds": [
+        "brou-red-expres-recompensa-10"
+      ],
+      "sourceUrls": [
+        "https://www.precios.uy/sipc2Web/recursos/sipc/obtenerEstablecimientos"
+      ],
+      "merchants": [
+        {
+          "name": "Red Expres Abast Florida - local 240",
+          "location": "Heber Usher 1404 1, Florida, Florida",
+          "geo": {
+            "lat": -34.083192,
+            "lng": -56.225554
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.083192,-56.225554"
+        }
+      ]
+    }
+  ]
+}

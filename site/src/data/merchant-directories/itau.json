@@ -1183,6 +1183,613 @@
           "mapsUrl": "https://www.google.com/maps/place/Yamba+Store/@-34.912811,-56.1723805,17z/data=!3m1!4b1!4m6!3m5!1s0x959f870820c3bedb:0x2cf0475a4f43e0a2!8m2!3d-34.912811!4d-56.1723805!16s%2Fg%2F11px9yxchx"
         }
       ]
+    },
+    {
+      "id": "itau-san-roque-directory",
+      "ruleIds": [
+        "itau-san-roque-premium-25",
+        "itau-san-roque-general-15"
+      ],
+      "sourceUrls": [
+        "https://www.sanroque.com.uy/tiendas"
+      ],
+      "merchants": [
+        {
+          "name": "San Roque 01 - Cordón",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-01-cordon_4",
+          "location": "18 de julio 1551, Montevideo - Montevideo",
+          "geo": {
+            "lat": -34.904229,
+            "lng": -56.182382
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.904229,-56.182382"
+        },
+        {
+          "name": "San Roque Centro - 18 de Julio y Paraguay",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-centro-18-de-julio-y-paraguay_1",
+          "location": "18 de Julio 1078 esq. Paraguay, Montevideo - Montevideo",
+          "geo": {
+            "lat": -34.906094,
+            "lng": -56.192939
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.906094,-56.192939"
+        },
+        {
+          "name": "San Roque 03 - Costa Urbana",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-03-costa-urbana_48",
+          "location": "Shopping Costa Urbana - Gianasttassio Km 20.800, Montevideo - Montevideo",
+          "geo": {
+            "lat": -34.840991,
+            "lng": -55.993392
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.840991,-55.993392"
+        },
+        {
+          "name": "San Roque 04 - Yí",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-04-yi_49",
+          "location": "18 de Julio 1252 esq. Yi, Montevideo - Montevideo",
+          "geo": {
+            "lat": -34.905847,
+            "lng": -56.188955
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.905847,-56.188955"
+        },
+        {
+          "name": "San Roque 05 - MAM",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-05-mam_50",
+          "location": "Jose .L. Terra 2200 local 37 y 38 (Mercado Agrícola), Montevideo - Montevideo",
+          "geo": {
+            "lat": -34.886884,
+            "lng": -56.18337
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.886884,-56.183370"
+        },
+        {
+          "name": "San Roque 06 - Montevideo Shopping",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-06-montevideo-shopping_51",
+          "location": "Luis A. de Herrera 1290 - Loc.152, Montevideo - Montevideo",
+          "geo": {
+            "lat": -34.902733,
+            "lng": -56.136807
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.902733,-56.136807"
+        },
+        {
+          "name": "San Roque 54 - Maldonado",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-54-maldonado_2",
+          "location": "Sarandi 555 esq. Ledesma, Maldonado - Maldonado",
+          "geo": {
+            "lat": -34.913458,
+            "lng": -54.957677
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.913458,-54.957677"
+        },
+        {
+          "name": "San Roque 08 - Paysandú Shopping",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-08-paysandu-shopping_52",
+          "location": "Br. Artigas 770, Loc. 001, Paysandú - Paysandú",
+          "geo": {
+            "lat": -32.321612,
+            "lng": -58.070468
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.321612,-58.070468"
+        },
+        {
+          "name": "San Roque 09 - Convención",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-09-convencion_53",
+          "location": "18 de Julio 900 esq. Convención, Montevideo - Montevideo",
+          "geo": {
+            "lat": -34.906443,
+            "lng": -56.197193
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.906443,-56.197193"
+        },
+        {
+          "name": "San Roque 11 - Portones Shopping",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-11-portones-shopping_5",
+          "location": "Av. Italia 5775 - Loc. 201/206, Montevideo - Montevideo",
+          "geo": {
+            "lat": -34.881604,
+            "lng": -56.081174
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.881604,-56.081174"
+        },
+        {
+          "name": "San Roque 12 - Tres Cruces Shopping",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-12-tres-cruces-shopping_6",
+          "location": "Bvar. Artigas 1825, local 48, Montevideo - Montevideo",
+          "geo": {
+            "lat": -34.893896,
+            "lng": -56.166721
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.893896,-56.166721"
+        },
+        {
+          "name": "San Roque 13 - Paso Molino",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-13-paso-molino_7",
+          "location": "Agraciada 4214, Montevideo - Montevideo",
+          "geo": {
+            "lat": -34.856255,
+            "lng": -56.219879
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.856255,-56.219879"
+        },
+        {
+          "name": "San Roque 14 - Punta Carretas Shopping",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-14-punta-carretas-shopping_8",
+          "location": "Ellauri 350 - Loc. 109 y 145, Montevideo - Montevideo",
+          "geo": {
+            "lat": -34.92379,
+            "lng": -56.159438
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.923790,-56.159438"
+        },
+        {
+          "name": "San Roque 15 - Punta Shopping",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-15-punta-shopping_9",
+          "location": "Av. Roosevelt esq. Pascual Gattas, Punta Del Este - Maldonado",
+          "geo": {
+            "lat": -34.940749,
+            "lng": -54.934414
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.940749,-54.934414"
+        },
+        {
+          "name": "San Roque 16 - Malvín",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-16-malvin_10",
+          "location": "Mississipi 1647 esq. Rivera, Montevideo - Montevideo",
+          "geo": {
+            "lat": -34.891312,
+            "lng": -56.096187
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.891312,-56.096187"
+        },
+        {
+          "name": "San Roque 17 - Cerro",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-17-cerro_11",
+          "location": "Avenida Carlos María Ramírez 1490, Montevideo - Montevideo",
+          "geo": {
+            "lat": -34.873005,
+            "lng": -56.246918
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.873005,-56.246918"
+        },
+        {
+          "name": "San Roque 18 - Geant",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-18-geant_12",
+          "location": "Av. Giannatasio, local 37 centro comercial Parque Roosevelt, Montevideo - Montevideo",
+          "geo": {
+            "lat": -34.865425,
+            "lng": -56.024155
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.865425,-56.024155"
+        },
+        {
+          "name": "San Roque 19 - Salto Shopping",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-19-salto-shopping_13",
+          "location": "Av. José Batlle Y Ordóñez 2265, Salto - Salto",
+          "geo": {
+            "lat": -31.384163,
+            "lng": -57.944298
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-31.384163,-57.944298"
+        },
+        {
+          "name": "San Roque 21 - Universidad",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-21-universidad_16",
+          "location": "Avenida 18 de Julio 1799 esq. Tristán Narvaja, Montevideo - Montevideo",
+          "geo": {
+            "lat": -34.902353,
+            "lng": -56.177419
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.902353,-56.177419"
+        },
+        {
+          "name": "San Roque 23 - Mercedes Shopping",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-23-mercedes-shopping_18",
+          "location": "Don Bosco 734 Mercedes Shopping, Mercedes - Soriano",
+          "geo": {
+            "lat": -33.257441,
+            "lng": -58.028408
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.257441,-58.028408"
+        },
+        {
+          "name": "San Roque 22 - Ellauri",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-22-ellauri_17",
+          "location": "José Ellauri 512 esq. Montero, Montevideo - Montevideo",
+          "geo": {
+            "lat": -34.921202,
+            "lng": -56.157284
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.921202,-56.157284"
+        },
+        {
+          "name": "San Roque 24 - Aeropuerto de Carrasco",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-24-aeropuerto-de-carrasco_19",
+          "location": "Aeropuerto de carrasco ruta 101 km. 19950, Montevideo - Montevideo",
+          "geo": {
+            "lat": -34.837097,
+            "lng": -56.01618
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.837097,-56.016180"
+        },
+        {
+          "name": "San Roque 28 - Benito Blanco",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-28-benito-blanco_21",
+          "location": "Gabriel Pereira 3298 esq. Benito Blanco, Montevideo - Montevideo",
+          "geo": {
+            "lat": -34.911223,
+            "lng": -56.146246
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.911223,-56.146246"
+        },
+        {
+          "name": "San Roque 29 - Colonia Shopping",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-29-colonia-shopping_22",
+          "location": "Av. Roosvelt 458 - Colonia del Sacramento, Local 16 y 17, Colonia Del Sacramento - Colonia",
+          "geo": {
+            "lat": -34.465872,
+            "lng": -57.834656
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.465872,-57.834656"
+        },
+        {
+          "name": "San Roque 30 - Cuidad Vieja",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-30-cuidad-vieja_23",
+          "location": "Sarandí 699, Montevideo - Montevideo",
+          "geo": {
+            "lat": -34.906435,
+            "lng": -56.201192
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.906435,-56.201192"
+        },
+        {
+          "name": "San Roque 31 - Unión",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-31-union_24",
+          "location": "8 de Octubre 3640, Montevideo - Montevideo",
+          "geo": {
+            "lat": -34.876662,
+            "lng": -56.143033
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.876662,-56.143033"
+        },
+        {
+          "name": "San Roque 32 - Mercedes Centro",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-32-mercedes-centro_25",
+          "location": "Colón 278, Mercedes - Soriano",
+          "geo": {
+            "lat": -33.24929,
+            "lng": -58.030663
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.249290,-58.030663"
+        },
+        {
+          "name": "San Roque 33 - Salto Centro",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-33-salto-centro_26",
+          "location": "Uruguay 839, Salto - Salto",
+          "geo": {
+            "lat": -31.387462,
+            "lng": -57.964717
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-31.387462,-57.964717"
+        },
+        {
+          "name": "San Roque 34 - Fray Bentos",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-34-fray-bentos_27",
+          "location": "18 de Julio 1707, Fray Bentos - Río Negro",
+          "geo": {
+            "lat": -33.122837,
+            "lng": -58.304174
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.122837,-58.304174"
+        },
+        {
+          "name": "San Roque 35 - Paysandú Centro",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-35-paysandu-centro_28",
+          "location": "19 de abril 914, Paysandú - Paysandú",
+          "geo": {
+            "lat": -32.317913,
+            "lng": -58.083934
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.317913,-58.083934"
+        },
+        {
+          "name": "San Roque 36 - Trinidad",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-36-trinidad_29",
+          "location": "Francisco Fondar 649, Trinidad - Flores",
+          "geo": {
+            "lat": -33.517764,
+            "lng": -56.897376
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.517764,-56.897376"
+        },
+        {
+          "name": "San Roque 37 - Colonia Centro",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-37-colonia-centro_30",
+          "location": "Avenida Artigas 389, Colonia Del Sacramento - Colonia",
+          "geo": {
+            "lat": -34.466843,
+            "lng": -57.843202
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.466843,-57.843202"
+        },
+        {
+          "name": "San Roque 38 - Durazno",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-38-durazno_31",
+          "location": "18 de Julio 549 esq. Zorrilla de San Martin, Durazno - Durazno",
+          "geo": {
+            "lat": -33.38106,
+            "lng": -56.524646
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.381060,-56.524646"
+        },
+        {
+          "name": "San Roque 40 - Rivera",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-40-rivera_32",
+          "location": "Sarandí 665, Rivera - Rivera",
+          "geo": {
+            "lat": -30.901826,
+            "lng": -55.541137
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-30.901826,-55.541137"
+        },
+        {
+          "name": "San Roque 42 - Arocena",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-42-arocena_33",
+          "location": "Arocena 1681 esq. Rivera, Montevideo - Montevideo",
+          "geo": {
+            "lat": -34.886688,
+            "lng": -56.0586
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.886688,-56.058600"
+        },
+        {
+          "name": "San Roque 43 - Pando",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-43-pando_34",
+          "location": "Av. Artigas 1002, Pando - Canelones",
+          "geo": {
+            "lat": -34.719819,
+            "lng": -55.958231
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.719819,-55.958231"
+        },
+        {
+          "name": "San Roque 44 - Nueva Helvecia",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-44-nueva-helvecia_35",
+          "location": "Berna 1295, Nueva Helvecia - Colonia",
+          "geo": {
+            "lat": -34.284188,
+            "lng": -57.233573
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.284188,-57.233573"
+        },
+        {
+          "name": "San Roque 45 - Las Piedras Shopping",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-45-las-piedras-shopping_36",
+          "location": "Bulevar del Bicentenario 318, Las Piedras - Canelones",
+          "geo": {
+            "lat": -34.725602,
+            "lng": -56.20311
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.725602,-56.203110"
+        },
+        {
+          "name": "San Roque 46 - Salto Centro",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-46-salto-centro_37",
+          "location": "Dr. Fco Soca 220, Salto - Salto",
+          "geo": {
+            "lat": -31.383061,
+            "lng": -57.963052
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-31.383061,-57.963052"
+        },
+        {
+          "name": "San Roque 47 - Salto Cerro",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-47-salto-cerro_38",
+          "location": "Grito de Asencio 1499, Salto - Salto",
+          "geo": {
+            "lat": -31.373059,
+            "lng": -57.963402
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-31.373059,-57.963402"
+        },
+        {
+          "name": "Practifarma 48 - Melo",
+          "url": "https://www.sanroque.com.uy/tiendas/practifarma-48-melo_39",
+          "location": "Villanueva Saravia N° 777 (Hiper TA-TA), Melo - Cerro Largo",
+          "geo": {
+            "lat": -32.363896,
+            "lng": -54.166181
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.363896,-54.166181"
+        },
+        {
+          "name": "San Roque 49 - Melo",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-49-melo_40",
+          "location": "Justino Muniz 768, Melo - Cerro Largo",
+          "geo": {
+            "lat": -32.374531,
+            "lng": -54.170245
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.374531,-54.170245"
+        },
+        {
+          "name": "San Roque 50 - Tacuarembó",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-50-tacuarembo_41",
+          "location": "25 de mayo 208 bis, Tacuarembó - Tacuarembó",
+          "geo": {
+            "lat": -31.712139,
+            "lng": -55.980527
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-31.712139,-55.980527"
+        },
+        {
+          "name": "San Roque 90 - Punta del Este",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-90-punta-del-este_42",
+          "location": "Calle 28 esq calle 20. Punta del Este - Maldonado, Punta Del Este - Maldonado",
+          "geo": {
+            "lat": -34.960077,
+            "lng": -54.943041
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.960077,-54.943041"
+        },
+        {
+          "name": "San Roque 51 - Constituyente",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-51-constituyente_43",
+          "location": "Constituyente 1789 esq. Gaboto, Montevideo - Montevideo",
+          "geo": {
+            "lat": -34.906441,
+            "lng": -56.177665
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Farmacia+San+Roque/@-34.9064407,-56.1776645,17z/data=!3m1!4b1!4m6!3m5!1s0x959f818c87e6273b:0xf8a782b91d123d9c!8m2!3d-34.9064407!4d-56.1776645!16s%2Fg%2F11hz1p7tnb"
+        },
+        {
+          "name": "San Roque 52 - Salterain",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-52-salterain_44",
+          "location": "Rivera 2102 y Salterain, Montevideo - Montevideo",
+          "geo": {
+            "lat": -34.906076,
+            "lng": -56.16983
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.906076,-56.169830"
+        },
+        {
+          "name": "San Roque 53 -Tacuarembó",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-53-tacuarembo_45",
+          "location": "25 de mayo 321 esq. Catalina, Tacuarembó - Tacuarembó",
+          "geo": {
+            "lat": -31.714903,
+            "lng": -55.983748
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-31.714903,-55.983748"
+        },
+        {
+          "name": "San Roque 56 - Minas Shopping",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-56-minas-shopping_46",
+          "location": "Luis Alberto de Herrera 950, Minas - Lavalleja",
+          "geo": {
+            "lat": -34.368321,
+            "lng": -55.238373
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.368321,-55.238373"
+        },
+        {
+          "name": "San Roque 58 - Paullier",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-58-paullier_47",
+          "location": "Canelones 2198 esq. Paullier, Montevideo - Montevideo",
+          "geo": {
+            "lat": -34.907168,
+            "lng": -56.16767
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.907168,-56.167670"
+        },
+        {
+          "name": "San Roque 61 - Parque Rodó",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-61-parque-rodo_54",
+          "location": "Av. Julio Herrera y Reissig 736, Montevideo - Montevideo",
+          "geo": {
+            "lat": -34.915264,
+            "lng": -56.165555
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.915264,-56.165555"
+        },
+        {
+          "name": "San Roque 63 - Comercio",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-63-comercio_55",
+          "location": "Av Italia 3830 esq. Solano López, Montevideo - Montevideo",
+          "geo": {
+            "lat": -34.887073,
+            "lng": -56.128985
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.887073,-56.128985"
+        }
+      ]
+    },
+    {
+      "id": "itau-movie-directory",
+      "ruleIds": [
+        "itau-movie-debito-volar-2x1"
+      ],
+      "sourceUrls": [
+        "https://api.movie.com.uy/api/concession/cinemas/list"
+      ],
+      "merchants": [
+        {
+          "name": "Movie Montevideo",
+          "location": "Montevideo Shopping, Av. Luis Alberto de Herrera 1290, Montevideo",
+          "geo": {
+            "lat": -34.903471,
+            "lng": -56.136638
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Movie/@-34.9034711,-56.1366379,17z/data=!3m1!4b1!4m6!3m5!1s0x959f813dff810887:0xf1b436131db05c1c!8m2!3d-34.9034711!4d-56.1366379!16s%2Fg%2F1tkc7vzt"
+        },
+        {
+          "name": "Movie Portones",
+          "location": "Portones Shopping, Av. Italia 5775, Montevideo",
+          "geo": {
+            "lat": -34.881495,
+            "lng": -56.081209
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Movie/@-34.8814947,-56.0812093,17z/data=!3m1!4b1!4m6!3m5!1s0x959f86efe48a391d:0x19c0b1ba9376f549!8m2!3d-34.8814947!4d-56.0812093!16s%2Fg%2F1tczg2c3"
+        },
+        {
+          "name": "Movie Punta Carretas",
+          "location": "Punta Carretas Shopping, F. García Cortinas 2484, Montevideo",
+          "geo": {
+            "lat": -34.924352,
+            "lng": -56.158852
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Movie/@-34.924352,-56.1588524,17z/data=!3m1!4b1!4m6!3m5!1s0x959f8177e36ec0c7:0x86bd2675603ad9a!8m2!3d-34.924352!4d-56.1588524!16s%2Fg%2F11c56538ln"
+        },
+        {
+          "name": "Movie Nuevocentro",
+          "location": "Nuevocentro Shopping, Luis Alberto de Herrera 3365, Montevideo",
+          "geo": {
+            "lat": -34.868711,
+            "lng": -56.170201
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Movie+Nuevocentro/@-34.8687111,-56.1702009,17z/data=!3m1!4b1!4m6!3m5!1s0x959f8070764ff37b:0xd07bf61a3ded1677!8m2!3d-34.8687111!4d-56.1702009!16s%2Fg%2F11cr_ymdrl"
+        }
+      ]
+    },
+    {
+      "id": "itau-iplace-directory",
+      "ruleIds": [
+        "itau-iplace-personal-bank-15"
+      ],
+      "sourceUrls": [
+        "https://www.iplace.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "iPlace Montevideo Shopping",
+          "location": "Montevideo Shopping, Av. Luis Alberto de Herrera 1290, Montevideo",
+          "geo": {
+            "lat": -34.902733,
+            "lng": -56.136807
+          },
+          "mapsUrl": "https://www.google.com/maps/place/iPlace/@-34.902733,-56.1368072,17z/data=!3m1!4b1!4m6!3m5!1s0x959f816f94405f39:0xd2572fc95fdfa9b4!8m2!3d-34.9027327!4d-56.1368072!16s%2Fg%2F11y9kccts3"
+        },
+        {
+          "name": "iPlace Punta Carretas",
+          "location": "Punta Carretas Shopping, Ellauri 350, Montevideo",
+          "geo": {
+            "lat": -34.923982,
+            "lng": -56.159401
+          },
+          "mapsUrl": "https://www.google.com/maps/place/iPlace/@-34.9239822,-56.1594012,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81330689d551:0x314f4f80de221b34!8m2!3d-34.9239822!4d-56.1594012!16s%2Fg%2F11r9w6k14h"
+        },
+        {
+          "name": "iPlace Nuevocentro Shopping",
+          "location": "Nuevocentro Shopping, Luis Alberto de Herrera 3365, Montevideo",
+          "geo": {
+            "lat": -34.869214,
+            "lng": -56.169396
+          },
+          "mapsUrl": "https://www.google.com/maps/place/iPlace/@-34.8692138,-56.1693956,17z/data=!3m1!4b1!4m6!3m5!1s0x959f810039cc5cc3:0x516fad0a2e71b3b5!8m2!3d-34.8692138!4d-56.1693956!16s%2Fg%2F11wfx1c7p4"
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,1025 @@
+{
+  "provider": "oca",
+  "label": "OCA",
+  "lists": [
+    {
+      "id": "oca-macro-mercado-directory",
+      "ruleIds": [
+        "oca-macro-mercado-installments",
+        "oca-blue-macro-mercado-10"
+      ],
+      "sourceUrls": [
+        "https://www.precios.uy/sipc2Web/recursos/sipc/obtenerEstablecimientos"
+      ],
+      "merchants": [
+        {
+          "name": "Macro Mercado Colonia N°17",
+          "location": "Luis A. de Herrera 1400, Colonia Del Sacramento, Colonia",
+          "geo": {
+            "lat": -34.448,
+            "lng": -57.844
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.448000,-57.844000"
+        },
+        {
+          "name": "Macro Mercado Las Piedras N°16",
+          "url": "http://www.macromercado.com.uy",
+          "location": "Ruta 5 Km 22 22, Las Piedras, Canelones",
+          "geo": {
+            "lat": -34.732104,
+            "lng": -56.248139
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.732104,-56.248139"
+        },
+        {
+          "name": "Macro Mercado Maldonado N°8",
+          "url": "http://www.macromercado.com.uy/home/",
+          "location": "Bvar. Artigas y 3 de febrero 1, Maldonado, Maldonado",
+          "geo": {
+            "lat": -34.915,
+            "lng": -54.945
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.915000,-54.945000"
+        },
+        {
+          "name": "Macro Mercado La Teja N°5",
+          "url": "http://www.macromercado.com.uy/home/",
+          "location": "Avda. Dr. Carlos Ma. Ramírez 574, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.862026,
+            "lng": -56.231215
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.862026,-56.231215"
+        },
+        {
+          "name": "Macro Mercado Oeste N°4",
+          "url": "http://www.macromercado.com.uy/",
+          "location": "Avda. Luis Batlle Berres 6149, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.846,
+            "lng": -56.25
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.846000,-56.250000"
+        },
+        {
+          "name": "Macro Mercado Punta de Rieles N°7",
+          "url": "http://www.macromercado.com.uy/",
+          "location": "Camino Maldonado 6783, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.825,
+            "lng": -56.102
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.825000,-56.102000"
+        },
+        {
+          "name": "Macro Mercado Casa Central / San Martín N°1",
+          "url": "http://www.macromercado.com.uy/home/",
+          "location": "Pugnalini 1847, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.867,
+            "lng": -56.18
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.867000,-56.180000"
+        },
+        {
+          "name": "Macro Mercado Rivera N°9",
+          "url": "http://www.macromercado.com.uy",
+          "location": "Julio M. Sosa 1726, Rivera, Rivera",
+          "geo": {
+            "lat": -30.920575,
+            "lng": -55.538736
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-30.920575,-55.538736"
+        },
+        {
+          "name": "Macro Mercado Carrasco N°3",
+          "url": "http://www.macromercado.com.uy/home/",
+          "location": "Avda. al Parque Roosvelt 2495, Santa Lucía Del Este, Canelones",
+          "geo": {
+            "lat": -34.871,
+            "lng": -56.023
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.871000,-56.023000"
+        }
+      ]
+    },
+    {
+      "id": "oca-tata-directory",
+      "ruleIds": [
+        "oca-tata-general-20"
+      ],
+      "sourceUrls": [
+        "https://www.precios.uy/sipc2Web/recursos/sipc/obtenerEstablecimientos"
+      ],
+      "merchants": [
+        {
+          "name": "TaTa Hiper Artigas",
+          "url": "http://www.tata.com.uy ",
+          "location": "Av, Dr. Luis Alberto de Herrera 539, Artigas, Artigas",
+          "geo": {
+            "lat": -30.402,
+            "lng": -56.467
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-30.402000,-56.467000"
+        },
+        {
+          "name": "TaTa Hiper Canelones",
+          "url": "http://www.tata.com.uy ",
+          "location": "José Batlle y Ordoñez 960, Canelones, Canelones",
+          "geo": {
+            "lat": -34.517,
+            "lng": -56.282
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.517000,-56.282000"
+        },
+        {
+          "name": "TaTa Hiper Carmelo",
+          "url": "http://www.tata.com.uy ",
+          "location": "Juan Zorrilla de San Martin 278, Carmelo, Colonia",
+          "geo": {
+            "lat": -33.999,
+            "lng": -58.286
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.999000,-58.286000"
+        },
+        {
+          "name": "TaTa Hiper Colonia",
+          "url": "http://www.tata.com.uy ",
+          "location": "Avenida Franklin D. Roosevelt 458, Colonia Del Sacramento, Colonia",
+          "geo": {
+            "lat": -34.469,
+            "lng": -57.839
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.469000,-57.839000"
+        },
+        {
+          "name": "TaTa Durazno",
+          "url": "http://www.tata.com.uy ",
+          "location": "18 de Julio 580, Durazno, Durazno",
+          "geo": {
+            "lat": -33.379,
+            "lng": -56.522
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.379000,-56.522000"
+        },
+        {
+          "name": "TaTa W.F.Aldunate (Durazno)",
+          "url": "http://www.tata.com.uy ",
+          "location": "Wilson Ferreira Aldunate 419, Durazno, Durazno",
+          "geo": {
+            "lat": -33.387,
+            "lng": -56.525
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.387000,-56.525000"
+        },
+        {
+          "name": "TaTa Florida",
+          "url": "http://www.tata.com.uy ",
+          "location": "Fructuoso Rivera 3320, Florida, Florida",
+          "geo": {
+            "lat": -34.101,
+            "lng": -55.649
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.101000,-55.649000"
+        },
+        {
+          "name": "TaTa Fray Bentos",
+          "url": "http://www.tata.com.uy ",
+          "location": "18 de Julio 1625, Fray Bentos, Rio Negro",
+          "geo": {
+            "lat": -33.122,
+            "lng": -58.306
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.122000,-58.306000"
+        },
+        {
+          "name": "TaTa Juan Lacaze",
+          "url": "http://www.tata.com.uy ",
+          "location": "José Salvo 100 100, Juan Lacaze, Colonia",
+          "geo": {
+            "lat": -34.434,
+            "lng": -57.442
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.434000,-57.442000"
+        },
+        {
+          "name": "TaTa La Paz",
+          "url": "http://www.tata.com.uy ",
+          "location": "Conrado Moller 260, La Paz, Canelones",
+          "geo": {
+            "lat": -34.763,
+            "lng": -56.225
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.763000,-56.225000"
+        },
+        {
+          "name": "TaTa Costa Urbana",
+          "url": "http://www.tata.com.uy ",
+          "location": "Av. Giannattasio 49, Lagomar, Canelones",
+          "geo": {
+            "lat": -34.841,
+            "lng": -55.993
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.841000,-55.993000"
+        },
+        {
+          "name": "TaTa Hiper Piedras",
+          "url": "http://www.tata.com.uy ",
+          "location": "Av Artigas 810, Las Piedras, Canelones",
+          "geo": {
+            "lat": -34.752,
+            "lng": -56.224
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.752000,-56.224000"
+        },
+        {
+          "name": "TaTa Hiper Maldonado",
+          "url": "http://www.tata.com.uy ",
+          "location": "25 de Mayo 600, Maldonado, Maldonado",
+          "geo": {
+            "lat": -34.871,
+            "lng": -55.269
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.871000,-55.269000"
+        },
+        {
+          "name": "TaTa San Carlos",
+          "url": "http://www.tata.com.uy ",
+          "location": "Carlos Alberto Cal 738, Maldonado, Maldonado",
+          "geo": {
+            "lat": -34.793,
+            "lng": -54.919
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.793000,-54.919000"
+        },
+        {
+          "name": "TaTa Melo",
+          "url": "http://www.tata.com.uy ",
+          "location": "Aparicio Saravia 665, Melo, Cerro Largo",
+          "geo": {
+            "lat": -32.368,
+            "lng": -54.168
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.368000,-54.168000"
+        },
+        {
+          "name": "TaTa Hiper Melo",
+          "url": "http://www.tata.com.uy ",
+          "location": "Villanueva Saravia 777, Melo, Cerro Largo",
+          "geo": {
+            "lat": -32.364,
+            "lng": -54.168
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.364000,-54.168000"
+        },
+        {
+          "name": "TaTa Mercedes",
+          "url": "http://www.tata.com.uy ",
+          "location": "Don Bosco 734, Mercedes, Soriano",
+          "geo": {
+            "lat": -33.257,
+            "lng": -58.028
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.257000,-58.028000"
+        },
+        {
+          "name": "TaTa Hiper Mercedes",
+          "url": "http://www.tata.com.uy ",
+          "location": "Jose Enrique Rodo 758, Mercedes, Soriano",
+          "geo": {
+            "lat": -33.25,
+            "lng": -58.029
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.250000,-58.029000"
+        },
+        {
+          "name": "TaTa Minas",
+          "url": "http://www.tata.com.uy ",
+          "location": "18 de Julio 620, Minas, Lavalleja",
+          "geo": {
+            "lat": -34.599,
+            "lng": -55.468
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.599000,-55.468000"
+        },
+        {
+          "name": "TaTa 419 - 21 de Setiembre",
+          "url": "http://www.tata.com.uy",
+          "location": "21 de Setiembre 2738, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.91728,
+            "lng": -56.15783
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.917280,-56.157830"
+        },
+        {
+          "name": "TaTa Agraciada",
+          "url": "http://www.tata.com.uy ",
+          "location": "Agraciada 2560, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.885,
+            "lng": -56.193
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.885000,-56.193000"
+        },
+        {
+          "name": "TaTa Colon",
+          "url": "http://www.tata.com.uy ",
+          "location": "Av Gral Eugenio Garzón 1952, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.804,
+            "lng": -56.223
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.804000,-56.223000"
+        },
+        {
+          "name": "TaTa 18 De Julio",
+          "url": "http://www.tata.com.uy ",
+          "location": "Av. 18 de Julio 1280, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.906,
+            "lng": -56.188
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.906000,-56.188000"
+        },
+        {
+          "name": "TaTa Cordon",
+          "url": "http://www.tata.com.uy ",
+          "location": "Av. 18 de Julio 1593, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.904,
+            "lng": -56.182
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.904000,-56.182000"
+        },
+        {
+          "name": "TaTa Centro",
+          "url": "http://www.tata.com.uy ",
+          "location": "Av. 18 de Julio 880, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.906,
+            "lng": -56.197
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.906000,-56.197000"
+        },
+        {
+          "name": "TaTa Blanqueada",
+          "url": "http://www.tata.com.uy ",
+          "location": "Av. 8 de Octubre 3340, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.88,
+            "lng": -56.149
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.880000,-56.149000"
+        },
+        {
+          "name": "TaTa Union",
+          "url": "http://www.tata.com.uy ",
+          "location": "Av. 8 de Octubre 3723, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.875,
+            "lng": -56.141
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.875000,-56.141000"
+        },
+        {
+          "name": "TaTa Paso Molino",
+          "url": "http://www.tata.com.uy ",
+          "location": "Av. Agraciada 4214, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.856,
+            "lng": -56.22
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.856000,-56.220000"
+        },
+        {
+          "name": "TaTa Lezica",
+          "url": "http://www.tata.com.uy ",
+          "location": "Av. Lezica 6345, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.797,
+            "lng": -56.248
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.797000,-56.248000"
+        },
+        {
+          "name": "TaTa Avda. Italia",
+          "url": "http://www.tata.com.uy ",
+          "location": "Avda. Italia 3796, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.887,
+            "lng": -56.13
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.887000,-56.130000"
+        },
+        {
+          "name": "TaTa Tres Cruces",
+          "url": "http://www.tata.com.uy ",
+          "location": "Bulevar General Artigas 1825, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.894,
+            "lng": -56.166
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.894000,-56.166000"
+        },
+        {
+          "name": "TaTa Jardines",
+          "url": "http://www.tata.com.uy ",
+          "location": "Camino Maldonado 5757, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.841,
+            "lng": -56.123
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.841000,-56.123000"
+        },
+        {
+          "name": "TaTa Canelones",
+          "url": "http://www.tata.com.uy ",
+          "location": "Canelones 888, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.909,
+            "lng": -56.197
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.909000,-56.197000"
+        },
+        {
+          "name": "TaTa Cerro",
+          "url": "http://www.tata.com.uy ",
+          "location": "Carlos María Ramírez 1490, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.874,
+            "lng": -56.247
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.874000,-56.247000"
+        },
+        {
+          "name": "TaTa C.M Ramirez",
+          "url": "http://www.tata.com.uy ",
+          "location": "Carlos María Ramírez 932, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.867,
+            "lng": -56.237
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.867000,-56.237000"
+        },
+        {
+          "name": "TaTa Cavia",
+          "url": "http://www.tata.com.uy ",
+          "location": "Cavia 2610, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.908,
+            "lng": -56.158
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.908000,-56.158000"
+        },
+        {
+          "name": "TaTa Malvin Alto",
+          "url": "http://www.tata.com.uy ",
+          "location": "Cno. Carrasco 4654, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.872,
+            "lng": -56.118
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.872000,-56.118000"
+        },
+        {
+          "name": "TaTa Comercio",
+          "url": "http://www.tata.com.uy ",
+          "location": "Comercio 2445, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.878,
+            "lng": -56.141
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.878000,-56.141000"
+        },
+        {
+          "name": "TaTa Constituyente",
+          "url": "http://www.tata.com.uy ",
+          "location": "Constituyente 1570, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.906,
+            "lng": -56.182
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.906000,-56.182000"
+        },
+        {
+          "name": "TaTa Cooper",
+          "url": "http://www.tata.com.uy ",
+          "location": "Cooper 2390, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.873,
+            "lng": -56.069
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.873000,-56.069000"
+        },
+        {
+          "name": "TaTa Cufre",
+          "url": "http://www.tata.com.uy ",
+          "location": "Cufré 2687, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.878,
+            "lng": -56.171
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.878000,-56.171000"
+        },
+        {
+          "name": "TaTa Cilindro",
+          "url": "http://www.tata.com.uy ",
+          "location": "El Cano 3301, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.86,
+            "lng": -56.151
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.860000,-56.151000"
+        },
+        {
+          "name": "TaTa Felipe Carape",
+          "url": "http://www.tata.com.uy ",
+          "location": "Felipé Carapé 4478, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.853,
+            "lng": -56.194
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.853000,-56.194000"
+        },
+        {
+          "name": "TaTa J.H. Figueiras",
+          "url": "http://www.tata.com.uy ",
+          "location": "Figueiras 2301, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.916,
+            "lng": -56.164
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.916000,-56.164000"
+        },
+        {
+          "name": "TaTa Gral Flores",
+          "url": "http://www.tata.com.uy ",
+          "location": "Gral. Flores 4104, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.855,
+            "lng": -56.162
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.855000,-56.162000"
+        },
+        {
+          "name": "TaTa Gral. Flores",
+          "url": "http://www.tata.com.uy ",
+          "location": "Gral. Flores 4649, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.846,
+            "lng": -56.155
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.846000,-56.155000"
+        },
+        {
+          "name": "TaTa Piedras Blancas",
+          "url": "http://www.tata.com.uy ",
+          "location": "Gral. Flores 5493, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.829,
+            "lng": -56.142
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.829000,-56.142000"
+        },
+        {
+          "name": "TaTa Cerro",
+          "url": "http://www.tata.com.uy ",
+          "location": "Grecia 3396, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.89,
+            "lng": -56.248
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.890000,-56.248000"
+        },
+        {
+          "name": "TaTa Igua",
+          "url": "http://www.tata.com.uy ",
+          "location": "Iguá 4498, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.882,
+            "lng": -56.115
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.882000,-56.115000"
+        },
+        {
+          "name": "TaTa Jackson",
+          "url": "http://www.tata.com.uy ",
+          "location": "Jackson 1222, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.907,
+            "lng": -56.173
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.907000,-56.173000"
+        },
+        {
+          "name": "TaTa J.B. Y Ordoñez",
+          "url": "http://www.tata.com.uy ",
+          "location": "José Batlle y Ordoñez 1703, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.894,
+            "lng": -56.129
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.894000,-56.129000"
+        },
+        {
+          "name": "TaTa J.B. Y Ordoñez",
+          "url": "http://www.tata.com.uy ",
+          "location": "José Batlle y Ordoñez 6609, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.825,
+            "lng": -56.224
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.825000,-56.224000"
+        },
+        {
+          "name": "TaTa Belloni",
+          "url": "http://www.tata.com.uy ",
+          "location": "José Belloni 4393, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.823,
+            "lng": -56.141
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.823000,-56.141000"
+        },
+        {
+          "name": "TaTa Rodo",
+          "url": "http://www.tata.com.uy ",
+          "location": "José Enrique Rodó 1802, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.905,
+            "lng": -56.177
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.905000,-56.177000"
+        },
+        {
+          "name": "TaTa Mercado Agricola",
+          "url": "http://www.tata.com.uy ",
+          "location": "José L. Terra 2220, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.887,
+            "lng": -56.184
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.887000,-56.184000"
+        },
+        {
+          "name": "TaTa Libertad",
+          "url": "http://www.tata.com.uy ",
+          "location": "Libertad 2545, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.911,
+            "lng": -56.158
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.911000,-56.158000"
+        },
+        {
+          "name": "TaTa Miguelete",
+          "url": "http://www.tata.com.uy ",
+          "location": "Miguelete 2726, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.897,
+            "lng": -56.184
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.897000,-56.184000"
+        },
+        {
+          "name": "TaTa Paraguay",
+          "url": "http://www.tata.com.uy ",
+          "location": "Paraguay 1017, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.912,
+            "lng": -56.192
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.912000,-56.192000"
+        },
+        {
+          "name": "TaTa Malvin Norte",
+          "url": "http://www.tata.com.uy ",
+          "location": "Pirán 2101 2101, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.874,
+            "lng": -56.122
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.874000,-56.122000"
+        },
+        {
+          "name": "TaTa Rio Branco",
+          "url": "http://www.tata.com.uy ",
+          "location": "Rio Branco 1382, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.906,
+            "lng": -56.196
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.906000,-56.196000"
+        },
+        {
+          "name": "TaTa Rivera",
+          "url": "http://www.tata.com.uy ",
+          "location": "Rivera 4250, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.896,
+            "lng": -56.122
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.896000,-56.122000"
+        },
+        {
+          "name": "TaTa San Jose",
+          "url": "http://www.tata.com.uy ",
+          "location": "San José 882, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.907,
+            "lng": -56.197
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.907000,-56.197000"
+        },
+        {
+          "name": "TaTa San Martin",
+          "url": "http://www.tata.com.uy ",
+          "location": "San Martín 2700, Montevideo, Montevideo",
+          "geo": {
+            "lat": -34.876,
+            "lng": -56.186
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.876000,-56.186000"
+        },
+        {
+          "name": "TaTa Pando",
+          "url": "http://www.tata.com.uy ",
+          "location": "Gral.Artigas 851 851, Pando, Canelones",
+          "geo": {
+            "lat": -34.684,
+            "lng": -55.705
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.684000,-55.705000"
+        },
+        {
+          "name": "TaTa Paso de los Toros",
+          "url": "http://www.tata.com.uy",
+          "location": "Leandro Gomez 325, Paso De Los Toros, Tacuarembo",
+          "geo": {
+            "lat": -32.81455,
+            "lng": -56.50623
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.814550,-56.506230"
+        },
+        {
+          "name": "TaTa Hiper Superstar",
+          "url": "http://www.tata.com.uy ",
+          "location": "Bulevar Artigas 1673, Paysandú, Paysandu",
+          "geo": {
+            "lat": -32.322,
+            "lng": -58.071
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.322000,-58.071000"
+        },
+        {
+          "name": "TaTa Hiper Shopping Ss",
+          "url": "http://www.tata.com.uy ",
+          "location": "Dr Luis Alberto De Herrera 925, Paysandú, Paysandu",
+          "geo": {
+            "lat": -32.318,
+            "lng": -58.083
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.318000,-58.083000"
+        },
+        {
+          "name": "TaTa Hiper Plaza Ss",
+          "url": "http://www.tata.com.uy ",
+          "location": "Zelmar Michelini 947, Paysandú, Paysandu",
+          "geo": {
+            "lat": -32.317,
+            "lng": -58.096
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.317000,-58.096000"
+        },
+        {
+          "name": "TaTa Hiper Norte Ss",
+          "url": "http://www.tata.com.uy ",
+          "location": "Zorrilla de San Martin 1705, Paysandú, Paysandu",
+          "geo": {
+            "lat": -32.303,
+            "lng": -58.079
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.303000,-58.079000"
+        },
+        {
+          "name": "TaTa Rivera II",
+          "url": "http://www.tata.com.uy ",
+          "location": "Av. Sepé 51, Rivera, Rivera",
+          "geo": {
+            "lat": -30.9,
+            "lng": -55.527
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-30.900000,-55.527000"
+        },
+        {
+          "name": "TaTa Hiper Rivera",
+          "url": "http://www.tata.com.uy ",
+          "location": "Sarandí 950, Rivera, Rivera",
+          "geo": {
+            "lat": -30.906,
+            "lng": -55.544
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-30.906000,-55.544000"
+        },
+        {
+          "name": "TaTa Hiper Rocha",
+          "url": "http://www.tata.com.uy ",
+          "location": "General Artigas 221 221, Rocha, Rocha",
+          "geo": {
+            "lat": -33.695,
+            "lng": -53.455
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.695000,-53.455000"
+        },
+        {
+          "name": "TaTa Rosario",
+          "url": "http://www.tata.com.uy ",
+          "location": "Artigas 200, Rosario, Colonia",
+          "geo": {
+            "lat": -33.875,
+            "lng": -57.36
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.875000,-57.360000"
+        },
+        {
+          "name": "TaTa D.Lamas (Salto)",
+          "url": "http://www.tata.com.uy ",
+          "location": "Diego Lamas 2274, Salto, Salto",
+          "geo": {
+            "lat": -31.384,
+            "lng": -57.944
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-31.384000,-57.944000"
+        },
+        {
+          "name": "TaTa Hiper Salto",
+          "url": "http://www.tata.com.uy ",
+          "location": "Dr Fco Soca 220, Salto, Salto",
+          "geo": {
+            "lat": -31.387,
+            "lng": -57.955
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-31.387000,-57.955000"
+        },
+        {
+          "name": "TaTa Hiper Salto II",
+          "url": "http://www.tata.com.uy ",
+          "location": "Grito de Asencio 1499, Salto, Salto",
+          "geo": {
+            "lat": -31.372,
+            "lng": -57.962
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-31.372000,-57.962000"
+        },
+        {
+          "name": "TaTa San Jose",
+          "url": "http://www.tata.com.uy ",
+          "location": "Asamblea 620, San José De Mayo, San Jose",
+          "geo": {
+            "lat": -34.34,
+            "lng": -56.711
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.340000,-56.711000"
+        },
+        {
+          "name": "TaTa Solymar",
+          "url": "http://www.tata.com.uy ",
+          "location": "Av. Gianattasio Km 23.300 0, Solymar, Canelones",
+          "geo": {
+            "lat": -34.828,
+            "lng": -55.968
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.828000,-55.968000"
+        },
+        {
+          "name": "TaTa Mimatec 18 Tacuaremb",
+          "url": "http://www.tata.com.uy ",
+          "location": "18 de Julio 430, Tacuarembó, Tacuarembo",
+          "geo": {
+            "lat": -31.719,
+            "lng": -55.986
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-31.719000,-55.986000"
+        },
+        {
+          "name": "TaTa Glra Flores (Tcbo)",
+          "url": "http://www.tata.com.uy ",
+          "location": "Gral. Flores 315, Tacuarembó, Tacuarembo",
+          "geo": {
+            "lat": -31.716,
+            "lng": -55.982
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-31.716000,-55.982000"
+        },
+        {
+          "name": "TaTa Hiper Tacuarembo",
+          "url": "http://www.tata.com.uy ",
+          "location": "Joaquin Suárez 259, Tacuarembó, Tacuarembo",
+          "geo": {
+            "lat": -31.713,
+            "lng": -55.978
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-31.713000,-55.978000"
+        },
+        {
+          "name": "TaTa .Ferreira (Tcbo)",
+          "url": "http://www.tata.com.uy ",
+          "location": "Nelson Ferreira 130, Tacuarembó, Tacuarembo",
+          "geo": {
+            "lat": -31.722,
+            "lng": -55.977
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-31.722000,-55.977000"
+        },
+        {
+          "name": "TaTa Treinta Y Tres",
+          "url": "http://www.tata.com.uy ",
+          "location": "Juan. A Lavalleja 1774, Treinta Y Tres, Treinta Y Tres",
+          "geo": {
+            "lat": -33.234,
+            "lng": -54.386
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.234000,-54.386000"
+        },
+        {
+          "name": "TaTa Fondar (Trinidad)",
+          "url": "http://www.tata.com.uy ",
+          "location": "Francisco Fondar 785, Trinidad, Flores",
+          "geo": {
+            "lat": -33.52,
+            "lng": -56.898
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.520000,-56.898000"
+        },
+        {
+          "name": "TaTa Hiper Trinidad",
+          "url": "http://www.tata.com.uy ",
+          "location": "Presidente Berro 474, Trinidad, Flores",
+          "geo": {
+            "lat": -33.519,
+            "lng": -56.896
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.519000,-56.896000"
+        },
+        {
+          "name": "TaTa Young",
+          "url": "http://www.tata.com.uy ",
+          "location": "18 de Julio 1923, Young, Rio Negro",
+          "geo": {
+            "lat": -32.703,
+            "lng": -57.633
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.703000,-57.633000"
+        }
+      ]
+    },
+    {
+      "id": "oca-movie-directory",
+      "ruleIds": [
+        "oca-blue-movie-2x1"
+      ],
+      "sourceUrls": [
+        "https://api.movie.com.uy/api/concession/cinemas/list"
+      ],
+      "merchants": [
+        {
+          "name": "Movie Montevideo",
+          "location": "Montevideo Shopping, Av. Luis Alberto de Herrera 1290, Montevideo",
+          "geo": {
+            "lat": -34.903471,
+            "lng": -56.136638
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Movie/@-34.9034711,-56.1366379,17z/data=!3m1!4b1!4m6!3m5!1s0x959f813dff810887:0xf1b436131db05c1c!8m2!3d-34.9034711!4d-56.1366379!16s%2Fg%2F1tkc7vzt"
+        },
+        {
+          "name": "Movie Portones",
+          "location": "Portones Shopping, Av. Italia 5775, Montevideo",
+          "geo": {
+            "lat": -34.881495,
+            "lng": -56.081209
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Movie/@-34.8814947,-56.0812093,17z/data=!3m1!4b1!4m6!3m5!1s0x959f86efe48a391d:0x19c0b1ba9376f549!8m2!3d-34.8814947!4d-56.0812093!16s%2Fg%2F1tczg2c3"
+        },
+        {
+          "name": "Movie Punta Carretas",
+          "location": "Punta Carretas Shopping, F. García Cortinas 2484, Montevideo",
+          "geo": {
+            "lat": -34.924352,
+            "lng": -56.158852
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Movie/@-34.924352,-56.1588524,17z/data=!3m1!4b1!4m6!3m5!1s0x959f8177e36ec0c7:0x86bd2675603ad9a!8m2!3d-34.924352!4d-56.1588524!16s%2Fg%2F11c56538ln"
+        },
+        {
+          "name": "Movie Nuevocentro",
+          "location": "Nuevocentro Shopping, Luis Alberto de Herrera 3365, Montevideo",
+          "geo": {
+            "lat": -34.868711,
+            "lng": -56.170201
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Movie+Nuevocentro/@-34.8687111,-56.1702009,17z/data=!3m1!4b1!4m6!3m5!1s0x959f8070764ff37b:0xd07bf61a3ded1677!8m2!3d-34.8687111!4d-56.1702009!16s%2Fg%2F11cr_ymdrl"
+        }
+      ]
+    }
+  ]
+}

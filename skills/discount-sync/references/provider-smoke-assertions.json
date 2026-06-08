@@ -52,6 +52,48 @@
           "in-store"
         ]
       }
+    ],
+    "mustHaveLinkedMerchantLists": [
+      {
+        "id": "itau-san-roque-directory",
+        "ruleId": "itau-san-roque-premium-25",
+        "minMerchants": 45,
+        "maxMerchants": 60,
+        "mustContainMerchants": [
+          "San Roque 01 - Cordón",
+          "San Roque 63 - Comercio"
+        ]
+      },
+      {
+        "id": "itau-san-roque-directory",
+        "ruleId": "itau-san-roque-general-15",
+        "minMerchants": 45,
+        "maxMerchants": 60,
+        "mustContainMerchants": [
+          "San Roque 01 - Cordón",
+          "San Roque 63 - Comercio"
+        ]
+      },
+      {
+        "id": "itau-movie-directory",
+        "ruleId": "itau-movie-debito-volar-2x1",
+        "minMerchants": 4,
+        "maxMerchants": 4,
+        "mustContainMerchants": [
+          "Movie Montevideo",
+          "Movie Nuevocentro"
+        ]
+      },
+      {
+        "id": "itau-iplace-directory",
+        "ruleId": "itau-iplace-personal-bank-15",
+        "minMerchants": 3,
+        "maxMerchants": 3,
+        "mustContainMerchants": [
+          "iPlace Montevideo Shopping",
+          "iPlace Nuevocentro Shopping"
+        ]
+      }
     ]
   },
   "santander": {
@@ -212,6 +254,67 @@
         ],
         "capIncludes": "$500"
       }
+    ],
+    "mustHaveLinkedMerchantLists": [
+      {
+        "id": "brou-tata-directory",
+        "ruleId": "brou-tata-recompensa-10",
+        "minMerchants": 80,
+        "maxMerchants": 95,
+        "mustContainMerchants": [
+          "Ta-Ta Hiper Artigas",
+          "Ta-Ta Young"
+        ]
+      },
+      {
+        "id": "brou-el-dorado-directory",
+        "ruleId": "brou-el-dorado-recompensa-10",
+        "minMerchants": 70,
+        "maxMerchants": 80,
+        "mustContainMerchants": [
+          "El Dorado Ciudad de Aiguá",
+          "El Dorado Punta del Este - Av. Francia"
+        ]
+      },
+      {
+        "id": "brou-macro-mercado-directory",
+        "ruleId": "brou-macro-mercado-recompensa-10",
+        "minMerchants": 9,
+        "maxMerchants": 9,
+        "mustContainMerchants": [
+          "Macro Mercado Colonia N°17",
+          "Macro Mercado Carrasco N°3"
+        ]
+      },
+      {
+        "id": "brou-tienda-inglesa-directory",
+        "ruleId": "brou-tienda-inglesa-recompensa-10",
+        "minMerchants": 18,
+        "maxMerchants": 25,
+        "mustContainMerchants": [
+          "Tienda Inglesa Car One",
+          "Tienda Inglesa Atlántico"
+        ]
+      },
+      {
+        "id": "brou-micro-macro-directory",
+        "ruleId": "brou-micro-macro-recompensa-10",
+        "minMerchants": 6,
+        "maxMerchants": 6,
+        "mustContainMerchants": [
+          "Micro Macro San José N°42",
+          "Micro Macro Piriápolis N°40"
+        ]
+      },
+      {
+        "id": "brou-red-expres-directory",
+        "ruleId": "brou-red-expres-recompensa-10",
+        "minMerchants": 1,
+        "maxMerchants": 3,
+        "mustContainMerchants": [
+          "Red Expres Abast Florida - local 240"
+        ]
+      }
     ]
   },
   "oca": {
@@ -238,6 +341,48 @@
         ],
         "notesIncludes": "2x1"
       }
+    ],
+    "mustHaveLinkedMerchantLists": [
+      {
+        "id": "oca-macro-mercado-directory",
+        "ruleId": "oca-macro-mercado-installments",
+        "minMerchants": 9,
+        "maxMerchants": 9,
+        "mustContainMerchants": [
+          "Macro Mercado Colonia N°17",
+          "Macro Mercado Carrasco N°3"
+        ]
+      },
+      {
+        "id": "oca-macro-mercado-directory",
+        "ruleId": "oca-blue-macro-mercado-10",
+        "minMerchants": 9,
+        "maxMerchants": 9,
+        "mustContainMerchants": [
+          "Macro Mercado Colonia N°17",
+          "Macro Mercado Carrasco N°3"
+        ]
+      },
+      {
+        "id": "oca-tata-directory",
+        "ruleId": "oca-tata-general-20",
+        "minMerchants": 80,
+        "maxMerchants": 95,
+        "mustContainMerchants": [
+          "TaTa Hiper Artigas",
+          "TaTa Young"
+        ]
+      },
+      {
+        "id": "oca-movie-directory",
+        "ruleId": "oca-blue-movie-2x1",
+        "minMerchants": 4,
+        "maxMerchants": 4,
+        "mustContainMerchants": [
+          "Movie Montevideo",
+          "Movie Nuevocentro"
+        ]
+      }
     ]
   },
   "prex": {
@@ -260,6 +405,28 @@
       "Movie",
       "Samsung",
       "Salados"
+    ],
+    "mustHaveLinkedMerchantLists": [
+      {
+        "id": "antel-movie-directory",
+        "ruleId": "antel-movie-2x1",
+        "minMerchants": 4,
+        "maxMerchants": 4,
+        "mustContainMerchants": [
+          "Movie Montevideo",
+          "Movie Nuevocentro"
+        ]
+      },
+      {
+        "id": "antel-iplace-directory",
+        "ruleId": "antel-iplace-originales-25",
+        "minMerchants": 3,
+        "maxMerchants": 3,
+        "mustContainMerchants": [
+          "iPlace Montevideo Shopping",
+          "iPlace Nuevocentro Shopping"
+        ]
+      }
     ]
   },
   "club-el-pais": {
