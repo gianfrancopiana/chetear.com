@@ -82,19 +82,6 @@ function DetailBody({ rule }: { rule: DiscountItem }) {
       )}
 
       <section className="mt-8 border-t border-rule pt-8 flex flex-col gap-2 text-[13px] text-ink-3">
-        {rule.merchantMapsUrl && (
-          <a
-            href={rule.merchantMapsUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-1.5 text-ink-2 underline decoration-ink-4 underline-offset-[3px] hover:text-ink w-fit"
-          >
-            Abrir en Google Maps
-            <svg width="12" height="12" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth={1.7} strokeLinecap="round" strokeLinejoin="round">
-              <path d="M5 5h10v10M5 15L15 5" />
-            </svg>
-          </a>
-        )}
         {sourceUrl && (
           <a
             href={sourceUrl}

@@ -160,7 +160,8 @@ function betterListRepresentative(candidate: DiscountItem, current: DiscountItem
  * The map needs every geocoded merchant-directory entry so chains render many
  * pins. The list should not show the same chain once per branch, though: collapse
  * same-named merchant-directory branches into one representative row and surface
- * the branch count as the row's location text.
+ * the branch count as the row's location text. Do not carry a representative
+ * branch directions URL onto the aggregate row; directions belong on map pins.
  */
 // Synthetic id for a chain-merged row: prefix + group key. sortByProximity reads
 // the key back (via groupKeyFromMergedId) to attach the chain's nearest-branch
@@ -193,7 +194,7 @@ export function mergeChainDiscountRows(items: DiscountItem[]): DiscountItem[] {
         merchantUrl: undefined,
         merchantLocation: item.merchantLocation,
         merchantGeo: undefined,
-        merchantMapsUrl: item.merchantMapsUrl, // kept (for the detail's Maps link); geo is still dropped
+        merchantMapsUrl: undefined,
         parentMerchant: item.parentMerchant,
         listId: undefined,
         merchantIndex: undefined,
@@ -214,7 +215,7 @@ export function mergeChainDiscountRows(items: DiscountItem[]): DiscountItem[] {
         merchantUrl: undefined,
         merchantLocation: existing.item.merchantLocation,
         merchantGeo: undefined,
-        merchantMapsUrl: item.merchantMapsUrl, // kept (for the detail's Maps link); geo is still dropped
+        merchantMapsUrl: undefined,
         parentMerchant: item.parentMerchant,
         listId: undefined,
         merchantIndex: undefined,
