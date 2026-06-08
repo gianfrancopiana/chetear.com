@@ -36,8 +36,9 @@ interface SearchDataset {
  * fields like `benefitType`) don't silently drive a stale render.
  *   v2 → v3: dropped `prices` array
  *   v3 → v4: added `benefitType` (discount/iva-points/2-for-1/installments/gift)
+ *   v4 → v5: forced refresh after geocoded category/location fixes
  */
-const SEARCH_CACHE_KEY = "chetear-search-cache-v4";
+const SEARCH_CACHE_KEY = "chetear-search-cache-v5";
 const RECENT_KEY = "chetear-recent-searches";
 const MAX_RECENT = 6;
 const OPEN_DURATION_MS = 220;

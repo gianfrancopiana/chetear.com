@@ -37,9 +37,9 @@ import {
 import { escapeHtml } from "../lib/strings";
 import { loadJSON, saveJSON } from "../lib/storage";
 
-// Bumped to v5 when merchant geo + mapsUrl were added to the cached shape, so
-// clients holding a pre-geo cache refetch instead of rendering a map with no pins.
-const DISCOUNTS_CACHE_KEY = "chetear-discounts-cache-v5";
+// Bumped to v6 after geocoded category fixes so clients holding a pre-fix
+// cache (for example Cymaco under Otros instead of Hogar) fetch fresh data.
+const DISCOUNTS_CACHE_KEY = "chetear-discounts-cache-v6";
 
 let cleanupHomeDiscountsPage: (() => void) | null = null;
 /*
