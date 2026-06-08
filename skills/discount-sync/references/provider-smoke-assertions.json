@@ -197,6 +197,17 @@
         "mustContainMerchants": [
           "Samsung Store"
         ]
+      },
+      {
+        "id": "santander-cymaco-locations",
+        "merchantName": "Cymaco",
+        "minMerchants": 3,
+        "maxMerchants": 3,
+        "mustContainMerchants": [
+          "Cymaco Montevideo",
+          "Cymaco Maldonado",
+          "Cymaco Ciudad de la Costa"
+        ]
       }
     ]
   },

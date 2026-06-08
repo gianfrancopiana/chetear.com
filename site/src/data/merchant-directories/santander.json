@@ -5781,7 +5781,7 @@
       ],
       "merchants": [
         {
-          "name": "Cymaco",
+          "name": "Cymaco Montevideo",
           "location": "Cymaco, Bulevar José Batlle y Ordóñez, Unión, Montevideo, 11600",
           "geo": {
             "lat": -34.885968,
@@ -5790,7 +5790,7 @@
           "mapsUrl": "https://www.google.com/maps/dir//-34.885968,-56.138427"
         },
         {
-          "name": "Cymaco",
+          "name": "Cymaco Maldonado",
           "location": "Cymaco, Avenida Martiniano Chiossi, Sarubbi, Maldonado, 20000",
           "geo": {
             "lat": -34.913719,
@@ -5799,7 +5799,7 @@
           "mapsUrl": "https://www.google.com/maps/dir//-34.913719,-54.952721"
         },
         {
-          "name": "Cymaco",
+          "name": "Cymaco Ciudad de la Costa",
           "location": "Cymaco, Avenida Ingeniero Luis Giannattasio, San José de Carrasco, Ciudad de la Costa, Municipio de Ciudad de la Costa, Canelones, 15002",
           "geo": {
             "lat": -34.842657,
