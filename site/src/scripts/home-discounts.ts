@@ -18,6 +18,7 @@ import {
   INITIAL_VISIBLE_DISCOUNTS,
   mergeChainDiscountRows,
   providerMeta,
+  rowLocationText,
   sortByProximity,
   TARJETAS_STORAGE_KEY,
   VISIBLE_DISCOUNT_STEP,
@@ -247,10 +248,11 @@ export default function initHomeDiscountsPage(): void {
   function renderDiscountRow(rule: DiscountItem, index: number, total: number, stagger: boolean, distance?: string): string {
     const meta = providerMeta(rule.provider);
     const divider = index < total - 1 ? " border-b border-[oklch(0.95_0.006_60)]" : "";
-    // Proximity-ordered rows show the distance in place of location + category.
+    // Proximity-ordered rows show the distance in place of category.
+    const rowLocation = rowLocationText(rule);
     const metaTail = distance
       ? `<span style="color:oklch(0.65 0.01 60)">·</span><span class="font-medium text-ink-2">a ${escapeHtml(distance)}</span>`
-      : `${rule.merchantLocation ? `<span style="color:oklch(0.65 0.01 60)">·</span><span>${escapeHtml(rule.merchantLocation)}</span>` : ""}<span data-row-cat class="inline-flex items-center gap-[5px]"><span style="color:oklch(0.65 0.01 60)">·</span><span>${escapeHtml(rule.categoryLabel)}</span></span>`;
+      : `${rowLocation ? `<span style="color:oklch(0.65 0.01 60)">·</span><span>${escapeHtml(rowLocation)}</span>` : ""}<span data-row-cat class="inline-flex items-center gap-[5px]"><span style="color:oklch(0.65 0.01 60)">·</span><span>${escapeHtml(rule.categoryLabel)}</span></span>`;
     const { className: staggerClass, styleFragment: staggerStyle } = staggerAttrs(index, stagger);
     const styleAttr = staggerStyle ? ` style="${staggerStyle}"` : "";
     const chip = benefitChip(rule);

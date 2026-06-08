@@ -103,6 +103,14 @@ export function providerMeta(provider: string): { color: string; label: string }
   return PROVIDER_META[provider] ?? { color: UNKNOWN_PROVIDER_COLOR, label: provider };
 }
 
+const BRANCH_COUNT_LOCATION_RE = /^\d+\s+sucursales$/i;
+
+export function rowLocationText(rule: Pick<DiscountItem, "merchantLocation">): string | undefined {
+  const location = rule.merchantLocation?.trim();
+  if (!location) return undefined;
+  return BRANCH_COUNT_LOCATION_RE.test(location) ? location : undefined;
+}
+
 export function filterDiscounts(
   allRules: DiscountItem[],
   selectedDay: string,

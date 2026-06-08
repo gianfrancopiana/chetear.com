@@ -7,6 +7,7 @@ import {
   formatDistance,
   mergeChainDiscountRows,
   providerMeta,
+  rowLocationText,
   sortByProximity,
 } from "../lib/discounts-ui";
 import { benefitChip } from "../lib/condition-format";
@@ -47,6 +48,7 @@ const VISIBLE_STEP = 20;
 function Card({ item, distance }: { item: DiscountItem; distance?: string }) {
   const meta = providerMeta(item.provider);
   const chip = benefitChip(item);
+  const rowLocation = rowLocationText(item);
   return (
     <a
       href={discountDetailHref(item)}
@@ -86,10 +88,10 @@ function Card({ item, distance }: { item: DiscountItem; distance?: string }) {
             </>
           ) : (
             <>
-              {item.merchantLocation && (
+              {rowLocation && (
                 <>
                   <span style={{ color: "oklch(0.65 0.01 60)" }}>·</span>
-                  <span className="truncate">{item.merchantLocation}</span>
+                  <span className="truncate">{rowLocation}</span>
                 </>
               )}
               <span data-row-cat className="inline-flex items-center gap-[5px]">

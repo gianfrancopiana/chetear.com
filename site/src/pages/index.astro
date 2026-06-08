@@ -15,6 +15,7 @@ import {
   filterDiscounts,
   INITIAL_VISIBLE_DISCOUNTS,
   providerMeta,
+  rowLocationText,
 } from "../lib/discounts-ui";
 
 const todayIso = getTodayIso();
@@ -85,6 +86,7 @@ const initialVisible = initialFiltered.slice(0, INITIAL_VISIBLE_DISCOUNTS);
           {initialVisible.map((rule, index) => {
             const meta = providerMeta(rule.provider);
             const chip = benefitChip(rule);
+            const rowLocation = rowLocationText(rule);
             return (
               <a
                 href={discountDetailHref(rule)}
@@ -116,10 +118,10 @@ const initialVisible = initialFiltered.slice(0, INITIAL_VISIBLE_DISCOUNTS);
                       style={`width: 5px; height: 5px; background: ${meta.color};`}
                     />
                     <span>{meta.label}</span>
-                    {rule.merchantLocation && (
+                    {rowLocation && (
                       <>
                         <span style="color: oklch(0.65 0.01 60);">·</span>
-                        <span>{rule.merchantLocation}</span>
+                        <span>{rowLocation}</span>
                       </>
                     )}
                     <span data-row-cat class="inline-flex items-center gap-[5px]">
