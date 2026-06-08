@@ -100,10 +100,11 @@ Procedure, once per merchant/rule (skip any entry that already has `geo`):
    - **Single clear place** → read its coordinates from the resolved
      `…/place/…/@lat,lng…` URL, capture that canonical place URL, and for a
      direct discount rule add a clear address/locality as `location` when useful.
-   - **Multiple exact branch results and the task explicitly asks for every
-     location** → split the original merchant into one branch entry per exact
-     place result, preserving the original source URL and adding the branch
-     address as `location`.
+   - **Chain-wide direct discount with many branches** → do not put one fake
+     `geo` on the parent chain rule. Give the parent rule a stable `id` if it
+     lacks one, create/update a provider merchant-list linked through
+     `ruleIds`, and add one merchant entry per eligible branch with its own
+     `location`, `geo`, and `mapsUrl`.
    - **Ambiguous / several unrelated results / a multi-branch chain with no
      exact branch confidence** → do not guess. Leave the merchant without `geo`;
      the search link still lets the user pick the right place at tap time.
@@ -126,6 +127,10 @@ Rules:
   and if it blocks/captchas, stop and report rather than working around it.
 - **Preserve.** A directory or discount refresh must keep existing
   `location`/`geo`/`mapsUrl` fields on stable entries it is not changing.
+- **Chains.** Chains like San Roque/Farmashop should be represented as branch
+  merchant-list entries when the benefit applies across branches. Leave the
+  chain unplaced if the branch list or eligibility is not clear; never use a
+  headquarters/store-locator centroid as the map pin.
 
 The daily contract for this pass lives in `../../automation/daily-sync.md`
 under "Daily merchant geocoding".

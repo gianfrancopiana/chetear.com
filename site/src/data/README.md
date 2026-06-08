@@ -69,8 +69,10 @@ runtime JSON on both:
   `rules[]`
 
 Use these fields only for a named physical merchant that can be confidently
-placed. Broad/category rules, online-only benefits, delivery apps without a
-specific branch, and ambiguous chains should omit `geo`.
+placed. Broad/category rules, online-only benefits, and delivery apps without a
+specific branch should omit `geo`. Chains should not receive one parent pin;
+when a chain-wide benefit has a reliable branch list, model those branches as a
+merchant list linked to the parent discount rule and put `geo` on each branch.
 
 - They are filled by the **daily agent**, not the directory scrape: the agent
   opens the merchant's Google Maps search link in the browser, reads the place

@@ -675,7 +675,12 @@
         {
           "name": "La Panera Rosa",
           "url": "https://www.instagram.com/lapanerarosa.uy/",
-          "location": "Punta del Este"
+          "location": "Punta del Este",
+          "geo": {
+            "lat": -34.959141,
+            "lng": -54.943963
+          },
+          "mapsUrl": "https://www.google.com/maps/place/La+Panera+Rosa+Punta+del+Este/@-34.9591406,-54.9465433,17z/data=!3m1!4b1!4m6!3m5!1s0x9575052b8da2dfa3:0xd78c7944cca54745!8m2!3d-34.9591406!4d-54.943963!16s%2Fg%2F11qrrzt4sx"
         },
         {
           "name": "Las Brisas (Enjoy)",
