@@ -10,6 +10,7 @@ import {
   sortByProximity,
 } from "../lib/discounts-ui";
 import { benefitChip } from "../lib/condition-format";
+import { plural } from "../lib/strings";
 import { useMediaQuery } from "../lib/use-media-query";
 import {
   DISCOUNTS_FILTERED_EVENT,
@@ -106,17 +107,35 @@ function Card({ item, distance }: { item: DiscountItem; distance?: string }) {
   );
 }
 
+// Placeholder row shown while the controller is still fetching the discount set
+// (mirrors the Card layout so the list doesn't jump when real rows arrive).
+function SkeletonRow() {
+  return (
+    <div className="flex items-center gap-3 border-b border-[oklch(0.95_0.006_60)] px-4 py-3.5">
+      <div className="h-7 w-11 shrink-0 rounded bg-[oklch(0.93_0.006_60)]" />
+      <div className="min-w-0 flex-1 space-y-2">
+        <div className="h-3.5 w-2/5 rounded bg-[oklch(0.93_0.006_60)]" />
+        <div className="h-2.5 w-3/5 rounded bg-[oklch(0.93_0.006_60)]" />
+      </div>
+    </div>
+  );
+}
+
 export default function MobileSheet() {
   const isMobile = useMediaQuery("(max-width: 1023.98px)");
-  const [items, setItems] = useState<DiscountItem[]>(() => window.__chetearFilteredItems ?? []);
+  // `items` is null until the controller broadcasts the first filtered set, so
+  // we can tell "still loading" (the controller fetches /api/discounts.json in
+  // prod) from a genuinely empty result: null → skeleton, [] → "sin resultados".
+  const [items, setItems] = useState<DiscountItem[] | null>(() => window.__chetearFilteredItems ?? null);
   const [userLoc, setUserLoc] = useState<{ lat: number; lng: number } | null>(
     () => window.__chetearUserLocation ?? null,
   );
-  const displayItems = useMemo(() => mergeChainDiscountRows(items), [items]);
+  const loading = items === null;
+  const displayItems = useMemo(() => (items ? mergeChainDiscountRows(items) : []), [items]);
   // Once the user sets a location, order the whole list by proximity (nearest
   // places first, with distances; location-less benefits keep their order after).
   const ordered = useMemo(
-    () => (userLoc ? sortByProximity(displayItems, items, userLoc) : displayItems.map((item) => ({ item }))),
+    () => (userLoc && items ? sortByProximity(displayItems, items, userLoc) : displayItems.map((item) => ({ item }))),
     [displayItems, items, userLoc],
   );
   const [snap, setSnap] = useState<number | string | null>(HALF);
@@ -266,14 +285,31 @@ export default function MobileSheet() {
           >
             <Drawer.Handle className="!my-3 !bg-[oklch(0.85_0.01_60)]" />
             <Drawer.Title className="px-4 pb-2 text-[13px] font-medium text-ink-3">
-              {displayItems.length} beneficios
+              {loading ? "Buscando beneficios…" : plural(displayItems.length, "beneficio")}
             </Drawer.Title>
             <Drawer.Description className="sr-only">Lista de beneficios en el área del mapa</Drawer.Description>
             <div ref={scrollRef} className="min-h-0 flex-1 overflow-y-auto overscroll-contain pb-24">
-              {visible.map(({ item, km }) => (
-                <Card key={item.id} item={item} distance={km !== undefined ? formatDistance(km) : undefined} />
-              ))}
-              <div ref={sentinelRef} className="h-px" />
+              {loading ? (
+                <div className="animate-pulse">
+                  {Array.from({ length: 7 }, (_, i) => (
+                    <SkeletonRow key={i} />
+                  ))}
+                </div>
+              ) : ordered.length === 0 ? (
+                <div className="px-6 py-16 text-center">
+                  <div className="text-[17px] font-medium text-ink">Sin resultados</div>
+                  <div className="mt-1 text-[13px] leading-relaxed text-ink-3">
+                    No encontramos beneficios para este filtro.
+                  </div>
+                </div>
+              ) : (
+                <>
+                  {visible.map(({ item, km }) => (
+                    <Card key={item.id} item={item} distance={km !== undefined ? formatDistance(km) : undefined} />
+                  ))}
+                  <div ref={sentinelRef} className="h-px" />
+                </>
+              )}
             </div>
           </Drawer.Content>
         </Drawer.Portal>

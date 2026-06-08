@@ -183,7 +183,7 @@ export function mergeChainDiscountRows(items: DiscountItem[]): DiscountItem[] {
         merchantUrl: undefined,
         merchantLocation: item.merchantLocation,
         merchantGeo: undefined,
-        merchantMapsUrl: undefined,
+        merchantMapsUrl: item.merchantMapsUrl, // kept (for the detail's Maps link); geo is still dropped
         parentMerchant: item.parentMerchant,
         listId: undefined,
         merchantIndex: undefined,
@@ -204,7 +204,7 @@ export function mergeChainDiscountRows(items: DiscountItem[]): DiscountItem[] {
         merchantUrl: undefined,
         merchantLocation: existing.item.merchantLocation,
         merchantGeo: undefined,
-        merchantMapsUrl: undefined,
+        merchantMapsUrl: item.merchantMapsUrl, // kept (for the detail's Maps link); geo is still dropped
         parentMerchant: item.parentMerchant,
         listId: undefined,
         merchantIndex: undefined,
