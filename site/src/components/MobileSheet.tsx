@@ -77,8 +77,10 @@ function Card({ item }: { item: DiscountItem }) {
               <span className="truncate">{item.merchantLocation}</span>
             </>
           )}
-          <span style={{ color: "oklch(0.65 0.01 60)" }}>·</span>
-          <span>{item.categoryLabel}</span>
+          <span data-row-cat className="inline-flex items-center gap-[5px]">
+            <span style={{ color: "oklch(0.65 0.01 60)" }}>·</span>
+            <span>{item.categoryLabel}</span>
+          </span>
         </div>
       </div>
       <svg width="14" height="14" viewBox="0 0 20 20" fill="none" className="shrink-0">

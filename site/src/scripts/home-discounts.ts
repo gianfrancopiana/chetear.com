@@ -268,8 +268,7 @@ export default function initHomeDiscountsPage(): void {
           <span class="shrink-0 inline-block rounded-full" style="width:5px;height:5px;background:${meta.color}"></span>
           <span>${escapeHtml(meta.label)}</span>
           ${locationPart}
-          <span style="color:oklch(0.65 0.01 60)">·</span>
-          <span>${escapeHtml(rule.categoryLabel)}</span>
+          <span data-row-cat class="inline-flex items-center gap-[5px]"><span style="color:oklch(0.65 0.01 60)">·</span><span>${escapeHtml(rule.categoryLabel)}</span></span>
         </div>
       </div>
       <svg width="14" height="14" viewBox="0 0 20 20" fill="none" class="shrink-0">
@@ -303,6 +302,12 @@ export default function initHomeDiscountsPage(): void {
     // separately with mergeChainDiscountRows.
     window.__chetearFilteredItems = filtered;
     window.dispatchEvent(new CustomEvent(DISCOUNTS_FILTERED_EVENT, { detail: { items: filtered } }));
+
+    // With a specific category selected, the per-row category label is
+    // redundant (every row shares it). CSS keys off this body flag to hide it
+    // (reaches the portaled mobile sheet too); "todo" shows it again.
+    if (cat === "todo") delete document.body.dataset.catActive;
+    else document.body.dataset.catActive = "true";
 
     renderControls();
 

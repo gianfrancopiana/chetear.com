@@ -122,8 +122,10 @@ const initialVisible = initialFiltered.slice(0, INITIAL_VISIBLE_DISCOUNTS);
                         <span>{rule.merchantLocation}</span>
                       </>
                     )}
-                    <span style="color: oklch(0.65 0.01 60);">·</span>
-                    <span>{rule.categoryLabel}</span>
+                    <span data-row-cat class="inline-flex items-center gap-[5px]">
+                      <span style="color: oklch(0.65 0.01 60);">·</span>
+                      <span>{rule.categoryLabel}</span>
+                    </span>
                   </div>
                 </div>
                 <svg width="14" height="14" viewBox="0 0 20 20" fill="none" class="shrink-0">
@@ -240,4 +242,12 @@ const initialVisible = initialFiltered.slice(0, INITIAL_VISIBLE_DISCOUNTS);
   @media (min-width: 1024px) {
     [data-discounts-page] ~ [data-bottom-spacer] { padding-bottom: 0; }
   }
+
+  /*
+   * When a specific category is selected (not "Todo"), every list/sheet row
+   * shares that category, so the per-row "· Categoría" label is redundant —
+   * hide it. home-discounts.ts sets body[data-cat-active] on filter; the global
+   * selector also reaches the mobile sheet, which is portaled to <body>.
+   */
+  body[data-cat-active="true"] [data-row-cat] { display: none; }
 </style>
