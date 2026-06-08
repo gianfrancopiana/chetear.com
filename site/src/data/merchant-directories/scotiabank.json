@@ -1,0 +1,500 @@
+{
+  "provider": "scotiabank",
+  "label": "Scotiabank",
+  "lists": [
+    {
+      "id": "scotiabank-farmacity-locations",
+      "merchantNames": [
+        "Farmacity"
+      ],
+      "sourceUrls": [
+        "https://nominatim.openstreetmap.org/"
+      ],
+      "merchants": [
+        {
+          "name": "farmacity",
+          "location": "farmacity, 2753, 21 de Setiembre, Punta Carretas, Montevideo, 11311",
+          "geo": {
+            "lat": -34.917592,
+            "lng": -56.157242
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.917592,-56.157242"
+        },
+        {
+          "name": "farmacity",
+          "location": "farmacity, 3076, Avenida Brasil, Pocitos, Montevideo, 11300",
+          "geo": {
+            "lat": -34.91366,
+            "lng": -56.14999
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.913660,-56.149990"
+        },
+        {
+          "name": "farmacity",
+          "location": "farmacity, 3250, Avenida Italia, Parque Batlle, Montevideo, 11820",
+          "geo": {
+            "lat": -34.887857,
+            "lng": -56.144574
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.887857,-56.144574"
+        },
+        {
+          "name": "farmacity",
+          "location": "farmacity, 1246, Avenida Luis Alberto de Herrera, La Mondiola, Buceo, Montevideo, 11300",
+          "geo": {
+            "lat": -34.904583,
+            "lng": -56.13699
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.904583,-56.136990"
+        },
+        {
+          "name": "farmacity",
+          "location": "farmacity, Calle 22, La Lata, Atlántida, Municipio de Parque del Plata, Canelones, 16000",
+          "geo": {
+            "lat": -34.771676,
+            "lng": -55.761116
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.771676,-55.761116"
+        }
+      ]
+    },
+    {
+      "id": "scotiabank-kinko-locations",
+      "merchantNames": [
+        "Kinko"
+      ],
+      "sourceUrls": [
+        "https://nominatim.openstreetmap.org/"
+      ],
+      "merchants": [
+        {
+          "name": "Kinko",
+          "location": "Kinko, 1347, Avenida Ingeniero Luis P. Ponce, Parque Rodó, Montevideo, 11601",
+          "geo": {
+            "lat": -34.902922,
+            "lng": -56.161723
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.902922,-56.161723"
+        },
+        {
+          "name": "Kinko",
+          "location": "Kinko, 2753, Bulevar España, Pocitos, Montevideo, 11300",
+          "geo": {
+            "lat": -34.913863,
+            "lng": -56.153368
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.913863,-56.153368"
+        },
+        {
+          "name": "Kinko",
+          "location": "Kinko, 548, José Ellauri, Punta Carretas, Montevideo, 11303",
+          "geo": {
+            "lat": -34.920723,
+            "lng": -56.156887
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.920723,-56.156887"
+        },
+        {
+          "name": "Kinko",
+          "location": "Kinko, 2142, Avenida General Rivera, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.902303,
+            "lng": -56.169383
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.902303,-56.169383"
+        },
+        {
+          "name": "Kinko",
+          "location": "Kinko, 2471, Avenida Sarmiento, Punta Carretas, Montevideo, 11311",
+          "geo": {
+            "lat": -34.914355,
+            "lng": -56.15966
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.914355,-56.159660"
+        },
+        {
+          "name": "Kinko",
+          "location": "Kinko, 798, Tomás Diago, Pocitos, Montevideo, 11311",
+          "geo": {
+            "lat": -34.916691,
+            "lng": -56.152155
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.916691,-56.152155"
+        },
+        {
+          "name": "Kinko",
+          "location": "Kinko, 1184, Juan Benito Blanco, La Mondiola, Pocitos, Montevideo, 11300",
+          "geo": {
+            "lat": -34.910987,
+            "lng": -56.145465
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.910987,-56.145465"
+        },
+        {
+          "name": "Kinko",
+          "location": "Kinko, Soriano, Centro, Montevideo, 11114",
+          "geo": {
+            "lat": -34.907276,
+            "lng": -56.184664
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.907276,-56.184664"
+        },
+        {
+          "name": "Kinko",
+          "location": "Kinko, 2854, Avenida Doctor Américo Ricaldoni, Parque Batlle, Montevideo, 11601",
+          "geo": {
+            "lat": -34.898926,
+            "lng": -56.15411
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.898926,-56.154110"
+        },
+        {
+          "name": "Kinko",
+          "location": "Kinko, Mercedes, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.900775,
+            "lng": -56.178153
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900775,-56.178153"
+        },
+        {
+          "name": "Kinko",
+          "location": "Kinko, 2231, Bulevar España, Parque Rodó, Montevideo, 11200",
+          "geo": {
+            "lat": -34.909292,
+            "lng": -56.167701
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.909292,-56.167701"
+        },
+        {
+          "name": "Kinko",
+          "location": "Kinko, Avenida Luis Alberto de Herrera, Jacinto Vera, Montevideo, 12000",
+          "geo": {
+            "lat": -34.867883,
+            "lng": -56.169793
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.867883,-56.169793"
+        },
+        {
+          "name": "Kinko",
+          "location": "Kinko, 4700, Avenida General Rivera, Malvín Nuevo, Montevideo, 11400",
+          "geo": {
+            "lat": -34.891344,
+            "lng": -56.109091
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.891344,-56.109091"
+        },
+        {
+          "name": "Kinko",
+          "location": "Kinko, General Máximo Tajes, Carrasco Norte, Montevideo, 11500",
+          "geo": {
+            "lat": -34.876792,
+            "lng": -56.06697
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.876792,-56.066970"
+        },
+        {
+          "name": "Kinko",
+          "location": "Kinko, 2846, Estero Bellaco, La Blanqueada, Montevideo, 11820",
+          "geo": {
+            "lat": -34.889028,
+            "lng": -56.157465
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.889028,-56.157465"
+        }
+      ]
+    },
+    {
+      "id": "scotiabank-mistral-locations",
+      "merchantNames": [
+        "Mistral"
+      ],
+      "sourceUrls": [
+        "https://nominatim.openstreetmap.org/"
+      ],
+      "merchants": [
+        {
+          "name": "Mistral",
+          "location": "Mistral, Avenida 8 de Octubre, La Blanqueada, Montevideo, 11820",
+          "geo": {
+            "lat": -34.879614,
+            "lng": -56.149006
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.879614,-56.149006"
+        },
+        {
+          "name": "Mistral",
+          "location": "Mistral, Avenida 18 de Julio, Centro, Montevideo, 11114",
+          "geo": {
+            "lat": -34.905351,
+            "lng": -56.185575
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.905351,-56.185575"
+        },
+        {
+          "name": "Mistral",
+          "location": "Mistral, Avenida Ingeniero Luis Giannattasio, Parque Miramar, Barra de Carrasco, Ciudad de la Costa, Municipio de Paso Carrasco, Canelones",
+          "geo": {
+            "lat": -34.865865,
+            "lng": -56.024554
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.865865,-56.024554"
+        },
+        {
+          "name": "Mistral",
+          "location": "Mistral, Avenida Ingeniero Luis Giannattasio, San José de Carrasco, Ciudad de la Costa, Municipio de Ciudad de la Costa, Canelones, 15002",
+          "geo": {
+            "lat": -34.841047,
+            "lng": -55.993665
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.841047,-55.993665"
+        },
+        {
+          "name": "Avenida Gabriela Mistral",
+          "location": "Avenida Gabriela Mistral, Prado, Montevideo, 11700",
+          "geo": {
+            "lat": -34.854721,
+            "lng": -56.206536
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.854721,-56.206536"
+        },
+        {
+          "name": "Gabriela Mistral",
+          "location": "Gabriela Mistral, Paso Carrasco, Municipio de Paso Carrasco, Canelones, 15000",
+          "geo": {
+            "lat": -34.865255,
+            "lng": -56.053724
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.865255,-56.053724"
+        },
+        {
+          "name": "Avenida Gabriela Mistral",
+          "location": "Avenida Gabriela Mistral, Paso de las Duranas, Montevideo, 11700",
+          "geo": {
+            "lat": -34.854779,
+            "lng": -56.206166
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.854779,-56.206166"
+        },
+        {
+          "name": "Gabriela Mistral",
+          "location": "Gabriela Mistral, Real de San Carlos, Colonia del Sacramento, Colonia, 70000",
+          "geo": {
+            "lat": -34.447053,
+            "lng": -57.849619
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.447053,-57.849619"
+        },
+        {
+          "name": "Gabriela Mistral",
+          "location": "Gabriela Mistral, Las Piedras, Municipio de Las Piedras, Canelones, 90200",
+          "geo": {
+            "lat": -34.719114,
+            "lng": -56.209942
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.719114,-56.209942"
+        },
+        {
+          "name": "Gabriela Mistral",
+          "location": "Gabriela Mistral, 18 de Mayo, Municipio de Las Piedras, Canelones, 90300",
+          "geo": {
+            "lat": -34.685957,
+            "lng": -56.218283
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.685957,-56.218283"
+        },
+        {
+          "name": "Gabriela Mistral",
+          "location": "Gabriela Mistral, Parque Miramar, Barra de Carrasco, Ciudad de la Costa, Municipio de Paso Carrasco, Canelones, 15000",
+          "geo": {
+            "lat": -34.865075,
+            "lng": -56.031476
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.865075,-56.031476"
+        },
+        {
+          "name": "Gabriela Mistral",
+          "location": "Gabriela Mistral, El Placer, Punta Del Este, Maldonado, 20100",
+          "geo": {
+            "lat": -34.925325,
+            "lng": -54.900588
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.925325,-54.900588"
+        },
+        {
+          "name": "Gabriela Mistral",
+          "location": "Gabriela Mistral, Puerto Seco, Río Branco, Cerro Largo, 37100",
+          "geo": {
+            "lat": -32.602331,
+            "lng": -53.396842
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.602331,-53.396842"
+        },
+        {
+          "name": "Gabriela Mistral",
+          "location": "Gabriela Mistral, Cardona, Soriano, 75200",
+          "geo": {
+            "lat": -33.872048,
+            "lng": -57.375117
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.872048,-57.375117"
+        },
+        {
+          "name": "Sendero Prado primera paralela Oeste de Mistral",
+          "location": "Sendero Prado primera paralela Oeste de Mistral, Prado, Montevideo, 11700",
+          "geo": {
+            "lat": -34.857038,
+            "lng": -56.2076
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.857038,-56.207600"
+        }
+      ]
+    },
+    {
+      "id": "scotiabank-pigalle-locations",
+      "merchantNames": [
+        "Pigalle"
+      ],
+      "sourceUrls": [
+        "https://nominatim.openstreetmap.org/"
+      ],
+      "merchants": [
+        {
+          "name": "Pigalle",
+          "location": "Pigalle, 2102, Avenida 18 de Julio, Tres Cruces, Montevideo, 11200",
+          "geo": {
+            "lat": -34.899592,
+            "lng": -56.169636
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.899592,-56.169636"
+        },
+        {
+          "name": "Pigalle",
+          "location": "Pigalle, 1429, Avenida Bolivia, Carrasco, Punta Gorda, Montevideo, 11500",
+          "geo": {
+            "lat": -34.893177,
+            "lng": -56.066691
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.893177,-56.066691"
+        },
+        {
+          "name": "Pigalle",
+          "location": "Pigalle, 1397, Andes, Barrio Sur, Montevideo, 11000",
+          "geo": {
+            "lat": -34.905566,
+            "lng": -56.198313
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.905566,-56.198313"
+        },
+        {
+          "name": "Pigalle",
+          "location": "Pigalle, 2567, Avenida General José Garibaldi, La Comercial, Montevideo, 11820",
+          "geo": {
+            "lat": -34.886503,
+            "lng": -56.163287
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.886503,-56.163287"
+        },
+        {
+          "name": "Pigalle",
+          "location": "Pigalle, 2151, Avenida 18 de Julio, Tres Cruces, Montevideo, 11601",
+          "geo": {
+            "lat": -34.89893,
+            "lng": -56.168712
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.898930,-56.168712"
+        },
+        {
+          "name": "Pigalle",
+          "location": "Pigalle, 2051, Avenida 18 de Julio, Tres Cruces, Montevideo, 11200",
+          "geo": {
+            "lat": -34.899768,
+            "lng": -56.170871
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.899768,-56.170871"
+        },
+        {
+          "name": "Pigalle",
+          "location": "Pigalle, 946, Doctor Carlos María Morales, Palermo, Montevideo, 11114",
+          "geo": {
+            "lat": -34.912696,
+            "lng": -56.183216
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.912696,-56.183216"
+        },
+        {
+          "name": "Pigalle",
+          "location": "Pigalle, 2502, Bulevar España, Pocitos, Montevideo, 11311",
+          "geo": {
+            "lat": -34.912137,
+            "lng": -56.160244
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.912137,-56.160244"
+        },
+        {
+          "name": "Pigalle",
+          "location": "Pigalle, 994, Juan Benito Blanco, La Mondiola, Pocitos, Montevideo, 11300",
+          "geo": {
+            "lat": -34.913399,
+            "lng": -56.148478
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.913399,-56.148478"
+        },
+        {
+          "name": "Pigalle",
+          "location": "Pigalle, 1158, Félix Buxareo, La Mondiola, Pocitos, Montevideo, 11300",
+          "geo": {
+            "lat": -34.908093,
+            "lng": -56.14343
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.908093,-56.143430"
+        },
+        {
+          "name": "Pigalle",
+          "location": "Pigalle, 2475, Avenida General Rivera, Parque Rodó, Montevideo, 11601",
+          "geo": {
+            "lat": -34.902658,
+            "lng": -56.161867
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.902658,-56.161867"
+        },
+        {
+          "name": "Pigalle",
+          "location": "Pigalle, 3148, Gabriel Pereira, Pocitos, Montevideo, 11300",
+          "geo": {
+            "lat": -34.909037,
+            "lng": -56.148348
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.909037,-56.148348"
+        },
+        {
+          "name": "Pigalle",
+          "location": "Pigalle, 2570, Avenida Brasil, Pocitos, Montevideo, 11300",
+          "geo": {
+            "lat": -34.90773,
+            "lng": -56.158375
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.907730,-56.158375"
+        },
+        {
+          "name": "Pigalle",
+          "location": "Pigalle, 2547, Avenida 8 de Octubre, Tres Cruces, Montevideo, 11601",
+          "geo": {
+            "lat": -34.891963,
+            "lng": -56.16252
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.891963,-56.162520"
+        },
+        {
+          "name": "Pigalle",
+          "location": "Pigalle, 2948, 21 de Setiembre, Punta Carretas, Montevideo, 11311",
+          "geo": {
+            "lat": -34.919651,
+            "lng": -56.153418
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.919651,-56.153418"
+        }
+      ]
+    }
+  ]
+}

@@ -5560,6 +5560,705 @@
           "mapsUrl": "https://www.google.com/maps/dir//-34.7413,-56.4499"
         }
       ]
+    },
+    {
+      "id": "santander-arredo-locations",
+      "merchantNames": [
+        "Arredo"
+      ],
+      "sourceUrls": [
+        "https://nominatim.openstreetmap.org/"
+      ],
+      "merchants": [
+        {
+          "name": "Arredo",
+          "location": "Arredo, José Ellauri, Punta Carretas, Montevideo, 11303",
+          "geo": {
+            "lat": -34.923588,
+            "lng": -56.160194
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.923588,-56.160194"
+        },
+        {
+          "name": "Arredo",
+          "location": "Arredo, El Mesana (Calle 24), Punta Del Este, Maldonado, 20100",
+          "geo": {
+            "lat": -34.961597,
+            "lng": -54.941534
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.961597,-54.941534"
+        },
+        {
+          "name": "Arredo",
+          "location": "Arredo, El Remanso (Calle 20), Punta Del Este, Maldonado, 20100",
+          "geo": {
+            "lat": -34.960339,
+            "lng": -54.943512
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.960339,-54.943512"
+        },
+        {
+          "name": "Arredo",
+          "location": "Arredo, Pascual Gattas, San Rafael, Punta Del Este, Maldonado, 20100",
+          "geo": {
+            "lat": -34.94093,
+            "lng": -54.933774
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.940930,-54.933774"
+        }
+      ]
+    },
+    {
+      "id": "santander-baby-city-locations",
+      "merchantNames": [
+        "Baby City"
+      ],
+      "sourceUrls": [
+        "https://nominatim.openstreetmap.org/"
+      ],
+      "merchants": [
+        {
+          "name": "Baby City",
+          "location": "Baby City, Colonia, Centro, Montevideo, 11100",
+          "geo": {
+            "lat": -34.904589,
+            "lng": -56.185375
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.904589,-56.185375"
+        }
+      ]
+    },
+    {
+      "id": "santander-bagno-company-locations",
+      "merchantNames": [
+        "Bagno & Company"
+      ],
+      "sourceUrls": [
+        "https://nominatim.openstreetmap.org/"
+      ],
+      "merchants": [
+        {
+          "name": "Bagno & company",
+          "location": "Bagno & company, 3918, Avenida Italia, Unión, Montevideo, 11600",
+          "geo": {
+            "lat": -34.887131,
+            "lng": -56.127288
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.887131,-56.127288"
+        },
+        {
+          "name": "Bagno & Company",
+          "location": "Bagno & Company, 3098, Avenida Brasil, Pocitos, Montevideo, 11300",
+          "geo": {
+            "lat": -34.914268,
+            "lng": -56.14955
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.914268,-56.149550"
+        },
+        {
+          "name": "Bagno & Company",
+          "location": "Bagno & Company, Formosa, Sarubbi, Maldonado, 20000",
+          "geo": {
+            "lat": -34.916563,
+            "lng": -54.959395
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.916563,-54.959395"
+        }
+      ]
+    },
+    {
+      "id": "santander-bookshop-locations",
+      "merchantNames": [
+        "Bookshop"
+      ],
+      "sourceUrls": [
+        "https://nominatim.openstreetmap.org/"
+      ],
+      "merchants": [
+        {
+          "name": "Bookshop",
+          "location": "Bookshop, José Enrique Rodó, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.905673,
+            "lng": -56.18027
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.905673,-56.180270"
+        },
+        {
+          "name": "Bookshop",
+          "location": "Bookshop, 4206, Avenida Italia, Malvín Nuevo, Montevideo, 11400",
+          "geo": {
+            "lat": -34.887766,
+            "lng": -56.117902
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.887766,-56.117902"
+        }
+      ]
+    },
+    {
+      "id": "santander-boss-padel-locations",
+      "merchantNames": [
+        "Boss Padel"
+      ],
+      "sourceUrls": [
+        "https://nominatim.openstreetmap.org/"
+      ],
+      "merchants": [
+        {
+          "name": "Boss Padel",
+          "location": "Boss Padel, San Cono, Paso Carrasco, Municipio de Paso Carrasco, Canelones, 15000",
+          "geo": {
+            "lat": -34.859118,
+            "lng": -56.046557
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.859118,-56.046557"
+        }
+      ]
+    },
+    {
+      "id": "santander-buquebus-locations",
+      "merchantNames": [
+        "Buquebus"
+      ],
+      "sourceUrls": [
+        "https://nominatim.openstreetmap.org/"
+      ],
+      "merchants": [
+        {
+          "name": "Buquebus",
+          "location": "Buquebus, 1825, Bulevar General Artigas, Tres Cruces, Montevideo, 11600",
+          "geo": {
+            "lat": -34.894551,
+            "lng": -56.166746
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.894551,-56.166746"
+        },
+        {
+          "name": "BUQUEBUS",
+          "location": "BUQUEBUS, Avenida de los Alpes, Punta Del Este, Maldonado, 20100",
+          "geo": {
+            "lat": -34.940671,
+            "lng": -54.934284
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.940671,-54.934284"
+        },
+        {
+          "name": "Buquebus",
+          "location": "Buquebus, Rambla 25 de Agosto de 1825, Ciudad Vieja, Montevideo, 11000",
+          "geo": {
+            "lat": -34.902717,
+            "lng": -56.213724
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.902717,-56.213724"
+        },
+        {
+          "name": "Buquebus",
+          "location": "Buquebus, Pedro Risso, Punta Del Este, Maldonado, 20100",
+          "geo": {
+            "lat": -34.957087,
+            "lng": -54.939045
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.957087,-54.939045"
+        },
+        {
+          "name": "Buquebus Turismo",
+          "location": "Buquebus Turismo, 1441, Bartolomé Mitre, Ciudad Vieja, Montevideo, 11000",
+          "geo": {
+            "lat": -34.905027,
+            "lng": -56.202871
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.905027,-56.202871"
+        }
+      ]
+    },
+    {
+      "id": "santander-cymaco-locations",
+      "merchantNames": [
+        "Cymaco"
+      ],
+      "sourceUrls": [
+        "https://nominatim.openstreetmap.org/"
+      ],
+      "merchants": [
+        {
+          "name": "Cymaco",
+          "location": "Cymaco, Bulevar José Batlle y Ordóñez, Unión, Montevideo, 11600",
+          "geo": {
+            "lat": -34.885968,
+            "lng": -56.138427
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.885968,-56.138427"
+        },
+        {
+          "name": "Cymaco",
+          "location": "Cymaco, Avenida Martiniano Chiossi, Sarubbi, Maldonado, 20000",
+          "geo": {
+            "lat": -34.913719,
+            "lng": -54.952721
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.913719,-54.952721"
+        },
+        {
+          "name": "Cymaco",
+          "location": "Cymaco, Avenida Ingeniero Luis Giannattasio, San José de Carrasco, Ciudad de la Costa, Municipio de Ciudad de la Costa, Canelones, 15002",
+          "geo": {
+            "lat": -34.842657,
+            "lng": -55.997273
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.842657,-55.997273"
+        }
+      ]
+    },
+    {
+      "id": "santander-de-arcos-locations",
+      "merchantNames": [
+        "De Arcos"
+      ],
+      "sourceUrls": [
+        "https://nominatim.openstreetmap.org/"
+      ],
+      "merchants": [
+        {
+          "name": "De Arcos - Doctor Luis E. Arcos Ferrand",
+          "location": "Doctor Luis E. Arcos Ferrand, Malvín Norte, Montevideo, 11400",
+          "geo": {
+            "lat": -34.87393,
+            "lng": -56.11179
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.873930,-56.111790"
+        },
+        {
+          "name": "De Arcos - Juan Vicente Arcos",
+          "location": "Juan Vicente Arcos, Villa Española, Montevideo, 12000",
+          "geo": {
+            "lat": -34.863273,
+            "lng": -56.144512
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.863273,-56.144512"
+        }
+      ]
+    },
+    {
+      "id": "santander-deco-hogar-locations",
+      "merchantNames": [
+        "Deco Hogar"
+      ],
+      "sourceUrls": [
+        "https://nominatim.openstreetmap.org/"
+      ],
+      "merchants": [
+        {
+          "name": "Deco Hogar",
+          "location": "Deco Hogar, 2702, 21 de Setiembre, Punta Carretas, Montevideo, 11311",
+          "geo": {
+            "lat": -34.916758,
+            "lng": -56.158442
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.916758,-56.158442"
+        },
+        {
+          "name": "Deco Hogar",
+          "location": "Deco Hogar, 1490, Avenida 18 de Julio, Centro, Montevideo, 11114",
+          "geo": {
+            "lat": -34.905071,
+            "lng": -56.183621
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.905071,-56.183621"
+        }
+      ]
+    },
+    {
+      "id": "santander-extreme-force-locations",
+      "merchantNames": [
+        "Extreme Force"
+      ],
+      "sourceUrls": [
+        "https://nominatim.openstreetmap.org/"
+      ],
+      "merchants": [
+        {
+          "name": "Extreme Force",
+          "location": "Extreme Force, 1540, Avenida 18 de Julio, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.904622,
+            "lng": -56.182541
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.904622,-56.182541"
+        }
+      ]
+    },
+    {
+      "id": "santander-fivisa-locations",
+      "merchantNames": [
+        "Fivisa"
+      ],
+      "sourceUrls": [
+        "https://nominatim.openstreetmap.org/"
+      ],
+      "merchants": [
+        {
+          "name": "FIVISA",
+          "location": "FIVISA, Pilcomayo, San Rafael, Punta Del Este, Maldonado, 20100",
+          "geo": {
+            "lat": -34.943286,
+            "lng": -54.931539
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.943286,-54.931539"
+        },
+        {
+          "name": "FIVISA",
+          "location": "FIVISA, 18 de Julio, Barrio Centro, Sarubbi, Maldonado, 20000",
+          "geo": {
+            "lat": -34.907158,
+            "lng": -54.959017
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.907158,-54.959017"
+        },
+        {
+          "name": "Fivisa",
+          "location": "Fivisa, Avenida Ingeniero Luis Giannattasio, Solymar, Ciudad de la Costa, Municipio de Ciudad de la Costa, Canelones, 15005",
+          "geo": {
+            "lat": -34.826917,
+            "lng": -55.966418
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.826917,-55.966418"
+        },
+        {
+          "name": "Fivisa Electricidad",
+          "location": "Fivisa Electricidad, 3207, Bulevar José Batlle y Ordóñez, Bolívar, Montevideo, 12000",
+          "geo": {
+            "lat": -34.874854,
+            "lng": -56.154048
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.874854,-56.154048"
+        },
+        {
+          "name": "Fivisa Iluminación",
+          "location": "Fivisa Iluminación, Avenida Uruguay, Centro, Montevideo, 11100",
+          "geo": {
+            "lat": -34.902994,
+            "lng": -56.188778
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.902994,-56.188778"
+        },
+        {
+          "name": "Fivisa Ferretería",
+          "location": "Fivisa Ferretería, Avenida Uruguay, Centro, Montevideo, 11100",
+          "geo": {
+            "lat": -34.903018,
+            "lng": -56.189064
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.903018,-56.189064"
+        },
+        {
+          "name": "Fivisa Electricidad",
+          "location": "Fivisa Electricidad, Avenida Uruguay, Centro, Montevideo, 11100",
+          "geo": {
+            "lat": -34.903006,
+            "lng": -56.188913
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.903006,-56.188913"
+        }
+      ]
+    },
+    {
+      "id": "santander-iber-locations",
+      "merchantNames": [
+        "Iber"
+      ],
+      "sourceUrls": [
+        "https://nominatim.openstreetmap.org/"
+      ],
+      "merchants": [
+        {
+          "name": "Iber Store",
+          "location": "Iber Store, 5775, Avenida Italia, Punta Gorda, Montevideo, 11500",
+          "geo": {
+            "lat": -34.880946,
+            "lng": -56.080848
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.880946,-56.080848"
+        }
+      ]
+    },
+    {
+      "id": "santander-indoor-padel-locations",
+      "merchantNames": [
+        "Indoor Padel"
+      ],
+      "sourceUrls": [
+        "https://nominatim.openstreetmap.org/"
+      ],
+      "merchants": [
+        {
+          "name": "Indoor Padel Montevideo",
+          "location": "Indoor Padel Montevideo, Marne, Jacinto Vera, Montevideo, 12000",
+          "geo": {
+            "lat": -34.867622,
+            "lng": -56.168587
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.867622,-56.168587"
+        }
+      ]
+    },
+    {
+      "id": "santander-infantozzi-locations",
+      "merchantNames": [
+        "Infantozzi"
+      ],
+      "sourceUrls": [
+        "https://nominatim.openstreetmap.org/"
+      ],
+      "merchants": [
+        {
+          "name": "Doctor José Infantozzi",
+          "location": "Doctor José Infantozzi, Nuevo Ellauri, Casavalle, Montevideo, 12300",
+          "geo": {
+            "lat": -34.831021,
+            "lng": -56.162714
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.831021,-56.162714"
+        },
+        {
+          "name": "Infantozzi Materiales",
+          "location": "Infantozzi Materiales, Avenida Uruguay, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.901018,
+            "lng": -56.181835
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.901018,-56.181835"
+        }
+      ]
+    },
+    {
+      "id": "santander-la-asturiana-locations",
+      "merchantNames": [
+        "La Asturiana"
+      ],
+      "sourceUrls": [
+        "https://nominatim.openstreetmap.org/"
+      ],
+      "merchants": [
+        {
+          "name": "La asturiana",
+          "location": "La asturiana, 463, 18 de Julio, Barrio Manuel Lobo, Barrio Histórico, Colonia del Sacramento, Colonia",
+          "geo": {
+            "lat": -34.47135,
+            "lng": -57.844667
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.471350,-57.844667"
+        }
+      ]
+    },
+    {
+      "id": "santander-mundo-mac-locations",
+      "merchantNames": [
+        "Mundo Mac"
+      ],
+      "sourceUrls": [
+        "https://nominatim.openstreetmap.org/"
+      ],
+      "merchants": [
+        {
+          "name": "Mundo Mac",
+          "location": "Mundo Mac, Gorlero, Punta Del Este, Maldonado, 20100",
+          "geo": {
+            "lat": -34.959836,
+            "lng": -54.940802
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.959836,-54.940802"
+        },
+        {
+          "name": "Mundo Mac",
+          "location": "Mundo Mac, Avenida de los Alpes, Punta Del Este, Maldonado, 20100",
+          "geo": {
+            "lat": -34.940739,
+            "lng": -54.934491
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.940739,-54.934491"
+        }
+      ]
+    },
+    {
+      "id": "santander-petit-baby-locations",
+      "merchantNames": [
+        "Petit Baby"
+      ],
+      "sourceUrls": [
+        "https://nominatim.openstreetmap.org/"
+      ],
+      "merchants": [
+        {
+          "name": "Petit Baby",
+          "location": "Petit Baby, 3309, Avenida Luis Alberto de Herrera, Jacinto Vera, Montevideo, 12000",
+          "geo": {
+            "lat": -34.870055,
+            "lng": -56.166778
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.870055,-56.166778"
+        },
+        {
+          "name": "Petit Baby",
+          "location": "Petit Baby, Román Guerra, Barrio Centro, Sarubbi, Maldonado, 20000",
+          "geo": {
+            "lat": -34.908006,
+            "lng": -54.9565
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.908006,-54.956500"
+        }
+      ]
+    },
+    {
+      "id": "santander-pintelux-locations",
+      "merchantNames": [
+        "Pintelux"
+      ],
+      "sourceUrls": [
+        "https://nominatim.openstreetmap.org/"
+      ],
+      "merchants": [
+        {
+          "name": "Pintelux",
+          "location": "Pintelux, Avenida Italia, Unión, Montevideo, 11600",
+          "geo": {
+            "lat": -34.887217,
+            "lng": -56.128425
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.887217,-56.128425"
+        },
+        {
+          "name": "Pintelux",
+          "location": "Pintelux, Camino Ariel, Sayago, Montevideo, 12900",
+          "geo": {
+            "lat": -34.83385,
+            "lng": -56.215866
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.833850,-56.215866"
+        },
+        {
+          "name": "Pintelux",
+          "location": "Pintelux, Libertad, Pocitos, Montevideo, 11311",
+          "geo": {
+            "lat": -34.911822,
+            "lng": -56.160112
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.911822,-56.160112"
+        },
+        {
+          "name": "Pintelux",
+          "location": "Pintelux, Alta Gracia, Parque Miramar, Barra de Carrasco, Ciudad de la Costa, Municipio de Paso Carrasco, Canelones",
+          "geo": {
+            "lat": -34.869251,
+            "lng": -56.024765
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.869251,-56.024765"
+        }
+      ]
+    },
+    {
+      "id": "santander-samsung-locations",
+      "merchantNames": [
+        "Samsung"
+      ],
+      "sourceUrls": [
+        "https://nominatim.openstreetmap.org/"
+      ],
+      "merchants": [
+        {
+          "name": "Samsung Store",
+          "location": "Samsung Store, Canelones, Parque Rodó, Montevideo, 11200",
+          "geo": {
+            "lat": -34.907224,
+            "lng": -56.171878
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.907224,-56.171878"
+        },
+        {
+          "name": "Samsung",
+          "location": "Samsung, Carlos Roxlo, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.904258,
+            "lng": -56.181634
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.904258,-56.181634"
+        },
+        {
+          "name": "Samsung",
+          "location": "Samsung, Ruta Interbalnearia General Líber Seregni, Solymar, Ciudad de la Costa, Municipio de Ciudad de la Costa, Canelones, 15005",
+          "geo": {
+            "lat": -34.817486,
+            "lng": -55.980294
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.817486,-55.980294"
+        }
+      ]
+    },
+    {
+      "id": "santander-smart-locations",
+      "merchantNames": [
+        "Smart"
+      ],
+      "sourceUrls": [
+        "https://nominatim.openstreetmap.org/"
+      ],
+      "merchants": [
+        {
+          "name": "Smart Parking",
+          "location": "Smart Parking, Gerardo Grasso, Tres Cruces, Montevideo, 11601",
+          "geo": {
+            "lat": -34.891767,
+            "lng": -56.16139
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.891767,-56.161390"
+        },
+        {
+          "name": "Smart Hotel Montevideo",
+          "location": "Smart Hotel Montevideo, 1240, José Germán Araújo, Barrio Sur, Montevideo, 11000",
+          "geo": {
+            "lat": -34.908465,
+            "lng": -56.197765
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.908465,-56.197765"
+        },
+        {
+          "name": "Bitcoin ATM - Smart Point",
+          "location": "Bitcoin ATM - Smart Point, Gorlero, Punta Del Este, Maldonado, 20100",
+          "geo": {
+            "lat": -34.959969,
+            "lng": -54.940967
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.959969,-54.940967"
+        },
+        {
+          "name": "Smart Fere Shop",
+          "location": "Smart Fere Shop, Sargento Francisco de los Santos, Chuy, Rocha, 27100",
+          "geo": {
+            "lat": -33.695594,
+            "lng": -53.447552
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.695594,-53.447552"
+        }
+      ]
+    },
+    {
+      "id": "santander-vidrieria-bia-locations",
+      "merchantNames": [
+        "Vidriería BIA"
+      ],
+      "sourceUrls": [
+        "https://nominatim.openstreetmap.org/"
+      ],
+      "merchants": [
+        {
+          "name": "Vidriería BIA",
+          "location": "Vidriería BIA, Avenida Orlando Pedragosa Sierra, San Rafael, Punta Del Este, Maldonado, 20100",
+          "geo": {
+            "lat": -34.94435,
+            "lng": -54.934836
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.944350,-54.934836"
+        }
+      ]
     }
   ]
 }

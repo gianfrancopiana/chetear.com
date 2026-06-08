@@ -1790,6 +1790,181 @@
           "mapsUrl": "https://www.google.com/maps/place/iPlace/@-34.8692138,-56.1693956,17z/data=!3m1!4b1!4m6!3m5!1s0x959f810039cc5cc3:0x516fad0a2e71b3b5!8m2!3d-34.8692138!4d-56.1693956!16s%2Fg%2F11wfx1c7p4"
         }
       ]
+    },
+    {
+      "id": "itau-samsonite-locations",
+      "merchantNames": [
+        "Samsonite"
+      ],
+      "sourceUrls": [
+        "https://nominatim.openstreetmap.org/"
+      ],
+      "merchants": [
+        {
+          "name": "Samsonite",
+          "location": "Samsonite, Pascual Gattas, San Rafael, Punta Del Este, Maldonado, 20100",
+          "geo": {
+            "lat": -34.940866,
+            "lng": -54.934198
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.940866,-54.934198"
+        },
+        {
+          "name": "Samsonite Outlet",
+          "location": "Samsonite Outlet, 977, Cerro Largo, Aguada, Montevideo, 11100",
+          "geo": {
+            "lat": -34.901414,
+            "lng": -56.195811
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.901414,-56.195811"
+        }
+      ]
+    },
+    {
+      "id": "itau-starbucks-locations",
+      "merchantNames": [
+        "Starbucks"
+      ],
+      "sourceUrls": [
+        "https://nominatim.openstreetmap.org/"
+      ],
+      "merchants": [
+        {
+          "name": "Starbucks",
+          "location": "Starbucks, 1590, Avenida Alfredo Arocena, Carrasco, Montevideo, 11500",
+          "geo": {
+            "lat": -34.889192,
+            "lng": -56.05672
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.889192,-56.056720"
+        },
+        {
+          "name": "Starbucks",
+          "location": "Starbucks, José Ellauri, Punta Carretas, Montevideo, 11300",
+          "geo": {
+            "lat": -34.924048,
+            "lng": -56.159345
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.924048,-56.159345"
+        },
+        {
+          "name": "Starbucks",
+          "location": "Starbucks, Palmar, Tres Cruces, Montevideo, 11601",
+          "geo": {
+            "lat": -34.901047,
+            "lng": -56.164967
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.901047,-56.164967"
+        },
+        {
+          "name": "Starbucks",
+          "location": "Starbucks, Ejido, Centro, Montevideo, 11114",
+          "geo": {
+            "lat": -34.90545,
+            "lng": -56.186993
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.905450,-56.186993"
+        },
+        {
+          "name": "Starbucks",
+          "location": "Starbucks, 606, José Ellauri, Punta Carretas, Montevideo, 11303",
+          "geo": {
+            "lat": -34.919227,
+            "lng": -56.156016
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.919227,-56.156016"
+        },
+        {
+          "name": "Starbucks",
+          "location": "Starbucks, Rambla República del Perú, Pocitos, Montevideo, 11300",
+          "geo": {
+            "lat": -34.91544,
+            "lng": -56.149014
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.915440,-56.149014"
+        },
+        {
+          "name": "Starbucks",
+          "location": "Starbucks, 650, Sarandí, Ciudad Vieja, Montevideo, 11000",
+          "geo": {
+            "lat": -34.906692,
+            "lng": -56.202081
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.906692,-56.202081"
+        },
+        {
+          "name": "Starbucks",
+          "location": "Starbucks, 1749, Avenida 18 de Julio, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.902798,
+            "lng": -56.178761
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.902798,-56.178761"
+        },
+        {
+          "name": "Starbucks",
+          "location": "Starbucks, 5775, Avenida Italia, Punta Gorda, Montevideo, 11500",
+          "geo": {
+            "lat": -34.880482,
+            "lng": -56.07943
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.880482,-56.079430"
+        },
+        {
+          "name": "Starbucks",
+          "location": "Starbucks, Julio Herrera y Obes, Barrio Sur, Montevideo, 11110",
+          "geo": {
+            "lat": -34.906269,
+            "lng": -56.194628
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.906269,-56.194628"
+        },
+        {
+          "name": "Starbucks",
+          "location": "Starbucks, Avenida Orlando Pedragosa Sierra, San Rafael, Punta Del Este, Maldonado, 20100",
+          "geo": {
+            "lat": -34.942775,
+            "lng": -54.932271
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.942775,-54.932271"
+        },
+        {
+          "name": "Starbucks",
+          "location": "Starbucks, Ruta Interbalnearia General Líber Seregni, Solymar, Ciudad de la Costa, Municipio de Ciudad de la Costa, Canelones, 15005",
+          "geo": {
+            "lat": -34.817671,
+            "lng": -55.980231
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.817671,-55.980231"
+        },
+        {
+          "name": "Starbucks",
+          "location": "Starbucks, Avenida Luis Alberto de Herrera, La Mondiola, Buceo, Montevideo, 11300",
+          "geo": {
+            "lat": -34.903577,
+            "lng": -56.137119
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.903577,-56.137119"
+        },
+        {
+          "name": "Starbucks",
+          "location": "Starbucks, Ruta 101 Capitán Juan Antonio Artigas, Paso Carrasco, Municipio de Paso Carrasco, Canelones, 15000",
+          "geo": {
+            "lat": -34.845233,
+            "lng": -56.024418
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.845233,-56.024418"
+        },
+        {
+          "name": "Starbucks",
+          "location": "Starbucks, Ruta 101 Capitán Juan Antonio Artigas, Ciudad de la Costa, Municipio de Ciudad de la Costa, Canelones, 15800",
+          "geo": {
+            "lat": -34.837574,
+            "lng": -56.017715
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.837574,-56.017715"
+        }
+      ]
     }
   ]
 }

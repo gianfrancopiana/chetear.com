@@ -321,7 +321,15 @@ export type MerchantListMerchant = z.infer<typeof MerchantListMerchant>;
 
 export const MerchantList = z.object({
   id: z.string(),
+  /*
+   * Link a branch list either to stable rule ids (preferred for broad chain rules)
+   * or to merchant names when the provider sync owns volatile, generated rules
+   * without durable ids. Name links are provider-scoped and exact after runtime
+   * normalization, so they survive daily snapshot rewrites for sources like
+   * Club El País while still avoiding cross-provider bleed.
+   */
   ruleIds: z.array(z.string()).optional(),
+  merchantNames: z.array(z.string()).optional(),
   sourceUrls: z.array(z.string()).min(1),
   merchants: z.array(MerchantListMerchant),
 });

@@ -1,0 +1,152 @@
+{
+  "provider": "prex",
+  "label": "Prex",
+  "lists": [
+    {
+      "id": "prex-abitab-locations",
+      "merchantNames": [
+        "Abitab"
+      ],
+      "sourceUrls": [
+        "https://nominatim.openstreetmap.org/"
+      ],
+      "merchants": [
+        {
+          "name": "Abitab",
+          "location": "Abitab, Santa Lucía, Nuevo París, Montevideo, 11900",
+          "geo": {
+            "lat": -34.842451,
+            "lng": -56.241825
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.842451,-56.241825"
+        },
+        {
+          "name": "Abitab",
+          "location": "Abitab, José A. Possolo, Las Acacias, Montevideo, 12300",
+          "geo": {
+            "lat": -34.845103,
+            "lng": -56.154811
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.845103,-56.154811"
+        },
+        {
+          "name": "Abitab",
+          "location": "Abitab, Avenida Millán, Atahualpa, Montevideo, 11700",
+          "geo": {
+            "lat": -34.871831,
+            "lng": -56.190147
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.871831,-56.190147"
+        },
+        {
+          "name": "Abitab",
+          "location": "Abitab, 1267, Nueva York, Aguada, Montevideo, 11100",
+          "geo": {
+            "lat": -34.896774,
+            "lng": -56.190239
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.896774,-56.190239"
+        },
+        {
+          "name": "Abitab",
+          "location": "Abitab, 4206, Avenida Italia, Malvín Nuevo, Montevideo, 11400",
+          "geo": {
+            "lat": -34.887799,
+            "lng": -56.117682
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.887799,-56.117682"
+        },
+        {
+          "name": "Abitab",
+          "location": "Abitab, Juan Benito Blanco, Pocitos, Montevideo, 11300",
+          "geo": {
+            "lat": -34.915253,
+            "lng": -56.149848
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.915253,-56.149848"
+        },
+        {
+          "name": "Abitab",
+          "location": "Abitab, Avenida Brasil, Pocitos, Montevideo, 11300",
+          "geo": {
+            "lat": -34.913808,
+            "lng": -56.149938
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.913808,-56.149938"
+        },
+        {
+          "name": "Abitab",
+          "location": "Abitab, 26 de Marzo, Pocitos, Montevideo, 11300",
+          "geo": {
+            "lat": -34.909239,
+            "lng": -56.14822
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.909239,-56.148220"
+        },
+        {
+          "name": "Abitab",
+          "location": "Abitab, 1841, Avenida 18 de Julio, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.901979,
+            "lng": -56.176612
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.901979,-56.176612"
+        },
+        {
+          "name": "Abitab",
+          "location": "Abitab, Grito de Asencio, Bella Vista, Montevideo, 11700",
+          "geo": {
+            "lat": -34.875178,
+            "lng": -56.199416
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.875178,-56.199416"
+        },
+        {
+          "name": "Abitab",
+          "location": "Abitab, Coronel Mora, Punta Carretas, Montevideo, 11303",
+          "geo": {
+            "lat": -34.919413,
+            "lng": -56.158159
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.919413,-56.158159"
+        },
+        {
+          "name": "Abitab",
+          "location": "Abitab, Bulevar José Batlle y Ordóñez, 40 Semanas, Paso de las Duranas, Montevideo, 11700",
+          "geo": {
+            "lat": -34.843684,
+            "lng": -56.193172
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.843684,-56.193172"
+        },
+        {
+          "name": "Abitab",
+          "location": "Abitab, Avenida Gonzalo Ramírez, Palermo, Montevideo, 11114",
+          "geo": {
+            "lat": -34.912399,
+            "lng": -56.185998
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.912399,-56.185998"
+        },
+        {
+          "name": "Abitab",
+          "location": "Abitab, Bulevar Aparicio Saravia, Colón, Montevideo, 12900",
+          "geo": {
+            "lat": -34.826939,
+            "lng": -56.200804
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.826939,-56.200804"
+        },
+        {
+          "name": "Abitab",
+          "location": "Abitab, Andrés Lamas, Brazo Oriental, Montevideo, 12000",
+          "geo": {
+            "lat": -34.865501,
+            "lng": -56.171043
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.865501,-56.171043"
+        }
+      ]
+    }
+  ]
+}

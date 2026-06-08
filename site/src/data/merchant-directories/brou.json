@@ -1985,6 +1985,152 @@
           "mapsUrl": "https://www.google.com/maps/dir//-34.083192,-56.225554"
         }
       ]
+    },
+    {
+      "id": "brou-ancap-locations",
+      "merchantNames": [
+        "ANCAP"
+      ],
+      "sourceUrls": [
+        "https://nominatim.openstreetmap.org/"
+      ],
+      "merchants": [
+        {
+          "name": "ANCAP",
+          "location": "ANCAP, Treinta y Tres, 33000",
+          "geo": {
+            "lat": -33.245798,
+            "lng": -54.378669
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.245798,-54.378669"
+        },
+        {
+          "name": "Ancap",
+          "location": "Ancap, Río Branco, Cerro Largo, 37100",
+          "geo": {
+            "lat": -32.596824,
+            "lng": -53.388438
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.596824,-53.388438"
+        },
+        {
+          "name": "Ancap",
+          "location": "Ancap, Villa Lazare, Las Delicias, Maldonado, 20000",
+          "geo": {
+            "lat": -34.900174,
+            "lng": -54.971706
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900174,-54.971706"
+        },
+        {
+          "name": "ANCAP",
+          "location": "ANCAP, José Artigas, La Paz, Municipio de La Paz, Canelones, 90100",
+          "geo": {
+            "lat": -34.751756,
+            "lng": -56.224064
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.751756,-56.224064"
+        },
+        {
+          "name": "ANCAP",
+          "location": "ANCAP, 2490, Cooper, Carrasco Norte, Montevideo, 11500",
+          "geo": {
+            "lat": -34.870349,
+            "lng": -56.069224
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.870349,-56.069224"
+        },
+        {
+          "name": "ANCAP",
+          "location": "ANCAP, 3640, Avenida Italia, Unión, Montevideo, 11600",
+          "geo": {
+            "lat": -34.886925,
+            "lng": -56.135077
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.886925,-56.135077"
+        },
+        {
+          "name": "ANCAP",
+          "location": "ANCAP, 6740, Avenida Italia, Carrasco Norte, Montevideo, 11500",
+          "geo": {
+            "lat": -34.877956,
+            "lng": -56.062669
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.877956,-56.062669"
+        },
+        {
+          "name": "ANCAP",
+          "location": "ANCAP, 6107, Avenida General Rivera, Punta Gorda, Montevideo, 11500",
+          "geo": {
+            "lat": -34.890493,
+            "lng": -56.072633
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.890493,-56.072633"
+        },
+        {
+          "name": "ANCAP",
+          "location": "ANCAP, 4699, Camino Carrasco, Malvín Norte, Montevideo, 12100",
+          "geo": {
+            "lat": -34.871103,
+            "lng": -56.116209
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.871103,-56.116209"
+        },
+        {
+          "name": "ANCAP",
+          "location": "ANCAP, 4095, Avenida Italia, Malvín Norte, Montevideo, 11600",
+          "geo": {
+            "lat": -34.886749,
+            "lng": -56.122949
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.886749,-56.122949"
+        },
+        {
+          "name": "ANCAP",
+          "location": "ANCAP, Km 19.700, Ruta 5 Brigadier General Fructuoso Rivera, La Paz, Municipio de La Paz, Canelones, 15900",
+          "geo": {
+            "lat": -34.750039,
+            "lng": -56.25328
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.750039,-56.253280"
+        },
+        {
+          "name": "ANCAP",
+          "location": "ANCAP, 4697, Camino Ariel, Sayago, Montevideo, 12900",
+          "geo": {
+            "lat": -34.835133,
+            "lng": -56.214265
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.835133,-56.214265"
+        },
+        {
+          "name": "ANCAP",
+          "location": "ANCAP, Rambla Gran Bretaña, Barrio Sur, Montevideo, 11000",
+          "geo": {
+            "lat": -34.91021,
+            "lng": -56.200815
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.910210,-56.200815"
+        },
+        {
+          "name": "ANCAP",
+          "location": "ANCAP, 4196, Avenida de las Instrucciones, Montevideo, 12200",
+          "geo": {
+            "lat": -34.780388,
+            "lng": -56.135255
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.780388,-56.135255"
+        },
+        {
+          "name": "ANCAP",
+          "location": "ANCAP, 2197, Avenida Daniel Fernández Crespo, Aguada, Montevideo, 11800",
+          "geo": {
+            "lat": -34.893504,
+            "lng": -56.184602
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.893504,-56.184602"
+        }
+      ]
     }
   ]
 }

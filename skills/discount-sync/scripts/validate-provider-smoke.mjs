@@ -98,6 +98,7 @@ function validateLinkedMerchantLists(provider, rules, assertions) {
   }
 
   const ruleIds = new Set(rules.map((rule) => rule.id).filter(Boolean));
+  const ruleMerchantNames = new Set(rules.map((rule) => rule.merchant));
   for (const spec of specs) {
     const list = (directory.lists || []).find((candidate) => candidate.id === spec.id);
     if (!list) {
@@ -111,6 +112,15 @@ function validateLinkedMerchantLists(provider, rules, assertions) {
       }
       if (!(list.ruleIds || []).includes(spec.ruleId)) {
         errors.push(`linked merchant list ${spec.id} is not linked to ruleId ${spec.ruleId}`);
+      }
+    }
+
+    if (spec.merchantName) {
+      if (!ruleMerchantNames.has(spec.merchantName)) {
+        errors.push(`linked merchant list ${spec.id} expects missing discount merchant name: ${spec.merchantName}`);
+      }
+      if (!(list.merchantNames || []).includes(spec.merchantName)) {
+        errors.push(`linked merchant list ${spec.id} is not linked to merchantName ${spec.merchantName}`);
       }
     }
 

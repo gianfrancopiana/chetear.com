@@ -189,6 +189,14 @@
           "Farmashop 1",
           "Farmashop 159"
         ]
+      },
+      {
+        "id": "santander-samsung-locations",
+        "merchantName": "Samsung",
+        "minMerchants": 3,
+        "mustContainMerchants": [
+          "Samsung Store"
+        ]
       }
     ]
   },
@@ -210,6 +218,16 @@
       "La pañalera",
       "Foncho & Juanita",
       "Tu Ración"
+    ],
+    "mustHaveLinkedMerchantLists": [
+      {
+        "id": "bbva-matias-gonzalez-locations",
+        "merchantName": "Matías González",
+        "minMerchants": 2,
+        "mustContainMerchants": [
+          "Matías González"
+        ]
+      }
     ]
   },
   "scotiabank": {
@@ -221,6 +239,24 @@
       "Tienda Farma",
       "Combustible + Telepeaje",
       "Restaurantes adheridos"
+    ],
+    "mustHaveLinkedMerchantLists": [
+      {
+        "id": "scotiabank-kinko-locations",
+        "merchantName": "Kinko",
+        "minMerchants": 10,
+        "mustContainMerchants": [
+          "Kinko"
+        ]
+      },
+      {
+        "id": "scotiabank-farmacity-locations",
+        "merchantName": "Farmacity",
+        "minMerchants": 5,
+        "mustContainMerchants": [
+          "farmacity"
+        ]
+      }
     ]
   },
   "brou": {
@@ -382,6 +418,14 @@
           "Movie Montevideo",
           "Movie Nuevocentro"
         ]
+      },
+      {
+        "id": "oca-burger-king-locations",
+        "merchantName": "Burger King",
+        "minMerchants": 10,
+        "mustContainMerchants": [
+          "Burger King"
+        ]
       }
     ]
   },
@@ -394,6 +438,16 @@
       "HolaSIM",
       "STM",
       "Abitab"
+    ],
+    "mustHaveLinkedMerchantLists": [
+      {
+        "id": "prex-abitab-locations",
+        "merchantName": "Abitab",
+        "minMerchants": 10,
+        "mustContainMerchants": [
+          "Abitab"
+        ]
+      }
     ]
   },
   "antel": {
@@ -426,6 +480,14 @@
           "iPlace Montevideo Shopping",
           "iPlace Nuevocentro Shopping"
         ]
+      },
+      {
+        "id": "antel-via-confort-locations",
+        "merchantName": "Vía Confort",
+        "minMerchants": 3,
+        "mustContainMerchants": [
+          "Via Confort"
+        ]
       }
     ]
   },
@@ -439,6 +501,24 @@
         "percent": 0,
         "benefitType": "gift",
         "notesIncludes": "Sundae"
+      }
+    ],
+    "mustHaveLinkedMerchantLists": [
+      {
+        "id": "club-el-pais-school-of-rock-montevideo-locations",
+        "merchantName": "School Of Rock Montevideo",
+        "minMerchants": 1,
+        "mustContainMerchants": [
+          "SCHOOL of ROCK"
+        ]
+      },
+      {
+        "id": "club-el-pais-acher-locations",
+        "merchantName": "Acher",
+        "minMerchants": 3,
+        "mustContainMerchants": [
+          "Acher"
+        ]
       }
     ]
   }

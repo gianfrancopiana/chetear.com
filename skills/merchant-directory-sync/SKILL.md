@@ -27,10 +27,11 @@ and navigation notes.
 ## Linking rules to merchant lists
 
 1. Keep merchant lists separate from discount rules.
-2. Link a list to discount rules using stable `ruleIds` only when the relationship is explicit in repo data or the source page.
-3. If the merchant list is visible but the parent-rule linkage is ambiguous, do not write it into the site runtime data.
-4. Do not create orphan merchant lists for bank-specific subsections that are not first-class product groupings.
-5. Do not collapse merchant lists into the `merchant` field of `site/src/data/discounts/*.json`.
+2. Prefer linking a list to discount rules through stable `ruleIds` when the relationship is explicit in repo data or the source page.
+3. For generated provider snapshots without stable rule ids, use provider-scoped `merchantNames` only when the merchant name is stable and exact enough to link safely.
+4. If the merchant list is visible but the parent-rule linkage is ambiguous, do not write it into the site runtime data.
+5. Do not create orphan merchant lists for bank-specific subsections that are not first-class product groupings.
+6. Do not collapse merchant lists into the `merchant` field of `site/src/data/discounts/*.json`.
 
 ## Extraction rules
 
@@ -58,6 +59,7 @@ Use this shape:
     {
       "id": "itau-restaurantes-general-directory",
       "ruleIds": ["itau-restaurantes-general-15"],
+      "merchantNames": ["Only for generated rules without stable ids"],
       "sourceUrls": ["https://www.itau.com.uy/inst/restaurantes.html"],
       "merchants": [
         {

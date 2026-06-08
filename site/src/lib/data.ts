@@ -123,6 +123,33 @@ const merchantsByRule = allMerchantListProviders.reduce((acc, providerData) => {
   return acc;
 }, new Map<string, MerchantExpansion[]>());
 
+function merchantNameKey(value: string): string {
+  return value
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
+}
+
+const merchantsByName = allMerchantListProviders.reduce((acc, providerData) => {
+  for (const list of providerData.lists) {
+    for (const merchantName of list.merchantNames || []) {
+      const key = `${providerData.provider}:${merchantNameKey(merchantName)}`;
+      const current = acc.get(key) || [];
+      list.merchants.forEach((merchant, merchantIndex) => {
+        current.push({
+          listId: list.id,
+          merchantIndex,
+          merchant,
+        });
+      });
+      acc.set(key, current);
+    }
+  }
+  return acc;
+}, new Map<string, MerchantExpansion[]>());
+
 function buildBaseDiscountItem(
   provider: string,
   rule: DiscountRule,
@@ -162,11 +189,10 @@ function buildDiscountEntries(
   ruleIndex: number,
 ): DiscountListItem[] {
   const baseItem = buildBaseDiscountItem(provider, rule, ruleIndex);
-  if (!rule.id) {
-    return [baseItem];
-  }
-
-  const linkedMerchants = merchantsByRule.get(`${provider}:${rule.id}`) || [];
+  const linkedMerchants =
+    (rule.id ? merchantsByRule.get(`${provider}:${rule.id}`) : undefined) ||
+    merchantsByName.get(`${provider}:${merchantNameKey(rule.merchant)}`) ||
+    [];
   if (linkedMerchants.length === 0) {
     return [baseItem];
   }

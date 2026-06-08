@@ -86,6 +86,180 @@
           "mapsUrl": "https://www.google.com/maps/place/iPlace/@-34.8692138,-56.1693956,17z/data=!3m1!4b1!4m6!3m5!1s0x959f810039cc5cc3:0x516fad0a2e71b3b5!8m2!3d-34.8692138!4d-56.1693956!16s%2Fg%2F11wfx1c7p4"
         }
       ]
+    },
+    {
+      "id": "antel-cinemateca-locations",
+      "merchantNames": [
+        "Cinemateca"
+      ],
+      "sourceUrls": [
+        "https://nominatim.openstreetmap.org/"
+      ],
+      "merchants": [
+        {
+          "name": "Cinemateca",
+          "location": "Cinemateca, Lorenzo Carnelli, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.906654,
+            "lng": -56.181328
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.906654,-56.181328"
+        },
+        {
+          "name": "Cinemateca Uruguaya",
+          "location": "Cinemateca Uruguaya, 1236, Bartolomé Mitre, Ciudad Vieja, Montevideo, 11000",
+          "geo": {
+            "lat": -34.908515,
+            "lng": -56.200855
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.908515,-56.200855"
+        },
+        {
+          "name": "Salas de Cinemateca Uruguaya",
+          "location": "Salas de Cinemateca Uruguaya, Reconquista, Ciudad Vieja, Montevideo, 11000",
+          "geo": {
+            "lat": -34.90854,
+            "lng": -56.200853
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.908540,-56.200853"
+        }
+      ]
+    },
+    {
+      "id": "antel-grupocine-locations",
+      "merchantNames": [
+        "Grupocine"
+      ],
+      "sourceUrls": [
+        "https://nominatim.openstreetmap.org/"
+      ],
+      "merchants": [
+        {
+          "name": "GrupoCine",
+          "location": "GrupoCine, Ejido, Centro, Montevideo, 11114",
+          "geo": {
+            "lat": -34.905246,
+            "lng": -56.187014
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.905246,-56.187014"
+        }
+      ]
+    },
+    {
+      "id": "antel-life-cinemas-locations",
+      "merchantNames": [
+        "LIFE Cinemas"
+      ],
+      "sourceUrls": [
+        "https://nominatim.openstreetmap.org/"
+      ],
+      "merchants": [
+        {
+          "name": "LIFE Cinemas - Life 21",
+          "location": "Life 21, 21 de Setiembre, Punta Carretas, Montevideo, 11311",
+          "geo": {
+            "lat": -34.918844,
+            "lng": -56.156374
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.918844,-56.156374"
+        }
+      ]
+    },
+    {
+      "id": "antel-motorola-locations",
+      "merchantNames": [
+        "Motorola"
+      ],
+      "sourceUrls": [
+        "https://nominatim.openstreetmap.org/"
+      ],
+      "merchants": [
+        {
+          "name": "Motorola",
+          "location": "Motorola, Río Branco, Barrio Sur, Montevideo, 11100",
+          "geo": {
+            "lat": -34.906099,
+            "lng": -56.195771
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.906099,-56.195771"
+        }
+      ]
+    },
+    {
+      "id": "antel-samsung-locations",
+      "merchantNames": [
+        "Samsung"
+      ],
+      "sourceUrls": [
+        "https://nominatim.openstreetmap.org/"
+      ],
+      "merchants": [
+        {
+          "name": "Samsung Store",
+          "location": "Samsung Store, Canelones, Parque Rodó, Montevideo, 11200",
+          "geo": {
+            "lat": -34.907224,
+            "lng": -56.171878
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.907224,-56.171878"
+        },
+        {
+          "name": "Samsung",
+          "location": "Samsung, Carlos Roxlo, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.904258,
+            "lng": -56.181634
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.904258,-56.181634"
+        },
+        {
+          "name": "Samsung",
+          "location": "Samsung, Ruta Interbalnearia General Líber Seregni, Solymar, Ciudad de la Costa, Municipio de Ciudad de la Costa, Canelones, 15005",
+          "geo": {
+            "lat": -34.817486,
+            "lng": -55.980294
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.817486,-55.980294"
+        }
+      ]
+    },
+    {
+      "id": "antel-via-confort-locations",
+      "merchantNames": [
+        "Vía Confort"
+      ],
+      "sourceUrls": [
+        "https://nominatim.openstreetmap.org/"
+      ],
+      "merchants": [
+        {
+          "name": "Via Confort",
+          "location": "Via Confort, Avenida 8 de Octubre, Unión, Montevideo, 11820",
+          "geo": {
+            "lat": -34.87357,
+            "lng": -56.138454
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.873570,-56.138454"
+        },
+        {
+          "name": "Via Confort",
+          "location": "Via Confort, Avenida Agraciada, Paso Molino, Montevideo, 11700",
+          "geo": {
+            "lat": -34.855843,
+            "lng": -56.221001
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.855843,-56.221001"
+        },
+        {
+          "name": "Via Confort",
+          "location": "Via Confort, 1494, Avenida 18 de Julio, Centro, Montevideo, 11114",
+          "geo": {
+            "lat": -34.905013,
+            "lng": -56.183559
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.905013,-56.183559"
+        }
+      ]
     }
   ]
 }

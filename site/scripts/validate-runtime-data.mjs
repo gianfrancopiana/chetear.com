@@ -151,6 +151,7 @@ const MerchantList = z
   .object({
     id: z.string().min(1),
     ruleIds: z.array(z.string().min(1)).optional(),
+    merchantNames: z.array(z.string().min(1)).optional(),
     sourceUrls: z.array(z.string().url()).min(1),
     merchants: z.array(MerchantListMerchant).min(1),
   })

@@ -1020,6 +1020,654 @@
           "mapsUrl": "https://www.google.com/maps/place/Movie+Nuevocentro/@-34.8687111,-56.1702009,17z/data=!3m1!4b1!4m6!3m5!1s0x959f8070764ff37b:0xd07bf61a3ded1677!8m2!3d-34.8687111!4d-56.1702009!16s%2Fg%2F11cr_ymdrl"
         }
       ]
+    },
+    {
+      "id": "oca-bela-locations",
+      "merchantNames": [
+        "Bela"
+      ],
+      "sourceUrls": [
+        "https://nominatim.openstreetmap.org/"
+      ],
+      "merchants": [
+        {
+          "name": "bela",
+          "location": "bela, Avenida Ingeniero Luis Giannattasio, Lagomar, Ciudad de la Costa, Municipio de Ciudad de la Costa, Canelones, 15000",
+          "geo": {
+            "lat": -34.83766,
+            "lng": -55.985931
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.837660,-55.985931"
+        }
+      ]
+    },
+    {
+      "id": "oca-briq-locations",
+      "merchantNames": [
+        "Briq"
+      ],
+      "sourceUrls": [
+        "https://nominatim.openstreetmap.org/"
+      ],
+      "merchants": [
+        {
+          "name": "BRIQ",
+          "location": "BRIQ, Bulevar Francisco Piria, Piriápolis, Maldonado, 20200",
+          "geo": {
+            "lat": -34.868243,
+            "lng": -55.272338
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.868243,-55.272338"
+        }
+      ]
+    },
+    {
+      "id": "oca-burger-king-locations",
+      "merchantNames": [
+        "Burger King"
+      ],
+      "sourceUrls": [
+        "https://nominatim.openstreetmap.org/"
+      ],
+      "merchants": [
+        {
+          "name": "Burger King",
+          "location": "Burger King, 4252, Avenida Agraciada, Paso Molino, Montevideo, 11700",
+          "geo": {
+            "lat": -34.855762,
+            "lng": -56.220449
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.855762,-56.220449"
+        },
+        {
+          "name": "Burger King",
+          "location": "Burger King, 1348, Avenida 18 de Julio, Centro, Montevideo, 11114",
+          "geo": {
+            "lat": -34.905802,
+            "lng": -56.186974
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.905802,-56.186974"
+        },
+        {
+          "name": "Burger King",
+          "location": "Burger King, Avenida Italia, Malvín Nuevo, Montevideo, 11400",
+          "geo": {
+            "lat": -34.887588,
+            "lng": -56.114744
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.887588,-56.114744"
+        },
+        {
+          "name": "Burger King",
+          "location": "Burger King, Avenida 18 de Julio, Centro, Montevideo, 11100",
+          "geo": {
+            "lat": -34.906242,
+            "lng": -56.193933
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.906242,-56.193933"
+        },
+        {
+          "name": "Burger King",
+          "location": "Burger King, 1925, Bulevar General Artigas, Tres Cruces, Montevideo, 11600",
+          "geo": {
+            "lat": -34.894578,
+            "lng": -56.166904
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.894578,-56.166904"
+        },
+        {
+          "name": "Burger King",
+          "location": "Burger King, 1552, Bulevar General Artigas, Tres Cruces, Montevideo, 11601",
+          "geo": {
+            "lat": -34.900463,
+            "lng": -56.16406
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900463,-56.164060"
+        },
+        {
+          "name": "Burger King",
+          "location": "Burger King, 2877, Avenida Italia, La Blanqueada, Montevideo, 11820",
+          "geo": {
+            "lat": -34.890317,
+            "lng": -56.152532
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.890317,-56.152532"
+        },
+        {
+          "name": "Burger King",
+          "location": "Burger King, Senda César Reutor Baridón, Barrio Histórico, Colonia del Sacramento, Colonia, 70000",
+          "geo": {
+            "lat": -34.465559,
+            "lng": -57.834425
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.465559,-57.834425"
+        },
+        {
+          "name": "Burger King",
+          "location": "Burger King, Gorlero, Punta Del Este, Maldonado, 20100",
+          "geo": {
+            "lat": -34.961739,
+            "lng": -54.943011
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.961739,-54.943011"
+        },
+        {
+          "name": "Burger King",
+          "location": "Burger King, Bulevar General Artigas, Barrio Olimpico, Paysandú, 60000",
+          "geo": {
+            "lat": -32.322078,
+            "lng": -58.069724
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.322078,-58.069724"
+        },
+        {
+          "name": "Burger King",
+          "location": "Burger King, Sepe, Misiones, Rivera, 40000",
+          "geo": {
+            "lat": -30.900212,
+            "lng": -55.524465
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-30.900212,-55.524465"
+        },
+        {
+          "name": "Burger King",
+          "location": "Burger King, José Raffo, Talleres Norte, Salto, 50000",
+          "geo": {
+            "lat": -31.38421,
+            "lng": -57.944115
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-31.384210,-57.944115"
+        },
+        {
+          "name": "Burger King",
+          "location": "Burger King, Avenida Ingeniero Luis Giannattasio, San José de Carrasco, Ciudad de la Costa, Municipio de Ciudad de la Costa, Canelones, 15002",
+          "geo": {
+            "lat": -34.841546,
+            "lng": -55.99347
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.841546,-55.993470"
+        },
+        {
+          "name": "Burger King",
+          "location": "Burger King, Avenida Luis Alberto de Herrera, La Mondiola, Buceo, Montevideo, 11300",
+          "geo": {
+            "lat": -34.903924,
+            "lng": -56.137833
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.903924,-56.137833"
+        },
+        {
+          "name": "Burger King",
+          "location": "Burger King, 1248, Avenida Luis Alberto de Herrera, La Mondiola, Buceo, Montevideo, 11300",
+          "geo": {
+            "lat": -34.904755,
+            "lng": -56.136128
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.904755,-56.136128"
+        }
+      ]
+    },
+    {
+      "id": "oca-chaja-locations",
+      "merchantNames": [
+        "Chajá"
+      ],
+      "sourceUrls": [
+        "https://nominatim.openstreetmap.org/"
+      ],
+      "merchants": [
+        {
+          "name": "Chajá",
+          "location": "Chajá, 18 de Mayo, Municipio de Las Piedras, Canelones, 90200",
+          "geo": {
+            "lat": -34.716203,
+            "lng": -56.22164
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.716203,-56.221640"
+        },
+        {
+          "name": "Chajá",
+          "location": "Chajá, Villa Los Manzanos, Barros Blancos, Municipio de Nicolich, Canelones, 91001",
+          "geo": {
+            "lat": -34.742936,
+            "lng": -55.982404
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.742936,-55.982404"
+        },
+        {
+          "name": "Chajá",
+          "location": "Chajá, Salinas, Municipio de Salinas, Canelones, 15100",
+          "geo": {
+            "lat": -34.780225,
+            "lng": -55.831259
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.780225,-55.831259"
+        },
+        {
+          "name": "Chajá",
+          "location": "Chajá, Solís, Maldonado, 20302",
+          "geo": {
+            "lat": -34.798005,
+            "lng": -55.38172
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.798005,-55.381720"
+        },
+        {
+          "name": "Chajá",
+          "location": "Chajá, Hugo Rodríguez, Río Branco, Cerro Largo, 37100",
+          "geo": {
+            "lat": -32.607208,
+            "lng": -53.394064
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.607208,-53.394064"
+        },
+        {
+          "name": "Chajá",
+          "location": "Chajá, Pastoreo, Rosario, Colonia, 70200",
+          "geo": {
+            "lat": -34.329154,
+            "lng": -57.351354
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.329154,-57.351354"
+        },
+        {
+          "name": "Chajá",
+          "location": "Chajá, Villa María, San José, 80005",
+          "geo": {
+            "lat": -34.512976,
+            "lng": -56.76109
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.512976,-56.761090"
+        },
+        {
+          "name": "Chaja",
+          "location": "Chaja, Araminda, Canelones, 16305",
+          "geo": {
+            "lat": -34.785906,
+            "lng": -55.551825
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.785906,-55.551825"
+        },
+        {
+          "name": "Chaja",
+          "location": "Chaja, 1152, 18 de Julio, Paysandú, 60000",
+          "geo": {
+            "lat": -32.317393,
+            "lng": -58.082692
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.317393,-58.082692"
+        },
+        {
+          "name": "Chaja",
+          "location": "Chaja, Doctor Luis Alberto de Herrera, Raquel Pacheco, Río Branco, Cerro Largo, 37100",
+          "geo": {
+            "lat": -32.606657,
+            "lng": -53.396307
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.606657,-53.396307"
+        },
+        {
+          "name": "Islote Chajá",
+          "location": "Islote Chajá, Río Negro",
+          "geo": {
+            "lat": -33.093797,
+            "lng": -58.219511
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.093797,-58.219511"
+        }
+      ]
+    },
+    {
+      "id": "oca-el-club-de-la-papa-frita-locations",
+      "merchantNames": [
+        "El Club de la Papa Frita"
+      ],
+      "sourceUrls": [
+        "https://nominatim.openstreetmap.org/"
+      ],
+      "merchants": [
+        {
+          "name": "El Club de la Papa Frita",
+          "location": "El Club de la Papa Frita, 3650, Avenida 8 de Octubre, Unión, Montevideo, 11400",
+          "geo": {
+            "lat": -34.876566,
+            "lng": -56.14298
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.876566,-56.142980"
+        },
+        {
+          "name": "El Club de la Papa Frita",
+          "location": "El Club de la Papa Frita, 3654, Bulevar General Artigas, Atahualpa, Montevideo, 11700",
+          "geo": {
+            "lat": -34.870602,
+            "lng": -56.182337
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.870602,-56.182337"
+        },
+        {
+          "name": "El Club de la Papa Frita",
+          "location": "El Club de la Papa Frita, 5187, Avenida Enrique Legrand, Malvín, Montevideo, 11403",
+          "geo": {
+            "lat": -34.89058,
+            "lng": -56.097017
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.890580,-56.097017"
+        },
+        {
+          "name": "El Club de la papa frita",
+          "location": "El Club de la papa frita, 2704, Avenida 8 de Octubre, La Blanqueada, Montevideo, 11820",
+          "geo": {
+            "lat": -34.889406,
+            "lng": -56.159913
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.889406,-56.159913"
+        },
+        {
+          "name": "El Club de la Papa Frita",
+          "location": "El Club de la Papa Frita, 1261, Avenida 18 de Julio, Centro, Montevideo, 11100",
+          "geo": {
+            "lat": -34.905583,
+            "lng": -56.188814
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.905583,-56.188814"
+        }
+      ]
+    },
+    {
+      "id": "oca-herracor-locations",
+      "merchantNames": [
+        "Herracor"
+      ],
+      "sourceUrls": [
+        "https://nominatim.openstreetmap.org/"
+      ],
+      "merchants": [
+        {
+          "name": "Herracor",
+          "location": "Herracor, Avenida 8 de Octubre, Flor de Maroñas, Montevideo, 12100",
+          "geo": {
+            "lat": -34.857537,
+            "lng": -56.133276
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.857537,-56.133276"
+        },
+        {
+          "name": "Herracor",
+          "location": "Herracor, Cerro Largo, Aguada, Montevideo, 11100",
+          "geo": {
+            "lat": -34.901214,
+            "lng": -56.193655
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.901214,-56.193655"
+        },
+        {
+          "name": "Herracor",
+          "location": "Herracor, Rincón, Barrio Lavalleja, Sarubbi, Maldonado, 20000",
+          "geo": {
+            "lat": -34.907074,
+            "lng": -54.955666
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.907074,-54.955666"
+        }
+      ]
+    },
+    {
+      "id": "oca-homeopatia-alemana-locations",
+      "merchantNames": [
+        "Homeopatía Alemana"
+      ],
+      "sourceUrls": [
+        "https://nominatim.openstreetmap.org/"
+      ],
+      "merchants": [
+        {
+          "name": "Homeopatía Alemana",
+          "location": "Homeopatía Alemana, 1494, Carlos Roxlo, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.902499,
+            "lng": -56.18218
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.902499,-56.182180"
+        },
+        {
+          "name": "Homeopatia Alemana",
+          "location": "Homeopatia Alemana, Julio Alberto Goday Echenique, Cerro Chato, Florida, 35200",
+          "geo": {
+            "lat": -33.108576,
+            "lng": -55.132935
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.108576,-55.132935"
+        }
+      ]
+    },
+    {
+      "id": "oca-kroser-locations",
+      "merchantNames": [
+        "Kroser"
+      ],
+      "sourceUrls": [
+        "https://nominatim.openstreetmap.org/"
+      ],
+      "merchants": [
+        {
+          "name": "Kroser",
+          "location": "Kroser, Manuel Meléndez, Pérez Castellanos, Montevideo, 12000",
+          "geo": {
+            "lat": -34.858012,
+            "lng": -56.165744
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.858012,-56.165744"
+        },
+        {
+          "name": "Kroser",
+          "location": "Kroser, Doctor Francisco Simón, Parque Batlle, Montevideo, 11820",
+          "geo": {
+            "lat": -34.887199,
+            "lng": -56.144714
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.887199,-56.144714"
+        },
+        {
+          "name": "Kroser",
+          "location": "Kroser, Carlos Crocker, Unión, Montevideo, 11820",
+          "geo": {
+            "lat": -34.87841,
+            "lng": -56.146827
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.878410,-56.146827"
+        },
+        {
+          "name": "Kroser",
+          "location": "Kroser, Avenida Bolivia, Punta Gorda, Montevideo, 11403",
+          "geo": {
+            "lat": -34.883354,
+            "lng": -56.082902
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.883354,-56.082902"
+        },
+        {
+          "name": "Kroser",
+          "location": "Kroser, Bulevar José Batlle y Ordóñez, Bolívar, Montevideo, 12000",
+          "geo": {
+            "lat": -34.871635,
+            "lng": -56.158356
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.871635,-56.158356"
+        },
+        {
+          "name": "Kroser",
+          "location": "Kroser, 3655, Avenida General Rivera, Buceo, Montevideo, 11600",
+          "geo": {
+            "lat": -34.89966,
+            "lng": -56.134408
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.899660,-56.134408"
+        },
+        {
+          "name": "Kroser",
+          "location": "Kroser, Agustina Contucci de Oribe, Unión, Montevideo, 11820",
+          "geo": {
+            "lat": -34.878833,
+            "lng": -56.146786
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.878833,-56.146786"
+        },
+        {
+          "name": "Kroser",
+          "location": "Kroser, Vía Costanera, Tres Ombúes, Montevideo, 11900",
+          "geo": {
+            "lat": -34.873214,
+            "lng": -56.246272
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.873214,-56.246272"
+        },
+        {
+          "name": "Kroser",
+          "location": "Kroser, Juan Julio Raissignier, Unión, Montevideo, 11600",
+          "geo": {
+            "lat": -34.871084,
+            "lng": -56.135022
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.871084,-56.135022"
+        },
+        {
+          "name": "Kroser",
+          "location": "Kroser, Avenida 8 de Octubre, Unión, Montevideo, 11600",
+          "geo": {
+            "lat": -34.870747,
+            "lng": -56.135316
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.870747,-56.135316"
+        },
+        {
+          "name": "Kroser",
+          "location": "Kroser, Avenida General Eugenio Garzón, Colón, Montevideo, 12500",
+          "geo": {
+            "lat": -34.803651,
+            "lng": -56.22343
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.803651,-56.223430"
+        },
+        {
+          "name": "Kroser",
+          "location": "Kroser, Avenida Orlando Pedragosa Sierra, San Rafael, Punta Del Este, Maldonado, 20100",
+          "geo": {
+            "lat": -34.944542,
+            "lng": -54.934543
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.944542,-54.934543"
+        },
+        {
+          "name": "Kroser Carrasco",
+          "location": "Kroser Carrasco, 5940, Avenida Italia, Punta Gorda, Montevideo, 11500",
+          "geo": {
+            "lat": -34.881838,
+            "lng": -56.078546
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.881838,-56.078546"
+        },
+        {
+          "name": "Kroser Santos",
+          "location": "Kroser Santos, 2727, Avenida Millán, Reducto, Montevideo, 11800",
+          "geo": {
+            "lat": -34.876008,
+            "lng": -56.187805
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.876008,-56.187805"
+        },
+        {
+          "name": "Kroser La Blanqueada",
+          "location": "Kroser La Blanqueada, 3263, 3265, Avenida Italia, Parque Batlle, Montevideo, 11820",
+          "geo": {
+            "lat": -34.887255,
+            "lng": -56.144365
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.887255,-56.144365"
+        }
+      ]
+    },
+    {
+      "id": "oca-megal-locations",
+      "merchantNames": [
+        "Megal"
+      ],
+      "sourceUrls": [
+        "https://nominatim.openstreetmap.org/"
+      ],
+      "merchants": [
+        {
+          "name": "Megal",
+          "location": "Megal, Doctor Juan José de Amézaga, Reus, La Comercial, Montevideo, 11800",
+          "geo": {
+            "lat": -34.885157,
+            "lng": -56.174791
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.885157,-56.174791"
+        },
+        {
+          "name": "Megal",
+          "location": "Megal, 4483, Bulevar José Batlle y Ordóñez, Aires Puros, Montevideo, 11700",
+          "geo": {
+            "lat": -34.854842,
+            "lng": -56.179994
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.854842,-56.179994"
+        },
+        {
+          "name": "Megal",
+          "location": "Megal, 4293, Avenida General San Martín, Las Acacias, Montevideo, 12300",
+          "geo": {
+            "lat": -34.846828,
+            "lng": -56.170044
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.846828,-56.170044"
+        },
+        {
+          "name": "Megal",
+          "location": "Megal, Ruta Interbalnearia General Líber Seregni, Marindia, Municipio de Salinas, Canelones, 15104",
+          "geo": {
+            "lat": -34.773711,
+            "lng": -55.830675
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.773711,-55.830675"
+        },
+        {
+          "name": "Megal",
+          "location": "Megal, Avenida Barreira, Solís, Maldonado, 20302",
+          "geo": {
+            "lat": -34.792691,
+            "lng": -55.383595
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.792691,-55.383595"
+        },
+        {
+          "name": "Megal",
+          "location": "Megal, Uruguay, Tupambaé, Cerro Largo, 36100",
+          "geo": {
+            "lat": -32.837792,
+            "lng": -54.763039
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.837792,-54.763039"
+        },
+        {
+          "name": "Megal",
+          "location": "Megal, Ruta Interbalnearia General Líber Seregni, Parque del Plata, Municipio de Parque del Plata, Canelones, 16100",
+          "geo": {
+            "lat": -34.757148,
+            "lng": -55.72938
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.757148,-55.729380"
+        },
+        {
+          "name": "Gas Megal",
+          "location": "Gas Megal, La Tablada, Montevideo",
+          "geo": {
+            "lat": -34.816302,
+            "lng": -56.237869
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.816302,-56.237869"
+        }
+      ]
     }
   ]
 }

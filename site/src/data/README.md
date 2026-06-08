@@ -42,6 +42,7 @@ Keep only runtime-useful fields:
     {
       "id": "itau-restaurantes-general-directory",
       "ruleIds": ["itau-restaurantes-general-15"],
+      "merchantNames": ["Only for generated rules without stable ids"],
       "sourceUrls": ["https://example.com"],
       "merchants": [
         {
@@ -110,7 +111,11 @@ If 66 merchants are visible, runtime data should behave as if the total is 66.
 
 ## Linking policy
 
-- A merchant list may be stored only if it maps clearly to one or more discount rules through `ruleIds`.
+- A merchant list may be stored only if it maps clearly to one or more discount rules.
+- Prefer `ruleIds` for curated or otherwise stable discount rules.
+- Use `merchantNames` only when the provider sync generates rules without durable ids
+  and the merchant name is stable enough to link exactly within that same provider.
+  Runtime matching is provider-scoped and accent/case-insensitive.
 - If linkage is ambiguous, do not write that merchant list into site runtime data.
 - Do not create orphan merchant lists just because the source page has a visible subsection.
 
