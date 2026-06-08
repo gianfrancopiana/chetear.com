@@ -5,7 +5,19 @@ import type { DiscountItem } from "../lib/discounts-ui";
 import { providerColor, type BenefitType } from "../lib/schema";
 import { googleMapsSearchUrl } from "../lib/maps";
 import { escapeHtml } from "../lib/strings";
-import { DISCOUNTS_FILTERED_EVENT, MAP_EXPAND_EVENT, MAP_SHOWN_EVENT } from "../lib/events";
+import {
+  DISCOUNTS_FILTERED_EVENT,
+  MAP_EXPAND_EVENT,
+  MAP_INTERACTED_EVENT,
+  MAP_SHOWN_EVENT,
+} from "../lib/events";
+
+// Fired on a genuine user map gesture (pan/tap/zoom-button) so the mobile sheet
+// collapses. Deliberately NOT wired to Leaflet 'zoomstart'/'movestart', which
+// also fire on programmatic fitBounds during filtering.
+function emitMapInteracted() {
+  window.dispatchEvent(new CustomEvent(MAP_INTERACTED_EVENT));
+}
 
 // Uruguay-ish default view, used until we fit to the actual pins.
 const URUGUAY_CENTER: [number, number] = [-34.6, -56.0];
@@ -177,6 +189,10 @@ export default function MapView() {
     }).addTo(map);
     const markers = L.layerGroup().addTo(map);
 
+    // User-initiated map gestures collapse the mobile sheet.
+    map.on("dragstart", emitMapInteracted);
+    map.on("click", emitMapInteracted);
+
     function render(items: DiscountItem[]) {
       if (items === renderedRef.current) return; // unchanged set → markers already correct
       renderedRef.current = items;
@@ -305,7 +321,10 @@ export default function MapView() {
         >
           <button
             type="button"
-            onClick={() => mapRef.current?.zoomIn()}
+            onClick={() => {
+              emitMapInteracted();
+              mapRef.current?.zoomIn();
+            }}
             aria-label="Acercar"
             className="flex h-11 w-11 items-center justify-center text-ink hover:bg-paper-2"
           >
@@ -316,7 +335,10 @@ export default function MapView() {
           <div className="h-px w-full bg-divider" />
           <button
             type="button"
-            onClick={() => mapRef.current?.zoomOut()}
+            onClick={() => {
+              emitMapInteracted();
+              mapRef.current?.zoomOut();
+            }}
             aria-label="Alejar"
             className="flex h-11 w-11 items-center justify-center text-ink hover:bg-paper-2"
           >

@@ -26,6 +26,7 @@ import {
   DISCOUNTS_FILTERED_EVENT,
   MAP_EXPAND_EVENT,
   MAP_SHOWN_EVENT,
+  REQUEST_DETAIL_EVENT,
   TARJETAS_CHANGED_EVENT,
 } from "../lib/events";
 import { escapeHtml } from "../lib/strings";
@@ -99,49 +100,10 @@ export default function initHomeDiscountsPage(): void {
   // infinite-scroll observer must watch it rather than the viewport.
   const listViewEl = root.querySelector<HTMLElement>("[data-list-view]");
 
-  // List / map view. Visibility is driven by CSS off `data-view` on the page
-  // root (see index.astro): below lg it's a real one-at-a-time toggle; at lg+
-  // the list and map show side by side (the split) and `data-view` is ignored.
-  // The map is the same filtered data as the list — switching never refetches.
-  const VIEW_KEY = "chetear-view-v1";
-  const viewToggleButtons = Array.from(
-    root.querySelectorAll<HTMLButtonElement>("[data-view-option]"),
-  );
+  // The map is always on-screen now — desktop shows it in the split, mobile
+  // shows it full-screen behind the <MobileSheet> bottom sheet — so the list
+  // filter set is always broadcast (see renderDiscounts).
   const desktopMq = window.matchMedia("(min-width: 1024px)");
-  let view: "list" | "map" = loadJSON<string>(VIEW_KEY, "list") === "map" ? "map" : "list";
-
-  // The map is on-screen when the desktop split is showing, or the user toggled
-  // to it on mobile. Used to avoid rebuilding a hidden map (see renderDiscounts).
-  function mapVisible(): boolean {
-    return desktopMq.matches || view === "map";
-  }
-
-  function applyView(): void {
-    root.dataset.view = view;
-    for (const button of viewToggleButtons) {
-      const on = button.dataset.view === view;
-      button.setAttribute("aria-pressed", on ? "true" : "false");
-      button.classList.toggle("bg-surface", on);
-      button.classList.toggle("shadow-sm", on);
-      button.classList.toggle("text-ink", on);
-      button.classList.toggle("text-ink-3", !on);
-    }
-    // Map just became visible (or its container size changed): let Leaflet
-    // recompute size and draw the current filtered set.
-    if (mapVisible()) window.dispatchEvent(new CustomEvent(MAP_SHOWN_EVENT));
-  }
-
-  for (const button of viewToggleButtons) {
-    button.addEventListener(
-      "click",
-      () => {
-        view = button.dataset.view === "map" ? "map" : "list";
-        saveJSON(VIEW_KEY, view);
-        applyView();
-      },
-      { signal },
-    );
-  }
 
   // Desktop expand/collapse: the map island's button toggles the map to full
   // width (hiding the list) and back. CSS keys off [data-map-expanded].
@@ -153,9 +115,6 @@ export default function initHomeDiscountsPage(): void {
     },
     { signal },
   );
-
-
-  applyView();
 
   if (
     !filterBar ||
@@ -188,13 +147,14 @@ export default function initHomeDiscountsPage(): void {
     loadMoreObserver.observe(loadMoreSentinel);
   }
   setupLoadMoreObserver();
-  // One handler for crossing the lg breakpoint: re-sync the view (reveals/hides
-  // the map and resizes it) and re-point the infinite-scroll observer (page
-  // scroll on mobile, internal list scroll on desktop).
+  // Crossing the lg breakpoint changes the map's container (mobile full-screen
+  // ↔ desktop split column) and where the list scrolls, so resize the map and
+  // re-point the infinite-scroll observer (viewport on mobile, list on desktop).
   desktopMq.addEventListener(
     "change",
     () => {
-      applyView();
+      renderDiscounts(); // populate the desktop list when entering desktop (skipped on mobile)
+      window.dispatchEvent(new CustomEvent(MAP_SHOWN_EVENT));
       setupLoadMoreObserver();
     },
     { signal },
@@ -334,14 +294,11 @@ export default function initHomeDiscountsPage(): void {
     const visible = filtered.slice(0, visibleCount);
     currentFilteredLength = filtered.length;
 
-    // Keep the latest filtered set on the global so the map island can read it
-    // when it becomes visible (and on mount). Only broadcast a live update when
-    // the map is actually showing — no point rebuilding a hidden map on every
-    // filter/keystroke, or on load-more (which doesn't change `filtered`).
+    // Broadcast the filtered set to the map + mobile sheet (both always on
+    // screen). The global lets a late-mounting island read the current set on
+    // mount; the island's own reference-guard skips redundant rebuilds.
     window.__chetearFilteredItems = filtered;
-    if (mapVisible()) {
-      window.dispatchEvent(new CustomEvent(DISCOUNTS_FILTERED_EVENT, { detail: { items: filtered } }));
-    }
+    window.dispatchEvent(new CustomEvent(DISCOUNTS_FILTERED_EVENT, { detail: { items: filtered } }));
 
     renderControls();
 
@@ -357,7 +314,12 @@ export default function initHomeDiscountsPage(): void {
         </div>`;
     }
 
-    list.innerHTML = visible.map((rule, index) => renderDiscountRow(rule, index, visible.length, stagger)).join("");
+    // The desktop list is hidden on mobile (the bottom sheet shows the list
+    // there), so skip building its rows below lg — the work would be invisible.
+    // Re-rendered when crossing into desktop (see the desktopMq handler).
+    if (desktopMq.matches) {
+      list.innerHTML = visible.map((rule, index) => renderDiscountRow(rule, index, visible.length, stagger)).join("");
+    }
     const hasMore = visible.length < filtered.length;
     loadMoreWrap.hidden = !hasMore;
     loadMoreSentinel.hidden = !hasMore;
@@ -498,6 +460,17 @@ export default function initHomeDiscountsPage(): void {
   }
 
   window.addEventListener(DETAIL_DISMISS_REQUEST_EVENT, dismissDetailPanel, { signal });
+
+  // Cards outside the main list (the mobile sheet) ask to open a detail panel;
+  // route through presentDetail so history/URL behave like a list-row tap.
+  window.addEventListener(
+    REQUEST_DETAIL_EVENT,
+    (event) => {
+      const rule = findRuleById(event.detail.id);
+      if (rule) presentDetail(rule);
+    },
+    { signal },
+  );
 
   window.addEventListener("popstate", () => {
     if (rules) syncPanelFromUrl(rules);

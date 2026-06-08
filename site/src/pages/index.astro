@@ -8,6 +8,7 @@ import { FilterTrigger } from "../components/FilterTrigger";
 import { FilterDrawer } from "../components/FilterDrawer";
 import { DetailDrawer } from "../components/DetailDrawer";
 import MapView from "../components/MapView";
+import MobileSheet from "../components/MobileSheet";
 import {
   CAT_FILTERS,
   discountDetailHref,
@@ -66,41 +67,17 @@ const initialVisible = initialFiltered.slice(0, INITIAL_VISIBLE_DISCOUNTS);
       </div>
     </div>
 
-    <div class="px-5 md:px-0 mb-3 mt-1 md:mt-0 lg:hidden">
-      <div
-        data-view-toggle
-        class="inline-flex rounded-full border border-divider bg-white p-0.5 text-[13px] font-medium"
-      >
-        <button
-          type="button"
-          data-view-option
-          data-view="list"
-          aria-pressed="true"
-          class="rounded-full px-3.5 py-1.5 text-ink"
-        >
-          Lista
-        </button>
-        <button
-          type="button"
-          data-view-option
-          data-view="map"
-          aria-pressed="false"
-          class="rounded-full px-3.5 py-1.5 text-ink-3"
-        >
-          Mapa
-        </button>
-      </div>
-    </div>
-
     {/*
-      Desktop split: a fixed-height row where the list scrolls internally and
-      the map stays put (Airbnb pattern). The 203px = sticky header (~82) +
-      category bar (~57) + the wrapper's top+bottom padding (~64). If the header
-      or filter bar height changes, update this constant (and the mobile map
-      height below, calc(100dvh-230px)).
+      Two layouts:
+      - Mobile (<lg): the map is full-screen (fixed) and the list lives in the
+        <MobileSheet> bottom sheet, so this desktop list is hidden.
+      - Desktop (lg+): a fixed-height split row — the list scrolls internally
+        while the map stays put (Airbnb). The 203px = sticky header (~82) +
+        category bar (~57) + wrapper top/bottom padding (~64); update it if the
+        header or filter bar height changes.
     */}
     <div data-results class="lg:flex lg:gap-5 lg:h-[calc(100dvh-203px)] lg:overflow-hidden">
-    <div data-list-view class="px-5 md:px-0 lg:flex-1 lg:min-w-0 lg:h-full lg:overflow-y-auto lg:pr-1">
+    <div data-list-view class="hidden px-5 md:px-0 lg:block lg:flex-1 lg:min-w-0 lg:h-full lg:overflow-y-auto lg:pr-1">
       <div data-empty-state hidden class="py-10 text-center"></div>
 
       <div
@@ -175,16 +152,15 @@ const initialVisible = initialFiltered.slice(0, INITIAL_VISIBLE_DISCOUNTS);
 
     <div
       data-map-view
-      class="px-5 md:px-0 lg:w-[42%] lg:shrink-0 lg:h-full"
+      class="fixed inset-0 z-0 lg:static lg:z-auto lg:w-[42%] lg:shrink-0 lg:h-full"
     >
-      <div
-        class="relative w-full overflow-hidden rounded-xl border border-divider h-[calc(100dvh-230px)] min-h-[440px] lg:h-full lg:min-h-0"
-      >
+      <div class="relative h-full w-full overflow-hidden lg:rounded-xl lg:border lg:border-divider">
         <MapView client:only="react" />
       </div>
     </div>
     </div>
 
+    <MobileSheet client:only="react" />
     <FilterDrawer client:load />
     <DetailDrawer client:load />
 
@@ -243,21 +219,10 @@ const initialVisible = initialFiltered.slice(0, INITIAL_VISIBLE_DISCOUNTS);
   }
 
   /*
-   * List / map view switching.
-   *
-   * Below lg: one view at a time, keyed off [data-view] (set by the
-   * controller) — the mobile toggle. Above lg: list + map always show side by
-   * side (the split), the toggle is hidden, and [data-view] is ignored. When
-   * [data-map-expanded] is set (the map's expand button), the map fills the
-   * full width and the list hides.
-   *
-   * The two breakpoints are mutually exclusive so the mobile display:none rules
-   * never fight the desktop split (no specificity tug-of-war).
+   * Desktop expand: when [data-map-expanded] is set (the map's expand button),
+   * the map fills the full width and the list hides. Desktop only — on mobile
+   * the map is full-screen and the list lives in the bottom sheet.
    */
-  @media (max-width: 1023.98px) {
-    [data-discounts-page][data-view="map"] [data-list-view] { display: none; }
-    [data-discounts-page]:not([data-view="map"]) [data-map-view] { display: none; }
-  }
   @media (min-width: 1024px) {
     [data-discounts-page][data-map-expanded] [data-list-view] { display: none; }
     [data-discounts-page][data-map-expanded] [data-map-view] { width: 100%; }
