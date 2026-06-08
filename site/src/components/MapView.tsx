@@ -66,13 +66,6 @@ interface Point {
   benefits: Benefit[];
   topPercent: number;
 }
-interface Anywhere {
-  key: string;
-  name: string;
-  location?: string;
-  mapsUrl: string;
-  benefits: Benefit[];
-}
 
 function benefitLabel(b: Benefit): string {
   if (b.benefitType === "2-for-1") return "2×1";
@@ -99,50 +92,33 @@ function dedupe(benefits: Benefit[]): Benefit[] {
   return [...seen.values()].sort((a, b) => b.percent - a.percent);
 }
 
-// Group the currently-filtered discounts into map points (those with a pin)
-// and the "sin ubicación" list (directory merchants we haven't placed yet).
-function buildPoints(items: DiscountItem[]): { points: Point[]; anywhere: Anywhere[] } {
+// Group the currently-filtered discounts into deduped map points (those with a
+// geocoded pin). Items without `geo` (most provider card benefits, which apply
+// to a category rather than a specific store) simply aren't placed.
+function buildPoints(items: DiscountItem[]): Point[] {
   const pts = new Map<string, Point>();
-  const any = new Map<string, Anywhere>();
   for (const it of items) {
+    if (!it.merchantGeo) continue;
     const mapsUrl = it.merchantMapsUrl ?? googleMapsSearchUrl(it.merchant, it.merchantLocation);
-    if (it.merchantGeo) {
-      const key = `${it.merchantGeo.lat},${it.merchantGeo.lng}`;
-      const existing = pts.get(key);
-      if (existing) existing.benefits.push(toBenefit(it));
-      else
-        pts.set(key, {
-          key,
-          lat: it.merchantGeo.lat,
-          lng: it.merchantGeo.lng,
-          name: it.merchant,
-          location: it.merchantLocation,
-          mapsUrl,
-          benefits: [toBenefit(it)],
-          topPercent: it.percent,
-        });
-    } else if (it.listId) {
-      const key = `${it.merchant}|${it.merchantLocation ?? ""}`.toLowerCase();
-      const existing = any.get(key);
-      if (existing) existing.benefits.push(toBenefit(it));
-      else
-        any.set(key, {
-          key,
-          name: it.merchant,
-          location: it.merchantLocation,
-          mapsUrl,
-          benefits: [toBenefit(it)],
-        });
-    }
+    const key = `${it.merchantGeo.lat},${it.merchantGeo.lng}`;
+    const existing = pts.get(key);
+    if (existing) existing.benefits.push(toBenefit(it));
+    else
+      pts.set(key, {
+        key,
+        lat: it.merchantGeo.lat,
+        lng: it.merchantGeo.lng,
+        name: it.merchant,
+        location: it.merchantLocation,
+        mapsUrl,
+        benefits: [toBenefit(it)],
+        topPercent: it.percent,
+      });
   }
-  const points = [...pts.values()].map((p) => {
+  return [...pts.values()].map((p) => {
     const benefits = dedupe(p.benefits);
     return { ...p, benefits, topPercent: Math.max(...benefits.map((b) => b.percent), 0) };
   });
-  const anywhere = [...any.values()]
-    .map((m) => ({ ...m, benefits: dedupe(m.benefits) }))
-    .sort((a, b) => a.name.localeCompare(b.name, "es"));
-  return { points, anywhere };
 }
 
 function popupHtml(p: Point): string {
@@ -187,9 +163,6 @@ export default function MapView() {
   // the same array reference (filters didn't change), so we skip the rebuild;
   // a real filter change always produces a fresh array → markers rebuild.
   const renderedRef = useRef<DiscountItem[] | null>(null);
-  const [anywhere, setAnywhere] = useState<Anywhere[]>([]);
-  const [onMapCount, setOnMapCount] = useState(0);
-  const [trayOpen, setTrayOpen] = useState(false);
   const [locating, setLocating] = useState(false);
   const [locateError, setLocateError] = useState<string | null>(null);
   const [expanded, setExpanded] = useState(false);
@@ -227,15 +200,12 @@ export default function MapView() {
     function render(items: DiscountItem[]) {
       if (items === renderedRef.current) return; // unchanged set → markers already correct
       renderedRef.current = items;
-      const { points, anywhere } = buildPoints(items);
       markers.clearLayers();
-      for (const p of points) {
+      for (const p of buildPoints(items)) {
         const m = L.marker([p.lat, p.lng], { icon: markerIcon(p), title: p.name });
         m.bindPopup(popupHtml(p), { closeButton: true, maxWidth: 280 });
         markers.addLayer(m);
       }
-      setOnMapCount(points.length);
-      setAnywhere(anywhere);
       // We don't auto-fit to the pins: the map stays at its Montevideo (or
       // IP-refined) default and the user pans/zooms from there.
     }
@@ -418,81 +388,6 @@ export default function MapView() {
           </button>
         </div>
       </div>
-
-      <div className="absolute z-[500] bottom-4 left-4 flex flex-col gap-2">
-        <div className="rounded-full bg-white px-3 py-1.5 text-xs font-medium text-ink-2 shadow-md">
-          {onMapCount} comercios en el mapa
-        </div>
-        {anywhere.length > 0 && (
-          <button
-            type="button"
-            onClick={() => setTrayOpen(true)}
-            className="rounded-full bg-white px-3 py-1.5 text-xs font-medium text-coral-deep shadow-md text-left"
-          >
-            {anywhere.length} sin ubicación todavía →
-          </button>
-        )}
-      </div>
-
-      {trayOpen && (
-        <div className="absolute inset-0 z-[600] flex">
-          <button
-            type="button"
-            aria-label="Cerrar"
-            className="absolute inset-0 bg-black/30"
-            onClick={() => setTrayOpen(false)}
-          />
-          <div className="relative ml-auto h-full w-full max-w-sm overflow-y-auto bg-paper shadow-2xl">
-            <div className="sticky top-0 flex items-center justify-between bg-paper/95 px-5 py-4 backdrop-blur">
-              <div>
-                <h2 className="text-lg font-semibold text-ink">Sin ubicación todavía</h2>
-                <p className="text-xs text-ink-3">Comercios que aún no ubicamos en el mapa. Abrilos en Google Maps.</p>
-              </div>
-              <button
-                type="button"
-                onClick={() => setTrayOpen(false)}
-                className="shrink-0 rounded-full px-2 py-1 text-sm text-ink-3 hover:text-ink"
-              >
-                ✕
-              </button>
-            </div>
-            <ul className="divide-y divide-divider px-5">
-              {anywhere.map((m) => (
-                <li key={m.key} className="py-3">
-                  <div className="flex items-start justify-between gap-3">
-                    <div className="min-w-0">
-                      <div className="truncate text-sm font-semibold text-ink">{m.name}</div>
-                      {m.location && <div className="text-xs text-ink-3">{m.location}</div>}
-                      <div className="mt-1 flex flex-wrap gap-1">
-                        {m.benefits.map((b, i) => {
-                          const { base, wash } = providerColor(b.provider);
-                          return (
-                            <span
-                              key={i}
-                              className="rounded-full px-2 py-0.5 text-[11px] font-semibold"
-                              style={{ background: wash, color: base }}
-                            >
-                              {b.providerLabel} {benefitLabel(b)}
-                            </span>
-                          );
-                        })}
-                      </div>
-                    </div>
-                    <a
-                      href={m.mapsUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="shrink-0 whitespace-nowrap text-xs font-semibold text-[#0b57d0] no-underline"
-                    >
-                      Maps →
-                    </a>
-                  </div>
-                </li>
-              ))}
-            </ul>
-          </div>
-        </div>
-      )}
     </div>
   );
 }
