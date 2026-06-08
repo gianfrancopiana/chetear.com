@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { Drawer } from "../lib/drawer";
+import { getTranslate } from "../lib/drawer/helpers";
 import type { DiscountItem } from "../lib/discounts-ui";
 import { discountDetailHref, providerMeta } from "../lib/discounts-ui";
 import { benefitChip } from "../lib/condition-format";
@@ -147,6 +148,69 @@ export default function MobileSheet() {
     // isMobile gates whether the refs are mounted (the component renders null
     // until then), so re-run when it flips, not just on items change.
   }, [items, isMobile]);
+
+  // Trackpad / mouse-wheel scroll-to-expand. vaul only drives the sheet from
+  // touch/pointer drags, so on desktop a wheel just scrolls the list and the
+  // sheet never grows. Here, while the sheet is below full, an upward scroll
+  // expands it tied 1:1 to the wheel delta (transition off → no snap jump) and
+  // the list is held still; only once full does the list scroll. Scrolling up
+  // at the list's top collapses it back toward the half snap. vaul re-applies
+  // its snap transform only when the active snap *changes* (verified in
+  // use-snap-points), so driving the transform here doesn't fight it as long
+  // as we only hand a snap back at the endpoints.
+  useEffect(() => {
+    if (!isMobile) return;
+    const scroller = scrollRef.current;
+    // The sheet is the scroller's vaul Content ancestor. Query it from the DOM
+    // rather than a forwarded ref: the ref to the portaled Content isn't set
+    // when this effect first runs, and (unlike the load-more effect) nothing
+    // here changes to re-run it — re-running on `items` covers that.
+    const sheet = scroller?.closest("[data-vaul-drawer]") as HTMLElement | null;
+    if (!scroller || !sheet) return;
+
+    let settle: ReturnType<typeof setTimeout> | undefined;
+    const scheduleSettle = () => {
+      clearTimeout(settle);
+      // Restore the CSS transition once the gesture ends so later drags animate.
+      settle = setTimeout(() => {
+        sheet.style.transition = "";
+      }, 160);
+    };
+
+    const onWheel = (e: WheelEvent) => {
+      const vh = window.innerHeight;
+      const fullOffset = (1 - full) * vh; // translateY fully expanded (smallest)
+      const halfOffset = (1 - HALF) * vh; // translateY at the half snap (largest)
+      const current = getTranslate(sheet, "bottom") ?? 0;
+      const atFullPos = current <= fullOffset + 1;
+
+      if (e.deltaY > 0 && !atFullPos) {
+        // Scrolling down below full → expand; hold the list.
+        e.preventDefault();
+        const next = Math.max(fullOffset, current - e.deltaY);
+        sheet.style.transition = "none";
+        sheet.style.transform = `translate3d(0, ${next}px, 0)`;
+        if (next <= fullOffset + 1) setSnap(full); // hand the full snap to vaul
+        scheduleSettle();
+      } else if (e.deltaY < 0 && !atFullPos && current < halfOffset - 1 && scroller.scrollTop <= 0) {
+        // Scrolling up at the list's top while expanded → collapse toward half.
+        e.preventDefault();
+        const next = Math.min(halfOffset, current - e.deltaY);
+        sheet.style.transition = "none";
+        sheet.style.transform = `translate3d(0, ${next}px, 0)`;
+        if (next >= halfOffset - 1) setSnap(HALF);
+        scheduleSettle();
+      }
+    };
+
+    scroller.addEventListener("wheel", onWheel, { passive: false });
+    return () => {
+      scroller.removeEventListener("wheel", onWheel);
+      clearTimeout(settle);
+    };
+    // `items` is here so the effect re-runs once the portaled sheet has mounted
+    // (mirrors the load-more observer), not because the handler depends on it.
+  }, [isMobile, full, items]);
 
   if (!isMobile) return null;
 

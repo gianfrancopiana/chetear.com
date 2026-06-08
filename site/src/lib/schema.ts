@@ -276,9 +276,21 @@ export type ProviderDiscounts = z.infer<typeof ProviderDiscounts>;
  *
  * `confidence` is optional and legacy; the agent flow does not set it.
  */
+// Uruguay's bounding box — a cheap "is this point in the country" guard, shared
+// by the stored-geo validation below and the IP-derived default map view.
+export const URUGUAY_BOUNDS = { latMin: -35.5, latMax: -29.5, lngMin: -58.6, lngMax: -52.8 } as const;
+export function inUruguay(lat: number, lng: number): boolean {
+  return (
+    lat >= URUGUAY_BOUNDS.latMin &&
+    lat <= URUGUAY_BOUNDS.latMax &&
+    lng >= URUGUAY_BOUNDS.lngMin &&
+    lng <= URUGUAY_BOUNDS.lngMax
+  );
+}
+
 export const MerchantGeo = z.object({
-  lat: z.number().min(-35.5).max(-29.5),
-  lng: z.number().min(-58.6).max(-52.8),
+  lat: z.number().min(URUGUAY_BOUNDS.latMin).max(URUGUAY_BOUNDS.latMax),
+  lng: z.number().min(URUGUAY_BOUNDS.lngMin).max(URUGUAY_BOUNDS.lngMax),
   confidence: z.enum(["high", "low"]).optional(),
 });
 export type MerchantGeo = z.infer<typeof MerchantGeo>;

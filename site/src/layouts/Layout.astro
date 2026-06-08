@@ -130,6 +130,16 @@ const navTabs = [
       body[data-sheet-collapsed="true"] [data-bottom-nav] {
         transform: translateY(100%) !important;
       }
+
+      /*
+       * Collapsed sheet (full-screen map): drop the "Cerca mío" locate button
+       * to the bottom of the map, just above the collapsed sheet's peek,
+       * instead of leaving it floating at the half-sheet position. 12% mirrors
+       * MobileSheet's COLLAPSED snap fraction — keep the two in sync.
+       */
+      body[data-sheet-collapsed="true"] [data-locate-btn] {
+        bottom: calc(12% + 0.75rem);
+      }
     </style>
     {/*
       Raw CSS (is:inline so the build's CSS minifier doesn't strip the

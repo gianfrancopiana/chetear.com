@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import type { DiscountItem } from "../lib/discounts-ui";
-import { providerColor, type BenefitType } from "../lib/schema";
+import { providerColor, type BenefitType, inUruguay } from "../lib/schema";
 import { googleMapsSearchUrl } from "../lib/maps";
 import { escapeHtml } from "../lib/strings";
 import {
@@ -19,8 +19,32 @@ function emitMapInteracted() {
   window.dispatchEvent(new CustomEvent(MAP_INTERACTED_EVENT));
 }
 
-// Uruguay-ish default view, used until we fit to the actual pins.
-const URUGUAY_CENTER: [number, number] = [-34.6, -56.0];
+// Default view: central Montevideo, zoomed to a city level. Most benefits
+// cluster here, and we anchor here rather than fitting to every pin (which
+// zooms out to the whole country). An in-country IP lookup may refine it.
+const MONTEVIDEO: [number, number] = [-34.9011, -56.1645];
+const DEFAULT_ZOOM = 12;
+
+// Center a point within the *visible* slice of the map. On mobile the map is
+// full-screen behind the sticky header/filters (top) and the bottom sheet
+// (bottom), so a plain setView drops the point at the screen center — which is
+// hidden under the sheet and looks "cut off". Shift it up into the visible gap.
+// Gated on the sheet's presence (mobile only); since the map is `fixed inset-0`
+// there, container pixels equal viewport pixels. On desktop there's no sheet,
+// so it's a normal centered setView.
+function centerInView(map: L.Map, latlng: [number, number], zoom: number, animate = true) {
+  const sheet = document.querySelector("[data-vaul-drawer]");
+  if (!sheet) {
+    map.setView(latlng, zoom, { animate });
+    return;
+  }
+  const filterBar = document.querySelector("[data-filter-bar]");
+  const topChrome = filterBar ? filterBar.getBoundingClientRect().bottom : 0;
+  const sheetTop = sheet.getBoundingClientRect().top;
+  const offsetY = map.getSize().y / 2 - (topChrome + sheetTop) / 2;
+  const target = map.unproject(map.project(latlng, zoom).add([0, offsetY]), zoom);
+  map.setView(target, zoom, { animate });
+}
 
 // Soft floating-control shadow, matching the Airbnb map button treatment.
 const CONTROL_SHADOW = "0 1px 2px rgba(0,0,0,0.15), 0 3px 8px rgba(0,0,0,0.12)";
@@ -156,7 +180,9 @@ export default function MapView() {
   const containerRef = useRef<HTMLDivElement | null>(null);
   const mapRef = useRef<L.Map | null>(null);
   const userMarkerRef = useRef<L.Marker | null>(null);
-  const fittedRef = useRef(false);
+  // Set once the user pans/zooms/locates, so the async IP lookup never yanks
+  // the view out from under them.
+  const interactedRef = useRef(false);
   // The last item array we built markers for. A show/expand/resize re-fires with
   // the same array reference (filters didn't change), so we skip the rebuild;
   // a real filter change always produces a fresh array → markers rebuild.
@@ -181,7 +207,7 @@ export default function MapView() {
 
     // No default Leaflet zoom control — we render Airbnb-style controls in React
     // (top-right) so they match the rest of the chrome exactly.
-    const map = L.map(containerRef.current, { center: URUGUAY_CENTER, zoom: 7, zoomControl: false });
+    const map = L.map(containerRef.current, { center: MONTEVIDEO, zoom: DEFAULT_ZOOM, zoomControl: false });
     mapRef.current = map;
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
       maxZoom: 19,
@@ -189,36 +215,55 @@ export default function MapView() {
     }).addTo(map);
     const markers = L.layerGroup().addTo(map);
 
-    // User-initiated map gestures collapse the mobile sheet.
-    map.on("dragstart", emitMapInteracted);
-    map.on("click", emitMapInteracted);
+    // User-initiated map gestures collapse the mobile sheet and mark the map as
+    // taken over (so the IP lookup below stops refining the default).
+    const onUserInteract = () => {
+      interactedRef.current = true;
+      emitMapInteracted();
+    };
+    map.on("dragstart", onUserInteract);
+    map.on("click", onUserInteract);
 
     function render(items: DiscountItem[]) {
       if (items === renderedRef.current) return; // unchanged set → markers already correct
       renderedRef.current = items;
       const { points, anywhere } = buildPoints(items);
       markers.clearLayers();
-      const latlngs: L.LatLngExpression[] = [];
       for (const p of points) {
         const m = L.marker([p.lat, p.lng], { icon: markerIcon(p), title: p.name });
         m.bindPopup(popupHtml(p), { closeButton: true, maxWidth: 280 });
         markers.addLayer(m);
-        latlngs.push([p.lat, p.lng]);
       }
       setOnMapCount(points.length);
       setAnywhere(anywhere);
-      // Fit once on first data; afterward let the user keep their viewport
-      // across filter changes rather than yanking it around.
-      if (!fittedRef.current && latlngs.length > 0) {
-        map.fitBounds(L.latLngBounds(latlngs), { padding: [40, 40], maxZoom: 14 });
-        fittedRef.current = true;
-      }
+      // We don't auto-fit to the pins: the map stays at its Montevideo (or
+      // IP-refined) default and the user pans/zooms from there.
     }
 
     render(window.__chetearFilteredItems ?? []);
     // Container size may settle a frame after mount (sticky column / calc
     // height); recompute so tiles fill it on first paint.
     requestAnimationFrame(() => map.invalidateSize());
+
+    // Progressive enhancement: a coarse, no-permission default location from
+    // the visitor's IP (nicer than a fixed point for in-country users). Uses a
+    // free, no-auth, CORS-enabled service (ipapi.co, ~1k req/day). On any
+    // failure, rate-limit, or out-of-country result we keep the Montevideo
+    // default. Skipped if the user has already moved the map by the time it
+    // resolves (so it never fights a pan/zoom or a "Cerca mío" fix).
+    const ipCtrl = new AbortController();
+    const ipTimer = setTimeout(() => ipCtrl.abort(), 2500);
+    fetch("https://ipapi.co/json/", { signal: ipCtrl.signal })
+      .then((r) => (r.ok ? r.json() : null))
+      .then((d) => {
+        if (!d) return;
+        const lat = Number(d.latitude);
+        const lng = Number(d.longitude);
+        if (!Number.isFinite(lat) || !Number.isFinite(lng) || !inUruguay(lat, lng)) return;
+        if (!interactedRef.current) map.setView([lat, lng], DEFAULT_ZOOM, { animate: false });
+      })
+      .catch(() => {})
+      .finally(() => clearTimeout(ipTimer));
 
     const onFiltered = (e: WindowEventMap[typeof DISCOUNTS_FILTERED_EVENT]) => render(e.detail.items);
     // The container was hidden (display:none) while in list view, so Leaflet
@@ -234,6 +279,8 @@ export default function MapView() {
     return () => {
       window.removeEventListener(DISCOUNTS_FILTERED_EVENT, onFiltered);
       window.removeEventListener(MAP_SHOWN_EVENT, onShown);
+      ipCtrl.abort();
+      clearTimeout(ipTimer);
       map.remove();
       mapRef.current = null;
     };
@@ -245,6 +292,7 @@ export default function MapView() {
       setLocateError("Tu navegador no permite ubicación.");
       return;
     }
+    interactedRef.current = true;
     setLocating(true);
     setLocateError(null);
     navigator.geolocation.getCurrentPosition(
@@ -261,7 +309,7 @@ export default function MapView() {
           }),
           zIndexOffset: 1000,
         }).addTo(map);
-        map.setView(here, 14, { animate: true });
+        centerInView(map, here, 14);
       },
       () => {
         setLocating(false);
@@ -278,24 +326,44 @@ export default function MapView() {
     <div className="relative h-full w-full isolate">
       <div ref={containerRef} className="absolute inset-0 z-0" />
 
-      {/* Cerca mío — top left */}
-      <button
-        type="button"
-        onClick={locateMe}
-        disabled={locating}
-        className="absolute z-[500] top-4 left-4 flex items-center gap-2 rounded-full bg-white px-4 py-2 text-sm font-semibold text-ink disabled:opacity-60"
-        style={{ boxShadow: CONTROL_SHADOW }}
+      {/* "Cerca mío" / locate control. Desktop: labelled pill, top-left. Mobile:
+          the map is full-screen behind the header, so a top control would hide
+          behind it — a compact icon button floats just above the sheet
+          (Google-Maps style). The error toast lives in this same container so it
+          tracks the button (incl. when the collapsed-sheet rule drops it to the
+          bottom); it sits above the button on mobile, below it on desktop. */}
+      <div
+        data-locate-btn
+        className="absolute z-[500] flex flex-col items-end gap-2 transition-[bottom] duration-500 ease-[cubic-bezier(0.32,0.72,0,1)] right-4 bottom-[calc(50%_+_1rem)] lg:flex-col-reverse lg:items-start lg:right-auto lg:bottom-auto lg:top-4 lg:left-4"
       >
-        {locating ? "Buscando…" : "📍 Cerca mío"}
-      </button>
-      {locateError && (
-        <div className="absolute z-[500] top-16 left-4 max-w-[220px] rounded-lg bg-white px-3 py-2 text-xs text-ink-2 shadow-md">
-          {locateError}
-        </div>
-      )}
+        {locateError && (
+          <div className="max-w-[220px] rounded-lg bg-white px-3 py-2 text-xs text-ink-2 shadow-md">
+            {locateError}
+          </div>
+        )}
+        <button
+          type="button"
+          onClick={locateMe}
+          disabled={locating}
+          aria-label="Cerca mío"
+          className="flex items-center justify-center rounded-full bg-white text-ink disabled:opacity-60 h-11 w-11 lg:h-auto lg:w-auto lg:justify-start lg:gap-2 lg:px-4 lg:py-2 lg:text-sm lg:font-semibold"
+          style={{ boxShadow: CONTROL_SHADOW }}
+        >
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" className="shrink-0 lg:h-[17px] lg:w-[17px]">
+            <line x1="12" y1="2" x2="12" y2="5" />
+            <line x1="12" y1="19" x2="12" y2="22" />
+            <line x1="2" y1="12" x2="5" y2="12" />
+            <line x1="19" y1="12" x2="22" y2="12" />
+            <circle cx="12" cy="12" r="7" />
+            <circle cx="12" cy="12" r="2.5" fill="currentColor" stroke="none" />
+          </svg>
+          <span className="hidden lg:inline">{locating ? "Buscando…" : "Cerca mío"}</span>
+        </button>
+      </div>
 
-      {/* Expand + zoom — top right, Airbnb style */}
-      <div className="absolute z-[500] top-4 right-4 flex flex-col items-end gap-3">
+      {/* Expand + zoom — top right, Airbnb style. Desktop only: on mobile the
+          map is full-screen (no expand) and pinch handles zoom. */}
+      <div className="absolute z-[500] top-4 right-4 hidden lg:flex flex-col items-end gap-3">
         {/* Expand / collapse (desktop only; mobile already shows the map full). */}
         <button
           type="button"
@@ -322,6 +390,7 @@ export default function MapView() {
           <button
             type="button"
             onClick={() => {
+              interactedRef.current = true;
               emitMapInteracted();
               mapRef.current?.zoomIn();
             }}
@@ -336,6 +405,7 @@ export default function MapView() {
           <button
             type="button"
             onClick={() => {
+              interactedRef.current = true;
               emitMapInteracted();
               mapRef.current?.zoomOut();
             }}
