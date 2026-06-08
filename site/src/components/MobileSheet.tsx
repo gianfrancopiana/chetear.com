@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { Drawer } from "../lib/drawer";
 import type { DiscountItem } from "../lib/discounts-ui";
 import { discountDetailHref, providerMeta } from "../lib/discounts-ui";
@@ -15,8 +15,20 @@ import {
 // header visible). Mirrors Airbnb's mobile map sheet.
 const COLLAPSED = 0.12;
 const HALF = 0.5;
-const FULL = 0.92;
-const SNAP_POINTS = [COLLAPSED, HALF, FULL];
+
+// Fraction the sheet covers at its tallest. Computed from the category row's
+// position so the header, the filters, and a sliver of map stay visible at the
+// top on any device height (a hardcoded fraction would cover the filters on
+// short screens). Falls back if the layout isn't measurable.
+function computeFullSnap(): number {
+  if (typeof window === "undefined") return 0.82;
+  const filterBar = document.querySelector("[data-filter-bar]");
+  const vh = window.innerHeight;
+  const bottom = filterBar ? filterBar.getBoundingClientRect().bottom : 0;
+  if (!vh || bottom < 40) return 0.82; // layout not ready / unexpected → sane default
+  const top = bottom + 12; // a few px of map below the category row
+  return Math.min(0.9, Math.max(0.6, Math.round((1 - top / vh) * 1000) / 1000));
+}
 
 // Render the list incrementally (the filtered set can be hundreds of items);
 // more load as the user scrolls the sheet. Mirrors the desktop list.
@@ -80,6 +92,8 @@ export default function MobileSheet() {
   const [items, setItems] = useState<DiscountItem[]>(() => window.__chetearFilteredItems ?? []);
   const [snap, setSnap] = useState<number | string | null>(HALF);
   const [visibleCount, setVisibleCount] = useState(INITIAL_VISIBLE);
+  const [full] = useState(computeFullSnap);
+  const snapPoints = useMemo(() => [COLLAPSED, HALF, full], [full]);
   const scrollRef = useRef<HTMLDivElement | null>(null);
   const sentinelRef = useRef<HTMLDivElement | null>(null);
 
@@ -102,6 +116,20 @@ export default function MobileSheet() {
     scrollRef.current?.scrollTo({ top: 0 });
   }, [items]);
 
+  // Collapsing the sheet slides the bottom nav away (full-screen map); opening
+  // it brings the nav back. CSS in Layout.astro keys off this body attribute's
+  // presence, so set it only when collapsed and remove it otherwise.
+  useEffect(() => {
+    if (isMobile && snap === COLLAPSED) {
+      document.body.dataset.sheetCollapsed = "true";
+    } else {
+      delete document.body.dataset.sheetCollapsed;
+    }
+    return () => {
+      delete document.body.dataset.sheetCollapsed;
+    };
+  }, [snap, isMobile]);
+
   // Load more as a sentinel near the bottom of the sheet's own scroll comes
   // into view. Re-created when `items` changes so the length cap is current.
   useEffect(() => {
@@ -122,7 +150,7 @@ export default function MobileSheet() {
 
   if (!isMobile) return null;
 
-  const atFull = snap === FULL;
+  const atFull = snap === full;
   const visible = items.slice(0, visibleCount);
 
   return (
@@ -131,7 +159,7 @@ export default function MobileSheet() {
         open
         modal={false}
         dismissible={false}
-        snapPoints={SNAP_POINTS}
+        snapPoints={snapPoints}
         activeSnapPoint={snap}
         setActiveSnapPoint={setSnap}
         repositionInputs={false}
@@ -146,7 +174,7 @@ export default function MobileSheet() {
               {items.length} beneficios
             </Drawer.Title>
             <Drawer.Description className="sr-only">Lista de beneficios en el área del mapa</Drawer.Description>
-            <div ref={scrollRef} className="min-h-0 flex-1 overflow-y-auto overscroll-contain pb-8">
+            <div ref={scrollRef} className="min-h-0 flex-1 overflow-y-auto overscroll-contain pb-24">
               {visible.map((item) => (
                 <Card key={item.id} item={item} />
               ))}
@@ -161,7 +189,7 @@ export default function MobileSheet() {
         <button
           type="button"
           onClick={() => setSnap(COLLAPSED)}
-          className="fixed bottom-6 left-1/2 z-30 -translate-x-1/2 flex items-center gap-2 rounded-full bg-ink px-5 py-3 text-sm font-semibold text-paper shadow-lg"
+          className="fixed bottom-20 left-1/2 z-40 -translate-x-1/2 flex items-center gap-2 rounded-full bg-ink px-5 py-3 text-sm font-semibold text-paper shadow-lg"
         >
           Mapa
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">

@@ -77,13 +77,10 @@ const initialVisible = initialFiltered.slice(0, INITIAL_VISIBLE_DISCOUNTS);
         header or filter bar height changes.
     */}
     <div data-results class="lg:flex lg:gap-5 lg:h-[calc(100dvh-203px)] lg:overflow-hidden">
-    <div data-list-view class="hidden px-5 md:px-0 lg:block lg:flex-1 lg:min-w-0 lg:h-full lg:overflow-y-auto lg:pr-1">
+    <div data-list-view class="hidden px-5 md:px-0 lg:block lg:flex-1 lg:min-w-0 lg:h-full lg:overflow-y-auto lg:rounded-md lg:border lg:border-divider lg:bg-white">
       <div data-empty-state hidden class="py-10 text-center"></div>
 
-      <div
-        data-discount-card
-        class="overflow-hidden rounded-xl border border-divider bg-white"
-      >
+      <div data-discount-card>
         <div data-discount-list>
           {initialVisible.map((rule, index) => {
             const meta = providerMeta(rule.provider);
@@ -154,7 +151,7 @@ const initialVisible = initialFiltered.slice(0, INITIAL_VISIBLE_DISCOUNTS);
       data-map-view
       class="fixed inset-0 z-0 lg:static lg:z-auto lg:w-[42%] lg:shrink-0 lg:h-full"
     >
-      <div class="relative h-full w-full overflow-hidden lg:rounded-xl lg:border lg:border-divider">
+      <div class="relative h-full w-full overflow-hidden lg:rounded-md lg:border lg:border-divider">
         <MapView client:only="react" />
       </div>
     </div>
@@ -228,4 +225,19 @@ const initialVisible = initialFiltered.slice(0, INITIAL_VISIBLE_DISCOUNTS);
     [data-discounts-page][data-map-expanded] [data-map-view] { width: 100%; }
   }
 
+</style>
+
+<style is:global>
+  /*
+   * This page fills the desktop viewport (a fixed-height map + an internally
+   * scrolling list), so it must not page-scroll. Layout's shared bottom-nav
+   * spacer ([data-bottom-spacer]) adds a redundant 32px on desktop (the content
+   * wrapper already pads md:py-8), which would push the page past the fold.
+   * Zero it on desktop so the row's `100dvh - 203px` lands exactly and the
+   * bottom gap matches the top. Scoped to this page (this block only ships with
+   * index.astro) and targeted at the spacer hook so no other sibling is hit.
+   */
+  @media (min-width: 1024px) {
+    [data-discounts-page] ~ [data-bottom-spacer] { padding-bottom: 0; }
+  }
 </style>
