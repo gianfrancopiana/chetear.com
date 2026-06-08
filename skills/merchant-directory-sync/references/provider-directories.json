@@ -4,10 +4,14 @@
     "label": "Itau",
     "outputPath": "site/src/data/merchant-directories/itau.json",
     "urls": [
-      "https://www.itau.com.uy/inst/restaurantes.html"
+      "https://www.itau.com.uy/inst/restaurantes.html",
+      "https://www.itau.com.uy/inst/moda.html",
+      "https://www.sanroque.com.uy/tiendas",
+      "https://api.movie.com.uy/api/concession/cinemas/list",
+      "https://www.iplace.com.uy/"
     ],
     "mode": "browser",
-    "notes": "Use the location tabs (Montevideo, Punta del Este, Interior) and extract visible merchant links section by section. Only keep merchants that can be linked to first-class Itau runtime discounts; do not emit orphan subsection lists or source totals."
+    "notes": "Use Itaú first-party restaurant/moda pages for broad lists. For San Roque, preserve the chain branch list from the first-party San Roque locator. For Movie and iPlace chain rules, preserve the branch lists resolved from their first-party public location surfaces plus human-checked Google place coordinates."
   },
   {
     "provider": "santander",
@@ -17,7 +21,7 @@
       "https://www.santander.com.uy/beneficios"
     ],
     "mode": "browser",
-    "notes": "Start from Beneficios, discover the Ruta Gourmet list in the browser, and extract individual merchants from the actual list view rather than the teaser card. For Moda, use the first-party category grid at https://www.santander.com.uy/beneficios?categoria=20 and include only cards that explicitly show a 15% discount; exclude points-only cards. Normalize output to the runtime product model; do not carry source framing or source totals into runtime JSON."
+    "notes": "Start from Beneficios, discover the Ruta Gourmet list in the browser, and extract individual merchants from the actual list view rather than the teaser card. For Moda, use the first-party category grid at https://www.santander.com.uy/beneficios?categoria=20 and include only cards that explicitly show a 15% discount; exclude points-only cards. For Farmashop, keep the Santander discount rules broad but preserve the linked `santander-farmashop-directory` branch list from the Farmashop first-party locator at https://tienda.farmashop.com.uy/sucursales so map output expands into branch pins. Normalize output to the runtime product model; do not carry source framing or source totals into runtime JSON."
   },
   {
     "provider": "bbva",
@@ -28,5 +32,37 @@
     ],
     "mode": "browser",
     "notes": "Navigate from the discounts page to the gastronomy merchant list in the browser and extract only browser-visible merchant entries. Normalize labels to the runtime product model and do not carry source counts into runtime JSON."
+  },
+  {
+    "provider": "brou",
+    "label": "BROU",
+    "outputPath": "site/src/data/merchant-directories/brou.json",
+    "urls": [
+      "https://www.precios.uy/sipc2Web/recursos/sipc/obtenerEstablecimientos"
+    ],
+    "mode": "browser",
+    "notes": "BROU supermarket discounts are chain-wide. Preserve branch merchant lists from the official precios.uy establishment API for Ta-Ta, El Dorado, Macro Mercado, Tienda Inglesa, Micro Macro, and Red Expres rather than placing one fake parent-chain pin."
+  },
+  {
+    "provider": "oca",
+    "label": "OCA",
+    "outputPath": "site/src/data/merchant-directories/oca.json",
+    "urls": [
+      "https://www.precios.uy/sipc2Web/recursos/sipc/obtenerEstablecimientos",
+      "https://api.movie.com.uy/api/concession/cinemas/list"
+    ],
+    "mode": "browser",
+    "notes": "OCA chain-wide rules should expand into branch lists when the branch source is reliable: Macro Mercado and TaTa from precios.uy, and Movie from the public Movie cinema list with human-checked Google place coordinates."
+  },
+  {
+    "provider": "antel",
+    "label": "Antel",
+    "outputPath": "site/src/data/merchant-directories/antel.json",
+    "urls": [
+      "https://api.movie.com.uy/api/concession/cinemas/list",
+      "https://www.iplace.com.uy/"
+    ],
+    "mode": "browser",
+    "notes": "Antel Movie and iPlace rules are chain-wide enough for map expansion. Preserve Movie cinema branches and iPlace store branches; do not place broad/online-only Antel rules as one parent pin."
   }
 ]

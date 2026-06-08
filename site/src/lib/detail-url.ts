@@ -92,12 +92,25 @@ export function discountDetailHref(
  * resyncs) and falls back to `ruleIndex` within the same provider. Callers
  * are responsible for narrowing rules to a single provider before calling.
  */
-export function findRuleForTarget<T extends { id?: string }>(
+export function findRuleForTarget<T extends {
+  id?: string;
+  ruleId?: string;
+  listId?: string;
+  merchantIndex?: number;
+}>(
   target: DiscountDetailTarget,
   providerRules: readonly T[],
 ): T | undefined {
   if (target.ruleId) {
-    const byId = providerRules.find((r) => r.id === target.ruleId);
+    const byExactExpandedRule = providerRules.find(
+      (r) =>
+        (r.id === target.ruleId || r.ruleId === target.ruleId) &&
+        (!target.listId || r.listId === target.listId) &&
+        (typeof target.merchantIndex !== "number" || r.merchantIndex === target.merchantIndex),
+    );
+    if (byExactExpandedRule) return byExactExpandedRule;
+
+    const byId = providerRules.find((r) => r.id === target.ruleId || r.ruleId === target.ruleId);
     if (byId) return byId;
   }
   const idx = target.ruleIndex;

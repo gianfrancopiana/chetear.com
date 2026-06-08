@@ -7,20 +7,20 @@ import SearchLauncher from "../components/SearchLauncher.astro";
 import { FilterTrigger } from "../components/FilterTrigger";
 import { FilterDrawer } from "../components/FilterDrawer";
 import { DetailDrawer } from "../components/DetailDrawer";
+import MapView from "../components/MapView";
+import MobileSheet from "../components/MobileSheet";
 import {
   CAT_FILTERS,
   discountDetailHref,
   filterDiscounts,
   INITIAL_VISIBLE_DISCOUNTS,
   providerMeta,
+  rowLocationText,
 } from "../lib/discounts-ui";
 
 const todayIso = getTodayIso();
 const initialFiltered = filterDiscounts(allDiscountRules, "", todayIso);
 const initialVisible = initialFiltered.slice(0, INITIAL_VISIBLE_DISCOUNTS);
-
-const DAY_KEYS = ["lunes", "martes", "miercoles", "jueves", "viernes", "sabado", "domingo"];
-const DAY_LETTERS = ["L", "M", "M", "J", "V", "S", "D"];
 ---
 
 <Layout activeTab="beneficios">
@@ -68,17 +68,25 @@ const DAY_LETTERS = ["L", "M", "M", "J", "V", "S", "D"];
       </div>
     </div>
 
-    <div class="px-5 md:px-0">
+    {/*
+      Two layouts:
+      - Mobile (<lg): the map is full-screen (fixed) and the list lives in the
+        <MobileSheet> bottom sheet, so this desktop list is hidden.
+      - Desktop (lg+): a fixed-height split row — the list scrolls internally
+        while the map stays put (Airbnb). The 203px = sticky header (~82) +
+        category bar (~57) + wrapper top/bottom padding (~64); update it if the
+        header or filter bar height changes.
+    */}
+    <div data-results class="lg:flex lg:gap-5 lg:h-[calc(100dvh-203px)] lg:overflow-hidden">
+    <div data-list-view class="hidden px-5 md:px-0 lg:block lg:flex-1 lg:min-w-0 lg:h-full lg:overflow-y-auto lg:rounded-md lg:border lg:border-divider lg:bg-white">
       <div data-empty-state hidden class="py-10 text-center"></div>
 
-      <div
-        data-discount-card
-        class="lg:hidden overflow-hidden rounded-xl border border-divider bg-white"
-      >
+      <div data-discount-card>
         <div data-discount-list>
           {initialVisible.map((rule, index) => {
             const meta = providerMeta(rule.provider);
             const chip = benefitChip(rule);
+            const rowLocation = rowLocationText(rule);
             return (
               <a
                 href={discountDetailHref(rule)}
@@ -110,102 +118,20 @@ const DAY_LETTERS = ["L", "M", "M", "J", "V", "S", "D"];
                       style={`width: 5px; height: 5px; background: ${meta.color};`}
                     />
                     <span>{meta.label}</span>
-                    {rule.merchantLocation && (
+                    {rowLocation && (
                       <>
                         <span style="color: oklch(0.65 0.01 60);">·</span>
-                        <span>{rule.merchantLocation}</span>
+                        <span>{rowLocation}</span>
                       </>
                     )}
-                    <span style="color: oklch(0.65 0.01 60);">·</span>
-                    <span>{rule.categoryLabel}</span>
+                    <span data-row-cat class="inline-flex items-center gap-[5px]">
+                      <span style="color: oklch(0.65 0.01 60);">·</span>
+                      <span>{rule.categoryLabel}</span>
+                    </span>
                   </div>
                 </div>
                 <svg width="14" height="14" viewBox="0 0 20 20" fill="none" class="shrink-0">
                   <path d="M8 5l5 5-5 5" stroke="oklch(0.5 0.013 60)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
-                </svg>
-              </a>
-            );
-          })}
-        </div>
-      </div>
-
-      <div
-        data-discount-table
-        class="hidden lg:block overflow-hidden rounded-[14px] border border-rule bg-paper"
-        style="background: var(--aqua-bg); box-shadow: var(--aqua-shadow-float);"
-      >
-        <div class="grid grid-cols-[60px_minmax(0,1fr)_110px_120px_172px_18px] xl:grid-cols-[68px_minmax(0,1fr)_150px_150px_172px_20px] gap-3 xl:gap-4 px-5 py-3 text-[11px] tracking-[0.08em] uppercase font-semibold text-ink-3 border-b border-rule bg-paper-2">
-          <div>Beneficio</div>
-          <div>Comercio</div>
-          <div>Tarjeta</div>
-          <div>Categoría</div>
-          <div>Días</div>
-          <div></div>
-        </div>
-        <div data-discount-table-list>
-          {initialVisible.map((rule, index) => {
-            const meta = providerMeta(rule.provider);
-            const ruleDays = rule.days as string[] | undefined;
-            const activeDays = ruleDays && ruleDays.length > 0 ? new Set(ruleDays) : null;
-            const chip = benefitChip(rule);
-            return (
-              <a
-                href={discountDetailHref(rule)}
-                data-rule-id={rule.id}
-                class={
-                  "grid grid-cols-[60px_minmax(0,1fr)_110px_120px_172px_18px] xl:grid-cols-[68px_minmax(0,1fr)_150px_150px_172px_20px] gap-3 xl:gap-4 px-5 py-3.5 items-center no-underline transition-colors hover:bg-paper-2"
-                }
-                style={
-                  index < initialVisible.length - 1
-                    ? "border-bottom: 1px solid oklch(0.86 0.008 60);"
-                    : ""
-                }
-              >
-                {chip.kind === "numeric" ? (
-                  <div class:list={[
-                    "whitespace-nowrap font-bold leading-none tracking-[-0.02em] tabular-nums",
-                    chip.size === "medium" ? "text-[20px]" : "text-[28px]",
-                  ]} style={`color: ${meta.color};`}>
-                    {chip.primary}{chip.unit && <span class="font-sans text-[14px] font-medium text-ink-3">{chip.unit}</span>}
-                  </div>
-                ) : (
-                  <div class="whitespace-nowrap text-[13px] font-bold uppercase tracking-[0.04em] leading-none" style={`color: ${meta.color};`}>
-                    {chip.primary}
-                  </div>
-                )}
-                <div class="min-w-0">
-                  <div class="text-[15px] font-semibold tracking-[-0.005em] text-ink truncate">{rule.merchant}</div>
-                  {rule.merchantLocation && (
-                    <div class="mt-0.5 text-[12px] text-ink-3 truncate">{rule.merchantLocation}</div>
-                  )}
-                </div>
-                <div class="flex items-center gap-2 text-[13px] text-ink-2 min-w-0">
-                  <span
-                    class="flex h-5 w-5 shrink-0 items-center justify-center rounded-full text-[10px] font-bold"
-                    style={`background:${meta.color}; color:#fff;`}
-                  >
-                    {meta.label.slice(0, 1).toUpperCase()}
-                  </span>
-                  <span class="truncate">{meta.label}</span>
-                </div>
-                <div class="text-[13px] text-ink-2 truncate">{rule.categoryLabel}</div>
-                <div class="flex gap-[3px]">
-                  {DAY_KEYS.map((dk, di) => {
-                    const isOn = activeDays === null || activeDays.has(dk);
-                    return (
-                      <span
-                        class:list={[
-                          "flex h-[22px] w-[22px] items-center justify-center rounded-[5px] text-[9px] font-semibold tracking-[0.04em]",
-                          isOn ? "bg-ink text-paper" : "bg-paper-2 text-ink-3",
-                        ]}
-                      >
-                        {DAY_LETTERS[di]}
-                      </span>
-                    );
-                  })}
-                </div>
-                <svg width="16" height="16" viewBox="0 0 20 20" fill="none" class="text-ink-3">
-                  <path d="M8 5l5 5-5 5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
                 </svg>
               </a>
             );
@@ -225,6 +151,17 @@ const DAY_LETTERS = ["L", "M", "M", "J", "V", "S", "D"];
       <div data-load-more-sentinel hidden={initialVisible.length >= initialFiltered.length} class="h-px" />
     </div>
 
+    <div
+      data-map-view
+      class="fixed inset-0 z-0 lg:static lg:z-auto lg:w-[42%] lg:shrink-0 lg:h-full"
+    >
+      <div class="relative h-full w-full overflow-hidden lg:rounded-md lg:border lg:border-divider">
+        <MapView client:only="react" />
+      </div>
+    </div>
+    </div>
+
+    <MobileSheet client:only="react" />
     <FilterDrawer client:load />
     <DetailDrawer client:load />
 
@@ -282,4 +219,37 @@ const DAY_LETTERS = ["L", "M", "M", "J", "V", "S", "D"];
     }
   }
 
+  /*
+   * Desktop expand: when [data-map-expanded] is set (the map's expand button),
+   * the map fills the full width and the list hides. Desktop only — on mobile
+   * the map is full-screen and the list lives in the bottom sheet.
+   */
+  @media (min-width: 1024px) {
+    [data-discounts-page][data-map-expanded] [data-list-view] { display: none; }
+    [data-discounts-page][data-map-expanded] [data-map-view] { width: 100%; }
+  }
+
+</style>
+
+<style is:global>
+  /*
+   * This page fills the desktop viewport (a fixed-height map + an internally
+   * scrolling list), so it must not page-scroll. Layout's shared bottom-nav
+   * spacer ([data-bottom-spacer]) adds a redundant 32px on desktop (the content
+   * wrapper already pads md:py-8), which would push the page past the fold.
+   * Zero it on desktop so the row's `100dvh - 203px` lands exactly and the
+   * bottom gap matches the top. Scoped to this page (this block only ships with
+   * index.astro) and targeted at the spacer hook so no other sibling is hit.
+   */
+  @media (min-width: 1024px) {
+    [data-discounts-page] ~ [data-bottom-spacer] { padding-bottom: 0; }
+  }
+
+  /*
+   * When a specific category is selected (not "Todo"), every list/sheet row
+   * shares that category, so the per-row "· Categoría" label is redundant —
+   * hide it. home-discounts.ts sets body[data-cat-active] on filter; the global
+   * selector also reaches the mobile sheet, which is portaled to <body>.
+   */
+  body[data-cat-active="true"] [data-row-cat] { display: none; }
 </style>

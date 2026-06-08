@@ -12,72 +12,826 @@
         "https://www.itau.com.uy/inst/restaurantes.html"
       ],
       "merchants": [
-        { "name": "Basílico", "url": "https://www.instagram.com/basilicouy/", "location": "Montevideo" },
-        { "name": "Biga", "url": "https://www.instagram.com/biga_uruguay/", "location": "Montevideo" },
-        { "name": "Café Misterio", "url": "https://www.instagram.com/cafemisterio/", "location": "Montevideo" },
-        { "name": "Chester House", "url": "https://www.instagram.com/chesterhouseuy/", "location": "Montevideo" },
-        { "name": "Dos Orientales", "url": "https://www.instagram.com/dos_orientales/", "location": "Montevideo" },
-        { "name": "El Puesto", "url": "https://www.instagram.com/elpuesto.uruguay/", "location": "Montevideo" },
-        { "name": "Escaramuza", "url": "https://www.instagram.com/_escaramuza/", "location": "Montevideo" },
-        { "name": "Fabric Sushi", "url": "https://www.instagram.com/fabricsushiuy/", "location": "Montevideo" },
-        { "name": "Hasami", "url": "https://www.instagram.com/hasami.uy/?hl=es-la", "location": "Montevideo" },
-        { "name": "Hoy te Quiero", "url": "https://www.instagram.com/hoytequiero/", "location": "Montevideo" },
-        { "name": "La Campeona", "url": "https://www.instagram.com/lacampeona_empanadas/", "location": "Montevideo" },
-        { "name": "La Cocina de Pedro", "url": "https://www.instagram.com/lacocina_depedro/", "location": "Montevideo" },
-        { "name": "La Corte", "url": "https://www.instagram.com/restaurantlacorte/", "location": "Montevideo" },
-        { "name": "La Criolla", "url": "https://www.instagram.com/lacriolla_uy/", "location": "Montevideo" },
-        { "name": "La Molienda", "url": "https://www.instagram.com/lamoliendauy/", "location": "Montevideo" },
-        { "name": "La Panera Rosa", "url": "https://www.instagram.com/lapanerarosa.uy/", "location": "Montevideo" },
-        { "name": "La Parrillita de Viñoly", "url": "https://www.instagram.com/laparrillitadevinoly/", "location": "Montevideo" },
-        { "name": "La Perdiz", "url": "https://www.instagram.com/laperdizmvd/", "location": "Montevideo" },
-        { "name": "Malafama Cervecería", "url": "https://www.instagram.com/malafama_puntadeleste/", "location": "Montevideo" },
-        { "name": "Manzanar", "url": "https://www.instagram.com/manzanar.restaurant/", "location": "Montevideo" },
-        { "name": "Misushi", "url": "https://www.instagram.com/misushi/", "location": "Montevideo" },
-        { "name": "Morelia", "url": "https://www.instagram.com/morelia.uy/", "location": "Montevideo" },
-        { "name": "Panini's", "url": "https://www.instagram.com/paninis.uy/", "location": "Montevideo" },
-        { "name": "Pez Globo", "url": "https://www.instagram.com/pezglobouy/", "location": "Montevideo" },
-        { "name": "Polo Bamba", "url": "https://www.instagram.com/polo_bamba/", "location": "Montevideo" },
-        { "name": "Rudy", "url": "https://www.instagram.com/rudy.burgers/", "location": "Montevideo" },
-        { "name": "St. Germain", "url": "https://www.instagram.com/saintgermain.uy/", "location": "Montevideo" },
-        { "name": "Sushi Club", "url": "https://www.instagram.com/sushiclub_uy/", "location": "Montevideo" },
-        { "name": "Sushi Wok Perú", "url": "https://www.instagram.com/sushiwokperu.uy/", "location": "Montevideo" },
-        { "name": "Tandory", "url": "https://www.instagram.com/tandoryresto/", "location": "Montevideo" },
-        { "name": "Tintos y Rubias", "url": "https://www.instagram.com/tintosyrubias/", "location": "Montevideo" },
-        { "name": "Atrevida", "url": "https://www.instagram.com/atrevida.pizzeria/", "location": "Punta del Este" },
-        { "name": "Bigote", "url": "https://www.instagram.com/bigotebar/", "location": "Punta del Este" },
-        { "name": "Blend (Enjoy)", "url": "https://www.instagram.com/gastronomiaenjoypunta/", "location": "Punta del Este" },
-        { "name": "Bungalow Suizo - Café", "url": "https://www.instagram.com/bungalowsuizocafe/", "location": "Punta del Este" },
-        { "name": "Cactus y Pescados", "url": "https://www.instagram.com/cactusypescados/", "location": "Punta del Este" },
-        { "name": "Café El Tesoro", "url": "https://www.instagram.com/cafe_eltesoro/", "location": "Punta del Este" },
-        { "name": "Casa Proa", "url": "https://www.instagram.com/casa.proa/", "location": "Punta del Este" },
-        { "name": "Club de los Balleneros", "url": "https://www.instagram.com/restoclubballeneros/", "location": "Punta del Este" },
-        { "name": "El Secreto", "url": "https://www.instagram.com/elsecretopunta/", "location": "Punta del Este" },
-        { "name": "Fabric Sushi", "url": "https://www.instagram.com/fabricsushiuy/", "location": "Punta del Este" },
-        { "name": "Fish Market", "url": "https://www.instagram.com/fishmarket.uy/", "location": "Punta del Este" },
-        { "name": "Hasami", "url": "https://www.instagram.com/hasami.uy/?hl=es-la", "location": "Punta del Este" },
-        { "name": "Il Baretto", "url": "https://www.instagram.com/ilbaretto_ristorante/", "location": "Punta del Este" },
-        { "name": "Il Belvedere", "url": "https://www.instagram.com/ilbelvedere_punta/", "location": "Punta del Este" },
-        { "name": "L'Auberge", "url": "https://www.instagram.com/hotel_l_auberge/", "location": "Punta del Este" },
-        { "name": "La Cantina del Vigia", "url": "https://www.instagram.com/cantinadelvigia/", "location": "Punta del Este" },
-        { "name": "La Cava", "url": "https://www.instagram.com/lacavapde/", "location": "Punta del Este" },
-        { "name": "La Despensa", "url": "https://www.instagram.com/ladespensajoseignacio/", "location": "Punta del Este" },
-        { "name": "La huella", "url": "https://www.instagram.com/lahuella.parador/", "location": "Punta del Este" },
-        { "name": "La Panera Rosa", "url": "https://www.instagram.com/lapanerarosa.uy/", "location": "Punta del Este" },
-        { "name": "Las Brisas (Enjoy)", "url": "https://www.instagram.com/gastronomiaenjoypunta/", "location": "Punta del Este" },
-        { "name": "Malafama Cervecería", "url": "https://www.instagram.com/malafama_puntadeleste/", "location": "Punta del Este" },
-        { "name": "Mi Piace", "url": "https://www.instagram.com/mipiacepde/", "location": "Punta del Este" },
-        { "name": "Mia Bistro", "url": "https://www.instagram.com/miabpunta/", "location": "Punta del Este" },
-        { "name": "Muelle 3", "url": "https://www.instagram.com/muelle3.pde/", "location": "Punta del Este" },
-        { "name": "Ovo Beach (Enjoy)", "url": "https://www.instagram.com/gastronomiaenjoypunta/", "location": "Punta del Este" },
-        { "name": "Provence (Enjoy)", "url": "https://www.instagram.com/gastronomiaenjoypunta/", "location": "Punta del Este" },
-        { "name": "Pueblo Narakan", "url": "https://www.instagram.com/pueblonarakan/", "location": "Punta del Este" },
-        { "name": "Santa Leoncia", "url": "https://www.instagram.com/santaleonciabargrill/", "location": "Punta del Este" },
-        { "name": "Societé", "url": "https://www.instagram.com/societe1907/", "location": "Punta del Este" },
-        { "name": "St. Tropez (Enjoy)", "url": "https://www.instagram.com/gastronomiaenjoypunta/", "location": "Punta del Este" },
-        { "name": "Sushi Club", "url": "https://www.instagram.com/sushiclub_uy/", "location": "Punta del Este" },
-        { "name": "Sushimi", "url": "https://www.instagram.com/sushimiuy/", "location": "Punta del Este" },
-        { "name": "Virazón", "url": "https://www.instagram.com/virazon.restoran/", "location": "Punta del Este" },
-        { "name": "Yacht Club Uruguayo", "url": "https://www.instagram.com/restoyachtcluburuguayo/", "location": "Punta del Este" }
+        {
+          "name": "Basílico Jacksonville",
+          "url": "https://www.instagram.com/basilicouy/",
+          "location": "Ruta 8 Km 17500",
+          "geo": {
+            "lat": -34.78968,
+            "lng": -56.078944
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Bas%C3%ADlico+Jacksonville/@-34.7896797,-56.0789439,17z/data=!3m1!4b1!4m6!3m5!1s0x95a029065abb0533:0x75a09cc9b9d5f1b4!8m2!3d-34.7896797!4d-56.0789439!16s%2Fg%2F119vmsb7t"
+        },
+        {
+          "name": "Biga",
+          "url": "https://www.instagram.com/biga_uruguay/",
+          "location": "Montevideo",
+          "geo": {
+            "lat": -34.906491,
+            "lng": -56.151973
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Biga+pizza+%26+pasta/@-34.9064909,-56.1519731,17z/data=!3m1!4b1!4m6!3m5!1s0x959f811e9907a681:0x4ce9b90b5e5bc6cb!8m2!3d-34.9064909!4d-56.1519731!16s%2Fg%2F11g3hyqfvq"
+        },
+        {
+          "name": "Café Misterio",
+          "url": "https://www.instagram.com/cafemisterio/",
+          "location": "Montevideo",
+          "geo": {
+            "lat": -34.885734,
+            "lng": -56.05672
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Caf%C3%A9+Misterio/@-34.8857342,-56.0567204,17z/data=!3m1!4b1!4m6!3m5!1s0x959f8668f38ae12b:0x6268d900b6ffdf3b!8m2!3d-34.8857342!4d-56.0567204!16s%2Fg%2F1tf373tp"
+        },
+        {
+          "name": "Chesterhouse",
+          "url": "https://www.instagram.com/chesterhouseuy/",
+          "location": "Dr. Luis Bonavita 1248",
+          "geo": {
+            "lat": -34.904,
+            "lng": -56.135124
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Chesterhouse/data=!4m7!3m6!1s0x959f813e403e2d03:0x84066c9022b208!8m2!3d-34.9040004!4d-56.1351238!16s%2Fg%2F11c1x2q3ym!19sChIJAy0-QD6Bn5URCLIikGwGhAA"
+        },
+        {
+          "name": "Chesterhouse",
+          "url": "https://www.instagram.com/chesterhouseuy/",
+          "location": "Charles Chaplin 324",
+          "geo": {
+            "lat": -34.786905,
+            "lng": -56.070026
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Chesterhouse/data=!4m7!3m6!1s0x95a02901d3183969:0xaafd5e4905292d15!8m2!3d-34.7869054!4d-56.0700258!16s%2Fg%2F11c0vx_00q!19sChIJaTkY0wEpoJURFS0pBUle_ao"
+        },
+        {
+          "name": "Dos Orientales",
+          "url": "https://www.instagram.com/dos_orientales/",
+          "location": "Montevideo",
+          "geo": {
+            "lat": -34.904364,
+            "lng": -56.172856
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Dos+Orientales+Pizza+Bar/@-34.9043638,-56.172856,17z/data=!3m1!4b1!4m6!3m5!1s0x959f8189a7f25f5d:0x5296b9da70e81fbc!8m2!3d-34.9043638!4d-56.172856!16s%2Fg%2F11mvrj97yn"
+        },
+        {
+          "name": "El Puesto",
+          "url": "https://www.instagram.com/elpuesto.uruguay/",
+          "location": "Montevideo",
+          "geo": {
+            "lat": -34.887242,
+            "lng": -56.058833
+          },
+          "mapsUrl": "https://www.google.com/maps/place/El+Puesto/@-34.8872419,-56.0588335,17z/data=!3m1!4b1!4m6!3m5!1s0x959f866618964cb5:0x7a45b2b64dfc8c28!8m2!3d-34.8872419!4d-56.0588335!16s%2Fg%2F11fx7tsn4p"
+        },
+        {
+          "name": "Escaramuza",
+          "url": "https://www.instagram.com/_escaramuza/",
+          "location": "Montevideo",
+          "geo": {
+            "lat": -34.906537,
+            "lng": -56.171118
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Escaramuza/@-34.9065367,-56.1711185,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81b1cc4411b7:0x81c00d5b832535e2!8m2!3d-34.9065367!4d-56.1711185!16s%2Fg%2F11cr_0j71m"
+        },
+        {
+          "name": "Fabric Sushi Bar",
+          "url": "https://www.instagram.com/fabricsushiuy/",
+          "location": "21 de Setiembre 3098",
+          "geo": {
+            "lat": -34.920338,
+            "lng": -56.150536
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Fabric+Sushi+Bar/data=!4m7!3m6!1s0x959f8170f80bb071:0x7042576611f0599b!8m2!3d-34.9203376!4d-56.1505359!16s%2Fg%2F11f54zkcxb!19sChIJcbAL-HCBn5URm1nwEWZXQnA"
+        },
+        {
+          "name": "Fabric Sushi TakeAway",
+          "url": "https://www.instagram.com/fabricsushiuy/",
+          "location": "Av.Gral Rivera 3433",
+          "geo": {
+            "lat": -34.901594,
+            "lng": -56.140247
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Fabric+Sushi+TakeAway/data=!4m7!3m6!1s0x959f81ee1d09f867:0xa986a8b61a1b086e!8m2!3d-34.9015941!4d-56.1402469!16s%2Fg%2F11gr1tfw9h!19sChIJZ_gJHe6Bn5URbggbGraohqk"
+        },
+        {
+          "name": "Hasami",
+          "url": "https://www.instagram.com/hasami.uy/?hl=es-la",
+          "location": "Montevideo",
+          "geo": {
+            "lat": -34.906475,
+            "lng": -56.179053
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Hasami+Cordon/@-34.9064754,-56.179053,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81d3ee02bf9b:0x227ab1d3e779d6f4!8m2!3d-34.9064754!4d-56.179053!16s%2Fg%2F11yj88fx1w"
+        },
+        {
+          "name": "Hoy te Quiero",
+          "url": "https://www.instagram.com/hoytequiero/",
+          "location": "Montevideo",
+          "geo": {
+            "lat": -34.916039,
+            "lng": -56.155953
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Hoy+Te+Quiero/@-34.9160387,-56.1559534,17z/data=!3m1!4b1!4m6!3m5!1s0x959f8174fd39143d:0xda2503b1ec3ba9a9!8m2!3d-34.9160387!4d-56.1559534!16s%2Fg%2F1hc2ns7xr"
+        },
+        {
+          "name": "La Campeona Empanadas",
+          "url": "https://www.instagram.com/lacampeona_empanadas/",
+          "location": "Guipúzcoa 420",
+          "geo": {
+            "lat": -34.923927,
+            "lng": -56.156033
+          },
+          "mapsUrl": "https://www.google.com/maps/place/La+Campeona+Empanadas/data=!4m7!3m6!1s0x959f816aac5bcb15:0x843ce5351ae0a673!8m2!3d-34.9239266!4d-56.1560327!16s%2Fg%2F11ftgrlb0j!19sChIJFctbrGqBn5URc6bgGjXlPIQ"
+        },
+        {
+          "name": "La Campeona Empanadas",
+          "url": "https://www.instagram.com/lacampeona_empanadas/",
+          "location": "Constituyente 1892, Dr Emilio Frugoni Esquina",
+          "geo": {
+            "lat": -34.907195,
+            "lng": -56.175651
+          },
+          "mapsUrl": "https://www.google.com/maps/place/La+Campeona+Empanadas/data=!4m7!3m6!1s0x959f81b2be84e893:0x3006c9ad5e9ea11d!8m2!3d-34.9071946!4d-56.175651!16s%2Fg%2F11f15gb3x1!19sChIJk-iEvrKBn5URHaGeXq3JBjA"
+        },
+        {
+          "name": "La Cocina de Pedro",
+          "url": "https://www.instagram.com/lacocina_depedro/",
+          "location": "Montevideo",
+          "geo": {
+            "lat": -34.912452,
+            "lng": -56.183063
+          },
+          "mapsUrl": "https://www.google.com/maps/place/La+Cocina+de+Pedro/@-34.9124521,-56.1830634,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81c87b1f183d:0x6035d41576aa0510!8m2!3d-34.9124521!4d-56.1830634!16s%2Fg%2F12hvhrd6j"
+        },
+        {
+          "name": "La Corte",
+          "url": "https://www.instagram.com/restaurantlacorte/",
+          "location": "Montevideo",
+          "geo": {
+            "lat": -34.907063,
+            "lng": -56.203148
+          },
+          "mapsUrl": "https://www.google.com/maps/place/La+Corte+Restaurant/@-34.9070625,-56.2031479,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802a80b0b037:0x2ac0134b161a2f6!8m2!3d-34.9070625!4d-56.2031479!16s%2Fg%2F1tgz1s2d"
+        },
+        {
+          "name": "La Criolla",
+          "url": "https://www.instagram.com/lacriolla_uy/",
+          "location": "Montevideo",
+          "geo": {
+            "lat": -34.918769,
+            "lng": -56.159489
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Parrillada+la+Criolla+de+los+Bernasconi/@-34.9187692,-56.1594889,17z/data=!3m1!4b1!4m6!3m5!1s0x959f819e23c8b0dd:0xa1ada52b45d22964!8m2!3d-34.9187692!4d-56.1594889!16s%2Fg%2F1tzl_41r"
+        },
+        {
+          "name": "La Molienda",
+          "url": "https://www.instagram.com/lamoliendauy/",
+          "location": "José Ellauri 350",
+          "geo": {
+            "lat": -34.924657,
+            "lng": -56.158494
+          },
+          "mapsUrl": "https://www.google.com/maps/place/La+Molienda/data=!4m7!3m6!1s0x959f8186365d0fad:0x342716e10fff5a1d!8m2!3d-34.9246571!4d-56.1584938!16s%2Fg%2F11hyy4lhyw!19sChIJrQ9dNoaBn5URHVr_D-EWJzQ"
+        },
+        {
+          "name": "La Molienda - Parque Rodó",
+          "url": "https://www.instagram.com/lamoliendauy/",
+          "location": "Dr. Pablo de María 1018",
+          "geo": {
+            "lat": -34.910275,
+            "lng": -56.170354
+          },
+          "mapsUrl": "https://www.google.com/maps/place/La+Molienda+-+Parque+Rod%C3%B3/data=!4m7!3m6!1s0x959f81fd12ca3307:0x858c30db06470ce6!8m2!3d-34.9102754!4d-56.1703544!16s%2Fg%2F11kjp34dp3!19sChIJBzPKEv2Bn5UR5gxHBtswjIU"
+        },
+        {
+          "name": "La Molienda - ACJ",
+          "url": "https://www.instagram.com/lamoliendauy/",
+          "location": "Colonia 1870",
+          "geo": {
+            "lat": -34.901086,
+            "lng": -56.176461
+          },
+          "mapsUrl": "https://www.google.com/maps/place/La+Molienda+-+ACJ/data=!4m7!3m6!1s0x959f810071caf2eb:0x8bdee37f2b03a26!8m2!3d-34.9010859!4d-56.1764612!16s%2Fg%2F11w8q1z2nf!19sChIJ6_LKcQCBn5URJjqw8jfuvQg"
+        },
+        {
+          "name": "La Molienda - 18 de julio",
+          "url": "https://www.instagram.com/lamoliendauy/",
+          "location": "Av. 18 de Julio 888",
+          "geo": {
+            "lat": -34.906463,
+            "lng": -56.197431
+          },
+          "mapsUrl": "https://www.google.com/maps/place/La+Molienda+-+18+de+julio/data=!4m7!3m6!1s0x959f802ca2a8d6bf:0x676db56bd504f0f9!8m2!3d-34.9064628!4d-56.1974314!16s%2Fg%2F11cn94cbwz!19sChIJv9aooiyAn5UR-fAE1Wu1bWc"
+        },
+        {
+          "name": "La Panera Rosa",
+          "url": "https://www.instagram.com/lapanerarosa.uy/",
+          "location": "José Ellauri 350",
+          "geo": {
+            "lat": -34.923908,
+            "lng": -56.159499
+          },
+          "mapsUrl": "https://www.google.com/maps/place/La+Panera+Rosa/data=!4m7!3m6!1s0x959f819f0c0a57d1:0xa9d54adfa5149bfc!8m2!3d-34.923908!4d-56.1594993!16s%2Fg%2F11rsc139jy!19sChIJ0VcKDJ-Bn5UR_JsUpd9K1ak"
+        },
+        {
+          "name": "La Panera Rosa Carrasco",
+          "url": "https://www.instagram.com/lapanerarosa.uy/",
+          "location": "Av. Alfredo Arocena 1624",
+          "geo": {
+            "lat": -34.888188,
+            "lng": -56.057256
+          },
+          "mapsUrl": "https://www.google.com/maps/place/La+Panera+Rosa+Carrasco/data=!4m7!3m6!1s0x959f87adcf52ff9b:0x26fb452487ceaa28!8m2!3d-34.8881882!4d-56.0572558!16s%2Fg%2F11m9_vdt5k!19sChIJm_9Sz62Hn5URKKrOhyRF-yY"
+        },
+        {
+          "name": "La Parrillita de Viñoly",
+          "url": "https://www.instagram.com/laparrillitadevinoly/",
+          "location": "Montevideo",
+          "geo": {
+            "lat": -34.924856,
+            "lng": -56.160539
+          },
+          "mapsUrl": "https://www.google.com/maps/place/La+Parrillita+de+Vi%C3%B1oly/@-34.9248559,-56.1605386,17z/data=!3m1!4b1!4m6!3m5!1s0x959f819d3a53e1e7:0x3724083afb9d02a3!8m2!3d-34.9248559!4d-56.1605386!16s%2Fg%2F11bw46q9pd"
+        },
+        {
+          "name": "La Perdiz",
+          "url": "https://www.instagram.com/laperdizmvd/",
+          "location": "Montevideo",
+          "geo": {
+            "lat": -34.924991,
+            "lng": -56.156887
+          },
+          "mapsUrl": "https://www.google.com/maps/place/La+Perdiz/@-34.9249913,-56.156887,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81783a6d2eeb:0x5a7f87b81b953d5a!8m2!3d-34.9249913!4d-56.156887!16s%2Fg%2F1hd_9vdf5"
+        },
+        {
+          "name": "Malafama Cervecería",
+          "url": "https://www.instagram.com/malafama_puntadeleste/",
+          "location": "Montevideo",
+          "geo": {
+            "lat": -34.908645,
+            "lng": -56.172504
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Cerveceria+Malafama/@-34.9086445,-56.1725038,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81ea47b66747:0x2fda9c49e021c788!8m2!3d-34.9086445!4d-56.1725038!16s%2Fg%2F11g194ktrz"
+        },
+        {
+          "name": "Manzanar",
+          "url": "https://www.instagram.com/manzanar.restaurant/",
+          "location": "Montevideo",
+          "geo": {
+            "lat": -34.889901,
+            "lng": -56.05595
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Manzanar+Restaurant/@-34.8899005,-56.0559502,17z/data=!3m1!4b1!4m6!3m5!1s0x959f866faa649a69:0xdd1bf9339e07bb68!8m2!3d-34.8899005!4d-56.0559502!16s%2Fg%2F11fx7m74cx"
+        },
+        {
+          "name": "Misushi",
+          "url": "https://www.instagram.com/misushi/",
+          "location": "Montevideo",
+          "geo": {
+            "lat": -34.914198,
+            "lng": -56.15898
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Misushi/@-34.914198,-56.1589803,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81bf7e199f97:0x1e2585ff111ccbee!8m2!3d-34.914198!4d-56.1589803!16s%2Fg%2F11gmcdll8z"
+        },
+        {
+          "name": "Morelia",
+          "url": "https://www.instagram.com/morelia.uy/",
+          "location": "Montevideo",
+          "geo": {
+            "lat": -34.923474,
+            "lng": -56.156032
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Morelia/@-34.9234743,-56.1560318,17z/data=!3m1!4b1!4m6!3m5!1s0x959f812cb7081d61:0x3bbb16c8398fc34b!8m2!3d-34.9234743!4d-56.1560318!16s%2Fg%2F11gxhmfqwb"
+        },
+        {
+          "name": "Panini's",
+          "url": "https://www.instagram.com/paninis.uy/",
+          "location": "Montevideo",
+          "geo": {
+            "lat": -34.905533,
+            "lng": -56.134794
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Panini's/@-34.9055332,-56.1347938,17z/data=!3m1!4b1!4m6!3m5!1s0x959f813fafbd3ddf:0x637b708907a32944!8m2!3d-34.9055332!4d-56.1347938!16s%2Fg%2F1pp2wz6s5"
+        },
+        {
+          "name": "Pez Globo Noodle Bar",
+          "url": "https://www.instagram.com/pezglobouy/",
+          "location": "Juan Benito Blanco 708",
+          "geo": {
+            "lat": -34.918872,
+            "lng": -56.150706
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Pez+Globo+Noodle+Bar/data=!4m7!3m6!1s0x959f81724bb1db7b:0xe0c96b5194b3a2b1!8m2!3d-34.918872!4d-56.1507056!16s%2Fg%2F11bwkpzwgz!19sChIJe9uxS3KBn5URsaKzlFFryeA"
+        },
+        {
+          "name": "Pez Globo Prado",
+          "url": "https://www.instagram.com/pezglobouy/",
+          "location": "Pascual Costa 3879",
+          "geo": {
+            "lat": -34.855828,
+            "lng": -56.194772
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Pez+Globo+Prado/data=!4m7!3m6!1s0x95a02b0013b62e39:0xee92dc3ccea7c737!8m2!3d-34.8558282!4d-56.1947723!16s%2Fg%2F11lns8x2d1!19sChIJOS62EwAroJURN8enzjzcku4"
+        },
+        {
+          "name": "Pez Globo Sushi mvd Carrasco",
+          "url": "https://www.instagram.com/pezglobouy/",
+          "location": "Av. Bolivia 1395",
+          "geo": {
+            "lat": -34.893609,
+            "lng": -56.065336
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Pez+Globo+Sushi+mvd+Carrasco/data=!4m7!3m6!1s0x959f86637299459b:0xdada02998fc6b4da!8m2!3d-34.8936095!4d-56.0653357!16s%2Fg%2F11c59zx1cy!19sChIJm0WZcmOGn5UR2rTGj5kC2to"
+        },
+        {
+          "name": "Polo Bamba",
+          "url": "https://www.instagram.com/polo_bamba/",
+          "location": "Montevideo",
+          "geo": {
+            "lat": -34.912908,
+            "lng": -56.153213
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Polo+Bamba/@-34.9129079,-56.153213,17z/data=!3m1!4b1!4m6!3m5!1s0x959f816e28dd362f:0x2f82c62abaab49ed!8m2!3d-34.9129079!4d-56.153213!16s%2Fg%2F11sb88jvy5"
+        },
+        {
+          "name": "Rudy Burgers",
+          "url": "https://www.instagram.com/rudy.burgers/",
+          "location": "3471 26 de Marzo",
+          "geo": {
+            "lat": -34.905771,
+            "lng": -56.137962
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Rudy+Burgers/data=!4m7!3m6!1s0x959f81159c33a2ff:0x37f61356fa3d0d77!8m2!3d-34.905771!4d-56.137962!16s%2Fg%2F11c550ckhv!19sChIJ_6IznBWBn5URdw09-lYT9jc"
+        },
+        {
+          "name": "Rudy Burgers",
+          "url": "https://www.instagram.com/rudy.burgers/",
+          "location": "Guipúzcoa 332",
+          "geo": {
+            "lat": -34.925214,
+            "lng": -56.156986
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Rudy+Burgers/data=!4m7!3m6!1s0x959f81ff0e1ae4e3:0xadb78e4ba5328f8a!8m2!3d-34.925214!4d-56.1569857!16s%2Fg%2F11h54fp7rx!19sChIJ4-QaDv-Bn5URio8ypUuOt60"
+        },
+        {
+          "name": "Rudy Burgers",
+          "url": "https://www.instagram.com/rudy.burgers/",
+          "location": "Ejido 1301",
+          "geo": {
+            "lat": -34.906476,
+            "lng": -56.18697
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Rudy+Burgers/data=!4m7!3m6!1s0x959f81db3a4064a1:0xb4aa714b87efb47e!8m2!3d-34.906476!4d-56.1869698!16s%2Fg%2F11y3mhfwhb!19sChIJoWRAOtuBn5URfrTvh0txqrQ"
+        },
+        {
+          "name": "Saint Germain",
+          "url": "https://www.instagram.com/saintgermain.uy/",
+          "location": "bajando la escalera principal, José Ellauri 350",
+          "geo": {
+            "lat": -34.924057,
+            "lng": -56.159334
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Saint+Germain/data=!4m7!3m6!1s0x959f81445ea5128f:0x401db6e754333a91!8m2!3d-34.9240574!4d-56.159334!16s%2Fg%2F11wtf2z_4n!19sChIJjxKlXkSBn5URkTozVOe2HUA"
+        },
+        {
+          "name": "Saint Germain Pocitos",
+          "url": "https://www.instagram.com/saintgermain.uy/",
+          "location": "Pte. Gral. Oscar Gestido 2805",
+          "geo": {
+            "lat": -34.905888,
+            "lng": -56.153443
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Saint+Germain+Pocitos/data=!4m7!3m6!1s0x959f8109f946c2f3:0xf48b93e3b70f9917!8m2!3d-34.9058884!4d-56.1534434!16s%2Fg%2F11fth5f1xy!19sChIJ88JG-QmBn5URF5kPt-OTi_Q"
+        },
+        {
+          "name": "Saint Germain Alianza Francesa",
+          "url": "https://www.instagram.com/saintgermain.uy/",
+          "location": "Bv. Gral. Artigas 1271",
+          "geo": {
+            "lat": -34.905078,
+            "lng": -56.164214
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Saint+Germain+Alianza+Francesa/data=!4m7!3m6!1s0x959f81840600323d:0xb412245c05f9ec69!8m2!3d-34.9050782!4d-56.1642136!16s%2Fg%2F11wjllr_2s!19sChIJPTIABoSBn5URaez5BVwkErQ"
+        },
+        {
+          "name": "Saint Germain Divino",
+          "url": "https://www.instagram.com/saintgermain.uy/",
+          "location": "Irlanda 2014",
+          "geo": {
+            "lat": -34.88599,
+            "lng": -56.135433
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Saint+Germain+Divino/data=!4m7!3m6!1s0x959f81733d5f6a7b:0xb9ead5f2445c45a5!8m2!3d-34.8859901!4d-56.1354331!16s%2Fg%2F11tf69qqf4!19sChIJe2pfPXOBn5URpUVcRPLV6rk"
+        },
+        {
+          "name": "Sushi Club",
+          "url": "https://www.instagram.com/sushiclub_uy/",
+          "location": "Montevideo",
+          "geo": {
+            "lat": -34.923356,
+            "lng": -56.155627
+          },
+          "mapsUrl": "https://www.google.com/maps/place/SushiClub/@-34.9233565,-56.1556272,17z/data=!3m1!4b1!4m6!3m5!1s0x959f8174fe632121:0x64278a259415108d!8m2!3d-34.9233565!4d-56.1556272!16s%2Fg%2F11my2p_7cn"
+        },
+        {
+          "name": "Sushi Wok Perú",
+          "url": "https://www.instagram.com/sushiwokperu.uy/",
+          "location": "Manuel Vicente Pagola 3247",
+          "geo": {
+            "lat": -34.908457,
+            "lng": -56.145693
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Sushi+Wok+Per%C3%BA/data=!4m7!3m6!1s0x959f8112ea1f2ce3:0x6c24df03b6adce39!8m2!3d-34.9084572!4d-56.1456925!16s%2Fg%2F11ddzfv9b2!19sChIJ4ywf6hKBn5UROc6ttgPfJGw"
+        },
+        {
+          "name": "Sushi wok Peru - Carrasco",
+          "url": "https://www.instagram.com/sushiwokperu.uy/",
+          "location": "Av. Bolivia 1394",
+          "geo": {
+            "lat": -34.893221,
+            "lng": -56.06509
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Sushi+wok+Peru+-+Carrasco/data=!4m7!3m6!1s0x959f8781e70cbf7d:0x52387f222c930132!8m2!3d-34.8932208!4d-56.0650898!16s%2Fg%2F11v5g9zgg2!19sChIJfb8M54GHn5URMgGTLCJ_OFI"
+        },
+        {
+          "name": "Tandory",
+          "url": "https://www.instagram.com/tandoryresto/",
+          "location": "Montevideo",
+          "geo": {
+            "lat": -34.907617,
+            "lng": -56.152317
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Tandory+Restaurante/@-34.9076168,-56.1523173,17z/data=!3m1!4b1!4m6!3m5!1s0x959f810ea45a4051:0xeac66f0e5dbcf813!8m2!3d-34.9076168!4d-56.1523173!16s%2Fg%2F1vlqrct7"
+        },
+        {
+          "name": "Tintos Y Rubias Parrillada",
+          "url": "https://www.instagram.com/tintosyrubias/",
+          "location": "Pedro Fco. Berro 797",
+          "geo": {
+            "lat": -34.916384,
+            "lng": -56.153321
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Tintos+Y+Rubias+Parrillada/data=!4m7!3m6!1s0x959f817381e2aa93:0x84a8653c674e078b!8m2!3d-34.9163842!4d-56.1533213!16s%2Fg%2F1hf2j33_y!19sChIJk6rigXOBn5URiwdOZzxlqIQ"
+        },
+        {
+          "name": "Tintos y Rubias",
+          "url": "https://www.instagram.com/tintosyrubias/",
+          "location": "Av. Bolivia 1505",
+          "geo": {
+            "lat": -34.892399,
+            "lng": -56.068758
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Tintos+y+Rubias/data=!4m7!3m6!1s0x959f874e5b5be2f9:0x6019d1ec43b4d2bb!8m2!3d-34.8923992!4d-56.0687577!16s%2Fg%2F11mvr9qkn1!19sChIJ-eJbW06Hn5URu9K0Q-zRGWA"
+        },
+        {
+          "name": "Atrevida",
+          "url": "https://www.instagram.com/atrevida.pizzeria/",
+          "location": "Punta del Este",
+          "geo": {
+            "lat": -34.96631,
+            "lng": -54.952109
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Atrevida/@-34.9663099,-54.9521088,17z/data=!3m1!4b1!4m6!3m5!1s0x95750512e180ed29:0x542546ce32bb514c!8m2!3d-34.9663099!4d-54.9521088!16s%2Fg%2F11gntv8y1r"
+        },
+        {
+          "name": "Bigote",
+          "url": "https://www.instagram.com/bigotebar/",
+          "location": "Punta del Este",
+          "geo": {
+            "lat": -34.961921,
+            "lng": -54.943156
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Bigote/@-34.9619212,-54.943156,17z/data=!3m1!4b1!4m6!3m5!1s0x95750572662373d9:0xc94500748d73457a!8m2!3d-34.9619212!4d-54.943156!16s%2Fg%2F11c5_62w5q"
+        },
+        {
+          "name": "Blend (Enjoy)",
+          "url": "https://www.instagram.com/gastronomiaenjoypunta/",
+          "location": "Punta del Este",
+          "geo": {
+            "lat": -34.950642,
+            "lng": -54.938653
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Blend+Bar/@-34.9506415,-54.9386533,17z/data=!3m1!4b1!4m6!3m5!1s0x957505154e2b792f:0x1be15bcbd19768a6!8m2!3d-34.9506415!4d-54.9386533!16s%2Fg%2F11f0l484kr"
+        },
+        {
+          "name": "Bungalow Suizo - Café",
+          "url": "https://www.instagram.com/bungalowsuizocafe/",
+          "location": "Punta del Este",
+          "geo": {
+            "lat": -34.936879,
+            "lng": -54.936346
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Bungalow+Suizo/@-34.9368789,-54.9363464,17z/data=!3m1!4b1!4m6!3m5!1s0x95750536ff2c104b:0x5a6d2e9e0cfa85bc!8m2!3d-34.9368789!4d-54.9363464!16s%2Fg%2F1hf4cr279"
+        },
+        {
+          "name": "Cactus y Pescados",
+          "url": "https://www.instagram.com/cactusypescados/",
+          "location": "Punta del Este",
+          "geo": {
+            "lat": -34.905361,
+            "lng": -54.828836
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Cactus+y+Pescados/@-34.9053614,-54.8288357,17z/data=!3m1!4b1!4m6!3m5!1s0x957502d8747d9f33:0x9af7bfcd7d1a38d1!8m2!3d-34.9053614!4d-54.8288357!16s%2Fg%2F11b6ghvqgz"
+        },
+        {
+          "name": "Café El Tesoro",
+          "url": "https://www.instagram.com/cafe_eltesoro/",
+          "location": "Punta del Este",
+          "geo": {
+            "lat": -34.9079,
+            "lng": -54.873272
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Caf%C3%A9+El+Tesoro/@-34.9079003,-54.8732719,17z/data=!3m1!4b1!4m6!3m5!1s0x95751b555cbfddff:0x2d467645297882cd!8m2!3d-34.9079003!4d-54.8732719!16s%2Fg%2F11ckr9ydp9"
+        },
+        {
+          "name": "Casa Proa",
+          "url": "https://www.instagram.com/casa.proa/",
+          "location": "Punta del Este",
+          "geo": {
+            "lat": -34.94658,
+            "lng": -54.937221
+          },
+          "mapsUrl": "https://www.google.com/maps/place/CASA+PROA/@-34.94658,-54.9372206,17z/data=!3m1!4b1!4m6!3m5!1s0x9575052adee38537:0x42b3d0e861d124ea!8m2!3d-34.94658!4d-54.9372206!16s%2Fg%2F11tnk6sv2p"
+        },
+        {
+          "name": "Club de los Balleneros",
+          "url": "https://www.instagram.com/restoclubballeneros/",
+          "location": "Punta del Este",
+          "geo": {
+            "lat": -34.902272,
+            "lng": -55.045195
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Restaurant+Balleneros/@-34.902272,-55.045195,17z/data=!3m1!4b1!4m6!3m5!1s0x95751159482ad1a5:0x76bda622603c7429!8m2!3d-34.902272!4d-55.045195!16s%2Fg%2F1ydddkx4j"
+        },
+        {
+          "name": "El Secreto",
+          "url": "https://www.instagram.com/elsecretopunta/",
+          "location": "Punta del Este",
+          "geo": {
+            "lat": -34.959138,
+            "lng": -54.944837
+          },
+          "mapsUrl": "https://www.google.com/maps/place/El+Secreto/@-34.9591384,-54.9448371,17z/data=!3m1!4b1!4m6!3m5!1s0x9575056e81ca9523:0xa57491635140089e!8m2!3d-34.9591384!4d-54.9448371!16s%2Fg%2F1hf3sjgvv"
+        },
+        {
+          "name": "Fabric Sushi",
+          "url": "https://www.instagram.com/fabricsushiuy/",
+          "location": "Punta del Este",
+          "geo": {
+            "lat": -34.911789,
+            "lng": -54.843534
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Fabric+Sushi/@-34.9117886,-54.8435344,17z/data=!3m1!4b1!4m6!3m5!1s0x9575031c93be1781:0x1b63751098a285b1!8m2!3d-34.9117886!4d-54.8435344!16s%2Fg%2F11tms6rz56"
+        },
+        {
+          "name": "Fish Market",
+          "url": "https://www.instagram.com/fishmarket.uy/",
+          "location": "Punta del Este",
+          "geo": {
+            "lat": -34.905319,
+            "lng": -54.827752
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Fish+Market/@-34.9053186,-54.8277521,17z/data=!3m1!4b1!4m6!3m5!1s0x957502d869e303fb:0x2368409186e09e86!8m2!3d-34.9053186!4d-54.8277521!16s%2Fg%2F11bxdy0k4y"
+        },
+        {
+          "name": "Hasami",
+          "url": "https://www.instagram.com/hasami.uy/?hl=es-la",
+          "location": "Punta del Este",
+          "geo": {
+            "lat": -34.927194,
+            "lng": -54.94603
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Hasami+PDE/@-34.9271944,-54.9460297,17z/data=!3m1!4b1!4m6!3m5!1s0x95751b51b99f8fdd:0xae954d79b43e8a85!8m2!3d-34.9271944!4d-54.9460297!16s%2Fg%2F11wtrg5zm_"
+        },
+        {
+          "name": "Il Baretto",
+          "url": "https://www.instagram.com/ilbaretto_ristorante/",
+          "location": "Punta del Este",
+          "geo": {
+            "lat": -34.966447,
+            "lng": -54.951238
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Il+Baretto/@-34.9664474,-54.9512384,17z/data=!3m1!4b1!4m6!3m5!1s0x9575057a621f6c97:0x68bc18823c893177!8m2!3d-34.9664474!4d-54.9512384!16s%2Fg%2F1tsbn915"
+        },
+        {
+          "name": "Il Belvedere",
+          "url": "https://www.instagram.com/ilbelvedere_punta/",
+          "location": "Punta del Este",
+          "geo": {
+            "lat": -34.923306,
+            "lng": -54.883913
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Il+Belvedere+Hotel/@-34.9233061,-54.8839127,17z/data=!4m9!3m8!1s0x957504a52377ad83:0x2e7a94419b36fb1b!5m2!4m1!1i2!8m2!3d-34.9233061!4d-54.8839127!16s%2Fg%2F1tdpbsrw"
+        },
+        {
+          "name": "L'Auberge",
+          "url": "https://www.instagram.com/hotel_l_auberge/",
+          "location": "Punta del Este",
+          "geo": {
+            "lat": -34.932085,
+            "lng": -54.905883
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Hotel+L'Auberge/@-34.9320847,-54.9058833,17z/data=!4m9!3m8!1s0x957504c528c3bedb:0x2c93bb77c3c5b419!5m2!4m1!1i2!8m2!3d-34.9320847!4d-54.9058833!16s%2Fg%2F1tcw9c2b"
+        },
+        {
+          "name": "La Cantina del Vigia",
+          "url": "https://www.instagram.com/cantinadelvigia/",
+          "location": "Punta del Este",
+          "geo": {
+            "lat": -34.91043,
+            "lng": -54.960725
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Cantina+del+Vig%C3%ADa/@-34.9104298,-54.9607249,17z/data=!3m1!4b1!4m6!3m5!1s0x95751a9d63576725:0xde0bde5d5d0abcf1!8m2!3d-34.9104298!4d-54.9607249!16s%2Fg%2F11b6dvk6fl"
+        },
+        {
+          "name": "La Cava",
+          "url": "https://www.instagram.com/lacavapde/",
+          "location": "Punta del Este",
+          "geo": {
+            "lat": -34.951746,
+            "lng": -54.937464
+          },
+          "mapsUrl": "https://www.google.com/maps/place/La+Cava/@-34.9517463,-54.9374637,17z/data=!3m1!4b1!4m6!3m5!1s0x957505151be19ab1:0x1edfd4f303fb0b2!8m2!3d-34.9517463!4d-54.9374637!16s%2Fg%2F11c6s2q7jy"
+        },
+        {
+          "name": "La Despensa",
+          "url": "https://www.instagram.com/ladespensajoseignacio/",
+          "location": "Punta del Este",
+          "geo": {
+            "lat": -34.928789,
+            "lng": -54.944106
+          },
+          "mapsUrl": "https://www.google.com/maps/place/La+Despensa/@-34.9287889,-54.9441058,17z/data=!3m1!4b1!4m6!3m5!1s0x95751b9a2963144d:0x882e8f279a588a38!8m2!3d-34.9287889!4d-54.9441058!16s%2Fg%2F11sc2q1ww8"
+        },
+        {
+          "name": "La huella",
+          "url": "https://www.instagram.com/lahuella.parador/",
+          "location": "Punta del Este",
+          "geo": {
+            "lat": -34.842234,
+            "lng": -54.633755
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Parador+La+Huella/@-34.8422344,-54.6337545,17z/data=!3m1!4b1!4m6!3m5!1s0x9574fac70280699f:0x6f4317d33fc8709!8m2!3d-34.8422344!4d-54.6337545!16s%2Fg%2F1hf8bsybx"
+        },
+        {
+          "name": "La Panera Rosa",
+          "url": "https://www.instagram.com/lapanerarosa.uy/",
+          "location": "Punta del Este",
+          "geo": {
+            "lat": -34.959141,
+            "lng": -54.943963
+          },
+          "mapsUrl": "https://www.google.com/maps/place/La+Panera+Rosa+Punta+del+Este/@-34.9591406,-54.9465433,17z/data=!3m1!4b1!4m6!3m5!1s0x9575052b8da2dfa3:0xd78c7944cca54745!8m2!3d-34.9591406!4d-54.943963!16s%2Fg%2F11qrrzt4sx"
+        },
+        {
+          "name": "Las Brisas (Enjoy)",
+          "url": "https://www.instagram.com/gastronomiaenjoypunta/",
+          "location": "Punta del Este",
+          "geo": {
+            "lat": -34.949961,
+            "lng": -54.939445
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Las+Brisas+Restaurant/@-34.9499606,-54.939445,17z/data=!3m1!4b1!4m6!3m5!1s0x9575054006b3dd23:0xf1d9d62433821d2a!8m2!3d-34.9499606!4d-54.939445!16s%2Fg%2F11clgqbswq"
+        },
+        {
+          "name": "Malafama Cervecería",
+          "url": "https://www.instagram.com/malafama_puntadeleste/",
+          "location": "Punta del Este",
+          "geo": {
+            "lat": -34.94127,
+            "lng": -54.930154
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Malafama/@-34.9412703,-54.9301536,17z/data=!3m1!4b1!4m6!3m5!1s0x9575059f50d15579:0xaf8b60b1cc7b7db8!8m2!3d-34.9412703!4d-54.9301536!16s%2Fg%2F11fjn39085"
+        },
+        {
+          "name": "Mi Piace",
+          "url": "https://www.instagram.com/mipiacepde/",
+          "location": "Punta del Este",
+          "geo": {
+            "lat": -34.960563,
+            "lng": -54.945079
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Mi+Piace/@-34.960563,-54.9450785,17z/data=!3m1!4b1!4m6!3m5!1s0x957505a10290b2a1:0xd6545d050f6edc2!8m2!3d-34.960563!4d-54.9450785!16s%2Fg%2F11fjb6th2c"
+        },
+        {
+          "name": "Mia Bistro",
+          "url": "https://www.instagram.com/miabpunta/",
+          "location": "Punta del Este",
+          "geo": {
+            "lat": -34.934234,
+            "lng": -54.899779
+          },
+          "mapsUrl": "https://www.google.com/maps/place/M%C3%ADa+Bistr%C3%B3/@-34.934234,-54.8997794,17z/data=!3m1!4b1!4m6!3m5!1s0x957504c3e8dac503:0xc71accd85f8abaf8!8m2!3d-34.934234!4d-54.8997794!16s%2Fg%2F11cm0k_9x7"
+        },
+        {
+          "name": "Muelle 3",
+          "url": "https://www.instagram.com/muelle3.pde/",
+          "location": "Punta del Este",
+          "geo": {
+            "lat": -34.951861,
+            "lng": -54.940793
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Muelle+3/@-34.9518613,-54.9407932,17z/data=!3m1!4b1!4m6!3m5!1s0x957505f090877059:0x15a00ff76290691e!8m2!3d-34.9518613!4d-54.9407932!16s%2Fg%2F11llxqz0lv"
+        },
+        {
+          "name": "Ovo Beach (Enjoy)",
+          "url": "https://www.instagram.com/gastronomiaenjoypunta/",
+          "location": "Punta del Este",
+          "geo": {
+            "lat": -34.950442,
+            "lng": -54.940634
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Ovo+Beach/@-34.9504417,-54.9406341,17z/data=!3m1!4b1!4m6!3m5!1s0x957505154c3b60a9:0x54f98d4f67d3ae06!8m2!3d-34.9504417!4d-54.9406341!16s%2Fg%2F11bxc5v42_"
+        },
+        {
+          "name": "Provence",
+          "url": "https://www.instagram.com/gastronomiaenjoypunta/",
+          "location": "Rambla Parada 4 Playa Mansa",
+          "geo": {
+            "lat": -34.918002,
+            "lng": -54.976591
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Provence/data=!4m7!3m6!1s0x95751102c82f06a1:0xa07310c5387e03b!8m2!3d-34.918002!4d-54.9765911!16s%2Fg%2F11txfcf032!19sChIJoQYvyAIRdZURO-CHUwwxBwo"
+        },
+        {
+          "name": "Pueblo Narakan",
+          "url": "https://www.instagram.com/pueblonarakan/",
+          "location": "Punta del Este",
+          "geo": {
+            "lat": -34.965829,
+            "lng": -54.950199
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Pueblo+Narakan/@-34.965829,-54.9501988,17z/data=!3m1!4b1!4m6!3m5!1s0x957505fe4891555b:0xa971232087fe3361!8m2!3d-34.965829!4d-54.9501988!16s%2Fg%2F11t6kxxp4l"
+        },
+        {
+          "name": "Santa Leoncia",
+          "url": "https://www.instagram.com/santaleonciabargrill/",
+          "location": "Punta del Este",
+          "geo": {
+            "lat": -34.936242,
+            "lng": -54.925521
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Santa+Leoncia+bar+%26+grill/@-34.9362416,-54.9255207,17z/data=!3m1!4b1!4m6!3m5!1s0x957505fc6376bee3:0xd7d19ebb2dc942cb!8m2!3d-34.9362416!4d-54.9255207!16s%2Fg%2F11smd93p84"
+        },
+        {
+          "name": "Societé",
+          "url": "https://www.instagram.com/societe1907/",
+          "location": "Punta del Este",
+          "geo": {
+            "lat": -34.943496,
+            "lng": -54.93208
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Societe+1907/@-34.9434963,-54.9320802,17z/data=!3m1!4b1!4m6!3m5!1s0x957505985f71a09b:0xe345e83d18d70416!8m2!3d-34.9434963!4d-54.9320802!16s%2Fg%2F11rhxkksvq"
+        },
+        {
+          "name": "St. Tropez (Enjoy)",
+          "url": "https://www.instagram.com/gastronomiaenjoypunta/",
+          "location": "Punta del Este",
+          "geo": {
+            "lat": -34.949943,
+            "lng": -54.939133
+          },
+          "mapsUrl": "https://www.google.com/maps/place/St.+Tropez/@-34.9499427,-54.939133,17z/data=!3m1!4b1!4m6!3m5!1s0x9575053ffe7bab7f:0x61aee05e9a23b107!8m2!3d-34.9499427!4d-54.939133!16s%2Fg%2F11fylyvyl3"
+        },
+        {
+          "name": "Sushi Club",
+          "url": "https://www.instagram.com/sushiclub_uy/",
+          "location": "Punta del Este",
+          "geo": {
+            "lat": -34.958839,
+            "lng": -54.944577
+          },
+          "mapsUrl": "https://www.google.com/maps/place/SushiClub/@-34.9588394,-54.944577,17z/data=!3m1!4b1!4m6!3m5!1s0x9575052e9f3c1171:0x71c21ab23a667785!8m2!3d-34.9588394!4d-54.944577!16s%2Fg%2F11rj47g4dv"
+        },
+        {
+          "name": "Sushimi",
+          "url": "https://www.instagram.com/sushimiuy/",
+          "location": "Punta del Este",
+          "geo": {
+            "lat": -34.942569,
+            "lng": -54.932106
+          },
+          "mapsUrl": "https://www.google.com/maps/place/SU+SHI+MI+Asian+Premium+-+Delivery+%26+Take+Away+-+Punta+del+Este/@-34.9425686,-54.9321061,17z/data=!3m1!4b1!4m6!3m5!1s0x957505e62fcf3ce3:0x413e3c265f87a3a!8m2!3d-34.9425686!4d-54.9321061!16s%2Fg%2F11s39mm839"
+        },
+        {
+          "name": "Virazón",
+          "url": "https://www.instagram.com/virazon.restoran/",
+          "location": "Punta del Este",
+          "geo": {
+            "lat": -34.968512,
+            "lng": -54.950072
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Virazon,+20100+Punta+del+Este,+Departamento+de+Maldonado/@-34.968512,-54.9500717,17z/data=!3m1!4b1!4m6!3m5!1s0x95750577560904b9:0x3bdf6807ae1306e!8m2!3d-34.968512!4d-54.9500717!16s%2Fg%2F1tgjmgff"
+        },
+        {
+          "name": "Yacht Club Uruguayo",
+          "url": "https://www.instagram.com/restoyachtcluburuguayo/",
+          "location": "Punta del Este",
+          "geo": {
+            "lat": -34.964504,
+            "lng": -54.952428
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Yacht+Club+Uruguayo+Restaurante/@-34.9645041,-54.9524284,17z/data=!3m1!4b1!4m6!3m5!1s0x9575057ad396a7eb:0x496f2fee68b570f9!8m2!3d-34.9645041!4d-54.9524284!16s%2Fg%2F1ttq38dn"
+        }
       ]
     },
     {
@@ -89,43 +843,1127 @@
         "https://www.itau.com.uy/inst/moda.html"
       ],
       "merchants": [
-        { "name": "Amadeus", "url": "https://www.instagram.com/amadeus.pde/" },
-        { "name": "Amén", "url": "https://www.instagram.com/amenshoes/" },
-        { "name": "Anthea", "url": "https://www.instagram.com/anthea.uy/" },
-        { "name": "Brixton", "url": "https://www.brixton.com.uy/" },
-        { "name": "By Florencia", "url": "https://www.instagram.com/by_florencia/" },
-        { "name": "Capri", "url": "https://www.instagram.com/capri_uy/" },
-        { "name": "Damen", "url": "https://www.instagram.com/_damen_" },
-        { "name": "Denali" },
-        { "name": "Don Baez", "url": "https://www.instagram.com/donbaez.uy" },
-        { "name": "El beso", "url": "https://www.instagram.com/elbeso.store/" },
-        { "name": "Ferrero Studio" },
-        { "name": "Jibona", "url": "https://www.instagram.com/jibonastore/" },
-        { "name": "Kevingston", "url": "https://www.brixton.com.uy/" },
-        { "name": "LA BOUTIQUE PARIS" },
-        { "name": "Lanka", "url": "https://www.instagram.com/lanka_leathergoods" },
-        { "name": "Magnolia" },
-        { "name": "Mandinga", "url": "https://www.instagram.com/mandinga_mandinga" },
-        { "name": "Marimba", "url": "https://www.instagram.com/marimba.uy/" },
-        { "name": "Maura", "url": "https://www.instagram.com/maurastore.uy" },
-        { "name": "Oklo", "url": "https://www.instagram.com/oklo.uy" },
-        { "name": "Óptica Nova", "url": "https://www.instagram.com/opticanova" },
-        { "name": "Panthai", "url": "https://www.instagram.com/panthaistore" },
-        { "name": "Perpetua", "url": "https://www.instagram.com/perpetuashoes" },
-        { "name": "Petra", "url": "https://www.instagram.com/petra.store" },
-        { "name": "Petrichor", "url": "https://www.instagram.com/petrichoruruguay/" },
-        { "name": "Pura Lana", "url": "https://www.instagram.com/pura.lana/" },
-        { "name": "Puro Punto", "url": "https://www.instagram.com/puropunto/" },
-        { "name": "Rupia", "url": "https://www.instagram.com/rupia_uy" },
-        { "name": "Shill", "url": "https://www.instagram.com/shill.bidder/" },
-        { "name": "Sonsoles", "url": "https://www.instagram.com/sonsoles.camino" },
-        { "name": "Suma" },
-        { "name": "Tascani", "url": "https://www.instagram.com/tascaniuruguay" },
-        { "name": "Urban Haus" },
-        { "name": "Vopero", "url": "https://www.instagram.com/vopero.uy/" },
-        { "name": "Wanama", "url": "https://www.instagram.com/wanama.uy/" },
-        { "name": "Watchme", "url": "https://www.instagram.com/watchmeuy/" },
-        { "name": "Yamba", "url": "https://www.instagram.com/yamba.store" }
+        {
+          "name": "Amadeus",
+          "url": "https://www.instagram.com/amadeus.pde/",
+          "location": "Calle 20 El Remanso Entre, Los Muergos y 28",
+          "geo": {
+            "lat": -34.960496,
+            "lng": -54.943684
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Amadeus/data=!4m7!3m6!1s0x957505802ab9fa0d:0xd427de0a4d816753!8m2!3d-34.9604956!4d-54.9436841!16s%2Fg%2F11k4p26vyj!19sChIJDfq5KoAFdZURU2eBTQreJ9Q"
+        },
+        {
+          "name": "Amén",
+          "url": "https://www.instagram.com/amenshoes/",
+          "geo": {
+            "lat": -34.9224,
+            "lng": -56.160419
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Am%C3%A9n/@-34.9224003,-56.1604194,17z/data=!3m1!4b1!4m6!3m5!1s0x959f817829f4809f:0x6032f3bce8a579b4!8m2!3d-34.9224003!4d-56.1604194!16s%2Fg%2F11dynbr660"
+        },
+        {
+          "name": "Anthea",
+          "url": "https://www.instagram.com/anthea.uy/",
+          "geo": {
+            "lat": -34.921489,
+            "lng": -56.157958
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Anthea/@-34.9214891,-56.1579579,17z/data=!3m1!4b1!4m6!3m5!1s0x959f819926f63d47:0x6c0f854879beaf82!8m2!3d-34.9214891!4d-56.1579579!16s%2Fg%2F11k9z7nklt"
+        },
+        {
+          "name": "Brixton",
+          "url": "https://www.brixton.com.uy/"
+        },
+        {
+          "name": "By Florencia",
+          "url": "https://www.instagram.com/by_florencia/",
+          "geo": {
+            "lat": -34.890981,
+            "lng": -56.061585
+          },
+          "mapsUrl": "https://www.google.com/maps/place/By+Florencia/@-34.8909809,-56.0615854,17z/data=!3m1!4b1!4m6!3m5!1s0x959f879f5fcdcf75:0x4d82b7b37dcc7c23!8m2!3d-34.8909809!4d-56.0615854!16s%2Fg%2F11mbqfcm_1"
+        },
+        {
+          "name": "Capri",
+          "url": "https://www.instagram.com/capri_uy/"
+        },
+        {
+          "name": "Damen",
+          "url": "https://www.instagram.com/_damen_",
+          "geo": {
+            "lat": -34.921178,
+            "lng": -56.157623
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Damen+Store/@-34.9211776,-56.1576231,17z/data=!3m1!4b1!4m6!3m5!1s0x959f817638dc0b39:0x1262f425d0999cf3!8m2!3d-34.9211776!4d-56.1576231!16s%2Fg%2F11h46239v8"
+        },
+        {
+          "name": "Denali",
+          "geo": {
+            "lat": -34.919841,
+            "lng": -56.151526
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Denali/@-34.9198407,-56.1515264,17z/data=!3m1!4b1!4m6!3m5!1s0x959f819e5eca49a3:0xe32fd6b9fb9d30ec!8m2!3d-34.9198407!4d-56.1515264!16s%2Fg%2F11h4612bq3"
+        },
+        {
+          "name": "Don Baez",
+          "url": "https://www.instagram.com/donbaez.uy",
+          "geo": {
+            "lat": -34.921171,
+            "lng": -56.157294
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Don+Baez/@-34.9211709,-56.1572939,17z/data=!3m1!4b1!4m6!3m5!1s0x95a1d55927e34c97:0xc83a6f418870e533!8m2!3d-34.9211709!4d-56.1572939!16s%2Fg%2F11h0wn_6k"
+        },
+        {
+          "name": "El beso",
+          "url": "https://www.instagram.com/elbeso.store/",
+          "geo": {
+            "lat": -34.914519,
+            "lng": -54.861971
+          },
+          "mapsUrl": "https://www.google.com/maps/place/EL+BESO+STORE/@-34.9145187,-54.8619707,17z/data=!3m1!4b1!4m6!3m5!1s0x9575032f41020dcb:0xd887773977fe7b2b!8m2!3d-34.9145187!4d-54.8619707!16s%2Fg%2F11pdvts905"
+        },
+        {
+          "name": "Ferrero Studio",
+          "location": "Gral. Leandro Gomez 1157",
+          "geo": {
+            "lat": -32.318175,
+            "lng": -58.082614
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Ferrero+Studio/data=!4m7!3m6!1s0x95afc944e44a95cf:0xd006cbc4a2e7cd65!8m2!3d-32.3181747!4d-58.082614!16s%2Fg%2F11svwkns16!19sChIJz5VK5ETJr5URZc3nosTLBtA"
+        },
+        {
+          "name": "Jibona",
+          "url": "https://www.instagram.com/jibonastore/",
+          "geo": {
+            "lat": -34.918937,
+            "lng": -56.154238
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Jibona+-+Trajes+de+Ba%C3%B1o+y+Ropa+Interior/@-34.9189374,-56.1542378,17z/data=!3m1!4b1!4m6!3m5!1s0x959f8175b882cbff:0x316a4e6df76043b2!8m2!3d-34.9189374!4d-56.1542378!16s%2Fg%2F11f044qrbk"
+        },
+        {
+          "name": "Kevingston",
+          "url": "https://www.brixton.com.uy/",
+          "location": "Av. 18 de Julio 966",
+          "geo": {
+            "lat": -34.906353,
+            "lng": -56.195543
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Kevingston/data=!4m7!3m6!1s0x959f802cdbda16a7:0xc19a43511a4975d9!8m2!3d-34.9063533!4d-56.1955427!16s%2Fg%2F11bbwm4222!19sChIJpxba2yyAn5UR2XVJGlFDmsE"
+        },
+        {
+          "name": "LA BOUTIQUE PARIS"
+        },
+        {
+          "name": "Lanka",
+          "url": "https://www.instagram.com/lanka_leathergoods"
+        },
+        {
+          "name": "Magnolia"
+        },
+        {
+          "name": "Mandinga",
+          "url": "https://www.instagram.com/mandinga_mandinga",
+          "geo": {
+            "lat": -34.909783,
+            "lng": -56.147603
+          },
+          "mapsUrl": "https://www.google.com/maps/place/MANDINGA/@-34.909783,-56.1476028,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81e7af93e2c3:0x16538bc76878e19a!8m2!3d-34.909783!4d-56.1476028!16s%2Fg%2F11gj253rlc"
+        },
+        {
+          "name": "Marimba",
+          "url": "https://www.instagram.com/marimba.uy/",
+          "geo": {
+            "lat": -34.889777,
+            "lng": -56.055665
+          },
+          "mapsUrl": "https://www.google.com/maps/place/MARIMBA/@-34.889777,-56.055665,17z/data=!3m1!4b1!4m6!3m5!1s0x959f879b73db6e1f:0x68a14bdd6f40038b!8m2!3d-34.889777!4d-56.055665!16s%2Fg%2F11p3jpk7zl"
+        },
+        {
+          "name": "MAURA STORE",
+          "url": "https://www.instagram.com/maurastore.uy",
+          "location": "21 de Setiembre 3015",
+          "geo": {
+            "lat": -34.919694,
+            "lng": -56.151907
+          },
+          "mapsUrl": "https://www.google.com/maps/place/MAURA+STORE/data=!4m7!3m6!1s0x959f8145ec0cdbdd:0x931dced98627facf!8m2!3d-34.9196935!4d-56.1519069!16s%2Fg%2F11kqsf6k4x!19sChIJ3dsM7EWBn5URz_onhtnOHZM"
+        },
+        {
+          "name": "Oklo",
+          "url": "https://www.instagram.com/oklo.uy",
+          "geo": {
+            "lat": -34.915439,
+            "lng": -56.156338
+          },
+          "mapsUrl": "https://www.google.com/maps/place/OKLO/@-34.9154386,-56.1563379,17z/data=!3m1!4b1!4m6!3m5!1s0x959f816777e99755:0x41e4ae93312db959!8m2!3d-34.9154386!4d-56.1563379!16s%2Fg%2F11hrj6f5zv"
+        },
+        {
+          "name": "Óptica Nova",
+          "url": "https://www.instagram.com/opticanova",
+          "geo": {
+            "lat": -34.919211,
+            "lng": -56.155568
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Optica+Nova/@-34.9192107,-56.1555678,17z/data=!3m1!4b1!4m6!3m5!1s0x959f819d6a441c19:0xb2b602d7e3e71218!8m2!3d-34.9192107!4d-56.1555678!16s%2Fg%2F119wtxmc9"
+        },
+        {
+          "name": "Panthai",
+          "url": "https://www.instagram.com/panthaistore",
+          "geo": {
+            "lat": -34.911748,
+            "lng": -56.152353
+          },
+          "mapsUrl": "https://www.google.com/maps/place/PANTHAI/@-34.9117477,-56.1523533,17z/data=!3m1!4b1!4m6!3m5!1s0x959f810c95712495:0x88ccb76ecc492957!8m2!3d-34.9117477!4d-56.1523533!16s%2Fg%2F11hb5xwldy"
+        },
+        {
+          "name": "Perpetua",
+          "url": "https://www.instagram.com/perpetuashoes",
+          "geo": {
+            "lat": -34.920025,
+            "lng": -56.150531
+          },
+          "mapsUrl": "https://www.google.com/maps/place/PERPETUA/@-34.920025,-56.1505311,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81a22edd2287:0x40d7a2b22833fbd5!8m2!3d-34.920025!4d-56.1505311!16s%2Fg%2F11h002hy8m"
+        },
+        {
+          "name": "Petra",
+          "url": "https://www.instagram.com/petra.store",
+          "geo": {
+            "lat": -34.919196,
+            "lng": -56.154338
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Petra/@-34.9191958,-56.154338,17z/data=!3m1!4b1!4m6!3m5!1s0x959f816910dcd46d:0x77259e11d1df870a!8m2!3d-34.9191958!4d-56.154338!16s%2Fg%2F11h9pb_102"
+        },
+        {
+          "name": "Petrichor",
+          "url": "https://www.instagram.com/petrichoruruguay/",
+          "geo": {
+            "lat": -34.912814,
+            "lng": -56.17237
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Petrichor/@-34.912814,-56.1723703,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81776b3f3cf3:0xba7c3b0ebf4c1c7e!8m2!3d-34.912814!4d-56.1723703!16s%2Fg%2F11k0rr91kz"
+        },
+        {
+          "name": "Pura Lana",
+          "url": "https://www.instagram.com/pura.lana/",
+          "geo": {
+            "lat": -34.916919,
+            "lng": -56.158309
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Pura+Lana/@-34.9169192,-56.1583094,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81b4793e1b2b:0x66f79ee79d58a77d!8m2!3d-34.9169192!4d-56.1583094!16s%2Fg%2F11h4drryj7"
+        },
+        {
+          "name": "Puro Punto",
+          "url": "https://www.instagram.com/puropunto/",
+          "geo": {
+            "lat": -34.9224,
+            "lng": -56.160419
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Puro+Punto/@-34.9224003,-56.1604194,17z/data=!3m1!4b1!4m6!3m5!1s0x959f8173b6af22e5:0xc1e01b8c2f373092!8m2!3d-34.9224003!4d-56.1604194!16s%2Fg%2F11b6ch1qz9"
+        },
+        {
+          "name": "Rupia",
+          "url": "https://www.instagram.com/rupia_uy"
+        },
+        {
+          "name": "Shill",
+          "url": "https://www.instagram.com/shill.bidder/",
+          "geo": {
+            "lat": -34.921489,
+            "lng": -56.157958
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Shill+Bidder/@-34.9214891,-56.1579579,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81d98ae0845d:0xb5250df1ae5c025a!8m2!3d-34.9214891!4d-56.1579579!16s%2Fg%2F11rnnzks8c"
+        },
+        {
+          "name": "Sonsoles",
+          "url": "https://www.instagram.com/sonsoles.camino",
+          "geo": {
+            "lat": -34.889697,
+            "lng": -56.055984
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Sonsoles+Camino/@-34.8896971,-56.0559842,17z/data=!3m1!4b1!4m6!3m5!1s0x959f8744734e785f:0xa1890692e3104f06!8m2!3d-34.8896971!4d-56.0559842!16s%2Fg%2F11q9rpjg1x"
+        },
+        {
+          "name": "Suma",
+          "geo": {
+            "lat": -34.913838,
+            "lng": -56.16157
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Suma+Regalos+Empresariales/@-34.9138378,-56.1615704,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81a053677383:0x6c1468495b05bfb3!8m2!3d-34.9138378!4d-56.1615704!16s%2Fg%2F11c6_bhcb3"
+        },
+        {
+          "name": "Tascani",
+          "url": "https://www.instagram.com/tascaniuruguay",
+          "location": "20100, 20 - El Remanso 29, Punta del Este 20100, El Remanso 20 29, Punta del Este 20100",
+          "geo": {
+            "lat": -34.960644,
+            "lng": -54.94324
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Tascani/data=!4m7!3m6!1s0x9575056df3004691:0x89e9bea878a39dc9!8m2!3d-34.9606439!4d-54.9432401!16s%2Fg%2F11g872560r!19sChIJkUYA820FdZURyZ2jeKi-6Yk"
+        },
+        {
+          "name": "Urban Haus",
+          "location": "Montevideo Shopping, Av. Luis Alberto de Herrera 1290",
+          "geo": {
+            "lat": -34.90307,
+            "lng": -56.136342
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Urban+Haus/data=!4m7!3m6!1s0x959f81fc09122211:0x346e05489065473b!8m2!3d-34.9030703!4d-56.136342!16s%2Fg%2F11ghnqsx51!19sChIJESISCfyBn5URO0dlkEgFbjQ"
+        },
+        {
+          "name": "Urban Haus",
+          "location": "Ramón Masini 3445",
+          "geo": {
+            "lat": -34.912668,
+            "lng": -56.147291
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Urban+Haus/data=!4m7!3m6!1s0x959f8668a772be87:0x72f27b074ab56cbe!8m2!3d-34.9126678!4d-56.1472911!16s%2Fg%2F11g72xfgqc!19sChIJh75yp2iGn5URvmy1Sgd78nI"
+        },
+        {
+          "name": "Urban Haus",
+          "location": "Solano García 2549",
+          "geo": {
+            "lat": -34.924518,
+            "lng": -56.158657
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Urban+Haus/data=!4m7!3m6!1s0x959f8177e1ad778b:0xfb01d09bc935be74!8m2!3d-34.924518!4d-56.1586574!16s%2Fg%2F11f9zsg1s7!19sChIJi3et4XeBn5URdL41yZvQAfs"
+        },
+        {
+          "name": "The Urban Haus",
+          "location": "Av. Italia 5775",
+          "geo": {
+            "lat": -34.881341,
+            "lng": -56.081937
+          },
+          "mapsUrl": "https://www.google.com/maps/place/The+Urban+Haus/data=!4m7!3m6!1s0x959f86eff46595e3:0x5a68e9d02690af73!8m2!3d-34.8813413!4d-56.0819367!16s%2Fg%2F11fxbqxpdy!19sChIJ45Vl9O-Gn5URc6-QJtDpaFo"
+        },
+        {
+          "name": "The Urban Haus",
+          "location": "Pedro Domingo Murillo 6566",
+          "geo": {
+            "lat": -34.880309,
+            "lng": -56.063567
+          },
+          "mapsUrl": "https://www.google.com/maps/place/The+Urban+Haus/data=!4m7!3m6!1s0x959f877cb96baa25:0x83e5dc991c9337b1!8m2!3d-34.8803092!4d-56.063567!16s%2Fg%2F11qnvnylmy!19sChIJJapruXyHn5URsTeTHJnc5YM"
+        },
+        {
+          "name": "Vopero",
+          "url": "https://www.instagram.com/vopero.uy/",
+          "geo": {
+            "lat": -34.90238,
+            "lng": -56.139803
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Vopero+-+Tienda+de+Ropa/@-34.90238,-56.139803,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81f88dc96c8d:0xdc9da6e55ece21b2!8m2!3d-34.90238!4d-56.139803!16s%2Fg%2F11qt3_xdx7"
+        },
+        {
+          "name": "Wanama",
+          "url": "https://www.instagram.com/wanama.uy/",
+          "geo": {
+            "lat": -34.924073,
+            "lng": -56.158525
+          },
+          "mapsUrl": "https://www.google.com/maps/place/WANAMA/@-34.9240735,-56.1585246,17z/data=!3m1!4b1!4m6!3m5!1s0x959f8177e36005a7:0x13ead81b342b7fd!8m2!3d-34.9240735!4d-56.1585246!16s%2Fg%2F11c1p36ncy"
+        },
+        {
+          "name": "Watchme",
+          "url": "https://www.instagram.com/watchmeuy/",
+          "geo": {
+            "lat": -34.902733,
+            "lng": -56.136807
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Watch+Me/@-34.9027327,-56.1368072,17z/data=!3m1!4b1!4m6!3m5!1s0x959f8115fbd81fe7:0x62868e57825ad094!8m2!3d-34.9027327!4d-56.1368072!16s%2Fg%2F11f9ygb39j"
+        },
+        {
+          "name": "Yamba",
+          "url": "https://www.instagram.com/yamba.store",
+          "geo": {
+            "lat": -34.912811,
+            "lng": -56.172381
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Yamba+Store/@-34.912811,-56.1723805,17z/data=!3m1!4b1!4m6!3m5!1s0x959f870820c3bedb:0x2cf0475a4f43e0a2!8m2!3d-34.912811!4d-56.1723805!16s%2Fg%2F11px9yxchx"
+        }
+      ]
+    },
+    {
+      "id": "itau-san-roque-directory",
+      "ruleIds": [
+        "itau-san-roque-premium-25",
+        "itau-san-roque-general-15"
+      ],
+      "sourceUrls": [
+        "https://www.sanroque.com.uy/tiendas"
+      ],
+      "merchants": [
+        {
+          "name": "San Roque 01 - Cordón",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-01-cordon_4",
+          "location": "18 de julio 1551, Montevideo - Montevideo",
+          "geo": {
+            "lat": -34.904229,
+            "lng": -56.182382
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.904229,-56.182382"
+        },
+        {
+          "name": "San Roque Centro - 18 de Julio y Paraguay",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-centro-18-de-julio-y-paraguay_1",
+          "location": "18 de Julio 1078 esq. Paraguay, Montevideo - Montevideo",
+          "geo": {
+            "lat": -34.906094,
+            "lng": -56.192939
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.906094,-56.192939"
+        },
+        {
+          "name": "San Roque 03 - Costa Urbana",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-03-costa-urbana_48",
+          "location": "Shopping Costa Urbana - Gianasttassio Km 20.800, Montevideo - Montevideo",
+          "geo": {
+            "lat": -34.840991,
+            "lng": -55.993392
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.840991,-55.993392"
+        },
+        {
+          "name": "San Roque 04 - Yí",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-04-yi_49",
+          "location": "18 de Julio 1252 esq. Yi, Montevideo - Montevideo",
+          "geo": {
+            "lat": -34.905847,
+            "lng": -56.188955
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.905847,-56.188955"
+        },
+        {
+          "name": "San Roque 05 - MAM",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-05-mam_50",
+          "location": "Jose .L. Terra 2200 local 37 y 38 (Mercado Agrícola), Montevideo - Montevideo",
+          "geo": {
+            "lat": -34.886884,
+            "lng": -56.18337
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.886884,-56.183370"
+        },
+        {
+          "name": "San Roque 06 - Montevideo Shopping",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-06-montevideo-shopping_51",
+          "location": "Luis A. de Herrera 1290 - Loc.152, Montevideo - Montevideo",
+          "geo": {
+            "lat": -34.902733,
+            "lng": -56.136807
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.902733,-56.136807"
+        },
+        {
+          "name": "San Roque 54 - Maldonado",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-54-maldonado_2",
+          "location": "Sarandi 555 esq. Ledesma, Maldonado - Maldonado",
+          "geo": {
+            "lat": -34.913458,
+            "lng": -54.957677
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.913458,-54.957677"
+        },
+        {
+          "name": "San Roque 08 - Paysandú Shopping",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-08-paysandu-shopping_52",
+          "location": "Br. Artigas 770, Loc. 001, Paysandú - Paysandú",
+          "geo": {
+            "lat": -32.321612,
+            "lng": -58.070468
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.321612,-58.070468"
+        },
+        {
+          "name": "San Roque 09 - Convención",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-09-convencion_53",
+          "location": "18 de Julio 900 esq. Convención, Montevideo - Montevideo",
+          "geo": {
+            "lat": -34.906443,
+            "lng": -56.197193
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.906443,-56.197193"
+        },
+        {
+          "name": "San Roque 11 - Portones Shopping",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-11-portones-shopping_5",
+          "location": "Av. Italia 5775 - Loc. 201/206, Montevideo - Montevideo",
+          "geo": {
+            "lat": -34.881604,
+            "lng": -56.081174
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.881604,-56.081174"
+        },
+        {
+          "name": "San Roque 12 - Tres Cruces Shopping",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-12-tres-cruces-shopping_6",
+          "location": "Bvar. Artigas 1825, local 48, Montevideo - Montevideo",
+          "geo": {
+            "lat": -34.893896,
+            "lng": -56.166721
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.893896,-56.166721"
+        },
+        {
+          "name": "San Roque 13 - Paso Molino",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-13-paso-molino_7",
+          "location": "Agraciada 4214, Montevideo - Montevideo",
+          "geo": {
+            "lat": -34.856255,
+            "lng": -56.219879
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.856255,-56.219879"
+        },
+        {
+          "name": "San Roque 14 - Punta Carretas Shopping",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-14-punta-carretas-shopping_8",
+          "location": "Ellauri 350 - Loc. 109 y 145, Montevideo - Montevideo",
+          "geo": {
+            "lat": -34.92379,
+            "lng": -56.159438
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.923790,-56.159438"
+        },
+        {
+          "name": "San Roque 15 - Punta Shopping",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-15-punta-shopping_9",
+          "location": "Av. Roosevelt esq. Pascual Gattas, Punta Del Este - Maldonado",
+          "geo": {
+            "lat": -34.940749,
+            "lng": -54.934414
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.940749,-54.934414"
+        },
+        {
+          "name": "San Roque 16 - Malvín",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-16-malvin_10",
+          "location": "Mississipi 1647 esq. Rivera, Montevideo - Montevideo",
+          "geo": {
+            "lat": -34.891312,
+            "lng": -56.096187
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.891312,-56.096187"
+        },
+        {
+          "name": "San Roque 17 - Cerro",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-17-cerro_11",
+          "location": "Avenida Carlos María Ramírez 1490, Montevideo - Montevideo",
+          "geo": {
+            "lat": -34.873005,
+            "lng": -56.246918
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.873005,-56.246918"
+        },
+        {
+          "name": "San Roque 18 - Geant",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-18-geant_12",
+          "location": "Av. Giannatasio, local 37 centro comercial Parque Roosevelt, Montevideo - Montevideo",
+          "geo": {
+            "lat": -34.865425,
+            "lng": -56.024155
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.865425,-56.024155"
+        },
+        {
+          "name": "San Roque 19 - Salto Shopping",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-19-salto-shopping_13",
+          "location": "Av. José Batlle Y Ordóñez 2265, Salto - Salto",
+          "geo": {
+            "lat": -31.384163,
+            "lng": -57.944298
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-31.384163,-57.944298"
+        },
+        {
+          "name": "San Roque 21 - Universidad",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-21-universidad_16",
+          "location": "Avenida 18 de Julio 1799 esq. Tristán Narvaja, Montevideo - Montevideo",
+          "geo": {
+            "lat": -34.902353,
+            "lng": -56.177419
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.902353,-56.177419"
+        },
+        {
+          "name": "San Roque 23 - Mercedes Shopping",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-23-mercedes-shopping_18",
+          "location": "Don Bosco 734 Mercedes Shopping, Mercedes - Soriano",
+          "geo": {
+            "lat": -33.257441,
+            "lng": -58.028408
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.257441,-58.028408"
+        },
+        {
+          "name": "San Roque 22 - Ellauri",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-22-ellauri_17",
+          "location": "José Ellauri 512 esq. Montero, Montevideo - Montevideo",
+          "geo": {
+            "lat": -34.921202,
+            "lng": -56.157284
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.921202,-56.157284"
+        },
+        {
+          "name": "San Roque 24 - Aeropuerto de Carrasco",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-24-aeropuerto-de-carrasco_19",
+          "location": "Aeropuerto de carrasco ruta 101 km. 19950, Montevideo - Montevideo",
+          "geo": {
+            "lat": -34.837097,
+            "lng": -56.01618
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.837097,-56.016180"
+        },
+        {
+          "name": "San Roque 28 - Benito Blanco",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-28-benito-blanco_21",
+          "location": "Gabriel Pereira 3298 esq. Benito Blanco, Montevideo - Montevideo",
+          "geo": {
+            "lat": -34.911223,
+            "lng": -56.146246
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.911223,-56.146246"
+        },
+        {
+          "name": "San Roque 29 - Colonia Shopping",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-29-colonia-shopping_22",
+          "location": "Av. Roosvelt 458 - Colonia del Sacramento, Local 16 y 17, Colonia Del Sacramento - Colonia",
+          "geo": {
+            "lat": -34.465872,
+            "lng": -57.834656
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.465872,-57.834656"
+        },
+        {
+          "name": "San Roque 30 - Cuidad Vieja",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-30-cuidad-vieja_23",
+          "location": "Sarandí 699, Montevideo - Montevideo",
+          "geo": {
+            "lat": -34.906435,
+            "lng": -56.201192
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.906435,-56.201192"
+        },
+        {
+          "name": "San Roque 31 - Unión",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-31-union_24",
+          "location": "8 de Octubre 3640, Montevideo - Montevideo",
+          "geo": {
+            "lat": -34.876662,
+            "lng": -56.143033
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.876662,-56.143033"
+        },
+        {
+          "name": "San Roque 32 - Mercedes Centro",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-32-mercedes-centro_25",
+          "location": "Colón 278, Mercedes - Soriano",
+          "geo": {
+            "lat": -33.24929,
+            "lng": -58.030663
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.249290,-58.030663"
+        },
+        {
+          "name": "San Roque 33 - Salto Centro",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-33-salto-centro_26",
+          "location": "Uruguay 839, Salto - Salto",
+          "geo": {
+            "lat": -31.387462,
+            "lng": -57.964717
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-31.387462,-57.964717"
+        },
+        {
+          "name": "San Roque 34 - Fray Bentos",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-34-fray-bentos_27",
+          "location": "18 de Julio 1707, Fray Bentos - Río Negro",
+          "geo": {
+            "lat": -33.122837,
+            "lng": -58.304174
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.122837,-58.304174"
+        },
+        {
+          "name": "San Roque 35 - Paysandú Centro",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-35-paysandu-centro_28",
+          "location": "19 de abril 914, Paysandú - Paysandú",
+          "geo": {
+            "lat": -32.317913,
+            "lng": -58.083934
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.317913,-58.083934"
+        },
+        {
+          "name": "San Roque 36 - Trinidad",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-36-trinidad_29",
+          "location": "Francisco Fondar 649, Trinidad - Flores",
+          "geo": {
+            "lat": -33.517764,
+            "lng": -56.897376
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.517764,-56.897376"
+        },
+        {
+          "name": "San Roque 37 - Colonia Centro",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-37-colonia-centro_30",
+          "location": "Avenida Artigas 389, Colonia Del Sacramento - Colonia",
+          "geo": {
+            "lat": -34.466843,
+            "lng": -57.843202
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.466843,-57.843202"
+        },
+        {
+          "name": "San Roque 38 - Durazno",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-38-durazno_31",
+          "location": "18 de Julio 549 esq. Zorrilla de San Martin, Durazno - Durazno",
+          "geo": {
+            "lat": -33.38106,
+            "lng": -56.524646
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.381060,-56.524646"
+        },
+        {
+          "name": "San Roque 40 - Rivera",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-40-rivera_32",
+          "location": "Sarandí 665, Rivera - Rivera",
+          "geo": {
+            "lat": -30.901826,
+            "lng": -55.541137
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-30.901826,-55.541137"
+        },
+        {
+          "name": "San Roque 42 - Arocena",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-42-arocena_33",
+          "location": "Arocena 1681 esq. Rivera, Montevideo - Montevideo",
+          "geo": {
+            "lat": -34.886688,
+            "lng": -56.0586
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.886688,-56.058600"
+        },
+        {
+          "name": "San Roque 43 - Pando",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-43-pando_34",
+          "location": "Av. Artigas 1002, Pando - Canelones",
+          "geo": {
+            "lat": -34.719819,
+            "lng": -55.958231
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.719819,-55.958231"
+        },
+        {
+          "name": "San Roque 44 - Nueva Helvecia",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-44-nueva-helvecia_35",
+          "location": "Berna 1295, Nueva Helvecia - Colonia",
+          "geo": {
+            "lat": -34.284188,
+            "lng": -57.233573
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.284188,-57.233573"
+        },
+        {
+          "name": "San Roque 45 - Las Piedras Shopping",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-45-las-piedras-shopping_36",
+          "location": "Bulevar del Bicentenario 318, Las Piedras - Canelones",
+          "geo": {
+            "lat": -34.725602,
+            "lng": -56.20311
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.725602,-56.203110"
+        },
+        {
+          "name": "San Roque 46 - Salto Centro",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-46-salto-centro_37",
+          "location": "Dr. Fco Soca 220, Salto - Salto",
+          "geo": {
+            "lat": -31.383061,
+            "lng": -57.963052
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-31.383061,-57.963052"
+        },
+        {
+          "name": "San Roque 47 - Salto Cerro",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-47-salto-cerro_38",
+          "location": "Grito de Asencio 1499, Salto - Salto",
+          "geo": {
+            "lat": -31.373059,
+            "lng": -57.963402
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-31.373059,-57.963402"
+        },
+        {
+          "name": "Practifarma 48 - Melo",
+          "url": "https://www.sanroque.com.uy/tiendas/practifarma-48-melo_39",
+          "location": "Villanueva Saravia N° 777 (Hiper TA-TA), Melo - Cerro Largo",
+          "geo": {
+            "lat": -32.363896,
+            "lng": -54.166181
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.363896,-54.166181"
+        },
+        {
+          "name": "San Roque 49 - Melo",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-49-melo_40",
+          "location": "Justino Muniz 768, Melo - Cerro Largo",
+          "geo": {
+            "lat": -32.374531,
+            "lng": -54.170245
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.374531,-54.170245"
+        },
+        {
+          "name": "San Roque 50 - Tacuarembó",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-50-tacuarembo_41",
+          "location": "25 de mayo 208 bis, Tacuarembó - Tacuarembó",
+          "geo": {
+            "lat": -31.712139,
+            "lng": -55.980527
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-31.712139,-55.980527"
+        },
+        {
+          "name": "San Roque 90 - Punta del Este",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-90-punta-del-este_42",
+          "location": "Calle 28 esq calle 20. Punta del Este - Maldonado, Punta Del Este - Maldonado",
+          "geo": {
+            "lat": -34.960077,
+            "lng": -54.943041
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.960077,-54.943041"
+        },
+        {
+          "name": "San Roque 51 - Constituyente",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-51-constituyente_43",
+          "location": "Constituyente 1789 esq. Gaboto, Montevideo - Montevideo",
+          "geo": {
+            "lat": -34.906441,
+            "lng": -56.177665
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Farmacia+San+Roque/@-34.9064407,-56.1776645,17z/data=!3m1!4b1!4m6!3m5!1s0x959f818c87e6273b:0xf8a782b91d123d9c!8m2!3d-34.9064407!4d-56.1776645!16s%2Fg%2F11hz1p7tnb"
+        },
+        {
+          "name": "San Roque 52 - Salterain",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-52-salterain_44",
+          "location": "Rivera 2102 y Salterain, Montevideo - Montevideo",
+          "geo": {
+            "lat": -34.906076,
+            "lng": -56.16983
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.906076,-56.169830"
+        },
+        {
+          "name": "San Roque 53 -Tacuarembó",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-53-tacuarembo_45",
+          "location": "25 de mayo 321 esq. Catalina, Tacuarembó - Tacuarembó",
+          "geo": {
+            "lat": -31.714903,
+            "lng": -55.983748
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-31.714903,-55.983748"
+        },
+        {
+          "name": "San Roque 56 - Minas Shopping",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-56-minas-shopping_46",
+          "location": "Luis Alberto de Herrera 950, Minas - Lavalleja",
+          "geo": {
+            "lat": -34.368321,
+            "lng": -55.238373
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.368321,-55.238373"
+        },
+        {
+          "name": "San Roque 58 - Paullier",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-58-paullier_47",
+          "location": "Canelones 2198 esq. Paullier, Montevideo - Montevideo",
+          "geo": {
+            "lat": -34.907168,
+            "lng": -56.16767
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.907168,-56.167670"
+        },
+        {
+          "name": "San Roque 61 - Parque Rodó",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-61-parque-rodo_54",
+          "location": "Av. Julio Herrera y Reissig 736, Montevideo - Montevideo",
+          "geo": {
+            "lat": -34.915264,
+            "lng": -56.165555
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.915264,-56.165555"
+        },
+        {
+          "name": "San Roque 63 - Comercio",
+          "url": "https://www.sanroque.com.uy/tiendas/san-roque-63-comercio_55",
+          "location": "Av Italia 3830 esq. Solano López, Montevideo - Montevideo",
+          "geo": {
+            "lat": -34.887073,
+            "lng": -56.128985
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.887073,-56.128985"
+        }
+      ]
+    },
+    {
+      "id": "itau-movie-directory",
+      "ruleIds": [
+        "itau-movie-debito-volar-2x1"
+      ],
+      "sourceUrls": [
+        "https://api.movie.com.uy/api/concession/cinemas/list"
+      ],
+      "merchants": [
+        {
+          "name": "Movie Montevideo",
+          "location": "Montevideo Shopping, Av. Luis Alberto de Herrera 1290, Montevideo",
+          "geo": {
+            "lat": -34.903471,
+            "lng": -56.136638
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Movie/@-34.9034711,-56.1366379,17z/data=!3m1!4b1!4m6!3m5!1s0x959f813dff810887:0xf1b436131db05c1c!8m2!3d-34.9034711!4d-56.1366379!16s%2Fg%2F1tkc7vzt"
+        },
+        {
+          "name": "Movie Portones",
+          "location": "Portones Shopping, Av. Italia 5775, Montevideo",
+          "geo": {
+            "lat": -34.881495,
+            "lng": -56.081209
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Movie/@-34.8814947,-56.0812093,17z/data=!3m1!4b1!4m6!3m5!1s0x959f86efe48a391d:0x19c0b1ba9376f549!8m2!3d-34.8814947!4d-56.0812093!16s%2Fg%2F1tczg2c3"
+        },
+        {
+          "name": "Movie Punta Carretas",
+          "location": "Punta Carretas Shopping, F. García Cortinas 2484, Montevideo",
+          "geo": {
+            "lat": -34.924352,
+            "lng": -56.158852
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Movie/@-34.924352,-56.1588524,17z/data=!3m1!4b1!4m6!3m5!1s0x959f8177e36ec0c7:0x86bd2675603ad9a!8m2!3d-34.924352!4d-56.1588524!16s%2Fg%2F11c56538ln"
+        },
+        {
+          "name": "Movie Nuevocentro",
+          "location": "Nuevocentro Shopping, Luis Alberto de Herrera 3365, Montevideo",
+          "geo": {
+            "lat": -34.868711,
+            "lng": -56.170201
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Movie+Nuevocentro/@-34.8687111,-56.1702009,17z/data=!3m1!4b1!4m6!3m5!1s0x959f8070764ff37b:0xd07bf61a3ded1677!8m2!3d-34.8687111!4d-56.1702009!16s%2Fg%2F11cr_ymdrl"
+        }
+      ]
+    },
+    {
+      "id": "itau-iplace-directory",
+      "ruleIds": [
+        "itau-iplace-personal-bank-15"
+      ],
+      "sourceUrls": [
+        "https://www.iplace.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "iPlace Montevideo Shopping",
+          "location": "Montevideo Shopping, Av. Luis Alberto de Herrera 1290, Montevideo",
+          "geo": {
+            "lat": -34.902733,
+            "lng": -56.136807
+          },
+          "mapsUrl": "https://www.google.com/maps/place/iPlace/@-34.902733,-56.1368072,17z/data=!3m1!4b1!4m6!3m5!1s0x959f816f94405f39:0xd2572fc95fdfa9b4!8m2!3d-34.9027327!4d-56.1368072!16s%2Fg%2F11y9kccts3"
+        },
+        {
+          "name": "iPlace Punta Carretas",
+          "location": "Punta Carretas Shopping, Ellauri 350, Montevideo",
+          "geo": {
+            "lat": -34.923982,
+            "lng": -56.159401
+          },
+          "mapsUrl": "https://www.google.com/maps/place/iPlace/@-34.9239822,-56.1594012,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81330689d551:0x314f4f80de221b34!8m2!3d-34.9239822!4d-56.1594012!16s%2Fg%2F11r9w6k14h"
+        },
+        {
+          "name": "iPlace Nuevocentro Shopping",
+          "location": "Nuevocentro Shopping, Luis Alberto de Herrera 3365, Montevideo",
+          "geo": {
+            "lat": -34.869214,
+            "lng": -56.169396
+          },
+          "mapsUrl": "https://www.google.com/maps/place/iPlace/@-34.8692138,-56.1693956,17z/data=!3m1!4b1!4m6!3m5!1s0x959f810039cc5cc3:0x516fad0a2e71b3b5!8m2!3d-34.8692138!4d-56.1693956!16s%2Fg%2F11wfx1c7p4"
+        }
+      ]
+    },
+    {
+      "id": "itau-samsonite-locations",
+      "merchantNames": [
+        "Samsonite"
+      ],
+      "sourceUrls": [
+        "https://nominatim.openstreetmap.org/"
+      ],
+      "merchants": [
+        {
+          "name": "Samsonite",
+          "location": "Samsonite, Pascual Gattas, San Rafael, Punta Del Este, Maldonado, 20100",
+          "geo": {
+            "lat": -34.940866,
+            "lng": -54.934198
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.940866,-54.934198"
+        },
+        {
+          "name": "Samsonite Outlet",
+          "location": "Samsonite Outlet, 977, Cerro Largo, Aguada, Montevideo, 11100",
+          "geo": {
+            "lat": -34.901414,
+            "lng": -56.195811
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.901414,-56.195811"
+        }
+      ]
+    },
+    {
+      "id": "itau-starbucks-locations",
+      "merchantNames": [
+        "Starbucks"
+      ],
+      "sourceUrls": [
+        "https://nominatim.openstreetmap.org/"
+      ],
+      "merchants": [
+        {
+          "name": "Starbucks",
+          "location": "Starbucks, 1590, Avenida Alfredo Arocena, Carrasco, Montevideo, 11500",
+          "geo": {
+            "lat": -34.889192,
+            "lng": -56.05672
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.889192,-56.056720"
+        },
+        {
+          "name": "Starbucks",
+          "location": "Starbucks, José Ellauri, Punta Carretas, Montevideo, 11300",
+          "geo": {
+            "lat": -34.924048,
+            "lng": -56.159345
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.924048,-56.159345"
+        },
+        {
+          "name": "Starbucks",
+          "location": "Starbucks, Palmar, Tres Cruces, Montevideo, 11601",
+          "geo": {
+            "lat": -34.901047,
+            "lng": -56.164967
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.901047,-56.164967"
+        },
+        {
+          "name": "Starbucks",
+          "location": "Starbucks, Ejido, Centro, Montevideo, 11114",
+          "geo": {
+            "lat": -34.90545,
+            "lng": -56.186993
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.905450,-56.186993"
+        },
+        {
+          "name": "Starbucks",
+          "location": "Starbucks, 606, José Ellauri, Punta Carretas, Montevideo, 11303",
+          "geo": {
+            "lat": -34.919227,
+            "lng": -56.156016
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.919227,-56.156016"
+        },
+        {
+          "name": "Starbucks",
+          "location": "Starbucks, Rambla República del Perú, Pocitos, Montevideo, 11300",
+          "geo": {
+            "lat": -34.91544,
+            "lng": -56.149014
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.915440,-56.149014"
+        },
+        {
+          "name": "Starbucks",
+          "location": "Starbucks, 650, Sarandí, Ciudad Vieja, Montevideo, 11000",
+          "geo": {
+            "lat": -34.906692,
+            "lng": -56.202081
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.906692,-56.202081"
+        },
+        {
+          "name": "Starbucks",
+          "location": "Starbucks, 1749, Avenida 18 de Julio, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.902798,
+            "lng": -56.178761
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.902798,-56.178761"
+        },
+        {
+          "name": "Starbucks",
+          "location": "Starbucks, 5775, Avenida Italia, Punta Gorda, Montevideo, 11500",
+          "geo": {
+            "lat": -34.880482,
+            "lng": -56.07943
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.880482,-56.079430"
+        },
+        {
+          "name": "Starbucks",
+          "location": "Starbucks, Julio Herrera y Obes, Barrio Sur, Montevideo, 11110",
+          "geo": {
+            "lat": -34.906269,
+            "lng": -56.194628
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.906269,-56.194628"
+        },
+        {
+          "name": "Starbucks",
+          "location": "Starbucks, Avenida Orlando Pedragosa Sierra, San Rafael, Punta Del Este, Maldonado, 20100",
+          "geo": {
+            "lat": -34.942775,
+            "lng": -54.932271
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.942775,-54.932271"
+        },
+        {
+          "name": "Starbucks",
+          "location": "Starbucks, Ruta Interbalnearia General Líber Seregni, Solymar, Ciudad de la Costa, Municipio de Ciudad de la Costa, Canelones, 15005",
+          "geo": {
+            "lat": -34.817671,
+            "lng": -55.980231
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.817671,-55.980231"
+        },
+        {
+          "name": "Starbucks",
+          "location": "Starbucks, Avenida Luis Alberto de Herrera, La Mondiola, Buceo, Montevideo, 11300",
+          "geo": {
+            "lat": -34.903577,
+            "lng": -56.137119
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.903577,-56.137119"
+        },
+        {
+          "name": "Starbucks",
+          "location": "Starbucks, Ruta 101 Capitán Juan Antonio Artigas, Paso Carrasco, Municipio de Paso Carrasco, Canelones, 15000",
+          "geo": {
+            "lat": -34.845233,
+            "lng": -56.024418
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.845233,-56.024418"
+        },
+        {
+          "name": "Starbucks",
+          "location": "Starbucks, Ruta 101 Capitán Juan Antonio Artigas, Ciudad de la Costa, Municipio de Ciudad de la Costa, Canelones, 15800",
+          "geo": {
+            "lat": -34.837574,
+            "lng": -56.017715
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.837574,-56.017715"
+        }
       ]
     }
   ]

@@ -95,11 +95,24 @@ const BenefitType = z.enum([
   "gift",
 ]);
 
+// Uruguay bounding box. Coordinates outside it mean the geocoder returned a
+// point in the wrong country, which is a hard validation error.
+const MerchantGeo = z
+  .object({
+    lat: z.number().min(-35.5).max(-29.5),
+    lng: z.number().min(-58.6).max(-52.8),
+    confidence: z.enum(["high", "low"]).optional(),
+  })
+  .strict();
+
 const DiscountRule = z
   .object({
     id: z.string().min(1).optional(),
     merchant: z.string().min(1),
     category: Category,
+    location: z.string().min(1).optional(),
+    geo: MerchantGeo.optional(),
+    mapsUrl: z.string().url().optional(),
     percent: z.number().min(0).max(100),
     benefitType: BenefitType.optional(),
     tiers: z.array(CardTier).optional(),
@@ -129,6 +142,8 @@ const MerchantListMerchant = z
     name: z.string().min(1),
     url: z.string().url().optional(),
     location: z.string().min(1).optional(),
+    geo: MerchantGeo.optional(),
+    mapsUrl: z.string().url().optional(),
   })
   .strict();
 
@@ -136,6 +151,7 @@ const MerchantList = z
   .object({
     id: z.string().min(1),
     ruleIds: z.array(z.string().min(1)).optional(),
+    merchantNames: z.array(z.string().min(1)).optional(),
     sourceUrls: z.array(z.string().url()).min(1),
     merchants: z.array(MerchantListMerchant).min(1),
   })

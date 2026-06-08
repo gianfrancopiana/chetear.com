@@ -14,8 +14,12 @@ import {
   CAT_KEY,
   type DiscountItem,
   filterDiscounts,
+  formatDistance,
   INITIAL_VISIBLE_DISCOUNTS,
+  mergeChainDiscountRows,
   providerMeta,
+  rowLocationText,
+  sortByProximity,
   TARJETAS_STORAGE_KEY,
   VISIBLE_DISCOUNT_STEP,
 } from "../lib/discounts-ui";
@@ -23,12 +27,19 @@ import {
   DETAIL_CLOSE_EVENT,
   DETAIL_DISMISS_REQUEST_EVENT,
   DETAIL_OPEN_EVENT,
+  DISCOUNTS_FILTERED_EVENT,
+  MAP_EXPAND_EVENT,
+  MAP_SHOWN_EVENT,
+  REQUEST_DETAIL_EVENT,
   TARJETAS_CHANGED_EVENT,
+  USER_LOCATED_EVENT,
 } from "../lib/events";
 import { escapeHtml } from "../lib/strings";
 import { loadJSON, saveJSON } from "../lib/storage";
 
-const DISCOUNTS_CACHE_KEY = "chetear-discounts-cache-v4";
+// Bumped to v5 when merchant geo + mapsUrl were added to the cached shape, so
+// clients holding a pre-geo cache refetch instead of rendering a map with no pins.
+const DISCOUNTS_CACHE_KEY = "chetear-discounts-cache-v5";
 
 let cleanupHomeDiscountsPage: (() => void) | null = null;
 /*
@@ -68,6 +79,7 @@ export default function initHomeDiscountsPage(): void {
   const today = new Date();
   const todayIso = root.dataset.todayIso || getTodayIso(today);
   let cat = loadJSON<string>(CAT_KEY, "todo");
+  let userLoc = window.__chetearUserLocation ?? null;
 
   const urlParams = new URLSearchParams(window.location.search);
   const urlCat = urlParams.get("cat");
@@ -80,18 +92,36 @@ export default function initHomeDiscountsPage(): void {
   let currentFilteredLength = 0;
   let rules = loadJSON<DiscountItem[] | null>(DISCOUNTS_CACHE_KEY, null);
   let rulesPromise: Promise<DiscountItem[]> | null = null;
+  let displayRulesById = new Map<string, DiscountItem>();
 
   const header = root.querySelector<HTMLElement>("[data-sticky-header]");
   const filterBar = root.querySelector<HTMLElement>("[data-filter-bar]");
   const categoryOptions = Array.from(root.querySelectorAll<HTMLButtonElement>("[data-cat-option]"));
   const list = root.querySelector<HTMLElement>("[data-discount-list]");
   const listCard = root.querySelector<HTMLElement>("[data-discount-card]");
-  const tableList = root.querySelector<HTMLElement>("[data-discount-table-list]");
-  const tableCard = root.querySelector<HTMLElement>("[data-discount-table]");
   const emptyState = root.querySelector<HTMLElement>("[data-empty-state]");
   const loadMoreWrap = root.querySelector<HTMLElement>("[data-load-more-wrap]");
   const loadMoreButton = root.querySelector<HTMLButtonElement>("[data-load-more]");
   const loadMoreSentinel = root.querySelector<HTMLElement>("[data-load-more-sentinel]");
+  // On desktop the list scrolls inside this element (the map stays put), so the
+  // infinite-scroll observer must watch it rather than the viewport.
+  const listViewEl = root.querySelector<HTMLElement>("[data-list-view]");
+
+  // The map is always on-screen now — desktop shows it in the split, mobile
+  // shows it full-screen behind the <MobileSheet> bottom sheet — so the list
+  // filter set is always broadcast (see renderDiscounts).
+  const desktopMq = window.matchMedia("(min-width: 1024px)");
+
+  // Desktop expand/collapse: the map island's button toggles the map to full
+  // width (hiding the list) and back. CSS keys off [data-map-expanded].
+  window.addEventListener(
+    MAP_EXPAND_EVENT,
+    (event) => {
+      root.toggleAttribute("data-map-expanded", event.detail.expanded);
+      window.dispatchEvent(new CustomEvent(MAP_SHOWN_EVENT));
+    },
+    { signal },
+  );
 
   if (
     !filterBar ||
@@ -105,23 +135,42 @@ export default function initHomeDiscountsPage(): void {
     return;
   }
 
-  const loadMoreObserver = new IntersectionObserver(
-    ([entry]) => {
-      if (!entry?.isIntersecting || visibleCount >= currentFilteredLength) {
-        return;
-      }
-
-      visibleCount = Math.min(visibleCount + VISIBLE_DISCOUNT_STEP, currentFilteredLength);
-      renderDiscounts();
+  // Recreated when crossing the lg breakpoint: on desktop the list scrolls
+  // inside `listViewEl` (root = that element); on mobile the page scrolls
+  // (root = viewport).
+  let loadMoreObserver: IntersectionObserver | null = null;
+  function setupLoadMoreObserver(): void {
+    loadMoreObserver?.disconnect();
+    loadMoreObserver = new IntersectionObserver(
+      ([entry]) => {
+        if (!entry?.isIntersecting || visibleCount >= currentFilteredLength) {
+          return;
+        }
+        visibleCount = Math.min(visibleCount + VISIBLE_DISCOUNT_STEP, currentFilteredLength);
+        renderDiscounts();
+      },
+      { root: desktopMq.matches ? listViewEl : null, rootMargin: "320px 0px" },
+    );
+    loadMoreObserver.observe(loadMoreSentinel);
+  }
+  setupLoadMoreObserver();
+  // Crossing the lg breakpoint changes the map's container (mobile full-screen
+  // ↔ desktop split column) and where the list scrolls, so resize the map and
+  // re-point the infinite-scroll observer (viewport on mobile, list on desktop).
+  desktopMq.addEventListener(
+    "change",
+    () => {
+      renderDiscounts(); // populate the desktop list when entering desktop (skipped on mobile)
+      window.dispatchEvent(new CustomEvent(MAP_SHOWN_EVENT));
+      setupLoadMoreObserver();
     },
-    { rootMargin: "320px 0px" },
+    { signal },
   );
-  loadMoreObserver.observe(loadMoreSentinel);
 
   cleanupHomeDiscountsPage = () => {
     controller.abort();
     cancelWarmup();
-    loadMoreObserver.disconnect();
+    loadMoreObserver?.disconnect();
   };
 
   function syncStickyOffset(): void {
@@ -196,12 +245,14 @@ export default function initHomeDiscountsPage(): void {
     };
   }
 
-  function renderDiscountRow(rule: DiscountItem, index: number, total: number, stagger: boolean): string {
+  function renderDiscountRow(rule: DiscountItem, index: number, total: number, stagger: boolean, distance?: string): string {
     const meta = providerMeta(rule.provider);
     const divider = index < total - 1 ? " border-b border-[oklch(0.95_0.006_60)]" : "";
-    const locationPart = rule.merchantLocation
-      ? `<span style="color:oklch(0.65 0.01 60)">·</span><span>${escapeHtml(rule.merchantLocation)}</span>`
-      : "";
+    // Proximity-ordered rows show the distance in place of category.
+    const rowLocation = rowLocationText(rule);
+    const metaTail = distance
+      ? `<span style="color:oklch(0.65 0.01 60)">·</span><span class="font-medium text-ink-2">a ${escapeHtml(distance)}</span>`
+      : `${rowLocation ? `<span style="color:oklch(0.65 0.01 60)">·</span><span>${escapeHtml(rowLocation)}</span>` : ""}<span data-row-cat class="inline-flex items-center gap-[5px]"><span style="color:oklch(0.65 0.01 60)">·</span><span>${escapeHtml(rule.categoryLabel)}</span></span>`;
     const { className: staggerClass, styleFragment: staggerStyle } = staggerAttrs(index, stagger);
     const styleAttr = staggerStyle ? ` style="${staggerStyle}"` : "";
     const chip = benefitChip(rule);
@@ -223,66 +274,11 @@ export default function initHomeDiscountsPage(): void {
         <div class="mt-px flex items-center gap-[5px] truncate text-[11px] text-ink-3">
           <span class="shrink-0 inline-block rounded-full" style="width:5px;height:5px;background:${meta.color}"></span>
           <span>${escapeHtml(meta.label)}</span>
-          ${locationPart}
-          <span style="color:oklch(0.65 0.01 60)">·</span>
-          <span>${escapeHtml(rule.categoryLabel)}</span>
+          ${metaTail}
         </div>
       </div>
       <svg width="14" height="14" viewBox="0 0 20 20" fill="none" class="shrink-0">
         <path d="M8 5l5 5-5 5" stroke="oklch(0.5 0.013 60)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"></path>
-      </svg>
-    </a>`;
-  }
-
-  const DAY_KEYS_TABLE: ReadonlyArray<string> = [
-    "lunes", "martes", "miercoles", "jueves", "viernes", "sabado", "domingo",
-  ];
-  const DAY_LETTERS_TABLE: ReadonlyArray<string> = ["L", "M", "M", "J", "V", "S", "D"];
-
-  function renderDiscountTableRow(rule: DiscountItem, index: number, total: number, stagger: boolean): string {
-    const meta = providerMeta(rule.provider);
-    const divider = index < total - 1 ? "border-bottom: 1px solid oklch(0.86 0.008 60);" : "";
-    const initial = escapeHtml(meta.label.slice(0, 1).toUpperCase());
-    const activeDays = rule.days && rule.days.length > 0
-      ? new Set(rule.days as ReadonlyArray<string>)
-      : null;
-    const dayCells = DAY_KEYS_TABLE.map((dk, di) => {
-      const isOn = activeDays === null || activeDays.has(dk);
-      const cls = isOn
-        ? "bg-ink text-paper"
-        : "bg-paper-2 text-ink-3";
-      return `<span class="flex h-[22px] w-[22px] items-center justify-center rounded-[5px] text-[9px] font-semibold tracking-[0.04em] ${cls}">${DAY_LETTERS_TABLE[di]}</span>`;
-    }).join("");
-    const locationLine = rule.merchantLocation
-      ? `<div class="mt-0.5 text-[12px] text-ink-3 truncate">${escapeHtml(rule.merchantLocation)}</div>`
-      : "";
-    const { className: staggerClass, styleFragment: staggerStyle } = staggerAttrs(index, stagger);
-    const chipTable = benefitChip(rule);
-    const chipTableUnit = chipTable.unit
-      ? `<span class="font-sans text-[14px] font-medium text-ink-3">${chipTable.unit}</span>`
-      : "";
-    const chipTableSize = chipTable.size === "medium" ? "text-[20px]" : "text-[28px]";
-    const chipTableHtml = chipTable.kind === "numeric"
-      ? `<div class="whitespace-nowrap ${chipTableSize} font-bold leading-none tracking-[-0.02em] tabular-nums" style="color:${meta.color}">
-        ${chipTable.primary}${chipTableUnit}
-      </div>`
-      : `<div class="whitespace-nowrap text-[13px] font-bold uppercase tracking-[0.04em] leading-none" style="color:${meta.color}">
-        ${escapeHtml(chipTable.primary)}
-      </div>`;
-    return `<a href="${discountDetailHref(rule)}" data-rule-id="${escapeHtml(rule.id)}" class="grid grid-cols-[60px_minmax(0,1fr)_110px_120px_172px_18px] xl:grid-cols-[68px_minmax(0,1fr)_150px_150px_172px_20px] gap-3 xl:gap-4 px-5 py-3.5 items-center no-underline transition-colors hover:bg-paper-2${staggerClass}" style="${staggerStyle}${divider}">
-      ${chipTableHtml}
-      <div class="min-w-0">
-        <div class="text-[15px] font-semibold tracking-[-0.005em] text-ink truncate">${escapeHtml(rule.merchant)}</div>
-        ${locationLine}
-      </div>
-      <div class="flex items-center gap-2 text-[13px] text-ink-2 min-w-0">
-        <span class="flex h-5 w-5 shrink-0 items-center justify-center rounded-full text-[10px] font-bold" style="background:${meta.color};color:#fff">${initial}</span>
-        <span class="truncate">${escapeHtml(meta.label)}</span>
-      </div>
-      <div class="text-[13px] text-ink-2 truncate">${escapeHtml(rule.categoryLabel)}</div>
-      <div class="flex gap-[3px]">${dayCells}</div>
-      <svg width="16" height="16" viewBox="0 0 20 20" fill="none" class="text-ink-3">
-        <path d="M8 5l5 5-5 5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"></path>
       </svg>
     </a>`;
   }
@@ -302,16 +298,32 @@ export default function initHomeDiscountsPage(): void {
         filtered.push(rule);
       }
     }
-    const visible = filtered.slice(0, visibleCount);
-    currentFilteredLength = filtered.length;
+    const listItems = mergeChainDiscountRows(filtered);
+    // Once a location is set, order the whole list by proximity (nearest places
+    // first with distances; location-less benefits keep their order after).
+    const ordered = userLoc ? sortByProximity(listItems, filtered, userLoc) : listItems.map((item) => ({ item }));
+    const visible = ordered.slice(0, visibleCount);
+    currentFilteredLength = listItems.length;
+    displayRulesById = new Map(listItems.map((rule) => [rule.id, rule]));
+
+    // Broadcast the raw filtered set to the map (so merchant-directory chains
+    // keep all their pins). List surfaces collapse repeated chain branches
+    // separately with mergeChainDiscountRows.
+    window.__chetearFilteredItems = filtered;
+    window.dispatchEvent(new CustomEvent(DISCOUNTS_FILTERED_EVENT, { detail: { items: filtered } }));
+
+    // With a specific category selected, the per-row category label is
+    // redundant (every row shares it). CSS keys off this body flag to hide it
+    // (reaches the portaled mobile sheet too); "todo" shows it again.
+    if (cat === "todo") delete document.body.dataset.catActive;
+    else document.body.dataset.catActive = "true";
 
     renderControls();
 
-    const noResults = filtered.length === 0;
+    const noResults = listItems.length === 0;
     if (listCard) listCard.classList.toggle("!hidden", noResults);
-    if (tableCard) tableCard.classList.toggle("!hidden", noResults);
     emptyState.hidden = !noResults;
-    if (filtered.length === 0) {
+    if (noResults) {
       emptyState.innerHTML = `<div class="text-[22px] mb-1.5 text-ink">Sin resultados</div>
         <div class="text-[13px] leading-relaxed text-ink-3">
           ${filterByCards
@@ -320,17 +332,21 @@ export default function initHomeDiscountsPage(): void {
         </div>`;
     }
 
-    list.innerHTML = visible.map((rule, index) => renderDiscountRow(rule, index, visible.length, stagger)).join("");
-    if (tableList) {
-      tableList.innerHTML = visible
-        .map((rule, index) => renderDiscountTableRow(rule, index, visible.length, stagger))
+    // The desktop list is hidden on mobile (the bottom sheet shows the list
+    // there), so skip building its rows below lg — the work would be invisible.
+    // Re-rendered when crossing into desktop (see the desktopMq handler).
+    if (desktopMq.matches) {
+      list.innerHTML = visible
+        .map(({ item, km }, index) =>
+          renderDiscountRow(item, index, visible.length, stagger, km !== undefined ? formatDistance(km) : undefined),
+        )
         .join("");
     }
-    const hasMore = visible.length < filtered.length;
+    const hasMore = visible.length < listItems.length;
     loadMoreWrap.hidden = !hasMore;
     loadMoreSentinel.hidden = !hasMore;
     if (hasMore) {
-      loadMoreButton.textContent = `Ver ${Math.min(VISIBLE_DISCOUNT_STEP, filtered.length - visibleCount)} más`;
+      loadMoreButton.textContent = `Ver ${Math.min(VISIBLE_DISCOUNT_STEP, listItems.length - visibleCount)} más`;
     }
   }
 
@@ -366,7 +382,9 @@ export default function initHomeDiscountsPage(): void {
     const params = serializeDetailParams({
       provider: rule.provider,
       ruleIndex: rule.ruleIndex,
-      ruleId: rule.id,
+      ruleId: rule.ruleId ?? rule.id,
+      listId: rule.listId,
+      merchantIndex: rule.merchantIndex,
     });
     const pathname = window.location.pathname || "/";
     return `${pathname}?${params.toString()}`;
@@ -457,7 +475,8 @@ export default function initHomeDiscountsPage(): void {
       return;
     }
     const providerRules = loaded.filter((r) => r.provider === target.provider);
-    const rule = findRuleForTarget(target, providerRules);
+    const displayRules = mergeChainDiscountRows(providerRules);
+    const rule = findRuleForTarget(target, displayRules) ?? findRuleForTarget(target, providerRules);
     if (!rule) {
       dispatchCloseDetail();
       return;
@@ -467,12 +486,23 @@ export default function initHomeDiscountsPage(): void {
 
   window.addEventListener(DETAIL_DISMISS_REQUEST_EVENT, dismissDetailPanel, { signal });
 
+  // Cards outside the main list (the mobile sheet) ask to open a detail panel;
+  // route through presentDetail so history/URL behave like a list-row tap.
+  window.addEventListener(
+    REQUEST_DETAIL_EVENT,
+    (event) => {
+      const rule = findRuleById(event.detail.id);
+      if (rule) presentDetail(rule);
+    },
+    { signal },
+  );
+
   window.addEventListener("popstate", () => {
     if (rules) syncPanelFromUrl(rules);
   }, { signal });
 
   function findRuleById(id: string): DiscountItem | undefined {
-    return rules?.find((r) => r.id === id);
+    return displayRulesById.get(id) ?? rules?.find((r) => r.id === id);
   }
 
   function handleRowActivate(event: Event): void {
@@ -492,9 +522,16 @@ export default function initHomeDiscountsPage(): void {
   if (list) {
     list.addEventListener("click", handleRowActivate, { signal });
   }
-  if (tableList) {
-    tableList.addEventListener("click", handleRowActivate, { signal });
-  }
+
+  // "Cerca mío" resolved a location → re-order the list by proximity.
+  window.addEventListener(
+    USER_LOCATED_EVENT,
+    (event) => {
+      userLoc = event.detail;
+      if (rules) renderDiscounts();
+    },
+    { signal },
+  );
 
   categoryOptions.forEach((button) => {
     button.addEventListener("click", () => {

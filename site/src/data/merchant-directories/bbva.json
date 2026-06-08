@@ -1,5 +1,93 @@
 {
   "provider": "bbva",
   "label": "BBVA",
-  "lists": []
+  "lists": [
+    {
+      "id": "bbva-josephine-locations",
+      "merchantNames": [
+        "Josephine"
+      ],
+      "sourceUrls": [
+        "https://nominatim.openstreetmap.org/"
+      ],
+      "merchants": [
+        {
+          "name": "Josephine",
+          "location": "Josephine, 21 de Setiembre, Punta Carretas, Montevideo, 11311",
+          "geo": {
+            "lat": -34.91693,
+            "lng": -56.158279
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.916930,-56.158279"
+        },
+        {
+          "name": "Josephine",
+          "location": "Josephine, República Argentina, Punta Del Este, Maldonado, 20100",
+          "geo": {
+            "lat": -34.927381,
+            "lng": -54.949062
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.927381,-54.949062"
+        }
+      ]
+    },
+    {
+      "id": "bbva-lele-locations",
+      "merchantNames": [
+        "Lelé"
+      ],
+      "sourceUrls": [
+        "https://nominatim.openstreetmap.org/"
+      ],
+      "merchants": [
+        {
+          "name": "Idelfonso Lele Da Silva",
+          "location": "Idelfonso Lele Da Silva, Isidoro Noblía, Cerro Largo, 37002",
+          "geo": {
+            "lat": -31.956118,
+            "lng": -54.12839
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-31.956118,-54.128390"
+        }
+      ]
+    },
+    {
+      "id": "bbva-matias-gonzalez-locations",
+      "merchantNames": [
+        "Matías González"
+      ],
+      "sourceUrls": [
+        "https://nominatim.openstreetmap.org/"
+      ],
+      "merchants": [
+        {
+          "name": "Matías González",
+          "location": "Matías González, Hogar de Ancianos, Artigas, 55000",
+          "geo": {
+            "lat": -30.40105,
+            "lng": -56.484328
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-30.401050,-56.484328"
+        },
+        {
+          "name": "Matías González",
+          "location": "Matías González, 852, Luis de la Torre, Punta Carretas, Montevideo, 11311",
+          "geo": {
+            "lat": -34.915123,
+            "lng": -56.156068
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.915123,-56.156068"
+        },
+        {
+          "name": "Matías Gónzalez",
+          "location": "Matías Gónzalez, 840, Colonia, Centro, Montevideo, 11100",
+          "geo": {
+            "lat": -34.905552,
+            "lng": -56.198518
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.905552,-56.198518"
+        }
+      ]
+    }
+  ]
 }

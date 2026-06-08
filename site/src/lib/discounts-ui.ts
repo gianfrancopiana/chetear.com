@@ -9,6 +9,7 @@ import type {
   Channel,
   DayOfWeek,
   ExcludedApp,
+  MerchantGeo,
   Provider,
   RefundType,
 } from "./schema";
@@ -37,6 +38,8 @@ export interface DiscountItem {
   ruleId?: string;
   merchantUrl?: string;
   merchantLocation?: string;
+  merchantGeo?: MerchantGeo;
+  merchantMapsUrl?: string;
   parentMerchant?: string;
   listId?: string;
   merchantIndex?: number;
@@ -100,6 +103,14 @@ export function providerMeta(provider: string): { color: string; label: string }
   return PROVIDER_META[provider] ?? { color: UNKNOWN_PROVIDER_COLOR, label: provider };
 }
 
+const BRANCH_COUNT_LOCATION_RE = /^\d+\s+sucursales$/i;
+
+export function rowLocationText(rule: Pick<DiscountItem, "merchantLocation">): string | undefined {
+  const location = rule.merchantLocation?.trim();
+  if (!location) return undefined;
+  return BRANCH_COUNT_LOCATION_RE.test(location) ? location : undefined;
+}
+
 export function filterDiscounts(
   allRules: DiscountItem[],
   selectedDay: string,
@@ -110,5 +121,188 @@ export function filterDiscounts(
     .filter((rule) => !applyDay || !rule.days || rule.days.includes(selectedDay))
     .filter((rule) => !rule.validUntil || rule.validUntil >= referenceDate)
     .sort((a, b) => b.percent - a.percent);
+}
+
+function merchantListBranchKey(rule: DiscountItem): string | null {
+  if (!rule.listId || typeof rule.merchantIndex !== "number") return null;
+  if (rule.merchantGeo) return `${rule.merchantGeo.lat},${rule.merchantGeo.lng}`;
+  return `${rule.listId}:${rule.merchantIndex}:${rule.merchantLocation ?? ""}`;
+}
+
+function merchantListDisplayMerchant(rule: DiscountItem): string {
+  const merchant = rule.merchant.trim();
+  const parent = rule.parentMerchant?.trim();
+  if (!parent) return merchant;
+  // Use the parent as the row name only for a true chain — branches actually
+  // named after the brand, exactly "Farmashop" or "Farmashop 1" under parent
+  // "Farmashop". A generic program of distinct businesses ("Restaurantes" →
+  // Bruta, Facal, …) fails the chain test, so each keeps its own name and they
+  // stay separate rows. The word boundary stops a short brand from swallowing
+  // an unrelated business (parent "Cat" must not match "Caterpillar"). A parent
+  // equal to the category label ("Moda") is never treated as a brand.
+  const parentLc = parent.toLocaleLowerCase("es-UY");
+  const merchantLc = merchant.toLocaleLowerCase("es-UY");
+  const isCategoryName = parentLc === rule.categoryLabel.toLocaleLowerCase("es-UY");
+  const isChainBranch = merchantLc === parentLc || merchantLc.startsWith(`${parentLc} `);
+  return !isCategoryName && isChainBranch ? parent : merchant;
+}
+
+function merchantListGroupKey(rule: DiscountItem): string | null {
+  if (!merchantListBranchKey(rule)) return null;
+  const displayMerchant = merchantListDisplayMerchant(rule);
+  // Merchant directories may be aggregate categories (e.g. Moda) or true chains.
+  // Collapse only same-named merchants/branches; different stores in a category
+  // directory remain separate list rows while repeated chain branches become one.
+  return `${rule.provider}|${rule.category}|${displayMerchant.toLocaleLowerCase("es-UY")}`;
+}
+
+function betterListRepresentative(candidate: DiscountItem, current: DiscountItem): boolean {
+  if (candidate.percent !== current.percent) return candidate.percent > current.percent;
+  if ((candidate.benefitType ?? "discount") !== (current.benefitType ?? "discount")) {
+    return candidate.benefitType === "2-for-1";
+  }
+  return candidate.id < current.id;
+}
+
+/*
+ * The map needs every geocoded merchant-directory entry so chains render many
+ * pins. The list should not show the same chain once per branch, though: collapse
+ * same-named merchant-directory branches into one representative row and surface
+ * the branch count as the row's location text. Do not carry a representative
+ * branch directions URL onto the aggregate row; directions belong on map pins.
+ */
+// Synthetic id for a chain-merged row: prefix + group key. sortByProximity reads
+// the key back (via groupKeyFromMergedId) to attach the chain's nearest-branch
+// distance. Keep the encode (here) and decode (below) as a pair.
+const CHAIN_ID_PREFIX = "chain::";
+function groupKeyFromMergedId(id: string): string | null {
+  return id.startsWith(CHAIN_ID_PREFIX) ? id.slice(CHAIN_ID_PREFIX.length) : null;
+}
+
+export function mergeChainDiscountRows(items: DiscountItem[]): DiscountItem[] {
+  const output: DiscountItem[] = [];
+  const groups = new Map<string, { index: number; item: DiscountItem; branches: Set<string> }>();
+
+  for (const item of items) {
+    const groupKey = merchantListGroupKey(item);
+    const branchKey = merchantListBranchKey(item);
+    if (!groupKey || !branchKey) {
+      output.push(item);
+      continue;
+    }
+
+    const existing = groups.get(groupKey);
+    if (!existing) {
+      const branches = new Set([branchKey]);
+      const displayMerchant = merchantListDisplayMerchant(item);
+      const grouped: DiscountItem = {
+        ...item,
+        id: `${CHAIN_ID_PREFIX}${groupKey}`,
+        merchant: displayMerchant,
+        merchantUrl: undefined,
+        merchantLocation: item.merchantLocation,
+        merchantGeo: undefined,
+        merchantMapsUrl: item.merchantMapsUrl,
+        parentMerchant: item.parentMerchant,
+        listId: undefined,
+        merchantIndex: undefined,
+      };
+      groups.set(groupKey, { index: output.length, item: grouped, branches });
+      output.push(grouped);
+      continue;
+    }
+
+    existing.branches.add(branchKey);
+    if (betterListRepresentative(item, existing.item)) {
+      const displayMerchant = merchantListDisplayMerchant(item);
+      existing.item = {
+        ...existing.item,
+        ...item,
+        id: existing.item.id,
+        merchant: displayMerchant,
+        merchantUrl: undefined,
+        merchantLocation: existing.item.merchantLocation,
+        merchantGeo: undefined,
+        merchantMapsUrl: item.merchantMapsUrl,
+        parentMerchant: item.parentMerchant,
+        listId: undefined,
+        merchantIndex: undefined,
+      };
+    }
+  }
+
+  for (const group of groups.values()) {
+    const branchCount = group.branches.size;
+    if (branchCount > 1) {
+      group.item.merchantLocation = `${branchCount} sucursales`;
+      group.item.merchantMapsUrl = undefined;
+    }
+    output[group.index] = group.item;
+  }
+
+  return output;
+}
+
+const EARTH_RADIUS_KM = 6371;
+
+// Great-circle distance in km between two lat/lng points.
+export function haversineKm(lat1: number, lng1: number, lat2: number, lng2: number): number {
+  const toRad = (d: number) => (d * Math.PI) / 180;
+  const dLat = toRad(lat2 - lat1);
+  const dLng = toRad(lng2 - lng1);
+  const a =
+    Math.sin(dLat / 2) ** 2 +
+    Math.cos(toRad(lat1)) * Math.cos(toRad(lat2)) * Math.sin(dLng / 2) ** 2;
+  return EARTH_RADIUS_KM * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+}
+
+// "290 m" under 1 km, "1,2 km" up to 10, "23 km" beyond (es-UY decimal comma).
+export function formatDistance(km: number): string {
+  if (km < 1) return `${Math.round(km * 1000)} m`;
+  if (km < 10) return `${km.toFixed(1).replace(".", ",")} km`;
+  return `${Math.round(km)} km`;
+}
+
+export interface OrderedItem {
+  item: DiscountItem;
+  km?: number;
+}
+
+/*
+ * Order the (already chain-merged) display list by proximity once the user sets
+ * a location: geocoded merchants nearest-first (each carrying its distance),
+ * then the location-less benefits in their original order. Card discounts apply
+ * everywhere, so they have no distance and sort to the end rather than being
+ * mis-ranked against a specific far-away place.
+ *
+ * Merged rows drop their per-branch geo, so distance is taken from the raw
+ * (un-merged) `rawItems` — the nearest branch per chain — keyed by the same
+ * group key encoded in the merged row's id.
+ */
+export function sortByProximity(
+  displayItems: DiscountItem[],
+  rawItems: DiscountItem[],
+  loc: { lat: number; lng: number },
+): OrderedItem[] {
+  const kmByGroup = new Map<string, number>();
+  for (const item of rawItems) {
+    if (!item.merchantGeo) continue;
+    const key = merchantListGroupKey(item);
+    if (!key) continue;
+    const km = haversineKm(loc.lat, loc.lng, item.merchantGeo.lat, item.merchantGeo.lng);
+    const prev = kmByGroup.get(key);
+    if (prev === undefined || km < prev) kmByGroup.set(key, km);
+  }
+  return displayItems
+    .map((item, i) => {
+      const groupKey = groupKeyFromMergedId(item.id);
+      return { item, km: groupKey ? kmByGroup.get(groupKey) : undefined, i };
+    })
+    .sort((a, b) => {
+      const ak = a.km ?? Infinity;
+      const bk = b.km ?? Infinity;
+      return ak !== bk ? ak - bk : a.i - b.i; // stable: location-less keep their order
+    })
+    .map(({ item, km }) => ({ item, km }));
 }
 

@@ -46,7 +46,7 @@ sync run. This section only fixes which categories/merchants are in scope.
 ### Runtime-relevant now
 - Supermarkets: `Ta-Ta`, `El Dorado`, `Macro Mercado`, `Tienda Inglesa`, `Micro Macro`, `Red Expres`
 - `Farmacias` (broad category)
-- `ANCAP`
+- `ANCAP` — keep linked to the full ANCAP-branded fuel-station directory when reliable OpenStreetMap/Nominatim fuel-station coordinates are available; do not collapse the chain to a handful of generic pins.
 
 ## Conditions extraction
 

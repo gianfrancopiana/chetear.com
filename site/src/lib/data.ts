@@ -4,11 +4,16 @@ import {
   ProviderDiscounts,
   ProviderMerchantLists,
   type BenefitType,
+  type CardNetwork,
   type CardTier,
   type Category,
+  type Channel,
   type DayOfWeek,
   type DiscountRule,
+  type ExcludedApp,
+  type MerchantGeo,
   type MerchantListMerchant,
+  type RefundType,
 } from "./schema";
 
 const discountModules = import.meta.glob("../data/discounts/*.json", {
@@ -44,13 +49,23 @@ export interface DiscountListItem {
   categoryLabel: string;
   days?: DayOfWeek[];
   tiers?: CardTier[];
+  networks?: CardNetwork[];
+  cardFamilies?: string[];
+  channels?: Channel[];
+  excludedApps?: ExcludedApp[];
+  stackable?: boolean;
+  refundType?: RefundType;
+  cap?: string;
   validUntil?: string;
+  notes?: string;
   provider: string;
   providerLabel: string;
   ruleIndex: number;
   ruleId?: string;
   merchantUrl?: string;
   merchantLocation?: string;
+  merchantGeo?: MerchantGeo;
+  merchantMapsUrl?: string;
   parentMerchant?: string;
   listId?: string;
   merchantIndex?: number;
@@ -108,6 +123,33 @@ const merchantsByRule = allMerchantListProviders.reduce((acc, providerData) => {
   return acc;
 }, new Map<string, MerchantExpansion[]>());
 
+function merchantNameKey(value: string): string {
+  return value
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
+}
+
+const merchantsByName = allMerchantListProviders.reduce((acc, providerData) => {
+  for (const list of providerData.lists) {
+    for (const merchantName of list.merchantNames || []) {
+      const key = `${providerData.provider}:${merchantNameKey(merchantName)}`;
+      const current = acc.get(key) || [];
+      list.merchants.forEach((merchant, merchantIndex) => {
+        current.push({
+          listId: list.id,
+          merchantIndex,
+          merchant,
+        });
+      });
+      acc.set(key, current);
+    }
+  }
+  return acc;
+}, new Map<string, MerchantExpansion[]>());
+
 function buildBaseDiscountItem(
   provider: string,
   rule: DiscountRule,
@@ -120,6 +162,9 @@ function buildBaseDiscountItem(
     benefitType: rule.benefitType,
     category: rule.category,
     categoryLabel: categoryLabel(rule.category),
+    merchantLocation: rule.location,
+    merchantGeo: rule.geo,
+    merchantMapsUrl: rule.mapsUrl,
     days: rule.days,
     tiers: rule.tiers,
     networks: rule.networks,
@@ -144,11 +189,10 @@ function buildDiscountEntries(
   ruleIndex: number,
 ): DiscountListItem[] {
   const baseItem = buildBaseDiscountItem(provider, rule, ruleIndex);
-  if (!rule.id) {
-    return [baseItem];
-  }
-
-  const linkedMerchants = merchantsByRule.get(`${provider}:${rule.id}`) || [];
+  const linkedMerchants =
+    (rule.id ? merchantsByRule.get(`${provider}:${rule.id}`) : undefined) ||
+    merchantsByName.get(`${provider}:${merchantNameKey(rule.merchant)}`) ||
+    [];
   if (linkedMerchants.length === 0) {
     return [baseItem];
   }
@@ -159,6 +203,8 @@ function buildDiscountEntries(
     merchant: entry.merchant.name,
     merchantUrl: entry.merchant.url,
     merchantLocation: entry.merchant.location,
+    merchantGeo: entry.merchant.geo,
+    merchantMapsUrl: entry.merchant.mapsUrl,
     parentMerchant: rule.merchant,
     listId: entry.listId,
     merchantIndex: entry.merchantIndex,

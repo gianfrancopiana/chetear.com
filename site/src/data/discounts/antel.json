@@ -58,7 +58,8 @@
       "channels": [
         "online"
       ],
-      "notes": "Entradas 2D y 3D. Código MiAntel o *789*1#"
+      "notes": "Entradas 2D y 3D. Código MiAntel o *789*1#",
+      "id": "antel-movie-2x1"
     },
     {
       "merchant": "Cines del Este",
@@ -130,7 +131,8 @@
         "in-store",
         "online"
       ],
-      "notes": "Marca Originales iPlace. Código MiAntel o *789*9#"
+      "notes": "Marca Originales iPlace. Código MiAntel o *789*9#",
+      "id": "antel-iplace-originales-25"
     },
     {
       "merchant": "Samsung",

@@ -61,7 +61,10 @@ Use the `discount-sync` skill.
 10. For `mode: "fetch"` providers, treat the helper's validation markers as mandatory proof that the fetched HTML is the real source page, not a block/interstitial page.
 11. If a provider-specific helper drifts or stops matching the live source, fall back to the provider blueprint's manual browser traversal long enough to repair the helper; do not quietly replace the helper path with ad-hoc fetches.
 12. If a provider browser session hits a real access block (`403`, captcha, geo/IP block, or similar), keep the last known good JSON unchanged and report the block instead of routing through a special network workaround.
-13. Preserve stable provider identity already used by the site.
+13. Preserve stable provider identity already used by the site. When a stable
+    direct discount rule already carries map fields (`location`, `geo`,
+    `mapsUrl`), preserve them unless the source clearly changed that merchant
+    identity; the geocoding pass owns those fields.
 14. Capture tiers, networks, caps, day logic, and validity windows when present. If a benefit remains visible in the provider's current catalog/detail view but the detail copy contains a clearly past validity date, treat source visibility as the stronger active signal: do not write the past `validUntil` into runtime JSON, preserve the rule while visible, and record the source-date conflict in the provider policy/reference notes.
 15. Preserve structured `benefitType` semantics from `skills/discount-sync/references/conditions-extraction.md`; `2x1`/`2×1`/`2 por 1` offers must be `benefitType: "2-for-1"` with `percent: 50` only for sorting, never a plain 50% discount.
 16. **Reconcile source inventory against provider scope.** For each provider whose entry in `provider-sources.json` has populated `inScope` and `outOfScope` arrays, enumerate every benefit-card title the source exposes and compute the delta. The enumeration surface is whatever the provider blueprint designates as the union view (e.g. Itaú's `#/todas-las-tarjetas`); fall back to crossing every tab the blueprint describes only when no union view exists. A "title" is the card's heading text content (typically `h3`), trimmed and with runs of whitespace collapsed to one space before comparing — load-bearing typos that survive normalization should be encoded verbatim in the scope arrays. Write the result back to the provider entry under a `reconciliation` object with three arrays:
@@ -82,6 +85,41 @@ Use the `discount-sync` skill.
 - Preserve last known good data.
 - Report succinctly which source failed or became ambiguous.
 - Avoid noisy routine updates when nothing changed.
+
+## Daily merchant geocoding
+
+Resolve physical merchant locations for the map view. This is an **agent
+browser task**, not a script — the same browser-first approach used to scan
+discount sources. Runs inside the `chetear:discounts-daily` job, **after**
+discount and merchant-directory data is written, so a newly added commerce is
+placed the same day it appears.
+
+### Inputs
+- Runtime discount data: `site/src/data/discounts/*.json`
+- Runtime merchant-list data: `site/src/data/merchant-directories/*.json`
+- Schema: `site/src/lib/schema.ts` (the optional `location`, `geo`, and `mapsUrl` fields on direct discount rules, plus `geo` and `mapsUrl` on merchant-list merchants)
+- Procedure detail: `skills/merchant-directory-sync/SKILL.md` → "Geocoding for the map view"
+
+### Required behavior
+1. **Build the full unplaced queue before declaring no-op.** Process both:
+   - merchant-list merchants in `site/src/data/merchant-directories/*.json` without `geo`
+   - direct discount rules in `site/src/data/discounts/*.json` without `geo` when the `merchant` names a specific physical commerce
+   Do **not** limit the pass to merchant directories, and do **not** skip a direct rule just because the provider discount sync wrote it outside `merchant-directories`. Broad/category rules (`Farmacias`, `Restaurantes`, `Comercios Uruguay`) and online-only/app-only services are still inspected but may remain without `geo` when there is no single clear place.
+2. **Incremental, once per merchant/rule.** An entry that's already placed is never re-resolved, so a normal day with no new unplaced entries does no browser work at all. (A deliberate re-check of a single entry is a manual exception, not the daily path.)
+3. **Resolve in the browser.** For each unplaced entry, open its Google Maps search link — `https://www.google.com/maps/search/?api=1&query=<name + location>` — and look at what the results resolve to, exactly as a person would. For direct discount rules with no useful `location`, start with `<merchant>, Uruguay`; if the result exposes a specific address/locality, store that as `location` alongside the pin.
+4. **Use judgment.** If the results land on a single clear place, read its coordinates (from the resolved `…/place/…/@lat,lng…` URL) and capture that canonical place URL. If the name is ambiguous or the results show several unrelated places, do **not** guess — leave the entry without `geo`.
+5. **Handle chains as branch lists, not one fake pin.** If a direct discount applies to a chain with many branches (for example a pharmacy chain like San Roque/Farmashop), do not put one `geo` on the parent chain rule. When the bank/source or the chain's own locator confirms the benefit applies chain-wide, give the parent rule a stable `id` if it lacks one and create/update a provider merchant-list linked through `ruleIds`, with one merchant entry per eligible branch and `geo` on each branch. If you cannot get the branch list confidently, leave the chain unplaced and report it as chain backlog.
+6. **Store place fields.** Write `geo: { lat, lng }` and `mapsUrl: <canonical place URL>` onto the exact runtime entry resolved. For direct discount rules, also write `location` when the rule did not already have one and Google/source gives a clear address/locality. Round coordinates to ~6 decimals.
+7. **Never invent a pin.** A commerce you can't confidently place stays without `geo`; it shows with a plain search link instead of a wrong pin. Same "record ambiguity instead of guessing" rule the discount flow uses.
+8. **Respect Google.** This is automated access to Google Maps, which is prickly about bots. Go gently (human-paced, not a tight loop), and if Google blocks/captchas, stop and report it rather than working around it — resume on a later run. Source coordinates only from the resolved place, never from a city-centroid fallback.
+9. **Non-blocking, but not silent skipping.** Merchants left unplaced are an expected outcome, not a failure; don't hold up the discounts commit on them. The run summary should report how many direct rules and merchant-list entries were placed, how many were intentionally left unplaced as ambiguous/no-location, how many chains need branch-list work, and whether any eligible backlog remains.
+10. Run `node site/scripts/validate-runtime-data.mjs --discounts-only` after writing and treat failures as blocking before commit/push.
+11. Commit and push to `main` only if `site/src/data/discounts/*.json` or `site/src/data/merchant-directories/*.json` actually changed. Fold geo changes into the run's existing discount commit when possible; otherwise use a concise message like `Update merchant geocoding`.
+
+### Failure policy
+- Preserve last known good `location`/`geo`/`mapsUrl` data; never strip a good pin because a re-check was inconclusive.
+- If Google blocks the browser, keep existing data unchanged and report it; resume next run.
+- A run that places no new merchants (nothing new to do) is routine — keep it quiet.
 
 ## Daily prices sync
 

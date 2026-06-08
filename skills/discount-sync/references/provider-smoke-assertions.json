@@ -52,6 +52,48 @@
           "in-store"
         ]
       }
+    ],
+    "mustHaveLinkedMerchantLists": [
+      {
+        "id": "itau-san-roque-directory",
+        "ruleId": "itau-san-roque-premium-25",
+        "minMerchants": 45,
+        "maxMerchants": 60,
+        "mustContainMerchants": [
+          "San Roque 01 - Cordón",
+          "San Roque 63 - Comercio"
+        ]
+      },
+      {
+        "id": "itau-san-roque-directory",
+        "ruleId": "itau-san-roque-general-15",
+        "minMerchants": 45,
+        "maxMerchants": 60,
+        "mustContainMerchants": [
+          "San Roque 01 - Cordón",
+          "San Roque 63 - Comercio"
+        ]
+      },
+      {
+        "id": "itau-movie-directory",
+        "ruleId": "itau-movie-debito-volar-2x1",
+        "minMerchants": 4,
+        "maxMerchants": 4,
+        "mustContainMerchants": [
+          "Movie Montevideo",
+          "Movie Nuevocentro"
+        ]
+      },
+      {
+        "id": "itau-iplace-directory",
+        "ruleId": "itau-iplace-personal-bank-15",
+        "minMerchants": 3,
+        "maxMerchants": 3,
+        "mustContainMerchants": [
+          "iPlace Montevideo Shopping",
+          "iPlace Nuevocentro Shopping"
+        ]
+      }
     ]
   },
   "santander": {
@@ -75,16 +117,40 @@
         "tiersIncludes": [
           "todas"
         ]
+      },
+      {
+        "id": "santander-farmashop-farmacard-25",
+        "merchant": "Farmashop",
+        "category": "farmacia",
+        "percent": 25,
+        "cardFamiliesIncludes": [
+          "Farmacard"
+        ]
+      },
+      {
+        "id": "santander-farmashop-general-15",
+        "merchant": "Farmashop",
+        "category": "farmacia",
+        "percent": 15
+      },
+      {
+        "id": "santander-farmashop-farmacard-10",
+        "merchant": "Farmashop",
+        "category": "farmacia",
+        "percent": 10,
+        "cardFamiliesIncludes": [
+          "Farmacard"
+        ]
       }
     ],
     "mustHaveLinkedMerchantLists": [
       {
         "id": "santander-moda-general-directory",
         "ruleId": "santander-moda-general-15",
-        "minMerchants": 80,
-        "maxMerchants": 90,
+        "minMerchants": 200,
+        "maxMerchants": 260,
         "mustContainMerchants": [
-          "Optica Estela Jinchuk",
+          "Óptica Estela Jinchuk",
           "Mónaco Calzados",
           "The North Face"
         ],
@@ -92,6 +158,44 @@
           "Under Armour",
           "Nike",
           "Sportline"
+        ]
+      },
+      {
+        "id": "santander-farmashop-directory",
+        "ruleId": "santander-farmashop-farmacard-25",
+        "minMerchants": 150,
+        "maxMerchants": 170,
+        "mustContainMerchants": [
+          "Farmashop 1",
+          "Farmashop 159"
+        ]
+      },
+      {
+        "id": "santander-farmashop-directory",
+        "ruleId": "santander-farmashop-general-15",
+        "minMerchants": 150,
+        "maxMerchants": 170,
+        "mustContainMerchants": [
+          "Farmashop 1",
+          "Farmashop 159"
+        ]
+      },
+      {
+        "id": "santander-farmashop-directory",
+        "ruleId": "santander-farmashop-farmacard-10",
+        "minMerchants": 150,
+        "maxMerchants": 170,
+        "mustContainMerchants": [
+          "Farmashop 1",
+          "Farmashop 159"
+        ]
+      },
+      {
+        "id": "santander-samsung-locations",
+        "merchantName": "Samsung",
+        "minMerchants": 3,
+        "mustContainMerchants": [
+          "Samsung Store"
         ]
       }
     ]
@@ -114,6 +218,16 @@
       "La pañalera",
       "Foncho & Juanita",
       "Tu Ración"
+    ],
+    "mustHaveLinkedMerchantLists": [
+      {
+        "id": "bbva-matias-gonzalez-locations",
+        "merchantName": "Matías González",
+        "minMerchants": 2,
+        "mustContainMerchants": [
+          "Matías González"
+        ]
+      }
     ]
   },
   "scotiabank": {
@@ -125,6 +239,24 @@
       "Tienda Farma",
       "Combustible + Telepeaje",
       "Restaurantes adheridos"
+    ],
+    "mustHaveLinkedMerchantLists": [
+      {
+        "id": "scotiabank-kinko-locations",
+        "merchantName": "Kinko",
+        "minMerchants": 10,
+        "mustContainMerchants": [
+          "Kinko"
+        ]
+      },
+      {
+        "id": "scotiabank-farmacity-locations",
+        "merchantName": "Farmacity",
+        "minMerchants": 5,
+        "mustContainMerchants": [
+          "farmacity"
+        ]
+      }
     ]
   },
   "brou": {
@@ -158,6 +290,78 @@
         ],
         "capIncludes": "$500"
       }
+    ],
+    "mustHaveLinkedMerchantLists": [
+      {
+        "id": "brou-tata-directory",
+        "ruleId": "brou-tata-recompensa-10",
+        "minMerchants": 80,
+        "maxMerchants": 95,
+        "mustContainMerchants": [
+          "Ta-Ta Hiper Artigas",
+          "Ta-Ta Young"
+        ]
+      },
+      {
+        "id": "brou-el-dorado-directory",
+        "ruleId": "brou-el-dorado-recompensa-10",
+        "minMerchants": 70,
+        "maxMerchants": 80,
+        "mustContainMerchants": [
+          "El Dorado Ciudad de Aiguá",
+          "El Dorado Punta del Este - Av. Francia"
+        ]
+      },
+      {
+        "id": "brou-macro-mercado-directory",
+        "ruleId": "brou-macro-mercado-recompensa-10",
+        "minMerchants": 9,
+        "maxMerchants": 9,
+        "mustContainMerchants": [
+          "Macro Mercado Colonia N°17",
+          "Macro Mercado Carrasco N°3"
+        ]
+      },
+      {
+        "id": "brou-tienda-inglesa-directory",
+        "ruleId": "brou-tienda-inglesa-recompensa-10",
+        "minMerchants": 18,
+        "maxMerchants": 25,
+        "mustContainMerchants": [
+          "Tienda Inglesa Car One",
+          "Tienda Inglesa Atlántico"
+        ]
+      },
+      {
+        "id": "brou-micro-macro-directory",
+        "ruleId": "brou-micro-macro-recompensa-10",
+        "minMerchants": 6,
+        "maxMerchants": 6,
+        "mustContainMerchants": [
+          "Micro Macro San José N°42",
+          "Micro Macro Piriápolis N°40"
+        ]
+      },
+      {
+        "id": "brou-red-expres-directory",
+        "ruleId": "brou-red-expres-recompensa-10",
+        "minMerchants": 1,
+        "maxMerchants": 3,
+        "mustContainMerchants": [
+          "Red Expres Abast Florida - local 240"
+        ]
+      },
+      {
+        "id": "brou-ancap-locations",
+        "merchantName": "ANCAP",
+        "minMerchants": 250,
+        "maxMerchants": 300,
+        "mustContainMerchants": [
+          "ANCAP Avenida Millán 3771",
+          "ANCAP Ruta 5 Brigadier General Fructuoso Rivera Km 19.700",
+          "ANCAP Lostaunau"
+        ]
+      }
     ]
   },
   "oca": {
@@ -184,6 +388,56 @@
         ],
         "notesIncludes": "2x1"
       }
+    ],
+    "mustHaveLinkedMerchantLists": [
+      {
+        "id": "oca-macro-mercado-directory",
+        "ruleId": "oca-macro-mercado-installments",
+        "minMerchants": 9,
+        "maxMerchants": 9,
+        "mustContainMerchants": [
+          "Macro Mercado Colonia N°17",
+          "Macro Mercado Carrasco N°3"
+        ]
+      },
+      {
+        "id": "oca-macro-mercado-directory",
+        "ruleId": "oca-blue-macro-mercado-10",
+        "minMerchants": 9,
+        "maxMerchants": 9,
+        "mustContainMerchants": [
+          "Macro Mercado Colonia N°17",
+          "Macro Mercado Carrasco N°3"
+        ]
+      },
+      {
+        "id": "oca-tata-directory",
+        "ruleId": "oca-tata-general-20",
+        "minMerchants": 80,
+        "maxMerchants": 95,
+        "mustContainMerchants": [
+          "TaTa Hiper Artigas",
+          "TaTa Young"
+        ]
+      },
+      {
+        "id": "oca-movie-directory",
+        "ruleId": "oca-blue-movie-2x1",
+        "minMerchants": 4,
+        "maxMerchants": 4,
+        "mustContainMerchants": [
+          "Movie Montevideo",
+          "Movie Nuevocentro"
+        ]
+      },
+      {
+        "id": "oca-burger-king-locations",
+        "merchantName": "Burger King",
+        "minMerchants": 10,
+        "mustContainMerchants": [
+          "Burger King"
+        ]
+      }
     ]
   },
   "prex": {
@@ -195,6 +449,16 @@
       "HolaSIM",
       "STM",
       "Abitab"
+    ],
+    "mustHaveLinkedMerchantLists": [
+      {
+        "id": "prex-abitab-locations",
+        "merchantName": "Abitab",
+        "minMerchants": 10,
+        "mustContainMerchants": [
+          "Abitab"
+        ]
+      }
     ]
   },
   "antel": {
@@ -206,6 +470,36 @@
       "Movie",
       "Samsung",
       "Salados"
+    ],
+    "mustHaveLinkedMerchantLists": [
+      {
+        "id": "antel-movie-directory",
+        "ruleId": "antel-movie-2x1",
+        "minMerchants": 4,
+        "maxMerchants": 4,
+        "mustContainMerchants": [
+          "Movie Montevideo",
+          "Movie Nuevocentro"
+        ]
+      },
+      {
+        "id": "antel-iplace-directory",
+        "ruleId": "antel-iplace-originales-25",
+        "minMerchants": 3,
+        "maxMerchants": 3,
+        "mustContainMerchants": [
+          "iPlace Montevideo Shopping",
+          "iPlace Nuevocentro Shopping"
+        ]
+      },
+      {
+        "id": "antel-via-confort-locations",
+        "merchantName": "Vía Confort",
+        "minMerchants": 3,
+        "mustContainMerchants": [
+          "Via Confort"
+        ]
+      }
     ]
   },
   "club-el-pais": {
@@ -218,6 +512,24 @@
         "percent": 0,
         "benefitType": "gift",
         "notesIncludes": "Sundae"
+      }
+    ],
+    "mustHaveLinkedMerchantLists": [
+      {
+        "id": "club-el-pais-school-of-rock-montevideo-locations",
+        "merchantName": "School Of Rock Montevideo",
+        "minMerchants": 1,
+        "mustContainMerchants": [
+          "SCHOOL of ROCK"
+        ]
+      },
+      {
+        "id": "club-el-pais-acher-locations",
+        "merchantName": "Acher",
+        "minMerchants": 3,
+        "mustContainMerchants": [
+          "Acher"
+        ]
       }
     ]
   }

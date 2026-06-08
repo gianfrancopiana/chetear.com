@@ -120,6 +120,26 @@ const navTabs = [
         --aqua-shadow-dark: 0 1px 2px oklch(0.2 0.02 60 / 0.18), inset 0 1px 0 rgba(255, 255, 255, 0.12);
         --aqua-shadow-float: 0 1px 3px oklch(0.15 0.02 60 / 0.08), 0 12px 32px oklch(0.15 0.02 60 / 0.12);
       }
+
+      /*
+       * Map view: when the bottom sheet is collapsed (full-screen map), slide
+       * the bottom nav away; opening the sheet animates it back up. The map
+       * page doesn't scroll, so this doesn't fight the scroll-hide handler;
+       * !important wins over its inline transform just in case.
+       */
+      body[data-sheet-collapsed="true"] [data-bottom-nav] {
+        transform: translateY(100%) !important;
+      }
+
+      /*
+       * Collapsed sheet (full-screen map): drop the "Cerca mío" locate button
+       * to the bottom of the map, just above the collapsed sheet's peek,
+       * instead of leaving it floating at the half-sheet position. 12% mirrors
+       * MobileSheet's COLLAPSED snap fraction — keep the two in sync.
+       */
+      body[data-sheet-collapsed="true"] [data-locate-btn] {
+        bottom: calc(12% + 0.75rem);
+      }
     </style>
     {/*
       Raw CSS (is:inline so the build's CSS minifier doesn't strip the
@@ -224,8 +244,8 @@ const navTabs = [
 
       <div class="flex flex-col flex-1 w-full md:max-w-[1200px] md:mx-auto md:px-9 md:py-8">
         <slot />
-        {!hideTabBar && <div class="pb-20 md:pb-8" />}
-        {hideTabBar && <div class="pb-8 md:hidden" />}
+        {!hideTabBar && <div data-bottom-spacer class="pb-20 md:pb-8" />}
+        {hideTabBar && <div data-bottom-spacer class="pb-8 md:hidden" />}
       </div>
     </div>
     {!hideTabBar && (

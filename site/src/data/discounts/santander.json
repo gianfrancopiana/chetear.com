@@ -86,7 +86,8 @@
       "cardFamilies": [
         "Farmacard"
       ],
-      "notes": "Categorias seleccionadas"
+      "notes": "Categorias seleccionadas",
+      "id": "santander-farmashop-farmacard-25"
     },
     {
       "merchant": "Farmashop",
@@ -100,7 +101,8 @@
         "jueves",
         "domingo"
       ],
-      "notes": "Categorías seleccionadas"
+      "notes": "Categorías seleccionadas",
+      "id": "santander-farmashop-general-15"
     },
     {
       "merchant": "Farmashop",
@@ -112,7 +114,8 @@
       "cap": "Tope $5.000/mes",
       "cardFamilies": [
         "Farmacard"
-      ]
+      ],
+      "id": "santander-farmashop-farmacard-10"
     },
     {
       "merchant": "PedidosYa",
