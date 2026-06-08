@@ -6,7 +6,7 @@ import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
   site: 'https://chetear.com',
-  adapter: vercel(),
+  adapter: vercel({ skewProtection: true }),
   integrations: [react()],
   prefetch: {
     prefetchAll: false,
