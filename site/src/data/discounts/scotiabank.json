@@ -3,36 +3,6 @@
   "label": "Scotiabank",
   "rules": [
     {
-      "merchant": "Tienda Inglesa",
-      "category": "supermercado",
-      "percent": 10,
-      "tiers": [
-        "platinum",
-        "infinite",
-        "gold"
-      ],
-      "days": [
-        "lunes",
-        "martes",
-        "miercoles",
-        "jueves",
-        "viernes"
-      ],
-      "validUntil": "2026-05-31",
-      "channels": [
-        "in-store"
-      ],
-      "cardFamilies": [
-        "Débito Premium",
-        "Club Card"
-      ],
-      "networks": [
-        "visa",
-        "amex"
-      ],
-      "notes": "Programa Save the Week. Excluye tecnología y electrónica"
-    },
-    {
       "merchant": "Kinko",
       "category": "supermercado",
       "percent": 15,

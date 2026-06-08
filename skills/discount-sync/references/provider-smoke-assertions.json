@@ -253,7 +253,6 @@
     "maxRules": 20,
     "minUniqueMerchants": 5,
     "mustContainMerchants": [
-      "Tienda Inglesa",
       "Tienda Farma",
       "Combustible + Telepeaje",
       "Restaurantes adheridos"
@@ -459,11 +458,10 @@
     ]
   },
   "prex": {
-    "minRules": 8,
+    "minRules": 6,
     "maxRules": 15,
     "minUniqueMerchants": 6,
     "mustContainMerchants": [
-      "Cabify",
       "HolaSIM",
       "STM",
       "Abitab"
@@ -484,7 +482,6 @@
     "maxRules": 35,
     "minUniqueMerchants": 14,
     "mustContainMerchants": [
-      "Grido",
       "Movie",
       "Samsung",
       "Salados"

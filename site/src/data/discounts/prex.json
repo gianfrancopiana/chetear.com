@@ -3,30 +3,6 @@
   "label": "Prex",
   "rules": [
     {
-      "merchant": "Cabify",
-      "category": "viajes",
-      "percent": 30,
-      "cap": "$150",
-      "validUntil": "2026-05-31",
-      "stackable": false,
-      "notes": "Primer viaje del mes pagando con Prex en la app de Cabify usando código PREXMAYO. Válido en zona metropolitana de Montevideo y Maldonado"
-    },
-    {
-      "merchant": "PedidosYa Market",
-      "category": "supermercado",
-      "percent": 20,
-      "networks": [
-        "mastercard"
-      ],
-      "days": [
-        "lunes"
-      ],
-      "cap": "$800",
-      "validUntil": "2026-05-31",
-      "stackable": true,
-      "notes": "Compras realizadas los lunes de mayo en PedidosYa Market con tarjeta Prex Mastercard Uruguay: 15% base, hasta 20% con PedidosYa Plus. Descuento visible en checkout y aplicado cuando se realiza la compra."
-    },
-    {
       "merchant": "HolaSIM",
       "category": "viajes",
       "percent": 20,
@@ -35,19 +11,6 @@
         "online"
       ],
       "notes": "Accediendo desde la web promocional de HolaSIM para clientes Prex. La promo también ofrece una eSIM de cortesía como alternativa excluyente"
-    },
-    {
-      "merchant": "PAX Assistance",
-      "category": "viajes",
-      "percent": 50,
-      "networks": [
-        "mastercard"
-      ],
-      "validUntil": "2026-05-31",
-      "channels": [
-        "online"
-      ],
-      "notes": "Compras con Tarjeta Prex Mastercard Uruguay en la web exclusiva Prex + PAX. Descuento visible en checkout; válido hasta agotar presupuesto asignado"
     },
     {
       "merchant": "Restaurantes Uruguay",

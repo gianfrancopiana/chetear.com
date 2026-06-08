@@ -645,54 +645,6 @@
       "notes": "15% en punto de venta + 15% en estado de cuenta"
     },
     {
-      "merchant": "Fahoma",
-      "category": "indumentaria",
-      "percent": 20,
-      "tiers": [
-        "todas"
-      ],
-      "validUntil": "2026-05-31",
-      "excludedApps": [
-        "mercado-pago",
-        "mercado-libre",
-        "handy"
-      ],
-      "refundType": "split",
-      "channels": [
-        "in-store"
-      ],
-      "cap": "tope en punto de venta y tope $2000 por cierre",
-      "cardFamilies": [
-        "Pymes",
-        "Corporativas",
-        "Internacional",
-        "Oro"
-      ],
-      "notes": "Compras en local. 10% en punto de venta + 10% en estado de cuenta"
-    },
-    {
-      "merchant": "Fahoma",
-      "category": "indumentaria",
-      "percent": 30,
-      "tiers": [
-        "platinum",
-        "black",
-        "infinite"
-      ],
-      "validUntil": "2026-05-31",
-      "excludedApps": [
-        "mercado-pago",
-        "mercado-libre",
-        "handy"
-      ],
-      "refundType": "split",
-      "channels": [
-        "in-store"
-      ],
-      "cap": "tope en punto de venta y tope $3000 por cierre",
-      "notes": "Compras en local. 15% en punto de venta + 15% en estado de cuenta"
-    },
-    {
       "merchant": "Tienda Oficial Club Nacional de Football",
       "category": "indumentaria",
       "percent": 10,

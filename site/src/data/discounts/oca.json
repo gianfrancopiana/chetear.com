@@ -153,26 +153,6 @@
       "id": "oca-tata-general-20"
     },
     {
-      "merchant": "Juan Construye",
-      "category": "hogar",
-      "percent": 30,
-      "tiers": [
-        "todas"
-      ],
-      "validUntil": "2026-05-31",
-      "refundType": "point-of-sale",
-      "channels": [
-        "in-store",
-        "online"
-      ],
-      "networks": [
-        "visa",
-        "mastercard",
-        "oca"
-      ],
-      "notes": "Tarjetas de credito Mastercard y Visa de OCA y web. 12 cuotas sin recargo exclusivas para Mastercard de OCA"
-    },
-    {
       "merchant": "Gelatería del Club",
       "category": "restaurante",
       "percent": 20,
@@ -612,29 +592,6 @@
         "oca"
       ],
       "notes": "Productos seleccionados identificados en web, Megalockers y WhatsApp. El comercio puede modificar los productos seleccionados sin previo aviso"
-    },
-    {
-      "merchant": "Tiendas de tu ciudad",
-      "category": "otros",
-      "percent": 20,
-      "tiers": [
-        "todas"
-      ],
-      "days": [
-        "viernes"
-      ],
-      "validUntil": "2026-05-31",
-      "excludedApps": [
-        "mercado-pago"
-      ],
-      "stackable": false,
-      "cap": "Tope $4.500 por cuenta por mes para comercios participantes; tope extra App OCA $500",
-      "networks": [
-        "visa",
-        "mastercard",
-        "oca"
-      ],
-      "notes": "Tarjetas de crédito OCA Mastercard y Visa en comercios participantes. 20% los viernes, 12 cuotas y 5% extra pagando con App OCA"
     }
   ]
 }

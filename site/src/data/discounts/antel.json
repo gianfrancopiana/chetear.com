@@ -3,13 +3,6 @@
   "label": "Antel",
   "rules": [
     {
-      "merchant": "Grido",
-      "category": "restaurante",
-      "percent": 18,
-      "validUntil": "2026-05-31",
-      "notes": "Comprando dos productos envasados en franquicias adheridas. No incluye línea familiar. Código desde MiAntel o *789*3#"
-    },
-    {
       "merchant": "Salados",
       "category": "educacion",
       "percent": 30,

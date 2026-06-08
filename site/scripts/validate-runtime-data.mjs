@@ -390,6 +390,9 @@ function findDuplicates(values) {
 const ISO_DATE_PATTERN = /^(\d{4})-(\d{2})-(\d{2})$/;
 const LOCAL_DATE_PATTERN = /^(\d{2})\/(\d{2})\/(\d{2}|\d{4})$/;
 const DAYS_IN_MONTH = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+// Validation is intentionally date-aware: expired rules are hidden by runtime, but
+// keeping them checked in lets stale discounts silently survive daily syncs.
+const TODAY_ISO = process.env.CHETEAR_VALIDATION_TODAY || new Date().toISOString().slice(0, 10);
 
 function isLeapYear(year) {
   return year % 4 === 0 && (year % 100 !== 0 || year % 400 === 0);
@@ -653,6 +656,24 @@ function getNoteHygieneErrors(relativePath, rules) {
   return errors;
 }
 
+function getValidUntilErrors(relativePath, rules) {
+  const errors = [];
+  rules.forEach((rule, index) => {
+    if (!rule.validUntil) return;
+    const displayName = ruleDisplayName(rule, index);
+    if (!isValidIsoDate(rule.validUntil)) {
+      errors.push(`${relativePath}: rule ${displayName} has invalid validUntil: ${rule.validUntil}`);
+      return;
+    }
+    if (rule.validUntil < TODAY_ISO) {
+      errors.push(
+        `${relativePath}: rule ${displayName} has expired validUntil ${rule.validUntil} before ${TODAY_ISO}; remove/update the stale rule, or omit validUntil only when a current source-visible stale-date override is documented`
+      );
+    }
+  });
+  return errors;
+}
+
 function getBenefitTypeErrors(relativePath, rules) {
   const errors = [];
   rules.forEach((rule, index) => {
@@ -730,12 +751,7 @@ function analyzeDiscountFile(filePath, raw) {
     filenameError,
     labelError: getProviderLabelError(filePath, payload.provider, payload.label),
     duplicateRuleIds: findDuplicates(ruleIds),
-    validUntilErrors: payload.rules
-      .filter((rule) => rule.validUntil && !isValidIsoDate(rule.validUntil))
-      .map(
-        (rule) =>
-          `${relativePath}: rule ${rule.id || rule.merchant} has invalid validUntil: ${rule.validUntil}`
-      ),
+    validUntilErrors: getValidUntilErrors(relativePath, payload.rules),
     benefitTypeErrors: getBenefitTypeErrors(relativePath, payload.rules),
     cardFamilyErrors: getCardFamilyErrors(relativePath, payload.provider, payload.rules),
     noteHygieneErrors: getNoteHygieneErrors(relativePath, payload.rules),

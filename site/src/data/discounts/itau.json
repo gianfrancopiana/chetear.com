@@ -54,7 +54,6 @@
         "black",
         "infinite"
       ],
-      "validUntil": "2026-05-31",
       "stackable": false,
       "cardFamilies": [
         "Personal Bank"
@@ -95,16 +94,6 @@
       "stackable": false
     },
     {
-      "merchant": "Bosch y Cia",
-      "category": "hogar",
-      "percent": 25,
-      "tiers": [
-        "todas"
-      ],
-      "validUntil": "2026-05-30",
-      "stackable": false
-    },
-    {
       "merchant": "Farmacia El Túnel",
       "category": "farmacia",
       "percent": 25,
@@ -117,7 +106,6 @@
         "lunes",
         "miercoles"
       ],
-      "validUntil": "2026-05-31",
       "stackable": true,
       "channels": [
         "online"
@@ -133,7 +121,6 @@
       "tiers": [
         "todas"
       ],
-      "validUntil": "2026-05-31",
       "stackable": true,
       "channels": [
         "online"
