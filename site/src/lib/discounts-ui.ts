@@ -122,11 +122,21 @@ function merchantListBranchKey(rule: DiscountItem): string | null {
 }
 
 function merchantListDisplayMerchant(rule: DiscountItem): string {
+  const merchant = rule.merchant.trim();
   const parent = rule.parentMerchant?.trim();
-  if (parent && parent.toLocaleLowerCase("es-UY") !== rule.categoryLabel.toLocaleLowerCase("es-UY")) {
-    return parent;
-  }
-  return rule.merchant.trim();
+  if (!parent) return merchant;
+  // Use the parent as the row name only for a true chain — branches actually
+  // named after the brand, exactly "Farmashop" or "Farmashop 1" under parent
+  // "Farmashop". A generic program of distinct businesses ("Restaurantes" →
+  // Bruta, Facal, …) fails the chain test, so each keeps its own name and they
+  // stay separate rows. The word boundary stops a short brand from swallowing
+  // an unrelated business (parent "Cat" must not match "Caterpillar"). A parent
+  // equal to the category label ("Moda") is never treated as a brand.
+  const parentLc = parent.toLocaleLowerCase("es-UY");
+  const merchantLc = merchant.toLocaleLowerCase("es-UY");
+  const isCategoryName = parentLc === rule.categoryLabel.toLocaleLowerCase("es-UY");
+  const isChainBranch = merchantLc === parentLc || merchantLc.startsWith(`${parentLc} `);
+  return !isCategoryName && isChainBranch ? parent : merchant;
 }
 
 function merchantListGroupKey(rule: DiscountItem): string | null {
