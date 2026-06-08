@@ -101,10 +101,10 @@ placed the same day it appears.
 - Procedure detail: `skills/merchant-directory-sync/SKILL.md` → "Geocoding for the map view"
 
 ### Required behavior
-1. **Build the full unplaced queue.** Process both:
+1. **Build the full unplaced queue before declaring no-op.** Process both:
    - merchant-list merchants in `site/src/data/merchant-directories/*.json` without `geo`
    - direct discount rules in `site/src/data/discounts/*.json` without `geo` when the `merchant` names a specific physical commerce
-   Do **not** limit the pass to merchant directories. Broad/category rules (`Farmacias`, `Restaurantes`, `Comercios Uruguay`) and online-only/app-only services are still inspected but may remain without `geo` when there is no single clear place.
+   Do **not** limit the pass to merchant directories, and do **not** skip a direct rule just because the provider discount sync wrote it outside `merchant-directories`. Broad/category rules (`Farmacias`, `Restaurantes`, `Comercios Uruguay`) and online-only/app-only services are still inspected but may remain without `geo` when there is no single clear place.
 2. **Incremental, once per merchant/rule.** An entry that's already placed is never re-resolved, so a normal day with no new unplaced entries does no browser work at all. (A deliberate re-check of a single entry is a manual exception, not the daily path.)
 3. **Resolve in the browser.** For each unplaced entry, open its Google Maps search link — `https://www.google.com/maps/search/?api=1&query=<name + location>` — and look at what the results resolve to, exactly as a person would. For direct discount rules with no useful `location`, start with `<merchant>, Uruguay`; if the result exposes a specific address/locality, store that as `location` alongside the pin.
 4. **Use judgment.** If the results land on a single clear place, read its coordinates (from the resolved `…/place/…/@lat,lng…` URL) and capture that canonical place URL. If the name is ambiguous or the results show several unrelated places, do **not** guess — leave the entry without `geo`.

@@ -30,16 +30,40 @@
         "tiersIncludes": [
           "todas"
         ]
+      },
+      {
+        "id": "santander-farmashop-farmacard-25",
+        "merchant": "Farmashop",
+        "category": "farmacia",
+        "percent": 25,
+        "cardFamiliesIncludes": [
+          "Farmacard"
+        ]
+      },
+      {
+        "id": "santander-farmashop-general-15",
+        "merchant": "Farmashop",
+        "category": "farmacia",
+        "percent": 15
+      },
+      {
+        "id": "santander-farmashop-farmacard-10",
+        "merchant": "Farmashop",
+        "category": "farmacia",
+        "percent": 10,
+        "cardFamiliesIncludes": [
+          "Farmacard"
+        ]
       }
     ],
     "mustHaveLinkedMerchantLists": [
       {
         "id": "santander-moda-general-directory",
         "ruleId": "santander-moda-general-15",
-        "minMerchants": 80,
-        "maxMerchants": 90,
+        "minMerchants": 200,
+        "maxMerchants": 260,
         "mustContainMerchants": [
-          "Optica Estela Jinchuk",
+          "Óptica Estela Jinchuk",
           "Mónaco Calzados",
           "The North Face"
         ],
@@ -47,6 +71,36 @@
           "Under Armour",
           "Nike",
           "Sportline"
+        ]
+      },
+      {
+        "id": "santander-farmashop-directory",
+        "ruleId": "santander-farmashop-farmacard-25",
+        "minMerchants": 150,
+        "maxMerchants": 170,
+        "mustContainMerchants": [
+          "Farmashop 1",
+          "Farmashop 159"
+        ]
+      },
+      {
+        "id": "santander-farmashop-directory",
+        "ruleId": "santander-farmashop-general-15",
+        "minMerchants": 150,
+        "maxMerchants": 170,
+        "mustContainMerchants": [
+          "Farmashop 1",
+          "Farmashop 159"
+        ]
+      },
+      {
+        "id": "santander-farmashop-directory",
+        "ruleId": "santander-farmashop-farmacard-10",
+        "minMerchants": 150,
+        "maxMerchants": 170,
+        "mustContainMerchants": [
+          "Farmashop 1",
+          "Farmashop 159"
         ]
       }
     ]

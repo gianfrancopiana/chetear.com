@@ -3976,6 +3976,1590 @@
           "mapsUrl": "https://www.google.com/maps/dir//-34.923935,-56.1584806"
         }
       ]
+    },
+    {
+      "id": "santander-farmashop-directory",
+      "ruleIds": [
+        "santander-farmashop-farmacard-25",
+        "santander-farmashop-general-15",
+        "santander-farmashop-farmacard-10"
+      ],
+      "sourceUrls": [
+        "https://tienda.farmashop.com.uy/sucursales",
+        "https://docs.google.com/spreadsheets/d/1QqsNwxBCQYtLfi4MJmbohhWVPXbQu2tcxXKxe9DZreU/gviz/tq?tqx=out:csv&sheet=Sucursales"
+      ],
+      "merchants": [
+        {
+          "name": "Farmashop 1",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Cno. Ariel 4626, Montevideo",
+          "geo": {
+            "lat": -34.836,
+            "lng": -56.2114
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.836,-56.2114"
+        },
+        {
+          "name": "Farmashop 2",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Ruta 8 km. 30.500, Pando, Canelones",
+          "geo": {
+            "lat": -34.7262,
+            "lng": -55.9643
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.7262,-55.9643"
+        },
+        {
+          "name": "Farmashop 3",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Av. Gral. Rivera 2755, Montevideo",
+          "geo": {
+            "lat": -34.9028,
+            "lng": -56.1551
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.9028,-56.1551"
+        },
+        {
+          "name": "Farmashop 4",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Av. Francisco Piria Esq. Bs. As., Piriápolis, Maldonado",
+          "geo": {
+            "lat": -34.8652,
+            "lng": -55.2694
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.8652,-55.2694"
+        },
+        {
+          "name": "Farmashop 5",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Avda. Agraciada 3655, Montevideo",
+          "geo": {
+            "lat": -34.865,
+            "lng": -56.2099
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.865,-56.2099"
+        },
+        {
+          "name": "Farmashop 6",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Av. Italia 6958, Montevideo",
+          "geo": {
+            "lat": -34.8778,
+            "lng": -56.0573
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.8778,-56.0573"
+        },
+        {
+          "name": "Farmashop 7",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Av. Roosevelt y P. 10, Punta del Este, Maldonado",
+          "geo": {
+            "lat": -34.9335,
+            "lng": -54.9394
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.9335,-54.9394"
+        },
+        {
+          "name": "Farmashop 8",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Manuel Vicente Pagola 3205, Montevideo",
+          "geo": {
+            "lat": -34.9079,
+            "lng": -56.1463
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.9079,-56.1463"
+        },
+        {
+          "name": "Farmashop 9",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Av. Joaquín Suarez 3458, Montevideo",
+          "geo": {
+            "lat": -34.8644,
+            "lng": -56.1955
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.8644,-56.1955"
+        },
+        {
+          "name": "Farmashop 10",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Av. Gral. San Martín 3083, Montevideo",
+          "geo": {
+            "lat": -34.8697,
+            "lng": -56.1819
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.8697,-56.1819"
+        },
+        {
+          "name": "Farmashop 11",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Av. Luis A. de Herrera 2368, Montevideo",
+          "geo": {
+            "lat": -34.8851,
+            "lng": -56.15
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.8851,-56.15"
+        },
+        {
+          "name": "Farmashop 12",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Juan Benito Blanco 1098, Montevideo",
+          "geo": {
+            "lat": -34.912,
+            "lng": -56.147
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.912,-56.147"
+        },
+        {
+          "name": "Farmashop 13",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Dr. José Scosería 2614, Montevideo",
+          "geo": {
+            "lat": -34.9152,
+            "lng": -56.155
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.9152,-56.155"
+        },
+        {
+          "name": "Farmashop 14",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Av. Enrique Legrand 5085, Montevideo",
+          "geo": {
+            "lat": -34.8896,
+            "lng": -56.0988
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.8896,-56.0988"
+        },
+        {
+          "name": "Farmashop 15",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "21 de Setiembre 2867, Montevideo",
+          "geo": {
+            "lat": -34.9189,
+            "lng": -56.1555
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.9189,-56.1555"
+        },
+        {
+          "name": "Farmashop 16",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Av. Alfredo Arocena 1657, Montevideo",
+          "geo": {
+            "lat": -34.8873,
+            "lng": -56.0584
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.8873,-56.0584"
+        },
+        {
+          "name": "Farmashop 17",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Av. Roosevelt esq Z.Michelini, Punta del Este, Maldonado",
+          "geo": {
+            "lat": -34.9141,
+            "lng": -54.9606
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.9141,-54.9606"
+        },
+        {
+          "name": "Farmashop 18",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Av. Brasil 2851, Montevideo",
+          "geo": {
+            "lat": -34.9099,
+            "lng": -56.1526
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.9099,-56.1526"
+        },
+        {
+          "name": "Farmashop 19",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Almería 4701/002, Montevideo",
+          "geo": {
+            "lat": -34.8945,
+            "lng": -56.1077
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.8945,-56.1077"
+        },
+        {
+          "name": "Farmashop 20",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Av. Italia 2490, Montevideo",
+          "geo": {
+            "lat": -34.8937,
+            "lng": -56.1616
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.8937,-56.1616"
+        },
+        {
+          "name": "Farmashop 21",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Colonia 903, Montevideo",
+          "geo": {
+            "lat": -34.9053,
+            "lng": -56.197
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.9053,-56.197"
+        },
+        {
+          "name": "Farmashop 22",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Luis Franzini 806, Montevideo",
+          "geo": {
+            "lat": -34.9162,
+            "lng": -56.1585
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.9162,-56.1585"
+        },
+        {
+          "name": "Farmashop 23",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Av. Agraciada 4269, Montevideo",
+          "geo": {
+            "lat": -34.8558,
+            "lng": -56.221
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.8558,-56.221"
+        },
+        {
+          "name": "Farmashop 24",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "21 de Setiembre 2453, Montevideo",
+          "geo": {
+            "lat": -34.9134,
+            "lng": -56.162
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.9134,-56.162"
+        },
+        {
+          "name": "Farmashop 25",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Av. Gral Rivera 4241, Montevideo",
+          "geo": {
+            "lat": -34.8959,
+            "lng": -56.1221
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.8959,-56.1221"
+        },
+        {
+          "name": "Farmashop 26",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Bvar. España 2856, Montevideo",
+          "geo": {
+            "lat": -34.9145,
+            "lng": -56.152
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.9145,-56.152"
+        },
+        {
+          "name": "Farmashop 27",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Av. Gral. E. Garzón 1925, Montevideo",
+          "geo": {
+            "lat": -34.8067,
+            "lng": -56.2221
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.8067,-56.2221"
+        },
+        {
+          "name": "Farmashop 28",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Av. 8 de Octubre 3268, Montevideo",
+          "geo": {
+            "lat": -34.8807,
+            "lng": -56.1501
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.8807,-56.1501"
+        },
+        {
+          "name": "Farmashop 29",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Av. 8 de Octubre 3749, Montevideo",
+          "geo": {
+            "lat": -34.8756,
+            "lng": -56.142
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.8756,-56.142"
+        },
+        {
+          "name": "Farmashop 30",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Av. Rivera 609, Las piedras, Canelones",
+          "geo": {
+            "lat": -34.7272,
+            "lng": -56.2159
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.7272,-56.2159"
+        },
+        {
+          "name": "Farmashop 31",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Av. Artigas 539, Las piedras, Canelones",
+          "geo": {
+            "lat": -34.7268,
+            "lng": -56.2143
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.7268,-56.2143"
+        },
+        {
+          "name": "Farmashop 32",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Cno. Carrasco 4471, Montevideo",
+          "geo": {
+            "lat": -34.8722,
+            "lng": -56.1222
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.8722,-56.1222"
+        },
+        {
+          "name": "Farmashop 33",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Av. 18 de Julio 1487, Montevideo",
+          "geo": {
+            "lat": -34.9045,
+            "lng": -56.1832
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.9045,-56.1832"
+        },
+        {
+          "name": "Farmashop 34",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Av. 8 de Octubre 4002, Montevideo",
+          "geo": {
+            "lat": -34.8721,
+            "lng": -56.1356
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.8721,-56.1356"
+        },
+        {
+          "name": "Farmashop 35",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Av. Gral. José G. Artigas 1068, Pando, Canelones",
+          "geo": {
+            "lat": -34.7244,
+            "lng": -55.9588
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.7244,-55.9588"
+        },
+        {
+          "name": "Farmashop 36",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Av. Gral. San Martín 3402, Montevideo",
+          "geo": {
+            "lat": -34.8631,
+            "lng": -56.179
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.8631,-56.179"
+        },
+        {
+          "name": "Farmashop 37",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Av. 8 de Octubre 3439, Montevideo",
+          "geo": {
+            "lat": -34.8787,
+            "lng": -56.1473
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.8787,-56.1473"
+        },
+        {
+          "name": "Farmashop 38",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Av. Sarmiento 2445, Montevideo",
+          "geo": {
+            "lat": -34.9144,
+            "lng": -56.1604
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.9144,-56.1604"
+        },
+        {
+          "name": "Farmashop 39",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Av. Brasil 2703, Montevideo",
+          "geo": {
+            "lat": -34.9084,
+            "lng": -56.1553
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.9084,-56.1553"
+        },
+        {
+          "name": "Farmashop 40",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Gabriel Pereira 3209, Montevideo",
+          "geo": {
+            "lat": -34.91,
+            "lng": -56.1471
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.91,-56.1471"
+        },
+        {
+          "name": "Farmashop 41",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "25 de mayo 0293, Tacuarembó",
+          "geo": {
+            "lat": -31.7142,
+            "lng": -55.983
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-31.7142,-55.983"
+        },
+        {
+          "name": "Farmashop 42",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Av. Ing. Luis P. Ponce 1503, Montevideo",
+          "geo": {
+            "lat": -34.9003,
+            "lng": -56.1596
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.9003,-56.1596"
+        },
+        {
+          "name": "Farmashop 43",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Av. 18 de Julio 1331, Montevideo",
+          "geo": {
+            "lat": -34.9056,
+            "lng": -56.1873
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.9056,-56.1873"
+        },
+        {
+          "name": "Farmashop 44",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Av. Gral. Flores 3315, Montevideo",
+          "geo": {
+            "lat": -34.8675,
+            "lng": -56.1724
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.8675,-56.1724"
+        },
+        {
+          "name": "Farmashop 45",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Av. Del Parque 77, Ciudad de la costa, Canelones",
+          "geo": {
+            "lat": -34.8685,
+            "lng": -56.0211
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.8685,-56.0211"
+        },
+        {
+          "name": "Farmashop 46",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Presidente Berro 530, Trinidad, Flores",
+          "geo": {
+            "lat": -33.5187,
+            "lng": -56.8971
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.5187,-56.8971"
+        },
+        {
+          "name": "Farmashop 47",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Av. Italia 3428, Montevideo",
+          "geo": {
+            "lat": -34.8872,
+            "lng": -56.1409
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.8872,-56.1409"
+        },
+        {
+          "name": "Farmashop 48",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "E. Lopez 4856 local 002, Montevideo",
+          "geo": {
+            "lat": -34.8881,
+            "lng": -56.1037
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.8881,-56.1037"
+        },
+        {
+          "name": "Farmashop 49",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Av. de las Americas 6000, Barra de Carrasco, Ciudad de la costa, Canelones",
+          "geo": {
+            "lat": -34.8698,
+            "lng": -56.0312
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.8698,-56.0312"
+        },
+        {
+          "name": "Farmashop 50",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Bvar. España 2167, Montevideo",
+          "geo": {
+            "lat": -34.9088,
+            "lng": -56.1688
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.9088,-56.1688"
+        },
+        {
+          "name": "Farmashop 51",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Orinoco 4993, Montevideo",
+          "geo": {
+            "lat": -34.8957,
+            "lng": -56.1012
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.8957,-56.1012"
+        },
+        {
+          "name": "Farmashop 52",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "20 de Setiembre 1525, Montevideo",
+          "geo": {
+            "lat": -34.9002,
+            "lng": -56.1627
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.9002,-56.1627"
+        },
+        {
+          "name": "Farmashop 53",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Av. Italia 4280, Montevideo",
+          "geo": {
+            "lat": -34.8876,
+            "lng": -56.1176
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.8876,-56.1176"
+        },
+        {
+          "name": "Farmashop 54",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Av. Giannattasio Km. 22800, Ciudad de la Costa, San jose de carrasco, Canelones",
+          "geo": {
+            "lat": -34.83,
+            "lng": -55.9721
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.83,-55.9721"
+        },
+        {
+          "name": "Farmashop 55",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Av. 18 de Julio 1999, Montevideo",
+          "geo": {
+            "lat": -34.9006,
+            "lng": -56.1729
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.9006,-56.1729"
+        },
+        {
+          "name": "Farmashop 56",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Fco. Joaquín Muñoz 2951, Montevideo",
+          "geo": {
+            "lat": -34.9068,
+            "lng": -56.1501
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.9068,-56.1501"
+        },
+        {
+          "name": "Farmashop 57",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Av. Gral. Rivera 3500, Montevideo",
+          "geo": {
+            "lat": -34.9013,
+            "lng": -56.1386
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.9013,-56.1386"
+        },
+        {
+          "name": "Farmashop 58",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Av. Italia 3813, Montevideo",
+          "geo": {
+            "lat": -34.8865,
+            "lng": -56.1298
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.8865,-56.1298"
+        },
+        {
+          "name": "Farmashop 59",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Av. Italia 3949, Montevideo",
+          "geo": {
+            "lat": -34.8866,
+            "lng": -56.1263
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.8866,-56.1263"
+        },
+        {
+          "name": "Farmashop 60",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Av. Brasil 2500, Montevideo",
+          "geo": {
+            "lat": -34.9072,
+            "lng": -56.16
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.9072,-56.16"
+        },
+        {
+          "name": "Farmashop 61",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Av. Agraciada 4104, Montevideo",
+          "geo": {
+            "lat": -34.8582,
+            "lng": -56.2176
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.8582,-56.2176"
+        },
+        {
+          "name": "Farmashop 62",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Bvar. Artigas 1481, Montevideo",
+          "geo": {
+            "lat": -34.9014,
+            "lng": -56.1645
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.9014,-56.1645"
+        },
+        {
+          "name": "Farmashop 63",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Gral. José G. Artigas 561, San josé de mayo",
+          "geo": {
+            "lat": -34.3394,
+            "lng": -56.7146
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.3394,-56.7146"
+        },
+        {
+          "name": "Farmashop 64",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Sarandí 502, Montevideo",
+          "geo": {
+            "lat": -34.9076,
+            "lng": -56.2048
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.9076,-56.2048"
+        },
+        {
+          "name": "Farmashop 65",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Av. Ceberio 581, San carlos, Maldonado",
+          "geo": {
+            "lat": -34.7958,
+            "lng": -54.922
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.7958,-54.922"
+        },
+        {
+          "name": "Farmashop 66",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Manuel Meléndez 1135, Treinta y tres",
+          "geo": {
+            "lat": -33.23,
+            "lng": -54.3842
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.23,-54.3842"
+        },
+        {
+          "name": "Farmashop 67",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "18 de julio 1011, San carlos, Maldonado",
+          "geo": {
+            "lat": -34.7927,
+            "lng": -54.9205
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.7927,-54.9205"
+        },
+        {
+          "name": "Farmashop 68",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Av. Italia 2863, Montevideo",
+          "geo": {
+            "lat": -34.8902,
+            "lng": -56.1527
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.8902,-56.1527"
+        },
+        {
+          "name": "Farmashop 69",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Av. Luis Batlle Berres 6149, Montevideo",
+          "geo": {
+            "lat": -34.839,
+            "lng": -56.2623
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.839,-56.2623"
+        },
+        {
+          "name": "Farmashop 70",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Uruguayana 3501, Montevideo",
+          "geo": {
+            "lat": -34.8699,
+            "lng": -56.2096
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.8699,-56.2096"
+        },
+        {
+          "name": "Farmashop 71",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Av. Eduardo Víctor Haedo 20001, La Barra, Maldonado",
+          "geo": {
+            "lat": -34.9152,
+            "lng": -54.8559
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.9152,-54.8559"
+        },
+        {
+          "name": "Farmashop 72",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Cno. Ariel 4931, Montevideo",
+          "geo": {
+            "lat": -34.8329,
+            "lng": -56.2175
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.8329,-56.2175"
+        },
+        {
+          "name": "Farmashop 73",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Av. Gral. José Ma. Paz 1447, Montevideo",
+          "geo": {
+            "lat": -34.8925,
+            "lng": -56.0797
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.8925,-56.0797"
+        },
+        {
+          "name": "Farmashop 74",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Av. Giannattasio Km. 21800, Ciudad de la costa, Canelones",
+          "geo": {
+            "lat": -34.8343,
+            "lng": -55.9801
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.8343,-55.9801"
+        },
+        {
+          "name": "Farmashop 75",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Av. Juan Gorlero 993, Punta del este, Maldonado",
+          "geo": {
+            "lat": -34.9593,
+            "lng": -54.9404
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.9593,-54.9404"
+        },
+        {
+          "name": "Farmashop 76",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Av. Juan Gorlero s/n padrón 140 (local 004), Punta del este, Maldonado",
+          "geo": {
+            "lat": -34.9624,
+            "lng": -54.9433
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.9624,-54.9433"
+        },
+        {
+          "name": "Farmashop 77",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Av. A. Arocena 1980 bis, Montevideo",
+          "geo": {
+            "lat": -34.8811,
+            "lng": -56.0612
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.8811,-56.0612"
+        },
+        {
+          "name": "Farmashop 78",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Av. Dr. Juan B. Alberdi 6502, Montevideo",
+          "geo": {
+            "lat": -34.8803,
+            "lng": -56.0666
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.8803,-56.0666"
+        },
+        {
+          "name": "Farmashop 79",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Aparicio Saravia 649, Melo, Cerro Largo",
+          "geo": {
+            "lat": -32.3706,
+            "lng": -54.1687
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.3706,-54.1687"
+        },
+        {
+          "name": "Farmashop 80",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Oribe 898, Melo, Cerro Largo",
+          "geo": {
+            "lat": -32.3763,
+            "lng": -54.1652
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.3763,-54.1652"
+        },
+        {
+          "name": "Farmashop 81",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Florencio Sánchez 898, Melo, Cerro Largo",
+          "geo": {
+            "lat": -32.3692,
+            "lng": -54.1645
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.3692,-54.1645"
+        },
+        {
+          "name": "Farmashop 82",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "18 de Julio 1405, Paysandu, Paysandú",
+          "geo": {
+            "lat": -32.3178,
+            "lng": -58.0769
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.3178,-58.0769"
+        },
+        {
+          "name": "Farmashop 83",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "18 de Julio 1119, Paysandu, Paysandú",
+          "geo": {
+            "lat": -32.317,
+            "lng": -58.0834
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.317,-58.0834"
+        },
+        {
+          "name": "Farmashop 84",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Av. Cnel. Carlos Lecueder 250, Artigas",
+          "geo": {
+            "lat": -30.3996,
+            "lng": -56.4644
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-30.3996,-56.4644"
+        },
+        {
+          "name": "Farmashop 85",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Gral. Flores 450, Colonia del sacramento",
+          "geo": {
+            "lat": -34.4705,
+            "lng": -57.8451
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.4705,-57.8451"
+        },
+        {
+          "name": "Farmashop 86",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "18 de julio 1680, Young, Río Negro",
+          "geo": {
+            "lat": -32.7031,
+            "lng": -57.6316
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.7031,-57.6316"
+        },
+        {
+          "name": "Farmashop 87",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "18 de julio 1953, Young, Río Negro",
+          "geo": {
+            "lat": -32.6988,
+            "lng": -57.6249
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.6988,-57.6249"
+        },
+        {
+          "name": "Farmashop 88",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Av. Camacho esq. Av. Roosevelt, Punta del este, Maldonado",
+          "geo": {
+            "lat": -34.9161,
+            "lng": -54.96
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.9161,-54.96"
+        },
+        {
+          "name": "Farmashop 89",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Av. Carlos Ma. Ramírez 802, Montevideo",
+          "geo": {
+            "lat": -34.8647,
+            "lng": -56.234
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.8647,-56.234"
+        },
+        {
+          "name": "Farmashop 90",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Av. Luis A. de Herrera 3365, Montevideo",
+          "geo": {
+            "lat": -34.8694,
+            "lng": -56.1692
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.8694,-56.1692"
+        },
+        {
+          "name": "Farmashop 91",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "José E. Rodó 550, Mercedes, Soriano",
+          "geo": {
+            "lat": -33.2512,
+            "lng": -58.0335
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.2512,-58.0335"
+        },
+        {
+          "name": "Farmashop 92",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Gral. José Artigas 289, Mercedes, Soriano",
+          "geo": {
+            "lat": -33.2492,
+            "lng": -58.0294
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.2492,-58.0294"
+        },
+        {
+          "name": "Farmashop 93",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Av. Dr. Enrique Pouey 607, Las piedras, Canelones",
+          "geo": {
+            "lat": -34.7274,
+            "lng": -56.2237
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.7274,-56.2237"
+        },
+        {
+          "name": "Farmashop 94",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Calle 11 Esq. Ciudad de Montevideo, Atlántida, Canelones",
+          "geo": {
+            "lat": -34.7739,
+            "lng": -55.7615
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.7739,-55.7615"
+        },
+        {
+          "name": "Farmashop 95",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Brig. Gral. Manuel Oribe 751, Durazno",
+          "geo": {
+            "lat": -33.3805,
+            "lng": -56.5231
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.3805,-56.5231"
+        },
+        {
+          "name": "Farmashop 96",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Uruguay 697, Salto",
+          "geo": {
+            "lat": -31.3873,
+            "lng": -57.9668
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-31.3873,-57.9668"
+        },
+        {
+          "name": "Farmashop 97",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Sarandí 509, Rivera",
+          "geo": {
+            "lat": -30.8994,
+            "lng": -55.5393
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-30.8994,-55.5393"
+        },
+        {
+          "name": "Farmashop 98",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "José Batlle y Ordoñez 181, La paz, Canelones",
+          "geo": {
+            "lat": -34.7629,
+            "lng": -56.2246
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.7629,-56.2246"
+        },
+        {
+          "name": "Farmashop 99",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Juan D. Jackson 1200, Montevideo",
+          "geo": {
+            "lat": -34.9075,
+            "lng": -56.1731
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.9075,-56.1731"
+        },
+        {
+          "name": "Farmashop 100",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "19 de abril de 508, Carmelo, Colonia",
+          "geo": {
+            "lat": -33.9955,
+            "lng": -58.283
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.9955,-58.283"
+        },
+        {
+          "name": "Farmashop 101",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "19 de abril 946, Durazno",
+          "geo": {
+            "lat": -33.3758,
+            "lng": -56.5249
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.3758,-56.5249"
+        },
+        {
+          "name": "Farmashop 102",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "18 de Julio 372, Salto",
+          "geo": {
+            "lat": -31.3924,
+            "lng": -57.962
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-31.3924,-57.962"
+        },
+        {
+          "name": "Farmashop 103",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "José Pedro Varela 596, Colonia del sacramento",
+          "geo": {
+            "lat": -34.4629,
+            "lng": -57.8384
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.4629,-57.8384"
+        },
+        {
+          "name": "Farmashop 104",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Av. Luis A de Herrera 4111, Montevideo",
+          "geo": {
+            "lat": -34.8612,
+            "lng": -56.1865
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.8612,-56.1865"
+        },
+        {
+          "name": "Farmashop 105",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "25 de mayo 0582, Minas, Lavalleja",
+          "geo": {
+            "lat": -34.3765,
+            "lng": -55.2364
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.3765,-55.2364"
+        },
+        {
+          "name": "Farmashop 106",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "José Pedro Ramirez 200, Rocha",
+          "geo": {
+            "lat": -34.4839,
+            "lng": -54.3335
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.4839,-54.3335"
+        },
+        {
+          "name": "Farmashop 107",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Treinta y Tres 368 Esq. Tolentino Gonzalez, Canelones",
+          "geo": {
+            "lat": -34.523,
+            "lng": -56.281
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.523,-56.281"
+        },
+        {
+          "name": "Farmashop 108",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Colonia 1800, Montevideo",
+          "geo": {
+            "lat": -34.9016,
+            "lng": -56.1779
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.9016,-56.1779"
+        },
+        {
+          "name": "Farmashop 109",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "San Jose 1052, Montevideo",
+          "geo": {
+            "lat": -34.9071,
+            "lng": -56.1933
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.9071,-56.1933"
+        },
+        {
+          "name": "Farmashop 110",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Félix de Lizarza 678, Pan de azúcar, Maldonado",
+          "geo": {
+            "lat": -34.7767,
+            "lng": -55.2257
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.7767,-55.2257"
+        },
+        {
+          "name": "Farmashop 111",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "José Ellauri 411, Montevideo",
+          "geo": {
+            "lat": -34.9226,
+            "lng": -56.159
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.9226,-56.159"
+        },
+        {
+          "name": "Farmashop 112",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Av. Grito de Asencio 1751, Dolores, Soriano",
+          "geo": {
+            "lat": -33.5324,
+            "lng": -58.2159
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.5324,-58.2159"
+        },
+        {
+          "name": "Farmashop 113",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Lezica 6394, Montevideo",
+          "geo": {
+            "lat": -34.7953,
+            "lng": -56.249
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.7953,-56.249"
+        },
+        {
+          "name": "Farmashop 114",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Lezica 6326, Montevideo",
+          "geo": {
+            "lat": -34.7969,
+            "lng": -56.2472
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.7969,-56.2472"
+        },
+        {
+          "name": "Farmashop 115",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Veracierto 2563, Montevideo",
+          "geo": {
+            "lat": -34.8711,
+            "lng": -56.1177
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.8711,-56.1177"
+        },
+        {
+          "name": "Farmashop 116",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Av. Luis A. de Herrera Esq. G. Tell, Nueva helvecia, Colonia",
+          "geo": {
+            "lat": -34.2885,
+            "lng": -57.2329
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.2885,-57.2329"
+        },
+        {
+          "name": "Farmashop 117",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Avda. José Belloni 4371, Montevideo",
+          "geo": {
+            "lat": -34.8237,
+            "lng": -56.1409
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.8237,-56.1409"
+        },
+        {
+          "name": "Farmashop 118",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Uruguay Esq. Río Negro, San jose de carrasco, Canelones",
+          "geo": {
+            "lat": -34.801,
+            "lng": -55.92
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.801,-55.92"
+        },
+        {
+          "name": "Farmashop 119",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Carlos Maria Ramirez 1851, Montevideo",
+          "geo": {
+            "lat": -34.8747,
+            "lng": -56.2547
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.8747,-56.2547"
+        },
+        {
+          "name": "Farmashop 120",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Florida 784, Maldonado",
+          "geo": {
+            "lat": -34.9082,
+            "lng": -54.9586
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.9082,-54.9586"
+        },
+        {
+          "name": "Farmashop 121",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Av. Pedragosa Sierra Esq. Roosevelt,, Maldonado, Punta del este",
+          "geo": {
+            "lat": -34.9425,
+            "lng": -54.932
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.9425,-54.932"
+        },
+        {
+          "name": "Farmashop 122",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Av Leandro Goméz, Jardines de Mar y Sol local 03, Maldonado",
+          "geo": {
+            "lat": -34.9,
+            "lng": -54.9948
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.9,-54.9948"
+        },
+        {
+          "name": "Farmashop 123",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Ruta 39 y Av. Luis Alberto de Herrera - Paseo del Este local 17, Maldonado",
+          "geo": {
+            "lat": -34.8812,
+            "lng": -54.9538
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.8812,-54.9538"
+        },
+        {
+          "name": "Farmashop 124",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Ruta Interbalnearia Km. 118 estación Ancap Solanas, Punta ballena, Maldonado",
+          "geo": {
+            "lat": -34.8786,
+            "lng": -55.0525
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.8786,-55.0525"
+        },
+        {
+          "name": "Farmashop 125",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Av. José Batlle y Ordoñez s/n esquina Ruta N° 21, Colonia del sacramento",
+          "geo": {
+            "lat": -34.454,
+            "lng": -57.8391
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.454,-57.8391"
+        },
+        {
+          "name": "Farmashop 126",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Pablo Ríos 149, Tacuarembó",
+          "geo": {
+            "lat": -31.7259,
+            "lng": -55.9725
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-31.7259,-55.9725"
+        },
+        {
+          "name": "Farmashop 127",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Wilson Ferreira Aldunate esq. José Enrique Rodó, Libertad, San José",
+          "geo": {
+            "lat": -34.6377,
+            "lng": -56.6206
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.6377,-56.6206"
+        },
+        {
+          "name": "Farmashop 128",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "18 de julio 1643, Fray Bentos, Río Negro",
+          "geo": {
+            "lat": -33.1219,
+            "lng": -58.3054
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.1219,-58.3054"
+        },
+        {
+          "name": "Farmashop 129",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Av. del Libertador 1953, Montevideo",
+          "geo": {
+            "lat": -34.8949,
+            "lng": -56.1892
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.8949,-56.1892"
+        },
+        {
+          "name": "Farmashop 130",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "18 de julio 850, Montevideo",
+          "geo": {
+            "lat": -34.9065,
+            "lng": -56.1984
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.9065,-56.1984"
+        },
+        {
+          "name": "Farmashop 131",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Av. Luis A. de Herrera 701, San José de Mayo",
+          "geo": {
+            "lat": -34.3433,
+            "lng": -56.7083
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.3433,-56.7083"
+        },
+        {
+          "name": "Farmashop 132",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Aparicio Saravia 4644, Montevideo",
+          "geo": {
+            "lat": -34.8265,
+            "lng": -56.2014
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.8265,-56.2014"
+        },
+        {
+          "name": "Farmashop 133",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Av. 18 de julio 1644, Montevideo",
+          "geo": {
+            "lat": -34.904,
+            "lng": -56.1808
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.904,-56.1808"
+        },
+        {
+          "name": "Farmashop 134",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "República Argentina 1678, Paysandú",
+          "geo": {
+            "lat": -32.319,
+            "lng": -58.0703
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.319,-58.0703"
+        },
+        {
+          "name": "Farmashop 135",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Wilson Ferreira Aldunate 7201, Paso Carrasco, Canelones",
+          "geo": {
+            "lat": -34.8581,
+            "lng": -56.0474
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.8581,-56.0474"
+        },
+        {
+          "name": "Farmashop 136",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "José Enrique Rodo 718, Mercedes, Soriano",
+          "geo": {
+            "lat": -33.2504,
+            "lng": -58.0324
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.2504,-58.0324"
+        },
+        {
+          "name": "Farmashop 137",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Luis Alberto de Herrera 2888, Montevideo",
+          "geo": {
+            "lat": -34.8764,
+            "lng": -56.157
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.8764,-56.157"
+        },
+        {
+          "name": "Farmashop 138",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Ruta 8 N7724 Cmo Maldonado, Montevideo",
+          "geo": {
+            "lat": -34.8017,
+            "lng": -56.0869
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.8017,-56.0869"
+        },
+        {
+          "name": "Farmashop 139",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "José Ellauri 350, Punta Carretas Shopping (nivel 2), Montevideo",
+          "geo": {
+            "lat": -34.9239,
+            "lng": -56.1588
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.9239,-56.1588"
+        },
+        {
+          "name": "Farmashop 140",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Gral. Leandro Gómez 521, Paso de los Toros, Tacuarembó",
+          "geo": {
+            "lat": -32.8123,
+            "lng": -56.5097
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.8123,-56.5097"
+        },
+        {
+          "name": "Farmashop 141",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Avenida 8 de Octubre 4714, Montevideo",
+          "geo": {
+            "lat": -34.8584,
+            "lng": -56.1334
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.8584,-56.1334"
+        },
+        {
+          "name": "Farmashop 142",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Av. Gral San Martin 2443, Montevideo",
+          "geo": {
+            "lat": -34.8813,
+            "lng": -56.1865
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.8813,-56.1865"
+        },
+        {
+          "name": "Farmashop 143",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Av. Gral. Rondeau 2113, Montevideo",
+          "geo": {
+            "lat": -34.891,
+            "lng": -56.1932
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.891,-56.1932"
+        },
+        {
+          "name": "Farmashop 144",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Av. Antonio Lussich y María Cepi, Maldonado",
+          "geo": {
+            "lat": -34.8882,
+            "lng": -54.979
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.8882,-54.979"
+        },
+        {
+          "name": "Farmashop 145",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Alberto Heber Usher S/N esquina 24 de Abril, Florida",
+          "geo": {
+            "lat": -34.0827,
+            "lng": -56.2253
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.0827,-56.2253"
+        },
+        {
+          "name": "Farmashop 146",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Independencia 764, Florida",
+          "geo": {
+            "lat": -34.0967,
+            "lng": -56.2174
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.0967,-56.2174"
+        },
+        {
+          "name": "Farmashop 147",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Av. Artigas 1079, Florida",
+          "geo": {
+            "lat": -34.0988,
+            "lng": -56.2306
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.0988,-56.2306"
+        },
+        {
+          "name": "Farmashop 148",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "18 de julio esq. Aparicio Saravia, Florida",
+          "geo": {
+            "lat": -34.098,
+            "lng": -56.2116
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.098,-56.2116"
+        },
+        {
+          "name": "Farmashop 149",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Sarandí 3359, Florida",
+          "geo": {
+            "lat": -34.0941,
+            "lng": -56.2205
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.0941,-56.2205"
+        },
+        {
+          "name": "Farmashop 151",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Manuel Albo 2750, Montevideo",
+          "geo": {
+            "lat": -34.89,
+            "lng": -56.1596
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.89,-56.1596"
+        },
+        {
+          "name": "Farmashop 152",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Virrey Arredondo 1105 Esq. Joaquin De Paz, Río Branco, Rio branco, Cerro Largo",
+          "geo": {
+            "lat": -32.5919,
+            "lng": -53.3817
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.5919,-53.3817"
+        },
+        {
+          "name": "Farmashop 153",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Av Lussich y Frienze, Maldonado",
+          "geo": {
+            "lat": -34.8976,
+            "lng": -54.9683
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.8976,-54.9683"
+        },
+        {
+          "name": "Farmashop 154",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Av. Jose Artigas km 28.500, Progreso, Canelones",
+          "geo": {
+            "lat": -34.6657,
+            "lng": -56.2194
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.6657,-56.2194"
+        },
+        {
+          "name": "Farmashop 156",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Av. Luis A. de Herrera, Esq Liber Seregni, Rocha",
+          "geo": {
+            "lat": -34.49,
+            "lng": -54.3242
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.49,-54.3242"
+        },
+        {
+          "name": "Farmashop 157",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "18 de Julio 795, Minas, Lavalleja",
+          "geo": {
+            "lat": -34.3747,
+            "lng": -55.24
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.3747,-55.24"
+        },
+        {
+          "name": "Farmashop 158",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Avenida Rio de la Plata Parada 5 ½ padrón 2521, Playa Pascual, San José",
+          "geo": {
+            "lat": -34.7461,
+            "lng": -56.4534
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.7461,-56.4534"
+        },
+        {
+          "name": "Farmashop 159",
+          "url": "https://tienda.farmashop.com.uy/sucursales",
+          "location": "Avenida Rio de la Plata Parada 2 padrón 2537, Playa Pascual, San José",
+          "geo": {
+            "lat": -34.7413,
+            "lng": -56.4499
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.7413,-56.4499"
+        }
+      ]
     }
   ]
 }

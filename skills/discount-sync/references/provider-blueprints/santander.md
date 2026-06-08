@@ -47,7 +47,7 @@ every sync run. This section only fixes which merchants/groups are in scope.
 - `Hipermás` supermarket group (`Disco`, `Devoto`, `Geant`, `Fresh Market`)
 - `Heladerías adheridas` — premium vs general split
 - `Restaurantes` / `Ruta Gourmet` — premium vs general split
-- `Farmashop` — day-specific tiers plus a separate Farmacard rule (emit each as a distinct runtime rule when the source clearly splits them)
+- `Farmashop` — day-specific tiers plus a separate Farmacard rule (emit each as a distinct runtime rule with stable ids `santander-farmashop-farmacard-25`, `santander-farmashop-general-15`, and `santander-farmashop-farmacard-10`; link them to `santander-farmashop-directory` so the map expands the chain into branch pins instead of a fake parent-chain pin)
 - `PedidosYa` — restaurants only, premium-credit tiers with day logic
 - `Moda` (broad category with first-party category grid; include only cards that explicitly show 15% discount, not points-only cards)
 - `Buquebus`
@@ -66,6 +66,6 @@ live in the section below.
 - Use provider identity `santander` / label `Santander`.
 - Preserve monthly caps and whether they are per merchant, per restaurant, or per period.
 - Preserve `Select` / premium vs general splits when the detail page distinguishes them.
-- Keep broad rules like `Ruta Gourmet`, `Hipermás`, `Moda`, or `Heladerías adheridas` broad in runtime; do not invent a merchant list inside `santander.json`. For `Moda`, the broad rule must keep id `santander-moda-general-15` so the runtime can expand the linked merchant directory.
+- Keep broad rules like `Ruta Gourmet`, `Hipermás`, `Moda`, or `Heladerías adheridas` broad in runtime; do not invent a merchant list inside `santander.json`. For `Moda`, the broad rule must keep id `santander-moda-general-15` so the runtime can expand the linked merchant directory. Farmashop is the opposite case: the discount remains a chain-level rule, but the stable Farmashop rule ids must stay linked to the branch directory so users see the eligible stores on the map.
 - A `Puntos` tag is not by itself an exclusion. Skip points-only cards when no explicit percent appears, but include cards whose teaser/detail exposes a real percent discount.
 - Keep extra perks like IVA mentions or payment-channel exclusions in `notes`.

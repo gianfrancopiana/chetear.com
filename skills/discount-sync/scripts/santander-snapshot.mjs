@@ -63,6 +63,7 @@ const CURATED_RULES = [
       "Crédito y débito Santander. No aplica al débito de Cuenta Nómina Básica. Stackeable con devolución de puntos de IVA",
   },
   {
+    id: "santander-farmashop-farmacard-25",
     merchant: "Farmashop",
     category: "farmacia",
     percent: 25,
@@ -73,6 +74,7 @@ const CURATED_RULES = [
     notes: "Categorias seleccionadas",
   },
   {
+    id: "santander-farmashop-general-15",
     merchant: "Farmashop",
     category: "farmacia",
     percent: 15,
@@ -81,6 +83,7 @@ const CURATED_RULES = [
     notes: "Categorías seleccionadas",
   },
   {
+    id: "santander-farmashop-farmacard-10",
     merchant: "Farmashop",
     category: "farmacia",
     percent: 10,

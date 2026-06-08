@@ -92,7 +92,8 @@ Procedure, once per merchant/rule (skip any entry that already has `geo`):
 1. Build the full unplaced queue from both merchant-list entries and direct
    discount rules whose `merchant` is a named physical commerce. Do not limit
    the daily pass to `site/src/data/merchant-directories/*.json`; direct rules
-   like many pharmacies and shops also need a chance to be placed.
+   like many pharmacies and shops also need a chance to be placed. A run is not
+   a no-op until both queues have been inspected.
 2. Open the merchant's Google Maps search link:
    `https://www.google.com/maps/search/?api=1&query=<name + location>`.
    For a direct rule with no useful `location`, start with `<merchant>, Uruguay`.
