@@ -101,12 +101,14 @@
     "maxRules": 95,
     "minUniqueMerchants": 65,
     "mustContainMerchants": [
-      "Hipermás",
       "Restaurantes",
       "Farmashop",
       "Heladerías adheridas",
       "Moda",
       "Sucan"
+    ],
+    "mustNotContainMerchants": [
+      "Hipermás"
     ],
     "mustMatchRules": [
       {

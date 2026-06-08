@@ -19,7 +19,7 @@ Extract Santander benefits with the correct tier, card-family, cap, and broad-ru
    - premium vs general splits (`Infinite`, `Black`, `Select`, `Platinum`, etc.)
    - debit vs credit differences
    - caps per month / per merchant / per period
-   - category-wide or directory-backed rules such as `Ruta Gourmet`, `Hipermás`, `Moda`, or broad heladería groups
+   - category-wide or directory-backed rules such as `Ruta Gourmet`, `Moda`, or broad heladería groups
 6. When Santander uses broad merchant networks or directories, keep the runtime discount broad here and only enumerate merchants elsewhere if a dedicated first-party directory workflow exists. Santander `Moda` has a first-party grid at `https://www.santander.com.uy/beneficios?categoria=20`; keep the rule label broad, preserve rule id `santander-moda-general-15`, and link eligible 15% cards through `santander-moda-general-directory`.
 7. Prefer the detail copy over the teaser card whenever the teaser compresses multiple tiers or caps.
 
@@ -35,6 +35,7 @@ Include benefits that map cleanly to the runtime schema, including:
 Skip or preserve the last known good data for:
 - financing-only promos without a real discount percent
 - broad merchant directories that do not change the discount rule itself
+- `Hipermás` / Disco / Devoto / Géant / Fresh Market supermarket cards while the live detail only advertises the Hipermás card product, points, first-year/free-additional-card perks, or vague “descuentos exclusivos” copy without an explicit runtime discount percent; do not recreate the old hardcoded 15% rule unless the source detail exposes a concrete percent/cap again.
 - ambiguous cards whose detail view cannot be opened reliably
 
 ## Source inventory
@@ -44,7 +45,6 @@ they live in `site/src/data/discounts/santander.json` and are refreshed by
 every sync run. This section only fixes which merchants/groups are in scope.
 
 ### Runtime-relevant now
-- `Hipermás` supermarket group (`Disco`, `Devoto`, `Geant`, `Fresh Market`)
 - `Heladerías adheridas` — premium vs general split
 - `Restaurantes` / `Ruta Gourmet` — premium vs general split
 - `Farmashop` — day-specific tiers plus a separate Farmacard rule (emit each as a distinct runtime rule with stable ids `santander-farmashop-farmacard-25`, `santander-farmashop-general-15`, and `santander-farmashop-farmacard-10`; link them to `santander-farmashop-directory` so the map expands the chain into branch pins instead of a fake parent-chain pin)
@@ -66,6 +66,6 @@ live in the section below.
 - Use provider identity `santander` / label `Santander`.
 - Preserve monthly caps and whether they are per merchant, per restaurant, or per period.
 - Preserve `Select` / premium vs general splits when the detail page distinguishes them.
-- Keep broad rules like `Ruta Gourmet`, `Hipermás`, `Moda`, or `Heladerías adheridas` broad in runtime; do not invent a merchant list inside `santander.json`. For `Moda`, the broad rule must keep id `santander-moda-general-15` so the runtime can expand the linked merchant directory. Farmashop is the opposite case: the discount remains a chain-level rule, but the stable Farmashop rule ids must stay linked to the branch directory so users see the eligible stores on the map.
+- Keep broad rules like `Ruta Gourmet`, `Moda`, or `Heladerías adheridas` broad in runtime when the source exposes explicit percentage/cap terms; do not invent a merchant list inside `santander.json`. For `Moda`, the broad rule must keep id `santander-moda-general-15` so the runtime can expand the linked merchant directory. Farmashop is the opposite case: the discount remains a chain-level rule, but the stable Farmashop rule ids must stay linked to the branch directory so users see the eligible stores on the map.
 - A `Puntos` tag is not by itself an exclusion. Skip points-only cards when no explicit percent appears, but include cards whose teaser/detail exposes a real percent discount.
 - Keep extra perks like IVA mentions or payment-channel exclusions in `notes`.

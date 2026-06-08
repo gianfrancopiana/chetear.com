@@ -16,14 +16,6 @@ const PROVIDER_ID = "santander";
 
 const CURATED_RULES = [
   {
-    merchant: "Hipermás",
-    category: "supermercado",
-    percent: 15,
-    tiers: ["todas"],
-    cap: "Tope $2.000 por periodo",
-    notes: "Disco, Devoto, Geant y Fresh Market. Hasta 25% en categorias rotativas mensuales",
-  },
-  {
     merchant: "Heladerías adheridas",
     category: "restaurante",
     percent: 50,
@@ -136,6 +128,12 @@ const BROAD_CATEGORY_LABELS = [
   "Ruta Gourmet",
   "Supermercados",
 ];
+
+const MERCHANT_CATEGORY_OVERRIDES = new Map([
+  // Santander currently lists Cymaco under "Otros", but the merchant is home/deco retail.
+  // Keep this in the generator so refreshes do not undo the runtime category.
+  ["cymaco", "hogar"],
+]);
 
 const DAY_TOKEN_MAP = [
   ["lunes", "lunes"],
@@ -381,9 +379,10 @@ function normaliseCard(card) {
   const structured = extractStructuredFields(card.detail || "");
   const notes = buildNotes(card.detail || "", structured);
   const days = parseDays(card.teaser);
+  const merchant = normaliseMerchantName(card.title);
   const rule = {
-    merchant: normaliseMerchantName(card.title),
-    category: card.category,
+    merchant,
+    category: MERCHANT_CATEGORY_OVERRIDES.get(merchantKey(merchant)) || card.category,
     percent,
     tiers: ["todas"],
     ...structured,

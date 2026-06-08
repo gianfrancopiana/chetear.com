@@ -3,16 +3,6 @@
   "label": "Santander",
   "rules": [
     {
-      "merchant": "Hipermás",
-      "category": "supermercado",
-      "percent": 15,
-      "tiers": [
-        "todas"
-      ],
-      "cap": "Tope $2.000 por periodo",
-      "notes": "Disco, Devoto, Geant y Fresh Market. Hasta 25% en categorias rotativas mensuales"
-    },
-    {
       "merchant": "Heladerías adheridas",
       "category": "restaurante",
       "percent": 50,
@@ -71,6 +61,7 @@
       "notes": "Crédito y débito Santander. No aplica al débito de Cuenta Nómina Básica. Stackeable con devolución de puntos de IVA"
     },
     {
+      "id": "santander-farmashop-farmacard-25",
       "merchant": "Farmashop",
       "category": "farmacia",
       "percent": 25,
@@ -86,10 +77,10 @@
       "cardFamilies": [
         "Farmacard"
       ],
-      "notes": "Categorias seleccionadas",
-      "id": "santander-farmashop-farmacard-25"
+      "notes": "Categorias seleccionadas"
     },
     {
+      "id": "santander-farmashop-general-15",
       "merchant": "Farmashop",
       "category": "farmacia",
       "percent": 15,
@@ -101,10 +92,10 @@
         "jueves",
         "domingo"
       ],
-      "notes": "Categorías seleccionadas",
-      "id": "santander-farmashop-general-15"
+      "notes": "Categorías seleccionadas"
     },
     {
+      "id": "santander-farmashop-farmacard-10",
       "merchant": "Farmashop",
       "category": "farmacia",
       "percent": 10,
@@ -114,8 +105,7 @@
       "cap": "Tope $5.000/mes",
       "cardFamilies": [
         "Farmacard"
-      ],
-      "id": "santander-farmashop-farmacard-10"
+      ]
     },
     {
       "merchant": "PedidosYa",
@@ -338,6 +328,17 @@
     },
     {
       "merchant": "Centro Hogar",
+      "category": "hogar",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "refundType": "point-of-sale",
+      "stackable": false,
+      "notes": "Quedan excluidas aquellas correspondientes al paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera, BIN 48 31 14 y BIN 43 03 07 20)"
+    },
+    {
+      "merchant": "Cymaco",
       "category": "hogar",
       "percent": 15,
       "tiers": [
@@ -603,17 +604,6 @@
     {
       "merchant": "Campera Almacen",
       "category": "otros",
-      "percent": 15,
-      "tiers": [
-        "todas"
-      ],
-      "refundType": "point-of-sale",
-      "stackable": false,
-      "notes": "Quedan excluidas aquellas correspondientes al paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera, BIN 48 31 14 y BIN 43 03 07 20)"
-    },
-    {
-      "merchant": "Cymaco",
-      "category": "hogar",
       "percent": 15,
       "tiers": [
         "todas"
