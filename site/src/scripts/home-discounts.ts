@@ -14,9 +14,11 @@ import {
   CAT_KEY,
   type DiscountItem,
   filterDiscounts,
+  formatDistance,
   INITIAL_VISIBLE_DISCOUNTS,
   mergeChainDiscountRows,
   providerMeta,
+  sortByProximity,
   TARJETAS_STORAGE_KEY,
   VISIBLE_DISCOUNT_STEP,
 } from "../lib/discounts-ui";
@@ -29,6 +31,7 @@ import {
   MAP_SHOWN_EVENT,
   REQUEST_DETAIL_EVENT,
   TARJETAS_CHANGED_EVENT,
+  USER_LOCATED_EVENT,
 } from "../lib/events";
 import { escapeHtml } from "../lib/strings";
 import { loadJSON, saveJSON } from "../lib/storage";
@@ -75,6 +78,7 @@ export default function initHomeDiscountsPage(): void {
   const today = new Date();
   const todayIso = root.dataset.todayIso || getTodayIso(today);
   let cat = loadJSON<string>(CAT_KEY, "todo");
+  let userLoc = window.__chetearUserLocation ?? null;
 
   const urlParams = new URLSearchParams(window.location.search);
   const urlCat = urlParams.get("cat");
@@ -240,12 +244,13 @@ export default function initHomeDiscountsPage(): void {
     };
   }
 
-  function renderDiscountRow(rule: DiscountItem, index: number, total: number, stagger: boolean): string {
+  function renderDiscountRow(rule: DiscountItem, index: number, total: number, stagger: boolean, distance?: string): string {
     const meta = providerMeta(rule.provider);
     const divider = index < total - 1 ? " border-b border-[oklch(0.95_0.006_60)]" : "";
-    const locationPart = rule.merchantLocation
-      ? `<span style="color:oklch(0.65 0.01 60)">·</span><span>${escapeHtml(rule.merchantLocation)}</span>`
-      : "";
+    // Proximity-ordered rows show the distance in place of location + category.
+    const metaTail = distance
+      ? `<span style="color:oklch(0.65 0.01 60)">·</span><span class="font-medium text-ink-2">a ${escapeHtml(distance)}</span>`
+      : `${rule.merchantLocation ? `<span style="color:oklch(0.65 0.01 60)">·</span><span>${escapeHtml(rule.merchantLocation)}</span>` : ""}<span data-row-cat class="inline-flex items-center gap-[5px]"><span style="color:oklch(0.65 0.01 60)">·</span><span>${escapeHtml(rule.categoryLabel)}</span></span>`;
     const { className: staggerClass, styleFragment: staggerStyle } = staggerAttrs(index, stagger);
     const styleAttr = staggerStyle ? ` style="${staggerStyle}"` : "";
     const chip = benefitChip(rule);
@@ -267,8 +272,7 @@ export default function initHomeDiscountsPage(): void {
         <div class="mt-px flex items-center gap-[5px] truncate text-[11px] text-ink-3">
           <span class="shrink-0 inline-block rounded-full" style="width:5px;height:5px;background:${meta.color}"></span>
           <span>${escapeHtml(meta.label)}</span>
-          ${locationPart}
-          <span data-row-cat class="inline-flex items-center gap-[5px]"><span style="color:oklch(0.65 0.01 60)">·</span><span>${escapeHtml(rule.categoryLabel)}</span></span>
+          ${metaTail}
         </div>
       </div>
       <svg width="14" height="14" viewBox="0 0 20 20" fill="none" class="shrink-0">
@@ -293,7 +297,10 @@ export default function initHomeDiscountsPage(): void {
       }
     }
     const listItems = mergeChainDiscountRows(filtered);
-    const visible = listItems.slice(0, visibleCount);
+    // Once a location is set, order the whole list by proximity (nearest places
+    // first with distances; location-less benefits keep their order after).
+    const ordered = userLoc ? sortByProximity(listItems, filtered, userLoc) : listItems.map((item) => ({ item }));
+    const visible = ordered.slice(0, visibleCount);
     currentFilteredLength = listItems.length;
     displayRulesById = new Map(listItems.map((rule) => [rule.id, rule]));
 
@@ -327,7 +334,11 @@ export default function initHomeDiscountsPage(): void {
     // there), so skip building its rows below lg — the work would be invisible.
     // Re-rendered when crossing into desktop (see the desktopMq handler).
     if (desktopMq.matches) {
-      list.innerHTML = visible.map((rule, index) => renderDiscountRow(rule, index, visible.length, stagger)).join("");
+      list.innerHTML = visible
+        .map(({ item, km }, index) =>
+          renderDiscountRow(item, index, visible.length, stagger, km !== undefined ? formatDistance(km) : undefined),
+        )
+        .join("");
     }
     const hasMore = visible.length < listItems.length;
     loadMoreWrap.hidden = !hasMore;
@@ -509,6 +520,16 @@ export default function initHomeDiscountsPage(): void {
   if (list) {
     list.addEventListener("click", handleRowActivate, { signal });
   }
+
+  // "Cerca mío" resolved a location → re-order the list by proximity.
+  window.addEventListener(
+    USER_LOCATED_EVENT,
+    (event) => {
+      userLoc = event.detail;
+      if (rules) renderDiscounts();
+    },
+    { signal },
+  );
 
   categoryOptions.forEach((button) => {
     button.addEventListener("click", () => {

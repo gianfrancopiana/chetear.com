@@ -19,6 +19,9 @@ export const MAP_INTERACTED_EVENT = "chetear:map-interacted" as const;
 // A card outside the main list (e.g. the mobile sheet) asks to open the detail
 // drawer for a discount id, reusing the controller's history-aware flow.
 export const REQUEST_DETAIL_EVENT = "chetear:request-detail" as const;
+// The map island resolved the user's location ("Cerca mío"); surfaces that want
+// to react (the list/sheet re-order by proximity) listen for it.
+export const USER_LOCATED_EVENT = "chetear:user-located" as const;
 
 declare global {
   interface WindowEventMap {
@@ -32,10 +35,14 @@ declare global {
     [MAP_EXPAND_EVENT]: CustomEvent<{ expanded: boolean }>;
     [MAP_INTERACTED_EVENT]: CustomEvent<void>;
     [REQUEST_DETAIL_EVENT]: CustomEvent<{ id: string }>;
+    [USER_LOCATED_EVENT]: CustomEvent<{ lat: number; lng: number }>;
   }
   interface Window {
     // Latest filtered discounts, kept current by the benefits controller so a
     // late-mounting map island can read the initial set without a race.
     __chetearFilteredItems?: DiscountItem[];
+    // The user's resolved location, set by the map's "Cerca mío" so a
+    // late-mounting surface can read it without missing the event.
+    __chetearUserLocation?: { lat: number; lng: number };
   }
 }

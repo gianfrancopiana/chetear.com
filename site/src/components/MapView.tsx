@@ -10,6 +10,7 @@ import {
   MAP_EXPAND_EVENT,
   MAP_INTERACTED_EVENT,
   MAP_SHOWN_EVENT,
+  USER_LOCATED_EVENT,
 } from "../lib/events";
 
 // Fired on a genuine user map gesture (pan/tap/zoom-button) so the mobile sheet
@@ -281,6 +282,11 @@ export default function MapView() {
           zIndexOffset: 1000,
         }).addTo(map);
         centerInView(map, here, 14);
+        // Let the list/sheet re-order by proximity from this point.
+        window.__chetearUserLocation = { lat: here[0], lng: here[1] };
+        window.dispatchEvent(
+          new CustomEvent(USER_LOCATED_EVENT, { detail: { lat: here[0], lng: here[1] } }),
+        );
       },
       () => {
         setLocating(false);

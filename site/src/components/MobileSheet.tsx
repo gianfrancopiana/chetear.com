@@ -2,13 +2,20 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { Drawer } from "../lib/drawer";
 import { getTranslate } from "../lib/drawer/helpers";
 import type { DiscountItem } from "../lib/discounts-ui";
-import { discountDetailHref, mergeChainDiscountRows, providerMeta } from "../lib/discounts-ui";
+import {
+  discountDetailHref,
+  formatDistance,
+  mergeChainDiscountRows,
+  providerMeta,
+  sortByProximity,
+} from "../lib/discounts-ui";
 import { benefitChip } from "../lib/condition-format";
 import { useMediaQuery } from "../lib/use-media-query";
 import {
   DISCOUNTS_FILTERED_EVENT,
   MAP_INTERACTED_EVENT,
   REQUEST_DETAIL_EVENT,
+  USER_LOCATED_EVENT,
 } from "../lib/events";
 
 // Snap points (fraction of screen the sheet covers): a thin peek that leaves
@@ -36,7 +43,7 @@ function computeFullSnap(): number {
 const INITIAL_VISIBLE = 20;
 const VISIBLE_STEP = 20;
 
-function Card({ item }: { item: DiscountItem }) {
+function Card({ item, distance }: { item: DiscountItem; distance?: string }) {
   const meta = providerMeta(item.provider);
   const chip = benefitChip(item);
   return (
@@ -71,16 +78,25 @@ function Card({ item }: { item: DiscountItem }) {
         <div className="mt-px flex items-center gap-[5px] truncate text-[12px] text-ink-3">
           <span className="inline-block h-[5px] w-[5px] shrink-0 rounded-full" style={{ background: meta.color }} />
           <span>{meta.label}</span>
-          {item.merchantLocation && (
+          {distance ? (
             <>
               <span style={{ color: "oklch(0.65 0.01 60)" }}>·</span>
-              <span className="truncate">{item.merchantLocation}</span>
+              <span className="font-medium text-ink-2">a {distance}</span>
+            </>
+          ) : (
+            <>
+              {item.merchantLocation && (
+                <>
+                  <span style={{ color: "oklch(0.65 0.01 60)" }}>·</span>
+                  <span className="truncate">{item.merchantLocation}</span>
+                </>
+              )}
+              <span data-row-cat className="inline-flex items-center gap-[5px]">
+                <span style={{ color: "oklch(0.65 0.01 60)" }}>·</span>
+                <span>{item.categoryLabel}</span>
+              </span>
             </>
           )}
-          <span data-row-cat className="inline-flex items-center gap-[5px]">
-            <span style={{ color: "oklch(0.65 0.01 60)" }}>·</span>
-            <span>{item.categoryLabel}</span>
-          </span>
         </div>
       </div>
       <svg width="14" height="14" viewBox="0 0 20 20" fill="none" className="shrink-0">
@@ -93,7 +109,16 @@ function Card({ item }: { item: DiscountItem }) {
 export default function MobileSheet() {
   const isMobile = useMediaQuery("(max-width: 1023.98px)");
   const [items, setItems] = useState<DiscountItem[]>(() => window.__chetearFilteredItems ?? []);
+  const [userLoc, setUserLoc] = useState<{ lat: number; lng: number } | null>(
+    () => window.__chetearUserLocation ?? null,
+  );
   const displayItems = useMemo(() => mergeChainDiscountRows(items), [items]);
+  // Once the user sets a location, order the whole list by proximity (nearest
+  // places first, with distances; location-less benefits keep their order after).
+  const ordered = useMemo(
+    () => (userLoc ? sortByProximity(displayItems, items, userLoc) : displayItems.map((item) => ({ item }))),
+    [displayItems, items, userLoc],
+  );
   const [snap, setSnap] = useState<number | string | null>(HALF);
   const [visibleCount, setVisibleCount] = useState(INITIAL_VISIBLE);
   const [full] = useState(computeFullSnap);
@@ -106,11 +131,14 @@ export default function MobileSheet() {
     // A map gesture collapses the sheet so the map is full-screen (no-op if
     // it's already collapsed, to avoid re-running the snap animation).
     const onMapInteracted = () => setSnap((s) => (s === COLLAPSED ? s : COLLAPSED));
+    const onLocated = (e: WindowEventMap[typeof USER_LOCATED_EVENT]) => setUserLoc(e.detail);
     window.addEventListener(DISCOUNTS_FILTERED_EVENT, onFiltered);
     window.addEventListener(MAP_INTERACTED_EVENT, onMapInteracted);
+    window.addEventListener(USER_LOCATED_EVENT, onLocated);
     return () => {
       window.removeEventListener(DISCOUNTS_FILTERED_EVENT, onFiltered);
       window.removeEventListener(MAP_INTERACTED_EVENT, onMapInteracted);
+      window.removeEventListener(USER_LOCATED_EVENT, onLocated);
     };
   }, []);
 
@@ -218,7 +246,7 @@ export default function MobileSheet() {
   if (!isMobile) return null;
 
   const atFull = snap === full;
-  const visible = displayItems.slice(0, visibleCount);
+  const visible = ordered.slice(0, visibleCount);
 
   return (
     <>
@@ -242,8 +270,8 @@ export default function MobileSheet() {
             </Drawer.Title>
             <Drawer.Description className="sr-only">Lista de beneficios en el área del mapa</Drawer.Description>
             <div ref={scrollRef} className="min-h-0 flex-1 overflow-y-auto overscroll-contain pb-24">
-              {visible.map((item) => (
-                <Card key={item.id} item={item} />
+              {visible.map(({ item, km }) => (
+                <Card key={item.id} item={item} distance={km !== undefined ? formatDistance(km) : undefined} />
               ))}
               <div ref={sentinelRef} className="h-px" />
             </div>

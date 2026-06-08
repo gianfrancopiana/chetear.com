@@ -152,6 +152,14 @@ function betterListRepresentative(candidate: DiscountItem, current: DiscountItem
  * same-named merchant-directory branches into one representative row and surface
  * the branch count as the row's location text.
  */
+// Synthetic id for a chain-merged row: prefix + group key. sortByProximity reads
+// the key back (via groupKeyFromMergedId) to attach the chain's nearest-branch
+// distance. Keep the encode (here) and decode (below) as a pair.
+const CHAIN_ID_PREFIX = "chain::";
+function groupKeyFromMergedId(id: string): string | null {
+  return id.startsWith(CHAIN_ID_PREFIX) ? id.slice(CHAIN_ID_PREFIX.length) : null;
+}
+
 export function mergeChainDiscountRows(items: DiscountItem[]): DiscountItem[] {
   const output: DiscountItem[] = [];
   const groups = new Map<string, { index: number; item: DiscountItem; branches: Set<string> }>();
@@ -170,7 +178,7 @@ export function mergeChainDiscountRows(items: DiscountItem[]): DiscountItem[] {
       const displayMerchant = merchantListDisplayMerchant(item);
       const grouped: DiscountItem = {
         ...item,
-        id: `chain::${groupKey}`,
+        id: `${CHAIN_ID_PREFIX}${groupKey}`,
         merchant: displayMerchant,
         merchantUrl: undefined,
         merchantLocation: item.merchantLocation,
@@ -213,5 +221,68 @@ export function mergeChainDiscountRows(items: DiscountItem[]): DiscountItem[] {
   }
 
   return output;
+}
+
+const EARTH_RADIUS_KM = 6371;
+
+// Great-circle distance in km between two lat/lng points.
+export function haversineKm(lat1: number, lng1: number, lat2: number, lng2: number): number {
+  const toRad = (d: number) => (d * Math.PI) / 180;
+  const dLat = toRad(lat2 - lat1);
+  const dLng = toRad(lng2 - lng1);
+  const a =
+    Math.sin(dLat / 2) ** 2 +
+    Math.cos(toRad(lat1)) * Math.cos(toRad(lat2)) * Math.sin(dLng / 2) ** 2;
+  return EARTH_RADIUS_KM * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+}
+
+// "290 m" under 1 km, "1,2 km" up to 10, "23 km" beyond (es-UY decimal comma).
+export function formatDistance(km: number): string {
+  if (km < 1) return `${Math.round(km * 1000)} m`;
+  if (km < 10) return `${km.toFixed(1).replace(".", ",")} km`;
+  return `${Math.round(km)} km`;
+}
+
+export interface OrderedItem {
+  item: DiscountItem;
+  km?: number;
+}
+
+/*
+ * Order the (already chain-merged) display list by proximity once the user sets
+ * a location: geocoded merchants nearest-first (each carrying its distance),
+ * then the location-less benefits in their original order. Card discounts apply
+ * everywhere, so they have no distance and sort to the end rather than being
+ * mis-ranked against a specific far-away place.
+ *
+ * Merged rows drop their per-branch geo, so distance is taken from the raw
+ * (un-merged) `rawItems` — the nearest branch per chain — keyed by the same
+ * group key encoded in the merged row's id.
+ */
+export function sortByProximity(
+  displayItems: DiscountItem[],
+  rawItems: DiscountItem[],
+  loc: { lat: number; lng: number },
+): OrderedItem[] {
+  const kmByGroup = new Map<string, number>();
+  for (const item of rawItems) {
+    if (!item.merchantGeo) continue;
+    const key = merchantListGroupKey(item);
+    if (!key) continue;
+    const km = haversineKm(loc.lat, loc.lng, item.merchantGeo.lat, item.merchantGeo.lng);
+    const prev = kmByGroup.get(key);
+    if (prev === undefined || km < prev) kmByGroup.set(key, km);
+  }
+  return displayItems
+    .map((item, i) => {
+      const groupKey = groupKeyFromMergedId(item.id);
+      return { item, km: groupKey ? kmByGroup.get(groupKey) : undefined, i };
+    })
+    .sort((a, b) => {
+      const ak = a.km ?? Infinity;
+      const bk = b.km ?? Infinity;
+      return ak !== bk ? ak - bk : a.i - b.i; // stable: location-less keep their order
+    })
+    .map(({ item, km }) => ({ item, km }));
 }
 
