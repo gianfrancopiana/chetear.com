@@ -94,4 +94,5 @@ live in the section below.
 - Preserve exclusions like `Cuenta Pocket` in `notes`.
 - When Itaú uses broad group labels like `Restaurantes` or `Moda`, keep the checked-in discount rule label broad, but attach any clearly first-party merchant grid through `site/src/data/merchant-directories/itau.json` and matching `ruleIds`.
 - When a visible card is future-dated or externally ambiguous, skip it rather than inventing a start date or merchant detail that the runtime schema cannot represent cleanly.
+- When a current Itaú benefit card remains visible in the live catalog/detail but its `Vigencia` copy is clearly stale and already past, source visibility wins. Do not write that past date as `validUntil` because runtime filtering would hide an active benefit; omit `validUntil` until Itaú publishes a current/future date, and capture the conflict in `provider-sources.json` notes for that title.
 - Remove historical merchants once they disappear from the live benefits page instead of carrying them forward indefinitely.

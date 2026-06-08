@@ -6,7 +6,52 @@
     "mustContainMerchants": [
       "Restaurantes",
       "Moda",
-      "Starbucks"
+      "Starbucks",
+      "San Roque"
+    ],
+    "mustMatchRules": [
+      {
+        "id": "itau-san-roque-premium-25",
+        "merchant": "San Roque",
+        "category": "farmacia",
+        "percent": 25,
+        "tiersIncludes": [
+          "platinum",
+          "black",
+          "infinite"
+        ],
+        "daysIncludes": [
+          "martes",
+          "jueves"
+        ],
+        "cardFamiliesIncludes": [
+          "Personal Bank"
+        ],
+        "channelsIncludes": [
+          "online",
+          "in-store"
+        ]
+      },
+      {
+        "id": "itau-san-roque-general-15",
+        "merchant": "San Roque",
+        "category": "farmacia",
+        "percent": 15,
+        "tiersIncludes": [
+          "todas"
+        ],
+        "cardFamiliesIncludes": [
+          "Volar"
+        ],
+        "networksIncludes": [
+          "visa",
+          "mastercard"
+        ],
+        "channelsIncludes": [
+          "online",
+          "in-store"
+        ]
+      }
     ]
   },
   "santander": {

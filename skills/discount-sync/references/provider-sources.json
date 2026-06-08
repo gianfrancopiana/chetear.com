@@ -18,7 +18,7 @@
       { "title": "15% menos en Starbucks en bebidas", "note": "Day logic on bar-prepared drinks; preserve scope in notes" },
       { "title": "15% menos en Riviera Joyería" },
       { "title": "25% y 15% menos en Farmacia El Túnel", "note": "Premium vs general split with day logic" },
-      { "title": "25% y 15% menos en San Roque", "note": "Same shape as Farmacia El Túnel (premium/general + day)" },
+      { "title": "25% y 15% menos en San Roque", "note": "Same shape as Farmacia El Túnel (premium/general + day). Live detail currently prints an expired 31/03/2026 window; source visibility overrides that stale date, so omit past validUntil while the card remains visible." },
       { "title": "25% y 15% menos en Espacio Aroma", "note": "Premium/Personal Bank vs general-credit split" },
       { "title": "15% menos en CIR Acondicionamiento térmico" },
       { "title": "2x1 en Movie", "note": "benefitType=2-for-1; Débito Volar (incl. junior) all days, Débito azul + Cuenta Pocket Mon-Wed (Pocket web-only); cap 4 tickets/card per session; doesn't stack; July break skips azul; validUntil 2026-07-31" },
