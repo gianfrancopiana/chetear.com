@@ -93,8 +93,9 @@ function dedupe(benefits: Benefit[]): Benefit[] {
 }
 
 // Group the currently-filtered discounts into deduped map points (those with a
-// geocoded pin). Items without `geo` (most provider card benefits, which apply
-// to a category rather than a specific store) simply aren't placed.
+// geocoded pin). Pins can come from merchant-list entries or direct discount
+// rules. Items without `geo` (broad categories, online-only services, ambiguous
+// chains) simply aren't placed.
 function buildPoints(items: DiscountItem[]): Point[] {
   const pts = new Map<string, Point>();
   for (const it of items) {

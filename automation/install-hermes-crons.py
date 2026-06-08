@@ -22,8 +22,9 @@ CRON_JOBS = [
         "name": "chetear:discounts-daily",
         "schedule": "0 5 * * *",
         "prompt": (
-            "Run the repo's daily discount sync. Follow AGENTS.md and "
-            "automation/daily-sync.md. No-op/routine: [SILENT]. Otherwise short summary."
+            "Run the repo's daily discount sync, merchant-list sync, and merchant geocoding. "
+            "Follow AGENTS.md and automation/daily-sync.md. No-op/routine: [SILENT]. "
+            "Otherwise short summary."
         ),
     },
     {

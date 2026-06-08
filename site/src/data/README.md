@@ -10,9 +10,11 @@ The product is a single home view with two lenses: a list and a map.
 - Merchant lists are supporting data attached to discount rules.
 - Do not model a separate user-facing "directorio" concept in runtime data.
 - The map is a *view toggle* on the home/benefits page, not a separate page or
-  data concept. It shares the list's filter state and plots the merchant-list
-  entries that carry a `geo` pin, reusing the discount + merchant-list JSON — no
-  map-specific runtime files. (There is no standalone `/mapa` route.)
+  data concept. It shares the list's filter state and plots any specific
+  physical merchant that carries a `geo` pin, whether that merchant comes from a
+  merchant-list entry or directly from a discount rule. It reuses the discount +
+  merchant-list JSON — no map-specific runtime files. (There is no standalone
+  `/mapa` route.)
 
 ## Runtime discount labels
 
@@ -55,10 +57,20 @@ Keep only runtime-useful fields:
 }
 ```
 
-## Merchant `geo` and `mapsUrl` (map view)
+## Merchant `location`, `geo`, and `mapsUrl` (map view)
 
-`geo` (`{ lat, lng }`) and the optional `mapsUrl` are runtime-useful fields that
-power the map view, and are allowed to stay in runtime JSON.
+`location`, `geo` (`{ lat, lng }`), and the optional `mapsUrl` are
+runtime-useful fields that power the map view, and are allowed to stay in
+runtime JSON on both:
+
+- merchant-list merchants: `site/src/data/merchant-directories/*.json` →
+  `lists[].merchants[]`
+- specific physical discount rules: `site/src/data/discounts/*.json` →
+  `rules[]`
+
+Use these fields only for a named physical merchant that can be confidently
+placed. Broad/category rules, online-only benefits, delivery apps without a
+specific branch, and ambiguous chains should omit `geo`.
 
 - They are filled by the **daily agent**, not the directory scrape: the agent
   opens the merchant's Google Maps search link in the browser, reads the place
@@ -70,9 +82,10 @@ power the map view, and are allowed to stay in runtime JSON.
   the map's "sin ubicación" list with a plain search link) rather than showing a
   wrong pin. Same "record ambiguity instead of guessing" rule the discount flow
   uses.
-- The agent does this **once per merchant** (it skips any merchant that already
-  has `geo`). A directory refresh must **preserve** an existing `geo`/`mapsUrl`
-  on a merchant it is not changing; do not strip them.
+- The agent does this **once per merchant/rule** (it skips any entry that
+  already has `geo`). A directory or discount refresh must **preserve** an
+  existing `location`/`geo`/`mapsUrl` on stable entries it is not changing; do
+  not strip them.
 - `mapsUrl` is optional — when absent the UI derives a Google Maps search link
   from name + location, which also works.
 

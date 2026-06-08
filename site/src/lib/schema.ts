@@ -227,10 +227,53 @@ export const BenefitType = z.enum([
 ]);
 export type BenefitType = z.infer<typeof BenefitType>;
 
+/*
+ * Resolved coordinates for a physical merchant, consumed by the map view.
+ *
+ * Filled by the daily agent: it opens the merchant's Google Maps search link
+ * in the browser, reads the place the results resolve to, and stores the
+ * coordinates. Done once per merchant (the agent skips any merchant/list entry
+ * that already has `geo`). A merchant the agent can't confidently place is
+ * left without `geo` — it stays off the map rather than showing a wrong pin.
+ * See `automation/daily-sync.md` → "Daily merchant geocoding".
+ *
+ * lat/lng bounds are Uruguay's bounding box — a cheap guard against a stored
+ * point in another country.
+ *
+ * `confidence` is optional and legacy; the agent flow does not set it.
+ */
+// Uruguay's bounding box — a cheap "is this point in the country" guard, shared
+// by the stored-geo validation below and the IP-derived default map view.
+export const URUGUAY_BOUNDS = { latMin: -35.5, latMax: -29.5, lngMin: -58.6, lngMax: -52.8 } as const;
+export function inUruguay(lat: number, lng: number): boolean {
+  return (
+    lat >= URUGUAY_BOUNDS.latMin &&
+    lat <= URUGUAY_BOUNDS.latMax &&
+    lng >= URUGUAY_BOUNDS.lngMin &&
+    lng <= URUGUAY_BOUNDS.lngMax
+  );
+}
+
+export const MerchantGeo = z.object({
+  lat: z.number().min(URUGUAY_BOUNDS.latMin).max(URUGUAY_BOUNDS.latMax),
+  lng: z.number().min(URUGUAY_BOUNDS.lngMin).max(URUGUAY_BOUNDS.lngMax),
+  confidence: z.enum(["high", "low"]).optional(),
+});
+export type MerchantGeo = z.infer<typeof MerchantGeo>;
+
 export const DiscountRule = z.object({
   id: z.string().optional(),
   merchant: z.string(),
   category: Category,
+  /*
+   * Optional place fields for specific physical merchants that are represented
+   * directly as discount rules rather than via a merchant-list entry.
+   * Broad category rules, online-only benefits, and ambiguous chains should
+   * omit these fields.
+   */
+  location: z.string().optional(),
+  geo: MerchantGeo.optional(),
+  mapsUrl: z.string().optional(),
   percent: z.number().min(0).max(100),
   benefitType: BenefitType.optional(),
   tiers: z.array(CardTier).optional(),
@@ -260,40 +303,6 @@ export const ProviderDiscounts = z.object({
   rules: z.array(DiscountRule),
 });
 export type ProviderDiscounts = z.infer<typeof ProviderDiscounts>;
-
-/*
- * Resolved coordinates for a physical merchant, consumed by the map view.
- *
- * Filled by the daily agent: it opens the merchant's Google Maps search link
- * in the browser, reads the place the results resolve to, and stores the
- * coordinates. Done once per merchant (the agent skips any merchant that
- * already has `geo`). A merchant the agent can't confidently place is left
- * without `geo` — it stays off the map rather than showing a wrong pin. See
- * `automation/daily-sync.md` → "Daily merchant geocoding".
- *
- * lat/lng bounds are Uruguay's bounding box — a cheap guard against a stored
- * point in another country.
- *
- * `confidence` is optional and legacy; the agent flow does not set it.
- */
-// Uruguay's bounding box — a cheap "is this point in the country" guard, shared
-// by the stored-geo validation below and the IP-derived default map view.
-export const URUGUAY_BOUNDS = { latMin: -35.5, latMax: -29.5, lngMin: -58.6, lngMax: -52.8 } as const;
-export function inUruguay(lat: number, lng: number): boolean {
-  return (
-    lat >= URUGUAY_BOUNDS.latMin &&
-    lat <= URUGUAY_BOUNDS.latMax &&
-    lng >= URUGUAY_BOUNDS.lngMin &&
-    lng <= URUGUAY_BOUNDS.lngMax
-  );
-}
-
-export const MerchantGeo = z.object({
-  lat: z.number().min(URUGUAY_BOUNDS.latMin).max(URUGUAY_BOUNDS.latMax),
-  lng: z.number().min(URUGUAY_BOUNDS.lngMin).max(URUGUAY_BOUNDS.lngMax),
-  confidence: z.enum(["high", "low"]).optional(),
-});
-export type MerchantGeo = z.infer<typeof MerchantGeo>;
 
 export const MerchantListMerchant = z.object({
   name: z.string(),

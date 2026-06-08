@@ -4,12 +4,16 @@ import {
   ProviderDiscounts,
   ProviderMerchantLists,
   type BenefitType,
+  type CardNetwork,
   type CardTier,
   type Category,
+  type Channel,
   type DayOfWeek,
   type DiscountRule,
+  type ExcludedApp,
   type MerchantGeo,
   type MerchantListMerchant,
+  type RefundType,
 } from "./schema";
 
 const discountModules = import.meta.glob("../data/discounts/*.json", {
@@ -45,7 +49,15 @@ export interface DiscountListItem {
   categoryLabel: string;
   days?: DayOfWeek[];
   tiers?: CardTier[];
+  networks?: CardNetwork[];
+  cardFamilies?: string[];
+  channels?: Channel[];
+  excludedApps?: ExcludedApp[];
+  stackable?: boolean;
+  refundType?: RefundType;
+  cap?: string;
   validUntil?: string;
+  notes?: string;
   provider: string;
   providerLabel: string;
   ruleIndex: number;
@@ -123,6 +135,9 @@ function buildBaseDiscountItem(
     benefitType: rule.benefitType,
     category: rule.category,
     categoryLabel: categoryLabel(rule.category),
+    merchantLocation: rule.location,
+    merchantGeo: rule.geo,
+    merchantMapsUrl: rule.mapsUrl,
     days: rule.days,
     tiers: rule.tiers,
     networks: rule.networks,

@@ -77,18 +77,29 @@ below, not by the directory scrape.
 
 ## Geocoding for the map view
 
-Physical merchants carry an optional `geo: { lat, lng }` block and an optional
-`mapsUrl` (canonical Google Maps place URL) that power the map view. These are
-resolved by the **agent in the browser** — the same browser-first approach used
-to scan discount sources — not by a script and not during extraction.
+Physical merchants carry optional place fields that power the map view:
 
-Procedure, once per merchant (skip any merchant that already has `geo`):
+- merchant-list entries: `geo: { lat, lng }` plus optional `mapsUrl`
+- direct discount rules for specific physical commerces: optional `location`,
+  `geo`, and `mapsUrl`
 
-1. Open the merchant's Google Maps search link:
+These are resolved by the **agent in the browser** — the same browser-first
+approach used to scan discount sources — not by a script and not during
+extraction.
+
+Procedure, once per merchant/rule (skip any entry that already has `geo`):
+
+1. Build the full unplaced queue from both merchant-list entries and direct
+   discount rules whose `merchant` is a named physical commerce. Do not limit
+   the daily pass to `site/src/data/merchant-directories/*.json`; direct rules
+   like many pharmacies and shops also need a chance to be placed.
+2. Open the merchant's Google Maps search link:
    `https://www.google.com/maps/search/?api=1&query=<name + location>`.
-2. Look at what the results resolve to, as a person would.
+   For a direct rule with no useful `location`, start with `<merchant>, Uruguay`.
+3. Look at what the results resolve to, as a person would.
    - **Single clear place** → read its coordinates from the resolved
-     `…/place/…/@lat,lng…` URL and capture that canonical place URL.
+     `…/place/…/@lat,lng…` URL, capture that canonical place URL, and for a
+     direct discount rule add a clear address/locality as `location` when useful.
    - **Multiple exact branch results and the task explicitly asks for every
      location** → split the original merchant into one branch entry per exact
      place result, preserving the original source URL and adding the branch
@@ -96,8 +107,8 @@ Procedure, once per merchant (skip any merchant that already has `geo`):
    - **Ambiguous / several unrelated results / a multi-branch chain with no
      exact branch confidence** → do not guess. Leave the merchant without `geo`;
      the search link still lets the user pick the right place at tap time.
-3. Write `geo: { lat, lng }` (≈6 decimals) and `mapsUrl: <canonical URL>` onto
-   the exact merchant entry resolved by **name + location**. If the same merchant
+4. Write `geo: { lat, lng }` (≈6 decimals) and `mapsUrl: <canonical URL>` onto
+   the exact runtime entry resolved by **name + location**. If the same merchant
    name appears in multiple locations, do not stamp every duplicate with one
    result; only update the location you searched or the explicit branch entries
    you split above.
@@ -109,12 +120,12 @@ Rules:
   never a wrong pin. Same "record ambiguity instead of guessing" rule the
   discount flow uses. Never use a city-centroid fallback.
 - **Incremental.** Presence of `geo` is the "already done" marker — only
-  unplaced merchants are resolved, so adding a merchant to a directory file is
-  enough to get it placed on the next daily run.
+  unplaced entries are resolved, so adding a merchant to a directory file or a
+  specific direct discount rule is enough to get it placed on the next daily run.
 - **Respect Google.** This is automated access to Google Maps; go human-paced,
   and if it blocks/captchas, stop and report rather than working around it.
-- **Preserve.** A directory refresh must keep an existing `geo`/`mapsUrl` on a
-  merchant it is not changing.
+- **Preserve.** A directory or discount refresh must keep existing
+  `location`/`geo`/`mapsUrl` fields on stable entries it is not changing.
 
 The daily contract for this pass lives in `../../automation/daily-sync.md`
 under "Daily merchant geocoding".
