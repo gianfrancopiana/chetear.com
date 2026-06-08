@@ -115,3 +115,103 @@ export function filterDiscounts(
     .sort((a, b) => b.percent - a.percent);
 }
 
+function merchantListBranchKey(rule: DiscountItem): string | null {
+  if (!rule.listId || typeof rule.merchantIndex !== "number") return null;
+  if (rule.merchantGeo) return `${rule.merchantGeo.lat},${rule.merchantGeo.lng}`;
+  return `${rule.listId}:${rule.merchantIndex}:${rule.merchantLocation ?? ""}`;
+}
+
+function merchantListDisplayMerchant(rule: DiscountItem): string {
+  const parent = rule.parentMerchant?.trim();
+  if (parent && parent.toLocaleLowerCase("es-UY") !== rule.categoryLabel.toLocaleLowerCase("es-UY")) {
+    return parent;
+  }
+  return rule.merchant.trim();
+}
+
+function merchantListGroupKey(rule: DiscountItem): string | null {
+  if (!merchantListBranchKey(rule)) return null;
+  const displayMerchant = merchantListDisplayMerchant(rule);
+  // Merchant directories may be aggregate categories (e.g. Moda) or true chains.
+  // Collapse only same-named merchants/branches; different stores in a category
+  // directory remain separate list rows while repeated chain branches become one.
+  return `${rule.provider}|${rule.category}|${displayMerchant.toLocaleLowerCase("es-UY")}`;
+}
+
+function betterListRepresentative(candidate: DiscountItem, current: DiscountItem): boolean {
+  if (candidate.percent !== current.percent) return candidate.percent > current.percent;
+  if ((candidate.benefitType ?? "discount") !== (current.benefitType ?? "discount")) {
+    return candidate.benefitType === "2-for-1";
+  }
+  return candidate.id < current.id;
+}
+
+/*
+ * The map needs every geocoded merchant-directory entry so chains render many
+ * pins. The list should not show the same chain once per branch, though: collapse
+ * same-named merchant-directory branches into one representative row and surface
+ * the branch count as the row's location text.
+ */
+export function mergeChainDiscountRows(items: DiscountItem[]): DiscountItem[] {
+  const output: DiscountItem[] = [];
+  const groups = new Map<string, { index: number; item: DiscountItem; branches: Set<string> }>();
+
+  for (const item of items) {
+    const groupKey = merchantListGroupKey(item);
+    const branchKey = merchantListBranchKey(item);
+    if (!groupKey || !branchKey) {
+      output.push(item);
+      continue;
+    }
+
+    const existing = groups.get(groupKey);
+    if (!existing) {
+      const branches = new Set([branchKey]);
+      const displayMerchant = merchantListDisplayMerchant(item);
+      const grouped: DiscountItem = {
+        ...item,
+        id: `chain::${groupKey}`,
+        merchant: displayMerchant,
+        merchantUrl: undefined,
+        merchantLocation: item.merchantLocation,
+        merchantGeo: undefined,
+        merchantMapsUrl: undefined,
+        parentMerchant: item.parentMerchant,
+        listId: undefined,
+        merchantIndex: undefined,
+      };
+      groups.set(groupKey, { index: output.length, item: grouped, branches });
+      output.push(grouped);
+      continue;
+    }
+
+    existing.branches.add(branchKey);
+    if (betterListRepresentative(item, existing.item)) {
+      const displayMerchant = merchantListDisplayMerchant(item);
+      existing.item = {
+        ...existing.item,
+        ...item,
+        id: existing.item.id,
+        merchant: displayMerchant,
+        merchantUrl: undefined,
+        merchantLocation: existing.item.merchantLocation,
+        merchantGeo: undefined,
+        merchantMapsUrl: undefined,
+        parentMerchant: item.parentMerchant,
+        listId: undefined,
+        merchantIndex: undefined,
+      };
+    }
+  }
+
+  for (const group of groups.values()) {
+    const branchCount = group.branches.size;
+    if (branchCount > 1) {
+      group.item.merchantLocation = `${branchCount} sucursales`;
+    }
+    output[group.index] = group.item;
+  }
+
+  return output;
+}
+

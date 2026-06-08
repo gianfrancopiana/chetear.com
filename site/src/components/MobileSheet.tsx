@@ -2,7 +2,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { Drawer } from "../lib/drawer";
 import { getTranslate } from "../lib/drawer/helpers";
 import type { DiscountItem } from "../lib/discounts-ui";
-import { discountDetailHref, providerMeta } from "../lib/discounts-ui";
+import { discountDetailHref, mergeChainDiscountRows, providerMeta } from "../lib/discounts-ui";
 import { benefitChip } from "../lib/condition-format";
 import { useMediaQuery } from "../lib/use-media-query";
 import {
@@ -91,6 +91,7 @@ function Card({ item }: { item: DiscountItem }) {
 export default function MobileSheet() {
   const isMobile = useMediaQuery("(max-width: 1023.98px)");
   const [items, setItems] = useState<DiscountItem[]>(() => window.__chetearFilteredItems ?? []);
+  const displayItems = useMemo(() => mergeChainDiscountRows(items), [items]);
   const [snap, setSnap] = useState<number | string | null>(HALF);
   const [visibleCount, setVisibleCount] = useState(INITIAL_VISIBLE);
   const [full] = useState(computeFullSnap);
@@ -139,7 +140,7 @@ export default function MobileSheet() {
     if (!root || !sentinel) return;
     const obs = new IntersectionObserver(
       ([entry]) => {
-        if (entry?.isIntersecting) setVisibleCount((c) => Math.min(c + VISIBLE_STEP, items.length));
+        if (entry?.isIntersecting) setVisibleCount((c) => Math.min(c + VISIBLE_STEP, displayItems.length));
       },
       { root, rootMargin: "300px 0px" },
     );
@@ -147,7 +148,7 @@ export default function MobileSheet() {
     return () => obs.disconnect();
     // isMobile gates whether the refs are mounted (the component renders null
     // until then), so re-run when it flips, not just on items change.
-  }, [items, isMobile]);
+  }, [displayItems.length, isMobile]);
 
   // Trackpad / mouse-wheel scroll-to-expand. vaul only drives the sheet from
   // touch/pointer drags, so on desktop a wheel just scrolls the list and the
@@ -215,7 +216,7 @@ export default function MobileSheet() {
   if (!isMobile) return null;
 
   const atFull = snap === full;
-  const visible = items.slice(0, visibleCount);
+  const visible = displayItems.slice(0, visibleCount);
 
   return (
     <>
@@ -235,7 +236,7 @@ export default function MobileSheet() {
           >
             <Drawer.Handle className="!my-3 !bg-[oklch(0.85_0.01_60)]" />
             <Drawer.Title className="px-4 pb-2 text-[13px] font-medium text-ink-3">
-              {items.length} beneficios
+              {displayItems.length} beneficios
             </Drawer.Title>
             <Drawer.Description className="sr-only">Lista de beneficios en el área del mapa</Drawer.Description>
             <div ref={scrollRef} className="min-h-0 flex-1 overflow-y-auto overscroll-contain pb-24">

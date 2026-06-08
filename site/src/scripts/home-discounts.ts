@@ -15,6 +15,7 @@ import {
   type DiscountItem,
   filterDiscounts,
   INITIAL_VISIBLE_DISCOUNTS,
+  mergeChainDiscountRows,
   providerMeta,
   TARJETAS_STORAGE_KEY,
   VISIBLE_DISCOUNT_STEP,
@@ -86,6 +87,7 @@ export default function initHomeDiscountsPage(): void {
   let currentFilteredLength = 0;
   let rules = loadJSON<DiscountItem[] | null>(DISCOUNTS_CACHE_KEY, null);
   let rulesPromise: Promise<DiscountItem[]> | null = null;
+  let displayRulesById = new Map<string, DiscountItem>();
 
   const header = root.querySelector<HTMLElement>("[data-sticky-header]");
   const filterBar = root.querySelector<HTMLElement>("[data-filter-bar]");
@@ -291,21 +293,23 @@ export default function initHomeDiscountsPage(): void {
         filtered.push(rule);
       }
     }
-    const visible = filtered.slice(0, visibleCount);
-    currentFilteredLength = filtered.length;
+    const listItems = mergeChainDiscountRows(filtered);
+    const visible = listItems.slice(0, visibleCount);
+    currentFilteredLength = listItems.length;
+    displayRulesById = new Map(listItems.map((rule) => [rule.id, rule]));
 
-    // Broadcast the filtered set to the map + mobile sheet (both always on
-    // screen). The global lets a late-mounting island read the current set on
-    // mount; the island's own reference-guard skips redundant rebuilds.
+    // Broadcast the raw filtered set to the map (so merchant-directory chains
+    // keep all their pins). List surfaces collapse repeated chain branches
+    // separately with mergeChainDiscountRows.
     window.__chetearFilteredItems = filtered;
     window.dispatchEvent(new CustomEvent(DISCOUNTS_FILTERED_EVENT, { detail: { items: filtered } }));
 
     renderControls();
 
-    const noResults = filtered.length === 0;
+    const noResults = listItems.length === 0;
     if (listCard) listCard.classList.toggle("!hidden", noResults);
     emptyState.hidden = !noResults;
-    if (filtered.length === 0) {
+    if (noResults) {
       emptyState.innerHTML = `<div class="text-[22px] mb-1.5 text-ink">Sin resultados</div>
         <div class="text-[13px] leading-relaxed text-ink-3">
           ${filterByCards
@@ -320,11 +324,11 @@ export default function initHomeDiscountsPage(): void {
     if (desktopMq.matches) {
       list.innerHTML = visible.map((rule, index) => renderDiscountRow(rule, index, visible.length, stagger)).join("");
     }
-    const hasMore = visible.length < filtered.length;
+    const hasMore = visible.length < listItems.length;
     loadMoreWrap.hidden = !hasMore;
     loadMoreSentinel.hidden = !hasMore;
     if (hasMore) {
-      loadMoreButton.textContent = `Ver ${Math.min(VISIBLE_DISCOUNT_STEP, filtered.length - visibleCount)} más`;
+      loadMoreButton.textContent = `Ver ${Math.min(VISIBLE_DISCOUNT_STEP, listItems.length - visibleCount)} más`;
     }
   }
 
@@ -360,7 +364,9 @@ export default function initHomeDiscountsPage(): void {
     const params = serializeDetailParams({
       provider: rule.provider,
       ruleIndex: rule.ruleIndex,
-      ruleId: rule.id,
+      ruleId: rule.ruleId ?? rule.id,
+      listId: rule.listId,
+      merchantIndex: rule.merchantIndex,
     });
     const pathname = window.location.pathname || "/";
     return `${pathname}?${params.toString()}`;
@@ -451,7 +457,8 @@ export default function initHomeDiscountsPage(): void {
       return;
     }
     const providerRules = loaded.filter((r) => r.provider === target.provider);
-    const rule = findRuleForTarget(target, providerRules);
+    const displayRules = mergeChainDiscountRows(providerRules);
+    const rule = findRuleForTarget(target, displayRules) ?? findRuleForTarget(target, providerRules);
     if (!rule) {
       dispatchCloseDetail();
       return;
@@ -477,7 +484,7 @@ export default function initHomeDiscountsPage(): void {
   }, { signal });
 
   function findRuleById(id: string): DiscountItem | undefined {
-    return rules?.find((r) => r.id === id);
+    return displayRulesById.get(id) ?? rules?.find((r) => r.id === id);
   }
 
   function handleRowActivate(event: Event): void {
