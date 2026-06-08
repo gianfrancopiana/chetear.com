@@ -1992,38 +1992,193 @@
         "ANCAP"
       ],
       "sourceUrls": [
-        "https://nominatim.openstreetmap.org/"
+        "https://nominatim.openstreetmap.org/",
+        "https://www.openstreetmap.org/copyright"
       ],
       "merchants": [
         {
-          "name": "ANCAP",
-          "location": "ANCAP, Treinta y Tres, 33000",
+          "name": "ANCAP Avenida General José Gervasio Artigas",
+          "url": "https://www.openstreetmap.org/node/3491462294",
+          "location": "ANCAP, Avenida General José Gervasio Artigas, Villa Lola, Artigas, 55000",
           "geo": {
-            "lat": -33.245798,
-            "lng": -54.378669
+            "lat": -30.414614,
+            "lng": -56.484073
           },
-          "mapsUrl": "https://www.google.com/maps/dir//-33.245798,-54.378669"
+          "mapsUrl": "https://www.google.com/maps/dir//-30.414614,-56.484073"
         },
         {
-          "name": "Ancap",
-          "location": "Ancap, Río Branco, Cerro Largo, 37100",
+          "name": "ANCAP Presidente Tomás Berreta 350",
+          "url": "https://www.openstreetmap.org/node/3491459689",
+          "location": "ANCAP, 350, Presidente Tomás Berreta, Oriental, Artigas, 55000",
           "geo": {
-            "lat": -32.596824,
-            "lng": -53.388438
+            "lat": -30.401511,
+            "lng": -56.465094
           },
-          "mapsUrl": "https://www.google.com/maps/dir//-32.596824,-53.388438"
+          "mapsUrl": "https://www.google.com/maps/dir//-30.401511,-56.465094"
         },
         {
-          "name": "Ancap",
-          "location": "Ancap, Villa Lazare, Las Delicias, Maldonado, 20000",
+          "name": "ANCAP 25 de Agosto (Baltasar Brum, Artigas, 55001)",
+          "url": "https://www.openstreetmap.org/node/3491462295",
+          "location": "ANCAP, 25 de Agosto, Baltasar Brum, Artigas, 55001",
           "geo": {
-            "lat": -34.900174,
-            "lng": -54.971706
+            "lat": -30.720937,
+            "lng": -57.330068
           },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900174,-54.971706"
+          "mapsUrl": "https://www.google.com/maps/dir//-30.720937,-57.330068"
         },
         {
-          "name": "ANCAP",
+          "name": "ANCAP Avenida General José Gervasio Artigas 1090",
+          "url": "https://www.openstreetmap.org/node/3491497244",
+          "location": "ANCAP, 1090, Avenida General José Gervasio Artigas, Bella Unión, Artigas, 55100",
+          "geo": {
+            "lat": -30.26046,
+            "lng": -57.600097
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-30.260460,-57.600097"
+        },
+        {
+          "name": "ANCAP Ruta 3 General José Gervasio Artigas Km 628",
+          "url": "https://www.openstreetmap.org/node/3491497245",
+          "location": "ANCAP, Km 628, Ruta 3 General José Gervasio Artigas, Bella Unión, Artigas, 55100",
+          "geo": {
+            "lat": -30.272046,
+            "lng": -57.586224
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-30.272046,-57.586224"
+        },
+        {
+          "name": "ANCAP Oficial 8 Km 20",
+          "url": "https://www.openstreetmap.org/node/3491497251",
+          "location": "ANCAP, Km 20, Oficial 8, Tomás Gomensoro, Artigas, 55002",
+          "geo": {
+            "lat": -30.427121,
+            "lng": -57.443706
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-30.427121,-57.443706"
+        },
+        {
+          "name": "ANCAP Ruta 11 José Batlle y Ordóñez Km 102.300",
+          "url": "https://www.openstreetmap.org/node/4414166776",
+          "location": "ANCAP, Km 102.300, Ruta 11 José Batlle y Ordóñez, Canelones, 90000",
+          "geo": {
+            "lat": -34.513403,
+            "lng": -56.246139
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.513403,-56.246139"
+        },
+        {
+          "name": "ANCAP Ruta 32",
+          "url": "https://www.openstreetmap.org/node/3491599173",
+          "location": "ANCAP, Ruta 32, Canelones",
+          "geo": {
+            "lat": -34.531646,
+            "lng": -56.14429
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.531646,-56.144290"
+        },
+        {
+          "name": "ANCAP Ruta Interbalnearia General Líber Seregni Km 46.600",
+          "url": "https://www.openstreetmap.org/node/4424971855",
+          "location": "ANCAP, Km 46.600, Ruta Interbalnearia General Líber Seregni, Pinares Norte, Atlántida, Municipio de Parque del Plata, Canelones, 16000",
+          "geo": {
+            "lat": -34.765108,
+            "lng": -55.755291
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.765108,-55.755291"
+        },
+        {
+          "name": "ANCAP General Aparicio Saravia 101",
+          "url": "https://www.openstreetmap.org/node/3503382985",
+          "location": "ANCAP, 101, General Aparicio Saravia, Canelones, 90000",
+          "geo": {
+            "lat": -34.532683,
+            "lng": -56.278792
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.532683,-56.278792"
+        },
+        {
+          "name": "ANCAP Ruta 5 Brigadier General Fructuoso Rivera Km 47",
+          "url": "https://www.openstreetmap.org/node/1261150484",
+          "location": "ANCAP, Km 47, Ruta 5 Brigadier General Fructuoso Rivera, Canelones, 90000",
+          "geo": {
+            "lat": -34.512813,
+            "lng": -56.275982
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.512813,-56.275982"
+        },
+        {
+          "name": "ANCAP Ruta 33 Km 28.800",
+          "url": "https://www.openstreetmap.org/node/3503430640",
+          "location": "ANCAP, Km 28.800, Ruta 33, Carrasco del Sauce, Municipio de La Paz, Municipio de Nicolich, Canelones, 90800",
+          "geo": {
+            "lat": -34.686381,
+            "lng": -56.110295
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.686381,-56.110295"
+        },
+        {
+          "name": "ANCAP Adela Reta",
+          "url": "https://www.openstreetmap.org/node/9791166532",
+          "location": "ANCAP, Adela Reta, Solymar, Ciudad de la Costa, Municipio de Ciudad de la Costa, Canelones, 15005",
+          "geo": {
+            "lat": -34.817105,
+            "lng": -55.979006
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.817105,-55.979006"
+        },
+        {
+          "name": "ANCAP Avenida Ingeniero Luis Giannattasio Km 21",
+          "url": "https://www.openstreetmap.org/node/272168959",
+          "location": "ANCAP, Km 21, Avenida Ingeniero Luis Giannattasio, Lagomar, Ciudad de la Costa, Municipio de Ciudad de la Costa, Canelones, 15000",
+          "geo": {
+            "lat": -34.839105,
+            "lng": -55.989224
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.839105,-55.989224"
+        },
+        {
+          "name": "ANCAP Avenida Ingeniero Luis Giannattasio Km 28.500",
+          "url": "https://www.openstreetmap.org/node/1853755084",
+          "location": "ANCAP, Km 28.500, Avenida Ingeniero Luis Giannattasio, El Pinar, Ciudad de la Costa, Municipio de Ciudad de la Costa, Canelones, 15008",
+          "geo": {
+            "lat": -34.800722,
+            "lng": -55.919119
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.800722,-55.919119"
+        },
+        {
+          "name": "ANCAP Rambla General Liber Seregni (Ciudad de la Costa, Canelones, 15000)",
+          "url": "https://www.openstreetmap.org/node/3491542506",
+          "location": "ANCAP, Rambla General Liber Seregni, Parque Miramar, Barra de Carrasco, Ciudad de la Costa, Municipio de Paso Carrasco, Canelones, 15000",
+          "geo": {
+            "lat": -34.878208,
+            "lng": -56.030092
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.878208,-56.030092"
+        },
+        {
+          "name": "ANCAP Rambla General Liber Seregni (Ciudad de la Costa, Canelones, 15000) #2",
+          "url": "https://www.openstreetmap.org/node/4414166782",
+          "location": "ANCAP, Rambla General Liber Seregni, Parque de Carrasco, Ciudad de la Costa, Municipio de Ciudad de la Costa, Canelones, 15000",
+          "geo": {
+            "lat": -34.860373,
+            "lng": -55.996205
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.860373,-55.996205"
+        },
+        {
+          "name": "ANCAP Ruta 101 Capitán Juan Antonio Artigas",
+          "url": "https://www.openstreetmap.org/node/3503383413",
+          "location": "ANCAP, Ruta 101 Capitán Juan Antonio Artigas, Ciudad de la Costa, Municipio de Ciudad de la Costa, Canelones, 15800",
+          "geo": {
+            "lat": -34.844901,
+            "lng": -56.019993
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.844901,-56.019993"
+        },
+        {
+          "name": "ANCAP José Artigas (La Paz, Canelones, 90100)",
+          "url": "https://www.openstreetmap.org/node/3503676283",
           "location": "ANCAP, José Artigas, La Paz, Municipio de La Paz, Canelones, 90100",
           "geo": {
             "lat": -34.751756,
@@ -2032,61 +2187,8 @@
           "mapsUrl": "https://www.google.com/maps/dir//-34.751756,-56.224064"
         },
         {
-          "name": "ANCAP",
-          "location": "ANCAP, 2490, Cooper, Carrasco Norte, Montevideo, 11500",
-          "geo": {
-            "lat": -34.870349,
-            "lng": -56.069224
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.870349,-56.069224"
-        },
-        {
-          "name": "ANCAP",
-          "location": "ANCAP, 3640, Avenida Italia, Unión, Montevideo, 11600",
-          "geo": {
-            "lat": -34.886925,
-            "lng": -56.135077
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.886925,-56.135077"
-        },
-        {
-          "name": "ANCAP",
-          "location": "ANCAP, 6740, Avenida Italia, Carrasco Norte, Montevideo, 11500",
-          "geo": {
-            "lat": -34.877956,
-            "lng": -56.062669
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.877956,-56.062669"
-        },
-        {
-          "name": "ANCAP",
-          "location": "ANCAP, 6107, Avenida General Rivera, Punta Gorda, Montevideo, 11500",
-          "geo": {
-            "lat": -34.890493,
-            "lng": -56.072633
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.890493,-56.072633"
-        },
-        {
-          "name": "ANCAP",
-          "location": "ANCAP, 4699, Camino Carrasco, Malvín Norte, Montevideo, 12100",
-          "geo": {
-            "lat": -34.871103,
-            "lng": -56.116209
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.871103,-56.116209"
-        },
-        {
-          "name": "ANCAP",
-          "location": "ANCAP, 4095, Avenida Italia, Malvín Norte, Montevideo, 11600",
-          "geo": {
-            "lat": -34.886749,
-            "lng": -56.122949
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.886749,-56.122949"
-        },
-        {
-          "name": "ANCAP",
+          "name": "ANCAP Ruta 5 Brigadier General Fructuoso Rivera Km 19.700",
+          "url": "https://www.openstreetmap.org/node/941512159",
           "location": "ANCAP, Km 19.700, Ruta 5 Brigadier General Fructuoso Rivera, La Paz, Municipio de La Paz, Canelones, 15900",
           "geo": {
             "lat": -34.750039,
@@ -2095,16 +2197,1468 @@
           "mapsUrl": "https://www.google.com/maps/dir//-34.750039,-56.253280"
         },
         {
-          "name": "ANCAP",
-          "location": "ANCAP, 4697, Camino Ariel, Sayago, Montevideo, 12900",
+          "name": "ANCAP Avenida General Artigas",
+          "url": "https://www.openstreetmap.org/node/3226717559",
+          "location": "ANCAP, Avenida General Artigas, Las Piedras, Municipio de La Paz, Municipio de Paso Carrasco, Canelones, 90200",
           "geo": {
-            "lat": -34.835133,
-            "lng": -56.214265
+            "lat": -34.726982,
+            "lng": -56.211306
           },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.835133,-56.214265"
+          "mapsUrl": "https://www.google.com/maps/dir//-34.726982,-56.211306"
         },
         {
-          "name": "ANCAP",
+          "name": "ANCAP Doctor Enrique Pouey 622",
+          "url": "https://www.openstreetmap.org/node/1119835052",
+          "location": "ANCAP, 622, Doctor Enrique Pouey, Las Piedras, Municipio de Las Piedras, Canelones, 90200",
+          "geo": {
+            "lat": -34.729252,
+            "lng": -56.223958
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.729252,-56.223958"
+        },
+        {
+          "name": "ANCAP Ruta Interbalnearia General Líber Seregni Km 48",
+          "url": "https://www.openstreetmap.org/node/2687662001",
+          "location": "ANCAP, Km 48, Ruta Interbalnearia General Líber Seregni, Las Toscas, Municipio de Parque del Plata, Canelones, 16002",
+          "geo": {
+            "lat": -34.760195,
+            "lng": -55.737967
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.760195,-55.737967"
+        },
+        {
+          "name": "ANCAP Máximo Tajes",
+          "url": "https://www.openstreetmap.org/node/3491542505",
+          "location": "ANCAP, Máximo Tajes, Los Cerrillos, Municipio de Las Piedras, Canelones, 90001",
+          "geo": {
+            "lat": -34.607434,
+            "lng": -56.357307
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.607434,-56.357307"
+        },
+        {
+          "name": "ANCAP Ruta 36 Km 37.500",
+          "url": "https://www.openstreetmap.org/node/3684909137",
+          "location": "ANCAP, Km 37.500, Ruta 36, Los Cerrillos, Municipio de Las Piedras, Canelones, 90001",
+          "geo": {
+            "lat": -34.609255,
+            "lng": -56.362473
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.609255,-56.362473"
+        },
+        {
+          "name": "ANCAP Ruta 32 Km 23",
+          "url": "https://www.openstreetmap.org/node/3491599177",
+          "location": "ANCAP, Km 23, Ruta 32, Montevideo, Municipio de La Paz, Municipio de Paso Carrasco, Canelones, 15900",
+          "geo": {
+            "lat": -34.714107,
+            "lng": -56.170048
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.714107,-56.170048"
+        },
+        {
+          "name": "ANCAP Ruta 5 Brigadier General Fructuoso Rivera Km 36",
+          "url": "https://www.openstreetmap.org/node/3503543689",
+          "location": "ANCAP, Km 36, Ruta 5 Brigadier General Fructuoso Rivera, Municipio de Las Piedras, Canelones, 90400",
+          "geo": {
+            "lat": -34.606179,
+            "lng": -56.260664
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.606179,-56.260664"
+        },
+        {
+          "name": "ANCAP Ruta 69 Km 30.250",
+          "url": "https://www.openstreetmap.org/node/3491599174",
+          "location": "ANCAP, Km 30.250, Ruta 69, Municipio de Las Piedras, Canelones, 90300",
+          "geo": {
+            "lat": -34.662266,
+            "lng": -56.182879
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.662266,-56.182879"
+        },
+        {
+          "name": "ANCAP Lostaunau",
+          "url": "https://www.openstreetmap.org/node/2310520700",
+          "location": "Lostaunau, Km 41.500, Ruta 8 Brigadier General Juan Antonio Lavalleja, Municipio de Salinas, Canelones, 91002",
+          "geo": {
+            "lat": -34.693907,
+            "lng": -55.856627
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.693907,-55.856627"
+        },
+        {
+          "name": "ANCAP Ruta 8 Brigadier General Juan Antonio Lavalleja",
+          "url": "https://www.openstreetmap.org/node/272168949",
+          "location": "ANCAP, Ruta 8 Brigadier General Juan Antonio Lavalleja, Pando, Municipio de Nicolich, Canelones, 91000",
+          "geo": {
+            "lat": -34.724853,
+            "lng": -55.961157
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.724853,-55.961157"
+        },
+        {
+          "name": "ANCAP Ruta Interbalnearia General Líber Seregni Km 51.500",
+          "url": "https://www.openstreetmap.org/node/447149935",
+          "location": "ANCAP, Km 51.500, Ruta Interbalnearia General Líber Seregni, Parque del Plata, Municipio de Parque del Plata, Canelones, 16100",
+          "geo": {
+            "lat": -34.750635,
+            "lng": -55.709461
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.750635,-55.709461"
+        },
+        {
+          "name": "ANCAP Ruta Interbalnearia General Líber Seregni Km 36.200",
+          "url": "https://www.openstreetmap.org/node/272168914",
+          "location": "ANCAP, Km 36.200, Ruta Interbalnearia General Líber Seregni, Pinamar, Municipio de Salinas, Canelones, 15102",
+          "geo": {
+            "lat": -34.7788,
+            "lng": -55.86231
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.778800,-55.862310"
+        },
+        {
+          "name": "ANCAP General Artigas (Progreso, Canelones, 90300)",
+          "url": "https://www.openstreetmap.org/node/3504157550",
+          "location": "ANCAP, General Artigas, Progreso, Municipio de Las Piedras, Canelones, 90300",
+          "geo": {
+            "lat": -34.663319,
+            "lng": -56.221832
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.663319,-56.221832"
+        },
+        {
+          "name": "ANCAP Ruta 6 Joaquín Suárez",
+          "url": "https://www.openstreetmap.org/node/3504157528",
+          "location": "ANCAP, Ruta 6 Joaquín Suárez, San Bautista, Canelones, 90604",
+          "geo": {
+            "lat": -34.438585,
+            "lng": -55.963865
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.438585,-55.963865"
+        },
+        {
+          "name": "ANCAP Ruta 11 José Batlle y Ordóñez",
+          "url": "https://www.openstreetmap.org/node/3056668750",
+          "location": "ANCAP, Ruta 11 José Batlle y Ordóñez, San Jacinto, Canelones, 91300",
+          "geo": {
+            "lat": -34.547221,
+            "lng": -55.872765
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.547221,-55.872765"
+        },
+        {
+          "name": "ANCAP General José Gervasio Artigas",
+          "url": "https://www.openstreetmap.org/node/2125522502",
+          "location": "ANCAP, General José Gervasio Artigas, San Ramón, Canelones, 90600",
+          "geo": {
+            "lat": -34.287386,
+            "lng": -55.956602
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.287386,-55.956602"
+        },
+        {
+          "name": "ANCAP José Batlle y Ordóñez 1805",
+          "url": "https://www.openstreetmap.org/node/2125522505",
+          "location": "ANCAP, 1805, José Batlle y Ordóñez, San Ramón, Canelones, 90600",
+          "geo": {
+            "lat": -34.299044,
+            "lng": -55.95767
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.299044,-55.957670"
+        },
+        {
+          "name": "ANCAP Sarandí 648",
+          "url": "https://www.openstreetmap.org/node/2125522499",
+          "location": "ANCAP, 648, Sarandí, Santa Lucía, Canelones, 90700",
+          "geo": {
+            "lat": -34.459086,
+            "lng": -56.389682
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.459086,-56.389682"
+        },
+        {
+          "name": "ANCAP Presidente Tomás Berreta (Santa Rosa, Canelones, 90500)",
+          "url": "https://www.openstreetmap.org/node/3504221494",
+          "location": "ANCAP, Presidente Tomás Berreta, Santa Rosa, Canelones, 90500",
+          "geo": {
+            "lat": -34.498048,
+            "lng": -56.037231
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.498048,-56.037231"
+        },
+        {
+          "name": "ANCAP Ruta 6 Vieja",
+          "url": "https://www.openstreetmap.org/node/3507388568",
+          "location": "ANCAP, Ruta 6 Vieja, Sauce, Municipio de Las Piedras, Canelones, 90800",
+          "geo": {
+            "lat": -34.646606,
+            "lng": -56.058681
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.646606,-56.058681"
+        },
+        {
+          "name": "ANCAP Zenón Burgueño",
+          "url": "https://www.openstreetmap.org/node/3511454622",
+          "location": "ANCAP, Zenón Burgueño, Soca, Municipio de Atlántida, Canelones, 91006",
+          "geo": {
+            "lat": -34.683917,
+            "lng": -55.702446
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.683917,-55.702446"
+        },
+        {
+          "name": "ANCAP General Artigas (Tala, Canelones, 91400)",
+          "url": "https://www.openstreetmap.org/node/3511466014",
+          "location": "ANCAP, General Artigas, Tala, Canelones, 91400",
+          "geo": {
+            "lat": -34.347103,
+            "lng": -55.763514
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.347103,-55.763514"
+        },
+        {
+          "name": "ANCAP Presidente Tomás Berreta (Tala, Canelones, 91400)",
+          "url": "https://www.openstreetmap.org/node/3511466011",
+          "location": "ANCAP, Presidente Tomás Berreta, Tala, Canelones, 91400",
+          "geo": {
+            "lat": -34.343595,
+            "lng": -55.758675
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.343595,-55.758675"
+        },
+        {
+          "name": "ANCAP Ruta 7 General Aparicio Saravia (Fraile Muerto, Cerro Largo, 37005)",
+          "url": "https://www.openstreetmap.org/node/2775414173",
+          "location": "ANCAP, Ruta 7 General Aparicio Saravia, Fraile Muerto, Cerro Largo, 37005",
+          "geo": {
+            "lat": -32.507918,
+            "lng": -54.519384
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.507918,-54.519384"
+        },
+        {
+          "name": "ANCAP Eber da Rosa",
+          "url": "https://www.openstreetmap.org/node/2748137563",
+          "location": "ANCAP, Eber da Rosa, Barrio Estero Bellaco, Melo, Cerro Largo, 37000",
+          "geo": {
+            "lat": -32.375623,
+            "lng": -54.165494
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.375623,-54.165494"
+        },
+        {
+          "name": "ANCAP Ejido",
+          "url": "https://www.openstreetmap.org/node/2748137555",
+          "location": "ANCAP, Ejido, Barrio Progreso, Melo, Cerro Largo, 37000",
+          "geo": {
+            "lat": -32.363152,
+            "lng": -54.166468
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.363152,-54.166468"
+        },
+        {
+          "name": "ANCAP José Pedro Varela (Melo, Cerro Largo, 37000)",
+          "url": "https://www.openstreetmap.org/node/3511596119",
+          "location": "ANCAP, José Pedro Varela, Barrio Estero Bellaco, Melo, Cerro Largo, 37000",
+          "geo": {
+            "lat": -32.371991,
+            "lng": -54.169845
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.371991,-54.169845"
+        },
+        {
+          "name": "ANCAP Avenida Centenario",
+          "url": "https://www.openstreetmap.org/node/3512857711",
+          "location": "ANCAP, Avenida Centenario, El Mosquito, Río Branco, Cerro Largo, 37100",
+          "geo": {
+            "lat": -32.596727,
+            "lng": -53.38782
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.596727,-53.387820"
+        },
+        {
+          "name": "ANCAP Ruta 26 Brigadier General Leandro Gómez",
+          "url": "https://www.openstreetmap.org/node/3512857712",
+          "location": "ANCAP, Ruta 26 Brigadier General Leandro Gómez, Yimico Techera, Río Branco, Cerro Largo, 37100",
+          "geo": {
+            "lat": -32.598803,
+            "lng": -53.415374
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.598803,-53.415374"
+        },
+        {
+          "name": "ANCAP Tupambaé Km 304.200",
+          "url": "https://www.openstreetmap.org/node/3540007573",
+          "location": "ANCAP, Km 304.200, Tupambaé, MEVIR, Tupambaé, Cerro Largo, 36100",
+          "geo": {
+            "lat": -32.838461,
+            "lng": -54.761918
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.838461,-54.761918"
+        },
+        {
+          "name": "ANCAP Ramal Ruta 2",
+          "url": "https://www.openstreetmap.org/node/3554446757",
+          "location": "ANCAP, Ramal Ruta 2, Barker, Colonia, 70007",
+          "geo": {
+            "lat": -34.260676,
+            "lng": -57.459758
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.260676,-57.459758"
+        },
+        {
+          "name": "ANCAP Ruta 106 Km 207",
+          "url": "https://www.openstreetmap.org/node/2987471327",
+          "location": "ANCAP, Km 207, Ruta 106, Colonia, 70005",
+          "geo": {
+            "lat": -34.065851,
+            "lng": -57.722507
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.065851,-57.722507"
+        },
+        {
+          "name": "ANCAP Ruta 2 Grito de Asencio (Colonia)",
+          "url": "https://www.openstreetmap.org/node/4425403215",
+          "location": "ANCAP, Ruta 2 Grito de Asencio, Colonia",
+          "geo": {
+            "lat": -34.180026,
+            "lng": -57.353371
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.180026,-57.353371"
+        },
+        {
+          "name": "ANCAP Ruta 83 Km 11",
+          "url": "https://www.openstreetmap.org/node/3684768725",
+          "location": "ANCAP, Km 11, Ruta 83, Colonia",
+          "geo": {
+            "lat": -34.260681,
+            "lng": -57.819716
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.260681,-57.819716"
+        },
+        {
+          "name": "ANCAP Ruta 55 Km 13",
+          "url": "https://www.openstreetmap.org/node/3540418283",
+          "location": "ANCAP, Km 13, Ruta 55, Campana, Colonia, 70003",
+          "geo": {
+            "lat": -34.034716,
+            "lng": -57.90252
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.034716,-57.902520"
+        },
+        {
+          "name": "ANCAP 19 de Abril 87",
+          "url": "https://www.openstreetmap.org/node/3540423344",
+          "location": "ANCAP, 87, 19 de Abril, Carmelo, Colonia, 70100",
+          "geo": {
+            "lat": -33.991045,
+            "lng": -58.282251
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.991045,-58.282251"
+        },
+        {
+          "name": "ANCAP Ruta 21 Km 255.500",
+          "url": "https://www.openstreetmap.org/node/3540437804",
+          "location": "ANCAP, Km 255.500, Ruta 21, Carmelo, Colonia, 70100",
+          "geo": {
+            "lat": -33.986782,
+            "lng": -58.283085
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.986782,-58.283085"
+        },
+        {
+          "name": "ANCAP Avenida General Artigas 1084",
+          "url": "https://www.openstreetmap.org/node/2679689399",
+          "location": "ANCAP, 1084, Avenida General Artigas, Colonia Valdense, Colonia, 70202",
+          "geo": {
+            "lat": -34.33628,
+            "lng": -57.258765
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.336280,-57.258765"
+        },
+        {
+          "name": "ANCAP Avenida Aparicio Saravia 991",
+          "url": "https://www.openstreetmap.org/node/2679620375",
+          "location": "ANCAP, 991, Avenida Aparicio Saravia, Barrio Histórico, Colonia del Sacramento, Colonia, 70000",
+          "geo": {
+            "lat": -34.454399,
+            "lng": -57.840024
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.454399,-57.840024"
+        },
+        {
+          "name": "ANCAP Avenida Buenos Aires",
+          "url": "https://www.openstreetmap.org/node/3239865965",
+          "location": "ANCAP, Avenida Buenos Aires, Barrio Manuel Lobo, Barrio Histórico, Colonia del Sacramento, Colonia, 70000",
+          "geo": {
+            "lat": -34.472006,
+            "lng": -57.842089
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.472006,-57.842089"
+        },
+        {
+          "name": "ANCAP Camino a la Palmita",
+          "url": "https://www.openstreetmap.org/node/3554424437",
+          "location": "ANCAP, Camino a la Palmita, Conchillas, Colonia, 70004",
+          "geo": {
+            "lat": -34.163751,
+            "lng": -58.011936
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.163751,-58.011936"
+        },
+        {
+          "name": "ANCAP Ruta 21 Km 228",
+          "url": "https://www.openstreetmap.org/node/3554424409",
+          "location": "ANCAP, Km 228, Ruta 21, Conchillas, Colonia",
+          "geo": {
+            "lat": -34.104456,
+            "lng": -58.06602
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.104456,-58.066020"
+        },
+        {
+          "name": "ANCAP Sarandí 571",
+          "url": "https://www.openstreetmap.org/node/3554444266",
+          "location": "ANCAP, 571, Sarandí, Cufré, Colonia, 70300",
+          "geo": {
+            "lat": -34.195283,
+            "lng": -57.10446
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.195283,-57.104460"
+        },
+        {
+          "name": "ANCAP Grito de Asencio",
+          "url": "https://www.openstreetmap.org/node/2639158715",
+          "location": "ANCAP, Grito de Asencio, Florencio Sánchez, Colonia, 75204",
+          "geo": {
+            "lat": -33.875601,
+            "lng": -57.372623
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.875601,-57.372623"
+        },
+        {
+          "name": "ANCAP Servicial",
+          "url": "https://www.openstreetmap.org/node/13119568984",
+          "location": "Servicial, Ruta 2 Grito de Asencio, Florencio Sánchez, Colonia, 75204",
+          "geo": {
+            "lat": -33.875658,
+            "lng": -57.37994
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.875658,-57.379940"
+        },
+        {
+          "name": "ANCAP Avenida Artigas 690",
+          "url": "https://www.openstreetmap.org/node/3555254326",
+          "location": "ANCAP, 690, Avenida Artigas, Juan Lacaze, Colonia, 70001",
+          "geo": {
+            "lat": -34.427844,
+            "lng": -57.444261
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.427844,-57.444261"
+        },
+        {
+          "name": "ANCAP José Artigas (Miguelete, Colonia, 70800)",
+          "url": "https://www.openstreetmap.org/node/11040358772",
+          "location": "ANCAP, José Artigas, Miguelete, Colonia, 70800",
+          "geo": {
+            "lat": -34.006555,
+            "lng": -57.646758
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.006555,-57.646758"
+        },
+        {
+          "name": "ANCAP Federico Gilomén 1284",
+          "url": "https://www.openstreetmap.org/node/3559944550",
+          "location": "ANCAP, 1284, Federico Gilomén, Nueva Helvecia, Colonia, 70201",
+          "geo": {
+            "lat": -34.283752,
+            "lng": -57.234579
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.283752,-57.234579"
+        },
+        {
+          "name": "ANCAP Federico Gilomén 1567",
+          "url": "https://www.openstreetmap.org/node/3559946900",
+          "location": "ANCAP, 1567, Federico Gilomén, Barrio Muglin, Nueva Helvecia, Colonia, 70201",
+          "geo": {
+            "lat": -34.279143,
+            "lng": -57.230036
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.279143,-57.230036"
+        },
+        {
+          "name": "ANCAP José Batlle y Ordóñez 652",
+          "url": "https://www.openstreetmap.org/node/3559946612",
+          "location": "ANCAP, 652, José Batlle y Ordóñez, Nueva Helvecia, Colonia, 70201",
+          "geo": {
+            "lat": -34.303939,
+            "lng": -57.234229
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.303939,-57.234229"
+        },
+        {
+          "name": "ANCAP José Enrique Rodó",
+          "url": "https://www.openstreetmap.org/node/3228726610",
+          "location": "ANCAP, José Enrique Rodó, Nueva Palmira, Colonia, 70101",
+          "geo": {
+            "lat": -33.872093,
+            "lng": -58.410968
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.872093,-58.410968"
+        },
+        {
+          "name": "ANCAP Ruta 12 Doctor Luis Alberto de Herrera 1406",
+          "url": "https://www.openstreetmap.org/node/2511551110",
+          "location": "ANCAP, 1406, Ruta 12 Doctor Luis Alberto de Herrera, Nueva Palmira, Colonia, 70101",
+          "geo": {
+            "lat": -33.88499,
+            "lng": -58.382354
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.884990,-58.382354"
+        },
+        {
+          "name": "ANCAP Juan Zorrilla de San Martín 750",
+          "url": "https://www.openstreetmap.org/node/1565078478",
+          "location": "ANCAP, 750, Juan Zorrilla de San Martín, Ombúes de Lavalle, Colonia, 70003",
+          "geo": {
+            "lat": -33.941989,
+            "lng": -57.813902
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.941989,-57.813902"
+        },
+        {
+          "name": "ANCAP Ruta 2 Grito de Asencio Km 130.300",
+          "url": "https://www.openstreetmap.org/node/1599270320",
+          "location": "ANCAP, Km 130.300, Ruta 2 Grito de Asencio, Rosario, Colonia, 70200",
+          "geo": {
+            "lat": -34.322628,
+            "lng": -57.349967
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.322628,-57.349967"
+        },
+        {
+          "name": "ANCAP John Fitzgerald Kennedy",
+          "url": "https://www.openstreetmap.org/node/2679689397",
+          "location": "ANCAP, John Fitzgerald Kennedy, Tarariras, Colonia, 70002",
+          "geo": {
+            "lat": -34.269649,
+            "lng": -57.604789
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.269649,-57.604789"
+        },
+        {
+          "name": "ANCAP Don Santiago",
+          "url": "https://www.openstreetmap.org/node/3684910231",
+          "location": "Don Santiago, Km 238, Ruta 6 Joaquín Suárez, Durazno",
+          "geo": {
+            "lat": -33.076003,
+            "lng": -55.454595
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.076003,-55.454595"
+        },
+        {
+          "name": "ANCAP 3 de Diciembre de 1939",
+          "url": "https://www.openstreetmap.org/node/3684904447",
+          "location": "ANCAP, 3 de Diciembre de 1939, Blanquillo, Durazno, 97002",
+          "geo": {
+            "lat": -32.885663,
+            "lng": -55.618895
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.885663,-55.618895"
+        },
+        {
+          "name": "ANCAP Francisco Sastre 18",
+          "url": "https://www.openstreetmap.org/node/3684897303",
+          "location": "ANCAP, 18, Francisco Sastre, Carmen, Durazno, 97000",
+          "geo": {
+            "lat": -33.239354,
+            "lng": -56.011232
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.239354,-56.011232"
+        },
+        {
+          "name": "ANCAP 19 de Abril 955",
+          "url": "https://www.openstreetmap.org/node/4152543290",
+          "location": "ANCAP, 955, 19 de Abril, Durazno, 97000",
+          "geo": {
+            "lat": -33.375498,
+            "lng": -56.524963
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.375498,-56.524963"
+        },
+        {
+          "name": "ANCAP Joaquín Suárez (Durazno, 97000)",
+          "url": "https://www.openstreetmap.org/node/3684866053",
+          "location": "ANCAP, Joaquín Suárez, Durazno, 97000",
+          "geo": {
+            "lat": -33.39391,
+            "lng": -56.522927
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.393910,-56.522927"
+        },
+        {
+          "name": "ANCAP Teniente General Pablo Galarza 786",
+          "url": "https://www.openstreetmap.org/node/3684897305",
+          "location": "ANCAP, 786, Teniente General Pablo Galarza, Durazno, 97000",
+          "geo": {
+            "lat": -33.387371,
+            "lng": -56.522514
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.387371,-56.522514"
+        },
+        {
+          "name": "ANCAP Celia Galarza de Sánchez Km 296",
+          "url": "https://www.openstreetmap.org/node/3684906323",
+          "location": "ANCAP, Km 296, Celia Galarza de Sánchez, La Paloma, Durazno, 97004",
+          "geo": {
+            "lat": -32.728099,
+            "lng": -55.577085
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.728099,-55.577085"
+        },
+        {
+          "name": "ANCAP Presidente Berro 604",
+          "url": "https://www.openstreetmap.org/node/3684893160",
+          "location": "ANCAP, 604, Presidente Berro, Sarandí del Yí, Durazno, 97100",
+          "geo": {
+            "lat": -33.344228,
+            "lng": -55.628471
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.344228,-55.628471"
+        },
+        {
+          "name": "ANCAP Avenida Artigas",
+          "url": "https://www.openstreetmap.org/node/3685743323",
+          "location": "ANCAP, Avenida Artigas, Ismael Cortinas, Flores, 85001",
+          "geo": {
+            "lat": -33.959432,
+            "lng": -57.09117
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.959432,-57.091170"
+        },
+        {
+          "name": "ANCAP Alfredo J. Puig 661",
+          "url": "https://www.openstreetmap.org/node/4422162667",
+          "location": "ANCAP, 661, Alfredo J. Puig, Trinidad, Flores, 85000",
+          "geo": {
+            "lat": -33.51797,
+            "lng": -56.896323
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.517970,-56.896323"
+        },
+        {
+          "name": "ANCAP Inés Durán 1061",
+          "url": "https://www.openstreetmap.org/node/2169976453",
+          "location": "ANCAP, 1061, Inés Durán, Trinidad, Flores, 85000",
+          "geo": {
+            "lat": -33.513303,
+            "lng": -56.907976
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.513303,-56.907976"
+        },
+        {
+          "name": "ANCAP Pancho López",
+          "url": "https://www.openstreetmap.org/node/2465631756",
+          "location": "ANCAP, Pancho López, Trinidad, Flores, 85000",
+          "geo": {
+            "lat": -33.527957,
+            "lng": -56.895146
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.527957,-56.895146"
+        },
+        {
+          "name": "ANCAP Ruta 5 Brigadier General Fructuoso Rivera Km 95.500",
+          "url": "https://www.openstreetmap.org/node/1953732996",
+          "location": "ANCAP, Km 95.500, Ruta 5 Brigadier General Fructuoso Rivera, Florida, 94000",
+          "geo": {
+            "lat": -34.097271,
+            "lng": -56.196119
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.097271,-56.196119"
+        },
+        {
+          "name": "ANCAP Independencia",
+          "url": "https://www.openstreetmap.org/node/3685824233",
+          "location": "ANCAP, Independencia, 25 de Mayo, Florida, 94005",
+          "geo": {
+            "lat": -34.202336,
+            "lng": -56.343723
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.202336,-56.343723"
+        },
+        {
+          "name": "ANCAP Ruta 7 General Aparicio Saravia Km 142.500",
+          "url": "https://www.openstreetmap.org/node/2849696786",
+          "location": "ANCAP, Km 142.500, Ruta 7 General Aparicio Saravia, Alejandro Gallinal, Florida, 94101",
+          "geo": {
+            "lat": -33.86557,
+            "lng": -55.550921
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.865570,-55.550921"
+        },
+        {
+          "name": "ANCAP Avenida General Artigas 33",
+          "url": "https://www.openstreetmap.org/node/3686014135",
+          "location": "ANCAP, 33, Avenida General Artigas, Cardal, Florida, 95200",
+          "geo": {
+            "lat": -34.291763,
+            "lng": -56.393609
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.291763,-56.393609"
+        },
+        {
+          "name": "ANCAP Avenida Asamblea de la Florida",
+          "url": "https://www.openstreetmap.org/node/2852730404",
+          "location": "ANCAP, Avenida Asamblea de la Florida, Casupá, Florida, 94100",
+          "geo": {
+            "lat": -34.100285,
+            "lng": -55.653163
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.100285,-55.653163"
+        },
+        {
+          "name": "ANCAP 25 de Agosto 20",
+          "url": "https://www.openstreetmap.org/node/3686150889",
+          "location": "ANCAP, 20, 25 de Agosto, Chamizo, Florida, 96100",
+          "geo": {
+            "lat": -34.244002,
+            "lng": -55.91777
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.244002,-55.917770"
+        },
+        {
+          "name": "ANCAP 18 de Julio 356",
+          "url": "https://www.openstreetmap.org/node/3699042043",
+          "location": "ANCAP, 356, 18 de Julio, Florida, 94000",
+          "geo": {
+            "lat": -34.099695,
+            "lng": -56.211059
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.099695,-56.211059"
+        },
+        {
+          "name": "ANCAP Cyro Giambruno 74",
+          "url": "https://www.openstreetmap.org/node/3686295269",
+          "location": "ANCAP, 74, Cyro Giambruno, Fray Marcos, Florida, 96200",
+          "geo": {
+            "lat": -34.197001,
+            "lng": -55.742225
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.197001,-55.742225"
+        },
+        {
+          "name": "ANCAP Ruta 5 Brigadier General Fructuoso Rivera Km 74",
+          "url": "https://www.openstreetmap.org/node/3686320601",
+          "location": "ANCAP, Km 74, Ruta 5 Brigadier General Fructuoso Rivera, Mendoza, Florida, 94003",
+          "geo": {
+            "lat": -34.281066,
+            "lng": -56.216984
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.281066,-56.216984"
+        },
+        {
+          "name": "ANCAP Avenida Artigas 705",
+          "url": "https://www.openstreetmap.org/node/3700057185",
+          "location": "ANCAP, 705, Avenida Artigas, Sarandí Grande, Florida, 94100",
+          "geo": {
+            "lat": -33.723206,
+            "lng": -56.331666
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.723206,-56.331666"
+        },
+        {
+          "name": "ANCAP Ruta 5 Brigadier General Fructuoso Rivera Km 139.500",
+          "url": "https://www.openstreetmap.org/node/3699965295",
+          "location": "ANCAP, Km 139.500, Ruta 5 Brigadier General Fructuoso Rivera, Sarandí Grande, Florida, 94100",
+          "geo": {
+            "lat": -33.734192,
+            "lng": -56.321907
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.734192,-56.321907"
+        },
+        {
+          "name": "ANCAP Ruta 108 Wilson Ferreira Aldunate",
+          "url": "https://www.openstreetmap.org/node/4415542393",
+          "location": "ANCAP, Ruta 108 Wilson Ferreira Aldunate, Lavalleja",
+          "geo": {
+            "lat": -34.294021,
+            "lng": -55.491898
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.294021,-55.491898"
+        },
+        {
+          "name": "ANCAP 19 de Abril",
+          "url": "https://www.openstreetmap.org/node/2849676913",
+          "location": "ANCAP, 19 de Abril, José Batlle y Ordóñez, Lavalleja, 30200",
+          "geo": {
+            "lat": -33.470464,
+            "lng": -55.150153
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.470464,-55.150153"
+        },
+        {
+          "name": "ANCAP 18 de Julio (José Pedro Varela, Lavalleja, 30300)",
+          "url": "https://www.openstreetmap.org/node/3700160293",
+          "location": "ANCAP, 18 de Julio, José Pedro Varela, Lavalleja, 30300",
+          "geo": {
+            "lat": -33.457116,
+            "lng": -54.527555
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.457116,-54.527555"
+        },
+        {
+          "name": "ANCAP Ruta 8 Brigadier General Juan Antonio Lavalleja Km 182",
+          "url": "https://www.openstreetmap.org/node/2503400837",
+          "location": "ANCAP, Km 182, Ruta 8 Brigadier General Juan Antonio Lavalleja, Mariscala, Lavalleja, 30001",
+          "geo": {
+            "lat": -34.046607,
+            "lng": -54.782124
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.046607,-54.782124"
+        },
+        {
+          "name": "ANCAP Roosevelt",
+          "url": "https://www.openstreetmap.org/node/1896436487",
+          "location": "ANCAP, Roosevelt, Minas, Lavalleja, 30000",
+          "geo": {
+            "lat": -34.376534,
+            "lng": -55.240628
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.376534,-55.240628"
+        },
+        {
+          "name": "ANCAP Eduardo Fabini",
+          "url": "https://www.openstreetmap.org/node/2785373791",
+          "location": "ANCAP, Eduardo Fabini, Solís de Mataojo, Lavalleja, 30100",
+          "geo": {
+            "lat": -34.59119,
+            "lng": -55.464639
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.591190,-55.464639"
+        },
+        {
+          "name": "ANCAP Ruta 10 Juan Diaz de Solís 9000",
+          "url": "https://www.openstreetmap.org/node/2057048094",
+          "location": "ANCAP, 9000, Ruta 10 Juan Diaz de Solís, Maldonado, 20000",
+          "geo": {
+            "lat": -34.835183,
+            "lng": -54.642629
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.835183,-54.642629"
+        },
+        {
+          "name": "ANCAP General Julián de la Llana",
+          "url": "https://www.openstreetmap.org/node/3705309577",
+          "location": "ANCAP, General Julián de la Llana, Aiguá, Maldonado, 20500",
+          "geo": {
+            "lat": -34.201877,
+            "lng": -54.766334
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.201877,-54.766334"
+        },
+        {
+          "name": "ANCAP Calle 49 - La Caballada",
+          "url": "https://www.openstreetmap.org/node/12576838325",
+          "location": "ANCAP, Calle 49 - La Caballada, Buenos Aires, Maldonado, 20000",
+          "geo": {
+            "lat": -34.884869,
+            "lng": -54.789694
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.884869,-54.789694"
+        },
+        {
+          "name": "ANCAP Avenida Eduardo Víctor Haedo",
+          "url": "https://www.openstreetmap.org/node/2057076540",
+          "location": "ANCAP, Avenida Eduardo Víctor Haedo, La Barra, Maldonado, 20000",
+          "geo": {
+            "lat": -34.910584,
+            "lng": -54.865449
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.910584,-54.865449"
+        },
+        {
+          "name": "ANCAP Avenida Aiguá",
+          "url": "https://www.openstreetmap.org/node/2363600132",
+          "location": "ANCAP, Avenida Aiguá, Barrio Rivera, Sarubbi, Maldonado, 20000",
+          "geo": {
+            "lat": -34.908079,
+            "lng": -54.953078
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.908079,-54.953078"
+        },
+        {
+          "name": "ANCAP Avenida Doctor Luis Alberto de Herrera",
+          "url": "https://www.openstreetmap.org/node/2363600163",
+          "location": "ANCAP, Avenida Doctor Luis Alberto de Herrera, San Gabriel, Cerro Pelado, Maldonado, 20000",
+          "geo": {
+            "lat": -34.886699,
+            "lng": -54.977591
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.886699,-54.977591"
+        },
+        {
+          "name": "ANCAP Avenida Franklin Delano Roosevelt (Maldonado, 20000)",
+          "url": "https://www.openstreetmap.org/node/4424079013",
+          "location": "ANCAP, Avenida Franklin Delano Roosevelt, Sarubbi, Maldonado, 20000",
+          "geo": {
+            "lat": -34.91423,
+            "lng": -54.96081
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.914230,-54.960810"
+        },
+        {
+          "name": "ANCAP Avenida de Los Gauchos",
+          "url": "https://www.openstreetmap.org/node/2363600151",
+          "location": "ANCAP, Avenida de Los Gauchos, Barrio San Antonio 3, Barrio San Fernando, Maldonado, 20000",
+          "geo": {
+            "lat": -34.907808,
+            "lng": -54.943198
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.907808,-54.943198"
+        },
+        {
+          "name": "ANCAP Ruta 39",
+          "url": "https://www.openstreetmap.org/node/4087972510",
+          "location": "ANCAP, Ruta 39, La Calendaria Industrial, Maldonado, 20000",
+          "geo": {
+            "lat": -34.881494,
+            "lng": -54.950235
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.881494,-54.950235"
+        },
+        {
+          "name": "ANCAP Ruta Interbalnearia General Líber Seregni",
+          "url": "https://www.openstreetmap.org/node/4414166783",
+          "location": "ANCAP, Ruta Interbalnearia General Líber Seregni, Punta Ballena, Maldonado, 20003",
+          "geo": {
+            "lat": -34.878759,
+            "lng": -55.052654
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.878759,-55.052654"
+        },
+        {
+          "name": "ANCAP Avenida Francisco Salazar",
+          "url": "https://www.openstreetmap.org/node/2363600156",
+          "location": "ANCAP, Avenida Francisco Salazar, Punta Del Este, Maldonado, 20100",
+          "geo": {
+            "lat": -34.954107,
+            "lng": -54.93666
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.954107,-54.936660"
+        },
+        {
+          "name": "ANCAP Avenida Franklin Delano Roosevelt (Punta Del Este, Maldonado, 20100)",
+          "url": "https://www.openstreetmap.org/node/2363600146",
+          "location": "ANCAP, Avenida Franklin Delano Roosevelt, Punta Del Este, Maldonado, 20100",
+          "geo": {
+            "lat": -34.933145,
+            "lng": -54.94149
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.933145,-54.941490"
+        },
+        {
+          "name": "ANCAP Avenida Orlando Pedragosa Sierra",
+          "url": "https://www.openstreetmap.org/node/2363600158",
+          "location": "ANCAP, Avenida Orlando Pedragosa Sierra, San Rafael, Punta Del Este, Maldonado, 20100",
+          "geo": {
+            "lat": -34.942516,
+            "lng": -54.931334
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.942516,-54.931334"
+        },
+        {
+          "name": "ANCAP Bulevar General José Gervasio Artigas",
+          "url": "https://www.openstreetmap.org/node/13915709366",
+          "location": "ANCAP, Bulevar General José Gervasio Artigas, Punta Del Este, Maldonado, 20100",
+          "geo": {
+            "lat": -34.929117,
+            "lng": -54.939526
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.929117,-54.939526"
+        },
+        {
+          "name": "ANCAP El Foque (Calle 14)",
+          "url": "https://www.openstreetmap.org/node/11775985172",
+          "location": "ancap, El Foque (Calle 14), Punta Del Este, Maldonado, 20100",
+          "geo": {
+            "lat": -34.963398,
+            "lng": -54.948321
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.963398,-54.948321"
+        },
+        {
+          "name": "ANCAP El Remanso (Calle 20)",
+          "url": "https://www.openstreetmap.org/node/2043611176",
+          "location": "ANCAP, El Remanso (Calle 20), Punta Del Este, Maldonado, 20100",
+          "geo": {
+            "lat": -34.958567,
+            "lng": -54.941571
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.958567,-54.941571"
+        },
+        {
+          "name": "ANCAP 18 de Julio 1047",
+          "url": "https://www.openstreetmap.org/node/2122829064",
+          "location": "ANCAP, 1047, 18 de Julio, Centro, San Carlos, Maldonado, 20400",
+          "geo": {
+            "lat": -34.792745,
+            "lng": -54.920707
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.792745,-54.920707"
+        },
+        {
+          "name": "ANCAP Avenida 18 de Julio 1928",
+          "url": "https://www.openstreetmap.org/node/4422413706",
+          "location": "ANCAP, 1928, Avenida 18 de Julio, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.901508,
+            "lng": -56.174394
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.901508,-56.174394"
+        },
+        {
+          "name": "ANCAP Avenida 8 de Octubre 3181",
+          "url": "https://www.openstreetmap.org/node/4423751479",
+          "location": "ANCAP, 3181, Avenida 8 de Octubre, La Blanqueada, Montevideo, 11820",
+          "geo": {
+            "lat": -34.88144,
+            "lng": -56.151991
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.881440,-56.151991"
+        },
+        {
+          "name": "ANCAP Avenida 8 de Octubre 4453",
+          "url": "https://www.openstreetmap.org/node/3500218002",
+          "location": "ANCAP, 4453, Avenida 8 de Octubre, Villa Española, Montevideo, 12100",
+          "geo": {
+            "lat": -34.863966,
+            "lng": -56.134175
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.863966,-56.134175"
+        },
+        {
+          "name": "ANCAP Avenida Agraciada 2442",
+          "url": "https://www.openstreetmap.org/node/2355440497",
+          "location": "ANCAP, 2442, Avenida Agraciada, Arroyo Seco, Montevideo, 11800",
+          "geo": {
+            "lat": -34.887065,
+            "lng": -56.190308
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.887065,-56.190308"
+        },
+        {
+          "name": "ANCAP Avenida Agraciada 3653",
+          "url": "https://www.openstreetmap.org/node/2537445727",
+          "location": "ANCAP, 3653, Avenida Agraciada, Prado, Montevideo, 11700",
+          "geo": {
+            "lat": -34.865496,
+            "lng": -56.209398
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.865496,-56.209398"
+        },
+        {
+          "name": "ANCAP Avenida Alfredo Arocena 1604",
+          "url": "https://www.openstreetmap.org/node/4424877983",
+          "location": "ANCAP, 1604, Avenida Alfredo Arocena, Carrasco, Montevideo, 11500",
+          "geo": {
+            "lat": -34.88861,
+            "lng": -56.057147
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.888610,-56.057147"
+        },
+        {
+          "name": "ANCAP Avenida Burgues 3799",
+          "url": "https://www.openstreetmap.org/node/3503305989",
+          "location": "ANCAP, 3799, Avenida Burgues, Aires Puros, Montevideo, 11700",
+          "geo": {
+            "lat": -34.853328,
+            "lng": -56.181933
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.853328,-56.181933"
+        },
+        {
+          "name": "ANCAP Avenida Carlos María Ramírez 1695",
+          "url": "https://www.openstreetmap.org/node/807288381",
+          "location": "ANCAP, 1695, Avenida Carlos María Ramírez, Cerro Norte, Cerro, Montevideo, 12800",
+          "geo": {
+            "lat": -34.874273,
+            "lng": -56.25106
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.874273,-56.251060"
+        },
+        {
+          "name": "ANCAP Avenida Carlos María Ramírez 798",
+          "url": "https://www.openstreetmap.org/node/3503120556",
+          "location": "ANCAP, 798, Avenida Carlos María Ramírez, La Teja, Montevideo, 11900",
+          "geo": {
+            "lat": -34.864742,
+            "lng": -56.234775
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.864742,-56.234775"
+        },
+        {
+          "name": "ANCAP Avenida Daniel Fernández Crespo 2197",
+          "url": "https://www.openstreetmap.org/node/2447242197",
+          "location": "ANCAP, 2197, Avenida Daniel Fernández Crespo, Aguada, Montevideo, 11800",
+          "geo": {
+            "lat": -34.893504,
+            "lng": -56.184602
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.893504,-56.184602"
+        },
+        {
+          "name": "ANCAP Avenida Don Pedro de Mendoza 6049",
+          "url": "https://www.openstreetmap.org/node/3501351818",
+          "location": "ANCAP, 6049, Avenida Don Pedro de Mendoza, Toledo Chico, Montevideo, 12400",
+          "geo": {
+            "lat": -34.792938,
+            "lng": -56.165761
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.792938,-56.165761"
+        },
+        {
+          "name": "ANCAP Servicentro Sayago",
+          "url": "https://www.openstreetmap.org/node/3503305987",
+          "location": "Servicentro Sayago, 1028, Avenida General Eugenio Garzón, Sayago, Montevideo, 12900",
+          "geo": {
+            "lat": -34.830581,
+            "lng": -56.220546
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.830581,-56.220546"
+        },
+        {
+          "name": "ANCAP Avenida General Eugenio Garzón 1599",
+          "url": "https://www.openstreetmap.org/node/4424878820",
+          "location": "ANCAP, 1599, Avenida General Eugenio Garzón, Conciliación, Montevideo, 12900",
+          "geo": {
+            "lat": -34.815472,
+            "lng": -56.220672
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.815472,-56.220672"
+        },
+        {
+          "name": "ANCAP Avenida General Flores 2204",
+          "url": "https://www.openstreetmap.org/node/3502131845",
+          "location": "ANCAP, 2204, Avenida General Flores, Reus, Villa Muñoz, Montevideo, 11800",
+          "geo": {
+            "lat": -34.886934,
+            "lng": -56.184926
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.886934,-56.184926"
+        },
+        {
+          "name": "ANCAP Avenida General Flores 3090",
+          "url": "https://www.openstreetmap.org/node/2033985173",
+          "location": "ANCAP, 3090, Avenida General Flores, Jacinto Vera, Montevideo, 11800",
+          "geo": {
+            "lat": -34.870499,
+            "lng": -56.174043
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.870499,-56.174043"
+        },
+        {
+          "name": "ANCAP Estación Independencia",
+          "url": "https://www.openstreetmap.org/node/1454518037",
+          "location": "Estación Independencia, 5259, Avenida General Rivera, Malvín, Montevideo, 11403",
+          "geo": {
+            "lat": -34.890856,
+            "lng": -56.094564
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.890856,-56.094564"
+        },
+        {
+          "name": "ANCAP Avenida General Rivera 6107",
+          "url": "https://www.openstreetmap.org/node/4422029761",
+          "location": "ANCAP, 6107, Avenida General Rivera, Punta Gorda, Montevideo, 11500",
+          "geo": {
+            "lat": -34.890493,
+            "lng": -56.072633
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.890493,-56.072633"
+        },
+        {
+          "name": "ANCAP Avenida General Rondeau 1571",
+          "url": "https://www.openstreetmap.org/node/433990290",
+          "location": "ANCAP, 1571, Avenida General Rondeau, Centro, Montevideo, 11100",
+          "geo": {
+            "lat": -34.902025,
+            "lng": -56.192021
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.902025,-56.192021"
+        },
+        {
+          "name": "ANCAP Avenida General Rondeau 2109",
+          "url": "https://www.openstreetmap.org/node/4529040743",
+          "location": "ANCAP, 2109, Avenida General Rondeau, Aguada, Montevideo, 11800",
+          "geo": {
+            "lat": -34.891257,
+            "lng": -56.193183
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.891257,-56.193183"
+        },
+        {
+          "name": "ANCAP Avenida General San Martín 2947",
+          "url": "https://www.openstreetmap.org/node/1366294569",
+          "location": "ANCAP, 2947, Avenida General San Martín, Reducto, Montevideo, 11800",
+          "geo": {
+            "lat": -34.872044,
+            "lng": -56.182865
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.872044,-56.182865"
+        },
+        {
+          "name": "ANCAP Avenida Italia 2905",
+          "url": "https://www.openstreetmap.org/node/3501129507",
+          "location": "ANCAP, 2905, Avenida Italia, La Blanqueada, Montevideo, 11820",
+          "geo": {
+            "lat": -34.890164,
+            "lng": -56.151916
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.890164,-56.151916"
+        },
+        {
+          "name": "ANCAP Avenida Italia 3640",
+          "url": "https://www.openstreetmap.org/node/2217707568",
+          "location": "ANCAP, 3640, Avenida Italia, Unión, Montevideo, 11600",
+          "geo": {
+            "lat": -34.886925,
+            "lng": -56.135077
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.886925,-56.135077"
+        },
+        {
+          "name": "ANCAP Avenida Italia 4095",
+          "url": "https://www.openstreetmap.org/node/2303226966",
+          "location": "ANCAP, 4095, Avenida Italia, Malvín Norte, Montevideo, 11600",
+          "geo": {
+            "lat": -34.886749,
+            "lng": -56.122949
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.886749,-56.122949"
+        },
+        {
+          "name": "ANCAP Avenida Italia 4406",
+          "url": "https://www.openstreetmap.org/node/2261465973",
+          "location": "ANCAP, 4406, Avenida Italia, Malvín Nuevo, Montevideo, 11400",
+          "geo": {
+            "lat": -34.887589,
+            "lng": -56.114359
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.887589,-56.114359"
+        },
+        {
+          "name": "ANCAP Avenida Italia 5057",
+          "url": "https://www.openstreetmap.org/node/962188525",
+          "location": "ANCAP, 5057, Avenida Italia, Malvín, Montevideo, 11403",
+          "geo": {
+            "lat": -34.88538,
+            "lng": -56.098843
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.885380,-56.098843"
+        },
+        {
+          "name": "ANCAP Avenida Italia 6740",
+          "url": "https://www.openstreetmap.org/node/1657831190",
+          "location": "ANCAP, 6740, Avenida Italia, Carrasco Norte, Montevideo, 11500",
+          "geo": {
+            "lat": -34.877956,
+            "lng": -56.062669
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.877956,-56.062669"
+        },
+        {
+          "name": "ANCAP Avenida José Belloni 4100",
+          "url": "https://www.openstreetmap.org/node/3501328509",
+          "location": "ANCAP, 4100, Avenida José Belloni, Jardines del Hipódromo, Montevideo, 12300",
+          "geo": {
+            "lat": -34.82922,
+            "lng": -56.140551
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.829220,-56.140551"
+        },
+        {
+          "name": "ANCAP Avenida José Belloni 4643",
+          "url": "https://www.openstreetmap.org/node/3500200375",
+          "location": "ANCAP, 4643, Avenida José Belloni, Piedras Blancas, Montevideo, 12300",
+          "geo": {
+            "lat": -34.81723,
+            "lng": -56.13961
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.817230,-56.139610"
+        },
+        {
+          "name": "ANCAP Avenida Luis Alberto de Herrera 2803",
+          "url": "https://www.openstreetmap.org/node/2144534439",
+          "location": "ANCAP, 2803, Avenida Luis Alberto de Herrera, Larrañaga, Montevideo, 11820",
+          "geo": {
+            "lat": -34.877766,
+            "lng": -56.156633
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.877766,-56.156633"
+        },
+        {
+          "name": "ANCAP Avenida Luis Batlle Berres 144",
+          "url": "https://www.openstreetmap.org/node/3500217998",
+          "location": "ANCAP, 144, Avenida Luis Batlle Berres, Santiago Vázquez, Montevideo",
+          "geo": {
+            "lat": -34.788623,
+            "lng": -56.353838
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.788623,-56.353838"
+        },
+        {
+          "name": "ANCAP Avenida Millán 3771",
+          "url": "https://www.openstreetmap.org/node/2289790167",
+          "location": "ANCAP, 3771, Avenida Millán, Prado, Montevideo, 11700",
+          "geo": {
+            "lat": -34.858568,
+            "lng": -56.196193
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.858568,-56.196193"
+        },
+        {
+          "name": "ANCAP Avenida Millán 4403",
+          "url": "https://www.openstreetmap.org/node/3491459690",
+          "location": "ANCAP, 4403, Avenida Millán, Sayago, Montevideo, 11700",
+          "geo": {
+            "lat": -34.84373,
+            "lng": -56.206459
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.843730,-56.206459"
+        },
+        {
+          "name": "ANCAP Avenida de las Instrucciones 4196",
+          "url": "https://www.openstreetmap.org/node/1836154658",
+          "location": "ANCAP, 4196, Avenida de las Instrucciones, Asentamiento Villa Camila, Montevideo, 12200",
+          "geo": {
+            "lat": -34.780388,
+            "lng": -56.135255
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.780388,-56.135255"
+        },
+        {
+          "name": "ANCAP Avenida de las Instrucciones 5555",
+          "url": "https://www.openstreetmap.org/node/1994507247",
+          "location": "ANCAP, 5555, Avenida de las Instrucciones, Montevideo, 15700",
+          "geo": {
+            "lat": -34.752785,
+            "lng": -56.108342
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.752785,-56.108342"
+        },
+        {
+          "name": "ANCAP Bulevar General Artigas 3785",
+          "url": "https://www.openstreetmap.org/node/1859378464",
+          "location": "ANCAP, 3785, Bulevar General Artigas, Atahualpa, Montevideo, 11700",
+          "geo": {
+            "lat": -34.871315,
+            "lng": -56.185717
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.871315,-56.185717"
+        },
+        {
+          "name": "ANCAP Bulevar José Batlle y Ordóñez 2545",
+          "url": "https://www.openstreetmap.org/node/2217707578",
+          "location": "ANCAP, 2545, Bulevar José Batlle y Ordóñez, Unión, Montevideo, 11600",
+          "geo": {
+            "lat": -34.883549,
+            "lng": -56.142408
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.883549,-56.142408"
+        },
+        {
+          "name": "ANCAP Bulevar José Batlle y Ordóñez 2901",
+          "url": "https://www.openstreetmap.org/node/4413700536",
+          "location": "ANCAP, 2901, Bulevar José Batlle y Ordóñez, Larrañaga, Montevideo, 11820",
+          "geo": {
+            "lat": -34.878644,
+            "lng": -56.1491
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.878644,-56.149100"
+        },
+        {
+          "name": "ANCAP Bulevar José Batlle y Ordóñez 3855",
+          "url": "https://www.openstreetmap.org/node/4414166775",
+          "location": "ANCAP, 3855, Bulevar José Batlle y Ordóñez, Bolívar, Montevideo, 12000",
+          "geo": {
+            "lat": -34.865444,
+            "lng": -56.166627
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.865444,-56.166627"
+        },
+        {
+          "name": "ANCAP Camino Carrasco 4699",
+          "url": "https://www.openstreetmap.org/node/3139809678",
+          "location": "ANCAP, 4699, Camino Carrasco, Malvín Norte, Montevideo, 12100",
+          "geo": {
+            "lat": -34.871103,
+            "lng": -56.116209
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.871103,-56.116209"
+        },
+        {
+          "name": "ANCAP Colonia 1291",
+          "url": "https://www.openstreetmap.org/node/4413706189",
+          "location": "ANCAP, 1291, Colonia, Centro, Montevideo, 11100",
+          "geo": {
+            "lat": -34.904645,
+            "lng": -56.189078
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.904645,-56.189078"
+        },
+        {
+          "name": "ANCAP Cooper 2490",
+          "url": "https://www.openstreetmap.org/node/3501622644",
+          "location": "ANCAP, 2490, Cooper, Carrasco Norte, Montevideo, 11500",
+          "geo": {
+            "lat": -34.870349,
+            "lng": -56.069224
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.870349,-56.069224"
+        },
+        {
+          "name": "ANCAP Democracia 1740",
+          "url": "https://www.openstreetmap.org/node/2154849964",
+          "location": "ANCAP, 1740, Democracia, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.896666,
+            "lng": -56.175757
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.896666,-56.175757"
+        },
+        {
+          "name": "ANCAP Ingeniero José Serrato 3250",
+          "url": "https://www.openstreetmap.org/node/3501129508",
+          "location": "ANCAP, 3250, Ingeniero José Serrato, Villa Española, Montevideo, 12000",
+          "geo": {
+            "lat": -34.86203,
+            "lng": -56.15123
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.862030,-56.151230"
+        },
+        {
+          "name": "ANCAP Joanicó 3615",
+          "url": "https://www.openstreetmap.org/node/3501351817",
+          "location": "ANCAP, 3615, Joanicó, Unión, Montevideo, 11820",
+          "geo": {
+            "lat": -34.876059,
+            "lng": -56.144599
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.876059,-56.144599"
+        },
+        {
+          "name": "ANCAP Justicia 1937",
+          "url": "https://www.openstreetmap.org/node/3503120555",
+          "location": "ANCAP, 1937, Justicia, Villa Muñoz, Montevideo, 11800",
+          "geo": {
+            "lat": -34.89376,
+            "lng": -56.178745
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.893760,-56.178745"
+        },
+        {
+          "name": "ANCAP Rambla Gran Bretaña",
+          "url": "https://www.openstreetmap.org/node/953062183",
           "location": "ANCAP, Rambla Gran Bretaña, Barrio Sur, Montevideo, 11000",
           "geo": {
             "lat": -34.91021,
@@ -2113,22 +3667,1004 @@
           "mapsUrl": "https://www.google.com/maps/dir//-34.910210,-56.200815"
         },
         {
-          "name": "ANCAP",
-          "location": "ANCAP, 4196, Avenida de las Instrucciones, Montevideo, 12200",
+          "name": "ANCAP Rambla República del Perú 715",
+          "url": "https://www.openstreetmap.org/node/3404005605",
+          "location": "ANCAP, 715, Rambla República del Perú, Pocitos, Montevideo, 11300",
           "geo": {
-            "lat": -34.780388,
-            "lng": -56.135255
+            "lat": -34.919228,
+            "lng": -56.149032
           },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.780388,-56.135255"
+          "mapsUrl": "https://www.google.com/maps/dir//-34.919228,-56.149032"
         },
         {
-          "name": "ANCAP",
-          "location": "ANCAP, 2197, Avenida Daniel Fernández Crespo, Aguada, Montevideo, 11800",
+          "name": "ANCAP Ruta 1 Brigadier General Manuel Oribe (Montevideo)",
+          "url": "https://www.openstreetmap.org/node/4424867089",
+          "location": "ANCAP, Ruta 1 Brigadier General Manuel Oribe, Santiago Vázquez, Montevideo",
           "geo": {
-            "lat": -34.893504,
-            "lng": -56.184602
+            "lat": -34.818569,
+            "lng": -56.344419
           },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.893504,-56.184602"
+          "mapsUrl": "https://www.google.com/maps/dir//-34.818569,-56.344419"
+        },
+        {
+          "name": "ANCAP Ruta 8 Brigadier General Juan Antonio Lavalleja 8760",
+          "url": "https://www.openstreetmap.org/node/1296659402",
+          "location": "ANCAP, 8760, Ruta 8 Brigadier General Juan Antonio Lavalleja, Montevideo, 13000",
+          "geo": {
+            "lat": -34.792329,
+            "lng": -56.06845
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.792329,-56.068450"
+        },
+        {
+          "name": "ANCAP Ruta 8 Brigadier General Juan Antonio Lavalleja Km 13",
+          "url": "https://www.openstreetmap.org/node/3487108057",
+          "location": "ANCAP, Km 13, Ruta 8 Brigadier General Juan Antonio Lavalleja, Punta Rieles, Montevideo, 13000",
+          "geo": {
+            "lat": -34.824018,
+            "lng": -56.10112
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.824018,-56.101120"
+        },
+        {
+          "name": "ANCAP Ruta César Mayo Gutiérrez 2164",
+          "url": "https://www.openstreetmap.org/node/3501328506",
+          "location": "ANCAP, 2164, Ruta César Mayo Gutiérrez, Montevideo, 12500",
+          "geo": {
+            "lat": -34.797408,
+            "lng": -56.224074
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.797408,-56.224074"
+        },
+        {
+          "name": "ANCAP Uruguayana 3328",
+          "url": "https://www.openstreetmap.org/node/807292265",
+          "location": "ANCAP, 3328, Uruguayana, Capurro, Montevideo, 11700",
+          "geo": {
+            "lat": -34.872827,
+            "lng": -56.205321
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.872827,-56.205321"
+        },
+        {
+          "name": "ANCAP Ángel Salvo 149",
+          "url": "https://www.openstreetmap.org/node/2517420014",
+          "location": "ANCAP, 149, Ángel Salvo, Paso Molino, Montevideo, 11700",
+          "geo": {
+            "lat": -34.863304,
+            "lng": -56.216641
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.863304,-56.216641"
+        },
+        {
+          "name": "ANCAP Radial Quebracho",
+          "url": "https://www.openstreetmap.org/node/4288774087",
+          "location": "ANCAP, Radial Quebracho, Colonia Arroyo Malo, Paysandú",
+          "geo": {
+            "lat": -31.927182,
+            "lng": -58.101712
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-31.927182,-58.101712"
+        },
+        {
+          "name": "ANCAP Ruta 90 Km 63.500",
+          "url": "https://www.openstreetmap.org/node/4282396147",
+          "location": "ANCAP, Km 63.500, Ruta 90, Paysandú",
+          "geo": {
+            "lat": -32.38572,
+            "lng": -57.456075
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.385720,-57.456075"
+        },
+        {
+          "name": "ANCAP Ruta 3 General José Gervasio Artigas Km 366",
+          "url": "https://www.openstreetmap.org/node/2162055556",
+          "location": "ANCAP, Km 366, Ruta 3 General José Gervasio Artigas, Chacras de Paysandú, Paysandú, 60000",
+          "geo": {
+            "lat": -32.352578,
+            "lng": -58.050897
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.352578,-58.050897"
+        },
+        {
+          "name": "ANCAP Ruta 90 Km 6.5",
+          "url": "https://www.openstreetmap.org/node/4283022606",
+          "location": "ANCAP, Km 6.5, Ruta 90, Chacras de Paysandú, Paysandú, 60000",
+          "geo": {
+            "lat": -32.325233,
+            "lng": -58.036773
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.325233,-58.036773"
+        },
+        {
+          "name": "ANCAP Ruta 3 General José Gervasio Artigas (Chapicuy, Paysandú, 60005)",
+          "url": "https://www.openstreetmap.org/node/4282024173",
+          "location": "ANCAP, Ruta 3 General José Gervasio Artigas, Chapicuy, Paysandú, 60005",
+          "geo": {
+            "lat": -31.661778,
+            "lng": -57.891729
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-31.661778,-57.891729"
+        },
+        {
+          "name": "ANCAP Ruta 3 General José Gervasio Artigas (Constancia, Paysandú)",
+          "url": "https://www.openstreetmap.org/node/2513970832",
+          "location": "ANCAP, Ruta 3 General José Gervasio Artigas, Constancia, Paysandú",
+          "geo": {
+            "lat": -32.206465,
+            "lng": -58.001882
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.206465,-58.001882"
+        },
+        {
+          "name": "ANCAP Doctor Emilio Penza 269",
+          "url": "https://www.openstreetmap.org/node/4282206334",
+          "location": "ANCAP, 269, Doctor Emilio Penza, Barrio Valdomir Viejo, Guichón, Paysandú, 60008",
+          "geo": {
+            "lat": -32.358691,
+            "lng": -57.202214
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.358691,-57.202214"
+        },
+        {
+          "name": "ANCAP 18 de Julio (Merinos, Paysandú, 60009)",
+          "url": "https://www.openstreetmap.org/node/4282261717",
+          "location": "ANCAP, 18 de Julio, Mevir, Merinos, Paysandú, 60009",
+          "geo": {
+            "lat": -32.386775,
+            "lng": -56.911365
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.386775,-56.911365"
+        },
+        {
+          "name": "ANCAP 18 de Julio 850",
+          "url": "https://www.openstreetmap.org/node/4282563205",
+          "location": "ANCAP, 850, 18 de Julio, Paysandú, 60000",
+          "geo": {
+            "lat": -32.316476,
+            "lng": -58.089441
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.316476,-58.089441"
+        },
+        {
+          "name": "ANCAP Avenida España",
+          "url": "https://www.openstreetmap.org/node/3299604343",
+          "location": "ANCAP, Avenida España, Paysandú, 60000",
+          "geo": {
+            "lat": -32.318386,
+            "lng": -58.074433
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.318386,-58.074433"
+        },
+        {
+          "name": "ANCAP Avenida Salto 1050",
+          "url": "https://www.openstreetmap.org/node/4222958890",
+          "location": "ANCAP, 1050, Avenida Salto, Paysandú, 60000",
+          "geo": {
+            "lat": -32.307618,
+            "lng": -58.082891
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.307618,-58.082891"
+        },
+        {
+          "name": "ANCAP Charrúas 1113",
+          "url": "https://www.openstreetmap.org/node/4282811628",
+          "location": "ANCAP, 1113, Charrúas, Paysandú, 60000",
+          "geo": {
+            "lat": -32.314143,
+            "lng": -58.083095
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.314143,-58.083095"
+        },
+        {
+          "name": "ANCAP Leandro Gómez 1395",
+          "url": "https://www.openstreetmap.org/node/3299604344",
+          "location": "ANCAP, 1395, Leandro Gómez, Paysandú, 60000",
+          "geo": {
+            "lat": -32.318644,
+            "lng": -58.077123
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.318644,-58.077123"
+        },
+        {
+          "name": "ANCAP Calle 7",
+          "url": "https://www.openstreetmap.org/node/4283062341",
+          "location": "ANCAP, Calle 7, Piedra Sola, Paysandú, 45003",
+          "geo": {
+            "lat": -32.087086,
+            "lng": -56.311333
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.087086,-56.311333"
+        },
+        {
+          "name": "ANCAP Doctor Raúl Martini",
+          "url": "https://www.openstreetmap.org/node/4282149732",
+          "location": "ANCAP, Doctor Raúl Martini, Quebracho, Paysandú, 60001",
+          "geo": {
+            "lat": -31.937193,
+            "lng": -57.900064
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-31.937193,-57.900064"
+        },
+        {
+          "name": "ANCAP Davinson",
+          "url": "https://www.openstreetmap.org/node/4291157988",
+          "location": "ANCAP, Davinson, Minas de Corrales, Rivera, 41100",
+          "geo": {
+            "lat": -31.570296,
+            "lng": -55.471511
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-31.570296,-55.471511"
+        },
+        {
+          "name": "ANCAP Avenida Agraciada",
+          "url": "https://www.openstreetmap.org/node/4296361236",
+          "location": "ANCAP, Avenida Agraciada, Centro, Rivera, 40000",
+          "geo": {
+            "lat": -30.904095,
+            "lng": -55.544095
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-30.904095,-55.544095"
+        },
+        {
+          "name": "ANCAP Luis Alberto de Herrera",
+          "url": "https://www.openstreetmap.org/node/4291284514",
+          "location": "ANCAP, Luis Alberto de Herrera, Don Bosco, Rivera, 40000",
+          "geo": {
+            "lat": -30.91517,
+            "lng": -55.539277
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-30.915170,-55.539277"
+        },
+        {
+          "name": "ANCAP 25 de Agosto (Tranqueras, Rivera, 40100)",
+          "url": "https://www.openstreetmap.org/node/5852252686",
+          "location": "ANCAP, 25 de Agosto, Tranqueras, Rivera, 40100",
+          "geo": {
+            "lat": -31.190486,
+            "lng": -55.764481
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-31.190486,-55.764481"
+        },
+        {
+          "name": "ANCAP Ruta 5 Brigadier General Fructuoso Rivera Km 458",
+          "url": "https://www.openstreetmap.org/node/4290670169",
+          "location": "ANCAP, Km 458, Ruta 5 Brigadier General Fructuoso Rivera, Tranqueras, Rivera",
+          "geo": {
+            "lat": -31.251878,
+            "lng": -55.663997
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-31.251878,-55.663997"
+        },
+        {
+          "name": "ANCAP Bulevar General José Artigas",
+          "url": "https://www.openstreetmap.org/node/4296601747",
+          "location": "ANCAP, Bulevar General José Artigas, Vichadero, Rivera, 41200",
+          "geo": {
+            "lat": -31.779503,
+            "lng": -54.692288
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-31.779503,-54.692288"
+        },
+        {
+          "name": "ANCAP Bulevar General José Artigas 1128",
+          "url": "https://www.openstreetmap.org/node/4296608079",
+          "location": "ANCAP, 1128, Bulevar General José Artigas, Vichadero, Rivera, 41200",
+          "geo": {
+            "lat": -31.775267,
+            "lng": -54.687077
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-31.775267,-54.687077"
+        },
+        {
+          "name": "ANCAP Ruta 9 Coronel Leonardo Olivera Km 235",
+          "url": "https://www.openstreetmap.org/node/2057015150",
+          "location": "ANCAP, Km 235, Ruta 9 Coronel Leonardo Olivera, Rocha, 27003",
+          "geo": {
+            "lat": -34.362972,
+            "lng": -54.070229
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.362972,-54.070229"
+        },
+        {
+          "name": "ANCAP Treinta y Tres",
+          "url": "https://www.openstreetmap.org/node/2057016646",
+          "location": "ANCAP, Treinta y Tres, Castillos, Rocha, 27200",
+          "geo": {
+            "lat": -34.198246,
+            "lng": -53.857262
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.198246,-53.857262"
+        },
+        {
+          "name": "ANCAP San Miguel",
+          "url": "https://www.openstreetmap.org/node/4296698014",
+          "location": "ANCAP, San Miguel, Cebollatí, Rocha, 27302",
+          "geo": {
+            "lat": -33.269647,
+            "lng": -53.794718
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.269647,-53.794718"
+        },
+        {
+          "name": "ANCAP General Artigas 209",
+          "url": "https://www.openstreetmap.org/node/2055875034",
+          "location": "ANCAP, 209, General Artigas, Chuy, Rocha, 27100",
+          "geo": {
+            "lat": -33.694752,
+            "lng": -53.455279
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.694752,-53.455279"
+        },
+        {
+          "name": "ANCAP Ruta 9 Coronel Leonardo Olivera Km 314,400",
+          "url": "https://www.openstreetmap.org/node/2055871337",
+          "location": "ANCAP, Km 314, 400, Ruta 9 Coronel Leonardo Olivera, La Coronilla, Rocha, 27201",
+          "geo": {
+            "lat": -33.893286,
+            "lng": -53.525443
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.893286,-53.525443"
+        },
+        {
+          "name": "ANCAP Avenida Nicolás Solari",
+          "url": "https://www.openstreetmap.org/node/1285547399",
+          "location": "ANCAP, Avenida Nicolás Solari, La Paloma, Rocha, 27001",
+          "geo": {
+            "lat": -34.660023,
+            "lng": -54.154816
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.660023,-54.154816"
+        },
+        {
+          "name": "ANCAP Rincón",
+          "url": "https://www.openstreetmap.org/node/4298609075",
+          "location": "ANCAP, Rincón, Lascano, Rocha, 27300",
+          "geo": {
+            "lat": -33.677575,
+            "lng": -54.206331
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.677575,-54.206331"
+        },
+        {
+          "name": "ANCAP Ruta 15 Km 132",
+          "url": "https://www.openstreetmap.org/node/4422439571",
+          "location": "ANCAP, Km 132, Ruta 15, Lascano, Rocha, 27300",
+          "geo": {
+            "lat": -33.678967,
+            "lng": -54.210928
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.678967,-54.210928"
+        },
+        {
+          "name": "ANCAP 18 de Julio (Rocha, 27000)",
+          "url": "https://www.openstreetmap.org/node/2057014245",
+          "location": "ANCAP, 18 de Julio, Centro, Rocha, 27000",
+          "geo": {
+            "lat": -34.482525,
+            "lng": -54.332032
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.482525,-54.332032"
+        },
+        {
+          "name": "ANCAP José Pedro Ramírez 199",
+          "url": "https://www.openstreetmap.org/node/2057013568",
+          "location": "ANCAP, 199, José Pedro Ramírez, Centro, Rocha, 27000",
+          "geo": {
+            "lat": -34.483744,
+            "lng": -54.333226
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.483744,-54.333226"
+        },
+        {
+          "name": "ANCAP Ruta 9 Coronel Leonardo Olivera",
+          "url": "https://www.openstreetmap.org/node/2002106890",
+          "location": "ANCAP, Ruta 9 Coronel Leonardo Olivera, Union, Rocha, 27000",
+          "geo": {
+            "lat": -34.496281,
+            "lng": -54.327263
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.496281,-54.327263"
+        },
+        {
+          "name": "ANCAP General Artigas (Velázquez, Rocha, 27300)",
+          "url": "https://www.openstreetmap.org/node/4298609206",
+          "location": "ANCAP, General Artigas, Velázquez, Rocha, 27300",
+          "geo": {
+            "lat": -34.03477,
+            "lng": -54.280194
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.034770,-54.280194"
+        },
+        {
+          "name": "ANCAP Ruta 24 Guyunusa",
+          "url": "https://www.openstreetmap.org/node/4284999288",
+          "location": "ANCAP, Ruta 24 Guyunusa, Río Negro",
+          "geo": {
+            "lat": -32.765917,
+            "lng": -57.919985
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.765917,-57.919985"
+        },
+        {
+          "name": "ANCAP Ruta 3 General José Gervasio Artigas (Río Negro)",
+          "url": "https://www.openstreetmap.org/node/4284190699",
+          "location": "ANCAP, Ruta 3 General José Gervasio Artigas, Río Negro",
+          "geo": {
+            "lat": -32.915641,
+            "lng": -57.404338
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.915641,-57.404338"
+        },
+        {
+          "name": "ANCAP 18 de Julio (Fray Bentos, Río Negro, 65000)",
+          "url": "https://www.openstreetmap.org/node/4284693918",
+          "location": "ANCAP, 18 de Julio, Barrio Comercial, Fray Bentos, Río Negro, 65000",
+          "geo": {
+            "lat": -33.117192,
+            "lng": -58.311194
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.117192,-58.311194"
+        },
+        {
+          "name": "ANCAP 18 de Julio 1949",
+          "url": "https://www.openstreetmap.org/node/2608944938",
+          "location": "ANCAP, 1949, 18 de Julio, Barrio Comercial, Fray Bentos, Río Negro, 65000",
+          "geo": {
+            "lat": -33.125886,
+            "lng": -58.300413
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.125886,-58.300413"
+        },
+        {
+          "name": "ANCAP Camino La Feria Km 308",
+          "url": "https://www.openstreetmap.org/node/2608944941",
+          "location": "ANCAP, Km 308, Camino La Feria, Fray Bentos, Río Negro, 65000",
+          "geo": {
+            "lat": -33.144206,
+            "lng": -58.285707
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.144206,-58.285707"
+        },
+        {
+          "name": "ANCAP Ruta 2 Grito de Asencio (Fray Bentos, Río Negro)",
+          "url": "https://www.openstreetmap.org/node/876502039",
+          "location": "ANCAP, Ruta 2 Grito de Asencio, Fray Bentos, Río Negro",
+          "geo": {
+            "lat": -33.169709,
+            "lng": -58.181228
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.169709,-58.181228"
+        },
+        {
+          "name": "ANCAP José Gervasio Artigas",
+          "url": "https://www.openstreetmap.org/node/4284756047",
+          "location": "ANCAP, José Gervasio Artigas, Nuevo Berlín, Río Negro, 65002",
+          "geo": {
+            "lat": -32.979738,
+            "lng": -58.058368
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.979738,-58.058368"
+        },
+        {
+          "name": "ANCAP Basilio Lubkov",
+          "url": "https://www.openstreetmap.org/node/4284992220",
+          "location": "ANCAP, Basilio Lubkov, San Javier, Río Negro",
+          "geo": {
+            "lat": -32.666268,
+            "lng": -58.135788
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.666268,-58.135788"
+        },
+        {
+          "name": "ANCAP Montevideo",
+          "url": "https://www.openstreetmap.org/node/2169979602",
+          "location": "ANCAP, Montevideo, Young, Río Negro, 65100",
+          "geo": {
+            "lat": -32.70514,
+            "lng": -57.63116
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.705140,-57.631160"
+        },
+        {
+          "name": "ANCAP Ruta 3 General José Gervasio Artigas Km 491.500",
+          "url": "https://www.openstreetmap.org/node/272177249",
+          "location": "ANCAP, Km 491.500, Ruta 3 General José Gervasio Artigas, Salto, 50000",
+          "geo": {
+            "lat": -31.42615,
+            "lng": -57.933998
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-31.426150,-57.933998"
+        },
+        {
+          "name": "ANCAP Ute 2",
+          "url": "https://www.openstreetmap.org/node/11040511228",
+          "location": "ANCAP, Ute 2, Termas del Arapey, Salto, 50003",
+          "geo": {
+            "lat": -30.943948,
+            "lng": -57.527766
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-30.943948,-57.527766"
+        },
+        {
+          "name": "ANCAP Canelones",
+          "url": "https://www.openstreetmap.org/node/4300641315",
+          "location": "ANCAP, Canelones, Constitución, Salto, 50002",
+          "geo": {
+            "lat": -31.069244,
+            "lng": -57.849285
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-31.069244,-57.849285"
+        },
+        {
+          "name": "ANCAP Himalaya",
+          "url": "https://www.openstreetmap.org/node/1580085897",
+          "location": "Himalaya, 801, Agraciada, Zona Este, Salto, 50000",
+          "geo": {
+            "lat": -31.384262,
+            "lng": -57.964585
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-31.384262,-57.964585"
+        },
+        {
+          "name": "ANCAP Artigas 902",
+          "url": "https://www.openstreetmap.org/node/2170082617",
+          "location": "ANCAP, 902, Artigas, Malvasio, Salto, 50000",
+          "geo": {
+            "lat": -31.389052,
+            "lng": -57.964114
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-31.389052,-57.964114"
+        },
+        {
+          "name": "ANCAP Avenida Feliciano Viera",
+          "url": "https://www.openstreetmap.org/node/2162060694",
+          "location": "ANCAP, Avenida Feliciano Viera, Barrio Universitario, Salto, 50000",
+          "geo": {
+            "lat": -31.385069,
+            "lng": -57.960509
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-31.385069,-57.960509"
+        },
+        {
+          "name": "ANCAP Avenida Luis Batlle Berres",
+          "url": "https://www.openstreetmap.org/node/272177252",
+          "location": "ANCAP, Avenida Luis Batlle Berres, Gallino, Salto, 50000",
+          "geo": {
+            "lat": -31.378291,
+            "lng": -57.943937
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-31.378291,-57.943937"
+        },
+        {
+          "name": "ANCAP José Pedro Varela (Salto, 50000)",
+          "url": "https://www.openstreetmap.org/node/2162064881",
+          "location": "ANCAP, José Pedro Varela, Barrio Mi Tío, Salto, 50000",
+          "geo": {
+            "lat": -31.393148,
+            "lng": -57.946258
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-31.393148,-57.946258"
+        },
+        {
+          "name": "ANCAP Uruguay 1801",
+          "url": "https://www.openstreetmap.org/node/2162064880",
+          "location": "ANCAP, 1801, Uruguay, Centro, Salto, 50000",
+          "geo": {
+            "lat": -31.388786,
+            "lng": -57.951523
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-31.388786,-57.951523"
+        },
+        {
+          "name": "ANCAP Garage Uruguay",
+          "url": "https://www.openstreetmap.org/node/4298646724",
+          "location": "Garage Uruguay, 27, Washington Beltrán, Huracán, Salto, 50000",
+          "geo": {
+            "lat": -31.389177,
+            "lng": -57.952916
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-31.389177,-57.952916"
+        },
+        {
+          "name": "ANCAP Ruta 1 Brigadier General Manuel Oribe (San José, 80200)",
+          "url": "https://www.openstreetmap.org/node/3825310247",
+          "location": "ANCAP, Ruta 1 Brigadier General Manuel Oribe, San José, 80200",
+          "geo": {
+            "lat": -34.458316,
+            "lng": -56.904739
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.458316,-56.904739"
+        },
+        {
+          "name": "ANCAP La 66",
+          "url": "https://www.openstreetmap.org/node/4303216630",
+          "location": "La 66, Km 66, Ruta 1 Brigadier General Manuel Oribe, San José, 80005",
+          "geo": {
+            "lat": -34.558887,
+            "lng": -56.745227
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.558887,-56.745227"
+        },
+        {
+          "name": "ANCAP Ruta 3 General José Gervasio Artigas Km 140",
+          "url": "https://www.openstreetmap.org/node/4301028022",
+          "location": "ANCAP, Km 140, Ruta 3 General José Gervasio Artigas, San José",
+          "geo": {
+            "lat": -33.93566,
+            "lng": -56.752841
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.935660,-56.752841"
+        },
+        {
+          "name": "ANCAP Ruta 45 Km 107.500",
+          "url": "https://www.openstreetmap.org/node/4300679026",
+          "location": "ANCAP, Km 107.500, Ruta 45, Carreta Quemada, San José, 80000",
+          "geo": {
+            "lat": -34.170121,
+            "lng": -56.556064
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.170121,-56.556064"
+        },
+        {
+          "name": "ANCAP Ruta 1 Vieja Km 31.800",
+          "url": "https://www.openstreetmap.org/node/4300743208",
+          "location": "ANCAP, Km 31.800, Ruta 1 Vieja, Santa Mónica, Santa Maria, Ciudad del Plata, San José, 80500",
+          "geo": {
+            "lat": -34.737376,
+            "lng": -56.441722
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.737376,-56.441722"
+        },
+        {
+          "name": "ANCAP Ruta 1 Vieja",
+          "url": "https://www.openstreetmap.org/node/4300758255",
+          "location": "ANCAP, Ruta 1 Vieja, Ecilda Paullier, San José, 80002",
+          "geo": {
+            "lat": -34.361387,
+            "lng": -57.06352
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.361387,-57.063520"
+        },
+        {
+          "name": "ANCAP Ruta 1 Brigadier General Manuel Oribe Km 50.300",
+          "url": "https://www.openstreetmap.org/node/2474759856",
+          "location": "ANCAP, Km 50.300, Ruta 1 Brigadier General Manuel Oribe, Libertad, San José, 80100",
+          "geo": {
+            "lat": -34.646044,
+            "lng": -56.615782
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.646044,-56.615782"
+        },
+        {
+          "name": "ANCAP Camino Departamental Km 61",
+          "url": "https://www.openstreetmap.org/node/4033969241",
+          "location": "ANCAP, Km 61, Camino Departamental, Puntas de Valdez, San José, 80100",
+          "geo": {
+            "lat": -34.586857,
+            "lng": -56.699661
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.586857,-56.699661"
+        },
+        {
+          "name": "ANCAP Santiago Rodríguez",
+          "url": "https://www.openstreetmap.org/node/4321647616",
+          "location": "ANCAP, Santiago Rodríguez, Rodríguez, San José, 80001",
+          "geo": {
+            "lat": -34.38084,
+            "lng": -56.53876
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.380840,-56.538760"
+        },
+        {
+          "name": "ANCAP Asamblea 666",
+          "url": "https://www.openstreetmap.org/node/4316122414",
+          "location": "ANCAP, 666, Asamblea, San José, 80000",
+          "geo": {
+            "lat": -34.339652,
+            "lng": -56.710315
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.339652,-56.710315"
+        },
+        {
+          "name": "ANCAP Ruta 11 José Batlle y Ordóñez Km 92",
+          "url": "https://www.openstreetmap.org/node/2169981003",
+          "location": "ANCAP, Km 92, Ruta 11 José Batlle y Ordóñez, San José, 80000",
+          "geo": {
+            "lat": -34.335223,
+            "lng": -56.732569
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.335223,-56.732569"
+        },
+        {
+          "name": "ANCAP Ruta 3 General José Gervasio Artigas (San José, 80000)",
+          "url": "https://www.openstreetmap.org/node/2732943887",
+          "location": "ANCAP, Ruta 3 General José Gervasio Artigas, San José, 80000",
+          "geo": {
+            "lat": -34.332554,
+            "lng": -56.726257
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.332554,-56.726257"
+        },
+        {
+          "name": "ANCAP Etchenique Gómez",
+          "url": "https://www.openstreetmap.org/node/4323443341",
+          "location": "Etchenique Gómez, Km 28, 500, Ruta 14 Brigadier General Venancio Flores, Soriano",
+          "geo": {
+            "lat": -33.222846,
+            "lng": -57.724282
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.222846,-57.724282"
+        },
+        {
+          "name": "ANCAP Ruta 96",
+          "url": "https://www.openstreetmap.org/node/4326961866",
+          "location": "ANCAP, Ruta 96, Palo Solo, Soriano, 70003",
+          "geo": {
+            "lat": -33.829703,
+            "lng": -58.024867
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.829703,-58.024867"
+        },
+        {
+          "name": "ANCAP Ruta 12 Doctor Luis Alberto de Herrera Km 19,500",
+          "url": "https://www.openstreetmap.org/node/4321682559",
+          "location": "ANCAP, Km 19, 500, Ruta 12 Doctor Luis Alberto de Herrera, Agraciada, Soriano, 70102",
+          "geo": {
+            "lat": -33.807434,
+            "lng": -58.261049
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.807434,-58.261049"
+        },
+        {
+          "name": "ANCAP Constante Mendiondo",
+          "url": "https://www.openstreetmap.org/node/4323397331",
+          "location": "ANCAP, Constante Mendiondo, Cardona, Soriano, 75200",
+          "geo": {
+            "lat": -33.873005,
+            "lng": -57.372647
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.873005,-57.372647"
+        },
+        {
+          "name": "ANCAP Grito de Asencio 1799",
+          "url": "https://www.openstreetmap.org/node/2639158724",
+          "location": "ANCAP, 1799, Grito de Asencio, Dolores, Soriano, 75100",
+          "geo": {
+            "lat": -33.532989,
+            "lng": -58.2156
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.532989,-58.215600"
+        },
+        {
+          "name": "ANCAP Ruta 21 Km 321",
+          "url": "https://www.openstreetmap.org/node/2639158722",
+          "location": "ANCAP, Km 321, Ruta 21, Dolores, Soriano, 75100",
+          "geo": {
+            "lat": -33.517766,
+            "lng": -58.203941
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.517766,-58.203941"
+        },
+        {
+          "name": "ANCAP José Enrique Rodó Km 208,500",
+          "url": "https://www.openstreetmap.org/node/2639158720",
+          "location": "ANCAP, Km 208, 500, José Enrique Rodó, Soriano, 75202",
+          "geo": {
+            "lat": -33.700769,
+            "lng": -57.526339
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.700769,-57.526339"
+        },
+        {
+          "name": "ANCAP José Enrique Rodó 730",
+          "url": "https://www.openstreetmap.org/node/2142738129",
+          "location": "ANCAP, 730, José Enrique Rodó, Mercedes, Soriano, 75000",
+          "geo": {
+            "lat": -33.250399,
+            "lng": -58.030107
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.250399,-58.030107"
+        },
+        {
+          "name": "ANCAP Ruta 2 Grito de Asencio Km 278",
+          "url": "https://www.openstreetmap.org/node/2142738262",
+          "location": "ANCAP, Km 278, Ruta 2 Grito de Asencio, Mercedes, Soriano, 75000",
+          "geo": {
+            "lat": -33.263063,
+            "lng": -58.017531
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.263063,-58.017531"
+        },
+        {
+          "name": "ANCAP Radial Mercedes",
+          "url": "https://www.openstreetmap.org/node/4423674675",
+          "location": "Radial Mercedes, Km 278, 500, Ruta 2 Grito de Asencio, Mercedes, Soriano, 75000",
+          "geo": {
+            "lat": -33.261685,
+            "lng": -58.017974
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.261685,-58.017974"
+        },
+        {
+          "name": "ANCAP José Peruchena",
+          "url": "https://www.openstreetmap.org/node/2639158721",
+          "location": "ANCAP, José Peruchena, Palmitas, Soriano, 75001",
+          "geo": {
+            "lat": -33.509565,
+            "lng": -57.804406
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.509565,-57.804406"
+        },
+        {
+          "name": "ANCAP Calle 6",
+          "url": "https://www.openstreetmap.org/node/4327024867",
+          "location": "ANCAP, Calle 6, Risso, Soriano, 75003",
+          "geo": {
+            "lat": -33.626889,
+            "lng": -57.572724
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.626889,-57.572724"
+        },
+        {
+          "name": "ANCAP Ruta 2 Grito de Asencio Km 197",
+          "url": "https://www.openstreetmap.org/node/2639158718",
+          "location": "ANCAP, Km 197, Ruta 2 Grito de Asencio, Santa Catalina, Soriano, 75201",
+          "geo": {
+            "lat": -33.790771,
+            "lng": -57.491904
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.790771,-57.491904"
+        },
+        {
+          "name": "ANCAP Lavalleja",
+          "url": "https://www.openstreetmap.org/node/4330981901",
+          "location": "ANCAP, Lavalleja, Villa Soriano, Soriano, 75005",
+          "geo": {
+            "lat": -33.393512,
+            "lng": -58.318736
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.393512,-58.318736"
+        },
+        {
+          "name": "ANCAP Avenida Doctor Mauricio López Lomba",
+          "url": "https://www.openstreetmap.org/node/4335572424",
+          "location": "ANCAP, Avenida Doctor Mauricio López Lomba, Ansina, Tacuarembó, 45006",
+          "geo": {
+            "lat": -31.878812,
+            "lng": -55.461473
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-31.878812,-55.461473"
+        },
+        {
+          "name": "ANCAP Ruta 26 Brigadier General Leandro Gómez Km 355",
+          "url": "https://www.openstreetmap.org/node/4331251881",
+          "location": "ANCAP, Km 355, Ruta 26 Brigadier General Leandro Gómez, Cruz de los Caminos, Tacuarembó, 45000",
+          "geo": {
+            "lat": -32.232704,
+            "lng": -54.966553
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.232704,-54.966553"
+        },
+        {
+          "name": "ANCAP Bulevar José Artigas 208",
+          "url": "https://www.openstreetmap.org/node/2714716369",
+          "location": "ANCAP, 208, Bulevar José Artigas, Paso de los Toros, Tacuarembó, 45100",
+          "geo": {
+            "lat": -32.815569,
+            "lng": -56.503236
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.815569,-56.503236"
+        },
+        {
+          "name": "ANCAP Ruta 5 Brigadier General Fructuoso Rivera Km 251",
+          "url": "https://www.openstreetmap.org/node/4332265737",
+          "location": "ANCAP, Km 251, Ruta 5 Brigadier General Fructuoso Rivera, Paso de los Toros, Tacuarembó, 45100",
+          "geo": {
+            "lat": -32.793488,
+            "lng": -56.520061
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.793488,-56.520061"
+        },
+        {
+          "name": "ANCAP Arturo Mollo 179",
+          "url": "https://www.openstreetmap.org/node/2366460813",
+          "location": "ANCAP, 179, Arturo Mollo, San Gregorio de Polanco, Tacuarembó, 45200",
+          "geo": {
+            "lat": -32.617602,
+            "lng": -55.835779
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.617602,-55.835779"
+        },
+        {
+          "name": "ANCAP 18 de Julio 418",
+          "url": "https://www.openstreetmap.org/node/3971802294",
+          "location": "ANCAP, 418, 18 de Julio, Barrio Artigas, Tacuarembó, 45000",
+          "geo": {
+            "lat": -31.718464,
+            "lng": -55.985726
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-31.718464,-55.985726"
+        },
+        {
+          "name": "ANCAP Avenida Pablo G. Ríos",
+          "url": "https://www.openstreetmap.org/node/2723335970",
+          "location": "ANCAP, Avenida Pablo G. Ríos, Barrio Águilas Blancas, Tacuarembó, 45000",
+          "geo": {
+            "lat": -31.726533,
+            "lng": -55.971718
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-31.726533,-55.971718"
+        },
+        {
+          "name": "ANCAP Julio Alberto Goday Echenique",
+          "url": "https://www.openstreetmap.org/node/2748047261",
+          "location": "ANCAP, Julio Alberto Goday Echenique, Cerro Chato, Treinta y Tres, 35200",
+          "geo": {
+            "lat": -33.101108,
+            "lng": -55.130872
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.101108,-55.130872"
+        },
+        {
+          "name": "ANCAP Avenida del Puerto",
+          "url": "https://www.openstreetmap.org/node/4336148962",
+          "location": "ANCAP, Avenida del Puerto, La Charqueada, Treinta y Tres, 33000",
+          "geo": {
+            "lat": -33.206424,
+            "lng": -53.804412
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.206424,-53.804412"
+        },
+        {
+          "name": "ANCAP Ruta 18 Km 359.500",
+          "url": "https://www.openstreetmap.org/node/4343324156",
+          "location": "ANCAP, Km 359.500, Ruta 18, Rincón, Treinta y Tres",
+          "geo": {
+            "lat": -32.831357,
+            "lng": -53.83339
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.831357,-53.833390"
+        },
+        {
+          "name": "ANCAP Ruta 7 General Aparicio Saravia (Santa Clara de Olimar, Treinta y Tres, 35300)",
+          "url": "https://www.openstreetmap.org/node/4337126045",
+          "location": "ANCAP, Ruta 7 General Aparicio Saravia, Vivendas Convenio BHU - BPS, Santa Clara de Olimar, Treinta y Tres, 35300",
+          "geo": {
+            "lat": -32.92015,
+            "lng": -54.940284
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.920150,-54.940284"
+        },
+        {
+          "name": "ANCAP Manuel Meléndez 497",
+          "url": "https://www.openstreetmap.org/node/2775072328",
+          "location": "ANCAP, 497, Manuel Meléndez, Treinta y Tres, 33000",
+          "geo": {
+            "lat": -33.229734,
+            "lng": -54.381739
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.229734,-54.381739"
+        },
+        {
+          "name": "ANCAP Ruta 8 Brigadier General Juan Antonio Lavalleja Km 285",
+          "url": "https://www.openstreetmap.org/node/2775072341",
+          "location": "ANCAP, Km 285, Ruta 8 Brigadier General Juan Antonio Lavalleja, Treinta y Tres, 33000",
+          "geo": {
+            "lat": -33.235796,
+            "lng": -54.397701
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-33.235796,-54.397701"
+        },
+        {
+          "name": "ANCAP Joaquín Suárez (Vergara, Treinta y Tres, 33002)",
+          "url": "https://www.openstreetmap.org/node/4343365852",
+          "location": "ANCAP, Joaquín Suárez, Vergara, Treinta y Tres, 33002",
+          "geo": {
+            "lat": -32.939602,
+            "lng": -53.937143
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-32.939602,-53.937143"
         }
       ]
     }

@@ -350,6 +350,17 @@
         "mustContainMerchants": [
           "Red Expres Abast Florida - local 240"
         ]
+      },
+      {
+        "id": "brou-ancap-locations",
+        "merchantName": "ANCAP",
+        "minMerchants": 250,
+        "maxMerchants": 300,
+        "mustContainMerchants": [
+          "ANCAP Avenida Millán 3771",
+          "ANCAP Ruta 5 Brigadier General Fructuoso Rivera Km 19.700",
+          "ANCAP Lostaunau"
+        ]
       }
     ]
   },
