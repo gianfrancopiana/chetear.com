@@ -202,7 +202,7 @@ export function mergeChainDiscountRows(items: DiscountItem[]): DiscountItem[] {
         merchantUrl: undefined,
         merchantLocation: item.merchantLocation,
         merchantGeo: undefined,
-        merchantMapsUrl: undefined,
+        merchantMapsUrl: item.merchantMapsUrl,
         parentMerchant: item.parentMerchant,
         listId: undefined,
         merchantIndex: undefined,
@@ -223,7 +223,7 @@ export function mergeChainDiscountRows(items: DiscountItem[]): DiscountItem[] {
         merchantUrl: undefined,
         merchantLocation: existing.item.merchantLocation,
         merchantGeo: undefined,
-        merchantMapsUrl: undefined,
+        merchantMapsUrl: item.merchantMapsUrl,
         parentMerchant: item.parentMerchant,
         listId: undefined,
         merchantIndex: undefined,
@@ -235,6 +235,7 @@ export function mergeChainDiscountRows(items: DiscountItem[]): DiscountItem[] {
     const branchCount = group.branches.size;
     if (branchCount > 1) {
       group.item.merchantLocation = `${branchCount} sucursales`;
+      group.item.merchantMapsUrl = undefined;
     }
     output[group.index] = group.item;
   }
