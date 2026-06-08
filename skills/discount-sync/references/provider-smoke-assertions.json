@@ -141,6 +141,11 @@
         "cardFamiliesIncludes": [
           "Farmacard"
         ]
+      },
+      {
+        "merchant": "Cymaco",
+        "category": "hogar",
+        "percent": 15
       }
     ],
     "mustHaveLinkedMerchantLists": [
