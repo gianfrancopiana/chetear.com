@@ -5,6 +5,7 @@ import {
   parseDetailParams,
   serializeDetailParams,
 } from "../lib/detail-url";
+import { rowLocationText } from "../lib/discounts-ui";
 import { fetchJSONWithTimeout } from "../lib/network";
 import type { BenefitType } from "../lib/schema";
 import { escapeHtml } from "../lib/strings";
@@ -279,7 +280,7 @@ function ensureOverlay(): void {
     return;
   }
 
-  cancelButton.addEventListener("click", closeStandaloneSearch);
+  cancelButton.addEventListener("click", () => closeStandaloneSearch());
   clearButton.addEventListener("click", () => {
     if (!input) {
       return;
@@ -461,17 +462,21 @@ function renderSearch(): void {
    * Don't search `conditions` — those are eligibility rules
    * ("no aplica PedidosYa/Rappi") so brand names in there create false
    * positives that swamp the real offer at the bumped-out top-8 cap.
-   * Search the user-facing identity of an offer: merchant, parent list,
-   * provider, category, location.
+   * Search the visible identity of an offer: merchant, parent list,
+   * provider, category, and the same row location text used by home rows
+   * (branch counts only, never street addresses).
    */
   const discountMatches = discounts
-    .filter((item) =>
-      normalizeText(item.merchant).includes(query) ||
-      normalizeText(item.providerLabel).includes(query) ||
-      normalizeText(item.category).includes(query) ||
-      normalizeText(item.merchantLocation || "").includes(query) ||
-      normalizeText(item.parentMerchant || "").includes(query),
-    )
+    .filter((item) => {
+      const visibleLocation = rowLocationText(item);
+      return (
+        normalizeText(item.merchant).includes(query) ||
+        normalizeText(item.providerLabel).includes(query) ||
+        normalizeText(item.category).includes(query) ||
+        normalizeText(visibleLocation || "").includes(query) ||
+        normalizeText(item.parentMerchant || "").includes(query)
+      );
+    })
     .sort((left, right) => right.percent - left.percent)
     .slice(0, 8);
   const noResults = !searchLoading && discountMatches.length === 0;
@@ -488,6 +493,7 @@ function renderSearch(): void {
           .map(
             (item) => {
               const chip = benefitChip(item);
+              const rowLocation = rowLocationText(item);
               const chipUnit = chip.unit
                 ? `<span class="ml-px text-[10px] font-medium">${chip.unit}</span>`
                 : "";
@@ -502,7 +508,7 @@ function renderSearch(): void {
                 <div class="text-[14px] font-medium text-ink">${highlightMatch(item.merchant, rawQuery)}</div>
                 <div class="mt-0.5 flex items-center gap-1.5 text-[11px] text-ink-3">
                   <span>${escapeHtml(item.providerLabel)}</span>
-                  ${item.merchantLocation ? `<span>·</span><span>${escapeHtml(item.merchantLocation)}</span>` : ""}
+                  ${rowLocation ? `<span>·</span><span>${escapeHtml(rowLocation)}</span>` : ""}
                   ${item.category ? `<span>·</span><span>${escapeHtml(item.category)}</span>` : ""}
                 </div>
               </div>
