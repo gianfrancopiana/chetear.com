@@ -27,36 +27,42 @@ const SUPERMARKET_TERMS = {
 const RULES = [
   {
     merchant: "Ta-Ta",
+    id: "brou-tata-recompensa-10",
     category: "supermercado",
     percent: 10,
     ...SUPERMARKET_TERMS,
   },
   {
     merchant: "El Dorado",
+    id: "brou-el-dorado-recompensa-10",
     category: "supermercado",
     percent: 10,
     ...SUPERMARKET_TERMS,
   },
   {
     merchant: "Macro Mercado",
+    id: "brou-macro-mercado-recompensa-10",
     category: "supermercado",
     percent: 10,
     ...SUPERMARKET_TERMS,
   },
   {
     merchant: "Tienda Inglesa",
+    id: "brou-tienda-inglesa-recompensa-10",
     category: "supermercado",
     percent: 10,
     ...SUPERMARKET_TERMS,
   },
   {
     merchant: "Micro Macro",
+    id: "brou-micro-macro-recompensa-10",
     category: "supermercado",
     percent: 10,
     ...SUPERMARKET_TERMS,
   },
   {
     merchant: "Red Expres",
+    id: "brou-red-expres-recompensa-10",
     category: "supermercado",
     percent: 10,
     ...SUPERMARKET_TERMS,

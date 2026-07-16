@@ -83,16 +83,6 @@
           "Movie Montevideo",
           "Movie Nuevocentro"
         ]
-      },
-      {
-        "id": "itau-iplace-directory",
-        "ruleId": "itau-iplace-personal-bank-15",
-        "minMerchants": 3,
-        "maxMerchants": 3,
-        "mustContainMerchants": [
-          "iPlace Montevideo Shopping",
-          "iPlace Nuevocentro Shopping"
-        ]
       }
     ]
   },
@@ -225,7 +215,6 @@
     "mustContainMerchants": [
       "Dufour rural",
       "RDC",
-      "Fantasy On Ice",
       "Matías González",
       "Glassy Waves",
       "Optica Ernst",
@@ -382,12 +371,11 @@
     ]
   },
   "oca": {
-    "minRules": 20,
+    "minRules": 15,
     "maxRules": 40,
-    "minUniqueMerchants": 15,
+    "minUniqueMerchants": 12,
     "mustContainMerchants": [
       "Macro Mercado",
-      "Burger King",
       "Bela",
       "Chajá",
       "Movie"
@@ -418,16 +406,6 @@
         ]
       },
       {
-        "id": "oca-macro-mercado-directory",
-        "ruleId": "oca-blue-macro-mercado-10",
-        "minMerchants": 9,
-        "maxMerchants": 9,
-        "mustContainMerchants": [
-          "Macro Mercado Colonia N°17",
-          "Macro Mercado Carrasco N°3"
-        ]
-      },
-      {
         "id": "oca-tata-directory",
         "ruleId": "oca-tata-general-20",
         "minMerchants": 80,
@@ -445,14 +423,6 @@
         "mustContainMerchants": [
           "Movie Montevideo",
           "Movie Nuevocentro"
-        ]
-      },
-      {
-        "id": "oca-burger-king-locations",
-        "merchantName": "Burger King",
-        "minMerchants": 10,
-        "mustContainMerchants": [
-          "Burger King"
         ]
       }
     ]

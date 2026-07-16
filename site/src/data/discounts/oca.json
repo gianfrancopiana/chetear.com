@@ -23,36 +23,6 @@
       "id": "oca-macro-mercado-installments"
     },
     {
-      "merchant": "Burger King",
-      "category": "restaurante",
-      "percent": 20,
-      "tiers": [
-        "todas"
-      ],
-      "days": [
-        "lunes",
-        "martes",
-        "miercoles",
-        "jueves"
-      ],
-      "validUntil": "2026-06-30",
-      "excludedApps": [
-        "mercado-pago",
-        "pedidos-ya",
-        "rappi"
-      ],
-      "stackable": false,
-      "refundType": "point-of-sale",
-      "channels": [
-        "in-store"
-      ],
-      "networks": [
-        "visa",
-        "mastercard",
-        "oca"
-      ]
-    },
-    {
       "merchant": "Bela",
       "category": "indumentaria",
       "percent": 20,
@@ -153,90 +123,6 @@
       "id": "oca-tata-general-20"
     },
     {
-      "merchant": "Gelatería del Club",
-      "category": "restaurante",
-      "percent": 20,
-      "tiers": [
-        "todas"
-      ],
-      "days": [
-        "lunes",
-        "martes",
-        "miercoles",
-        "jueves"
-      ],
-      "validUntil": "2026-06-30",
-      "excludedApps": [
-        "mercado-pago",
-        "pedidos-ya",
-        "rappi"
-      ],
-      "stackable": false,
-      "refundType": "point-of-sale",
-      "channels": [
-        "in-store"
-      ],
-      "networks": [
-        "oca"
-      ]
-    },
-    {
-      "merchant": "El Club de la Papa Frita",
-      "category": "restaurante",
-      "percent": 20,
-      "tiers": [
-        "todas"
-      ],
-      "days": [
-        "lunes",
-        "martes",
-        "miercoles",
-        "jueves"
-      ],
-      "validUntil": "2026-06-30",
-      "excludedApps": [
-        "mercado-pago",
-        "pedidos-ya",
-        "rappi"
-      ],
-      "stackable": false,
-      "refundType": "point-of-sale",
-      "channels": [
-        "in-store"
-      ],
-      "networks": [
-        "oca"
-      ]
-    },
-    {
-      "merchant": "Kentucky",
-      "category": "restaurante",
-      "percent": 20,
-      "tiers": [
-        "todas"
-      ],
-      "days": [
-        "lunes",
-        "martes",
-        "miercoles",
-        "jueves"
-      ],
-      "validUntil": "2026-06-30",
-      "excludedApps": [
-        "mercado-pago",
-        "pedidos-ya",
-        "rappi"
-      ],
-      "stackable": false,
-      "refundType": "point-of-sale",
-      "channels": [
-        "in-store"
-      ],
-      "networks": [
-        "oca"
-      ]
-    },
-    {
       "merchant": "Herracor",
       "category": "hogar",
       "percent": 10,
@@ -313,56 +199,6 @@
       "notes": "12 cuotas exclusivas para Mastercard"
     },
     {
-      "merchant": "Macro Mercado",
-      "category": "supermercado",
-      "percent": 10,
-      "tiers": [
-        "todas"
-      ],
-      "days": [
-        "viernes"
-      ],
-      "validUntil": "2026-06-30",
-      "excludedApps": [
-        "mercado-pago"
-      ],
-      "stackable": false,
-      "cap": "Tope $1.000 devolucion por cuenta por mes",
-      "cardFamilies": [
-        "OCA Blue"
-      ],
-      "networks": [
-        "oca"
-      ],
-      "notes": "10% descuento + mejor precio",
-      "id": "oca-blue-macro-mercado-10"
-    },
-    {
-      "merchant": "Burger King",
-      "category": "restaurante",
-      "percent": 10,
-      "tiers": [
-        "todas"
-      ],
-      "validUntil": "2026-06-30",
-      "excludedApps": [
-        "mercado-pago",
-        "pedidos-ya",
-        "rappi"
-      ],
-      "stackable": false,
-      "refundType": "point-of-sale",
-      "channels": [
-        "in-store"
-      ],
-      "cardFamilies": [
-        "OCA Blue"
-      ],
-      "networks": [
-        "oca"
-      ]
-    },
-    {
       "merchant": "Bela",
       "category": "indumentaria",
       "percent": 10,
@@ -375,79 +211,6 @@
       ],
       "stackable": false,
       "refundType": "point-of-sale",
-      "cardFamilies": [
-        "OCA Blue"
-      ],
-      "networks": [
-        "oca"
-      ]
-    },
-    {
-      "merchant": "Gelatería del Club",
-      "category": "restaurante",
-      "percent": 10,
-      "tiers": [
-        "todas"
-      ],
-      "validUntil": "2026-06-30",
-      "excludedApps": [
-        "mercado-pago",
-        "pedidos-ya",
-        "rappi"
-      ],
-      "stackable": false,
-      "refundType": "point-of-sale",
-      "channels": [
-        "in-store"
-      ],
-      "cardFamilies": [
-        "OCA Blue"
-      ],
-      "networks": [
-        "oca"
-      ]
-    },
-    {
-      "merchant": "El Club de la Papa Frita",
-      "category": "restaurante",
-      "percent": 10,
-      "tiers": [
-        "todas"
-      ],
-      "validUntil": "2026-06-30",
-      "excludedApps": [
-        "mercado-pago",
-        "pedidos-ya",
-        "rappi"
-      ],
-      "stackable": false,
-      "channels": [
-        "in-store"
-      ],
-      "cardFamilies": [
-        "OCA Blue"
-      ],
-      "networks": [
-        "oca"
-      ]
-    },
-    {
-      "merchant": "Kentucky",
-      "category": "restaurante",
-      "percent": 10,
-      "tiers": [
-        "todas"
-      ],
-      "validUntil": "2026-06-30",
-      "excludedApps": [
-        "mercado-pago",
-        "pedidos-ya",
-        "rappi"
-      ],
-      "stackable": false,
-      "channels": [
-        "in-store"
-      ],
       "cardFamilies": [
         "OCA Blue"
       ],

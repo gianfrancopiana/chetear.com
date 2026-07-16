@@ -1754,44 +1754,6 @@
       ]
     },
     {
-      "id": "itau-iplace-directory",
-      "ruleIds": [
-        "itau-iplace-personal-bank-15"
-      ],
-      "sourceUrls": [
-        "https://www.iplace.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "iPlace Montevideo Shopping",
-          "location": "Montevideo Shopping, Av. Luis Alberto de Herrera 1290, Montevideo",
-          "geo": {
-            "lat": -34.902733,
-            "lng": -56.136807
-          },
-          "mapsUrl": "https://www.google.com/maps/place/iPlace/@-34.902733,-56.1368072,17z/data=!3m1!4b1!4m6!3m5!1s0x959f816f94405f39:0xd2572fc95fdfa9b4!8m2!3d-34.9027327!4d-56.1368072!16s%2Fg%2F11y9kccts3"
-        },
-        {
-          "name": "iPlace Punta Carretas",
-          "location": "Punta Carretas Shopping, Ellauri 350, Montevideo",
-          "geo": {
-            "lat": -34.923982,
-            "lng": -56.159401
-          },
-          "mapsUrl": "https://www.google.com/maps/place/iPlace/@-34.9239822,-56.1594012,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81330689d551:0x314f4f80de221b34!8m2!3d-34.9239822!4d-56.1594012!16s%2Fg%2F11r9w6k14h"
-        },
-        {
-          "name": "iPlace Nuevocentro Shopping",
-          "location": "Nuevocentro Shopping, Luis Alberto de Herrera 3365, Montevideo",
-          "geo": {
-            "lat": -34.869214,
-            "lng": -56.169396
-          },
-          "mapsUrl": "https://www.google.com/maps/place/iPlace/@-34.8692138,-56.1693956,17z/data=!3m1!4b1!4m6!3m5!1s0x959f810039cc5cc3:0x516fad0a2e71b3b5!8m2!3d-34.8692138!4d-56.1693956!16s%2Fg%2F11wfx1c7p4"
-        }
-      ]
-    },
-    {
       "id": "itau-samsonite-locations",
       "merchantNames": [
         "Samsonite"

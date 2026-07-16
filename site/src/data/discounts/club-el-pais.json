@@ -50,36 +50,36 @@
       "percent": 20
     },
     {
-      "merchant": "Agarrate Catalina",
+      "merchant": "¿Estás ahí?",
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "10 de septiembre - 21hs. Lugar: Antel Arena",
-      "validUntil": "2026-09-10"
+      "notes": "06 de agosto - 20:30 hs. Lugar: Auditorio Adela Reta",
+      "validUntil": "2026-08-06"
     },
     {
-      "merchant": "Alaclownddin",
+      "merchant": "Afro Sound Choir",
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "27 de junio al 12 de julio. Lugar: ACJ Montevideo",
-      "validUntil": "2026-07-12"
+      "notes": "7 de Agosto - 21:30 hs. Lugar: Pueblo Narakan",
+      "validUntil": "2026-08-07"
     },
     {
-      "merchant": "Alaclownddin",
+      "merchant": "Al borde del puente",
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "02 de julio - 16hs. Lugar: Centro Cultural La Experimental",
-      "validUntil": "2026-07-02"
+      "notes": "Del 14 al 16 de agosto. Lugar: Centro Cultural Terminal Goes",
+      "validUntil": "2026-08-16"
     },
     {
-      "merchant": "Aladdín: un musical genial",
+      "merchant": "Ballet Nacional del Sodre – Tócame, Con Amor",
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "27 de junio al 5 de julio. Lugar: Auditorio Nelly Goitiño",
-      "validUntil": "2026-07-05"
+      "notes": "Del 14 al 19 de julio. Lugar: Auditorio Adela Reta",
+      "validUntil": "2026-07-19"
     },
     {
       "merchant": "Ballet Nacional Sodre",
@@ -96,12 +96,19 @@
       "validUntil": "2026-12-20"
     },
     {
-      "merchant": "Brainrots Italianos",
+      "merchant": "Buenos Muchachos – En realidad…",
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "10 de julio. Lugar: Antel Arena",
-      "validUntil": "2026-07-10"
+      "notes": "21 de nov - 21:00 hs. Lugar: Antel Arena"
+    },
+    {
+      "merchant": "Campedrinos Mate y Folklore tour",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "22 de Agosto - 21 hs. Lugar: Sala Camacuá",
+      "validUntil": "2026-08-22"
     },
     {
       "merchant": "Canto del Cisne – La Filarmónica",
@@ -134,28 +141,20 @@
       "benefitType": "2-for-1"
     },
     {
-      "merchant": "Copados",
+      "merchant": "Daniel K – Mentiras Verdaderas",
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "13, 20 y 27 de junio - 4 de julio. Lugar: Teatro Alianza",
-      "validUntil": "2026-07-04"
+      "notes": "5 de setiembre - 21 hs. Lugar: Movie Montevideo",
+      "validUntil": "2026-09-05"
     },
     {
-      "merchant": "El aplauso final – Iñaki Urlezaga",
+      "merchant": "El caso inevitable del Sr. Méndez",
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "29 de agosto - 21hs. Lugar: Auditorio Adela Reta",
-      "validUntil": "2026-08-29"
-    },
-    {
-      "merchant": "El camino de los árboles",
-      "category": "entretenimiento",
-      "percent": 50,
-      "benefitType": "2-for-1",
-      "notes": "27 de junio al 5 de julio. Lugar: Auditorio Adela Reta",
-      "validUntil": "2026-07-05"
+      "notes": "Del 17 de julio al 28 de agosto. Lugar: Teatro Alianza",
+      "validUntil": "2026-08-28"
     },
     {
       "merchant": "El Jefe del Jefe",
@@ -166,12 +165,28 @@
       "validUntil": "2026-11-27"
     },
     {
-      "merchant": "El Principito, El musical",
+      "merchant": "Elena Roger en Concierto",
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "27 de junio al 5 de julio. Lugar: Auditorio Nelly Goitiño",
-      "validUntil": "2026-07-05"
+      "notes": "23 de Octubre - 20 hs. Lugar: Teatro El Galpón",
+      "validUntil": "2026-10-23"
+    },
+    {
+      "merchant": "Extraña Pareja",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "8 y 9 de agosto. Lugar: Teatro Alianza",
+      "validUntil": "2026-08-09"
+    },
+    {
+      "merchant": "Florencia Núñez – Gira Década y Media – Sodre",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "18 de octubre - 20:00 hs. Lugar: Auditorio Adela Reta",
+      "validUntil": "2026-10-18"
     },
     {
       "merchant": "FutVolt",
@@ -180,12 +195,36 @@
       "benefitType": "2-for-1"
     },
     {
-      "merchant": "Guillermo Wood",
+      "merchant": "Guasones",
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "16 de julio - 21hs. Lugar: Auditorio Adela Reta",
-      "validUntil": "2026-07-16"
+      "notes": "12 de Septiembre - 21 hs. Lugar: Plaza de Toros Real de San Carlos",
+      "validUntil": "2026-09-12"
+    },
+    {
+      "merchant": "Hablame de Cáncer",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "Del 14 al 30 de agosto - 20 hs. Lugar: Piso 19 - Hospital de Clínicas de Montevideo",
+      "validUntil": "2026-08-30"
+    },
+    {
+      "merchant": "Hola Fin del Mundo",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "24, 25 y 26 de julio. Lugar: Auditorio Adela Reta",
+      "validUntil": "2026-07-26"
+    },
+    {
+      "merchant": "Jorge Nasser — 40 años de canciones",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "01 de octubre - 21:00 hs. Lugar: Auditorio Adela Reta",
+      "validUntil": "2026-10-01"
     },
     {
       "merchant": "Julieta Díaz & Diego Presa Quinteto",
@@ -196,28 +235,12 @@
       "validUntil": "2026-07-18"
     },
     {
-      "merchant": "La Bella y la Bestia – El Musical",
+      "merchant": "La Casa de Bernarda Alba",
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "27 de junio. 4 y 11 de julio. Lugar: ACJ Montevideo",
-      "validUntil": "2026-07-11"
-    },
-    {
-      "merchant": "La Bella y la Bestia – El Musical",
-      "category": "entretenimiento",
-      "percent": 50,
-      "benefitType": "2-for-1",
-      "notes": "1 de julio - 16hs. Lugar: Centro Cultural La Experimental",
-      "validUntil": "2026-07-01"
-    },
-    {
-      "merchant": "La cena de los tontos",
-      "category": "entretenimiento",
-      "percent": 50,
-      "benefitType": "2-for-1",
-      "notes": "13 y 14 de agosto - 20 hs.. Lugar: Teatro El Galpón",
-      "validUntil": "2026-08-14"
+      "notes": "del 30 de julio al 6 de septiembre. Lugar: Teatro Solís",
+      "validUntil": "2026-09-06"
     },
     {
       "merchant": "La Dolce Vita – La Filarmónica",
@@ -228,14 +251,6 @@
       "validUntil": "2026-10-21"
     },
     {
-      "merchant": "La Filarmónica – Beethoven #1",
-      "category": "entretenimiento",
-      "percent": 50,
-      "benefitType": "2-for-1",
-      "notes": "24 de junio - 19:30 hs. Lugar: Teatro Solís",
-      "validUntil": "2026-06-24"
-    },
-    {
       "merchant": "La Filarmónica Rossini – Haydn – Dvorak",
       "category": "entretenimiento",
       "percent": 50,
@@ -244,28 +259,51 @@
       "validUntil": "2026-07-29"
     },
     {
-      "merchant": "La Granja de Zenon",
+      "merchant": "La Omisión de la Familia Coleman",
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "10 de julio - 14hs. Lugar: Antel Arena",
-      "validUntil": "2026-07-10"
+      "notes": "21 de agosto - 20:15 hs. Lugar: Movie Montevideo",
+      "validUntil": "2026-08-21"
     },
     {
-      "merchant": "Las Hijas",
+      "merchant": "Loop",
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "15 y 16 de octubre. Lugar: Teatro El Galpón",
-      "validUntil": "2026-10-16"
+      "notes": "Viernes de agosto - 20:30 hs. Lugar: Teatro Alianza"
     },
     {
-      "merchant": "Lito Vitale – Hilda Lizarazu",
+      "merchant": "Los Abuelos de la Nada",
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "19 de Junio - 21 hs. Lugar: Pueblo Narakan",
-      "validUntil": "2026-06-19"
+      "notes": "22 de agosto - 21 hs. Lugar: Teatro Metro",
+      "validUntil": "2026-08-22"
+    },
+    {
+      "merchant": "Los Abuelos de la Nada",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "Sábado 22 de Agosto - 21 hs. Lugar: Teatro Metro",
+      "validUntil": "2026-08-22"
+    },
+    {
+      "merchant": "Los Nocheros 40 años – Montevideo",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "28 de octubre - 20:30 hs. Lugar: Auditorio Adela Reta",
+      "validUntil": "2026-10-28"
+    },
+    {
+      "merchant": "Los Nocheros 40 años – San José",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "29 de octubre - 20:30 hs. Lugar: Teatro Macció",
+      "validUntil": "2026-10-29"
     },
     {
       "merchant": "Maia Castro – 20 años",
@@ -276,12 +314,36 @@
       "validUntil": "2026-08-22"
     },
     {
-      "merchant": "Matías Gómez presenta: ¡Será Posible!",
+      "merchant": "Martín Buscaglia",
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "27 de junio al 12 de julio. Lugar: Magnolio Sala",
-      "validUntil": "2026-07-12"
+      "notes": "24 de Julio - 21:30 hs. Lugar: Pueblo Narakan",
+      "validUntil": "2026-07-24"
+    },
+    {
+      "merchant": "Memphis La Blusera",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "14 de Agosto - 21:30 hs. Lugar: Pueblo Narakan",
+      "validUntil": "2026-08-14"
+    },
+    {
+      "merchant": "Midachi",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "14 de noviembre - 21:00 hs. Lugar: Antel Arena",
+      "validUntil": "2026-11-14"
+    },
+    {
+      "merchant": "Milongas Extremas",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "Jueves 22 de octubre - 21:00 hs. Lugar: Antel Arena",
+      "validUntil": "2026-10-22"
     },
     {
       "merchant": "Montoya Woman 6k",
@@ -305,12 +367,12 @@
       "notes": "A partir de $400"
     },
     {
-      "merchant": "Noelia Pace",
+      "merchant": "Noche de la Nostalgia en Plaza de Toros",
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "8 de setiembre. Lugar: Teatro El Galpón",
-      "validUntil": "2026-09-08"
+      "notes": "24 de Agosto - 22 hs. Lugar: Plaza de Toros Real de San Carlos",
+      "validUntil": "2026-08-24"
     },
     {
       "merchant": "OFM Gala Aniversario Del Teatro Solís",
@@ -321,10 +383,34 @@
       "validUntil": "2026-08-19"
     },
     {
+      "merchant": "OJNS – Gala de Año Nuevo",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "30 de diciembre - 20:00 hs. Lugar: Auditorio Adela Reta",
+      "validUntil": "2026-12-30"
+    },
+    {
+      "merchant": "Olivia Wald",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "23 de agosto - 21 hs. Lugar: Sala del Museo del Carnaval",
+      "validUntil": "2026-08-23"
+    },
+    {
       "merchant": "Orquesta Sinfónia Nacional Sodre",
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1"
+    },
+    {
+      "merchant": "OSSODRE – Bohemia",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "08 de agosto - 20:00 hs. Lugar: Auditorio Adela Reta",
+      "validUntil": "2026-08-08"
     },
     {
       "merchant": "OSSODRE – Eternidad",
@@ -343,12 +429,20 @@
       "validUntil": "2026-10-17"
     },
     {
-      "merchant": "Plim Plim",
+      "merchant": "OSSODRE – Idilio",
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "4 de julio - 15hs. Lugar: Movie Montevideo",
-      "validUntil": "2026-07-04"
+      "notes": "31 de octubre - 20:00 hs. Lugar: Auditorio Adela Reta",
+      "validUntil": "2026-10-31"
+    },
+    {
+      "merchant": "OSSODRE – Romántico",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "05 de septiembre - 20:00 hs. Lugar: Auditorio Adela Reta",
+      "validUntil": "2026-09-05"
     },
     {
       "merchant": "Por hoy dejamos acá",
@@ -359,44 +453,12 @@
       "validUntil": "2026-07-30"
     },
     {
-      "merchant": "Recital de piano, Manuel de falla / 150 años",
+      "merchant": "Rodri Lussich – Acelerado",
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "23 de junio - 20hs. Lugar: Teatro Solís",
-      "validUntil": "2026-06-23"
-    },
-    {
-      "merchant": "Salvaje: Opa! Payasos",
-      "category": "entretenimiento",
-      "percent": 50,
-      "benefitType": "2-for-1",
-      "notes": "2, 3 y 4 de julio. Lugar: Sala Zitarrosa",
-      "validUntil": "2026-07-04"
-    },
-    {
-      "merchant": "Sentido Mensaje",
-      "category": "entretenimiento",
-      "percent": 50,
-      "benefitType": "2-for-1",
-      "notes": "6 de mayo al 24 de junio. Lugar: ACJ - Sala George Williams",
-      "validUntil": "2026-06-24"
-    },
-    {
-      "merchant": "Sentido Mensaje",
-      "category": "entretenimiento",
-      "percent": 50,
-      "benefitType": "2-for-1",
-      "notes": "21 de mayo - 3 y 10 de junio. Lugar: Finisterre",
-      "validUntil": "2026-06-10"
-    },
-    {
-      "merchant": "Suma Camerata en vivo",
-      "category": "entretenimiento",
-      "percent": 50,
-      "benefitType": "2-for-1",
-      "notes": "01 de agosto - 21hs. Lugar: La Trastienda",
-      "validUntil": "2026-08-01"
+      "notes": "15 de agosto - 20 hs. Lugar: Movie Montevideo",
+      "validUntil": "2026-08-15"
     },
     {
       "merchant": "Tantoman – Porfiados",
@@ -436,12 +498,28 @@
       "validUntil": "2026-09-30"
     },
     {
+      "merchant": "Trotsky Vengarán y Mariano Martínez",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "31 de octubre - 21:00 hs. Lugar: Teatro de Verano",
+      "validUntil": "2026-10-31"
+    },
+    {
       "merchant": "Un Poyo Rojo",
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
       "notes": "24 de Julio - 20:30 hs. Lugar: Teatro Metro",
       "validUntil": "2026-07-24"
+    },
+    {
+      "merchant": "Valeria Lynch en el Sodre",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "01 de noviembre - 20:00 hs. Lugar: Auditorio Adela Reta",
+      "validUntil": "2026-11-01"
     },
     {
       "merchant": "Horneros Racket Club",
@@ -458,12 +536,6 @@
       "notes": "Primer martes de cada mes"
     },
     {
-      "merchant": "Sushi Company",
-      "category": "entretenimiento",
-      "percent": 20,
-      "notes": "Take Away"
-    },
-    {
       "merchant": "Club del Bosque",
       "category": "entretenimiento",
       "percent": 15
@@ -472,6 +544,22 @@
       "merchant": "Palacio de la Música",
       "category": "entretenimiento",
       "percent": 15
+    },
+    {
+      "merchant": "Dino Aventura",
+      "category": "entretenimiento",
+      "percent": 0,
+      "notes": "Hasta el 31 de julio. Lugar: Rural del Prado",
+      "validUntil": "2026-07-31",
+      "benefitType": "gift"
+    },
+    {
+      "merchant": "TURF",
+      "category": "entretenimiento",
+      "percent": 0,
+      "notes": "22 de Agosto - 21 hs. Lugar: Plaza de Toros Real de San Carlos",
+      "validUntil": "2026-08-22",
+      "benefitType": "gift"
     },
     {
       "merchant": "Barraca Malvín",
@@ -540,6 +628,16 @@
     },
     {
       "merchant": "BBQ",
+      "category": "hogar",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Cala Blanquería",
       "category": "hogar",
       "percent": 20,
       "days": [
@@ -1608,6 +1706,12 @@
       "percent": 20
     },
     {
+      "merchant": "Sushi Company",
+      "category": "restaurante",
+      "percent": 20,
+      "notes": "Take Away"
+    },
+    {
       "merchant": "Sushi Go",
       "category": "restaurante",
       "percent": 20
@@ -1681,36 +1785,6 @@
       "percent": 25
     },
     {
-      "merchant": "Don Antonio Posada",
-      "category": "viajes",
-      "percent": 25
-    },
-    {
-      "merchant": "Frontier Hotel Rivera",
-      "category": "viajes",
-      "percent": 25
-    },
-    {
-      "merchant": "Like Design Rivera",
-      "category": "viajes",
-      "percent": 25
-    },
-    {
-      "merchant": "Real Colonia Hotel & Suites",
-      "category": "viajes",
-      "percent": 25
-    },
-    {
-      "merchant": "UY Proa Sur Hotel",
-      "category": "viajes",
-      "percent": 25
-    },
-    {
-      "merchant": "Vivaldi",
-      "category": "viajes",
-      "percent": 25
-    },
-    {
       "merchant": "Aereopuertos VIP Club",
       "category": "viajes",
       "percent": 20
@@ -1746,7 +1820,17 @@
       "percent": 20
     },
     {
+      "merchant": "Don Antonio Posada",
+      "category": "viajes",
+      "percent": 20
+    },
+    {
       "merchant": "Entre Pinos Eco Box",
+      "category": "viajes",
+      "percent": 20
+    },
+    {
+      "merchant": "Frontier Hotel Rivera",
       "category": "viajes",
       "percent": 20
     },
@@ -1801,6 +1885,11 @@
       "percent": 20
     },
     {
+      "merchant": "Like Design Rivera",
+      "category": "viajes",
+      "percent": 20
+    },
+    {
       "merchant": "Posada Plaza Mayor",
       "category": "viajes",
       "percent": 20
@@ -1811,12 +1900,22 @@
       "percent": 20
     },
     {
+      "merchant": "Real Colonia Hotel & Suites",
+      "category": "viajes",
+      "percent": 20
+    },
+    {
       "merchant": "Regency Park",
       "category": "viajes",
       "percent": 20
     },
     {
       "merchant": "Salinas del Almirón Resort Termal",
+      "category": "viajes",
+      "percent": 20
+    },
+    {
+      "merchant": "UY Proa Sur Hotel",
       "category": "viajes",
       "percent": 20
     }

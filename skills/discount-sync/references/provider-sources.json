@@ -11,28 +11,171 @@
     "blueprintPath": "skills/discount-sync/references/provider-blueprints/itau.md",
     "notes": "Always open Itaú benefit cards via Ver más/detail view and confirm tier/day splits before changing percentages.",
     "inScope": [
-      { "title": "15% menos en restaurantes", "note": "Broad category, premium/general split" },
-      { "title": "15% menos en moda", "note": "Broad category label with first-party merchant grid; link to merchant directory so runtime expands individual stores" },
-      { "title": "15%  menos en iPlace", "note": "Premium/Personal Bank only. The double space in the title is on the live source." },
-      { "title": "25% menos en Bosch y Cia" },
-      { "title": "15% menos en Starbucks en bebidas", "note": "Day logic on bar-prepared drinks; preserve scope in notes" },
-      { "title": "15% menos en Riviera Joyería" },
-      { "title": "25% y 15% menos en Farmacia El Túnel", "note": "Premium vs general split with day logic" },
-      { "title": "25% y 15% menos en San Roque", "note": "Same shape as Farmacia El Túnel (premium/general + day). Live detail currently prints an expired 31/03/2026 window; source visibility overrides that stale date, so omit past validUntil while the card remains visible." },
-      { "title": "25% y 15% menos en Espacio Aroma", "note": "Premium/Personal Bank vs general-credit split" },
-      { "title": "15% menos en CIR Acondicionamiento térmico" },
-      { "title": "2x1 en Movie", "note": "benefitType=2-for-1; Débito Volar (incl. junior) all days, Débito azul + Cuenta Pocket Mon-Wed (Pocket web-only); cap 4 tickets/card per session; doesn't stack; July break skips azul; validUntil 2026-07-31" },
-      { "title": "2x1 en Freddo", "note": "benefitType=2-for-1; débito tab — verify days, tiers, and cap on next sync via the detail modal" },
-      { "title": "2x1 en Las Delicias", "note": "benefitType=2-for-1; débito tab — verify days, tiers, and cap on next sync" },
-      { "title": "2x1 en Heladería La Nevada - Salto", "note": "benefitType=2-for-1; débito tab; Salto only — verify days, tiers, cap on next sync" },
-      { "title": "10% menos en Mosca", "note": "Personal Bank tab — verify days, channels, cap on next sync" }
+      {
+        "title": "15% menos en restaurantes",
+        "note": "Broad category, premium/general split"
+      },
+      {
+        "title": "15% menos en moda",
+        "note": "Broad category label with first-party merchant grid; link to merchant directory so runtime expands individual stores"
+      },
+      {
+        "title": "15% menos en Bosch y Cia",
+        "note": "Credit cards; source now shows 15% (was 25%)"
+      },
+      {
+        "title": "15% menos en Starbucks en bebidas",
+        "note": "Day logic on bar-prepared drinks; preserve scope in notes"
+      },
+      {
+        "title": "15% menos en Riviera Joyería"
+      },
+      {
+        "title": "25% y 15% menos en Farmacia El Túnel",
+        "note": "Premium vs general split with day logic"
+      },
+      {
+        "title": "25% y 15% menos en San Roque",
+        "note": "Same shape as Farmacia El Túnel (premium/general + day). Live detail currently prints an expired 31/03/2026 window; source visibility overrides that stale date, so omit past validUntil while the card remains visible."
+      },
+      {
+        "title": "15% menos en CIR Acondicionamiento térmico"
+      },
+      {
+        "title": "2x1 en Movie",
+        "note": "benefitType=2-for-1; Débito Volar (incl. junior) all days, Débito azul + Cuenta Pocket Mon-Wed (Pocket web-only); cap 4 tickets/card per session; doesn't stack; July break skips azul; validUntil 2026-07-31"
+      },
+      {
+        "title": "2x1 en Freddo",
+        "note": "benefitType=2-for-1; débito tab — verify days, tiers, and cap on next sync via the detail modal"
+      },
+      {
+        "title": "2x1 en Las Delicias",
+        "note": "benefitType=2-for-1; débito tab — verify days, tiers, and cap on next sync"
+      },
+      {
+        "title": "2x1 en Heladería La Nevada - Salto",
+        "note": "benefitType=2-for-1; débito tab; Salto only — verify days, tiers, cap on next sync"
+      },
+      {
+        "title": "10% menos en Mosca",
+        "note": "Personal Bank tab — verify days, channels, cap on next sync"
+      }
     ],
     "outOfScope": [
-      { "title": "Millas x 3 en Frog", "reason": "Miles, not a stable discount percent" },
-      { "title": "Taller de hongos en Deicas", "reason": "PDF/event one-off, not a stable merchant discount" },
-      { "title": "Compra de iPhone / Movigroup", "reason": "External landing page does not preserve a stable Itaú-specific rule beyond the teaser" },
-      { "title": "Boomerang", "reason": "Previous premium/general window ended 2026-05-16; re-include only if a new active window appears on the source." }
-    ]
+      {
+        "title": "Millas x 3 en Frog",
+        "reason": "Miles, not a stable discount percent"
+      },
+      {
+        "title": "Taller de hongos en Deicas",
+        "reason": "PDF/event one-off, not a stable merchant discount"
+      },
+      {
+        "title": "Compra de iPhone / Movigroup",
+        "reason": "External landing page does not preserve a stable Itaú-specific rule beyond the teaser"
+      },
+      {
+        "title": "Boomerang",
+        "reason": "Previous premium/general window ended 2026-05-16; re-include only if a new active window appears on the source."
+      },
+      {
+        "title": "15%  menos en iPlace",
+        "reason": "No longer visible on Itaú benefits catalog (2026-07-16)."
+      },
+      {
+        "title": "25% y 15% menos en Espacio Aroma",
+        "reason": "No longer visible on Itaú benefits catalog (2026-07-16)."
+      },
+      {
+        "title": "25% menos en Bosch y Cia",
+        "reason": "Superseded by live 15% Bosch y Cia card."
+      }
+    ],
+    "reconciliation": {
+      "pendingReview": [
+        {
+          "title": "15% menos en Cantegrill Joyas",
+          "note": "Credit jewelry discount through 2026-12-31"
+        },
+        {
+          "title": "15% menos en Loop",
+          "note": "Needs detail classification"
+        },
+        {
+          "title": "15% menos en Wikimusculos",
+          "note": "Needs detail classification"
+        },
+        {
+          "title": "15% menos y 12 cuotas en la compra de Iphone",
+          "note": "Likely financing/cuotas hybrid; confirm before runtime"
+        },
+        {
+          "title": "25% menos con Platinum, Infinite, Black y Personal",
+          "note": "Likely umbrella for premium broad rules"
+        },
+        {
+          "title": "25% menos en Puntocolor",
+          "note": "Personal Bank seasonal Inca products through 2026-07-31"
+        },
+        {
+          "title": "25% menos en Taxis Aeropuerto de Carrasco",
+          "note": "Personal Bank Jun-Aug 2026"
+        },
+        {
+          "title": "25% menos los martes",
+          "note": "Personal Bank tab overlay; confirm merchant scope"
+        },
+        {
+          "title": "25% menos todos los días",
+          "note": "Personal Bank tab overlay; confirm merchant scope"
+        },
+        {
+          "title": "25% y 15% menos en Mosca",
+          "note": "Toys/books/gaming selected articles; inScope currently only has 10% PB debit card"
+        },
+        {
+          "title": "25% y 15% menos en frazadas Campomar",
+          "note": "Online Campomar blankets promo"
+        },
+        {
+          "title": "Beneficios en hoteles",
+          "note": "Likely non-schema / points-style hotel benefits"
+        },
+        {
+          "title": "Cenas y eventos Personal Bank",
+          "note": "Events; confirm stability"
+        },
+        {
+          "title": "Millas X3 o X5 en Duty Free Uruguay",
+          "note": "Miles, not percent discount"
+        }
+      ],
+      "disappearedFromInScope": [
+        {
+          "title": "15%  menos en iPlace",
+          "note": "Removed from live catalog; dropped from runtime"
+        },
+        {
+          "title": "25% y 15% menos en Espacio Aroma",
+          "note": "Removed from live catalog; dropped from runtime"
+        }
+      ],
+      "staleOutOfScope": [
+        {
+          "title": "Boomerang"
+        },
+        {
+          "title": "Compra de iPhone / Movigroup"
+        },
+        {
+          "title": "Millas x 3 en Frog"
+        },
+        {
+          "title": "Taller de hongos en Deicas"
+        }
+      ]
+    }
   },
   {
     "provider": "santander",

@@ -77,26 +77,6 @@
       "notes": "15% en punto de venta + 15% en estado de cuenta"
     },
     {
-      "merchant": "Fantasy On Ice",
-      "category": "entretenimiento",
-      "percent": 50,
-      "benefitType": "2-for-1",
-      "days": [
-        "lunes",
-        "martes",
-        "miercoles",
-        "jueves",
-        "viernes"
-      ],
-      "validUntil": "2026-07-12",
-      "excludedApps": [
-        "mercado-pago",
-        "mercado-libre",
-        "handy"
-      ],
-      "notes": "2x1 en entradas de lunes a viernes con todas las tarjetas de crédito. No aplica en vacaciones de julio entre el 30/06 y el 06/07 inclusive. 30 minutos extra por cada hora los sábados y domingos"
-    },
-    {
       "merchant": "Matías González",
       "category": "farmacia",
       "percent": 20,

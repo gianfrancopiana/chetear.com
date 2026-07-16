@@ -46,54 +46,6 @@
       "notes": "Solo locales adheridos"
     },
     {
-      "merchant": "iPlace",
-      "category": "electronica",
-      "percent": 15,
-      "tiers": [
-        "platinum",
-        "black",
-        "infinite"
-      ],
-      "stackable": false,
-      "cardFamilies": [
-        "Personal Bank"
-      ],
-      "notes": "No aplica Cuenta Pocket",
-      "id": "itau-iplace-personal-bank-15"
-    },
-    {
-      "merchant": "Samsonite",
-      "category": "indumentaria",
-      "percent": 25,
-      "tiers": [
-        "black",
-        "infinite"
-      ],
-      "days": [
-        "jueves",
-        "sabado"
-      ],
-      "validUntil": "2026-06-30",
-      "stackable": false,
-      "cardFamilies": [
-        "Personal Bank"
-      ]
-    },
-    {
-      "merchant": "Samsonite",
-      "category": "indumentaria",
-      "percent": 15,
-      "tiers": [
-        "platinum"
-      ],
-      "days": [
-        "jueves",
-        "sabado"
-      ],
-      "validUntil": "2026-06-30",
-      "stackable": false
-    },
-    {
       "merchant": "Farmacia El Túnel",
       "category": "farmacia",
       "percent": 25,
@@ -108,7 +60,8 @@
       ],
       "stackable": true,
       "channels": [
-        "online"
+        "online",
+        "in-store"
       ],
       "cardFamilies": [
         "Personal Bank"
@@ -123,7 +76,8 @@
       ],
       "stackable": true,
       "channels": [
-        "online"
+        "online",
+        "in-store"
       ],
       "cardFamilies": [
         "Volar"
@@ -178,53 +132,6 @@
       ]
     },
     {
-      "merchant": "Dobarro & Pichel",
-      "category": "hogar",
-      "percent": 15,
-      "tiers": [
-        "todas"
-      ],
-      "validUntil": "2026-08-31",
-      "stackable": false,
-      "networks": [
-        "visa",
-        "mastercard"
-      ],
-      "notes": "Aplica únicamente en la compra de equipos"
-    },
-    {
-      "merchant": "Espacio Aroma",
-      "category": "hogar",
-      "percent": 25,
-      "tiers": [
-        "black",
-        "infinite"
-      ],
-      "validUntil": "2026-07-15",
-      "stackable": false,
-      "cardFamilies": [
-        "Personal Bank"
-      ],
-      "networks": [
-        "visa",
-        "mastercard"
-      ]
-    },
-    {
-      "merchant": "Espacio Aroma",
-      "category": "hogar",
-      "percent": 15,
-      "tiers": [
-        "todas"
-      ],
-      "validUntil": "2026-07-15",
-      "stackable": false,
-      "networks": [
-        "visa",
-        "mastercard"
-      ]
-    },
-    {
       "merchant": "CIR Acondicionamiento térmico",
       "category": "hogar",
       "percent": 15,
@@ -240,14 +147,25 @@
       "notes": "Aplica en calefactores de leña Bosca y equipos a pellet"
     },
     {
-      "merchant": "Riviera Joyeria",
+      "merchant": "Riviera Joyería",
       "category": "otros",
       "percent": 15,
       "tiers": [
         "todas"
       ],
-      "validUntil": "2026-06-30",
-      "stackable": false
+      "validUntil": "2026-07-31",
+      "stackable": false,
+      "notes": "No aplica para reparaciones"
+    },
+    {
+      "merchant": "Bosch y Cia",
+      "category": "hogar",
+      "percent": 15,
+      "tiers": [
+        "todas"
+      ],
+      "stackable": false,
+      "notes": "Tarjetas de crédito Itaú"
     },
     {
       "merchant": "Starbucks",
@@ -271,6 +189,81 @@
       "notes": "Bebidas preparadas en barra. No aplica Cuenta Pocket"
     },
     {
+      "merchant": "Mosca",
+      "category": "otros",
+      "percent": 10,
+      "tiers": [
+        "todas"
+      ],
+      "stackable": false,
+      "cardFamilies": [
+        "Personal Bank"
+      ],
+      "channels": [
+        "in-store"
+      ],
+      "notes": "Tarjetas de débito Personal Bank. No aplica impresiones"
+    },
+    {
+      "merchant": "Freddo",
+      "category": "restaurante",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "tiers": [
+        "todas"
+      ],
+      "validUntil": "2026-07-31",
+      "stackable": false,
+      "channels": [
+        "in-store"
+      ],
+      "cardFamilies": [
+        "Volar",
+        "Junior",
+        "Personal Bank"
+      ],
+      "notes": "2x1 en helados de kilo y cucuruchos grandes. No aplica Cuenta Pocket"
+    },
+    {
+      "merchant": "Las Delicias",
+      "category": "restaurante",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "tiers": [
+        "todas"
+      ],
+      "validUntil": "2026-07-31",
+      "stackable": false,
+      "channels": [
+        "in-store"
+      ],
+      "cardFamilies": [
+        "Volar",
+        "Junior",
+        "Personal Bank"
+      ],
+      "notes": "2x1 en helados de litro y cucuruchos grandes. Montevideo y Maldonado. No aplica Cuenta Pocket"
+    },
+    {
+      "merchant": "Heladería La Nevada - Salto",
+      "category": "restaurante",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "tiers": [
+        "todas"
+      ],
+      "stackable": false,
+      "channels": [
+        "in-store"
+      ],
+      "cardFamilies": [
+        "Volar",
+        "Junior",
+        "Personal Bank"
+      ],
+      "notes": "2x1 en helados de kilo y cucuruchos grandes. Solo Salto. No aplica Cuenta Pocket"
+    },
+    {
       "id": "itau-movie-debito-volar-2x1",
       "merchant": "Movie",
       "category": "entretenimiento",
@@ -289,7 +282,7 @@
       ],
       "stackable": false,
       "cap": "4 entradas por tarjeta por función",
-      "notes": "Débito Volar incluye junior. Débito por pago de sueldos (azules) y Cuenta Pocket aplican solo lunes a miércoles. Cuenta Pocket únicamente en compras web. No aplica a azules en vacaciones de julio."
+      "notes": "Débito Volar incluye junior. Débito por pago de sueldos (azules) y Cuenta Pocket aplican solo lunes a miércoles. Cuenta Pocket únicamente en compras web."
     }
   ]
 }
