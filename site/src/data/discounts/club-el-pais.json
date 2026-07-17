@@ -3,22 +3,6 @@
   "label": "Club El País",
   "rules": [
     {
-      "merchant": "Djavan",
-      "category": "educacion",
-      "percent": 50,
-      "benefitType": "2-for-1",
-      "notes": "27 de noviembre - 21hs. Lugar: Auditorio Adela Reta",
-      "validUntil": "2026-11-27"
-    },
-    {
-      "merchant": "La Ballena",
-      "category": "educacion",
-      "percent": 50,
-      "benefitType": "2-for-1",
-      "notes": "Lunes 20 de julio - 21hs. Lugar: Auditorio Adela Reta",
-      "validUntil": "2026-07-20"
-    },
-    {
       "merchant": "Detrés Escuela de Música",
       "category": "educacion",
       "percent": 25,
@@ -96,6 +80,14 @@
       "validUntil": "2026-12-20"
     },
     {
+      "merchant": "BNS – Coppelia",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "Del 17 al 30 de setiembre. Lugar: Auditorio Adela Reta",
+      "validUntil": "2026-09-30"
+    },
+    {
       "merchant": "Buenos Muchachos – En realidad…",
       "category": "entretenimiento",
       "percent": 50,
@@ -147,6 +139,14 @@
       "benefitType": "2-for-1",
       "notes": "5 de setiembre - 21 hs. Lugar: Movie Montevideo",
       "validUntil": "2026-09-05"
+    },
+    {
+      "merchant": "Djavan",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "27 de noviembre - 21hs. Lugar: Auditorio Adela Reta",
+      "validUntil": "2026-11-27"
     },
     {
       "merchant": "El caso inevitable del Sr. Méndez",
@@ -235,6 +235,14 @@
       "validUntil": "2026-07-18"
     },
     {
+      "merchant": "La Ballena",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "Lunes 20 de julio - 21hs. Lugar: Auditorio Adela Reta",
+      "validUntil": "2026-07-20"
+    },
+    {
       "merchant": "La Casa de Bernarda Alba",
       "category": "entretenimiento",
       "percent": 50,
@@ -257,6 +265,14 @@
       "benefitType": "2-for-1",
       "notes": "29 de julio - 19:30 hs. Lugar: Teatro Solís",
       "validUntil": "2026-07-29"
+    },
+    {
+      "merchant": "La Kermesse – Prado",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "31 de octubre - 21:00 hs. Lugar: Rural del Prado",
+      "validUntil": "2026-10-31"
     },
     {
       "merchant": "La Omisión de la Familia Coleman",
@@ -314,28 +330,12 @@
       "validUntil": "2026-08-22"
     },
     {
-      "merchant": "Martín Buscaglia",
-      "category": "entretenimiento",
-      "percent": 50,
-      "benefitType": "2-for-1",
-      "notes": "24 de Julio - 21:30 hs. Lugar: Pueblo Narakan",
-      "validUntil": "2026-07-24"
-    },
-    {
       "merchant": "Memphis La Blusera",
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
       "notes": "14 de Agosto - 21:30 hs. Lugar: Pueblo Narakan",
       "validUntil": "2026-08-14"
-    },
-    {
-      "merchant": "Midachi",
-      "category": "entretenimiento",
-      "percent": 50,
-      "benefitType": "2-for-1",
-      "notes": "14 de noviembre - 21:00 hs. Lugar: Antel Arena",
-      "validUntil": "2026-11-14"
     },
     {
       "merchant": "Milongas Extremas",
@@ -482,6 +482,14 @@
       "percent": 50
     },
     {
+      "merchant": "Temporada de Música de Cámara 2026",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "Desde el 30 de julio. Lugar: Auditorio Vaz Ferreira",
+      "validUntil": "2026-07-30"
+    },
+    {
       "merchant": "Tirria",
       "category": "entretenimiento",
       "percent": 50,
@@ -504,14 +512,6 @@
       "benefitType": "2-for-1",
       "notes": "31 de octubre - 21:00 hs. Lugar: Teatro de Verano",
       "validUntil": "2026-10-31"
-    },
-    {
-      "merchant": "Un Poyo Rojo",
-      "category": "entretenimiento",
-      "percent": 50,
-      "benefitType": "2-for-1",
-      "notes": "24 de Julio - 20:30 hs. Lugar: Teatro Metro",
-      "validUntil": "2026-07-24"
     },
     {
       "merchant": "Valeria Lynch en el Sodre",
