@@ -959,7 +959,13 @@
           "url": "https://www.instagram.com/lanka_leathergoods"
         },
         {
-          "name": "Magnolia"
+          "name": "Magnolia",
+          "geo": {
+            "lat": -34.890001,
+            "lng": -56.055959
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Magnolia/@-34.890001,-56.055959,17z/data=!3m1!4b1!4m6!3m5!1s0x959f87293c546ed5:0x4d1396ec2fb228ed!8m2!3d-34.890001!4d-56.055959!16s%2Fg%2F11vb39v6jv",
+          "location": "Montevideo"
         },
         {
           "name": "Mandinga",

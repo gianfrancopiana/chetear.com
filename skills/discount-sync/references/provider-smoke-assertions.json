@@ -432,7 +432,8 @@
     "maxRules": 15,
     "minUniqueMerchants": 6,
     "mustContainMerchants": [
-      "HolaSIM",
+      "Cabify",
+      "PAX Assistance",
       "STM",
       "Abitab"
     ],

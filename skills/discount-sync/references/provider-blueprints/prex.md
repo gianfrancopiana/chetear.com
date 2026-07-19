@@ -51,9 +51,7 @@ every sync run. This section only fixes which `beneficio=` IDs are in scope
 and why some are excluded.
 
 ### Runtime-relevant now
-- `beneficio=637` — Cabify (first monthly ride; preserve cap and rotating coupon code in `notes`)
-- `beneficio=733` — PedidosYa Market (encode as a single rule at the headline percent; describe the PedidosYa Plus upgrade and the non-Plus fallback in `notes`)
-- `beneficio=731` — HolaSIM (plan discount only; courtesy eSIM stays in `notes`)
+- `beneficio=637` — Cabify (preserve cap and rotating monthly coupon code in `notes`)
 - `beneficio=670` — PAX Assistance
 - `beneficio=5` — Restaurantes (IVA-point benefit)
 - `beneficio=516` — Pagos y recargas (IVA-point benefit)
@@ -62,6 +60,9 @@ and why some are excluded.
 - `beneficio=4` — Abitab (IVA-point benefit)
 
 ### Inspect but currently skip from runtime
+- `beneficio=731` — HolaSIM no longer listed under active especiales (2026-07-19)
+- `beneficio=733` — PedidosYa Market June-only window ended; skip until a new active window appears
+- `beneficio=736` / `beneficio=739` — DIRECTV App recargas (June–July specials; re-check terms before promoting if still listed)
 - `beneficio=735` — GOL Hot Week ended on 2026-05-17; source still listed it under especiales on 2026-05-18, but the detail terms were expired, so skip until a new active window appears.
 - `beneficio=734` — Feria de dólares (FX promo without a stable runtime percent)
 - `beneficio=707` — Ahorra Fácil extra en retiro (cashback/withdrawal flow, not a spend-side discount)

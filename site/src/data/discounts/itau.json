@@ -65,7 +65,8 @@
       ],
       "cardFamilies": [
         "Personal Bank"
-      ]
+      ],
+      "validUntil": "2026-07-31"
     },
     {
       "merchant": "Farmacia El Túnel",
@@ -85,7 +86,8 @@
       "networks": [
         "visa",
         "mastercard"
-      ]
+      ],
+      "validUntil": "2026-07-31"
     },
     {
       "id": "itau-san-roque-premium-25",
@@ -165,7 +167,8 @@
         "todas"
       ],
       "stackable": false,
-      "notes": "Tarjetas de crédito Itaú"
+      "notes": "Tarjetas de crédito Itaú. Marcas: Roca, Hansgrohe, Johnson y Portobello",
+      "validUntil": "2026-07-31"
     },
     {
       "merchant": "Starbucks",
@@ -261,7 +264,14 @@
         "Junior",
         "Personal Bank"
       ],
-      "notes": "2x1 en helados de kilo y cucuruchos grandes. Solo Salto. No aplica Cuenta Pocket"
+      "notes": "2x1 en helados de kilo y cucuruchos grandes. Solo Salto. No aplica Cuenta Pocket",
+      "validUntil": "2026-07-31",
+      "location": "Salto",
+      "geo": {
+        "lat": -31.388646,
+        "lng": -57.965487
+      },
+      "mapsUrl": "https://www.google.com/maps/place/Helader%C3%ADa+Nevada/@-31.3886457,-57.9654871,17z/data=!3m1!4b1!4m6!3m5!1s0x95addd2ba770fef5:0xf10a98ee26e4d047!8m2!3d-31.3886457!4d-57.9654871!16s%2Fg%2F11rvs_1jr"
     },
     {
       "id": "itau-movie-debito-volar-2x1",

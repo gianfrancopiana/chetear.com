@@ -3,14 +3,28 @@
   "label": "Prex",
   "rules": [
     {
-      "merchant": "HolaSIM",
+      "merchant": "Cabify",
       "category": "viajes",
-      "percent": 20,
-      "validUntil": "2026-12-31",
+      "percent": 30,
+      "validUntil": "2026-07-31",
       "channels": [
         "online"
       ],
-      "notes": "Accediendo desde la web promocional de HolaSIM para clientes Prex. La promo también ofrece una eSIM de cortesía como alternativa excluyente"
+      "cap": "Tope $150, un viaje",
+      "notes": "Código del mes: PREXJUL30. App Cabify."
+    },
+    {
+      "merchant": "PAX Assistance",
+      "category": "viajes",
+      "percent": 50,
+      "validUntil": "2026-07-31",
+      "channels": [
+        "online"
+      ],
+      "networks": [
+        "mastercard"
+      ],
+      "notes": "Asistencia de viaje en web exclusiva Prex + Pax. Descuento visible en checkout."
     },
     {
       "merchant": "Restaurantes Uruguay",
