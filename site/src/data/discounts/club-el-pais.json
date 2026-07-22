@@ -58,14 +58,6 @@
       "validUntil": "2026-08-16"
     },
     {
-      "merchant": "Ballet Nacional del Sodre – Tócame, Con Amor",
-      "category": "entretenimiento",
-      "percent": 50,
-      "benefitType": "2-for-1",
-      "notes": "Del 14 al 19 de julio. Lugar: Auditorio Adela Reta",
-      "validUntil": "2026-07-19"
-    },
-    {
       "merchant": "Ballet Nacional Sodre",
       "category": "entretenimiento",
       "percent": 50,
@@ -195,6 +187,14 @@
       "benefitType": "2-for-1"
     },
     {
+      "merchant": "Gato Renato Está En La Luna",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "Del 30 de agosto al 13 de setiembre. Lugar: Planetario de Montevideo",
+      "validUntil": "2026-09-13"
+    },
+    {
       "merchant": "Guasones",
       "category": "entretenimiento",
       "percent": 50,
@@ -225,22 +225,6 @@
       "benefitType": "2-for-1",
       "notes": "01 de octubre - 21:00 hs. Lugar: Auditorio Adela Reta",
       "validUntil": "2026-10-01"
-    },
-    {
-      "merchant": "Julieta Díaz & Diego Presa Quinteto",
-      "category": "entretenimiento",
-      "percent": 50,
-      "benefitType": "2-for-1",
-      "notes": "18 de Julio - 21 hs. Lugar: Sala Rondeau",
-      "validUntil": "2026-07-18"
-    },
-    {
-      "merchant": "La Ballena",
-      "category": "entretenimiento",
-      "percent": 50,
-      "benefitType": "2-for-1",
-      "notes": "Lunes 20 de julio - 21hs. Lugar: Auditorio Adela Reta",
-      "validUntil": "2026-07-20"
     },
     {
       "merchant": "La Casa de Bernarda Alba",
@@ -746,16 +730,6 @@
       ]
     },
     {
-      "merchant": "Lavakan",
-      "category": "hogar",
-      "percent": 20,
-      "days": [
-        "martes",
-        "miercoles",
-        "jueves"
-      ]
-    },
-    {
       "merchant": "Le Blanc",
       "category": "hogar",
       "percent": 20,
@@ -1201,16 +1175,6 @@
       ]
     },
     {
-      "merchant": "Kokino",
-      "category": "indumentaria",
-      "percent": 20,
-      "days": [
-        "lunes",
-        "martes",
-        "miercoles"
-      ]
-    },
-    {
       "merchant": "La Dolfina",
       "category": "indumentaria",
       "percent": 20,
@@ -1596,6 +1560,16 @@
       "percent": 20
     },
     {
+      "merchant": "Kokino",
+      "category": "otros",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
       "merchant": "Petit Baby",
       "category": "otros",
       "percent": 20,
@@ -1777,6 +1751,16 @@
         "miercoles",
         "jueves",
         "viernes"
+      ]
+    },
+    {
+      "merchant": "Lavakan",
+      "category": "salud",
+      "percent": 20,
+      "days": [
+        "martes",
+        "miercoles",
+        "jueves"
       ]
     },
     {

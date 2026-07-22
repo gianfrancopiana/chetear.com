@@ -53,6 +53,9 @@ and why some are excluded.
 ### Runtime-relevant now
 - `beneficio=637` — Cabify (preserve cap and rotating monthly coupon code in `notes`)
 - `beneficio=670` — PAX Assistance
+- `beneficio=744` — Ollas del Mundo 2026 (Garage Gourmet weekend; encode headline contactless 20% and note physical 15%)
+- `beneficio=739` — DIRECTV Prepago primera recarga 20% (App Prex; June–July)
+- `beneficio=736` — DIRECTV Prepago recarga plan 10% + días extras (App Prex; June–July)
 - `beneficio=5` — Restaurantes (IVA-point benefit)
 - `beneficio=516` — Pagos y recargas (IVA-point benefit)
 - `beneficio=3` — Comercios (IVA-point benefit)
@@ -60,9 +63,9 @@ and why some are excluded.
 - `beneficio=4` — Abitab (IVA-point benefit)
 
 ### Inspect but currently skip from runtime
+- `beneficio=743` — Grupocine birthday gift (pop + refresco; courtesy gift, not a stable spend-side percent)
 - `beneficio=731` — HolaSIM no longer listed under active especiales (2026-07-19)
 - `beneficio=733` — PedidosYa Market June-only window ended; skip until a new active window appears
-- `beneficio=736` / `beneficio=739` — DIRECTV App recargas (June–July specials; re-check terms before promoting if still listed)
 - `beneficio=735` — GOL Hot Week ended on 2026-05-17; source still listed it under especiales on 2026-05-18, but the detail terms were expired, so skip until a new active window appears.
 - `beneficio=734` — Feria de dólares (FX promo without a stable runtime percent)
 - `beneficio=707` — Ahorra Fácil extra en retiro (cashback/withdrawal flow, not a spend-side discount)
@@ -70,7 +73,7 @@ and why some are excluded.
 - `beneficio=533` — Transferencias gratis Uruguay-Perú (fee waiver)
 - `beneficio=677` — Transferencias gratis Uruguay-Chile (fee waiver)
 - `beneficio=7` — Fortex cambio preferencial (preferred FX, no stable runtime percent)
-- `beneficio=730` — Estacionamiento tarifado (appears under `PROMOCIONES FINALIZADAS`)
+- `beneficio=730` / `beneficio=740` / `beneficio=742` — finalized / non-runtime especiales leftovers
 - `/beneficiosarg` — Prex AR content; not part of Uruguay runtime data
 
 ## Conditions extraction

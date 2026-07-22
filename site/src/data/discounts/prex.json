@@ -27,6 +27,49 @@
       "notes": "Asistencia de viaje en web exclusiva Prex + Pax. Descuento visible en checkout."
     },
     {
+      "merchant": "Ollas del Mundo 2026",
+      "category": "otros",
+      "percent": 20,
+      "validUntil": "2026-07-26",
+      "days": [
+        "sabado",
+        "domingo"
+      ],
+      "networks": [
+        "mastercard"
+      ],
+      "channels": [
+        "in-store"
+      ],
+      "cap": "Tope $200; una vez por comercio por día",
+      "refundType": "statement-credit",
+      "notes": "Evento Garage Gourmet 25–26/07/2026. 20% con Apple Pay/Google Pay; 15% con tarjeta física. Reintegro en hasta 10 días hábiles."
+    },
+    {
+      "merchant": "DIRECTV Prepago",
+      "category": "entretenimiento",
+      "percent": 20,
+      "validUntil": "2026-07-31",
+      "channels": [
+        "online"
+      ],
+      "cap": "Tope $200",
+      "refundType": "statement-credit",
+      "notes": "Primera recarga DIRECTV Prepago desde $500 en App Prex (junio–julio). Reintegro en hasta 7 días hábiles."
+    },
+    {
+      "merchant": "DIRECTV Prepago",
+      "category": "entretenimiento",
+      "percent": 10,
+      "validUntil": "2026-07-31",
+      "channels": [
+        "online"
+      ],
+      "cap": "Tope $200",
+      "refundType": "statement-credit",
+      "notes": "Recargas DIRECTV Prepago desde $1.650 en App Prex (junio–julio) + 6 días extras de programación. Reintegro en hasta 7 días hábiles."
+    },
+    {
       "merchant": "Restaurantes Uruguay",
       "category": "restaurante",
       "percent": 9,

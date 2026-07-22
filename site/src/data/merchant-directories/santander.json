@@ -1219,7 +1219,13 @@
         },
         {
           "name": "Rullé",
-          "url": "https://www.santander.com.uy/beneficios/rulle"
+          "url": "https://www.santander.com.uy/beneficios/rulle",
+          "geo": {
+            "lat": -34.911593,
+            "lng": -56.146901
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Rull%C3%A9/@-34.9115926,-56.1469011,17z/data=!3m1!4b1!4m6!3m5!1s0x959f8100018d5bc9:0x9a27eb9d3a2ed12c!8m2!3d-34.9115926!4d-56.1469011",
+          "location": "Montevideo"
         },
         {
           "name": "Entre Panes",
