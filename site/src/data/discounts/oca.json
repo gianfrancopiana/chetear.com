@@ -94,7 +94,13 @@
       ],
       "networks": [
         "oca"
-      ]
+      ],
+      "geo": {
+        "lat": -34.90252,
+        "lng": -56.182217
+      },
+      "mapsUrl": "https://www.google.com/maps/place/Homeopat%C3%ADa+Alemana/@-34.9025197,-56.1822174,17z/data=!3m1!4b1",
+      "location": "Montevideo"
     },
     {
       "merchant": "TaTa",
@@ -139,7 +145,13 @@
         "mastercard",
         "oca"
       ],
-      "notes": "12 cuotas exclusivas para Mastercard"
+      "notes": "12 cuotas exclusivas para Mastercard",
+      "geo": {
+        "lat": -34.901238,
+        "lng": -56.193653
+      },
+      "mapsUrl": "https://www.google.com/maps/place/HERRACOR/@-34.9012383,-56.1936528,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802e0c96f6bd:0x4dd414bf31d4340b!8m2!3d-34.9012383!4d-56.1936528!16s%2Fg%2F11xfbk_7_?entry=ttu&g_ep=EgoyMDI2MDcyMC4wIKXMDSoASAFQAw%3D%3D",
+      "location": "Montevideo"
     },
     {
       "merchant": "Unifer",
@@ -264,7 +276,13 @@
       ],
       "networks": [
         "oca"
-      ]
+      ],
+      "geo": {
+        "lat": -34.90252,
+        "lng": -56.182217
+      },
+      "mapsUrl": "https://www.google.com/maps/place/Homeopat%C3%ADa+Alemana/@-34.9025197,-56.1822174,17z/data=!3m1!4b1",
+      "location": "Montevideo"
     },
     {
       "merchant": "Movie",

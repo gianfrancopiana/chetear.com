@@ -146,7 +146,13 @@
         "visa",
         "mastercard"
       ],
-      "notes": "Aplica en calefactores de leña Bosca y equipos a pellet"
+      "notes": "Aplica en calefactores de leña Bosca y equipos a pellet",
+      "geo": {
+        "lat": -34.874126,
+        "lng": -56.167453
+      },
+      "mapsUrl": "https://www.google.com/maps/place/CIR+Calefacci%C3%B3n/@-34.8741258,-56.1674533,17z/data=!3m1!4b1!4m6!3m5!1s0x959f80667efc87a1:0xe318ccbdceb15985!8m2!3d-34.8741258!4d-56.1674533!16s%2Fg%2F1pty0m9h0?entry=ttu&g_ep=EgoyMDI2MDcyMC4wIKXMDSoASAFQAw%3D%3D",
+      "location": "Montevideo"
     },
     {
       "merchant": "Riviera Joyería",

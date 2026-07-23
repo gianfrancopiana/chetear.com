@@ -6,13 +6,25 @@
       "merchant": "Salados",
       "category": "educacion",
       "percent": 30,
-      "notes": "Primer mes de inscripción en cualquier curso o programa de formación musical. Solo nuevas inscripciones. Código desde MiAntel o *789*8#"
+      "notes": "Primer mes de inscripción en cualquier curso o programa de formación musical. Solo nuevas inscripciones. Código desde MiAntel o *789*8#",
+      "geo": {
+        "lat": -34.907184,
+        "lng": -56.18864
+      },
+      "mapsUrl": "https://www.google.com/maps/place/Salados+Escuela+De+M%C3%BAsica+y+Sonido/@-34.9071839,-56.1886399,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81ccf82cd729:0xc412ea681bae9e8!8m2!3d-34.9071839!4d-56.1886399!16s%2Fg%2F11c6v4rjd7?entry=ttu&g_ep=EgoyMDI2MDcyMC4wIKXMDSoASAFQAw%3D%3D",
+      "location": "Montevideo"
     },
     {
       "merchant": "Salados",
       "category": "educacion",
       "percent": 15,
-      "notes": "Mensualidad para el resto del año en cualquier curso o programa de formación musical. Solo nuevas inscripciones. Código desde MiAntel o *789*8#"
+      "notes": "Mensualidad para el resto del año en cualquier curso o programa de formación musical. Solo nuevas inscripciones. Código desde MiAntel o *789*8#",
+      "geo": {
+        "lat": -34.907184,
+        "lng": -56.18864
+      },
+      "mapsUrl": "https://www.google.com/maps/place/Salados+Escuela+De+M%C3%BAsica+y+Sonido/@-34.9071839,-56.1886399,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81ccf82cd729:0xc412ea681bae9e8!8m2!3d-34.9071839!4d-56.1886399!16s%2Fg%2F11c6v4rjd7?entry=ttu&g_ep=EgoyMDI2MDcyMC4wIKXMDSoASAFQAw%3D%3D",
+      "location": "Montevideo"
     },
     {
       "merchant": "Grupocine",
@@ -191,6 +203,15 @@
       "category": "otros",
       "percent": 25,
       "notes": "25% de saldo de regalo en recargas de saldo y datos realizadas por canales de Antel, excepto TuApp. El saldo se acredita dentro de 24 horas y vence a los 30 días"
+    },
+    {
+      "merchant": "Escaramuza",
+      "category": "educacion",
+      "percent": 10,
+      "channels": [
+        "online"
+      ],
+      "notes": "10% en libros en escaramuza.com.uy + envío sin costo a todo el país. Código desde MiAntel o *789*8#. Clientes móviles Antel."
     }
   ]
 }
