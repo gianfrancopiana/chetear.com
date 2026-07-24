@@ -373,6 +373,189 @@
         "oca"
       ],
       "notes": "Productos seleccionados identificados en web, Megalockers y WhatsApp. El comercio puede modificar los productos seleccionados sin previo aviso"
+    },
+    {
+      "merchant": "Óptica Florida",
+      "category": "salud",
+      "percent": 20,
+      "tiers": [
+        "todas"
+      ],
+      "days": [
+        "viernes"
+      ],
+      "validUntil": "2027-05-31",
+      "excludedApps": [
+        "mercado-pago"
+      ],
+      "stackable": false,
+      "refundType": "point-of-sale",
+      "channels": [
+        "in-store"
+      ],
+      "networks": [
+        "visa",
+        "mastercard",
+        "oca"
+      ],
+      "cap": "Tope $5.500 por cuenta por mes (compartido entre sucursales Montevideo)",
+      "notes": "Solo locales Óptica Florida en Montevideo. 12 cuotas exclusivas Mastercard OCA",
+      "location": "Montevideo"
+    },
+    {
+      "merchant": "Óptica Florida",
+      "category": "salud",
+      "percent": 10,
+      "tiers": [
+        "todas"
+      ],
+      "validUntil": "2027-05-31",
+      "excludedApps": [
+        "mercado-pago"
+      ],
+      "stackable": false,
+      "refundType": "statement-credit",
+      "channels": [
+        "in-store"
+      ],
+      "cardFamilies": [
+        "OCA Blue"
+      ],
+      "networks": [
+        "oca"
+      ],
+      "cap": "Tope $5.500 por cuenta por mes (compartido entre sucursales Montevideo)",
+      "notes": "Solo locales Óptica Florida en Montevideo",
+      "location": "Montevideo"
+    },
+    {
+      "merchant": "Burger King",
+      "category": "restaurante",
+      "percent": 20,
+      "tiers": [
+        "todas"
+      ],
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles",
+        "jueves"
+      ],
+      "validUntil": "2027-06-30",
+      "excludedApps": [
+        "mercado-pago",
+        "pedidos-ya",
+        "rappi"
+      ],
+      "stackable": false,
+      "refundType": "point-of-sale",
+      "channels": [
+        "in-store"
+      ],
+      "networks": [
+        "visa",
+        "mastercard",
+        "oca"
+      ]
+    },
+    {
+      "merchant": "Gelatería del Club",
+      "category": "restaurante",
+      "percent": 20,
+      "tiers": [
+        "todas"
+      ],
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles",
+        "jueves"
+      ],
+      "validUntil": "2027-04-30",
+      "excludedApps": [
+        "mercado-pago",
+        "pedidos-ya",
+        "rappi"
+      ],
+      "stackable": false,
+      "refundType": "point-of-sale",
+      "channels": [
+        "in-store"
+      ],
+      "networks": [
+        "visa",
+        "mastercard",
+        "oca"
+      ],
+      "notes": "Locales físicos: 18 de Julio 1261; 8 de Octubre 2702; Bv. Artigas 3654; Rivera 2403; Enrique Legrand 5161; Giannattasio km 18.500"
+    },
+    {
+      "merchant": "El Club de la Papa Frita",
+      "category": "restaurante",
+      "percent": 20,
+      "tiers": [
+        "todas"
+      ],
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles",
+        "jueves"
+      ],
+      "validUntil": "2027-04-30",
+      "excludedApps": [
+        "mercado-pago",
+        "pedidos-ya",
+        "rappi"
+      ],
+      "stackable": false,
+      "refundType": "point-of-sale",
+      "channels": [
+        "in-store"
+      ],
+      "networks": [
+        "visa",
+        "mastercard",
+        "oca"
+      ],
+      "notes": "Locales físicos: 18 de Julio 1261; 8 de Octubre 2702 y 3650; Rivera 2403; Enrique Legrand 5161; Giannattasio km 18.500"
+    },
+    {
+      "merchant": "Kentucky",
+      "category": "restaurante",
+      "percent": 20,
+      "tiers": [
+        "todas"
+      ],
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles",
+        "jueves"
+      ],
+      "validUntil": "2027-04-30",
+      "excludedApps": [
+        "mercado-pago",
+        "pedidos-ya",
+        "rappi"
+      ],
+      "stackable": false,
+      "refundType": "point-of-sale",
+      "channels": [
+        "in-store"
+      ],
+      "networks": [
+        "visa",
+        "mastercard",
+        "oca"
+      ],
+      "notes": "Local San José y Cuareim (frente al Teatro Metro)",
+      "location": "San José y Cuareim, Montevideo",
+      "geo": {
+        "lat": -34.906683,
+        "lng": -56.190356
+      },
+      "mapsUrl": "https://www.google.com/maps/place/Pizzer%C3%ADa+Kentucky/@-34.9066827,-56.1903561,17z/data=!3m1!4b1!4m6!3m5!1s0x959f8169dfafc85b:0x102af7463"
     }
   ]
 }
