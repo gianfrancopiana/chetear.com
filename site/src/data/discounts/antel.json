@@ -211,7 +211,13 @@
       "channels": [
         "online"
       ],
-      "notes": "10% en libros en escaramuza.com.uy + envío sin costo a todo el país. Código desde MiAntel o *789*8#. Clientes móviles Antel."
+      "notes": "10% en libros en escaramuza.com.uy + envío sin costo a todo el país. Código desde MiAntel o *789*8#. Clientes móviles Antel.",
+      "geo": {
+        "lat": -34.906537,
+        "lng": -56.171118
+      },
+      "mapsUrl": "https://www.google.com/maps/place/Escaramuza/@-34.9065367,-56.1711185,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81b1cc4411b7:0x81c00d5b832535e2!8m2!3d-34.9065367!4d-56.1711185!16s%2Fg%2F11cr_0j71m",
+      "location": "Escaramuza"
     }
   ]
 }
