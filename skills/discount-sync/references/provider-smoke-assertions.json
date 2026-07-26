@@ -209,30 +209,31 @@
     ]
   },
   "bbva": {
-    "minRules": 24,
+    "minRules": 20,
     "maxRules": 45,
-    "minUniqueMerchants": 11,
+    "minUniqueMerchants": 10,
     "mustContainMerchants": [
       "Dufour rural",
       "RDC",
-      "Matías González",
       "Glassy Waves",
       "Optica Ernst",
-      "Uma Shoes"
+      "Uma Shoes",
+      "Josephine"
     ],
     "mustNotContainMerchants": [
       "Marina Nature",
       "La pañalera",
       "Foncho & Juanita",
-      "Tu Ración"
+      "Tu Ración",
+      "Matías González"
     ],
     "mustHaveLinkedMerchantLists": [
       {
-        "id": "bbva-matias-gonzalez-locations",
-        "merchantName": "Matías González",
+        "id": "bbva-josephine-locations",
+        "merchantName": "Josephine",
         "minMerchants": 2,
         "mustContainMerchants": [
-          "Matías González"
+          "Josephine"
         ]
       }
     ]

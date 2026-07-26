@@ -50,44 +50,6 @@
           "mapsUrl": "https://www.google.com/maps/dir//-31.956118,-54.128390"
         }
       ]
-    },
-    {
-      "id": "bbva-matias-gonzalez-locations",
-      "merchantNames": [
-        "Matías González"
-      ],
-      "sourceUrls": [
-        "https://nominatim.openstreetmap.org/"
-      ],
-      "merchants": [
-        {
-          "name": "Matías González",
-          "location": "Matías González, Hogar de Ancianos, Artigas, 55000",
-          "geo": {
-            "lat": -30.40105,
-            "lng": -56.484328
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-30.401050,-56.484328"
-        },
-        {
-          "name": "Matías González",
-          "location": "Matías González, 852, Luis de la Torre, Punta Carretas, Montevideo, 11311",
-          "geo": {
-            "lat": -34.915123,
-            "lng": -56.156068
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.915123,-56.156068"
-        },
-        {
-          "name": "Matías Gónzalez",
-          "location": "Matías Gónzalez, 840, Colonia, Centro, Montevideo, 11100",
-          "geo": {
-            "lat": -34.905552,
-            "lng": -56.198518
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.905552,-56.198518"
-        }
-      ]
     }
   ]
 }

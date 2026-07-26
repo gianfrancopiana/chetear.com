@@ -41,14 +41,13 @@ excluded.
 ### Runtime-relevant now
 - `Dufour rural`
 - `RDC` — exposes general-credit vs premium-credit split
-- `Fantasy On Ice` — `2x1` mechanic. Set `benefitType: "2-for-1"` and `percent: 50`; preserve seasonal exclusion in `notes`.
-- `Matías González` — farmacia rule exposes Farmadescuento vs not and premium vs general/debit splits
-- `Glassy Waves`, `Optica Ernst`, `Dubai Signature`, `Uma Shoes`, `Lelé`, `La Escondida`, `Josephine`, `Grace`, `Guilad Joyas`, `Fahoma` — general-credit vs premium-credit split
+- `Glassy Waves`, `Optica Ernst`, `Dubai Signature`, `Uma Shoes`, `Lelé`, `La Escondida`, `Josephine`, `Grace`, `Guilad Joyas` — general-credit vs premium-credit split
 - `Tienda Oficial Club Nacional de Football` — active BBVA Club Nacional card rule
 
 ### Inspect but currently skip from runtime
 - Listing cards that only advertise installments, points, raffles, generic financing, or fixed prices without a clean effective discount percent.
 - Merchants that no longer appear in the fetched current listing, unless they reappear with active terms.
+- `Matías González` — detail URLs 404 as of 2026-07-26; removed from runtime until it returns with active terms.
 
 ## Conditions extraction
 
