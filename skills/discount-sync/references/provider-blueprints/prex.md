@@ -53,7 +53,6 @@ and why some are excluded.
 ### Runtime-relevant now
 - `beneficio=637` — Cabify (preserve cap and rotating monthly coupon code in `notes`)
 - `beneficio=670` — PAX Assistance
-- `beneficio=744` — Ollas del Mundo 2026 (Garage Gourmet weekend; encode headline contactless 20% and note physical 15%)
 - `beneficio=739` — DIRECTV Prepago primera recarga 20% (App Prex; June–July)
 - `beneficio=736` — DIRECTV Prepago recarga plan 10% + días extras (App Prex; June–July)
 - `beneficio=5` — Restaurantes (IVA-point benefit)
@@ -63,6 +62,7 @@ and why some are excluded.
 - `beneficio=4` — Abitab (IVA-point benefit)
 
 ### Inspect but currently skip from runtime
+- `beneficio=744` — Ollas del Mundo 2026 event window ended 2026-07-26; skip until a new active window appears
 - `beneficio=743` — Grupocine birthday gift (pop + refresco; courtesy gift, not a stable spend-side percent)
 - `beneficio=731` — HolaSIM no longer listed under active especiales (2026-07-19)
 - `beneficio=733` — PedidosYa Market June-only window ended; skip until a new active window appears

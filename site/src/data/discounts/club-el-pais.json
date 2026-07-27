@@ -277,7 +277,13 @@
       "percent": 50,
       "benefitType": "2-for-1",
       "notes": "12 de Septiembre - 21 hs. Lugar: Plaza de Toros Real de San Carlos",
-      "validUntil": "2026-09-12"
+      "validUntil": "2026-09-12",
+      "geo": {
+        "lat": -34.436517,
+        "lng": -57.86514
+      },
+      "mapsUrl": "https://www.google.com/maps/place/Plaza+de+Toros+Real+de+San+Carlos/@-34.4365172,-57.8651404,17z/data=!3m1!4b1!4m6!3m5!1s0x95a312d0b33bb5ff:0x70ccaa876da3e19b!8m2!3d-34.4365172!4d-57.8651404!16s%2Fm%2F04gnk34",
+      "location": "Plaza de Toros Real de San Carlos, Colonia"
     },
     {
       "merchant": "Hablame de Cáncer",
@@ -286,20 +292,6 @@
       "benefitType": "2-for-1",
       "notes": "Del 14 al 30 de agosto - 20 hs. Lugar: Piso 19 - Hospital de Clínicas de Montevideo",
       "validUntil": "2026-08-30"
-    },
-    {
-      "merchant": "Hola Fin del Mundo",
-      "category": "entretenimiento",
-      "percent": 50,
-      "benefitType": "2-for-1",
-      "notes": "24, 25 y 26 de julio. Lugar: Auditorio Adela Reta",
-      "validUntil": "2026-07-26",
-      "geo": {
-        "lat": -34.904353,
-        "lng": -56.198553
-      },
-      "location": "Auditorio Nacional Adela Reta",
-      "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
     },
     {
       "merchant": "Jorge Nasser — 40 años de canciones",
@@ -469,7 +461,13 @@
       "percent": 50,
       "benefitType": "2-for-1",
       "notes": "11 de Octubre - 10 hs. Lugar: OH! LA BARRA",
-      "validUntil": "2026-10-11"
+      "validUntil": "2026-10-11",
+      "geo": {
+        "lat": -34.915039,
+        "lng": -54.855854
+      },
+      "mapsUrl": "https://www.google.com/maps/place/OH!+LA+BARRA/@-34.9150391,-54.855854,17z/data=!3m1!4b1!4m6!3m5!1s0x957503467ccd8d79:0xc9f66fb81fd5c4c!8m2!3d-34.9150391!4d-54.855854!16s%2Fg%2F1ptxhhjf3",
+      "location": "OH! LA BARRA, Manantiales"
     },
     {
       "merchant": "Movie",
@@ -490,7 +488,13 @@
       "percent": 50,
       "benefitType": "2-for-1",
       "notes": "24 de Agosto - 22 hs. Lugar: Plaza de Toros Real de San Carlos",
-      "validUntil": "2026-08-24"
+      "validUntil": "2026-08-24",
+      "geo": {
+        "lat": -34.436517,
+        "lng": -57.86514
+      },
+      "mapsUrl": "https://www.google.com/maps/place/Plaza+de+Toros+Real+de+San+Carlos/@-34.4365172,-57.8651404,17z/data=!3m1!4b1!4m6!3m5!1s0x95a312d0b33bb5ff:0x70ccaa876da3e19b!8m2!3d-34.4365172!4d-57.8651404!16s%2Fm%2F04gnk34",
+      "location": "Plaza de Toros Real de San Carlos, Colonia"
     },
     {
       "merchant": "OFM Gala Aniversario Del Teatro Solís",
@@ -743,13 +747,13 @@
       "percent": 0,
       "notes": "Hasta el 31 de julio. Lugar: Rural del Prado",
       "validUntil": "2026-07-31",
-      "benefitType": "gift",
       "geo": {
         "lat": -34.863049,
         "lng": -56.203285
       },
       "location": "Rural del Prado",
-      "mapsUrl": "https://www.google.com/maps/place/Rural+del+Prado/@-34.8630492,-56.2032852,17z/data=!3m1!4b1!4m6!3m5!1s0x95a02aad48e0af2b:0xe14c76e4d71a56a3!8m2!3d-34.8630492!4d-56.2032852!16s%2Fg%2F121m84fv"
+      "mapsUrl": "https://www.google.com/maps/place/Rural+del+Prado/@-34.8630492,-56.2032852,17z/data=!3m1!4b1!4m6!3m5!1s0x95a02aad48e0af2b:0xe14c76e4d71a56a3!8m2!3d-34.8630492!4d-56.2032852!16s%2Fg%2F121m84fv",
+      "benefitType": "gift"
     },
     {
       "merchant": "TURF",
@@ -757,7 +761,13 @@
       "percent": 0,
       "notes": "22 de Agosto - 21 hs. Lugar: Plaza de Toros Real de San Carlos",
       "validUntil": "2026-08-22",
-      "benefitType": "gift"
+      "benefitType": "gift",
+      "geo": {
+        "lat": -34.436517,
+        "lng": -57.86514
+      },
+      "mapsUrl": "https://www.google.com/maps/place/Plaza+de+Toros+Real+de+San+Carlos/@-34.4365172,-57.8651404,17z/data=!3m1!4b1!4m6!3m5!1s0x95a312d0b33bb5ff:0x70ccaa876da3e19b!8m2!3d-34.4365172!4d-57.8651404!16s%2Fm%2F04gnk34",
+      "location": "Plaza de Toros Real de San Carlos, Colonia"
     },
     {
       "merchant": "Barraca Malvín",

@@ -95,12 +95,20 @@
     "reconciliation": {
       "pendingReview": [
         {
-          "title": "15% menos en Cantegrill Joyas",
-          "note": "Credit jewelry discount through 2026-12-31"
+          "title": "25% menos con Platinum, Infinite, Black y Personal",
+          "note": "Likely umbrella for premium broad rules"
         },
         {
-          "title": "15% menos en Loop",
-          "note": "Needs detail classification"
+          "title": "25% y 15% menos en frazadas Campomar",
+          "note": "Online Campomar blankets promo"
+        },
+        {
+          "title": "25% y 15% menos en Mosca",
+          "note": "Toys/books/gaming selected articles; inScope currently only has 10% PB debit card"
+        },
+        {
+          "title": "15% menos en Cantegrill Joyas",
+          "note": "Credit jewelry discount through 2026-12-31"
         },
         {
           "title": "15% menos en Wikimusculos",
@@ -111,64 +119,56 @@
           "note": "Likely financing/cuotas hybrid; confirm before runtime"
         },
         {
-          "title": "25% menos con Platinum, Infinite, Black y Personal",
-          "note": "Likely umbrella for premium broad rules"
-        },
-        {
-          "title": "25% menos en Puntocolor",
-          "note": "Personal Bank seasonal Inca products through 2026-07-31"
-        },
-        {
-          "title": "25% menos en Taxis Aeropuerto de Carrasco",
-          "note": "Personal Bank Jun-Aug 2026"
-        },
-        {
-          "title": "25% menos los martes",
-          "note": "Personal Bank tab overlay; confirm merchant scope"
+          "title": "15% menos en Loop",
+          "note": "Needs detail classification"
         },
         {
           "title": "25% menos todos los días",
           "note": "Personal Bank tab overlay; confirm merchant scope"
         },
         {
-          "title": "25% y 15% menos en Mosca",
-          "note": "Toys/books/gaming selected articles; inScope currently only has 10% PB debit card"
+          "title": "25% menos los martes",
+          "note": "Personal Bank tab overlay; confirm merchant scope"
         },
         {
-          "title": "25% y 15% menos en frazadas Campomar",
-          "note": "Online Campomar blankets promo"
+          "title": "Cenas y eventos Personal Bank",
+          "note": "Events; confirm stability"
         },
         {
           "title": "Beneficios en hoteles",
           "note": "Likely non-schema / points-style hotel benefits"
         },
         {
-          "title": "Cenas y eventos Personal Bank",
-          "note": "Events; confirm stability"
+          "title": "25% menos en Taxis Aeropuerto de Carrasco",
+          "note": "Personal Bank Jun-Aug 2026"
+        },
+        {
+          "title": "25% menos en Puntocolor",
+          "note": "Personal Bank seasonal Inca products through 2026-07-31"
         }
       ],
       "disappearedFromInScope": [],
       "staleOutOfScope": [
         {
-          "title": "15% menos en iPlace"
+          "title": "Millas x 3 en Frog"
         },
         {
-          "title": "25% menos en Bosch y Cia"
-        },
-        {
-          "title": "25% y 15% menos en Espacio Aroma"
-        },
-        {
-          "title": "Boomerang"
+          "title": "Taller de hongos en Deicas"
         },
         {
           "title": "Compra de iPhone / Movigroup"
         },
         {
-          "title": "Millas x 3 en Frog"
+          "title": "Boomerang"
         },
         {
-          "title": "Taller de hongos en Deicas"
+          "title": "15%  menos en iPlace"
+        },
+        {
+          "title": "25% y 15% menos en Espacio Aroma"
+        },
+        {
+          "title": "25% menos en Bosch y Cia"
         }
       ]
     }

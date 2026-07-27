@@ -209,9 +209,9 @@
     ]
   },
   "bbva": {
-    "minRules": 20,
+    "minRules": 16,
     "maxRules": 45,
-    "minUniqueMerchants": 10,
+    "minUniqueMerchants": 9,
     "mustContainMerchants": [
       "Dufour rural",
       "RDC",
@@ -225,7 +225,10 @@
       "La pañalera",
       "Foncho & Juanita",
       "Tu Ración",
-      "Matías González"
+      "Matías González",
+      "Lelé",
+      "La Escondida",
+      "Guilad Joyas"
     ],
     "mustHaveLinkedMerchantLists": [
       {

@@ -41,13 +41,14 @@ excluded.
 ### Runtime-relevant now
 - `Dufour rural`
 - `RDC` — exposes general-credit vs premium-credit split
-- `Glassy Waves`, `Optica Ernst`, `Dubai Signature`, `Uma Shoes`, `Lelé`, `La Escondida`, `Josephine`, `Grace`, `Guilad Joyas` — general-credit vs premium-credit split
+- `Glassy Waves`, `Optica Ernst`, `Dubai Signature`, `Uma Shoes`, `Josephine`, `Grace` — general-credit vs premium-credit split (Uma/Grace detail pages still live as of 2026-07-27 even when category-card scrape misses them)
 - `Tienda Oficial Club Nacional de Football` — active BBVA Club Nacional card rule
 
 ### Inspect but currently skip from runtime
 - Listing cards that only advertise installments, points, raffles, generic financing, or fixed prices without a clean effective discount percent.
 - Merchants that no longer appear in the fetched current listing, unless they reappear with active terms.
 - `Matías González` — detail URLs 404 as of 2026-07-26; removed from runtime until it returns with active terms.
+- `Lelé`, `La Escondida`, `Guilad Joyas` — absent from category hubs and detail paths 404 as of 2026-07-27; removed from runtime until they return with active terms.
 
 ## Conditions extraction
 

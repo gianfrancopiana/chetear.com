@@ -101,7 +101,13 @@
         "Internacional",
         "Oro"
       ],
-      "notes": "6% en punto de venta + 14% en estado de cuenta"
+      "notes": "6% en punto de venta + 14% en estado de cuenta",
+      "geo": {
+        "lat": -34.924042,
+        "lng": -56.159329
+      },
+      "mapsUrl": "https://www.google.com/maps/place/Glassy+Waves+Surf/@-34.9240422,-56.1593291,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81097032bd11:0xbe17bb17d422817c!8m2!3d-34.9240422!4d-56.1593291!16s%2Fg%2F11vlnjgrz4",
+      "location": "Glassy Waves Surf, Montevideo"
     },
     {
       "merchant": "Glassy Waves",
@@ -124,7 +130,13 @@
         "online"
       ],
       "cap": "tope en punto de venta y tope $3000 por cierre",
-      "notes": "9% en punto de venta + 21% en estado de cuenta"
+      "notes": "9% en punto de venta + 21% en estado de cuenta",
+      "geo": {
+        "lat": -34.924042,
+        "lng": -56.159329
+      },
+      "mapsUrl": "https://www.google.com/maps/place/Glassy+Waves+Surf/@-34.9240422,-56.1593291,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81097032bd11:0xbe17bb17d422817c!8m2!3d-34.9240422!4d-56.1593291!16s%2Fg%2F11vlnjgrz4",
+      "location": "Glassy Waves Surf, Montevideo"
     },
     {
       "merchant": "Optica Ernst",
@@ -275,106 +287,6 @@
       "notes": "15% en punto de venta + 15% en estado de cuenta"
     },
     {
-      "merchant": "Lelé",
-      "category": "indumentaria",
-      "percent": 20,
-      "tiers": [
-        "todas"
-      ],
-      "validUntil": "2026-11-30",
-      "excludedApps": [
-        "mercado-pago",
-        "mercado-libre",
-        "handy"
-      ],
-      "refundType": "split",
-      "channels": [
-        "in-store",
-        "online"
-      ],
-      "cap": "tope en punto de venta y tope $4000 por cierre",
-      "cardFamilies": [
-        "Pymes",
-        "Corporativas",
-        "Internacional",
-        "Oro"
-      ],
-      "notes": "10% en punto de venta + 10% en estado de cuenta"
-    },
-    {
-      "merchant": "Lelé",
-      "category": "indumentaria",
-      "percent": 30,
-      "tiers": [
-        "platinum",
-        "black",
-        "infinite"
-      ],
-      "validUntil": "2026-11-30",
-      "excludedApps": [
-        "mercado-pago",
-        "mercado-libre",
-        "handy"
-      ],
-      "refundType": "split",
-      "channels": [
-        "in-store",
-        "online"
-      ],
-      "cap": "tope en punto de venta y tope $6000 por cierre",
-      "notes": "15% en punto de venta + 15% en estado de cuenta"
-    },
-    {
-      "merchant": "La Escondida",
-      "category": "indumentaria",
-      "percent": 20,
-      "tiers": [
-        "todas"
-      ],
-      "validUntil": "2026-11-30",
-      "excludedApps": [
-        "mercado-pago",
-        "mercado-libre",
-        "handy"
-      ],
-      "refundType": "split",
-      "channels": [
-        "in-store",
-        "online"
-      ],
-      "cap": "tope en punto de venta y tope $4000 por cierre",
-      "cardFamilies": [
-        "Pymes",
-        "Corporativas",
-        "Internacional",
-        "Oro"
-      ],
-      "notes": "10% en punto de venta + 10% en estado de cuenta"
-    },
-    {
-      "merchant": "La Escondida",
-      "category": "indumentaria",
-      "percent": 30,
-      "tiers": [
-        "platinum",
-        "black",
-        "infinite"
-      ],
-      "validUntil": "2026-11-30",
-      "excludedApps": [
-        "mercado-pago",
-        "mercado-libre",
-        "handy"
-      ],
-      "refundType": "split",
-      "channels": [
-        "in-store",
-        "online"
-      ],
-      "cap": "tope en punto de venta y tope $6000 por cierre",
-      "notes": "15% en punto de venta + 15% en estado de cuenta"
-    },
-    {
       "merchant": "Josephine",
       "category": "indumentaria",
       "percent": 20,
@@ -422,56 +334,6 @@
         "online"
       ],
       "cap": "tope en punto de venta y tope $6000 por cierre",
-      "notes": "15% en punto de venta + 15% en estado de cuenta"
-    },
-    {
-      "merchant": "Guilad Joyas",
-      "category": "indumentaria",
-      "percent": 20,
-      "tiers": [
-        "todas"
-      ],
-      "validUntil": "2026-10-31",
-      "excludedApps": [
-        "mercado-pago",
-        "mercado-libre",
-        "handy"
-      ],
-      "refundType": "split",
-      "channels": [
-        "in-store",
-        "online"
-      ],
-      "cap": "tope en punto de venta y tope $2000 por cierre",
-      "cardFamilies": [
-        "Pymes",
-        "Corporativas",
-        "Internacional",
-        "Oro"
-      ],
-      "notes": "10% en punto de venta + 10% en estado de cuenta"
-    },
-    {
-      "merchant": "Guilad Joyas",
-      "category": "indumentaria",
-      "percent": 30,
-      "tiers": [
-        "platinum",
-        "black",
-        "infinite"
-      ],
-      "validUntil": "2026-10-31",
-      "excludedApps": [
-        "mercado-pago",
-        "mercado-libre",
-        "handy"
-      ],
-      "refundType": "split",
-      "channels": [
-        "in-store",
-        "online"
-      ],
-      "cap": "tope en punto de venta y tope $3000 por cierre",
       "notes": "15% en punto de venta + 15% en estado de cuenta"
     },
     {

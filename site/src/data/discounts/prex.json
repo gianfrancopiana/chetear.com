@@ -27,25 +27,6 @@
       "notes": "Asistencia de viaje en web exclusiva Prex + Pax. Descuento visible en checkout."
     },
     {
-      "merchant": "Ollas del Mundo 2026",
-      "category": "otros",
-      "percent": 20,
-      "validUntil": "2026-07-26",
-      "days": [
-        "sabado",
-        "domingo"
-      ],
-      "networks": [
-        "mastercard"
-      ],
-      "channels": [
-        "in-store"
-      ],
-      "cap": "Tope $200; una vez por comercio por día",
-      "refundType": "statement-credit",
-      "notes": "Evento Garage Gourmet 25–26/07/2026. 20% con Apple Pay/Google Pay; 15% con tarjeta física. Reintegro en hasta 10 días hábiles."
-    },
-    {
       "merchant": "DIRECTV Prepago",
       "category": "entretenimiento",
       "percent": 20,

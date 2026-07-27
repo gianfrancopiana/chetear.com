@@ -30,26 +30,6 @@
           "mapsUrl": "https://www.google.com/maps/dir//-34.927381,-54.949062"
         }
       ]
-    },
-    {
-      "id": "bbva-lele-locations",
-      "merchantNames": [
-        "Lelé"
-      ],
-      "sourceUrls": [
-        "https://nominatim.openstreetmap.org/"
-      ],
-      "merchants": [
-        {
-          "name": "Idelfonso Lele Da Silva",
-          "location": "Idelfonso Lele Da Silva, Isidoro Noblía, Cerro Largo, 37002",
-          "geo": {
-            "lat": -31.956118,
-            "lng": -54.12839
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-31.956118,-54.128390"
-        }
-      ]
     }
   ]
 }
