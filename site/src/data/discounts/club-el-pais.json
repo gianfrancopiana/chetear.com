@@ -70,6 +70,20 @@
       "validUntil": "2026-08-16"
     },
     {
+      "merchant": "Ave Fénix – Sala Campodónico",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "21 de Octubre - 20 hs. Lugar: Teatro El Galpón",
+      "validUntil": "2026-10-21",
+      "geo": {
+        "lat": -34.90403,
+        "lng": -56.181082
+      },
+      "mapsUrl": "https://www.google.com/maps/place/El+Galp%C3%B3n/@-34.9040305,-56.1810816,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81b5617dc4e7:0xc21c578fd5c6424f",
+      "location": "Teatro El Galpón, Montevideo"
+    },
+    {
       "merchant": "Ballet Nacional Sodre",
       "category": "entretenimiento",
       "percent": 50,
@@ -202,6 +216,20 @@
       "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
     },
     {
+      "merchant": "Edipo en Ezeiza",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "Del 09 al al 13 de setiembre. Lugar: Auditorio Adela Reta",
+      "validUntil": "2026-09-13",
+      "geo": {
+        "lat": -34.904353,
+        "lng": -56.198553
+      },
+      "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z",
+      "location": "Auditorio Nacional Adela Reta"
+    },
+    {
       "merchant": "El caso inevitable del Sr. Méndez",
       "category": "entretenimiento",
       "percent": 50,
@@ -282,8 +310,8 @@
         "lat": -34.436517,
         "lng": -57.86514
       },
-      "mapsUrl": "https://www.google.com/maps/place/Plaza+de+Toros+Real+de+San+Carlos/@-34.4365172,-57.8651404,17z/data=!3m1!4b1!4m6!3m5!1s0x95a312d0b33bb5ff:0x70ccaa876da3e19b!8m2!3d-34.4365172!4d-57.8651404!16s%2Fm%2F04gnk34",
-      "location": "Plaza de Toros Real de San Carlos, Colonia"
+      "location": "Plaza de Toros Real de San Carlos, Colonia",
+      "mapsUrl": "https://www.google.com/maps/place/Plaza+de+Toros+Real+de+San+Carlos/@-34.4365172,-57.8651404,17z/data=!3m1!4b1!4m6!3m5!1s0x95a312d0b33bb5ff:0x70ccaa876da3e19b!8m2!3d-34.4365172!4d-57.8651404!16s%2Fm%2F04gnk34"
     },
     {
       "merchant": "Hablame de Cáncer",
@@ -466,8 +494,8 @@
         "lat": -34.915039,
         "lng": -54.855854
       },
-      "mapsUrl": "https://www.google.com/maps/place/OH!+LA+BARRA/@-34.9150391,-54.855854,17z/data=!3m1!4b1!4m6!3m5!1s0x957503467ccd8d79:0xc9f66fb81fd5c4c!8m2!3d-34.9150391!4d-54.855854!16s%2Fg%2F1ptxhhjf3",
-      "location": "OH! LA BARRA, Manantiales"
+      "location": "OH! LA BARRA, Manantiales",
+      "mapsUrl": "https://www.google.com/maps/place/OH!+LA+BARRA/@-34.9150391,-54.855854,17z/data=!3m1!4b1!4m6!3m5!1s0x957503467ccd8d79:0xc9f66fb81fd5c4c!8m2!3d-34.9150391!4d-54.855854!16s%2Fg%2F1ptxhhjf3"
     },
     {
       "merchant": "Movie",
@@ -493,8 +521,8 @@
         "lat": -34.436517,
         "lng": -57.86514
       },
-      "mapsUrl": "https://www.google.com/maps/place/Plaza+de+Toros+Real+de+San+Carlos/@-34.4365172,-57.8651404,17z/data=!3m1!4b1!4m6!3m5!1s0x95a312d0b33bb5ff:0x70ccaa876da3e19b!8m2!3d-34.4365172!4d-57.8651404!16s%2Fm%2F04gnk34",
-      "location": "Plaza de Toros Real de San Carlos, Colonia"
+      "location": "Plaza de Toros Real de San Carlos, Colonia",
+      "mapsUrl": "https://www.google.com/maps/place/Plaza+de+Toros+Real+de+San+Carlos/@-34.4365172,-57.8651404,17z/data=!3m1!4b1!4m6!3m5!1s0x95a312d0b33bb5ff:0x70ccaa876da3e19b!8m2!3d-34.4365172!4d-57.8651404!16s%2Fm%2F04gnk34"
     },
     {
       "merchant": "OFM Gala Aniversario Del Teatro Solís",
@@ -523,6 +551,20 @@
       },
       "location": "Auditorio Nacional Adela Reta",
       "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
+    },
+    {
+      "merchant": "ÓPERA – L’elisir D’amore",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "Del 21 al 23 de agosto. Lugar: Auditorio Adela Reta",
+      "validUntil": "2026-08-23",
+      "geo": {
+        "lat": -34.904353,
+        "lng": -56.198553
+      },
+      "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z",
+      "location": "Auditorio Nacional Adela Reta"
     },
     {
       "merchant": "Orquesta Sinfónia Nacional Sodre",
@@ -585,6 +627,20 @@
       },
       "location": "Auditorio Nacional Adela Reta",
       "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
+    },
+    {
+      "merchant": "Piazzolla & Ferrer – Ecos de Tango",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "23 de Agosto - 20 hs. Lugar: Sala Camacuá",
+      "validUntil": "2026-08-23",
+      "geo": {
+        "lat": -34.909122,
+        "lng": -56.202256
+      },
+      "mapsUrl": "https://www.google.com/maps/place/Sala+Camacu%C3%A1/@-34.9091219,-56.2022557,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81d52fef30bb:0xdc43d5c1616ccb78!8m2!3d-34.9091219!4d-56.2022557!16s%2Fg%2F11c0qgj373",
+      "location": "Sala Camacuá"
     },
     {
       "merchant": "Por hoy dejamos acá",
@@ -761,13 +817,13 @@
       "percent": 0,
       "notes": "22 de Agosto - 21 hs. Lugar: Plaza de Toros Real de San Carlos",
       "validUntil": "2026-08-22",
-      "benefitType": "gift",
       "geo": {
         "lat": -34.436517,
         "lng": -57.86514
       },
+      "location": "Plaza de Toros Real de San Carlos, Colonia",
       "mapsUrl": "https://www.google.com/maps/place/Plaza+de+Toros+Real+de+San+Carlos/@-34.4365172,-57.8651404,17z/data=!3m1!4b1!4m6!3m5!1s0x95a312d0b33bb5ff:0x70ccaa876da3e19b!8m2!3d-34.4365172!4d-57.8651404!16s%2Fm%2F04gnk34",
-      "location": "Plaza de Toros Real de San Carlos, Colonia"
+      "benefitType": "gift"
     },
     {
       "merchant": "Barraca Malvín",
