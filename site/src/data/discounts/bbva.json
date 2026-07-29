@@ -261,7 +261,13 @@
         "Internacional",
         "Oro"
       ],
-      "notes": "10% en punto de venta + 10% en estado de cuenta"
+      "notes": "10% en punto de venta + 10% en estado de cuenta",
+      "geo": {
+        "lat": -34.894059,
+        "lng": -56.101513
+      },
+      "mapsUrl": "https://www.google.com/maps/place/Uma+Store/@-34.8940587,-56.1015134,17z/data=!3m1!4b1!4m6!3m5!1s0x959f86c647d5968f:0x3fea1634fac1b2f!8m2!3d-34.8940587!4d-56.1015134!16s%2Fg%2F11b7hlbdf3",
+      "location": "Uma Store, Montevideo"
     },
     {
       "merchant": "Uma Shoes",
@@ -284,7 +290,13 @@
         "online"
       ],
       "cap": "tope en punto de venta y tope $6000 por cierre",
-      "notes": "15% en punto de venta + 15% en estado de cuenta"
+      "notes": "15% en punto de venta + 15% en estado de cuenta",
+      "geo": {
+        "lat": -34.894059,
+        "lng": -56.101513
+      },
+      "mapsUrl": "https://www.google.com/maps/place/Uma+Store/@-34.8940587,-56.1015134,17z/data=!3m1!4b1!4m6!3m5!1s0x959f86c647d5968f:0x3fea1634fac1b2f!8m2!3d-34.8940587!4d-56.1015134!16s%2Fg%2F11b7hlbdf3",
+      "location": "Uma Store, Montevideo"
     },
     {
       "merchant": "Josephine",

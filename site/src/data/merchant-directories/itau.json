@@ -956,7 +956,13 @@
         },
         {
           "name": "Lanka",
-          "url": "https://www.instagram.com/lanka_leathergoods"
+          "url": "https://www.instagram.com/lanka_leathergoods",
+          "geo": {
+            "lat": -34.919801,
+            "lng": -56.159531
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Lanka/@-34.9198008,-56.1595308,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81001fc790e3:0x1def092a3cb01046!8m2!3d-34.9198008!4d-56.1595308!16s%2Fg%2F11zg3wb6c3",
+          "location": "Lanka, Montevideo"
         },
         {
           "name": "Magnolia",
