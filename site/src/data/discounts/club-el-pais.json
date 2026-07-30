@@ -80,8 +80,8 @@
         "lat": -34.90403,
         "lng": -56.181082
       },
-      "mapsUrl": "https://www.google.com/maps/place/El+Galp%C3%B3n/@-34.9040305,-56.1810816,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81b5617dc4e7:0xc21c578fd5c6424f",
-      "location": "Teatro El Galpón, Montevideo"
+      "location": "Teatro El Galpón, Montevideo",
+      "mapsUrl": "https://www.google.com/maps/place/El+Galp%C3%B3n/@-34.9040305,-56.1810816,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81b5617dc4e7:0xc21c578fd5c6424f"
     },
     {
       "merchant": "Ballet Nacional Sodre",
@@ -160,20 +160,6 @@
       "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
     },
     {
-      "merchant": "CNNS – 10º Aniversario del Coro Nacional de Niño",
-      "category": "entretenimiento",
-      "percent": 50,
-      "benefitType": "2-for-1",
-      "notes": "29 de julio - 20hs. Lugar: Auditorio Adela Reta",
-      "validUntil": "2026-07-29",
-      "geo": {
-        "lat": -34.904353,
-        "lng": -56.198553
-      },
-      "location": "Auditorio Nacional Adela Reta",
-      "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
-    },
-    {
       "merchant": "Conjunto Nacional de Música de Cámara",
       "category": "entretenimiento",
       "percent": 50,
@@ -199,7 +185,13 @@
       "percent": 50,
       "benefitType": "2-for-1",
       "notes": "5 de setiembre - 21 hs. Lugar: Movie Montevideo",
-      "validUntil": "2026-09-05"
+      "validUntil": "2026-09-05",
+      "geo": {
+        "lat": -34.881352,
+        "lng": -56.081088
+      },
+      "location": "Movie, 5775, Avenida Italia, Punta Gorda, Montevideo, 11403",
+      "mapsUrl": "https://www.google.com/maps/dir//-34.881352,-56.081088"
     },
     {
       "merchant": "Djavan",
@@ -226,8 +218,8 @@
         "lat": -34.904353,
         "lng": -56.198553
       },
-      "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z",
-      "location": "Auditorio Nacional Adela Reta"
+      "location": "Auditorio Nacional Adela Reta",
+      "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
     },
     {
       "merchant": "El caso inevitable del Sr. Méndez",
@@ -264,6 +256,20 @@
       },
       "location": "El Galpón",
       "mapsUrl": "https://www.google.com/maps/place/El+Galp%C3%B3n/@-34.9040305,-56.1810816,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81b5617dc4e7:0xc21c578fd5c6424f!8m2!3d-34.9040305!4d-56.1810816!16s%2Fg%2F121rjw4h"
+    },
+    {
+      "merchant": "Festival Música de la Tierra – 15 años",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "31 de octubre y 01 de noviembre. Lugar: Parque de la Amistad",
+      "validUntil": "2026-11-01",
+      "location": "Parque de la Amistad, Montevideo",
+      "geo": {
+        "lat": -34.902273,
+        "lng": -56.144214
+      },
+      "mapsUrl": "https://www.google.com/maps/place/Parque+de+la+Amistad/@-34.9022731,-56.144214,17z/data=!3m1!4b1!4m6!3m5!1s0x959f8110eee34b5d:0x1ae6547e63098ebc!8m2!3d-34.9022731!4d-56.144214!16s%2Fg%2F11bvcv5w00"
     },
     {
       "merchant": "Florencia Núñez – Gira Década y Media – Sodre",
@@ -312,6 +318,20 @@
       },
       "location": "Plaza de Toros Real de San Carlos, Colonia",
       "mapsUrl": "https://www.google.com/maps/place/Plaza+de+Toros+Real+de+San+Carlos/@-34.4365172,-57.8651404,17z/data=!3m1!4b1!4m6!3m5!1s0x95a312d0b33bb5ff:0x70ccaa876da3e19b!8m2!3d-34.4365172!4d-57.8651404!16s%2Fm%2F04gnk34"
+    },
+    {
+      "merchant": "Gustavo Casenave",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "21 de agosto - 20:00 hs. Lugar: Teatro Solís",
+      "validUntil": "2026-08-21",
+      "geo": {
+        "lat": -34.907634,
+        "lng": -56.201123
+      },
+      "location": "Teatro Solís",
+      "mapsUrl": "https://www.google.com/maps/place/Teatro+Sol%C3%ADs/@-34.9076336,-56.2011228,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802adf27edcb:0xe9cdb804f35a1e8a!8m2!3d-34.9076336!4d-56.2011228!16s%2Fm%2F03c5d99"
     },
     {
       "merchant": "Hablame de Cáncer",
@@ -364,20 +384,6 @@
       "mapsUrl": "https://www.google.com/maps/place/Teatro+Sol%C3%ADs/@-34.9076336,-56.2011228,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802adf27edcb:0xe9cdb804f35a1e8a!8m2!3d-34.9076336!4d-56.2011228!16s%2Fm%2F03c5d99"
     },
     {
-      "merchant": "La Filarmónica Rossini – Haydn – Dvorak",
-      "category": "entretenimiento",
-      "percent": 50,
-      "benefitType": "2-for-1",
-      "notes": "29 de julio - 19:30 hs. Lugar: Teatro Solís",
-      "validUntil": "2026-07-29",
-      "geo": {
-        "lat": -34.907634,
-        "lng": -56.201123
-      },
-      "location": "Teatro Solís",
-      "mapsUrl": "https://www.google.com/maps/place/Teatro+Sol%C3%ADs/@-34.9076336,-56.2011228,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802adf27edcb:0xe9cdb804f35a1e8a!8m2!3d-34.9076336!4d-56.2011228!16s%2Fm%2F03c5d99"
-    },
-    {
       "merchant": "La Kermesse – Prado",
       "category": "entretenimiento",
       "percent": 50,
@@ -397,7 +403,13 @@
       "percent": 50,
       "benefitType": "2-for-1",
       "notes": "21 de agosto - 20:15 hs. Lugar: Movie Montevideo",
-      "validUntil": "2026-08-21"
+      "validUntil": "2026-08-21",
+      "geo": {
+        "lat": -34.881352,
+        "lng": -56.081088
+      },
+      "location": "Movie, 5775, Avenida Italia, Punta Gorda, Montevideo, 11403",
+      "mapsUrl": "https://www.google.com/maps/dir//-34.881352,-56.081088"
     },
     {
       "merchant": "Los Abuelos de la Nada",
@@ -563,8 +575,8 @@
         "lat": -34.904353,
         "lng": -56.198553
       },
-      "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z",
-      "location": "Auditorio Nacional Adela Reta"
+      "location": "Auditorio Nacional Adela Reta",
+      "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
     },
     {
       "merchant": "Orquesta Sinfónia Nacional Sodre",
@@ -639,8 +651,8 @@
         "lat": -34.909122,
         "lng": -56.202256
       },
-      "mapsUrl": "https://www.google.com/maps/place/Sala+Camacu%C3%A1/@-34.9091219,-56.2022557,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81d52fef30bb:0xdc43d5c1616ccb78!8m2!3d-34.9091219!4d-56.2022557!16s%2Fg%2F11c0qgj373",
-      "location": "Sala Camacuá"
+      "location": "Sala Camacuá",
+      "mapsUrl": "https://www.google.com/maps/place/Sala+Camacu%C3%A1/@-34.9091219,-56.2022557,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81d52fef30bb:0xdc43d5c1616ccb78!8m2!3d-34.9091219!4d-56.2022557!16s%2Fg%2F11c0qgj373"
     },
     {
       "merchant": "Por hoy dejamos acá",
@@ -662,7 +674,13 @@
       "percent": 50,
       "benefitType": "2-for-1",
       "notes": "15 de agosto - 20 hs. Lugar: Movie Montevideo",
-      "validUntil": "2026-08-15"
+      "validUntil": "2026-08-15",
+      "geo": {
+        "lat": -34.881352,
+        "lng": -56.081088
+      },
+      "location": "Movie, 5775, Avenida Italia, Punta Gorda, Montevideo, 11403",
+      "mapsUrl": "https://www.google.com/maps/dir//-34.881352,-56.081088"
     },
     {
       "merchant": "Tantoman – Porfiados",
@@ -766,6 +784,20 @@
       },
       "location": "Auditorio Nacional Adela Reta",
       "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
+    },
+    {
+      "merchant": "Van Gogh – El Sueño Inmersivo",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "Del 29 de Julio al 30 de agosto. Lugar: Rural del Prado",
+      "validUntil": "2026-08-30",
+      "geo": {
+        "lat": -34.863049,
+        "lng": -56.203285
+      },
+      "location": "Rural del Prado",
+      "mapsUrl": "https://www.google.com/maps/place/Rural+del+Prado/@-34.8630492,-56.2032852,17z/data=!3m1!4b1!4m6!3m5!1s0x95a02aad48e0af2b:0xe14c76e4d71a56a3!8m2!3d-34.8630492!4d-56.2032852!16s%2Fg%2F121m84fv"
     },
     {
       "merchant": "Horneros Racket Club",
