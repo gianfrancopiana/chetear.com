@@ -1684,26 +1684,6 @@
       ]
     },
     {
-      "id": "club-el-pais-por-hoy-dejamos-aca-acj-montevideo-locations",
-      "merchantNames": [
-        "Por hoy dejamos acá"
-      ],
-      "sourceUrls": [
-        "https://nominatim.openstreetmap.org/"
-      ],
-      "merchants": [
-        {
-          "name": "Por hoy dejamos acá - ACJ Montevideo",
-          "location": "Asociación Cristiana de Jovenes, 1870, Colonia, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900996,
-            "lng": -56.176347
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900996,-56.176347"
-        }
-      ]
-    },
-    {
       "id": "club-el-pais-posada-plaza-mayor-locations",
       "merchantNames": [
         "Posada Plaza Mayor"
@@ -4390,26 +4370,6 @@
       ]
     },
     {
-      "id": "club-el-pais-temporada-de-musica-de-camara-2026-auditorio-vaz-ferreira-locations",
-      "merchantNames": [
-        "Temporada de Música de Cámara 2026"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "Temporada de Música de Cámara 2026 - Auditorio Vaz Ferreira",
-          "location": "Auditorio Vaz Ferreira",
-          "geo": {
-            "lat": -34.902846,
-            "lng": -56.177451
-          },
-          "mapsUrl": "https://www.google.com/maps/place/Auditorio+Vaz+Ferreira/@-34.9028456,-56.177451,17z/data=!3m1!4b1!4m6!3m5!1s0x959f813f612fa53f:0x2d149b707c69b3cb!8m2!3d-34.9028456!4d-56.177451!16s%2Fg%2F11h21yzfxm"
-        }
-      ]
-    },
-    {
       "id": "club-el-pais-trotsky-vengaran-y-mariano-martinez-teatro-de-verano-locations",
       "merchantNames": [
         "Trotsky Vengarán y Mariano Martínez"
@@ -4507,6 +4467,26 @@
           },
           "mapsUrl": "https://www.google.com/maps/place/Plaza+de+Toros+Real+de+San+Carlos/@-34.4365172,-57.8651404,17z/data=!3m1!4b1!4m6!3m5!1s0x95a312d0b33bb5ff:0x70ccaa876da3e19b!8m2!3d-34.4365172!4d-57.8651404!16s%2Fm%2F04gnk34"
         }
+      ]
+    },
+    {
+      "id": "club-el-pais-raly-barrionuevo-sala-zitarrosa-locations",
+      "merchantNames": [
+        "Raly Barrionuevo"
+      ],
+      "merchants": [
+        {
+          "name": "Raly Barrionuevo - Sala Zitarrosa",
+          "location": "Sala Zitarrosa",
+          "geo": {
+            "lat": -34.906221,
+            "lng": -56.194456
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Sala+Zitarrosa/@-34.9062213,-56.1944559,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802d2e06d853:0x80732a9b51333b20!8m2!3d-34.9062213!4d-56.1944559!16s%2Fg%2F12dpwqjqf"
+        }
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
       ]
     }
   ]

@@ -10,7 +10,7 @@
       "tiers": [
         "todas"
       ],
-      "validUntil": "2026-08-31",
+      "validUntil": "2026-12-31",
       "excludedApps": [
         "mercado-pago"
       ],
@@ -116,7 +116,7 @@
         "jueves",
         "viernes"
       ],
-      "validUntil": "2026-07-31",
+      "validUntil": "2026-09-30",
       "refundType": "point-of-sale",
       "channels": [
         "in-store",

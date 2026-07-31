@@ -157,22 +157,6 @@
       "notes": "El beneficio aplica únicamente para la compra de libros. Promoción no válida para textos de estudio. Quedan excluidas aquellas correspondientes al paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera, BIN 48 31 14 y BIN 43 03 07 20)"
     },
     {
-      "merchant": "Fundación de Cultura Universitaria",
-      "category": "educacion",
-      "percent": 15,
-      "tiers": [
-        "todas"
-      ],
-      "refundType": "statement-credit",
-      "stackable": false,
-      "excludedApps": [
-        "mercado-pago",
-        "handy"
-      ],
-      "cap": "• Tope de Devolución: 500 pesos uruguayos por cliente por mes",
-      "notes": "• Los descuentos aplican a las tarjetas de CRÉDITO y DEBITO emitidas por Banco Santander S.A. (Uruguay), con excepción de la tarjeta débito incluida dentro del paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera) emitido por Banco Santander S.A. • A éstos descuentos se les sumará el correspondiente a la devolución de puntos de IVA, de acuerdo a la Ley 17.934. Banco Santander es ajeno a los problemas de comunicación que puedan existir para que se realice íntegramente la transacción"
-    },
-    {
       "merchant": "Imprenta La Canasta",
       "category": "educacion",
       "percent": 15,

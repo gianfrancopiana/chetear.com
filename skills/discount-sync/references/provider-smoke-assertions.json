@@ -87,7 +87,7 @@
     ]
   },
   "santander": {
-    "minRules": 70,
+    "minRules": 69,
     "maxRules": 95,
     "minUniqueMerchants": 65,
     "mustContainMerchants": [
