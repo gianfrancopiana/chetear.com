@@ -51,10 +51,6 @@ every sync run. This section only fixes which `beneficio=` IDs are in scope
 and why some are excluded.
 
 ### Runtime-relevant now
-- `beneficio=637` — Cabify (preserve cap and rotating monthly coupon code in `notes`)
-- `beneficio=670` — PAX Assistance
-- `beneficio=739` — DIRECTV Prepago primera recarga 20% (App Prex; June–July)
-- `beneficio=736` — DIRECTV Prepago recarga plan 10% + días extras (App Prex; June–July)
 - `beneficio=5` — Restaurantes (IVA-point benefit)
 - `beneficio=516` — Pagos y recargas (IVA-point benefit)
 - `beneficio=3` — Comercios (IVA-point benefit)
@@ -62,6 +58,10 @@ and why some are excluded.
 - `beneficio=4` — Abitab (IVA-point benefit)
 
 ### Inspect but currently skip from runtime
+- `beneficio=637` — Cabify July code `PREXJUL30`; hub still lists it on 2026-08-01 but month code is July — drop until a new monthly code/window appears
+- `beneficio=670` — PAX Assistance 50% window ended 2026-07-31; skip until a new active window appears
+- `beneficio=739` — DIRECTV Prepago primera recarga 20% (App Prex; June–July only) — expired after 2026-07-31
+- `beneficio=736` — DIRECTV Prepago recarga plan 10% + días extras (App Prex; June–July only) — expired after 2026-07-31
 - `beneficio=744` — Ollas del Mundo 2026 event window ended 2026-07-26; skip until a new active window appears
 - `beneficio=743` — Grupocine birthday gift (pop + refresco; courtesy gift, not a stable spend-side percent)
 - `beneficio=731` — HolaSIM no longer listed under active especiales (2026-07-19)

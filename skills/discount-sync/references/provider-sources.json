@@ -21,18 +21,19 @@
       },
       {
         "title": "15% menos en Bosch y Cia",
-        "note": "Credit cards; source now shows 15% (was 25%)"
+        "note": "Credit cards 15%; brands Roca/Hansgrohe/Johnson/Portobello. Panel vigencia through 2026-08-16."
       },
       {
         "title": "15% menos en Starbucks en bebidas",
-        "note": "Day logic on bar-prepared drinks; preserve scope in notes"
+        "note": "Day logic on bar-prepared drinks; preserve scope in notes. Detail vigencia ended 31/07/2026 but card still live 2026-08-01 → omit past validUntil (source-visibility override)."
       },
       {
-        "title": "15% menos en Riviera Joyería"
+        "title": "15% menos en Riviera Joyería",
+        "note": "Credit jewelry. Detail vigencia ended 31/07/2026 but card still live 2026-08-01 → omit past validUntil."
       },
       {
         "title": "25% y 15% menos en Farmacia El Túnel",
-        "note": "Premium vs general split with day logic"
+        "note": "Premium vs general split with day logic. Detail vigencia ended 31/07/2026 but card still live 2026-08-01 → omit past validUntil."
       },
       {
         "title": "25% y 15% menos en San Roque",
@@ -47,15 +48,15 @@
       },
       {
         "title": "2x1 en Freddo",
-        "note": "benefitType=2-for-1; débito tab — verify days, tiers, and cap on next sync via the detail modal"
+        "note": "benefitType=2-for-1; panel vigencia through 2026-08-31"
       },
       {
         "title": "2x1 en Las Delicias",
-        "note": "benefitType=2-for-1; débito tab — verify days, tiers, and cap on next sync"
+        "note": "benefitType=2-for-1; Montevideo y Maldonado; panel vigencia through 2026-08-31"
       },
       {
         "title": "2x1 en Heladería La Nevada - Salto",
-        "note": "benefitType=2-for-1; débito tab; Salto only — verify days, tiers, cap on next sync"
+        "note": "benefitType=2-for-1; Salto only; panel vigencia through 2026-08-31"
       },
       {
         "title": "10% menos en Mosca",

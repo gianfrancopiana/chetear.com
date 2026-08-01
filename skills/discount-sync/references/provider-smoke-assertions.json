@@ -87,9 +87,9 @@
     ]
   },
   "santander": {
-    "minRules": 69,
+    "minRules": 68,
     "maxRules": 95,
-    "minUniqueMerchants": 65,
+    "minUniqueMerchants": 64,
     "mustContainMerchants": [
       "Restaurantes",
       "Farmashop",
@@ -432,14 +432,14 @@
     ]
   },
   "prex": {
-    "minRules": 6,
+    "minRules": 5,
     "maxRules": 15,
-    "minUniqueMerchants": 6,
+    "minUniqueMerchants": 5,
     "mustContainMerchants": [
-      "Cabify",
-      "PAX Assistance",
+      "Restaurantes Uruguay",
       "STM",
-      "Abitab"
+      "Abitab",
+      "Comercios Uruguay"
     ],
     "mustHaveLinkedMerchantLists": [
       {
@@ -450,6 +450,11 @@
           "Abitab"
         ]
       }
+    ],
+    "mustNotContainMerchants": [
+      "Cabify",
+      "PAX Assistance",
+      "DIRECTV Prepago"
     ]
   },
   "antel": {

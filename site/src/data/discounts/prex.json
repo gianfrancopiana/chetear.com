@@ -3,54 +3,6 @@
   "label": "Prex",
   "rules": [
     {
-      "merchant": "Cabify",
-      "category": "viajes",
-      "percent": 30,
-      "validUntil": "2026-07-31",
-      "channels": [
-        "online"
-      ],
-      "cap": "Tope $150, un viaje",
-      "notes": "Código del mes: PREXJUL30. App Cabify."
-    },
-    {
-      "merchant": "PAX Assistance",
-      "category": "viajes",
-      "percent": 50,
-      "validUntil": "2026-07-31",
-      "channels": [
-        "online"
-      ],
-      "networks": [
-        "mastercard"
-      ],
-      "notes": "Asistencia de viaje en web exclusiva Prex + Pax. Descuento visible en checkout."
-    },
-    {
-      "merchant": "DIRECTV Prepago",
-      "category": "entretenimiento",
-      "percent": 20,
-      "validUntil": "2026-07-31",
-      "channels": [
-        "online"
-      ],
-      "cap": "Tope $200",
-      "refundType": "statement-credit",
-      "notes": "Primera recarga DIRECTV Prepago desde $500 en App Prex (junio–julio). Reintegro en hasta 7 días hábiles."
-    },
-    {
-      "merchant": "DIRECTV Prepago",
-      "category": "entretenimiento",
-      "percent": 10,
-      "validUntil": "2026-07-31",
-      "channels": [
-        "online"
-      ],
-      "cap": "Tope $200",
-      "refundType": "statement-credit",
-      "notes": "Recargas DIRECTV Prepago desde $1.650 en App Prex (junio–julio) + 6 días extras de programación. Reintegro en hasta 7 días hábiles."
-    },
-    {
       "merchant": "Restaurantes Uruguay",
       "category": "restaurante",
       "percent": 9,

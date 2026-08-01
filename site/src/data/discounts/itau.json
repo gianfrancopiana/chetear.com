@@ -65,8 +65,7 @@
       ],
       "cardFamilies": [
         "Personal Bank"
-      ],
-      "validUntil": "2026-07-31"
+      ]
     },
     {
       "merchant": "Farmacia El Túnel",
@@ -86,8 +85,7 @@
       "networks": [
         "visa",
         "mastercard"
-      ],
-      "validUntil": "2026-07-31"
+      ]
     },
     {
       "id": "itau-san-roque-premium-25",
@@ -161,7 +159,6 @@
       "tiers": [
         "todas"
       ],
-      "validUntil": "2026-07-31",
       "stackable": false,
       "notes": "No aplica para reparaciones"
     },
@@ -174,7 +171,7 @@
       ],
       "stackable": false,
       "notes": "Tarjetas de crédito Itaú. Marcas: Roca, Hansgrohe, Johnson y Portobello",
-      "validUntil": "2026-07-31"
+      "validUntil": "2026-08-16"
     },
     {
       "merchant": "Starbucks",
@@ -186,7 +183,6 @@
         "miercoles",
         "jueves"
       ],
-      "validUntil": "2026-07-31",
       "stackable": false,
       "cardFamilies": [
         "Volar"
@@ -221,7 +217,7 @@
       "tiers": [
         "todas"
       ],
-      "validUntil": "2026-07-31",
+      "validUntil": "2026-08-31",
       "stackable": false,
       "channels": [
         "in-store"
@@ -241,7 +237,7 @@
       "tiers": [
         "todas"
       ],
-      "validUntil": "2026-07-31",
+      "validUntil": "2026-08-31",
       "stackable": false,
       "channels": [
         "in-store"
@@ -271,7 +267,7 @@
         "Personal Bank"
       ],
       "notes": "2x1 en helados de kilo y cucuruchos grandes. Solo Salto. No aplica Cuenta Pocket",
-      "validUntil": "2026-07-31",
+      "validUntil": "2026-08-31",
       "location": "Salto",
       "geo": {
         "lat": -31.388646,

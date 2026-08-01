@@ -4430,26 +4430,6 @@
       ]
     },
     {
-      "id": "club-el-pais-dino-aventura-rural-del-prado-locations",
-      "merchantNames": [
-        "Dino Aventura"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "Dino Aventura - Rural del Prado",
-          "location": "Rural del Prado",
-          "geo": {
-            "lat": -34.863049,
-            "lng": -56.203285
-          },
-          "mapsUrl": "https://www.google.com/maps/place/Rural+del+Prado/@-34.8630492,-56.2032852,17z/data=!3m1!4b1!4m6!3m5!1s0x95a02aad48e0af2b:0xe14c76e4d71a56a3!8m2!3d-34.8630492!4d-56.2032852!16s%2Fg%2F121m84fv"
-        }
-      ]
-    },
-    {
       "id": "club-el-pais-turf-plaza-de-toros-real-de-san-carlos-locations",
       "merchantNames": [
         "TURF"

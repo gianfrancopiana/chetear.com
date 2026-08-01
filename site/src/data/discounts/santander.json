@@ -423,8 +423,8 @@
         "lat": -34.911859,
         "lng": -56.14844
       },
-      "mapsUrl": "https://www.google.com/maps/place/Kave+Home/@-34.9118586,-56.1484401,17z/data=!3m1!4b1!4m6!3m5!1s0x959f8172b2a5731f:0xd10d63258424ecd1!8m2!3d-34.9118586!4d-56.1484401!16s%2Fg%2F11h_6ql74g?entry=ttu&g_ep=EgoyMDI2MDcyMC4wIKXMDSoASAFQAw%3D%3D",
-      "location": "Montevideo"
+      "location": "Montevideo",
+      "mapsUrl": "https://www.google.com/maps/place/Kave+Home/@-34.9118586,-56.1484401,17z/data=!3m1!4b1!4m6!3m5!1s0x959f8172b2a5731f:0xd10d63258424ecd1!8m2!3d-34.9118586!4d-56.1484401!16s%2Fg%2F11h_6ql74g?entry=ttu&g_ep=EgoyMDI2MDcyMC4wIKXMDSoASAFQAw%3D%3D"
     },
     {
       "merchant": "La Asturiana",
@@ -568,17 +568,6 @@
       "refundType": "point-of-sale",
       "stackable": false,
       "notes": "Quedan excluidas aquellas correspondientes al paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera, BIN 48 31 14 y BIN 43 03 07 20)"
-    },
-    {
-      "merchant": "Iber",
-      "category": "otros",
-      "percent": 15,
-      "tiers": [
-        "todas"
-      ],
-      "refundType": "point-of-sale",
-      "stackable": false,
-      "notes": "Quedan excluidas aquellas correspondientes al paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera, BIN 48 31 14)"
     },
     {
       "merchant": "Infantozzi",
