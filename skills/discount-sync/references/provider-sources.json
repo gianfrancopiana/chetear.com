@@ -9,7 +9,7 @@
     ],
     "mode": "browser",
     "blueprintPath": "skills/discount-sync/references/provider-blueprints/itau.md",
-    "notes": "Always open Itaú benefit cards via Ver más/detail view and confirm tier/day splits before changing percentages.",
+    "notes": "Always open Itaú benefit cards via Ver más/detail view and confirm tier/day splits before changing percentages. 2026-08-02: Starbucks title missing from union inventory — flagged disappearedFromInScope; runtime Starbucks kept LKG. Panel opens failed in headless this run.",
     "inScope": [
       {
         "title": "15% menos en restaurantes",
@@ -100,8 +100,8 @@
           "note": "Likely umbrella for premium broad rules"
         },
         {
-          "title": "25% y 15% menos en frazadas Campomar",
-          "note": "Online Campomar blankets promo"
+          "title": "15% y 10% menos en Divino",
+          "note": "New 2026-08-02 union title; needs detail classification"
         },
         {
           "title": "25% y 15% menos en Mosca",
@@ -110,6 +110,14 @@
         {
           "title": "15% menos en Cantegrill Joyas",
           "note": "Credit jewelry discount through 2026-12-31"
+        },
+        {
+          "title": "25% y 15% menos en Le Blanc",
+          "note": "New 2026-08-02 union title; needs detail classification"
+        },
+        {
+          "title": "25% y 15% menos en Soho",
+          "note": "New 2026-08-02 union title; needs detail classification"
         },
         {
           "title": "15% menos en Wikimusculos",
@@ -142,17 +150,15 @@
         {
           "title": "25% menos en Taxis Aeropuerto de Carrasco",
           "note": "Personal Bank Jun-Aug 2026"
-        },
-        {
-          "title": "25% menos en Puntocolor",
-          "note": "Personal Bank seasonal Inca products through 2026-07-31"
         }
       ],
-      "disappearedFromInScope": [],
-      "staleOutOfScope": [
+      "disappearedFromInScope": [
         {
-          "title": "Millas x 3 en Frog"
-        },
+          "title": "15% menos en Starbucks en bebidas",
+          "note": "Not visible on #/todas-las-tarjetas union 2026-08-02; kept runtime LKG pending human drop from inScope"
+        }
+      ],
+      "staleOutOfScope": [
         {
           "title": "Taller de hongos en Deicas"
         },

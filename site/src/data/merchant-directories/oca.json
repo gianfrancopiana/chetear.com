@@ -1021,26 +1021,6 @@
       ]
     },
     {
-      "id": "oca-bela-locations",
-      "merchantNames": [
-        "Bela"
-      ],
-      "sourceUrls": [
-        "https://nominatim.openstreetmap.org/"
-      ],
-      "merchants": [
-        {
-          "name": "bela",
-          "location": "bela, Avenida Ingeniero Luis Giannattasio, Lagomar, Ciudad de la Costa, Municipio de Ciudad de la Costa, Canelones, 15000",
-          "geo": {
-            "lat": -34.83766,
-            "lng": -55.985931
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.837660,-55.985931"
-        }
-      ]
-    },
-    {
       "id": "oca-briq-locations",
       "merchantNames": [
         "Briq"

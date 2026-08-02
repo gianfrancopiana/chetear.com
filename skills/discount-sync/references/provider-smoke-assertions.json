@@ -380,7 +380,6 @@
     "minUniqueMerchants": 12,
     "mustContainMerchants": [
       "Macro Mercado",
-      "Bela",
       "Chajá",
       "Movie"
     ],
@@ -429,6 +428,9 @@
           "Movie Nuevocentro"
         ]
       }
+    ],
+    "mustNotContainMerchants": [
+      "Bela"
     ]
   },
   "prex": {

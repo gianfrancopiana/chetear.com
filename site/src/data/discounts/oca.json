@@ -10,7 +10,7 @@
       "tiers": [
         "todas"
       ],
-      "validUntil": "2026-12-31",
+      "validUntil": "2027-12-31",
       "excludedApps": [
         "mercado-pago"
       ],
@@ -21,29 +21,6 @@
       ],
       "notes": "Mejor escala de precios Mastercard: 3 cuotas sin recargo en supermercado y 12 cuotas en non-food",
       "id": "oca-macro-mercado-installments"
-    },
-    {
-      "merchant": "Bela",
-      "category": "indumentaria",
-      "percent": 20,
-      "tiers": [
-        "todas"
-      ],
-      "days": [
-        "viernes"
-      ],
-      "validUntil": "2026-07-31",
-      "excludedApps": [
-        "mercado-pago"
-      ],
-      "stackable": false,
-      "refundType": "point-of-sale",
-      "networks": [
-        "visa",
-        "mastercard",
-        "oca"
-      ],
-      "notes": "Por el feriado del 01/05/2026 el beneficio tambien aplica el jueves 30/04/2026"
     },
     {
       "merchant": "Chajá",
@@ -125,7 +102,7 @@
       "networks": [
         "oca"
       ],
-      "notes": "Categorías seleccionadas por día: lunes congelados (máx. 10 kg), martes pollo y cerdo (máx. 10 kg), miércoles frutas y verduras, jueves fiambres y cervezas (máx. 3 kg de fiambres y 12 litros de cerveza), viernes bazar. Promoción válida para consumo familiar",
+      "notes": "Categorías seleccionadas por día: lunes congelados (máx. 10 kg); martes pollo y cerdo (máx. 10 kg; excluye bovinos/embutidos/ovinos); miércoles frutas y verduras (excluye complementos/preparados); jueves fiambres, quesos y cervezas (máx. 3 kg fiambres y 12 L cerveza; exclusiones en fiambres secos/paté/picadas/queso rallado y envases de cerveza); viernes bazar completo. Consumo familiar; sucursales, web y App; no Mercado Pago",
       "id": "oca-tata-general-20"
     },
     {
@@ -209,26 +186,6 @@
         "oca"
       ],
       "notes": "12 cuotas exclusivas para Mastercard"
-    },
-    {
-      "merchant": "Bela",
-      "category": "indumentaria",
-      "percent": 10,
-      "tiers": [
-        "todas"
-      ],
-      "validUntil": "2026-07-31",
-      "excludedApps": [
-        "mercado-pago"
-      ],
-      "stackable": false,
-      "refundType": "point-of-sale",
-      "cardFamilies": [
-        "OCA Blue"
-      ],
-      "networks": [
-        "oca"
-      ]
     },
     {
       "merchant": "Chajá",
