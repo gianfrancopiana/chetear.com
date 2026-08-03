@@ -120,13 +120,25 @@
       "merchant": "Centro Auditivo del Uruguay",
       "category": "salud",
       "percent": 20,
-      "notes": "Hasta 20% de descuento en el costo total del tratamiento con pago contado. Código desde *789*5#SEND o MiAntel"
+      "notes": "Hasta 20% de descuento en el costo total del tratamiento con pago contado. Código desde *789*5#SEND o MiAntel",
+      "location": "Montevideo",
+      "geo": {
+        "lat": -34.905697,
+        "lng": -56.198742
+      },
+      "mapsUrl": "https://www.google.com/maps/place/Centro+Auditivo/@-34.9056973,-56.1987421,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802b76a38f81:0xffba269f47a7d046!8m2!3d-34.9056973!4d-56.1987421"
     },
     {
       "merchant": "Centro Auditivo del Uruguay",
       "category": "salud",
       "percent": 15,
-      "notes": "Hasta 15% de descuento en el costo total del tratamiento con tarjeta de crédito en 6 cuotas sin intereses. Código desde *789*5#SEND o MiAntel"
+      "notes": "Hasta 15% de descuento en el costo total del tratamiento con tarjeta de crédito en 6 cuotas sin intereses. Código desde *789*5#SEND o MiAntel",
+      "location": "Montevideo",
+      "geo": {
+        "lat": -34.905697,
+        "lng": -56.198742
+      },
+      "mapsUrl": "https://www.google.com/maps/place/Centro+Auditivo/@-34.9056973,-56.1987421,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802b76a38f81:0xffba269f47a7d046!8m2!3d-34.9056973!4d-56.1987421"
     },
     {
       "merchant": "iPlace",
