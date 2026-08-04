@@ -46,6 +46,30 @@
         "mastercard"
       ],
       "notes": "2 puntos de IVA pagando facturas en Abitab con Prex"
+    },
+    {
+      "merchant": "Cabify",
+      "category": "viajes",
+      "percent": 30,
+      "validUntil": "2026-08-31",
+      "channels": [
+        "online"
+      ],
+      "cap": "Tope $150, un viaje",
+      "notes": "Código del mes: PREXAGO30. App Cabify."
+    },
+    {
+      "merchant": "PAX Assistance",
+      "category": "viajes",
+      "percent": 50,
+      "validUntil": "2026-08-31",
+      "channels": [
+        "online"
+      ],
+      "networks": [
+        "mastercard"
+      ],
+      "notes": "Asistencia de viaje en web exclusiva Prex + Pax. Descuento visible en checkout."
     }
   ]
 }

@@ -56,12 +56,12 @@ and why some are excluded.
 - `beneficio=3` — Comercios (IVA-point benefit)
 - `beneficio=6` — STM (IVA-point benefit)
 - `beneficio=4` — Abitab (IVA-point benefit)
+- `beneficio=637` — Cabify App 30% with monthly code `PREXAGO30` (2026-08; cap $150 / one trip)
+- `beneficio=670` — PAX Assistance 50% on Prex + Pax web through 2026-08-31
 
 ### Inspect but currently skip from runtime
-- `beneficio=637` — Cabify July code `PREXJUL30`; hub still lists it on 2026-08-01 but month code is July — drop until a new monthly code/window appears
-- `beneficio=670` — PAX Assistance 50% window ended 2026-07-31; skip until a new active window appears
-- `beneficio=739` — DIRECTV Prepago primera recarga 20% (App Prex; June–July only) — expired after 2026-07-31
-- `beneficio=736` — DIRECTV Prepago recarga plan 10% + días extras (App Prex; June–July only) — expired after 2026-07-31
+- `beneficio=739` — DIRECTV Prepago primera recarga 20% (App Prex; June–July only) — expired after 2026-07-31; hub still shows July copy on 2026-08-04
+- `beneficio=736` — DIRECTV Prepago recarga plan 10% + días extras (App Prex; June–July only) — expired after 2026-07-31; hub still shows July copy on 2026-08-04
 - `beneficio=744` — Ollas del Mundo 2026 event window ended 2026-07-26; skip until a new active window appears
 - `beneficio=743` — Grupocine birthday gift (pop + refresco; courtesy gift, not a stable spend-side percent)
 - `beneficio=731` — HolaSIM no longer listed under active especiales (2026-07-19)

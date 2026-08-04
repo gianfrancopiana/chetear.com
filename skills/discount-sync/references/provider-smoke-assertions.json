@@ -434,14 +434,16 @@
     ]
   },
   "prex": {
-    "minRules": 5,
+    "minRules": 7,
     "maxRules": 15,
-    "minUniqueMerchants": 5,
+    "minUniqueMerchants": 7,
     "mustContainMerchants": [
       "Restaurantes Uruguay",
       "STM",
       "Abitab",
-      "Comercios Uruguay"
+      "Comercios Uruguay",
+      "Cabify",
+      "PAX Assistance"
     ],
     "mustHaveLinkedMerchantLists": [
       {
@@ -454,8 +456,6 @@
       }
     ],
     "mustNotContainMerchants": [
-      "Cabify",
-      "PAX Assistance",
       "DIRECTV Prepago"
     ]
   },
