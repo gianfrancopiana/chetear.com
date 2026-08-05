@@ -2118,35 +2118,6 @@
       ]
     },
     {
-      "id": "club-el-pais-vivaldi-locations",
-      "merchantNames": [
-        "Vivaldi"
-      ],
-      "sourceUrls": [
-        "https://nominatim.openstreetmap.org/"
-      ],
-      "merchants": [
-        {
-          "name": "Vivaldi",
-          "location": "Vivaldi, 2903, Blanca del Tabaré, Punta Carretas, Montevideo, 11303",
-          "geo": {
-            "lat": -34.920335,
-            "lng": -56.156553
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.920335,-56.156553"
-        },
-        {
-          "name": "Espacio Libre Antonio Vivaldi",
-          "location": "Espacio Libre Antonio Vivaldi, Carrasco, Montevideo",
-          "geo": {
-            "lat": -34.886469,
-            "lng": -56.063235
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.886469,-56.063235"
-        }
-      ]
-    },
-    {
       "id": "club-el-pais-watashi-locations",
       "merchantNames": [
         "Watashi"
@@ -4467,6 +4438,146 @@
       ],
       "sourceUrls": [
         "https://www.clubelpais.com.uy/"
+      ]
+    },
+    {
+      "id": "club-el-pais-cartografia-sobre-la-identidad-teatro-solis-locations",
+      "merchantNames": [
+        "Cartografía sobre la Identidad"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "Cartografía sobre la Identidad - Teatro Solís",
+          "location": "Teatro Solís",
+          "geo": {
+            "lat": -34.907634,
+            "lng": -56.201123
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Teatro+Sol%C3%ADs/@-34.9076336,-56.2011228,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802adf27edcb:0xe9cdb804f35a1e8a!8m2!3d-34.9076336!4d-56.2011228!16s%2Fm%2F03c5d99"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-la-filarmonica-los-planetas-teatro-solis-locations",
+      "merchantNames": [
+        "La Filarmónica – Los Planetas"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "La Filarmónica – Los Planetas - Teatro Solís",
+          "location": "Teatro Solís",
+          "geo": {
+            "lat": -34.907634,
+            "lng": -56.201123
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Teatro+Sol%C3%ADs/@-34.9076336,-56.2011228,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802adf27edcb:0xe9cdb804f35a1e8a!8m2!3d-34.9076336!4d-56.2011228!16s%2Fm%2F03c5d99"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-lorca-el-tren-del-olvido-30-aniversario-sala-campodonico-teatro-el-galpon-locations",
+      "merchantNames": [
+        "Lorca – «El Tren del Olvido» 30° aniversario (Sala Campodónico)"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "Lorca – «El Tren del Olvido» 30° aniversario (Sala Campodónico) - Teatro El Galpón",
+          "location": "Teatro El Galpón, Montevideo",
+          "geo": {
+            "lat": -34.90403,
+            "lng": -56.181082
+          },
+          "mapsUrl": "https://www.google.com/maps/place/El+Galp%C3%B3n/@-34.9040305,-56.1810816,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81b5617dc4e7:0xc21c578fd5c6424f"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-noelia-pace-teatro-el-galpon-locations",
+      "merchantNames": [
+        "Noelia Pace"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "Noelia Pace - Teatro El Galpón",
+          "location": "Teatro El Galpón, Montevideo",
+          "geo": {
+            "lat": -34.90403,
+            "lng": -56.181082
+          },
+          "mapsUrl": "https://www.google.com/maps/place/El+Galp%C3%B3n/@-34.9040305,-56.1810816,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81b5617dc4e7:0xc21c578fd5c6424f"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-nostalgia-i-banda-de-raul-medina-i-punta-del-este-pueblo-narakan-locations",
+      "merchantNames": [
+        "Nostalgia I Banda de Raúl Medina I Punta del Este"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "Nostalgia I Banda de Raúl Medina I Punta del Este - Pueblo Narakan",
+          "location": "Pueblo Narakan",
+          "geo": {
+            "lat": -34.965829,
+            "lng": -54.950199
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Pueblo+Narakan/@-34.965829,-54.9501988,17z/data=!3m1!4b1!4m6!3m5!1s0x957505fe4891555b:0xa971232087fe3361!8m2!3d-34.965829!4d-54.9501988!16s%2Fg%2F11t6kxxp4l"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-pablo-picotto-i-25-anos-de-humor-quien-te-conoce-teatro-solis-locations",
+      "merchantNames": [
+        "Pablo Picotto I 25 años de humor ¿Quién te conoce?"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "Pablo Picotto I 25 años de humor ¿Quién te conoce? - Teatro Solís",
+          "location": "Teatro Solís",
+          "geo": {
+            "lat": -34.907634,
+            "lng": -56.201123
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Teatro+Sol%C3%ADs/@-34.9076336,-56.2011228,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802adf27edcb:0xe9cdb804f35a1e8a!8m2!3d-34.9076336!4d-56.2011228!16s%2Fm%2F03c5d99"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-el-sapo-ruperto-una-pequena-aventura-musical-auditorio-nelly-goitino-locations",
+      "merchantNames": [
+        "El Sapo Ruperto: Una pequeña aventura musical"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "El Sapo Ruperto: Una pequeña aventura musical - Auditorio Nelly Goitiño",
+          "location": "Auditorio del Sodre Nelly Goitiño, Montevideo",
+          "geo": {
+            "lat": -34.906365,
+            "lng": -56.196316
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Auditorio+del+Sodre+Nelly+Goiti%C3%B1o/@-34.9063649,-56.1963156,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802cc182a38b:0x93bac231276c00d9!8m2!3d-34.9063649!4d-56.1963156!16s%2Fg%2F113qbbcsh"
+        }
       ]
     }
   ]

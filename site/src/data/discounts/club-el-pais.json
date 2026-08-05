@@ -40,11 +40,11 @@
       "benefitType": "2-for-1",
       "notes": "06 de agosto - 20:30 hs. Lugar: Auditorio Adela Reta",
       "validUntil": "2026-08-06",
+      "location": "Auditorio Nacional Adela Reta",
       "geo": {
         "lat": -34.904353,
         "lng": -56.198553
       },
-      "location": "Auditorio Nacional Adela Reta",
       "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
     },
     {
@@ -54,11 +54,11 @@
       "benefitType": "2-for-1",
       "notes": "7 de Agosto - 21:30 hs. Lugar: Pueblo Narakan",
       "validUntil": "2026-08-07",
+      "location": "Pueblo Narakan",
       "geo": {
         "lat": -34.965829,
         "lng": -54.950199
       },
-      "location": "Pueblo Narakan",
       "mapsUrl": "https://www.google.com/maps/place/Pueblo+Narakan/@-34.965829,-54.9501988,17z/data=!3m1!4b1!4m6!3m5!1s0x957505fe4891555b:0xa971232087fe3361!8m2!3d-34.965829!4d-54.9501988!16s%2Fg%2F11t6kxxp4l"
     },
     {
@@ -76,11 +76,11 @@
       "benefitType": "2-for-1",
       "notes": "21 de Octubre - 20 hs. Lugar: Teatro El Galpón",
       "validUntil": "2026-10-21",
+      "location": "Teatro El Galpón, Montevideo",
       "geo": {
         "lat": -34.90403,
         "lng": -56.181082
       },
-      "location": "Teatro El Galpón, Montevideo",
       "mapsUrl": "https://www.google.com/maps/place/El+Galp%C3%B3n/@-34.9040305,-56.1810816,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81b5617dc4e7:0xc21c578fd5c6424f"
     },
     {
@@ -96,11 +96,11 @@
       "benefitType": "2-for-1",
       "notes": "10 al 20 de diciembre. Lugar: Auditorio Adela Reta",
       "validUntil": "2026-12-20",
+      "location": "Auditorio Nacional Adela Reta",
       "geo": {
         "lat": -34.904353,
         "lng": -56.198553
       },
-      "location": "Auditorio Nacional Adela Reta",
       "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
     },
     {
@@ -110,11 +110,11 @@
       "benefitType": "2-for-1",
       "notes": "Del 17 al 30 de setiembre. Lugar: Auditorio Adela Reta",
       "validUntil": "2026-09-30",
+      "location": "Auditorio Nacional Adela Reta",
       "geo": {
         "lat": -34.904353,
         "lng": -56.198553
       },
-      "location": "Auditorio Nacional Adela Reta",
       "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
     },
     {
@@ -124,11 +124,11 @@
       "benefitType": "2-for-1",
       "notes": "22 de Agosto - 21 hs. Lugar: Sala Camacuá",
       "validUntil": "2026-08-22",
+      "location": "Sala Camacuá",
       "geo": {
         "lat": -34.909122,
         "lng": -56.202256
       },
-      "location": "Sala Camacuá",
       "mapsUrl": "https://www.google.com/maps/place/Sala+Camacu%C3%A1/@-34.9091219,-56.2022557,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81d52fef30bb:0xdc43d5c1616ccb78!8m2!3d-34.9091219!4d-56.2022557!16s%2Fg%2F11c0qgj373"
     },
     {
@@ -138,12 +138,26 @@
       "benefitType": "2-for-1",
       "notes": "11 de noviembre - 19:30 hs. Lugar: Teatro Solís",
       "validUntil": "2026-11-11",
+      "location": "Teatro Solís",
       "geo": {
         "lat": -34.907634,
         "lng": -56.201123
       },
-      "location": "Teatro Solís",
       "mapsUrl": "https://www.google.com/maps/place/Teatro+Sol%C3%ADs/@-34.9076336,-56.2011228,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802adf27edcb:0xe9cdb804f35a1e8a!8m2!3d-34.9076336!4d-56.2011228!16s%2Fm%2F03c5d99"
+    },
+    {
+      "merchant": "Cartografía sobre la Identidad",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "27 de setiembre al 25 de octubre. Lugar: Teatro Solís",
+      "validUntil": "2026-10-25",
+      "geo": {
+        "lat": -34.907634,
+        "lng": -56.201123
+      },
+      "mapsUrl": "https://www.google.com/maps/place/Teatro+Sol%C3%ADs/@-34.9076336,-56.2011228,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802adf27edcb:0xe9cdb804f35a1e8a!8m2!3d-34.9076336!4d-56.2011228!16s%2Fm%2F03c5d99",
+      "location": "Teatro Solís"
     },
     {
       "merchant": "CNJS – Concierto VI",
@@ -152,11 +166,11 @@
       "benefitType": "2-for-1",
       "notes": "26 de agosto - 20hs. Lugar: Auditorio Adela Reta",
       "validUntil": "2026-08-26",
+      "location": "Auditorio Nacional Adela Reta",
       "geo": {
         "lat": -34.904353,
         "lng": -56.198553
       },
-      "location": "Auditorio Nacional Adela Reta",
       "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
     },
     {
@@ -172,11 +186,11 @@
       "benefitType": "2-for-1",
       "notes": "22 de Octubre - 20 hs. Lugar: Teatro El Galpón",
       "validUntil": "2026-10-22",
+      "location": "Teatro El Galpón, Montevideo",
       "geo": {
         "lat": -34.90403,
         "lng": -56.181082
       },
-      "location": "Teatro El Galpón, Montevideo",
       "mapsUrl": "https://www.google.com/maps/place/El+Galp%C3%B3n/@-34.9040305,-56.1810816,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81b5617dc4e7:0xc21c578fd5c6424f"
     },
     {
@@ -186,11 +200,11 @@
       "benefitType": "2-for-1",
       "notes": "5 de setiembre - 21 hs. Lugar: Movie Montevideo",
       "validUntil": "2026-09-05",
+      "location": "Movie, 5775, Avenida Italia, Punta Gorda, Montevideo, 11403",
       "geo": {
         "lat": -34.881352,
         "lng": -56.081088
       },
-      "location": "Movie, 5775, Avenida Italia, Punta Gorda, Montevideo, 11403",
       "mapsUrl": "https://www.google.com/maps/dir//-34.881352,-56.081088"
     },
     {
@@ -200,11 +214,11 @@
       "benefitType": "2-for-1",
       "notes": "27 de noviembre - 21hs. Lugar: Auditorio Adela Reta",
       "validUntil": "2026-11-27",
+      "location": "Auditorio Nacional Adela Reta",
       "geo": {
         "lat": -34.904353,
         "lng": -56.198553
       },
-      "location": "Auditorio Nacional Adela Reta",
       "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
     },
     {
@@ -214,11 +228,11 @@
       "benefitType": "2-for-1",
       "notes": "Del 09 al al 13 de setiembre. Lugar: Auditorio Adela Reta",
       "validUntil": "2026-09-13",
+      "location": "Auditorio Nacional Adela Reta",
       "geo": {
         "lat": -34.904353,
         "lng": -56.198553
       },
-      "location": "Auditorio Nacional Adela Reta",
       "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
     },
     {
@@ -228,11 +242,11 @@
       "benefitType": "2-for-1",
       "notes": "Del 17 de julio al 28 de agosto. Lugar: Teatro Alianza",
       "validUntil": "2026-08-28",
+      "location": "Teatro Alianza",
       "geo": {
         "lat": -34.908478,
         "lng": -56.192329
       },
-      "location": "Teatro Alianza",
       "mapsUrl": "https://www.google.com/maps/place/Teatro+Alianza/@-34.9084781,-56.1923287,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81cd80292d3b:0x8b46eed506719c94!8m2!3d-34.9084781!4d-56.1923287!16s%2Fg%2F11bwh9w_js"
     },
     {
@@ -244,17 +258,31 @@
       "validUntil": "2026-11-27"
     },
     {
+      "merchant": "El Sapo Ruperto: Una pequeña aventura musical",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "19 al 26 de setiembre. Lugar: Auditorio Nelly Goitiño",
+      "validUntil": "2026-09-26",
+      "geo": {
+        "lat": -34.906365,
+        "lng": -56.196316
+      },
+      "mapsUrl": "https://www.google.com/maps/place/Auditorio+del+Sodre+Nelly+Goiti%C3%B1o/@-34.9063649,-56.1963156,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802cc182a38b:0x93bac231276c00d9!8m2!3d-34.9063649!4d-56.1963156!16s%2Fg%2F113qbbcsh",
+      "location": "Auditorio del Sodre Nelly Goitiño, Montevideo"
+    },
+    {
       "merchant": "Elena Roger en Concierto",
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
       "notes": "23 de Octubre - 20 hs. Lugar: Teatro El Galpón",
       "validUntil": "2026-10-23",
+      "location": "El Galpón",
       "geo": {
         "lat": -34.90403,
         "lng": -56.181082
       },
-      "location": "El Galpón",
       "mapsUrl": "https://www.google.com/maps/place/El+Galp%C3%B3n/@-34.9040305,-56.1810816,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81b5617dc4e7:0xc21c578fd5c6424f!8m2!3d-34.9040305!4d-56.1810816!16s%2Fg%2F121rjw4h"
     },
     {
@@ -264,11 +292,11 @@
       "benefitType": "2-for-1",
       "notes": "31 de octubre y 01 de noviembre. Lugar: Parque de la Amistad",
       "validUntil": "2026-11-01",
+      "location": "Parque de la Amistad, Montevideo",
       "geo": {
         "lat": -34.902273,
         "lng": -56.144214
       },
-      "location": "Parque de la Amistad, Montevideo",
       "mapsUrl": "https://www.google.com/maps/place/Parque+de+la+Amistad/@-34.9022731,-56.144214,17z/data=!3m1!4b1!4m6!3m5!1s0x959f8110eee34b5d:0x1ae6547e63098ebc!8m2!3d-34.9022731!4d-56.144214!16s%2Fg%2F11bvcv5w00"
     },
     {
@@ -278,11 +306,11 @@
       "benefitType": "2-for-1",
       "notes": "18 de octubre - 20:00 hs. Lugar: Auditorio Adela Reta",
       "validUntil": "2026-10-18",
+      "location": "Auditorio Nacional Adela Reta",
       "geo": {
         "lat": -34.904353,
         "lng": -56.198553
       },
-      "location": "Auditorio Nacional Adela Reta",
       "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
     },
     {
@@ -298,11 +326,11 @@
       "benefitType": "2-for-1",
       "notes": "Del 30 de agosto al 13 de setiembre. Lugar: Planetario de Montevideo",
       "validUntil": "2026-09-13",
+      "location": "Planetario de Montevideo",
       "geo": {
         "lat": -34.901858,
         "lng": -56.144551
       },
-      "location": "Planetario de Montevideo",
       "mapsUrl": "https://www.google.com/maps/place/Planetario+de+Montevideo/@-34.901858,-56.144551,17z/data=!3m1!4b1!4m6!3m5!1s0x959f8110fac5989f:0x7b32fd0cf4bd7a7d!8m2!3d-34.901858!4d-56.144551!16s%2Fg%2F11b7431k3_"
     },
     {
@@ -312,11 +340,11 @@
       "benefitType": "2-for-1",
       "notes": "12 de Septiembre - 21 hs. Lugar: Plaza de Toros Real de San Carlos",
       "validUntil": "2026-09-12",
+      "location": "Plaza de Toros Real de San Carlos, Colonia",
       "geo": {
         "lat": -34.436517,
         "lng": -57.86514
       },
-      "location": "Plaza de Toros Real de San Carlos, Colonia",
       "mapsUrl": "https://www.google.com/maps/place/Plaza+de+Toros+Real+de+San+Carlos/@-34.4365172,-57.8651404,17z/data=!3m1!4b1!4m6!3m5!1s0x95a312d0b33bb5ff:0x70ccaa876da3e19b!8m2!3d-34.4365172!4d-57.8651404!16s%2Fm%2F04gnk34"
     },
     {
@@ -326,11 +354,11 @@
       "benefitType": "2-for-1",
       "notes": "21 de agosto - 20:00 hs. Lugar: Teatro Solís",
       "validUntil": "2026-08-21",
+      "location": "Teatro Solís",
       "geo": {
         "lat": -34.907634,
         "lng": -56.201123
       },
-      "location": "Teatro Solís",
       "mapsUrl": "https://www.google.com/maps/place/Teatro+Sol%C3%ADs/@-34.9076336,-56.2011228,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802adf27edcb:0xe9cdb804f35a1e8a!8m2!3d-34.9076336!4d-56.2011228!16s%2Fm%2F03c5d99"
     },
     {
@@ -348,11 +376,11 @@
       "benefitType": "2-for-1",
       "notes": "01 de octubre - 21:00 hs. Lugar: Auditorio Adela Reta",
       "validUntil": "2026-10-01",
+      "location": "Auditorio Nacional Adela Reta",
       "geo": {
         "lat": -34.904353,
         "lng": -56.198553
       },
-      "location": "Auditorio Nacional Adela Reta",
       "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
     },
     {
@@ -362,11 +390,11 @@
       "benefitType": "2-for-1",
       "notes": "del 30 de julio al 6 de septiembre. Lugar: Teatro Solís",
       "validUntil": "2026-09-06",
+      "location": "Teatro Solís",
       "geo": {
         "lat": -34.907634,
         "lng": -56.201123
       },
-      "location": "Teatro Solís",
       "mapsUrl": "https://www.google.com/maps/place/Teatro+Sol%C3%ADs/@-34.9076336,-56.2011228,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802adf27edcb:0xe9cdb804f35a1e8a!8m2!3d-34.9076336!4d-56.2011228!16s%2Fm%2F03c5d99"
     },
     {
@@ -376,12 +404,26 @@
       "benefitType": "2-for-1",
       "notes": "21 de octubre - 19:30 hs. Lugar: Teatro Solís",
       "validUntil": "2026-10-21",
+      "location": "Teatro Solís",
       "geo": {
         "lat": -34.907634,
         "lng": -56.201123
       },
-      "location": "Teatro Solís",
       "mapsUrl": "https://www.google.com/maps/place/Teatro+Sol%C3%ADs/@-34.9076336,-56.2011228,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802adf27edcb:0xe9cdb804f35a1e8a!8m2!3d-34.9076336!4d-56.2011228!16s%2Fm%2F03c5d99"
+    },
+    {
+      "merchant": "La Filarmónica – Los Planetas",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "27 de noviembre. Lugar: Teatro Solís",
+      "validUntil": "2026-11-27",
+      "geo": {
+        "lat": -34.907634,
+        "lng": -56.201123
+      },
+      "mapsUrl": "https://www.google.com/maps/place/Teatro+Sol%C3%ADs/@-34.9076336,-56.2011228,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802adf27edcb:0xe9cdb804f35a1e8a!8m2!3d-34.9076336!4d-56.2011228!16s%2Fm%2F03c5d99",
+      "location": "Teatro Solís"
     },
     {
       "merchant": "La Kermesse – Prado",
@@ -390,11 +432,11 @@
       "benefitType": "2-for-1",
       "notes": "31 de octubre - 21:00 hs. Lugar: Rural del Prado",
       "validUntil": "2026-10-31",
+      "location": "Rural del Prado",
       "geo": {
         "lat": -34.863049,
         "lng": -56.203285
       },
-      "location": "Rural del Prado",
       "mapsUrl": "https://www.google.com/maps/place/Rural+del+Prado/@-34.8630492,-56.2032852,17z/data=!3m1!4b1!4m6!3m5!1s0x95a02aad48e0af2b:0xe14c76e4d71a56a3!8m2!3d-34.8630492!4d-56.2032852!16s%2Fg%2F121m84fv"
     },
     {
@@ -404,12 +446,26 @@
       "benefitType": "2-for-1",
       "notes": "21 de agosto - 20:15 hs. Lugar: Movie Montevideo",
       "validUntil": "2026-08-21",
+      "location": "Movie, 5775, Avenida Italia, Punta Gorda, Montevideo, 11403",
       "geo": {
         "lat": -34.881352,
         "lng": -56.081088
       },
-      "location": "Movie, 5775, Avenida Italia, Punta Gorda, Montevideo, 11403",
       "mapsUrl": "https://www.google.com/maps/dir//-34.881352,-56.081088"
+    },
+    {
+      "merchant": "Lorca – «El Tren del Olvido» 30° aniversario (Sala Campodónico)",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "13 de Diciembre - 19:30 hs. Lugar: Teatro El Galpón",
+      "validUntil": "2026-12-13",
+      "geo": {
+        "lat": -34.90403,
+        "lng": -56.181082
+      },
+      "mapsUrl": "https://www.google.com/maps/place/El+Galp%C3%B3n/@-34.9040305,-56.1810816,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81b5617dc4e7:0xc21c578fd5c6424f",
+      "location": "Teatro El Galpón, Montevideo"
     },
     {
       "merchant": "Los Abuelos de la Nada",
@@ -418,11 +474,11 @@
       "benefitType": "2-for-1",
       "notes": "22 de agosto - 21 hs. Lugar: Teatro Metro",
       "validUntil": "2026-08-22",
+      "location": "Teatro Metro",
       "geo": {
         "lat": -34.906667,
         "lng": -56.19
       },
-      "location": "Teatro Metro",
       "mapsUrl": "https://www.google.com/maps/place/Teatro+Metro/@-34.9066667,-56.19,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81cd1ea5a273:0xadadb9c7368267a1!8m2!3d-34.9066667!4d-56.19!16s%2Fg%2F11b6s19xq1"
     },
     {
@@ -432,11 +488,11 @@
       "benefitType": "2-for-1",
       "notes": "28 de octubre - 20:30 hs. Lugar: Auditorio Adela Reta",
       "validUntil": "2026-10-28",
+      "location": "Auditorio Nacional Adela Reta",
       "geo": {
         "lat": -34.904353,
         "lng": -56.198553
       },
-      "location": "Auditorio Nacional Adela Reta",
       "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
     },
     {
@@ -446,11 +502,11 @@
       "benefitType": "2-for-1",
       "notes": "29 de octubre - 20:30 hs. Lugar: Teatro Macció",
       "validUntil": "2026-10-29",
+      "location": "Teatro Macció",
       "geo": {
         "lat": -34.338813,
         "lng": -56.713583
       },
-      "location": "Teatro Macció",
       "mapsUrl": "https://www.google.com/maps/place/Teatro+Macci%C3%B3/@-34.3388125,-56.7135832,17z/data=!3m1!4b1!4m6!3m5!1s0x95a1773e712d04e7:0x5737140d4fbe2892!8m2!3d-34.3388125!4d-56.7135832!16s%2Fg%2F11f5bnk0v2"
     },
     {
@@ -460,11 +516,11 @@
       "benefitType": "2-for-1",
       "notes": "22 de agosto - 20hs. Lugar: Teatro Solís",
       "validUntil": "2026-08-22",
+      "location": "Teatro Solís",
       "geo": {
         "lat": -34.907634,
         "lng": -56.201123
       },
-      "location": "Teatro Solís",
       "mapsUrl": "https://www.google.com/maps/place/Teatro+Sol%C3%ADs/@-34.9076336,-56.2011228,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802adf27edcb:0xe9cdb804f35a1e8a!8m2!3d-34.9076336!4d-56.2011228!16s%2Fm%2F03c5d99"
     },
     {
@@ -474,11 +530,11 @@
       "benefitType": "2-for-1",
       "notes": "Jueves 22 de octubre - 21:00 hs. Lugar: Antel Arena",
       "validUntil": "2026-10-22",
+      "location": "Antel Arena",
       "geo": {
         "lat": -34.862974,
         "lng": -56.153698
       },
-      "location": "Antel Arena",
       "mapsUrl": "https://www.google.com/maps/place/Antel+Arena/@-34.8629745,-56.1536983,17z/data=!3m1!4b1!4m6!3m5!1s0x959f80859196b1db:0xfa0cae26c29546da!8m2!3d-34.8629745!4d-56.1536983!16s%2Fg%2F11gt__kjqx"
     },
     {
@@ -488,11 +544,11 @@
       "benefitType": "2-for-1",
       "notes": "11 de Octubre - 10 hs. Lugar: OH! LA BARRA",
       "validUntil": "2026-10-11",
+      "location": "OH! LA BARRA, Manantiales",
       "geo": {
         "lat": -34.915039,
         "lng": -54.855854
       },
-      "location": "OH! LA BARRA, Manantiales",
       "mapsUrl": "https://www.google.com/maps/place/OH!+LA+BARRA/@-34.9150391,-54.855854,17z/data=!3m1!4b1!4m6!3m5!1s0x957503467ccd8d79:0xc9f66fb81fd5c4c!8m2!3d-34.9150391!4d-54.855854!16s%2Fg%2F1ptxhhjf3"
     },
     {
@@ -515,12 +571,40 @@
       "benefitType": "2-for-1",
       "notes": "24 de Agosto - 22 hs. Lugar: Plaza de Toros Real de San Carlos",
       "validUntil": "2026-08-24",
+      "location": "Plaza de Toros Real de San Carlos, Colonia",
       "geo": {
         "lat": -34.436517,
         "lng": -57.86514
       },
-      "location": "Plaza de Toros Real de San Carlos, Colonia",
       "mapsUrl": "https://www.google.com/maps/place/Plaza+de+Toros+Real+de+San+Carlos/@-34.4365172,-57.8651404,17z/data=!3m1!4b1!4m6!3m5!1s0x95a312d0b33bb5ff:0x70ccaa876da3e19b!8m2!3d-34.4365172!4d-57.8651404!16s%2Fm%2F04gnk34"
+    },
+    {
+      "merchant": "Noelia Pace",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "8 y 9 de setiembre. Lugar: Teatro El Galpón",
+      "validUntil": "2026-09-09",
+      "geo": {
+        "lat": -34.90403,
+        "lng": -56.181082
+      },
+      "mapsUrl": "https://www.google.com/maps/place/El+Galp%C3%B3n/@-34.9040305,-56.1810816,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81b5617dc4e7:0xc21c578fd5c6424f",
+      "location": "Teatro El Galpón, Montevideo"
+    },
+    {
+      "merchant": "Nostalgia I Banda de Raúl Medina I Punta del Este",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "24 de Agosto - 21 hs. Lugar: Pueblo Narakan",
+      "validUntil": "2026-08-24",
+      "geo": {
+        "lat": -34.965829,
+        "lng": -54.950199
+      },
+      "mapsUrl": "https://www.google.com/maps/place/Pueblo+Narakan/@-34.965829,-54.9501988,17z/data=!3m1!4b1!4m6!3m5!1s0x957505fe4891555b:0xa971232087fe3361!8m2!3d-34.965829!4d-54.9501988!16s%2Fg%2F11t6kxxp4l",
+      "location": "Pueblo Narakan"
     },
     {
       "merchant": "OFM Gala Aniversario Del Teatro Solís",
@@ -529,11 +613,11 @@
       "benefitType": "2-for-1",
       "notes": "19 de agosto - 19:30 hs. Lugar: Teatro Solís",
       "validUntil": "2026-08-19",
+      "location": "Teatro Solís",
       "geo": {
         "lat": -34.907634,
         "lng": -56.201123
       },
-      "location": "Teatro Solís",
       "mapsUrl": "https://www.google.com/maps/place/Teatro+Sol%C3%ADs/@-34.9076336,-56.2011228,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802adf27edcb:0xe9cdb804f35a1e8a!8m2!3d-34.9076336!4d-56.2011228!16s%2Fm%2F03c5d99"
     },
     {
@@ -543,11 +627,11 @@
       "benefitType": "2-for-1",
       "notes": "30 de diciembre - 20:00 hs. Lugar: Auditorio Adela Reta",
       "validUntil": "2026-12-30",
+      "location": "Auditorio Nacional Adela Reta",
       "geo": {
         "lat": -34.904353,
         "lng": -56.198553
       },
-      "location": "Auditorio Nacional Adela Reta",
       "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
     },
     {
@@ -557,11 +641,11 @@
       "benefitType": "2-for-1",
       "notes": "Del 21 al 23 de agosto. Lugar: Auditorio Adela Reta",
       "validUntil": "2026-08-23",
+      "location": "Auditorio Nacional Adela Reta",
       "geo": {
         "lat": -34.904353,
         "lng": -56.198553
       },
-      "location": "Auditorio Nacional Adela Reta",
       "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
     },
     {
@@ -577,11 +661,11 @@
       "benefitType": "2-for-1",
       "notes": "08 de agosto - 20:00 hs. Lugar: Auditorio Adela Reta",
       "validUntil": "2026-08-08",
+      "location": "Auditorio Nacional Adela Reta",
       "geo": {
         "lat": -34.904353,
         "lng": -56.198553
       },
-      "location": "Auditorio Nacional Adela Reta",
       "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
     },
     {
@@ -591,11 +675,11 @@
       "benefitType": "2-for-1",
       "notes": "17 de octubre - 20hs. Lugar: Auditorio Adela Reta",
       "validUntil": "2026-10-17",
+      "location": "Auditorio Nacional Adela Reta",
       "geo": {
         "lat": -34.904353,
         "lng": -56.198553
       },
-      "location": "Auditorio Nacional Adela Reta",
       "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
     },
     {
@@ -605,11 +689,11 @@
       "benefitType": "2-for-1",
       "notes": "31 de octubre - 20:00 hs. Lugar: Auditorio Adela Reta",
       "validUntil": "2026-10-31",
+      "location": "Auditorio Nacional Adela Reta",
       "geo": {
         "lat": -34.904353,
         "lng": -56.198553
       },
-      "location": "Auditorio Nacional Adela Reta",
       "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
     },
     {
@@ -619,12 +703,26 @@
       "benefitType": "2-for-1",
       "notes": "05 de septiembre - 20:00 hs. Lugar: Auditorio Adela Reta",
       "validUntil": "2026-09-05",
+      "location": "Auditorio Nacional Adela Reta",
       "geo": {
         "lat": -34.904353,
         "lng": -56.198553
       },
-      "location": "Auditorio Nacional Adela Reta",
       "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
+    },
+    {
+      "merchant": "Pablo Picotto I 25 años de humor ¿Quién te conoce?",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "21 de Agosto - 21:30 hs. Lugar: Teatro Solís",
+      "validUntil": "2026-08-21",
+      "geo": {
+        "lat": -34.907634,
+        "lng": -56.201123
+      },
+      "mapsUrl": "https://www.google.com/maps/place/Teatro+Sol%C3%ADs/@-34.9076336,-56.2011228,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802adf27edcb:0xe9cdb804f35a1e8a!8m2!3d-34.9076336!4d-56.2011228!16s%2Fm%2F03c5d99",
+      "location": "Teatro Solís"
     },
     {
       "merchant": "Piazzolla & Ferrer – Ecos de Tango",
@@ -633,11 +731,11 @@
       "benefitType": "2-for-1",
       "notes": "23 de Agosto - 20 hs. Lugar: Sala Camacuá",
       "validUntil": "2026-08-23",
+      "location": "Sala Camacuá",
       "geo": {
         "lat": -34.909122,
         "lng": -56.202256
       },
-      "location": "Sala Camacuá",
       "mapsUrl": "https://www.google.com/maps/place/Sala+Camacu%C3%A1/@-34.9091219,-56.2022557,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81d52fef30bb:0xdc43d5c1616ccb78!8m2!3d-34.9091219!4d-56.2022557!16s%2Fg%2F11c0qgj373"
     },
     {
@@ -647,11 +745,11 @@
       "benefitType": "2-for-1",
       "notes": "20 de noviembre - 20:30 hs. Lugar: Sala Zitarrosa",
       "validUntil": "2026-11-20",
+      "location": "Sala Zitarrosa",
       "geo": {
         "lat": -34.906221,
         "lng": -56.194456
       },
-      "location": "Sala Zitarrosa",
       "mapsUrl": "https://www.google.com/maps/place/Sala+Zitarrosa/@-34.9062213,-56.1944559,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802d2e06d853:0x80732a9b51333b20!8m2!3d-34.9062213!4d-56.1944559!16s%2Fg%2F12dpwqjqf"
     },
     {
@@ -661,11 +759,11 @@
       "benefitType": "2-for-1",
       "notes": "15 de agosto - 20 hs. Lugar: Movie Montevideo",
       "validUntil": "2026-08-15",
+      "location": "Movie, 5775, Avenida Italia, Punta Gorda, Montevideo, 11403",
       "geo": {
         "lat": -34.881352,
         "lng": -56.081088
       },
-      "location": "Movie, 5775, Avenida Italia, Punta Gorda, Montevideo, 11403",
       "mapsUrl": "https://www.google.com/maps/dir//-34.881352,-56.081088"
     },
     {
@@ -675,11 +773,11 @@
       "benefitType": "2-for-1",
       "notes": "15 de octubre - 20:30 hs. Lugar: Sala Zitarrosa",
       "validUntil": "2026-10-15",
+      "location": "Sala Zitarrosa",
       "geo": {
         "lat": -34.906221,
         "lng": -56.194456
       },
-      "location": "Sala Zitarrosa",
       "mapsUrl": "https://www.google.com/maps/place/Sala+Zitarrosa/@-34.9062213,-56.1944559,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802d2e06d853:0x80732a9b51333b20!8m2!3d-34.9062213!4d-56.1944559!16s%2Fg%2F12dpwqjqf"
     },
     {
@@ -689,11 +787,11 @@
       "benefitType": "2-for-1",
       "notes": "07 de octubre - 19:30 hs. Lugar: Teatro Solís",
       "validUntil": "2026-10-07",
+      "location": "Teatro Solís",
       "geo": {
         "lat": -34.907634,
         "lng": -56.201123
       },
-      "location": "Teatro Solís",
       "mapsUrl": "https://www.google.com/maps/place/Teatro+Sol%C3%ADs/@-34.9076336,-56.2011228,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802adf27edcb:0xe9cdb804f35a1e8a!8m2!3d-34.9076336!4d-56.2011228!16s%2Fm%2F03c5d99"
     },
     {
@@ -708,11 +806,11 @@
       "benefitType": "2-for-1",
       "notes": "8 y 9 de octubre. Lugar: Teatro El Galpón",
       "validUntil": "2026-10-09",
+      "location": "El Galpón",
       "geo": {
         "lat": -34.90403,
         "lng": -56.181082
       },
-      "location": "El Galpón",
       "mapsUrl": "https://www.google.com/maps/place/El+Galp%C3%B3n/@-34.9040305,-56.1810816,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81b5617dc4e7:0xc21c578fd5c6424f!8m2!3d-34.9040305!4d-56.1810816!16s%2Fg%2F121rjw4h"
     },
     {
@@ -722,11 +820,11 @@
       "benefitType": "2-for-1",
       "notes": "30 de septiembre - 20hs. Lugar: Sala Zitarrosa",
       "validUntil": "2026-09-30",
+      "location": "Sala Zitarrosa",
       "geo": {
         "lat": -34.906221,
         "lng": -56.194456
       },
-      "location": "Sala Zitarrosa",
       "mapsUrl": "https://www.google.com/maps/place/Sala+Zitarrosa/@-34.9062213,-56.1944559,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802d2e06d853:0x80732a9b51333b20!8m2!3d-34.9062213!4d-56.1944559!16s%2Fg%2F12dpwqjqf"
     },
     {
@@ -736,11 +834,11 @@
       "benefitType": "2-for-1",
       "notes": "31 de octubre - 21:00 hs. Lugar: Teatro de Verano",
       "validUntil": "2026-10-31",
+      "location": "Teatro de Verano Ramón Collazo",
       "geo": {
         "lat": -34.919851,
         "lng": -56.169725
       },
-      "location": "Teatro de Verano Ramón Collazo",
       "mapsUrl": "https://www.google.com/maps/place/Teatro+de+Verano+Ram%C3%B3n+Collazo/@-34.9198507,-56.1697255,17z/data=!3m1!4b1!4m6!3m5!1s0x959f819821d1de0f:0xb2823d7887f5540a!8m2!3d-34.9198507!4d-56.1697255!16s%2Fg%2F122fjxmh"
     },
     {
@@ -750,11 +848,11 @@
       "benefitType": "2-for-1",
       "notes": "01 de noviembre - 20:00 hs. Lugar: Auditorio Adela Reta",
       "validUntil": "2026-11-01",
+      "location": "Auditorio Nacional Adela Reta",
       "geo": {
         "lat": -34.904353,
         "lng": -56.198553
       },
-      "location": "Auditorio Nacional Adela Reta",
       "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
     },
     {
@@ -764,11 +862,11 @@
       "benefitType": "2-for-1",
       "notes": "Del 29 de Julio al 30 de agosto. Lugar: Rural del Prado",
       "validUntil": "2026-08-30",
+      "location": "Rural del Prado",
       "geo": {
         "lat": -34.863049,
         "lng": -56.203285
       },
-      "location": "Rural del Prado",
       "mapsUrl": "https://www.google.com/maps/place/Rural+del+Prado/@-34.8630492,-56.2032852,17z/data=!3m1!4b1!4m6!3m5!1s0x95a02aad48e0af2b:0xe14c76e4d71a56a3!8m2!3d-34.8630492!4d-56.2032852!16s%2Fg%2F121m84fv"
     },
     {
@@ -784,11 +882,11 @@
         "martes"
       ],
       "notes": "Primer martes de cada mes",
+      "location": "Montevideo",
       "geo": {
         "lat": -34.906537,
         "lng": -56.171118
       },
-      "location": "Montevideo",
       "mapsUrl": "https://www.google.com/maps/place/Escaramuza/@-34.9065367,-56.1711185,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81b1cc4411b7:0x81c00d5b832535e2"
     },
     {
@@ -807,13 +905,13 @@
       "percent": 0,
       "notes": "22 de Agosto - 21 hs. Lugar: Plaza de Toros Real de San Carlos",
       "validUntil": "2026-08-22",
-      "benefitType": "gift",
+      "location": "Plaza de Toros Real de San Carlos, Colonia",
       "geo": {
         "lat": -34.436517,
         "lng": -57.86514
       },
-      "location": "Plaza de Toros Real de San Carlos, Colonia",
-      "mapsUrl": "https://www.google.com/maps/place/Plaza+de+Toros+Real+de+San+Carlos/@-34.4365172,-57.8651404,17z/data=!3m1!4b1!4m6!3m5!1s0x95a312d0b33bb5ff:0x70ccaa876da3e19b!8m2!3d-34.4365172!4d-57.8651404!16s%2Fm%2F04gnk34"
+      "mapsUrl": "https://www.google.com/maps/place/Plaza+de+Toros+Real+de+San+Carlos/@-34.4365172,-57.8651404,17z/data=!3m1!4b1!4m6!3m5!1s0x95a312d0b33bb5ff:0x70ccaa876da3e19b!8m2!3d-34.4365172!4d-57.8651404!16s%2Fm%2F04gnk34",
+      "benefitType": "gift"
     },
     {
       "merchant": "Barraca Malvín",
@@ -1937,6 +2035,11 @@
     },
     {
       "merchant": "Olivia Restó",
+      "category": "restaurante",
+      "percent": 20
+    },
+    {
+      "merchant": "Ovo Beach",
       "category": "restaurante",
       "percent": 20
     },

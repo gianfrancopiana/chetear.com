@@ -9,7 +9,7 @@
     ],
     "mode": "browser",
     "blueprintPath": "skills/discount-sync/references/provider-blueprints/itau.md",
-    "notes": "Always open Itaú benefit cards via Ver más/detail view and confirm tier/day splits before changing percentages. 2026-08-02: Starbucks title missing from union inventory — flagged disappearedFromInScope; runtime Starbucks kept LKG. Panel opens failed in headless this run.",
+    "notes": "Always open Itaú benefit cards via Ver más/detail view and confirm tier/day splits before changing percentages. 2026-08-05: Starbucks still missing from union — disappearedFromInScope; runtime Starbucks LKG. In-scope panels opened (Movie/Freddo/Delicias/Nevada/Bosch/CIR/Riviera/El Túnel/San Roque/Mosca). Pending not auto-promoted (Divino/Le Blanc/Soho Aug window; Cantegrill; Mosca 25/15; new Bridgestone/Reyes Magos/Dra Margarita Ramírez).",
     "inScope": [
       {
         "title": "15% menos en restaurantes",
@@ -112,12 +112,20 @@
           "note": "Credit jewelry discount through 2026-12-31"
         },
         {
+          "title": "20% menos y 6 cuotas en Bridgestone",
+          "note": "New 2026-08-05 union title; cuotas hybrid — classify before runtime"
+        },
+        {
           "title": "25% y 15% menos en Le Blanc",
           "note": "New 2026-08-02 union title; needs detail classification"
         },
         {
           "title": "25% y 15% menos en Soho",
           "note": "New 2026-08-02 union title; needs detail classification"
+        },
+        {
+          "title": "25% y 15% menos en Los Reyes Magos",
+          "note": "New 2026-08-05 union title; needs detail classification"
         },
         {
           "title": "15% menos en Wikimusculos",
@@ -130,6 +138,10 @@
         {
           "title": "15% menos en Loop",
           "note": "Needs detail classification"
+        },
+        {
+          "title": "25% menos en Dra. Margarita Ramírez",
+          "note": "New 2026-08-05 union title; needs detail classification"
         },
         {
           "title": "25% menos todos los días",
@@ -155,7 +167,7 @@
       "disappearedFromInScope": [
         {
           "title": "15% menos en Starbucks en bebidas",
-          "note": "Not visible on #/todas-las-tarjetas union 2026-08-02; kept runtime LKG pending human drop from inScope"
+          "note": "Not visible on #/todas-las-tarjetas union; kept runtime LKG pending human drop from inScope"
         }
       ],
       "staleOutOfScope": [
@@ -169,7 +181,7 @@
           "title": "Boomerang"
         },
         {
-          "title": "15%  menos en iPlace"
+          "title": "15% menos en iPlace"
         },
         {
           "title": "25% y 15% menos en Espacio Aroma"
