@@ -513,6 +513,32 @@
         "lng": -56.190356
       },
       "mapsUrl": "https://www.google.com/maps/place/Pizzer%C3%ADa+Kentucky/@-34.9066827,-56.1903561,17z/data=!3m1!4b1!4m6!3m5!1s0x959f8169dfafc85b:0x102af7463"
+    },
+    {
+      "merchant": "Bela",
+      "category": "salud",
+      "percent": 20,
+      "tiers": [
+        "todas"
+      ],
+      "days": [
+        "viernes"
+      ],
+      "validUntil": "2026-12-31",
+      "excludedApps": [
+        "mercado-pago"
+      ],
+      "stackable": false,
+      "refundType": "point-of-sale",
+      "channels": [
+        "in-store"
+      ],
+      "networks": [
+        "visa",
+        "mastercard",
+        "oca"
+      ],
+      "notes": "Todos los viernes. Tarjetas de crédito Mastercard y Visa. Sucursales participantes (multi-local; no parent geo). No Mercado Pago. No acumulable."
     }
   ]
 }

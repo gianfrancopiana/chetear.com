@@ -381,7 +381,8 @@
     "mustContainMerchants": [
       "Macro Mercado",
       "Chajá",
-      "Movie"
+      "Movie",
+      "Bela"
     ],
     "mustMatchRules": [
       {
@@ -429,9 +430,7 @@
         ]
       }
     ],
-    "mustNotContainMerchants": [
-      "Bela"
-    ]
+    "mustNotContainMerchants": []
   },
   "prex": {
     "minRules": 7,

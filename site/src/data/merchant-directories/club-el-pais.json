@@ -3779,26 +3779,6 @@
       ]
     },
     {
-      "id": "club-el-pais-afro-sound-choir-pueblo-narakan-locations",
-      "merchantNames": [
-        "Afro Sound Choir"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "Afro Sound Choir - Pueblo Narakan",
-          "location": "Pueblo Narakan",
-          "geo": {
-            "lat": -34.965829,
-            "lng": -54.950199
-          },
-          "mapsUrl": "https://www.google.com/maps/place/Pueblo+Narakan/@-34.965829,-54.9501988,17z/data=!3m1!4b1!4m6!3m5!1s0x957505fe4891555b:0xa971232087fe3361!8m2!3d-34.965829!4d-54.9501988!16s%2Fg%2F11t6kxxp4l"
-        }
-      ]
-    },
-    {
       "id": "club-el-pais-al-borde-del-puente-centro-cultural-terminal-goes-locations",
       "merchantNames": [
         "Al borde del puente"
@@ -3829,26 +3809,6 @@
             "lng": -56.198553
           },
           "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-campedrinos-mate-y-folklore-tour-sala-camacua-locations",
-      "merchantNames": [
-        "Campedrinos Mate y Folklore tour"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "Campedrinos Mate y Folklore tour - Sala Camacuá",
-          "location": "Sala Camacuá",
-          "geo": {
-            "lat": -34.909122,
-            "lng": -56.202256
-          },
-          "mapsUrl": "https://www.google.com/maps/place/Sala+Camacu%C3%A1/@-34.9091219,-56.2022557,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81d52fef30bb:0xdc43d5c1616ccb78!8m2!3d-34.9091219!4d-56.2022557!16s%2Fg%2F11c0qgj373"
         }
       ]
     },
@@ -4007,26 +3967,6 @@
       ]
     },
     {
-      "id": "club-el-pais-guasones-plaza-de-toros-real-de-san-carlos-locations",
-      "merchantNames": [
-        "Guasones"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "Guasones - Plaza de Toros Real de San Carlos",
-          "location": "Plaza de Toros Real de San Carlos, Colonia",
-          "geo": {
-            "lat": -34.436517,
-            "lng": -57.86514
-          },
-          "mapsUrl": "https://www.google.com/maps/place/Plaza+de+Toros+Real+de+San+Carlos/@-34.4365172,-57.8651404,17z/data=!3m1!4b1!4m6!3m5!1s0x95a312d0b33bb5ff:0x70ccaa876da3e19b!8m2!3d-34.4365172!4d-57.8651404!16s%2Fm%2F04gnk34"
-        }
-      ]
-    },
-    {
       "id": "club-el-pais-gustavo-casenave-teatro-solis-locations",
       "merchantNames": [
         "Gustavo Casenave"
@@ -4077,26 +4017,6 @@
             "lng": -56.198553
           },
           "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-la-casa-de-bernarda-alba-teatro-solis-locations",
-      "merchantNames": [
-        "La Casa de Bernarda Alba"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "La Casa de Bernarda Alba - Teatro Solís",
-          "location": "Teatro Solís",
-          "geo": {
-            "lat": -34.907634,
-            "lng": -56.201123
-          },
-          "mapsUrl": "https://www.google.com/maps/place/Teatro+Sol%C3%ADs/@-34.9076336,-56.2011228,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802adf27edcb:0xe9cdb804f35a1e8a!8m2!3d-34.9076336!4d-56.2011228!16s%2Fm%2F03c5d99"
         }
       ]
     },
@@ -4577,6 +4497,66 @@
             "lng": -56.196316
           },
           "mapsUrl": "https://www.google.com/maps/place/Auditorio+del+Sodre+Nelly+Goiti%C3%B1o/@-34.9063649,-56.1963156,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802cc182a38b:0x93bac231276c00d9!8m2!3d-34.9063649!4d-56.1963156!16s%2Fg%2F113qbbcsh"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-quien-mato-al-patriarca-teatro-stella-d-italia-locations",
+      "merchantNames": [
+        "¿Quién mató al patriarca?"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "¿Quién mató al patriarca? - Teatro Stella D'Italia",
+          "geo": {
+            "lat": -34.900541,
+            "lng": -56.178195
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Teatro+Stella+D'Italia.+La+Gaviota./@-34.9005409,-56.1781953,17z/data=!3m1!4b1!4m6!3m5!1s0x959f804b205423f5:0xe67f45177efa9d83!8m2!3d-34.9005409!4d-56.1781953!16s%2Fg%2F1tc_0pmw",
+          "location": "Teatro Stella D'Italia. La Gaviota., Montevideo"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-20a-noche-de-los-estrenos-tango-murga-y-rocanrol-sala-zitarrosa-locations",
+      "merchantNames": [
+        "20a Noche de los Estrenos: Tango, Murga y Rocanrol"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "20a Noche de los Estrenos: Tango, Murga y Rocanrol - Sala Zitarrosa",
+          "geo": {
+            "lat": -34.906255,
+            "lng": -56.19446
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.906255,-56.194460",
+          "location": "Sala Zitarrosa, 1012, Avenida 18 de Julio, Centro, Montevideo, 11200"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-la-cena-de-los-tontos-teatro-el-galpon-locations",
+      "merchantNames": [
+        "La cena de los tontos"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "La cena de los tontos - Teatro El Galpón",
+          "geo": {
+            "lat": -34.904211,
+            "lng": -56.181104
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.904211,-56.181104",
+          "location": "El Galpón, Avenida 18 de Julio, Cordón, Montevideo, 11200"
         }
       ]
     }
