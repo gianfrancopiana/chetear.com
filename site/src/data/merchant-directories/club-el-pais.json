@@ -3,6 +3,26 @@
   "label": "Club El País",
   "lists": [
     {
+      "id": "club-el-pais-20a-noche-de-los-estrenos-tango-murga-y-rocanrol-sala-zitarrosa-locations",
+      "merchantNames": [
+        "20a Noche de los Estrenos: Tango, Murga y Rocanrol"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "20a Noche de los Estrenos: Tango, Murga y Rocanrol - Sala Zitarrosa",
+          "geo": {
+            "lat": -34.906255,
+            "lng": -56.19446
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.906255,-56.194460",
+          "location": "Sala Zitarrosa, 1012, Avenida 18 de Julio, Centro, Montevideo, 11200"
+        }
+      ]
+    },
+    {
       "id": "club-el-pais-acher-locations",
       "merchantNames": [
         "Acher"
@@ -50,6 +70,27 @@
       ]
     },
     {
+      "id": "club-el-pais-adm-detail-locations",
+      "merchantNames": [
+        "ADM"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/comercio/adm/"
+      ],
+      "merchants": [
+        {
+          "name": "ADM - Dirección",
+          "url": "https://www.clubelpais.com.uy/comercio/adm/",
+          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.900661,
+            "lng": -56.175214
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
+        }
+      ]
+    },
+    {
       "id": "club-el-pais-aguerrebere-locations",
       "merchantNames": [
         "Aguerrebere"
@@ -75,6 +116,20 @@
             "lng": -56.18367
           },
           "mapsUrl": "https://www.google.com/maps/dir//-34.905543,-56.183670"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-al-borde-del-puente-centro-cultural-terminal-goes-locations",
+      "merchantNames": [
+        "Al borde del puente"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "Al borde del puente - Centro Cultural Terminal Goes"
         }
       ]
     },
@@ -117,6 +172,27 @@
       ]
     },
     {
+      "id": "club-el-pais-alfombras-zurtan-detail-locations",
+      "merchantNames": [
+        "Alfombras Zurtan"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/comercio/alfombras-zurtan/"
+      ],
+      "merchants": [
+        {
+          "name": "Alfombras Zurtan - Dirección",
+          "url": "https://www.clubelpais.com.uy/comercio/alfombras-zurtan/",
+          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.900661,
+            "lng": -56.175214
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
+        }
+      ]
+    },
+    {
       "id": "club-el-pais-alma-boutique-locations",
       "merchantNames": [
         "Alma Boutique"
@@ -133,6 +209,27 @@
             "lng": -56.208622
           },
           "mapsUrl": "https://www.google.com/maps/dir//-34.907094,-56.208622"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-altos-de-la-serena-apart-hotel-detail-locations",
+      "merchantNames": [
+        "Altos de la serena Apart Hotel"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/comercio/altos-de-la-serena-apart-hotel/"
+      ],
+      "merchants": [
+        {
+          "name": "Altos de la serena Apart Hotel - Dirección",
+          "url": "https://www.clubelpais.com.uy/comercio/altos-de-la-serena-apart-hotel/",
+          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.900661,
+            "lng": -56.175214
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
         }
       ]
     },
@@ -162,6 +259,48 @@
             "lng": -54.935586
           },
           "mapsUrl": "https://www.google.com/maps/dir//-34.938636,-54.935586"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-amen-shoes-detail-locations",
+      "merchantNames": [
+        "Amén Shoes"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/comercio/amen-shoes/"
+      ],
+      "merchants": [
+        {
+          "name": "Amén Shoes - Dirección",
+          "url": "https://www.clubelpais.com.uy/comercio/amen-shoes/",
+          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.900661,
+            "lng": -56.175214
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-araliz-detail-locations",
+      "merchantNames": [
+        "Araliz"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/comercio/araliz/"
+      ],
+      "merchants": [
+        {
+          "name": "Araliz - Dirección",
+          "url": "https://www.clubelpais.com.uy/comercio/araliz/",
+          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.900661,
+            "lng": -56.175214
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
         }
       ]
     },
@@ -213,22 +352,43 @@
       ]
     },
     {
-      "id": "club-el-pais-bns-cascanueces-auditorio-adela-reta-locations",
+      "id": "club-el-pais-ave-fenix-sala-campodonico-teatro-el-galpon-locations",
       "merchantNames": [
-        "BNS – Cascanueces"
+        "Ave Fénix – Sala Campodónico"
       ],
       "sourceUrls": [
         "https://nominatim.openstreetmap.org/"
       ],
       "merchants": [
         {
-          "name": "BNS – Cascanueces - Auditorio Adela Reta",
-          "location": "Auditorio Nacional \"Adela Reta\", 1455, Andes, Barrio Sur, Montevideo, 11000",
+          "name": "Ave Fénix – Sala Campodónico - Teatro El Galpón",
+          "location": "El Galpón, Avenida 18 de Julio, Cordón, Montevideo, 11200",
           "geo": {
-            "lat": -34.904281,
-            "lng": -56.198708
+            "lat": -34.904211,
+            "lng": -56.181104
           },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.904281,-56.198708"
+          "mapsUrl": "https://www.google.com/maps/dir//-34.904211,-56.181104"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-awa-detail-locations",
+      "merchantNames": [
+        "AWA"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/comercio/awa/"
+      ],
+      "merchants": [
+        {
+          "name": "AWA - Dirección",
+          "url": "https://www.clubelpais.com.uy/comercio/awa/",
+          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.900661,
+            "lng": -56.175214
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
         }
       ]
     },
@@ -249,6 +409,48 @@
             "lng": -56.185375
           },
           "mapsUrl": "https://www.google.com/maps/dir//-34.904589,-56.185375"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-ballet-nacional-sodre-detail-locations",
+      "merchantNames": [
+        "Ballet Nacional Sodre"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/evento/ballet-nacional-sodre/"
+      ],
+      "merchants": [
+        {
+          "name": "Ballet Nacional Sodre - Dirección",
+          "url": "https://www.clubelpais.com.uy/evento/ballet-nacional-sodre/",
+          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.900661,
+            "lng": -56.175214
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-ballon-detail-locations",
+      "merchantNames": [
+        "Ballon"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/comercio/ballon/"
+      ],
+      "merchants": [
+        {
+          "name": "Ballon - Dirección",
+          "url": "https://www.clubelpais.com.uy/comercio/ballon/",
+          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.900661,
+            "lng": -56.175214
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
         }
       ]
     },
@@ -289,6 +491,48 @@
             "lng": -54.943176
           },
           "mapsUrl": "https://www.google.com/maps/dir//-34.938356,-54.943176"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-bbq-detail-locations",
+      "merchantNames": [
+        "BBQ"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/comercio/bbq/"
+      ],
+      "merchants": [
+        {
+          "name": "BBQ - Dirección",
+          "url": "https://www.clubelpais.com.uy/comercio/bbq/",
+          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.900661,
+            "lng": -56.175214
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-be-ganesha-detail-locations",
+      "merchantNames": [
+        "Be Ganesha"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/comercio/be-ganesha/"
+      ],
+      "merchants": [
+        {
+          "name": "Be Ganesha - Dirección",
+          "url": "https://www.clubelpais.com.uy/comercio/be-ganesha/",
+          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.900661,
+            "lng": -56.175214
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
         }
       ]
     },
@@ -351,22 +595,105 @@
       ]
     },
     {
-      "id": "club-el-pais-cnjs-concierto-vi-auditorio-adela-reta-locations",
+      "id": "club-el-pais-blue-glass-detail-locations",
       "merchantNames": [
-        "CNJS – Concierto VI"
+        "Blue glass"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/comercio/blue-glass/"
+      ],
+      "merchants": [
+        {
+          "name": "Blue glass - Dirección",
+          "url": "https://www.clubelpais.com.uy/comercio/blue-glass/",
+          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.900661,
+            "lng": -56.175214
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-bns-cascanueces-auditorio-adela-reta-locations",
+      "merchantNames": [
+        "BNS – Cascanueces"
       ],
       "sourceUrls": [
         "https://nominatim.openstreetmap.org/"
       ],
       "merchants": [
         {
-          "name": "CNJS – Concierto VI - Auditorio Adela Reta",
+          "name": "BNS – Cascanueces - Auditorio Adela Reta",
           "location": "Auditorio Nacional \"Adela Reta\", 1455, Andes, Barrio Sur, Montevideo, 11000",
           "geo": {
             "lat": -34.904281,
             "lng": -56.198708
           },
           "mapsUrl": "https://www.google.com/maps/dir//-34.904281,-56.198708"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-bns-coppelia-auditorio-adela-reta-locations",
+      "merchantNames": [
+        "BNS – Coppelia"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "BNS – Coppelia - Auditorio Adela Reta",
+          "location": "Auditorio Nacional Adela Reta",
+          "geo": {
+            "lat": -34.904353,
+            "lng": -56.198553
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-bubba-detail-locations",
+      "merchantNames": [
+        "Bubba"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/comercio/bubba/"
+      ],
+      "merchants": [
+        {
+          "name": "Bubba - Dirección",
+          "url": "https://www.clubelpais.com.uy/comercio/bubba/",
+          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.900661,
+            "lng": -56.175214
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-cantegrill-joyas-detail-locations",
+      "merchantNames": [
+        "Cantegrill Joyas"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/comercio/cantegrill-joyas/"
+      ],
+      "merchants": [
+        {
+          "name": "Cantegrill Joyas - Dirección",
+          "url": "https://www.clubelpais.com.uy/comercio/cantegrill-joyas/",
+          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.900661,
+            "lng": -56.175214
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
         }
       ]
     },
@@ -420,6 +747,130 @@
       ]
     },
     {
+      "id": "club-el-pais-carrasco-traslada-detail-locations",
+      "merchantNames": [
+        "Carrasco Traslada"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/comercio/carrasco-traslada/"
+      ],
+      "merchants": [
+        {
+          "name": "Carrasco Traslada - Dirección",
+          "url": "https://www.clubelpais.com.uy/comercio/carrasco-traslada/",
+          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.900661,
+            "lng": -56.175214
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-cartografia-sobre-la-identidad-teatro-solis-locations",
+      "merchantNames": [
+        "Cartografía sobre la Identidad"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "Cartografía sobre la Identidad - Teatro Solís",
+          "location": "Teatro Solís",
+          "geo": {
+            "lat": -34.907634,
+            "lng": -56.201123
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Teatro+Sol%C3%ADs/@-34.9076336,-56.2011228,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802adf27edcb:0xe9cdb804f35a1e8a!8m2!3d-34.9076336!4d-56.2011228!16s%2Fm%2F03c5d99"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-casagrande-hotel-beach-club-detail-locations",
+      "merchantNames": [
+        "Casagrande Hotel & Beach Club"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/comercio/casagrande-hotel-beach-club/"
+      ],
+      "merchants": [
+        {
+          "name": "Casagrande Hotel & Beach Club - Dirección",
+          "url": "https://www.clubelpais.com.uy/comercio/casagrande-hotel-beach-club/",
+          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.900661,
+            "lng": -56.175214
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-cauce-detail-locations",
+      "merchantNames": [
+        "Cauce"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/comercio/cauce/"
+      ],
+      "merchants": [
+        {
+          "name": "Cauce - Dirección",
+          "url": "https://www.clubelpais.com.uy/comercio/cauce/",
+          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.900661,
+            "lng": -56.175214
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-charly-ferret-auditorio-adela-reta-locations",
+      "merchantNames": [
+        "Charly Ferret"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "Charly Ferret - Auditorio Adela Reta",
+          "geo": {
+            "lat": -34.904353,
+            "lng": -56.198553
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z",
+          "location": "Auditorio Nacional Adela Reta"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-charo-cocina-y-cafe-detail-locations",
+      "merchantNames": [
+        "Charo Cocina y Café"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/comercio/charo-cocina-y-cafe/"
+      ],
+      "merchants": [
+        {
+          "name": "Charo Cocina y Café - Dirección",
+          "url": "https://www.clubelpais.com.uy/comercio/charo-cocina-y-cafe/",
+          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.900661,
+            "lng": -56.175214
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
+        }
+      ]
+    },
+    {
       "id": "club-el-pais-clary-sage-locations",
       "merchantNames": [
         "Clary Sage"
@@ -436,6 +887,27 @@
             "lng": -56.152134
           },
           "mapsUrl": "https://www.google.com/maps/dir//-34.911893,-56.152134"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-club-del-bosque-detail-locations",
+      "merchantNames": [
+        "Club del Bosque"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/comercio/club-del-bosque/"
+      ],
+      "merchants": [
+        {
+          "name": "Club del Bosque - Dirección",
+          "url": "https://www.clubelpais.com.uy/comercio/club-del-bosque/",
+          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.900661,
+            "lng": -56.175214
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
         }
       ]
     },
@@ -469,6 +941,26 @@
       ]
     },
     {
+      "id": "club-el-pais-cnjs-concierto-vi-auditorio-adela-reta-locations",
+      "merchantNames": [
+        "CNJS – Concierto VI"
+      ],
+      "sourceUrls": [
+        "https://nominatim.openstreetmap.org/"
+      ],
+      "merchants": [
+        {
+          "name": "CNJS – Concierto VI - Auditorio Adela Reta",
+          "location": "Auditorio Nacional \"Adela Reta\", 1455, Andes, Barrio Sur, Montevideo, 11000",
+          "geo": {
+            "lat": -34.904281,
+            "lng": -56.198708
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.904281,-56.198708"
+        }
+      ]
+    },
+    {
       "id": "club-el-pais-colonia-express-locations",
       "merchantNames": [
         "Colonia Express"
@@ -485,6 +977,47 @@
             "lng": -56.136395
           },
           "mapsUrl": "https://www.google.com/maps/dir//-34.902600,-56.136395"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-conjunto-nacional-de-musica-de-camara-detail-locations",
+      "merchantNames": [
+        "Conjunto Nacional de Música de Cámara"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/evento/conjunto-nacional-de-musica-de-camara-auditorio-vaz-ferreira/"
+      ],
+      "merchants": [
+        {
+          "name": "Conjunto Nacional de Música de Cámara - Dirección",
+          "url": "https://www.clubelpais.com.uy/evento/conjunto-nacional-de-musica-de-camara-auditorio-vaz-ferreira/",
+          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.900661,
+            "lng": -56.175214
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-cuando-se-acaba-la-cuerda-auditorio-adela-reta-locations",
+      "merchantNames": [
+        "Cuando se acaba la cuerda"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "Cuando se acaba la cuerda - Auditorio Adela Reta",
+          "geo": {
+            "lat": -34.904353,
+            "lng": -56.198553
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z",
+          "location": "Auditorio Nacional Adela Reta"
         }
       ]
     },
@@ -574,6 +1107,46 @@
       ]
     },
     {
+      "id": "club-el-pais-dani-la-chepi-sala-campodonico-teatro-el-galpon-locations",
+      "merchantNames": [
+        "Dani La Chepi – Sala Campodónico"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "Dani La Chepi – Sala Campodónico - Teatro El Galpón",
+          "location": "El Galpón",
+          "geo": {
+            "lat": -34.90403,
+            "lng": -56.181082
+          },
+          "mapsUrl": "https://www.google.com/maps/place/El+Galp%C3%B3n/@-34.9040305,-56.1810816,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81b5617dc4e7:0xc21c578fd5c6424f!8m2!3d-34.9040305!4d-56.1810816!16s%2Fg%2F121rjw4h"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-daniel-k-mentiras-verdaderas-movie-montevideo-locations",
+      "merchantNames": [
+        "Daniel K – Mentiras Verdaderas"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "Daniel K – Mentiras Verdaderas - Movie Montevideo",
+          "location": "Movie, 5775, Avenida Italia, Punta Gorda, Montevideo, 11403",
+          "geo": {
+            "lat": -34.881352,
+            "lng": -56.081088
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.881352,-56.081088"
+        }
+      ]
+    },
+    {
       "id": "club-el-pais-darko-lighting-locations",
       "merchantNames": [
         "Darko Lighting"
@@ -652,22 +1225,222 @@
       ]
     },
     {
-      "id": "club-el-pais-djavan-auditorio-adela-reta-locations",
+      "id": "club-el-pais-delishop-detail-locations",
       "merchantNames": [
-        "Djavan"
+        "Delishop"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/comercio/delishop/"
+      ],
+      "merchants": [
+        {
+          "name": "Delishop - Dirección",
+          "url": "https://www.clubelpais.com.uy/comercio/delishop/",
+          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.900661,
+            "lng": -56.175214
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-don-antonio-posada-detail-locations",
+      "merchantNames": [
+        "Don Antonio Posada"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/comercio/don-antonio-posada/"
+      ],
+      "merchants": [
+        {
+          "name": "Don Antonio Posada - Dirección",
+          "url": "https://www.clubelpais.com.uy/comercio/don-antonio-posada/",
+          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.900661,
+            "lng": -56.175214
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-don-baez-detail-locations",
+      "merchantNames": [
+        "Don Baez"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/comercio/don-baez/"
+      ],
+      "merchants": [
+        {
+          "name": "Don Baez - Dirección",
+          "url": "https://www.clubelpais.com.uy/comercio/don-baez/",
+          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.900661,
+            "lng": -56.175214
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-edipo-en-ezeiza-auditorio-adela-reta-locations",
+      "merchantNames": [
+        "Edipo en Ezeiza"
       ],
       "sourceUrls": [
         "https://nominatim.openstreetmap.org/"
       ],
       "merchants": [
         {
-          "name": "Djavan - Auditorio Adela Reta",
+          "name": "Edipo en Ezeiza - Auditorio Adela Reta",
           "location": "Auditorio Nacional \"Adela Reta\", 1455, Andes, Barrio Sur, Montevideo, 11000",
           "geo": {
             "lat": -34.904281,
             "lng": -56.198708
           },
           "mapsUrl": "https://www.google.com/maps/dir//-34.904281,-56.198708"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-el-caso-inevitable-del-sr-mendez-teatro-alianza-locations",
+      "merchantNames": [
+        "El caso inevitable del Sr. Méndez"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "El caso inevitable del Sr. Méndez - Teatro Alianza",
+          "location": "Teatro Alianza",
+          "geo": {
+            "lat": -34.908478,
+            "lng": -56.192329
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Teatro+Alianza/@-34.9084781,-56.1923287,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81cd80292d3b:0x8b46eed506719c94!8m2!3d-34.9084781!4d-56.1923287!16s%2Fg%2F11bwh9w_js"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-el-jefe-del-jefe-teatro-movie-locations",
+      "merchantNames": [
+        "El Jefe del Jefe"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "El Jefe del Jefe - Teatro Movie"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-el-sapo-ruperto-una-pequena-aventura-musical-auditorio-nelly-goitino-locations",
+      "merchantNames": [
+        "El Sapo Ruperto: Una pequeña aventura musical"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "El Sapo Ruperto: Una pequeña aventura musical - Auditorio Nelly Goitiño",
+          "location": "Auditorio del Sodre Nelly Goitiño, Montevideo",
+          "geo": {
+            "lat": -34.906365,
+            "lng": -56.196316
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Auditorio+del+Sodre+Nelly+Goiti%C3%B1o/@-34.9063649,-56.1963156,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802cc182a38b:0x93bac231276c00d9!8m2!3d-34.9063649!4d-56.1963156!16s%2Fg%2F113qbbcsh"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-el-volcan-detail-locations",
+      "merchantNames": [
+        "El Volcán"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/comercio/el-volcan/"
+      ],
+      "merchants": [
+        {
+          "name": "El Volcán - Dirección",
+          "url": "https://www.clubelpais.com.uy/comercio/el-volcan/",
+          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.900661,
+            "lng": -56.175214
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-elena-roger-en-concierto-teatro-el-galpon-locations",
+      "merchantNames": [
+        "Elena Roger en Concierto"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "Elena Roger en Concierto - Teatro El Galpón",
+          "location": "El Galpón",
+          "geo": {
+            "lat": -34.90403,
+            "lng": -56.181082
+          },
+          "mapsUrl": "https://www.google.com/maps/place/El+Galp%C3%B3n/@-34.9040305,-56.1810816,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81b5617dc4e7:0xc21c578fd5c6424f!8m2!3d-34.9040305!4d-56.1810816!16s%2Fg%2F121rjw4h"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-entre-pinos-eco-box-detail-locations",
+      "merchantNames": [
+        "Entre Pinos Eco Box"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/comercio/entre-pinos-eco-box/"
+      ],
+      "merchants": [
+        {
+          "name": "Entre Pinos Eco Box - Dirección",
+          "url": "https://www.clubelpais.com.uy/comercio/entre-pinos-eco-box/",
+          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.900661,
+            "lng": -56.175214
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-escool-detail-locations",
+      "merchantNames": [
+        "Escool"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/comercio/escool/"
+      ],
+      "merchants": [
+        {
+          "name": "Escool - Dirección",
+          "url": "https://www.clubelpais.com.uy/comercio/escool/",
+          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.900661,
+            "lng": -56.175214
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
         }
       ]
     },
@@ -748,6 +1521,108 @@
       ]
     },
     {
+      "id": "club-el-pais-festival-musica-de-la-tierra-15-anos-parque-de-la-amistad-locations",
+      "merchantNames": [
+        "Festival Música de la Tierra – 15 años"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "Festival Música de la Tierra – 15 años - Parque de la Amistad",
+          "location": "Parque de la Amistad, Montevideo",
+          "geo": {
+            "lat": -34.902273,
+            "lng": -56.144214
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Parque+de+la+Amistad/@-34.9022731,-56.144214,17z/data=!3m1!4b1!4m6!3m5!1s0x959f8110eee34b5d:0x1ae6547e63098ebc!8m2!3d-34.9022731!4d-56.144214!16s%2Fg%2F11bvcv5w00"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-fio-cerrone-auditorio-adela-reta-locations",
+      "merchantNames": [
+        "Fio Cerrone"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "Fio Cerrone - Auditorio Adela Reta",
+          "geo": {
+            "lat": -34.904353,
+            "lng": -56.198553
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z",
+          "location": "Auditorio Nacional Adela Reta"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-florencia-nunez-gira-decada-y-media-sodre-auditorio-adela-reta-locations",
+      "merchantNames": [
+        "Florencia Núñez – Gira Década y Media – Sodre"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "Florencia Núñez – Gira Década y Media – Sodre - Auditorio Adela Reta",
+          "location": "Auditorio Nacional Adela Reta",
+          "geo": {
+            "lat": -34.904353,
+            "lng": -56.198553
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-frontier-hotel-rivera-detail-locations",
+      "merchantNames": [
+        "Frontier Hotel Rivera"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/comercio/frontier-hotel-rivera/"
+      ],
+      "merchants": [
+        {
+          "name": "Frontier Hotel Rivera - Dirección",
+          "url": "https://www.clubelpais.com.uy/comercio/frontier-hotel-rivera/",
+          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.900661,
+            "lng": -56.175214
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-fumaya-detail-locations",
+      "merchantNames": [
+        "Fumaya"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/comercio/fumaya/"
+      ],
+      "merchants": [
+        {
+          "name": "Fumaya - Dirección",
+          "url": "https://www.clubelpais.com.uy/comercio/fumaya/",
+          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.900661,
+            "lng": -56.175214
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
+        }
+      ]
+    },
+    {
       "id": "club-el-pais-futvolt-locations",
       "merchantNames": [
         "FutVolt"
@@ -788,6 +1663,131 @@
       ]
     },
     {
+      "id": "club-el-pais-garnie-detail-locations",
+      "merchantNames": [
+        "Garnié"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/comercio/garnie/"
+      ],
+      "merchants": [
+        {
+          "name": "Garnié - Dirección",
+          "url": "https://www.clubelpais.com.uy/comercio/garnie/",
+          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.900661,
+            "lng": -56.175214
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-gato-renato-esta-en-la-luna-planetario-de-montevideo-locations",
+      "merchantNames": [
+        "Gato Renato Está En La Luna"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "Gato Renato Está En La Luna - Planetario de Montevideo",
+          "location": "Planetario de Montevideo",
+          "geo": {
+            "lat": -34.901858,
+            "lng": -56.144551
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Planetario+de+Montevideo/@-34.901858,-56.144551,17z/data=!3m1!4b1!4m6!3m5!1s0x959f8110fac5989f:0x7b32fd0cf4bd7a7d!8m2!3d-34.901858!4d-56.144551!16s%2Fg%2F11b7431k3_"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-gladys-t-detail-locations",
+      "merchantNames": [
+        "Gladys T"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/comercio/gladys-t/"
+      ],
+      "merchants": [
+        {
+          "name": "Gladys T - Dirección",
+          "url": "https://www.clubelpais.com.uy/comercio/gladys-t/",
+          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.900661,
+            "lng": -56.175214
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-glass-defender-detail-locations",
+      "merchantNames": [
+        "Glass Defender"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/comercio/glass-defender/"
+      ],
+      "merchants": [
+        {
+          "name": "Glass Defender - Dirección",
+          "url": "https://www.clubelpais.com.uy/comercio/glass-defender/",
+          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.900661,
+            "lng": -56.175214
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-goethe-institut-detail-locations",
+      "merchantNames": [
+        "Goethe-Institut"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/comercio/goethe-institut/"
+      ],
+      "merchants": [
+        {
+          "name": "Goethe-Institut - Dirección",
+          "url": "https://www.clubelpais.com.uy/comercio/goethe-institut/",
+          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.900661,
+            "lng": -56.175214
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-gran-hotel-brisas-del-hum-detail-locations",
+      "merchantNames": [
+        "Gran Hotel Brisas del Hum"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/comercio/gran-hotel-brisas-del-hum/"
+      ],
+      "merchants": [
+        {
+          "name": "Gran Hotel Brisas del Hum - Dirección",
+          "url": "https://www.clubelpais.com.uy/comercio/gran-hotel-brisas-del-hum/",
+          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.900661,
+            "lng": -56.175214
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
+        }
+      ]
+    },
+    {
       "id": "club-el-pais-gran-hotel-fray-bentos-locations",
       "merchantNames": [
         "Gran Hotel Fray Bentos"
@@ -804,6 +1804,40 @@
             "lng": -58.314947
           },
           "mapsUrl": "https://www.google.com/maps/dir//-33.113712,-58.314947"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-gustavo-casenave-teatro-solis-locations",
+      "merchantNames": [
+        "Gustavo Casenave"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "Gustavo Casenave - Teatro Solís",
+          "location": "Teatro Solís",
+          "geo": {
+            "lat": -34.907634,
+            "lng": -56.201123
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Teatro+Sol%C3%ADs/@-34.9076336,-56.2011228,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802adf27edcb:0xe9cdb804f35a1e8a!8m2!3d-34.9076336!4d-56.2011228!16s%2Fm%2F03c5d99"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-hablame-de-cancer-piso-19-hospital-de-clinicas-de-montevideo-locations",
+      "merchantNames": [
+        "Hablame de Cáncer"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "Hablame de Cáncer - Piso 19 - Hospital de Clínicas de Montevideo"
         }
       ]
     },
@@ -848,6 +1882,48 @@
       ]
     },
     {
+      "id": "club-el-pais-horneros-racket-club-detail-locations",
+      "merchantNames": [
+        "Horneros Racket Club"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/comercio/horneros-racket-club/"
+      ],
+      "merchants": [
+        {
+          "name": "Horneros Racket Club - Dirección",
+          "url": "https://www.clubelpais.com.uy/comercio/horneros-racket-club/",
+          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.900661,
+            "lng": -56.175214
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-hotel-casagrande-detail-locations",
+      "merchantNames": [
+        "Hotel Casagrande"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/comercio/hotel-casagrande/"
+      ],
+      "merchants": [
+        {
+          "name": "Hotel Casagrande - Dirección",
+          "url": "https://www.clubelpais.com.uy/comercio/hotel-casagrande/",
+          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.900661,
+            "lng": -56.175214
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
+        }
+      ]
+    },
+    {
       "id": "club-el-pais-hotel-casino-san-eugenio-del-cuareim-locations",
       "merchantNames": [
         "Hotel Casino San Eugenio Del Cuareim"
@@ -868,6 +1944,27 @@
       ]
     },
     {
+      "id": "club-el-pais-hotel-costanero-detail-locations",
+      "merchantNames": [
+        "Hotel Costanero"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/comercio/hotel-costanero/"
+      ],
+      "merchants": [
+        {
+          "name": "Hotel Costanero - Dirección",
+          "url": "https://www.clubelpais.com.uy/comercio/hotel-costanero/",
+          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.900661,
+            "lng": -56.175214
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
+        }
+      ]
+    },
+    {
       "id": "club-el-pais-hotel-la-capilla-locations",
       "merchantNames": [
         "Hotel La Capilla"
@@ -884,6 +1981,27 @@
             "lng": -54.917662
           },
           "mapsUrl": "https://www.google.com/maps/dir//-34.939720,-54.917662"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-hotel-solerios-detail-locations",
+      "merchantNames": [
+        "Hotel Solerios"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/comercio/hotel-solerios/"
+      ],
+      "merchants": [
+        {
+          "name": "Hotel Solerios - Dirección",
+          "url": "https://www.clubelpais.com.uy/comercio/hotel-solerios/",
+          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.900661,
+            "lng": -56.175214
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
         }
       ]
     },
@@ -986,6 +2104,47 @@
       ]
     },
     {
+      "id": "club-el-pais-il-belvedere-detail-locations",
+      "merchantNames": [
+        "Il Belvedere"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/comercio/il-belvedere/"
+      ],
+      "merchants": [
+        {
+          "name": "Il Belvedere - Dirección",
+          "url": "https://www.clubelpais.com.uy/comercio/il-belvedere/",
+          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.900661,
+            "lng": -56.175214
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-jorge-nasser-40-anos-de-canciones-auditorio-adela-reta-locations",
+      "merchantNames": [
+        "Jorge Nasser — 40 años de canciones"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "Jorge Nasser — 40 años de canciones - Auditorio Adela Reta",
+          "location": "Auditorio Nacional Adela Reta",
+          "geo": {
+            "lat": -34.904353,
+            "lng": -56.198553
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
+        }
+      ]
+    },
+    {
       "id": "club-el-pais-joyeria-revello-locations",
       "merchantNames": [
         "Joyería Revello"
@@ -1002,6 +2161,27 @@
             "lng": -54.934385
           },
           "mapsUrl": "https://www.google.com/maps/dir//-34.940748,-54.934385"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-kakao-chocolates-detail-locations",
+      "merchantNames": [
+        "Kakao Chocolates"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/comercio/kakao-chocolates/"
+      ],
+      "merchants": [
+        {
+          "name": "Kakao Chocolates - Dirección",
+          "url": "https://www.clubelpais.com.uy/comercio/kakao-chocolates/",
+          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.900661,
+            "lng": -56.175214
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
         }
       ]
     },
@@ -1026,6 +2206,47 @@
       ]
     },
     {
+      "id": "club-el-pais-kratki-detail-locations",
+      "merchantNames": [
+        "Kratki"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/comercio/kratki/"
+      ],
+      "merchants": [
+        {
+          "name": "Kratki - Dirección",
+          "url": "https://www.clubelpais.com.uy/comercio/kratki/",
+          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.900661,
+            "lng": -56.175214
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-la-banda-flotante-auditorio-nelly-goitino-locations",
+      "merchantNames": [
+        "La Banda Flotante"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "La Banda Flotante - Auditorio Nelly Goitiño",
+          "geo": {
+            "lat": -34.906365,
+            "lng": -56.196316
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Auditorio+del+Sodre+Nelly+Goiti%C3%B1o/@-34.9063649,-56.1963156,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802cc182a38b:0x93bac231276c00d9!8m2!3d-34.9063649!4d-56.1963156!16s%2Fg%2F113qbbcsh",
+          "location": "Auditorio del Sodre Nelly Goitiño, Montevideo"
+        }
+      ]
+    },
+    {
       "id": "club-el-pais-la-carola-locations",
       "merchantNames": [
         "La Carola"
@@ -1042,6 +2263,47 @@
             "lng": -56.166502
           },
           "mapsUrl": "https://www.google.com/maps/dir//-34.911276,-56.166502"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-la-cena-de-los-tontos-teatro-el-galpon-locations",
+      "merchantNames": [
+        "La cena de los tontos"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "La cena de los tontos - Teatro El Galpón",
+          "geo": {
+            "lat": -34.904211,
+            "lng": -56.181104
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.904211,-56.181104",
+          "location": "El Galpón, Avenida 18 de Julio, Cordón, Montevideo, 11200"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-la-corniche-detail-locations",
+      "merchantNames": [
+        "La Corniche"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/comercio/la-corniche/"
+      ],
+      "merchants": [
+        {
+          "name": "La Corniche - Dirección",
+          "url": "https://www.clubelpais.com.uy/comercio/la-corniche/",
+          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.900661,
+            "lng": -56.175214
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
         }
       ]
     },
@@ -1066,6 +2328,46 @@
       ]
     },
     {
+      "id": "club-el-pais-la-filarmonica-los-planetas-teatro-solis-locations",
+      "merchantNames": [
+        "La Filarmónica – Los Planetas"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "La Filarmónica – Los Planetas - Teatro Solís",
+          "location": "Teatro Solís",
+          "geo": {
+            "lat": -34.907634,
+            "lng": -56.201123
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Teatro+Sol%C3%ADs/@-34.9076336,-56.2011228,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802adf27edcb:0xe9cdb804f35a1e8a!8m2!3d-34.9076336!4d-56.2011228!16s%2Fm%2F03c5d99"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-la-omision-de-la-familia-coleman-movie-montevideo-locations",
+      "merchantNames": [
+        "La Omisión de la Familia Coleman"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "La Omisión de la Familia Coleman - Movie Montevideo",
+          "location": "Movie, 5775, Avenida Italia, Punta Gorda, Montevideo, 11403",
+          "geo": {
+            "lat": -34.881352,
+            "lng": -56.081088
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.881352,-56.081088"
+        }
+      ]
+    },
+    {
       "id": "club-el-pais-la-sin-rival-locations",
       "merchantNames": [
         "La Sin Rival"
@@ -1082,6 +2384,27 @@
             "lng": -56.17874
           },
           "mapsUrl": "https://www.google.com/maps/dir//-34.908669,-56.178740"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-lanka-detail-locations",
+      "merchantNames": [
+        "Lanka"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/comercio/lanka/"
+      ],
+      "merchants": [
+        {
+          "name": "Lanka - Dirección",
+          "url": "https://www.clubelpais.com.uy/comercio/lanka/",
+          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.900661,
+            "lng": -56.175214
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
         }
       ]
     },
@@ -1122,6 +2445,27 @@
             "lng": -56.171005
           },
           "mapsUrl": "https://www.google.com/maps/dir//-34.906523,-56.171005"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-like-design-rivera-detail-locations",
+      "merchantNames": [
+        "Like Design Rivera"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/comercio/like-design-rivera/"
+      ],
+      "merchants": [
+        {
+          "name": "Like Design Rivera - Dirección",
+          "url": "https://www.clubelpais.com.uy/comercio/like-design-rivera/",
+          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.900661,
+            "lng": -56.175214
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
         }
       ]
     },
@@ -1173,6 +2517,67 @@
       ]
     },
     {
+      "id": "club-el-pais-lorca-el-tren-del-olvido-30-aniversario-sala-campodonico-teatro-el-galpon-locations",
+      "merchantNames": [
+        "Lorca – «El Tren del Olvido» 30° aniversario (Sala Campodónico)"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "Lorca – «El Tren del Olvido» 30° aniversario (Sala Campodónico) - Teatro El Galpón",
+          "location": "Teatro El Galpón, Montevideo",
+          "geo": {
+            "lat": -34.90403,
+            "lng": -56.181082
+          },
+          "mapsUrl": "https://www.google.com/maps/place/El+Galp%C3%B3n/@-34.9040305,-56.1810816,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81b5617dc4e7:0xc21c578fd5c6424f"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-los-abuelos-de-la-nada-teatro-metro-locations",
+      "merchantNames": [
+        "Los Abuelos de la Nada"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "Los Abuelos de la Nada - Teatro Metro",
+          "location": "Teatro Metro",
+          "geo": {
+            "lat": -34.906667,
+            "lng": -56.19
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Teatro+Metro/@-34.9066667,-56.19,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81cd1ea5a273:0xadadb9c7368267a1!8m2!3d-34.9066667!4d-56.19!16s%2Fg%2F11b6s19xq1"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-los-fontanes-detail-locations",
+      "merchantNames": [
+        "Los Fontanes"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/comercio/los-fontanes/"
+      ],
+      "merchants": [
+        {
+          "name": "Los Fontanes - Dirección",
+          "url": "https://www.clubelpais.com.uy/comercio/los-fontanes/",
+          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.900661,
+            "lng": -56.175214
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
+        }
+      ]
+    },
+    {
       "id": "club-el-pais-los-lagos-locations",
       "merchantNames": [
         "Los Lagos"
@@ -1189,6 +2594,109 @@
             "lng": -55.494693
           },
           "mapsUrl": "https://www.google.com/maps/dir//-30.985184,-55.494693"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-los-nocheros-40-anos-montevideo-auditorio-adela-reta-locations",
+      "merchantNames": [
+        "Los Nocheros 40 años – Montevideo"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "Los Nocheros 40 años – Montevideo - Auditorio Adela Reta",
+          "location": "Auditorio Nacional Adela Reta",
+          "geo": {
+            "lat": -34.904353,
+            "lng": -56.198553
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-los-nocheros-40-anos-san-jose-teatro-maccio-locations",
+      "merchantNames": [
+        "Los Nocheros 40 años – San José"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "Los Nocheros 40 años – San José - Teatro Macció",
+          "location": "Teatro Macció",
+          "geo": {
+            "lat": -34.338813,
+            "lng": -56.713583
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Teatro+Macci%C3%B3/@-34.3388125,-56.7135832,17z/data=!3m1!4b1!4m6!3m5!1s0x95a1773e712d04e7:0x5737140d4fbe2892!8m2!3d-34.3388125!4d-56.7135832!16s%2Fg%2F11f5bnk0v2"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-ludovic-detail-locations",
+      "merchantNames": [
+        "Ludovic"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/comercio/ludovic/"
+      ],
+      "merchants": [
+        {
+          "name": "Ludovic - Dirección",
+          "url": "https://www.clubelpais.com.uy/comercio/ludovic/",
+          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.900661,
+            "lng": -56.175214
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-luz-verde-detail-locations",
+      "merchantNames": [
+        "Luz Verde"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/comercio/luz-verde/"
+      ],
+      "merchants": [
+        {
+          "name": "Luz Verde - Dirección",
+          "url": "https://www.clubelpais.com.uy/comercio/luz-verde/",
+          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.900661,
+            "lng": -56.175214
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-macadar-detail-locations",
+      "merchantNames": [
+        "Macadar"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/comercio/macadar/"
+      ],
+      "merchants": [
+        {
+          "name": "Macadar - Dirección",
+          "url": "https://www.clubelpais.com.uy/comercio/macadar/",
+          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.900661,
+            "lng": -56.175214
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
         }
       ]
     },
@@ -1258,6 +2766,90 @@
             "lng": -56.180182
           },
           "mapsUrl": "https://www.google.com/maps/dir//-34.901519,-56.180182"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-margara-shaw-detail-locations",
+      "merchantNames": [
+        "Margara Shaw"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/comercio/margara-shaw/"
+      ],
+      "merchants": [
+        {
+          "name": "Margara Shaw - Dirección",
+          "url": "https://www.clubelpais.com.uy/comercio/margara-shaw/",
+          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.900661,
+            "lng": -56.175214
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-maria-cher-detail-locations",
+      "merchantNames": [
+        "María Cher"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/comercio/maria-cher/"
+      ],
+      "merchants": [
+        {
+          "name": "María Cher - Dirección",
+          "url": "https://www.clubelpais.com.uy/comercio/maria-cher/",
+          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.900661,
+            "lng": -56.175214
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-marina-nature-detail-locations",
+      "merchantNames": [
+        "Marina Nature"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/comercio/marina-nature/"
+      ],
+      "merchants": [
+        {
+          "name": "Marina Nature - Dirección",
+          "url": "https://www.clubelpais.com.uy/comercio/marina-nature/",
+          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.900661,
+            "lng": -56.175214
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-martinika-deco-detail-locations",
+      "merchantNames": [
+        "Martinika Deco"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/comercio/martinika-deco/"
+      ],
+      "merchants": [
+        {
+          "name": "Martinika Deco - Dirección",
+          "url": "https://www.clubelpais.com.uy/comercio/martinika-deco/",
+          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.900661,
+            "lng": -56.175214
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
         }
       ]
     },
@@ -1408,6 +3000,27 @@
       ]
     },
     {
+      "id": "club-el-pais-misushi-mvd-detail-locations",
+      "merchantNames": [
+        "Misushi MVD"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/comercio/misushi-mvd/"
+      ],
+      "merchants": [
+        {
+          "name": "Misushi MVD - Dirección",
+          "url": "https://www.clubelpais.com.uy/comercio/misushi-mvd/",
+          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.900661,
+            "lng": -56.175214
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
+        }
+      ]
+    },
+    {
       "id": "club-el-pais-moby-dick-locations",
       "merchantNames": [
         "Moby Dick"
@@ -1468,6 +3081,48 @@
       ]
     },
     {
+      "id": "club-el-pais-mundo-cartoon-detail-locations",
+      "merchantNames": [
+        "Mundo Cartoon"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/comercio/mundo-cartoon/"
+      ],
+      "merchants": [
+        {
+          "name": "Mundo Cartoon - Dirección",
+          "url": "https://www.clubelpais.com.uy/comercio/mundo-cartoon/",
+          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.900661,
+            "lng": -56.175214
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-natalia-antolin-detail-locations",
+      "merchantNames": [
+        "Natalia Antolin"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/comercio/natalia-antolin/"
+      ],
+      "merchants": [
+        {
+          "name": "Natalia Antolin - Dirección",
+          "url": "https://www.clubelpais.com.uy/comercio/natalia-antolin/",
+          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.900661,
+            "lng": -56.175214
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
+        }
+      ]
+    },
+    {
       "id": "club-el-pais-nc-joyas-locations",
       "merchantNames": [
         "NC Joyas"
@@ -1484,6 +3139,66 @@
             "lng": -56.15628
           },
           "mapsUrl": "https://www.google.com/maps/dir//-34.918496,-56.156280"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-noche-de-la-nostalgia-en-plaza-de-toros-plaza-de-toros-real-de-san-carlos-locations",
+      "merchantNames": [
+        "Noche de la Nostalgia en Plaza de Toros"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "Noche de la Nostalgia en Plaza de Toros - Plaza de Toros Real de San Carlos",
+          "location": "Plaza de Toros Real de San Carlos, Colonia",
+          "geo": {
+            "lat": -34.436517,
+            "lng": -57.86514
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Plaza+de+Toros+Real+de+San+Carlos/@-34.4365172,-57.8651404,17z/data=!3m1!4b1!4m6!3m5!1s0x95a312d0b33bb5ff:0x70ccaa876da3e19b!8m2!3d-34.4365172!4d-57.8651404!16s%2Fm%2F04gnk34"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-noelia-pace-teatro-el-galpon-locations",
+      "merchantNames": [
+        "Noelia Pace"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "Noelia Pace - Teatro El Galpón",
+          "location": "Teatro El Galpón, Montevideo",
+          "geo": {
+            "lat": -34.90403,
+            "lng": -56.181082
+          },
+          "mapsUrl": "https://www.google.com/maps/place/El+Galp%C3%B3n/@-34.9040305,-56.1810816,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81b5617dc4e7:0xc21c578fd5c6424f"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-nostalgia-i-banda-de-raul-medina-i-punta-del-este-pueblo-narakan-locations",
+      "merchantNames": [
+        "Nostalgia I Banda de Raúl Medina I Punta del Este"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "Nostalgia I Banda de Raúl Medina I Punta del Este - Pueblo Narakan",
+          "location": "Pueblo Narakan",
+          "geo": {
+            "lat": -34.965829,
+            "lng": -54.950199
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Pueblo+Narakan/@-34.965829,-54.9501988,17z/data=!3m1!4b1!4m6!3m5!1s0x957505fe4891555b:0xa971232087fe3361!8m2!3d-34.965829!4d-54.9501988!16s%2Fg%2F11t6kxxp4l"
         }
       ]
     },
@@ -1508,6 +3223,137 @@
       ]
     },
     {
+      "id": "club-el-pais-ojns-gala-de-ano-nuevo-auditorio-adela-reta-locations",
+      "merchantNames": [
+        "OJNS – Gala de Año Nuevo"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "OJNS – Gala de Año Nuevo - Auditorio Adela Reta",
+          "location": "Auditorio Nacional Adela Reta",
+          "geo": {
+            "lat": -34.904353,
+            "lng": -56.198553
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-olivia-resto-detail-locations",
+      "merchantNames": [
+        "Olivia Restó"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/comercio/olivia/"
+      ],
+      "merchants": [
+        {
+          "name": "Olivia Restó - Dirección",
+          "url": "https://www.clubelpais.com.uy/comercio/olivia/",
+          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.900661,
+            "lng": -56.175214
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-opera-l-elisir-d-amore-auditorio-adela-reta-locations",
+      "merchantNames": [
+        "ÓPERA – L’elisir D’amore"
+      ],
+      "sourceUrls": [
+        "https://nominatim.openstreetmap.org/"
+      ],
+      "merchants": [
+        {
+          "name": "ÓPERA – L’elisir D’amore - Auditorio Adela Reta",
+          "location": "Auditorio Nacional \"Adela Reta\", 1455, Andes, Barrio Sur, Montevideo, 11000",
+          "geo": {
+            "lat": -34.904281,
+            "lng": -56.198708
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.904281,-56.198708"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-optica-garese-locations",
+      "merchantNames": [
+        "Óptica Garese"
+      ],
+      "sourceUrls": [
+        "https://nominatim.openstreetmap.org/"
+      ],
+      "merchants": [
+        {
+          "name": "Óptica Garese",
+          "location": "Óptica Garese, 1311, Zelmar Michelini, Centro, Montevideo, 11114",
+          "geo": {
+            "lat": -34.906593,
+            "lng": -56.190285
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.906593,-56.190285"
+        },
+        {
+          "name": "Óptica Garese",
+          "location": "Óptica Garese, Avenida Ingeniero Luis Giannattasio, Parque Miramar, Barra de Carrasco, Ciudad de la Costa, Municipio de Paso Carrasco, Canelones",
+          "geo": {
+            "lat": -34.86525,
+            "lng": -56.023882
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.865250,-56.023882"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-orquesta-sinfonia-nacional-sodre-detail-locations",
+      "merchantNames": [
+        "Orquesta Sinfónia Nacional Sodre"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/evento/orquesta-sinfonia-nacional-sodre/"
+      ],
+      "merchants": [
+        {
+          "name": "Orquesta Sinfónia Nacional Sodre - Dirección",
+          "url": "https://www.clubelpais.com.uy/evento/orquesta-sinfonia-nacional-sodre/",
+          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.900661,
+            "lng": -56.175214
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-ossodre-bohemia-auditorio-adela-reta-locations",
+      "merchantNames": [
+        "OSSODRE – Bohemia"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "OSSODRE – Bohemia - Auditorio Adela Reta",
+          "location": "Auditorio Nacional Adela Reta",
+          "geo": {
+            "lat": -34.904353,
+            "lng": -56.198553
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
+        }
+      ]
+    },
+    {
       "id": "club-el-pais-ossodre-homenaje-auditorio-adela-reta-locations",
       "merchantNames": [
         "OSSODRE – Homenaje"
@@ -1524,6 +3370,87 @@
             "lng": -56.198708
           },
           "mapsUrl": "https://www.google.com/maps/dir//-34.904281,-56.198708"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-ossodre-idilio-auditorio-adela-reta-locations",
+      "merchantNames": [
+        "OSSODRE – Idilio"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "OSSODRE – Idilio - Auditorio Adela Reta",
+          "location": "Auditorio Nacional Adela Reta",
+          "geo": {
+            "lat": -34.904353,
+            "lng": -56.198553
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-ossodre-romantico-auditorio-adela-reta-locations",
+      "merchantNames": [
+        "OSSODRE – Romántico"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "OSSODRE – Romántico - Auditorio Adela Reta",
+          "location": "Auditorio Nacional Adela Reta",
+          "geo": {
+            "lat": -34.904353,
+            "lng": -56.198553
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-pablo-picotto-i-25-anos-de-humor-quien-te-conoce-teatro-solis-locations",
+      "merchantNames": [
+        "Pablo Picotto I 25 años de humor ¿Quién te conoce?"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "Pablo Picotto I 25 años de humor ¿Quién te conoce? - Teatro Solís",
+          "location": "Teatro Solís",
+          "geo": {
+            "lat": -34.907634,
+            "lng": -56.201123
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Teatro+Sol%C3%ADs/@-34.9076336,-56.2011228,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802adf27edcb:0xe9cdb804f35a1e8a!8m2!3d-34.9076336!4d-56.2011228!16s%2Fm%2F03c5d99"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-pacifica-casa-detail-locations",
+      "merchantNames": [
+        "Pacifica Casa"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/comercio/pacifica-casa/"
+      ],
+      "merchants": [
+        {
+          "name": "Pacifica Casa - Dirección",
+          "url": "https://www.clubelpais.com.uy/comercio/pacifica-casa/",
+          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.900661,
+            "lng": -56.175214
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
         }
       ]
     },
@@ -1566,6 +3493,27 @@
       ]
     },
     {
+      "id": "club-el-pais-papeleria-goya-detail-locations",
+      "merchantNames": [
+        "Papelería Goya"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/comercio/papeleria-goya/"
+      ],
+      "merchants": [
+        {
+          "name": "Papelería Goya - Dirección",
+          "url": "https://www.clubelpais.com.uy/comercio/papeleria-goya/",
+          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.900661,
+            "lng": -56.175214
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
+        }
+      ]
+    },
+    {
       "id": "club-el-pais-pasqualini-locations",
       "merchantNames": [
         "Pasqualini"
@@ -1582,6 +3530,27 @@
             "lng": -54.934283
           },
           "mapsUrl": "https://www.google.com/maps/dir//-34.941071,-54.934283"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-pattytas-detail-locations",
+      "merchantNames": [
+        "Pattytas"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/comercio/pattytas/"
+      ],
+      "merchants": [
+        {
+          "name": "Pattytas - Dirección",
+          "url": "https://www.clubelpais.com.uy/comercio/pattytas/",
+          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.900661,
+            "lng": -56.175214
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
         }
       ]
     },
@@ -1655,6 +3624,26 @@
       ]
     },
     {
+      "id": "club-el-pais-piazzolla-ferrer-ecos-de-tango-sala-camacua-locations",
+      "merchantNames": [
+        "Piazzolla & Ferrer – Ecos de Tango"
+      ],
+      "sourceUrls": [
+        "https://nominatim.openstreetmap.org/"
+      ],
+      "merchants": [
+        {
+          "name": "Piazzolla & Ferrer – Ecos de Tango - Sala Camacuá",
+          "location": "Sala Camacuá",
+          "geo": {
+            "lat": -34.909122,
+            "lng": -56.202256
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Sala+Camacu%C3%A1/@-34.9091219,-56.2022557,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81d52fef30bb:0xdc43d5c1616ccb78!8m2!3d-34.9091219!4d-56.2022557!16s%2Fg%2F11c0qgj373"
+        }
+      ]
+    },
+    {
       "id": "club-el-pais-polanco-locations",
       "merchantNames": [
         "Polanco"
@@ -1680,6 +3669,27 @@
             "lng": -55.834555
           },
           "mapsUrl": "https://www.google.com/maps/dir//-32.618052,-55.834555"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-pompeya-joyas-detail-locations",
+      "merchantNames": [
+        "Pompeya joyas"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/comercio/pompeya-joyas/"
+      ],
+      "merchants": [
+        {
+          "name": "Pompeya joyas - Dirección",
+          "url": "https://www.clubelpais.com.uy/comercio/pompeya-joyas/",
+          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.900661,
+            "lng": -56.175214
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
         }
       ]
     },
@@ -1762,6 +3772,47 @@
       ]
     },
     {
+      "id": "club-el-pais-puro-punto-detail-locations",
+      "merchantNames": [
+        "Puro Punto"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/comercio/puro-punto/"
+      ],
+      "merchants": [
+        {
+          "name": "Puro Punto - Dirección",
+          "url": "https://www.clubelpais.com.uy/comercio/puro-punto/",
+          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.900661,
+            "lng": -56.175214
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-quien-mato-al-patriarca-teatro-stella-d-italia-locations",
+      "merchantNames": [
+        "¿Quién mató al patriarca?"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "¿Quién mató al patriarca? - Teatro Stella D'Italia",
+          "geo": {
+            "lat": -34.900541,
+            "lng": -56.178195
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Teatro+Stella+D'Italia.+La+Gaviota./@-34.9005409,-56.1781953,17z/data=!3m1!4b1!4m6!3m5!1s0x959f804b205423f5:0xe67f45177efa9d83!8m2!3d-34.9005409!4d-56.1781953!16s%2Fg%2F1tc_0pmw",
+          "location": "Teatro Stella D'Italia. La Gaviota., Montevideo"
+        }
+      ]
+    },
+    {
       "id": "club-el-pais-radisson-colonia-del-sacramento-locations",
       "merchantNames": [
         "Radisson Colonia del Sacramento"
@@ -1782,6 +3833,47 @@
       ]
     },
     {
+      "id": "club-el-pais-raly-barrionuevo-sala-zitarrosa-locations",
+      "merchantNames": [
+        "Raly Barrionuevo"
+      ],
+      "merchants": [
+        {
+          "name": "Raly Barrionuevo - Sala Zitarrosa",
+          "location": "Sala Zitarrosa",
+          "geo": {
+            "lat": -34.906221,
+            "lng": -56.194456
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Sala+Zitarrosa/@-34.9062213,-56.1944559,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802d2e06d853:0x80732a9b51333b20!8m2!3d-34.9062213!4d-56.1944559!16s%2Fg%2F12dpwqjqf"
+        }
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ]
+    },
+    {
+      "id": "club-el-pais-real-colonia-hotel-suites-detail-locations",
+      "merchantNames": [
+        "Real Colonia Hotel & Suites"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/comercio/real-colonia-hotel-suites/"
+      ],
+      "merchants": [
+        {
+          "name": "Real Colonia Hotel & Suites - Dirección",
+          "url": "https://www.clubelpais.com.uy/comercio/real-colonia-hotel-suites/",
+          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.900661,
+            "lng": -56.175214
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
+        }
+      ]
+    },
+    {
       "id": "club-el-pais-regency-park-locations",
       "merchantNames": [
         "Regency Park"
@@ -1798,6 +3890,68 @@
             "lng": -56.079567
           },
           "mapsUrl": "https://www.google.com/maps/dir//-34.789253,-56.079567"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-rodri-lussich-acelerado-movie-montevideo-locations",
+      "merchantNames": [
+        "Rodri Lussich – Acelerado"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "Rodri Lussich – Acelerado - Movie Montevideo",
+          "location": "Movie, 5775, Avenida Italia, Punta Gorda, Montevideo, 11403",
+          "geo": {
+            "lat": -34.881352,
+            "lng": -56.081088
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.881352,-56.081088"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-rodwil-detail-locations",
+      "merchantNames": [
+        "Rodwil"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/comercio/rodwil/"
+      ],
+      "merchants": [
+        {
+          "name": "Rodwil - Dirección",
+          "url": "https://www.clubelpais.com.uy/comercio/rodwil/",
+          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.900661,
+            "lng": -56.175214
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-salinas-del-almiron-resort-termal-detail-locations",
+      "merchantNames": [
+        "Salinas del Almirón Resort Termal"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/comercio/salinas-del-almiron-resort-termal/"
+      ],
+      "merchants": [
+        {
+          "name": "Salinas del Almirón Resort Termal - Dirección",
+          "url": "https://www.clubelpais.com.uy/comercio/salinas-del-almiron-resort-termal/",
+          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.900661,
+            "lng": -56.175214
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
         }
       ]
     },
@@ -1958,6 +4112,69 @@
       ]
     },
     {
+      "id": "club-el-pais-sushi-company-detail-locations",
+      "merchantNames": [
+        "Sushi Company"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/comercio/sushi-company/"
+      ],
+      "merchants": [
+        {
+          "name": "Sushi Company - Dirección",
+          "url": "https://www.clubelpais.com.uy/comercio/sushi-company/",
+          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.900661,
+            "lng": -56.175214
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-sushi-go-detail-locations",
+      "merchantNames": [
+        "Sushi Go"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/comercio/sushi-go/"
+      ],
+      "merchants": [
+        {
+          "name": "Sushi Go - Dirección",
+          "url": "https://www.clubelpais.com.uy/comercio/sushi-go/",
+          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.900661,
+            "lng": -56.175214
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-sushimi-detail-locations",
+      "merchantNames": [
+        "Sushimi"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/comercio/sushimi/"
+      ],
+      "merchants": [
+        {
+          "name": "Sushimi - Dirección",
+          "url": "https://www.clubelpais.com.uy/comercio/sushimi/",
+          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.900661,
+            "lng": -56.175214
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
+        }
+      ]
+    },
+    {
       "id": "club-el-pais-tantoman-porfiados-sala-zitarrosa-locations",
       "merchantNames": [
         "Tantoman – Porfiados"
@@ -2018,6 +4235,27 @@
       ]
     },
     {
+      "id": "club-el-pais-tomas-restaurant-detail-locations",
+      "merchantNames": [
+        "Tomás Restaurant"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/comercio/tomas-restaurant/"
+      ],
+      "merchants": [
+        {
+          "name": "Tomás Restaurant - Dirección",
+          "url": "https://www.clubelpais.com.uy/comercio/tomas-restaurant/",
+          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.900661,
+            "lng": -56.175214
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
+        }
+      ]
+    },
+    {
       "id": "club-el-pais-tributo-a-paco-de-lucia-sala-zitarrosa-locations",
       "merchantNames": [
         "Tributo a Paco de Lucía"
@@ -2034,6 +4272,47 @@
             "lng": -56.19446
           },
           "mapsUrl": "https://www.google.com/maps/dir//-34.906255,-56.194460"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-trotsky-vengaran-y-mariano-martinez-teatro-de-verano-locations",
+      "merchantNames": [
+        "Trotsky Vengarán y Mariano Martínez"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "Trotsky Vengarán y Mariano Martínez - Teatro de Verano",
+          "location": "Teatro de Verano Ramón Collazo",
+          "geo": {
+            "lat": -34.919851,
+            "lng": -56.169725
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Teatro+de+Verano+Ram%C3%B3n+Collazo/@-34.9198507,-56.1697255,17z/data=!3m1!4b1!4m6!3m5!1s0x959f819821d1de0f:0xb2823d7887f5540a!8m2!3d-34.9198507!4d-56.1697255!16s%2Fg%2F122fjxmh"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-tuttodeco-detail-locations",
+      "merchantNames": [
+        "Tuttodeco"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/comercio/tuttodeco/"
+      ],
+      "merchants": [
+        {
+          "name": "Tuttodeco - Dirección",
+          "url": "https://www.clubelpais.com.uy/comercio/tuttodeco/",
+          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
+          "geo": {
+            "lat": -34.900661,
+            "lng": -56.175214
+          },
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
         }
       ]
     },
@@ -2098,1503 +4377,6 @@
       ]
     },
     {
-      "id": "club-el-pais-view-point-locations",
-      "merchantNames": [
-        "View Point"
-      ],
-      "sourceUrls": [
-        "https://nominatim.openstreetmap.org/"
-      ],
-      "merchants": [
-        {
-          "name": "View Point",
-          "location": "View Point, El Remanso (Calle 20), Punta Del Este, Maldonado, 20100",
-          "geo": {
-            "lat": -34.960708,
-            "lng": -54.943943
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.960708,-54.943943"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-watashi-locations",
-      "merchantNames": [
-        "Watashi"
-      ],
-      "sourceUrls": [
-        "https://nominatim.openstreetmap.org/"
-      ],
-      "merchants": [
-        {
-          "name": "Watashi",
-          "location": "Watashi, Los Muergos (Calle 27), Punta Del Este, Maldonado, 20100",
-          "geo": {
-            "lat": -34.9619,
-            "lng": -54.942494
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.961900,-54.942494"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-optica-garese-locations",
-      "merchantNames": [
-        "Óptica Garese"
-      ],
-      "sourceUrls": [
-        "https://nominatim.openstreetmap.org/"
-      ],
-      "merchants": [
-        {
-          "name": "Óptica Garese",
-          "location": "Óptica Garese, 1311, Zelmar Michelini, Centro, Montevideo, 11114",
-          "geo": {
-            "lat": -34.906593,
-            "lng": -56.190285
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.906593,-56.190285"
-        },
-        {
-          "name": "Óptica Garese",
-          "location": "Óptica Garese, Avenida Ingeniero Luis Giannattasio, Parque Miramar, Barra de Carrasco, Ciudad de la Costa, Municipio de Paso Carrasco, Canelones",
-          "geo": {
-            "lat": -34.86525,
-            "lng": -56.023882
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.865250,-56.023882"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-adm-detail-locations",
-      "merchantNames": [
-        "ADM"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/comercio/adm/"
-      ],
-      "merchants": [
-        {
-          "name": "ADM - Dirección",
-          "url": "https://www.clubelpais.com.uy/comercio/adm/",
-          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900661,
-            "lng": -56.175214
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-alfombras-zurtan-detail-locations",
-      "merchantNames": [
-        "Alfombras Zurtan"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/comercio/alfombras-zurtan/"
-      ],
-      "merchants": [
-        {
-          "name": "Alfombras Zurtan - Dirección",
-          "url": "https://www.clubelpais.com.uy/comercio/alfombras-zurtan/",
-          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900661,
-            "lng": -56.175214
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-altos-de-la-serena-apart-hotel-detail-locations",
-      "merchantNames": [
-        "Altos de la serena Apart Hotel"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/comercio/altos-de-la-serena-apart-hotel/"
-      ],
-      "merchants": [
-        {
-          "name": "Altos de la serena Apart Hotel - Dirección",
-          "url": "https://www.clubelpais.com.uy/comercio/altos-de-la-serena-apart-hotel/",
-          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900661,
-            "lng": -56.175214
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-amen-shoes-detail-locations",
-      "merchantNames": [
-        "Amén Shoes"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/comercio/amen-shoes/"
-      ],
-      "merchants": [
-        {
-          "name": "Amén Shoes - Dirección",
-          "url": "https://www.clubelpais.com.uy/comercio/amen-shoes/",
-          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900661,
-            "lng": -56.175214
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-araliz-detail-locations",
-      "merchantNames": [
-        "Araliz"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/comercio/araliz/"
-      ],
-      "merchants": [
-        {
-          "name": "Araliz - Dirección",
-          "url": "https://www.clubelpais.com.uy/comercio/araliz/",
-          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900661,
-            "lng": -56.175214
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-awa-detail-locations",
-      "merchantNames": [
-        "AWA"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/comercio/awa/"
-      ],
-      "merchants": [
-        {
-          "name": "AWA - Dirección",
-          "url": "https://www.clubelpais.com.uy/comercio/awa/",
-          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900661,
-            "lng": -56.175214
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-ballet-nacional-sodre-detail-locations",
-      "merchantNames": [
-        "Ballet Nacional Sodre"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/evento/ballet-nacional-sodre/"
-      ],
-      "merchants": [
-        {
-          "name": "Ballet Nacional Sodre - Dirección",
-          "url": "https://www.clubelpais.com.uy/evento/ballet-nacional-sodre/",
-          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900661,
-            "lng": -56.175214
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-ballon-detail-locations",
-      "merchantNames": [
-        "Ballon"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/comercio/ballon/"
-      ],
-      "merchants": [
-        {
-          "name": "Ballon - Dirección",
-          "url": "https://www.clubelpais.com.uy/comercio/ballon/",
-          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900661,
-            "lng": -56.175214
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-bbq-detail-locations",
-      "merchantNames": [
-        "BBQ"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/comercio/bbq/"
-      ],
-      "merchants": [
-        {
-          "name": "BBQ - Dirección",
-          "url": "https://www.clubelpais.com.uy/comercio/bbq/",
-          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900661,
-            "lng": -56.175214
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-be-ganesha-detail-locations",
-      "merchantNames": [
-        "Be Ganesha"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/comercio/be-ganesha/"
-      ],
-      "merchants": [
-        {
-          "name": "Be Ganesha - Dirección",
-          "url": "https://www.clubelpais.com.uy/comercio/be-ganesha/",
-          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900661,
-            "lng": -56.175214
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-blue-glass-detail-locations",
-      "merchantNames": [
-        "Blue glass"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/comercio/blue-glass/"
-      ],
-      "merchants": [
-        {
-          "name": "Blue glass - Dirección",
-          "url": "https://www.clubelpais.com.uy/comercio/blue-glass/",
-          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900661,
-            "lng": -56.175214
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-bubba-detail-locations",
-      "merchantNames": [
-        "Bubba"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/comercio/bubba/"
-      ],
-      "merchants": [
-        {
-          "name": "Bubba - Dirección",
-          "url": "https://www.clubelpais.com.uy/comercio/bubba/",
-          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900661,
-            "lng": -56.175214
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-cantegrill-joyas-detail-locations",
-      "merchantNames": [
-        "Cantegrill Joyas"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/comercio/cantegrill-joyas/"
-      ],
-      "merchants": [
-        {
-          "name": "Cantegrill Joyas - Dirección",
-          "url": "https://www.clubelpais.com.uy/comercio/cantegrill-joyas/",
-          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900661,
-            "lng": -56.175214
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-carrasco-traslada-detail-locations",
-      "merchantNames": [
-        "Carrasco Traslada"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/comercio/carrasco-traslada/"
-      ],
-      "merchants": [
-        {
-          "name": "Carrasco Traslada - Dirección",
-          "url": "https://www.clubelpais.com.uy/comercio/carrasco-traslada/",
-          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900661,
-            "lng": -56.175214
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-casagrande-hotel-beach-club-detail-locations",
-      "merchantNames": [
-        "Casagrande Hotel & Beach Club"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/comercio/casagrande-hotel-beach-club/"
-      ],
-      "merchants": [
-        {
-          "name": "Casagrande Hotel & Beach Club - Dirección",
-          "url": "https://www.clubelpais.com.uy/comercio/casagrande-hotel-beach-club/",
-          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900661,
-            "lng": -56.175214
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-cauce-detail-locations",
-      "merchantNames": [
-        "Cauce"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/comercio/cauce/"
-      ],
-      "merchants": [
-        {
-          "name": "Cauce - Dirección",
-          "url": "https://www.clubelpais.com.uy/comercio/cauce/",
-          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900661,
-            "lng": -56.175214
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-charo-cocina-y-cafe-detail-locations",
-      "merchantNames": [
-        "Charo Cocina y Café"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/comercio/charo-cocina-y-cafe/"
-      ],
-      "merchants": [
-        {
-          "name": "Charo Cocina y Café - Dirección",
-          "url": "https://www.clubelpais.com.uy/comercio/charo-cocina-y-cafe/",
-          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900661,
-            "lng": -56.175214
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-club-del-bosque-detail-locations",
-      "merchantNames": [
-        "Club del Bosque"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/comercio/club-del-bosque/"
-      ],
-      "merchants": [
-        {
-          "name": "Club del Bosque - Dirección",
-          "url": "https://www.clubelpais.com.uy/comercio/club-del-bosque/",
-          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900661,
-            "lng": -56.175214
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-conjunto-nacional-de-musica-de-camara-detail-locations",
-      "merchantNames": [
-        "Conjunto Nacional de Música de Cámara"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/evento/conjunto-nacional-de-musica-de-camara-auditorio-vaz-ferreira/"
-      ],
-      "merchants": [
-        {
-          "name": "Conjunto Nacional de Música de Cámara - Dirección",
-          "url": "https://www.clubelpais.com.uy/evento/conjunto-nacional-de-musica-de-camara-auditorio-vaz-ferreira/",
-          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900661,
-            "lng": -56.175214
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-delishop-detail-locations",
-      "merchantNames": [
-        "Delishop"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/comercio/delishop/"
-      ],
-      "merchants": [
-        {
-          "name": "Delishop - Dirección",
-          "url": "https://www.clubelpais.com.uy/comercio/delishop/",
-          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900661,
-            "lng": -56.175214
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-don-antonio-posada-detail-locations",
-      "merchantNames": [
-        "Don Antonio Posada"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/comercio/don-antonio-posada/"
-      ],
-      "merchants": [
-        {
-          "name": "Don Antonio Posada - Dirección",
-          "url": "https://www.clubelpais.com.uy/comercio/don-antonio-posada/",
-          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900661,
-            "lng": -56.175214
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-don-baez-detail-locations",
-      "merchantNames": [
-        "Don Baez"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/comercio/don-baez/"
-      ],
-      "merchants": [
-        {
-          "name": "Don Baez - Dirección",
-          "url": "https://www.clubelpais.com.uy/comercio/don-baez/",
-          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900661,
-            "lng": -56.175214
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-el-volcan-detail-locations",
-      "merchantNames": [
-        "El Volcán"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/comercio/el-volcan/"
-      ],
-      "merchants": [
-        {
-          "name": "El Volcán - Dirección",
-          "url": "https://www.clubelpais.com.uy/comercio/el-volcan/",
-          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900661,
-            "lng": -56.175214
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-entre-pinos-eco-box-detail-locations",
-      "merchantNames": [
-        "Entre Pinos Eco Box"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/comercio/entre-pinos-eco-box/"
-      ],
-      "merchants": [
-        {
-          "name": "Entre Pinos Eco Box - Dirección",
-          "url": "https://www.clubelpais.com.uy/comercio/entre-pinos-eco-box/",
-          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900661,
-            "lng": -56.175214
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-escool-detail-locations",
-      "merchantNames": [
-        "Escool"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/comercio/escool/"
-      ],
-      "merchants": [
-        {
-          "name": "Escool - Dirección",
-          "url": "https://www.clubelpais.com.uy/comercio/escool/",
-          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900661,
-            "lng": -56.175214
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-frontier-hotel-rivera-detail-locations",
-      "merchantNames": [
-        "Frontier Hotel Rivera"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/comercio/frontier-hotel-rivera/"
-      ],
-      "merchants": [
-        {
-          "name": "Frontier Hotel Rivera - Dirección",
-          "url": "https://www.clubelpais.com.uy/comercio/frontier-hotel-rivera/",
-          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900661,
-            "lng": -56.175214
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-fumaya-detail-locations",
-      "merchantNames": [
-        "Fumaya"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/comercio/fumaya/"
-      ],
-      "merchants": [
-        {
-          "name": "Fumaya - Dirección",
-          "url": "https://www.clubelpais.com.uy/comercio/fumaya/",
-          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900661,
-            "lng": -56.175214
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-garnie-detail-locations",
-      "merchantNames": [
-        "Garnié"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/comercio/garnie/"
-      ],
-      "merchants": [
-        {
-          "name": "Garnié - Dirección",
-          "url": "https://www.clubelpais.com.uy/comercio/garnie/",
-          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900661,
-            "lng": -56.175214
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-gladys-t-detail-locations",
-      "merchantNames": [
-        "Gladys T"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/comercio/gladys-t/"
-      ],
-      "merchants": [
-        {
-          "name": "Gladys T - Dirección",
-          "url": "https://www.clubelpais.com.uy/comercio/gladys-t/",
-          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900661,
-            "lng": -56.175214
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-glass-defender-detail-locations",
-      "merchantNames": [
-        "Glass Defender"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/comercio/glass-defender/"
-      ],
-      "merchants": [
-        {
-          "name": "Glass Defender - Dirección",
-          "url": "https://www.clubelpais.com.uy/comercio/glass-defender/",
-          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900661,
-            "lng": -56.175214
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-goethe-institut-detail-locations",
-      "merchantNames": [
-        "Goethe-Institut"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/comercio/goethe-institut/"
-      ],
-      "merchants": [
-        {
-          "name": "Goethe-Institut - Dirección",
-          "url": "https://www.clubelpais.com.uy/comercio/goethe-institut/",
-          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900661,
-            "lng": -56.175214
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-gran-hotel-brisas-del-hum-detail-locations",
-      "merchantNames": [
-        "Gran Hotel Brisas del Hum"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/comercio/gran-hotel-brisas-del-hum/"
-      ],
-      "merchants": [
-        {
-          "name": "Gran Hotel Brisas del Hum - Dirección",
-          "url": "https://www.clubelpais.com.uy/comercio/gran-hotel-brisas-del-hum/",
-          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900661,
-            "lng": -56.175214
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-horneros-racket-club-detail-locations",
-      "merchantNames": [
-        "Horneros Racket Club"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/comercio/horneros-racket-club/"
-      ],
-      "merchants": [
-        {
-          "name": "Horneros Racket Club - Dirección",
-          "url": "https://www.clubelpais.com.uy/comercio/horneros-racket-club/",
-          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900661,
-            "lng": -56.175214
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-hotel-casagrande-detail-locations",
-      "merchantNames": [
-        "Hotel Casagrande"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/comercio/hotel-casagrande/"
-      ],
-      "merchants": [
-        {
-          "name": "Hotel Casagrande - Dirección",
-          "url": "https://www.clubelpais.com.uy/comercio/hotel-casagrande/",
-          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900661,
-            "lng": -56.175214
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-hotel-costanero-detail-locations",
-      "merchantNames": [
-        "Hotel Costanero"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/comercio/hotel-costanero/"
-      ],
-      "merchants": [
-        {
-          "name": "Hotel Costanero - Dirección",
-          "url": "https://www.clubelpais.com.uy/comercio/hotel-costanero/",
-          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900661,
-            "lng": -56.175214
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-hotel-solerios-detail-locations",
-      "merchantNames": [
-        "Hotel Solerios"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/comercio/hotel-solerios/"
-      ],
-      "merchants": [
-        {
-          "name": "Hotel Solerios - Dirección",
-          "url": "https://www.clubelpais.com.uy/comercio/hotel-solerios/",
-          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900661,
-            "lng": -56.175214
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-il-belvedere-detail-locations",
-      "merchantNames": [
-        "Il Belvedere"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/comercio/il-belvedere/"
-      ],
-      "merchants": [
-        {
-          "name": "Il Belvedere - Dirección",
-          "url": "https://www.clubelpais.com.uy/comercio/il-belvedere/",
-          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900661,
-            "lng": -56.175214
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-kakao-chocolates-detail-locations",
-      "merchantNames": [
-        "Kakao Chocolates"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/comercio/kakao-chocolates/"
-      ],
-      "merchants": [
-        {
-          "name": "Kakao Chocolates - Dirección",
-          "url": "https://www.clubelpais.com.uy/comercio/kakao-chocolates/",
-          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900661,
-            "lng": -56.175214
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-kratki-detail-locations",
-      "merchantNames": [
-        "Kratki"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/comercio/kratki/"
-      ],
-      "merchants": [
-        {
-          "name": "Kratki - Dirección",
-          "url": "https://www.clubelpais.com.uy/comercio/kratki/",
-          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900661,
-            "lng": -56.175214
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-la-corniche-detail-locations",
-      "merchantNames": [
-        "La Corniche"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/comercio/la-corniche/"
-      ],
-      "merchants": [
-        {
-          "name": "La Corniche - Dirección",
-          "url": "https://www.clubelpais.com.uy/comercio/la-corniche/",
-          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900661,
-            "lng": -56.175214
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-lanka-detail-locations",
-      "merchantNames": [
-        "Lanka"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/comercio/lanka/"
-      ],
-      "merchants": [
-        {
-          "name": "Lanka - Dirección",
-          "url": "https://www.clubelpais.com.uy/comercio/lanka/",
-          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900661,
-            "lng": -56.175214
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-like-design-rivera-detail-locations",
-      "merchantNames": [
-        "Like Design Rivera"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/comercio/like-design-rivera/"
-      ],
-      "merchants": [
-        {
-          "name": "Like Design Rivera - Dirección",
-          "url": "https://www.clubelpais.com.uy/comercio/like-design-rivera/",
-          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900661,
-            "lng": -56.175214
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-los-fontanes-detail-locations",
-      "merchantNames": [
-        "Los Fontanes"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/comercio/los-fontanes/"
-      ],
-      "merchants": [
-        {
-          "name": "Los Fontanes - Dirección",
-          "url": "https://www.clubelpais.com.uy/comercio/los-fontanes/",
-          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900661,
-            "lng": -56.175214
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-ludovic-detail-locations",
-      "merchantNames": [
-        "Ludovic"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/comercio/ludovic/"
-      ],
-      "merchants": [
-        {
-          "name": "Ludovic - Dirección",
-          "url": "https://www.clubelpais.com.uy/comercio/ludovic/",
-          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900661,
-            "lng": -56.175214
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-luz-verde-detail-locations",
-      "merchantNames": [
-        "Luz Verde"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/comercio/luz-verde/"
-      ],
-      "merchants": [
-        {
-          "name": "Luz Verde - Dirección",
-          "url": "https://www.clubelpais.com.uy/comercio/luz-verde/",
-          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900661,
-            "lng": -56.175214
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-macadar-detail-locations",
-      "merchantNames": [
-        "Macadar"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/comercio/macadar/"
-      ],
-      "merchants": [
-        {
-          "name": "Macadar - Dirección",
-          "url": "https://www.clubelpais.com.uy/comercio/macadar/",
-          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900661,
-            "lng": -56.175214
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-margara-shaw-detail-locations",
-      "merchantNames": [
-        "Margara Shaw"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/comercio/margara-shaw/"
-      ],
-      "merchants": [
-        {
-          "name": "Margara Shaw - Dirección",
-          "url": "https://www.clubelpais.com.uy/comercio/margara-shaw/",
-          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900661,
-            "lng": -56.175214
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-maria-cher-detail-locations",
-      "merchantNames": [
-        "María Cher"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/comercio/maria-cher/"
-      ],
-      "merchants": [
-        {
-          "name": "María Cher - Dirección",
-          "url": "https://www.clubelpais.com.uy/comercio/maria-cher/",
-          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900661,
-            "lng": -56.175214
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-marina-nature-detail-locations",
-      "merchantNames": [
-        "Marina Nature"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/comercio/marina-nature/"
-      ],
-      "merchants": [
-        {
-          "name": "Marina Nature - Dirección",
-          "url": "https://www.clubelpais.com.uy/comercio/marina-nature/",
-          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900661,
-            "lng": -56.175214
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-martinika-deco-detail-locations",
-      "merchantNames": [
-        "Martinika Deco"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/comercio/martinika-deco/"
-      ],
-      "merchants": [
-        {
-          "name": "Martinika Deco - Dirección",
-          "url": "https://www.clubelpais.com.uy/comercio/martinika-deco/",
-          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900661,
-            "lng": -56.175214
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-misushi-mvd-detail-locations",
-      "merchantNames": [
-        "Misushi MVD"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/comercio/misushi-mvd/"
-      ],
-      "merchants": [
-        {
-          "name": "Misushi MVD - Dirección",
-          "url": "https://www.clubelpais.com.uy/comercio/misushi-mvd/",
-          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900661,
-            "lng": -56.175214
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-mundo-cartoon-detail-locations",
-      "merchantNames": [
-        "Mundo Cartoon"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/comercio/mundo-cartoon/"
-      ],
-      "merchants": [
-        {
-          "name": "Mundo Cartoon - Dirección",
-          "url": "https://www.clubelpais.com.uy/comercio/mundo-cartoon/",
-          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900661,
-            "lng": -56.175214
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-natalia-antolin-detail-locations",
-      "merchantNames": [
-        "Natalia Antolin"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/comercio/natalia-antolin/"
-      ],
-      "merchants": [
-        {
-          "name": "Natalia Antolin - Dirección",
-          "url": "https://www.clubelpais.com.uy/comercio/natalia-antolin/",
-          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900661,
-            "lng": -56.175214
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-olivia-resto-detail-locations",
-      "merchantNames": [
-        "Olivia Restó"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/comercio/olivia/"
-      ],
-      "merchants": [
-        {
-          "name": "Olivia Restó - Dirección",
-          "url": "https://www.clubelpais.com.uy/comercio/olivia/",
-          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900661,
-            "lng": -56.175214
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-orquesta-sinfonia-nacional-sodre-detail-locations",
-      "merchantNames": [
-        "Orquesta Sinfónia Nacional Sodre"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/evento/orquesta-sinfonia-nacional-sodre/"
-      ],
-      "merchants": [
-        {
-          "name": "Orquesta Sinfónia Nacional Sodre - Dirección",
-          "url": "https://www.clubelpais.com.uy/evento/orquesta-sinfonia-nacional-sodre/",
-          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900661,
-            "lng": -56.175214
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-pacifica-casa-detail-locations",
-      "merchantNames": [
-        "Pacifica Casa"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/comercio/pacifica-casa/"
-      ],
-      "merchants": [
-        {
-          "name": "Pacifica Casa - Dirección",
-          "url": "https://www.clubelpais.com.uy/comercio/pacifica-casa/",
-          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900661,
-            "lng": -56.175214
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-papeleria-goya-detail-locations",
-      "merchantNames": [
-        "Papelería Goya"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/comercio/papeleria-goya/"
-      ],
-      "merchants": [
-        {
-          "name": "Papelería Goya - Dirección",
-          "url": "https://www.clubelpais.com.uy/comercio/papeleria-goya/",
-          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900661,
-            "lng": -56.175214
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-pattytas-detail-locations",
-      "merchantNames": [
-        "Pattytas"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/comercio/pattytas/"
-      ],
-      "merchants": [
-        {
-          "name": "Pattytas - Dirección",
-          "url": "https://www.clubelpais.com.uy/comercio/pattytas/",
-          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900661,
-            "lng": -56.175214
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-pompeya-joyas-detail-locations",
-      "merchantNames": [
-        "Pompeya joyas"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/comercio/pompeya-joyas/"
-      ],
-      "merchants": [
-        {
-          "name": "Pompeya joyas - Dirección",
-          "url": "https://www.clubelpais.com.uy/comercio/pompeya-joyas/",
-          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900661,
-            "lng": -56.175214
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-puro-punto-detail-locations",
-      "merchantNames": [
-        "Puro Punto"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/comercio/puro-punto/"
-      ],
-      "merchants": [
-        {
-          "name": "Puro Punto - Dirección",
-          "url": "https://www.clubelpais.com.uy/comercio/puro-punto/",
-          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900661,
-            "lng": -56.175214
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-real-colonia-hotel-suites-detail-locations",
-      "merchantNames": [
-        "Real Colonia Hotel & Suites"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/comercio/real-colonia-hotel-suites/"
-      ],
-      "merchants": [
-        {
-          "name": "Real Colonia Hotel & Suites - Dirección",
-          "url": "https://www.clubelpais.com.uy/comercio/real-colonia-hotel-suites/",
-          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900661,
-            "lng": -56.175214
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-rodwil-detail-locations",
-      "merchantNames": [
-        "Rodwil"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/comercio/rodwil/"
-      ],
-      "merchants": [
-        {
-          "name": "Rodwil - Dirección",
-          "url": "https://www.clubelpais.com.uy/comercio/rodwil/",
-          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900661,
-            "lng": -56.175214
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-salinas-del-almiron-resort-termal-detail-locations",
-      "merchantNames": [
-        "Salinas del Almirón Resort Termal"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/comercio/salinas-del-almiron-resort-termal/"
-      ],
-      "merchants": [
-        {
-          "name": "Salinas del Almirón Resort Termal - Dirección",
-          "url": "https://www.clubelpais.com.uy/comercio/salinas-del-almiron-resort-termal/",
-          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900661,
-            "lng": -56.175214
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-sushi-company-detail-locations",
-      "merchantNames": [
-        "Sushi Company"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/comercio/sushi-company/"
-      ],
-      "merchants": [
-        {
-          "name": "Sushi Company - Dirección",
-          "url": "https://www.clubelpais.com.uy/comercio/sushi-company/",
-          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900661,
-            "lng": -56.175214
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-sushi-go-detail-locations",
-      "merchantNames": [
-        "Sushi Go"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/comercio/sushi-go/"
-      ],
-      "merchants": [
-        {
-          "name": "Sushi Go - Dirección",
-          "url": "https://www.clubelpais.com.uy/comercio/sushi-go/",
-          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900661,
-            "lng": -56.175214
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-sushimi-detail-locations",
-      "merchantNames": [
-        "Sushimi"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/comercio/sushimi/"
-      ],
-      "merchants": [
-        {
-          "name": "Sushimi - Dirección",
-          "url": "https://www.clubelpais.com.uy/comercio/sushimi/",
-          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900661,
-            "lng": -56.175214
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-tomas-restaurant-detail-locations",
-      "merchantNames": [
-        "Tomás Restaurant"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/comercio/tomas-restaurant/"
-      ],
-      "merchants": [
-        {
-          "name": "Tomás Restaurant - Dirección",
-          "url": "https://www.clubelpais.com.uy/comercio/tomas-restaurant/",
-          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900661,
-            "lng": -56.175214
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-tuttodeco-detail-locations",
-      "merchantNames": [
-        "Tuttodeco"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/comercio/tuttodeco/"
-      ],
-      "merchants": [
-        {
-          "name": "Tuttodeco - Dirección",
-          "url": "https://www.clubelpais.com.uy/comercio/tuttodeco/",
-          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900661,
-            "lng": -56.175214
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
       "id": "club-el-pais-uy-proa-sur-hotel-detail-locations",
       "merchantNames": [
         "UY Proa Sur Hotel"
@@ -3612,671 +4394,6 @@
             "lng": -56.175214
           },
           "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-veroca-joyas-detail-locations",
-      "merchantNames": [
-        "Veroca Joyas"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/comercio/veroca-joyas/"
-      ],
-      "merchants": [
-        {
-          "name": "Veroca Joyas - Dirección",
-          "url": "https://www.clubelpais.com.uy/comercio/veroca-joyas/",
-          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900661,
-            "lng": -56.175214
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-watchme-detail-locations",
-      "merchantNames": [
-        "Watchme"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/comercio/watchme/"
-      ],
-      "merchants": [
-        {
-          "name": "Watchme - Dirección",
-          "url": "https://www.clubelpais.com.uy/comercio/watchme/",
-          "location": "Dirección de Obras Intendencia Maldonado, Avenida Doctor Luis Alberto de Herrera, Maldonado, 20000",
-          "geo": {
-            "lat": -34.882553,
-            "lng": -54.953303
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.882553,-54.953303"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-zule-detail-locations",
-      "merchantNames": [
-        "Zule"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/comercio/zule/"
-      ],
-      "merchants": [
-        {
-          "name": "Zule - Dirección",
-          "url": "https://www.clubelpais.com.uy/comercio/zule/",
-          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900661,
-            "lng": -56.175214
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-ave-fenix-sala-campodonico-teatro-el-galpon-locations",
-      "merchantNames": [
-        "Ave Fénix – Sala Campodónico"
-      ],
-      "sourceUrls": [
-        "https://nominatim.openstreetmap.org/"
-      ],
-      "merchants": [
-        {
-          "name": "Ave Fénix – Sala Campodónico - Teatro El Galpón",
-          "location": "El Galpón, Avenida 18 de Julio, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.904211,
-            "lng": -56.181104
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.904211,-56.181104"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-edipo-en-ezeiza-auditorio-adela-reta-locations",
-      "merchantNames": [
-        "Edipo en Ezeiza"
-      ],
-      "sourceUrls": [
-        "https://nominatim.openstreetmap.org/"
-      ],
-      "merchants": [
-        {
-          "name": "Edipo en Ezeiza - Auditorio Adela Reta",
-          "location": "Auditorio Nacional \"Adela Reta\", 1455, Andes, Barrio Sur, Montevideo, 11000",
-          "geo": {
-            "lat": -34.904281,
-            "lng": -56.198708
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.904281,-56.198708"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-opera-l-elisir-d-amore-auditorio-adela-reta-locations",
-      "merchantNames": [
-        "ÓPERA – L’elisir D’amore"
-      ],
-      "sourceUrls": [
-        "https://nominatim.openstreetmap.org/"
-      ],
-      "merchants": [
-        {
-          "name": "ÓPERA – L’elisir D’amore - Auditorio Adela Reta",
-          "location": "Auditorio Nacional \"Adela Reta\", 1455, Andes, Barrio Sur, Montevideo, 11000",
-          "geo": {
-            "lat": -34.904281,
-            "lng": -56.198708
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.904281,-56.198708"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-piazzolla-ferrer-ecos-de-tango-sala-camacua-locations",
-      "merchantNames": [
-        "Piazzolla & Ferrer – Ecos de Tango"
-      ],
-      "sourceUrls": [
-        "https://nominatim.openstreetmap.org/"
-      ],
-      "merchants": [
-        {
-          "name": "Piazzolla & Ferrer – Ecos de Tango - Sala Camacuá",
-          "location": "Sala Camacuá",
-          "geo": {
-            "lat": -34.909122,
-            "lng": -56.202256
-          },
-          "mapsUrl": "https://www.google.com/maps/place/Sala+Camacu%C3%A1/@-34.9091219,-56.2022557,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81d52fef30bb:0xdc43d5c1616ccb78!8m2!3d-34.9091219!4d-56.2022557!16s%2Fg%2F11c0qgj373"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-estas-ahi-auditorio-adela-reta-locations",
-      "merchantNames": [
-        "¿Estás ahí?"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "¿Estás ahí? - Auditorio Adela Reta",
-          "location": "Auditorio Nacional Adela Reta",
-          "geo": {
-            "lat": -34.904353,
-            "lng": -56.198553
-          },
-          "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-al-borde-del-puente-centro-cultural-terminal-goes-locations",
-      "merchantNames": [
-        "Al borde del puente"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "Al borde del puente - Centro Cultural Terminal Goes"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-bns-coppelia-auditorio-adela-reta-locations",
-      "merchantNames": [
-        "BNS – Coppelia"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "BNS – Coppelia - Auditorio Adela Reta",
-          "location": "Auditorio Nacional Adela Reta",
-          "geo": {
-            "lat": -34.904353,
-            "lng": -56.198553
-          },
-          "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-dani-la-chepi-sala-campodonico-teatro-el-galpon-locations",
-      "merchantNames": [
-        "Dani La Chepi – Sala Campodónico"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "Dani La Chepi – Sala Campodónico - Teatro El Galpón",
-          "location": "El Galpón",
-          "geo": {
-            "lat": -34.90403,
-            "lng": -56.181082
-          },
-          "mapsUrl": "https://www.google.com/maps/place/El+Galp%C3%B3n/@-34.9040305,-56.1810816,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81b5617dc4e7:0xc21c578fd5c6424f!8m2!3d-34.9040305!4d-56.1810816!16s%2Fg%2F121rjw4h"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-daniel-k-mentiras-verdaderas-movie-montevideo-locations",
-      "merchantNames": [
-        "Daniel K – Mentiras Verdaderas"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "Daniel K – Mentiras Verdaderas - Movie Montevideo",
-          "location": "Movie, 5775, Avenida Italia, Punta Gorda, Montevideo, 11403",
-          "geo": {
-            "lat": -34.881352,
-            "lng": -56.081088
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.881352,-56.081088"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-el-caso-inevitable-del-sr-mendez-teatro-alianza-locations",
-      "merchantNames": [
-        "El caso inevitable del Sr. Méndez"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "El caso inevitable del Sr. Méndez - Teatro Alianza",
-          "location": "Teatro Alianza",
-          "geo": {
-            "lat": -34.908478,
-            "lng": -56.192329
-          },
-          "mapsUrl": "https://www.google.com/maps/place/Teatro+Alianza/@-34.9084781,-56.1923287,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81cd80292d3b:0x8b46eed506719c94!8m2!3d-34.9084781!4d-56.1923287!16s%2Fg%2F11bwh9w_js"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-el-jefe-del-jefe-teatro-movie-locations",
-      "merchantNames": [
-        "El Jefe del Jefe"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "El Jefe del Jefe - Teatro Movie"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-elena-roger-en-concierto-teatro-el-galpon-locations",
-      "merchantNames": [
-        "Elena Roger en Concierto"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "Elena Roger en Concierto - Teatro El Galpón",
-          "location": "El Galpón",
-          "geo": {
-            "lat": -34.90403,
-            "lng": -56.181082
-          },
-          "mapsUrl": "https://www.google.com/maps/place/El+Galp%C3%B3n/@-34.9040305,-56.1810816,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81b5617dc4e7:0xc21c578fd5c6424f!8m2!3d-34.9040305!4d-56.1810816!16s%2Fg%2F121rjw4h"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-festival-musica-de-la-tierra-15-anos-parque-de-la-amistad-locations",
-      "merchantNames": [
-        "Festival Música de la Tierra – 15 años"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "Festival Música de la Tierra – 15 años - Parque de la Amistad",
-          "location": "Parque de la Amistad, Montevideo",
-          "geo": {
-            "lat": -34.902273,
-            "lng": -56.144214
-          },
-          "mapsUrl": "https://www.google.com/maps/place/Parque+de+la+Amistad/@-34.9022731,-56.144214,17z/data=!3m1!4b1!4m6!3m5!1s0x959f8110eee34b5d:0x1ae6547e63098ebc!8m2!3d-34.9022731!4d-56.144214!16s%2Fg%2F11bvcv5w00"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-florencia-nunez-gira-decada-y-media-sodre-auditorio-adela-reta-locations",
-      "merchantNames": [
-        "Florencia Núñez – Gira Década y Media – Sodre"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "Florencia Núñez – Gira Década y Media – Sodre - Auditorio Adela Reta",
-          "location": "Auditorio Nacional Adela Reta",
-          "geo": {
-            "lat": -34.904353,
-            "lng": -56.198553
-          },
-          "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-gato-renato-esta-en-la-luna-planetario-de-montevideo-locations",
-      "merchantNames": [
-        "Gato Renato Está En La Luna"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "Gato Renato Está En La Luna - Planetario de Montevideo",
-          "location": "Planetario de Montevideo",
-          "geo": {
-            "lat": -34.901858,
-            "lng": -56.144551
-          },
-          "mapsUrl": "https://www.google.com/maps/place/Planetario+de+Montevideo/@-34.901858,-56.144551,17z/data=!3m1!4b1!4m6!3m5!1s0x959f8110fac5989f:0x7b32fd0cf4bd7a7d!8m2!3d-34.901858!4d-56.144551!16s%2Fg%2F11b7431k3_"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-gustavo-casenave-teatro-solis-locations",
-      "merchantNames": [
-        "Gustavo Casenave"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "Gustavo Casenave - Teatro Solís",
-          "location": "Teatro Solís",
-          "geo": {
-            "lat": -34.907634,
-            "lng": -56.201123
-          },
-          "mapsUrl": "https://www.google.com/maps/place/Teatro+Sol%C3%ADs/@-34.9076336,-56.2011228,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802adf27edcb:0xe9cdb804f35a1e8a!8m2!3d-34.9076336!4d-56.2011228!16s%2Fm%2F03c5d99"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-hablame-de-cancer-piso-19-hospital-de-clinicas-de-montevideo-locations",
-      "merchantNames": [
-        "Hablame de Cáncer"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "Hablame de Cáncer - Piso 19 - Hospital de Clínicas de Montevideo"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-jorge-nasser-40-anos-de-canciones-auditorio-adela-reta-locations",
-      "merchantNames": [
-        "Jorge Nasser — 40 años de canciones"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "Jorge Nasser — 40 años de canciones - Auditorio Adela Reta",
-          "location": "Auditorio Nacional Adela Reta",
-          "geo": {
-            "lat": -34.904353,
-            "lng": -56.198553
-          },
-          "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-la-kermesse-prado-rural-del-prado-locations",
-      "merchantNames": [
-        "La Kermesse – Prado"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "La Kermesse – Prado - Rural del Prado",
-          "location": "Rural del Prado",
-          "geo": {
-            "lat": -34.863049,
-            "lng": -56.203285
-          },
-          "mapsUrl": "https://www.google.com/maps/place/Rural+del+Prado/@-34.8630492,-56.2032852,17z/data=!3m1!4b1!4m6!3m5!1s0x95a02aad48e0af2b:0xe14c76e4d71a56a3!8m2!3d-34.8630492!4d-56.2032852!16s%2Fg%2F121m84fv"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-la-omision-de-la-familia-coleman-movie-montevideo-locations",
-      "merchantNames": [
-        "La Omisión de la Familia Coleman"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "La Omisión de la Familia Coleman - Movie Montevideo",
-          "location": "Movie, 5775, Avenida Italia, Punta Gorda, Montevideo, 11403",
-          "geo": {
-            "lat": -34.881352,
-            "lng": -56.081088
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.881352,-56.081088"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-los-abuelos-de-la-nada-teatro-metro-locations",
-      "merchantNames": [
-        "Los Abuelos de la Nada"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "Los Abuelos de la Nada - Teatro Metro",
-          "location": "Teatro Metro",
-          "geo": {
-            "lat": -34.906667,
-            "lng": -56.19
-          },
-          "mapsUrl": "https://www.google.com/maps/place/Teatro+Metro/@-34.9066667,-56.19,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81cd1ea5a273:0xadadb9c7368267a1!8m2!3d-34.9066667!4d-56.19!16s%2Fg%2F11b6s19xq1"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-los-nocheros-40-anos-montevideo-auditorio-adela-reta-locations",
-      "merchantNames": [
-        "Los Nocheros 40 años – Montevideo"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "Los Nocheros 40 años – Montevideo - Auditorio Adela Reta",
-          "location": "Auditorio Nacional Adela Reta",
-          "geo": {
-            "lat": -34.904353,
-            "lng": -56.198553
-          },
-          "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-los-nocheros-40-anos-san-jose-teatro-maccio-locations",
-      "merchantNames": [
-        "Los Nocheros 40 años – San José"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "Los Nocheros 40 años – San José - Teatro Macció",
-          "location": "Teatro Macció",
-          "geo": {
-            "lat": -34.338813,
-            "lng": -56.713583
-          },
-          "mapsUrl": "https://www.google.com/maps/place/Teatro+Macci%C3%B3/@-34.3388125,-56.7135832,17z/data=!3m1!4b1!4m6!3m5!1s0x95a1773e712d04e7:0x5737140d4fbe2892!8m2!3d-34.3388125!4d-56.7135832!16s%2Fg%2F11f5bnk0v2"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-milongas-extremas-antel-arena-locations",
-      "merchantNames": [
-        "Milongas Extremas"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "Milongas Extremas - Antel Arena",
-          "location": "Antel Arena",
-          "geo": {
-            "lat": -34.862974,
-            "lng": -56.153698
-          },
-          "mapsUrl": "https://www.google.com/maps/place/Antel+Arena/@-34.8629745,-56.1536983,17z/data=!3m1!4b1!4m6!3m5!1s0x959f80859196b1db:0xfa0cae26c29546da!8m2!3d-34.8629745!4d-56.1536983!16s%2Fg%2F11gt__kjqx"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-noche-de-la-nostalgia-en-plaza-de-toros-plaza-de-toros-real-de-san-carlos-locations",
-      "merchantNames": [
-        "Noche de la Nostalgia en Plaza de Toros"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "Noche de la Nostalgia en Plaza de Toros - Plaza de Toros Real de San Carlos",
-          "location": "Plaza de Toros Real de San Carlos, Colonia",
-          "geo": {
-            "lat": -34.436517,
-            "lng": -57.86514
-          },
-          "mapsUrl": "https://www.google.com/maps/place/Plaza+de+Toros+Real+de+San+Carlos/@-34.4365172,-57.8651404,17z/data=!3m1!4b1!4m6!3m5!1s0x95a312d0b33bb5ff:0x70ccaa876da3e19b!8m2!3d-34.4365172!4d-57.8651404!16s%2Fm%2F04gnk34"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-ojns-gala-de-ano-nuevo-auditorio-adela-reta-locations",
-      "merchantNames": [
-        "OJNS – Gala de Año Nuevo"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "OJNS – Gala de Año Nuevo - Auditorio Adela Reta",
-          "location": "Auditorio Nacional Adela Reta",
-          "geo": {
-            "lat": -34.904353,
-            "lng": -56.198553
-          },
-          "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-ossodre-bohemia-auditorio-adela-reta-locations",
-      "merchantNames": [
-        "OSSODRE – Bohemia"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "OSSODRE – Bohemia - Auditorio Adela Reta",
-          "location": "Auditorio Nacional Adela Reta",
-          "geo": {
-            "lat": -34.904353,
-            "lng": -56.198553
-          },
-          "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-ossodre-idilio-auditorio-adela-reta-locations",
-      "merchantNames": [
-        "OSSODRE – Idilio"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "OSSODRE – Idilio - Auditorio Adela Reta",
-          "location": "Auditorio Nacional Adela Reta",
-          "geo": {
-            "lat": -34.904353,
-            "lng": -56.198553
-          },
-          "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-ossodre-romantico-auditorio-adela-reta-locations",
-      "merchantNames": [
-        "OSSODRE – Romántico"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "OSSODRE – Romántico - Auditorio Adela Reta",
-          "location": "Auditorio Nacional Adela Reta",
-          "geo": {
-            "lat": -34.904353,
-            "lng": -56.198553
-          },
-          "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-rodri-lussich-acelerado-movie-montevideo-locations",
-      "merchantNames": [
-        "Rodri Lussich – Acelerado"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "Rodri Lussich – Acelerado - Movie Montevideo",
-          "location": "Movie, 5775, Avenida Italia, Punta Gorda, Montevideo, 11403",
-          "geo": {
-            "lat": -34.881352,
-            "lng": -56.081088
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.881352,-56.081088"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-trotsky-vengaran-y-mariano-martinez-teatro-de-verano-locations",
-      "merchantNames": [
-        "Trotsky Vengarán y Mariano Martínez"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "Trotsky Vengarán y Mariano Martínez - Teatro de Verano",
-          "location": "Teatro de Verano Ramón Collazo",
-          "geo": {
-            "lat": -34.919851,
-            "lng": -56.169725
-          },
-          "mapsUrl": "https://www.google.com/maps/place/Teatro+de+Verano+Ram%C3%B3n+Collazo/@-34.9198507,-56.1697255,17z/data=!3m1!4b1!4m6!3m5!1s0x959f819821d1de0f:0xb2823d7887f5540a!8m2!3d-34.9198507!4d-56.1697255!16s%2Fg%2F122fjxmh"
         }
       ]
     },
@@ -4321,242 +4438,105 @@
       ]
     },
     {
-      "id": "club-el-pais-turf-plaza-de-toros-real-de-san-carlos-locations",
+      "id": "club-el-pais-veroca-joyas-detail-locations",
       "merchantNames": [
-        "TURF"
+        "Veroca Joyas"
       ],
       "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
+        "https://www.clubelpais.com.uy/comercio/veroca-joyas/"
       ],
       "merchants": [
         {
-          "name": "TURF - Plaza de Toros Real de San Carlos",
-          "location": "Plaza de Toros Real de San Carlos, Colonia",
+          "name": "Veroca Joyas - Dirección",
+          "url": "https://www.clubelpais.com.uy/comercio/veroca-joyas/",
+          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
           "geo": {
-            "lat": -34.436517,
-            "lng": -57.86514
+            "lat": -34.900661,
+            "lng": -56.175214
           },
-          "mapsUrl": "https://www.google.com/maps/place/Plaza+de+Toros+Real+de+San+Carlos/@-34.4365172,-57.8651404,17z/data=!3m1!4b1!4m6!3m5!1s0x95a312d0b33bb5ff:0x70ccaa876da3e19b!8m2!3d-34.4365172!4d-57.8651404!16s%2Fm%2F04gnk34"
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
         }
       ]
     },
     {
-      "id": "club-el-pais-raly-barrionuevo-sala-zitarrosa-locations",
+      "id": "club-el-pais-view-point-locations",
       "merchantNames": [
-        "Raly Barrionuevo"
+        "View Point"
+      ],
+      "sourceUrls": [
+        "https://nominatim.openstreetmap.org/"
       ],
       "merchants": [
         {
-          "name": "Raly Barrionuevo - Sala Zitarrosa",
-          "location": "Sala Zitarrosa",
+          "name": "View Point",
+          "location": "View Point, El Remanso (Calle 20), Punta Del Este, Maldonado, 20100",
           "geo": {
-            "lat": -34.906221,
-            "lng": -56.194456
+            "lat": -34.960708,
+            "lng": -54.943943
           },
-          "mapsUrl": "https://www.google.com/maps/place/Sala+Zitarrosa/@-34.9062213,-56.1944559,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802d2e06d853:0x80732a9b51333b20!8m2!3d-34.9062213!4d-56.1944559!16s%2Fg%2F12dpwqjqf"
-        }
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ]
-    },
-    {
-      "id": "club-el-pais-cartografia-sobre-la-identidad-teatro-solis-locations",
-      "merchantNames": [
-        "Cartografía sobre la Identidad"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "Cartografía sobre la Identidad - Teatro Solís",
-          "location": "Teatro Solís",
-          "geo": {
-            "lat": -34.907634,
-            "lng": -56.201123
-          },
-          "mapsUrl": "https://www.google.com/maps/place/Teatro+Sol%C3%ADs/@-34.9076336,-56.2011228,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802adf27edcb:0xe9cdb804f35a1e8a!8m2!3d-34.9076336!4d-56.2011228!16s%2Fm%2F03c5d99"
+          "mapsUrl": "https://www.google.com/maps/dir//-34.960708,-54.943943"
         }
       ]
     },
     {
-      "id": "club-el-pais-la-filarmonica-los-planetas-teatro-solis-locations",
+      "id": "club-el-pais-watashi-locations",
       "merchantNames": [
-        "La Filarmónica – Los Planetas"
+        "Watashi"
       ],
       "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
+        "https://nominatim.openstreetmap.org/"
       ],
       "merchants": [
         {
-          "name": "La Filarmónica – Los Planetas - Teatro Solís",
-          "location": "Teatro Solís",
+          "name": "Watashi",
+          "location": "Watashi, Los Muergos (Calle 27), Punta Del Este, Maldonado, 20100",
           "geo": {
-            "lat": -34.907634,
-            "lng": -56.201123
+            "lat": -34.9619,
+            "lng": -54.942494
           },
-          "mapsUrl": "https://www.google.com/maps/place/Teatro+Sol%C3%ADs/@-34.9076336,-56.2011228,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802adf27edcb:0xe9cdb804f35a1e8a!8m2!3d-34.9076336!4d-56.2011228!16s%2Fm%2F03c5d99"
+          "mapsUrl": "https://www.google.com/maps/dir//-34.961900,-54.942494"
         }
       ]
     },
     {
-      "id": "club-el-pais-lorca-el-tren-del-olvido-30-aniversario-sala-campodonico-teatro-el-galpon-locations",
+      "id": "club-el-pais-watchme-detail-locations",
       "merchantNames": [
-        "Lorca – «El Tren del Olvido» 30° aniversario (Sala Campodónico)"
+        "Watchme"
       ],
       "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
+        "https://www.clubelpais.com.uy/comercio/watchme/"
       ],
       "merchants": [
         {
-          "name": "Lorca – «El Tren del Olvido» 30° aniversario (Sala Campodónico) - Teatro El Galpón",
-          "location": "Teatro El Galpón, Montevideo",
+          "name": "Watchme - Dirección",
+          "url": "https://www.clubelpais.com.uy/comercio/watchme/",
+          "location": "Dirección de Obras Intendencia Maldonado, Avenida Doctor Luis Alberto de Herrera, Maldonado, 20000",
           "geo": {
-            "lat": -34.90403,
-            "lng": -56.181082
+            "lat": -34.882553,
+            "lng": -54.953303
           },
-          "mapsUrl": "https://www.google.com/maps/place/El+Galp%C3%B3n/@-34.9040305,-56.1810816,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81b5617dc4e7:0xc21c578fd5c6424f"
+          "mapsUrl": "https://www.google.com/maps/dir//-34.882553,-54.953303"
         }
       ]
     },
     {
-      "id": "club-el-pais-noelia-pace-teatro-el-galpon-locations",
+      "id": "club-el-pais-zule-detail-locations",
       "merchantNames": [
-        "Noelia Pace"
+        "Zule"
       ],
       "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
+        "https://www.clubelpais.com.uy/comercio/zule/"
       ],
       "merchants": [
         {
-          "name": "Noelia Pace - Teatro El Galpón",
-          "location": "Teatro El Galpón, Montevideo",
+          "name": "Zule - Dirección",
+          "url": "https://www.clubelpais.com.uy/comercio/zule/",
+          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
           "geo": {
-            "lat": -34.90403,
-            "lng": -56.181082
+            "lat": -34.900661,
+            "lng": -56.175214
           },
-          "mapsUrl": "https://www.google.com/maps/place/El+Galp%C3%B3n/@-34.9040305,-56.1810816,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81b5617dc4e7:0xc21c578fd5c6424f"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-nostalgia-i-banda-de-raul-medina-i-punta-del-este-pueblo-narakan-locations",
-      "merchantNames": [
-        "Nostalgia I Banda de Raúl Medina I Punta del Este"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "Nostalgia I Banda de Raúl Medina I Punta del Este - Pueblo Narakan",
-          "location": "Pueblo Narakan",
-          "geo": {
-            "lat": -34.965829,
-            "lng": -54.950199
-          },
-          "mapsUrl": "https://www.google.com/maps/place/Pueblo+Narakan/@-34.965829,-54.9501988,17z/data=!3m1!4b1!4m6!3m5!1s0x957505fe4891555b:0xa971232087fe3361!8m2!3d-34.965829!4d-54.9501988!16s%2Fg%2F11t6kxxp4l"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-pablo-picotto-i-25-anos-de-humor-quien-te-conoce-teatro-solis-locations",
-      "merchantNames": [
-        "Pablo Picotto I 25 años de humor ¿Quién te conoce?"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "Pablo Picotto I 25 años de humor ¿Quién te conoce? - Teatro Solís",
-          "location": "Teatro Solís",
-          "geo": {
-            "lat": -34.907634,
-            "lng": -56.201123
-          },
-          "mapsUrl": "https://www.google.com/maps/place/Teatro+Sol%C3%ADs/@-34.9076336,-56.2011228,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802adf27edcb:0xe9cdb804f35a1e8a!8m2!3d-34.9076336!4d-56.2011228!16s%2Fm%2F03c5d99"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-el-sapo-ruperto-una-pequena-aventura-musical-auditorio-nelly-goitino-locations",
-      "merchantNames": [
-        "El Sapo Ruperto: Una pequeña aventura musical"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "El Sapo Ruperto: Una pequeña aventura musical - Auditorio Nelly Goitiño",
-          "location": "Auditorio del Sodre Nelly Goitiño, Montevideo",
-          "geo": {
-            "lat": -34.906365,
-            "lng": -56.196316
-          },
-          "mapsUrl": "https://www.google.com/maps/place/Auditorio+del+Sodre+Nelly+Goiti%C3%B1o/@-34.9063649,-56.1963156,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802cc182a38b:0x93bac231276c00d9!8m2!3d-34.9063649!4d-56.1963156!16s%2Fg%2F113qbbcsh"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-quien-mato-al-patriarca-teatro-stella-d-italia-locations",
-      "merchantNames": [
-        "¿Quién mató al patriarca?"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "¿Quién mató al patriarca? - Teatro Stella D'Italia",
-          "geo": {
-            "lat": -34.900541,
-            "lng": -56.178195
-          },
-          "mapsUrl": "https://www.google.com/maps/place/Teatro+Stella+D'Italia.+La+Gaviota./@-34.9005409,-56.1781953,17z/data=!3m1!4b1!4m6!3m5!1s0x959f804b205423f5:0xe67f45177efa9d83!8m2!3d-34.9005409!4d-56.1781953!16s%2Fg%2F1tc_0pmw",
-          "location": "Teatro Stella D'Italia. La Gaviota., Montevideo"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-20a-noche-de-los-estrenos-tango-murga-y-rocanrol-sala-zitarrosa-locations",
-      "merchantNames": [
-        "20a Noche de los Estrenos: Tango, Murga y Rocanrol"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "20a Noche de los Estrenos: Tango, Murga y Rocanrol - Sala Zitarrosa",
-          "geo": {
-            "lat": -34.906255,
-            "lng": -56.19446
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.906255,-56.194460",
-          "location": "Sala Zitarrosa, 1012, Avenida 18 de Julio, Centro, Montevideo, 11200"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-la-cena-de-los-tontos-teatro-el-galpon-locations",
-      "merchantNames": [
-        "La cena de los tontos"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "La cena de los tontos - Teatro El Galpón",
-          "geo": {
-            "lat": -34.904211,
-            "lng": -56.181104
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.904211,-56.181104",
-          "location": "El Galpón, Avenida 18 de Julio, Cordón, Montevideo, 11200"
+          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
         }
       ]
     }
