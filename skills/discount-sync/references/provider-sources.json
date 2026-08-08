@@ -9,7 +9,7 @@
     ],
     "mode": "browser",
     "blueprintPath": "skills/discount-sync/references/provider-blueprints/itau.md",
-    "notes": "Always open Itaú benefit cards via Ver más/detail view and confirm tier/day splits before changing percentages. 2026-08-05: Starbucks still missing from union — disappearedFromInScope; runtime Starbucks LKG. In-scope panels opened (Movie/Freddo/Delicias/Nevada/Bosch/CIR/Riviera/El Túnel/San Roque/Mosca). Pending not auto-promoted (Divino/Le Blanc/Soho Aug window; Cantegrill; Mosca 25/15; new Bridgestone/Reyes Magos/Dra Margarita Ramírez).",
+    "notes": "2026-08-08: Starbucks still missing from union — disappearedFromInScope; runtime Starbucks LKG. In-scope panels opened (Movie/Freddo/Delicias/Nevada/Bosch/CIR/Riviera/El Túnel/San Roque/Mosca). San Roque new window through 2026-08-31 written. Pending unchanged (not auto-promoted). Riviera/El Túnel past July ends still omit validUntil.",
     "inScope": [
       {
         "title": "15% menos en restaurantes",
@@ -37,7 +37,7 @@
       },
       {
         "title": "25% y 15% menos en San Roque",
-        "note": "Same shape as Farmacia El Túnel (premium/general + day). Live detail currently prints an expired 31/03/2026 window; source visibility overrides that stale date, so omit past validUntil while the card remains visible."
+        "note": "Same shape as Farmacia El Túnel (premium/general + day). Panel 2026-08-08: vigencia del 01/08/2026 al 31/08/2026 → validUntil 2026-08-31."
       },
       {
         "title": "15% menos en CIR Acondicionamiento térmico"
