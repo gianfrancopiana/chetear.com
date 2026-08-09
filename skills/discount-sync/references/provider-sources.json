@@ -9,7 +9,7 @@
     ],
     "mode": "browser",
     "blueprintPath": "skills/discount-sync/references/provider-blueprints/itau.md",
-    "notes": "2026-08-08: Starbucks still missing from union — disappearedFromInScope; runtime Starbucks LKG. In-scope panels opened (Movie/Freddo/Delicias/Nevada/Bosch/CIR/Riviera/El Túnel/San Roque/Mosca). San Roque new window through 2026-08-31 written. Pending unchanged (not auto-promoted). Riviera/El Túnel past July ends still omit validUntil.",
+    "notes": "2026-08-09: Starbucks still missing from union — disappearedFromInScope; runtime Starbucks LKG. Confirmed panels: Movie→2026-08-31; Bosch→2026-08-16; Riviera past 31/07 omit validUntil. Other opens sticky/failed → LKG. Pending dropped gone from union: 25% y 15% menos en Los Reyes Magos, 25% menos en Dra. Margarita Ramírez.",
     "inScope": [
       {
         "title": "15% menos en restaurantes",
@@ -124,10 +124,6 @@
           "note": "New 2026-08-02 union title; needs detail classification"
         },
         {
-          "title": "25% y 15% menos en Los Reyes Magos",
-          "note": "New 2026-08-05 union title; needs detail classification"
-        },
-        {
           "title": "15% menos en Wikimusculos",
           "note": "Needs detail classification"
         },
@@ -138,10 +134,6 @@
         {
           "title": "15% menos en Loop",
           "note": "Needs detail classification"
-        },
-        {
-          "title": "25% menos en Dra. Margarita Ramírez",
-          "note": "New 2026-08-05 union title; needs detail classification"
         },
         {
           "title": "25% menos todos los días",

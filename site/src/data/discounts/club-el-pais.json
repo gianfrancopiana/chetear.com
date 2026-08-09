@@ -156,8 +156,8 @@
         "lat": -34.904353,
         "lng": -56.198553
       },
-      "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z",
-      "location": "Auditorio Nacional Adela Reta"
+      "location": "Auditorio Nacional Adela Reta",
+      "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
     },
     {
       "merchant": "CNJS – Concierto VI",
@@ -190,8 +190,8 @@
         "lat": -34.904353,
         "lng": -56.198553
       },
-      "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z",
-      "location": "Auditorio Nacional Adela Reta"
+      "location": "Auditorio Nacional Adela Reta",
+      "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
     },
     {
       "merchant": "Dani La Chepi – Sala Campodónico",
@@ -310,8 +310,8 @@
         "lat": -34.904353,
         "lng": -56.198553
       },
-      "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z",
-      "location": "Auditorio Nacional Adela Reta"
+      "location": "Auditorio Nacional Adela Reta",
+      "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
     },
     {
       "merchant": "Florencia Núñez – Gira Década y Media – Sodre",
@@ -394,8 +394,8 @@
         "lat": -34.906365,
         "lng": -56.196316
       },
-      "mapsUrl": "https://www.google.com/maps/place/Auditorio+del+Sodre+Nelly+Goiti%C3%B1o/@-34.9063649,-56.1963156,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802cc182a38b:0x93bac231276c00d9!8m2!3d-34.9063649!4d-56.1963156!16s%2Fg%2F113qbbcsh",
-      "location": "Auditorio del Sodre Nelly Goitiño, Montevideo"
+      "location": "Auditorio del Sodre Nelly Goitiño, Montevideo",
+      "mapsUrl": "https://www.google.com/maps/place/Auditorio+del+Sodre+Nelly+Goiti%C3%B1o/@-34.9063649,-56.1963156,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802cc182a38b:0x93bac231276c00d9!8m2!3d-34.9063649!4d-56.1963156!16s%2Fg%2F113qbbcsh"
     },
     {
       "merchant": "La cena de los tontos",
@@ -639,20 +639,6 @@
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1"
-    },
-    {
-      "merchant": "OSSODRE – Bohemia",
-      "category": "entretenimiento",
-      "percent": 50,
-      "benefitType": "2-for-1",
-      "notes": "08 de agosto - 20:00 hs. Lugar: Auditorio Adela Reta",
-      "validUntil": "2026-08-08",
-      "geo": {
-        "lat": -34.904353,
-        "lng": -56.198553
-      },
-      "location": "Auditorio Nacional Adela Reta",
-      "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
     },
     {
       "merchant": "OSSODRE – Homenaje",
@@ -1223,12 +1209,6 @@
         "martes",
         "miercoles"
       ]
-    },
-    {
-      "merchant": "Ballon",
-      "category": "indumentaria",
-      "percent": 30,
-      "validUntil": "2026-08-08"
     },
     {
       "merchant": "Estela Jinchuk",

@@ -434,27 +434,6 @@
       ]
     },
     {
-      "id": "club-el-pais-ballon-detail-locations",
-      "merchantNames": [
-        "Ballon"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/comercio/ballon/"
-      ],
-      "merchants": [
-        {
-          "name": "Ballon - Dirección",
-          "url": "https://www.clubelpais.com.uy/comercio/ballon/",
-          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900661,
-            "lng": -56.175214
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
       "id": "club-el-pais-barraca-malvin-locations",
       "merchantNames": [
         "Barraca Malvín"
@@ -3330,26 +3309,6 @@
             "lng": -56.175214
           },
           "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-ossodre-bohemia-auditorio-adela-reta-locations",
-      "merchantNames": [
-        "OSSODRE – Bohemia"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "OSSODRE – Bohemia - Auditorio Adela Reta",
-          "location": "Auditorio Nacional Adela Reta",
-          "geo": {
-            "lat": -34.904353,
-            "lng": -56.198553
-          },
-          "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
         }
       ]
     },
