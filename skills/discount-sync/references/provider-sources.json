@@ -9,7 +9,7 @@
     ],
     "mode": "browser",
     "blueprintPath": "skills/discount-sync/references/provider-blueprints/itau.md",
-    "notes": "2026-08-09: Starbucks still missing from union — disappearedFromInScope; runtime Starbucks LKG. Confirmed panels: Movie→2026-08-31; Bosch→2026-08-16; Riviera past 31/07 omit validUntil. Other opens sticky/failed → LKG. Pending dropped gone from union: 25% y 15% menos en Los Reyes Magos, 25% menos en Dra. Margarita Ramírez.",
+    "notes": "2026-08-10: Union still missing Starbucks; also missing broad cards 15% restaurantes and 15% moda (umbrella 25% Platinum/Infinite/Black/Personal present) — all three in disappearedFromInScope; runtime LKG. Panel vigencia matches LKG: Movie/Freddo/CIR→2026-08-31; Bosch→2026-08-16; Riviera/El Túnel past ends omit validUntil. Pending set unchanged. Opens sticky/failed but vigencia lines readable.",
     "inScope": [
       {
         "title": "15% menos en restaurantes",
@@ -157,6 +157,14 @@
         }
       ],
       "disappearedFromInScope": [
+        {
+          "title": "15% menos en restaurantes",
+          "note": "Not visible on #/todas-las-tarjetas union 2026-08-10 (umbrella premium card present); kept runtime LKG pending human drop/reclassify"
+        },
+        {
+          "title": "15% menos en moda",
+          "note": "Not visible on #/todas-las-tarjetas union 2026-08-10; kept runtime LKG pending human drop/reclassify"
+        },
         {
           "title": "15% menos en Starbucks en bebidas",
           "note": "Not visible on #/todas-las-tarjetas union; kept runtime LKG pending human drop from inScope"
