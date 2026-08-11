@@ -4498,6 +4498,26 @@
           "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
         }
       ]
+    },
+    {
+      "id": "club-el-pais-conferencia-rafa-guerrero-autoestima-vs-pantallas-y-tdah-dazzler-by-wyndham-montevideo-locations",
+      "merchantNames": [
+        "Conferencia Rafa Guerrero: Autoestima (vs pantallas) y TDAH"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "Conferencia Rafa Guerrero: Autoestima (vs pantallas) y TDAH - Dazzler by Wyndham Montevideo",
+          "geo": {
+            "lat": -34.917821,
+            "lng": -56.157347
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Dazzler+by+Wyndham+Montevideo/@-34.9178211,-56.1573473,17z/data=!3m1!4b1!4m6!3m5!1s0x959f8175bd8c79a9:0x4a88ddc6cccecc22!8m2!3d-34.9178211!4d-56.1573473",
+          "location": "Dazzler by Wyndham Montevideo"
+        }
+      ]
     }
   ]
 }

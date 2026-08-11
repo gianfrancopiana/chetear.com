@@ -9,7 +9,7 @@
     ],
     "mode": "browser",
     "blueprintPath": "skills/discount-sync/references/provider-blueprints/itau.md",
-    "notes": "2026-08-10: Union still missing Starbucks; also missing broad cards 15% restaurantes and 15% moda (umbrella 25% Platinum/Infinite/Black/Personal present) — all three in disappearedFromInScope; runtime LKG. Panel vigencia matches LKG: Movie/Freddo/CIR→2026-08-31; Bosch→2026-08-16; Riviera/El Túnel past ends omit validUntil. Pending set unchanged. Opens sticky/failed but vigencia lines readable.",
+    "notes": "2026-08-11: Union again shows broad 15% restaurantes + 15% moda (cleared from disappeared). Starbucks still missing from union — disappearedFromInScope + runtime LKG. Panel vigencia matches LKG for Movie/Freddo/CIR→2026-08-31; Bosch→2026-08-16; Riviera/El Túnel past ends omit validUntil. San Roque panel now shows past end 31/03/2026 while card live → omit validUntil (source-visibility). New pending: 25% menos en Masinfinito. Other pending set stable.",
     "inScope": [
       {
         "title": "15% menos en restaurantes",
@@ -101,7 +101,7 @@
         },
         {
           "title": "15% y 10% menos en Divino",
-          "note": "New 2026-08-02 union title; needs detail classification"
+          "note": "Short-window / needs detail classification — do not auto-promote"
         },
         {
           "title": "25% y 15% menos en Mosca",
@@ -113,15 +113,15 @@
         },
         {
           "title": "20% menos y 6 cuotas en Bridgestone",
-          "note": "New 2026-08-05 union title; cuotas hybrid — classify before runtime"
+          "note": "Cuotas hybrid — classify before runtime"
         },
         {
           "title": "25% y 15% menos en Le Blanc",
-          "note": "New 2026-08-02 union title; needs detail classification"
+          "note": "Needs detail classification — do not auto-promote"
         },
         {
           "title": "25% y 15% menos en Soho",
-          "note": "New 2026-08-02 union title; needs detail classification"
+          "note": "Needs detail classification — do not auto-promote"
         },
         {
           "title": "15% menos en Wikimusculos",
@@ -134,6 +134,10 @@
         {
           "title": "15% menos en Loop",
           "note": "Needs detail classification"
+        },
+        {
+          "title": "25% menos en Masinfinito",
+          "note": "New 2026-08-11 union title; needs detail classification"
         },
         {
           "title": "25% menos todos los días",
@@ -153,21 +157,13 @@
         },
         {
           "title": "25% menos en Taxis Aeropuerto de Carrasco",
-          "note": "Personal Bank Jun-Aug 2026"
+          "note": "Personal Bank seasonal — classify before runtime"
         }
       ],
       "disappearedFromInScope": [
         {
-          "title": "15% menos en restaurantes",
-          "note": "Not visible on #/todas-las-tarjetas union 2026-08-10 (umbrella premium card present); kept runtime LKG pending human drop/reclassify"
-        },
-        {
-          "title": "15% menos en moda",
-          "note": "Not visible on #/todas-las-tarjetas union 2026-08-10; kept runtime LKG pending human drop/reclassify"
-        },
-        {
           "title": "15% menos en Starbucks en bebidas",
-          "note": "Not visible on #/todas-las-tarjetas union; kept runtime LKG pending human drop from inScope"
+          "note": "Still not visible on #/todas-las-tarjetas union 2026-08-11; kept runtime LKG pending human drop from inScope"
         }
       ],
       "staleOutOfScope": [

@@ -108,8 +108,7 @@
       ],
       "cardFamilies": [
         "Personal Bank"
-      ],
-      "validUntil": "2026-08-31"
+      ]
     },
     {
       "id": "itau-san-roque-general-15",
@@ -130,8 +129,7 @@
       "networks": [
         "visa",
         "mastercard"
-      ],
-      "validUntil": "2026-08-31"
+      ]
     },
     {
       "merchant": "CIR Acondicionamiento térmico",
