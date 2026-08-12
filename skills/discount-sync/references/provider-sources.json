@@ -9,7 +9,7 @@
     ],
     "mode": "browser",
     "blueprintPath": "skills/discount-sync/references/provider-blueprints/itau.md",
-    "notes": "2026-08-11: Union again shows broad 15% restaurantes + 15% moda (cleared from disappeared). Starbucks still missing from union — disappearedFromInScope + runtime LKG. Panel vigencia matches LKG for Movie/Freddo/CIR→2026-08-31; Bosch→2026-08-16; Riviera/El Túnel past ends omit validUntil. San Roque panel now shows past end 31/03/2026 while card live → omit validUntil (source-visibility). New pending: 25% menos en Masinfinito. Other pending set stable.",
+    "notes": "2026-08-12: Union recon unchanged (Starbucks still disappearedFromInScope + runtime LKG). Panel opens OK for Movie/Freddo/Delicias/Nevada/CIR/Bosch/San Roque/Riviera/El Túnel/Mosca 10%. Vigencia: Movie/ice-cream/CIR → 2026-08-31; Bosch messy 16/08/26/2026 → 2026-08-16; San Roque/Riviera/El Túnel panels now end 31/08/2026 → set validUntil 2026-08-31 (was omitted while past July ends). Pending set unchanged; no auto-promote.",
     "inScope": [
       {
         "title": "15% menos en restaurantes",
@@ -29,15 +29,15 @@
       },
       {
         "title": "15% menos en Riviera Joyería",
-        "note": "Credit jewelry. Detail vigencia ended 31/07/2026 but card still live 2026-08-01 → omit past validUntil."
+        "note": "Credit jewelry. Panel 2026-08-12: vigencia through 31/08/2026 → validUntil 2026-08-31."
       },
       {
         "title": "25% y 15% menos en Farmacia El Túnel",
-        "note": "Premium vs general split with day logic. Detail vigencia ended 31/07/2026 but card still live 2026-08-01 → omit past validUntil."
+        "note": "Premium vs general split with day logic. Panel 2026-08-12: vigencia through 31/08/2026 → validUntil 2026-08-31."
       },
       {
         "title": "25% y 15% menos en San Roque",
-        "note": "Same shape as Farmacia El Túnel (premium/general + day). Panel 2026-08-08: vigencia del 01/08/2026 al 31/08/2026 → validUntil 2026-08-31."
+        "note": "Same shape as Farmacia El Túnel (premium/general + day). Panel 2026-08-12: vigencia through 31/08/2026 → validUntil 2026-08-31."
       },
       {
         "title": "15% menos en CIR Acondicionamiento térmico"

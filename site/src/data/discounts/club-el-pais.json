@@ -184,8 +184,8 @@
         "lat": -34.917821,
         "lng": -56.157347
       },
-      "mapsUrl": "https://www.google.com/maps/place/Dazzler+by+Wyndham+Montevideo/@-34.9178211,-56.1573473,17z/data=!3m1!4b1!4m6!3m5!1s0x959f8175bd8c79a9:0x4a88ddc6cccecc22!8m2!3d-34.9178211!4d-56.1573473",
-      "location": "Dazzler by Wyndham Montevideo"
+      "location": "Dazzler by Wyndham Montevideo",
+      "mapsUrl": "https://www.google.com/maps/place/Dazzler+by+Wyndham+Montevideo/@-34.9178211,-56.1573473,17z/data=!3m1!4b1!4m6!3m5!1s0x959f8175bd8c79a9:0x4a88ddc6cccecc22!8m2!3d-34.9178211!4d-56.1573473"
     },
     {
       "merchant": "Conjunto Nacional de Música de Cámara",
@@ -1286,6 +1286,16 @@
     },
     {
       "merchant": "Baby City",
+      "category": "indumentaria",
+      "percent": 20,
+      "days": [
+        "lunes",
+        "martes",
+        "miercoles"
+      ]
+    },
+    {
+      "merchant": "Ballon",
       "category": "indumentaria",
       "percent": 20,
       "days": [

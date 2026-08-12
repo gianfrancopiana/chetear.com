@@ -154,7 +154,13 @@
       ],
       "refundType": "point-of-sale",
       "stackable": false,
-      "notes": "El beneficio aplica únicamente para la compra de libros. Promoción no válida para textos de estudio. Quedan excluidas aquellas correspondientes al paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera, BIN 48 31 14 y BIN 43 03 07 20)"
+      "notes": "El beneficio aplica únicamente para la compra de libros. Promoción no válida para textos de estudio. Quedan excluidas aquellas correspondientes al paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera, BIN 48 31 14 y BIN 43 03 07 20)",
+      "geo": {
+        "lat": -34.905596,
+        "lng": -56.180308
+      },
+      "mapsUrl": "https://www.google.com/maps/place/Bookshop/@-34.9055958,-56.1803081,17z/data=!4m6!3m5!1s0x959f81b5924c8ac5:0xb4e44724c56cbcc!8m2!3d-34.9055958!4d-56.1803081!16s%2Fg%2F12609j43j",
+      "location": "Montevideo"
     },
     {
       "merchant": "Imprenta La Canasta",
@@ -165,7 +171,12 @@
       ],
       "refundType": "point-of-sale",
       "stackable": false,
-      "notes": "Quedan excluidas aquellas correspondientes al paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera, BIN 48 31 14)"
+      "notes": "Quedan excluidas aquellas correspondientes al paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera, BIN 48 31 14)",
+      "geo": {
+        "lat": -34.339327,
+        "lng": -56.709387
+      },
+      "mapsUrl": "https://www.google.com/maps/place/Imprenta+la+Canasta/@-34.3393271,-56.7093872,17z/data=!3m1!4b1!4m6!3m5!1s0x95a17717d8801497:0x368b53c5ca386f91!8m2!3d-34.3393271!4d-56.7093872!16s%2Fg%2F11c6cc8pd0"
     },
     {
       "merchant": "Librería Difusión",
@@ -578,7 +589,13 @@
       ],
       "refundType": "point-of-sale",
       "stackable": false,
-      "notes": "Aplica únicamente en local de Infantozzi ubicado en Avenida Uruguay 1653 (Montevideo). El descuento aplica únicamente para compras a consumidor final. No aplica sobre compras de Colegios y otras instituciones. Quedan excluidas aquellas correspondientes al paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera, BIN 48 31 14 y BIN 43 03 07 20)"
+      "notes": "Aplica únicamente en local de Infantozzi ubicado en Avenida Uruguay 1653 (Montevideo). El descuento aplica únicamente para compras a consumidor final. No aplica sobre compras de Colegios y otras instituciones. Quedan excluidas aquellas correspondientes al paquete Cuenta Nómina Básica (art. 10 de Ley 19.210 de Inclusión Financiera, BIN 48 31 14 y BIN 43 03 07 20)",
+      "geo": {
+        "lat": -34.901039,
+        "lng": -56.181894
+      },
+      "mapsUrl": "https://www.google.com/maps/place/Infantozzi/@-34.9010387,-56.1818942,17z/data=!3m1!4b1!4m6!3m5!1s0x959f803565cf2ab5:0xf189da62a1a59582!8m2!3d-34.9010387!4d-56.1818942!16s%2Fg%2F11b77q31vx",
+      "location": "Av. Uruguay 1653, Montevideo"
     },
     {
       "merchant": "Jugetería Avellana",
