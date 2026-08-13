@@ -398,6 +398,20 @@
       "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
     },
     {
+      "merchant": "Karina en concierto",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "4 de diciembre – 21 horas. Lugar: Antel Arena",
+      "validUntil": "2026-12-04",
+      "geo": {
+        "lat": -34.862975,
+        "lng": -56.153698
+      },
+      "location": "Antel Arena",
+      "mapsUrl": "https://www.google.com/maps/place/Antel+Arena/@-34.8629745,-56.1536983,17z/data=!3m1!4b1!4m6!3m5!1s0x959f80859196b1db:0xfa0cae26c29546da!8m2!3d-34.8629745!4d-56.1536983!16s%2Fg%2F11gt__kjqx"
+    },
+    {
       "merchant": "La Banda Flotante",
       "category": "entretenimiento",
       "percent": 50,
@@ -466,6 +480,20 @@
       },
       "location": "Movie, 5775, Avenida Italia, Punta Gorda, Montevideo, 11403",
       "mapsUrl": "https://www.google.com/maps/dir//-34.881352,-56.081088"
+    },
+    {
+      "merchant": "Las Pastillas del Abuelo – Prado",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "10 de Octubre - 21 hs. Lugar: La Rural del Prado",
+      "validUntil": "2026-10-10",
+      "geo": {
+        "lat": -34.863049,
+        "lng": -56.203285
+      },
+      "location": "Rural del Prado",
+      "mapsUrl": "https://www.google.com/maps/place/Rural+del+Prado/@-34.8630492,-56.2032852,17z/data=!3m1!4b1!4m6!3m5!1s0x95a02aad48e0af2b:0xe14c76e4d71a56a3!8m2!3d-34.8630492!4d-56.2032852!16s%2Fg%2F121m84fv"
     },
     {
       "merchant": "Lorca – «El Tren del Olvido» 30° aniversario (Sala Campodónico)",

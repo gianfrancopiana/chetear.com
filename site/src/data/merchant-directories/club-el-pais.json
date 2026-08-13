@@ -4518,6 +4518,46 @@
           "location": "Dazzler by Wyndham Montevideo"
         }
       ]
+    },
+    {
+      "id": "club-el-pais-karina-en-concierto-antel-arena-locations",
+      "merchantNames": [
+        "Karina en concierto"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "Karina en concierto - Antel Arena",
+          "geo": {
+            "lat": -34.862975,
+            "lng": -56.153698
+          },
+          "location": "Antel Arena",
+          "mapsUrl": "https://www.google.com/maps/place/Antel+Arena/@-34.8629745,-56.1536983,17z/data=!3m1!4b1!4m6!3m5!1s0x959f80859196b1db:0xfa0cae26c29546da!8m2!3d-34.8629745!4d-56.1536983!16s%2Fg%2F11gt__kjqx"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-las-pastillas-del-abuelo-prado-la-rural-del-prado-locations",
+      "merchantNames": [
+        "Las Pastillas del Abuelo – Prado"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "Las Pastillas del Abuelo – Prado - La Rural del Prado",
+          "geo": {
+            "lat": -34.863049,
+            "lng": -56.203285
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Rural+del+Prado/@-34.8630492,-56.2032852,17z/data=!3m1!4b1!4m6!3m5!1s0x95a02aad48e0af2b:0xe14c76e4d71a56a3!8m2!3d-34.8630492!4d-56.2032852!16s%2Fg%2F121m84fv",
+          "location": "Rural del Prado"
+        }
+      ]
     }
   ]
 }
