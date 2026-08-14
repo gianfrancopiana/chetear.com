@@ -9,7 +9,7 @@
     ],
     "mode": "browser",
     "blueprintPath": "skills/discount-sync/references/provider-blueprints/itau.md",
-    "notes": "2026-08-12: Union recon unchanged (Starbucks still disappearedFromInScope + runtime LKG). Panel opens OK for Movie/Freddo/Delicias/Nevada/CIR/Bosch/San Roque/Riviera/El Túnel/Mosca 10%. Vigencia: Movie/ice-cream/CIR → 2026-08-31; Bosch messy 16/08/26/2026 → 2026-08-16; San Roque/Riviera/El Túnel panels now end 31/08/2026 → set validUntil 2026-08-31 (was omitted while past July ends). Pending set unchanged; no auto-promote.",
+    "notes": "2026-08-14: Union + inst_camp.xml still missing Starbucks; Bosch y Cia and 10% Mosca also gone from both (XML only has pending 25/15 Mosca). Keep all three runtime LKG until human drop. Panels opened Movie/Freddo/Delicias/Nevada/CIR/San Roque/Riviera/El Túnel — vigencia still 2026-08-31. Pending set unchanged; no auto-promote.",
     "inScope": [
       {
         "title": "15% menos en restaurantes",
@@ -163,7 +163,15 @@
       "disappearedFromInScope": [
         {
           "title": "15% menos en Starbucks en bebidas",
-          "note": "Still not visible on #/todas-las-tarjetas union 2026-08-11; kept runtime LKG pending human drop from inScope"
+          "note": "Still missing from #/todas-las-tarjetas and inst_camp.xml 2026-08-14; kept runtime LKG pending human drop from inScope"
+        },
+        {
+          "title": "15% menos en Bosch y Cia",
+          "note": "Gone from union and inst_camp.xml 2026-08-14; runtime LKG through 2026-08-16 pending human drop"
+        },
+        {
+          "title": "10% menos en Mosca",
+          "note": "Gone from union and inst_camp.xml 2026-08-14; XML/union only show pending 25%/15% Mosca. Keep 10% runtime LKG pending human drop"
         }
       ],
       "staleOutOfScope": [

@@ -739,20 +739,6 @@
       "mapsUrl": "https://www.google.com/maps/place/Teatro+Sol%C3%ADs/@-34.9076336,-56.2011228,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802adf27edcb:0xe9cdb804f35a1e8a!8m2!3d-34.9076336!4d-56.2011228!16s%2Fm%2F03c5d99"
     },
     {
-      "merchant": "Piazzolla & Ferrer – Ecos de Tango",
-      "category": "entretenimiento",
-      "percent": 50,
-      "benefitType": "2-for-1",
-      "notes": "23 de Agosto - 20 hs. Lugar: Sala Camacuá",
-      "validUntil": "2026-08-23",
-      "geo": {
-        "lat": -34.909122,
-        "lng": -56.202256
-      },
-      "location": "Sala Camacuá",
-      "mapsUrl": "https://www.google.com/maps/place/Sala+Camacu%C3%A1/@-34.9091219,-56.2022557,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81d52fef30bb:0xdc43d5c1616ccb78!8m2!3d-34.9091219!4d-56.2022557!16s%2Fg%2F11c0qgj373"
-    },
-    {
       "merchant": "Raly Barrionuevo",
       "category": "entretenimiento",
       "percent": 50,
@@ -854,20 +840,6 @@
       },
       "location": "Teatro de Verano Ramón Collazo",
       "mapsUrl": "https://www.google.com/maps/place/Teatro+de+Verano+Ram%C3%B3n+Collazo/@-34.9198507,-56.1697255,17z/data=!3m1!4b1!4m6!3m5!1s0x959f819821d1de0f:0xb2823d7887f5540a!8m2!3d-34.9198507!4d-56.1697255!16s%2Fg%2F122fjxmh"
-    },
-    {
-      "merchant": "Valeria Lynch en el Sodre",
-      "category": "entretenimiento",
-      "percent": 50,
-      "benefitType": "2-for-1",
-      "notes": "01 de noviembre - 20:00 hs. Lugar: Auditorio Adela Reta",
-      "validUntil": "2026-11-01",
-      "geo": {
-        "lat": -34.904353,
-        "lng": -56.198553
-      },
-      "location": "Auditorio Nacional Adela Reta",
-      "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
     },
     {
       "merchant": "Van Gogh – El Sueño Inmersivo",

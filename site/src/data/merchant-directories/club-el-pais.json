@@ -3583,26 +3583,6 @@
       ]
     },
     {
-      "id": "club-el-pais-piazzolla-ferrer-ecos-de-tango-sala-camacua-locations",
-      "merchantNames": [
-        "Piazzolla & Ferrer – Ecos de Tango"
-      ],
-      "sourceUrls": [
-        "https://nominatim.openstreetmap.org/"
-      ],
-      "merchants": [
-        {
-          "name": "Piazzolla & Ferrer – Ecos de Tango - Sala Camacuá",
-          "location": "Sala Camacuá",
-          "geo": {
-            "lat": -34.909122,
-            "lng": -56.202256
-          },
-          "mapsUrl": "https://www.google.com/maps/place/Sala+Camacu%C3%A1/@-34.9091219,-56.2022557,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81d52fef30bb:0xdc43d5c1616ccb78!8m2!3d-34.9091219!4d-56.2022557!16s%2Fg%2F11c0qgj373"
-        }
-      ]
-    },
-    {
       "id": "club-el-pais-polanco-locations",
       "merchantNames": [
         "Polanco"
@@ -4353,26 +4333,6 @@
             "lng": -56.175214
           },
           "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-valeria-lynch-en-el-sodre-auditorio-adela-reta-locations",
-      "merchantNames": [
-        "Valeria Lynch en el Sodre"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "Valeria Lynch en el Sodre - Auditorio Adela Reta",
-          "location": "Auditorio Nacional Adela Reta",
-          "geo": {
-            "lat": -34.904353,
-            "lng": -56.198553
-          },
-          "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
         }
       ]
     },
