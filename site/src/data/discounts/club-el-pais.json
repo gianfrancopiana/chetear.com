@@ -412,20 +412,6 @@
       "mapsUrl": "https://www.google.com/maps/place/Antel+Arena/@-34.8629745,-56.1536983,17z/data=!3m1!4b1!4m6!3m5!1s0x959f80859196b1db:0xfa0cae26c29546da!8m2!3d-34.8629745!4d-56.1536983!16s%2Fg%2F11gt__kjqx"
     },
     {
-      "merchant": "La Banda Flotante",
-      "category": "entretenimiento",
-      "percent": 50,
-      "benefitType": "2-for-1",
-      "notes": "14 de agosto - 21:00 hs. Lugar: Auditorio Nelly Goitiño",
-      "validUntil": "2026-08-14",
-      "geo": {
-        "lat": -34.906365,
-        "lng": -56.196316
-      },
-      "location": "Auditorio del Sodre Nelly Goitiño, Montevideo",
-      "mapsUrl": "https://www.google.com/maps/place/Auditorio+del+Sodre+Nelly+Goiti%C3%B1o/@-34.9063649,-56.1963156,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802cc182a38b:0x93bac231276c00d9!8m2!3d-34.9063649!4d-56.1963156!16s%2Fg%2F113qbbcsh"
-    },
-    {
       "merchant": "La cena de los tontos",
       "category": "entretenimiento",
       "percent": 50,
@@ -564,6 +550,20 @@
       },
       "location": "Teatro Solís",
       "mapsUrl": "https://www.google.com/maps/place/Teatro+Sol%C3%ADs/@-34.9076336,-56.2011228,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802adf27edcb:0xe9cdb804f35a1e8a!8m2!3d-34.9076336!4d-56.2011228!16s%2Fm%2F03c5d99"
+    },
+    {
+      "merchant": "Malena Muyala y Ana Prada: Las mismas",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "03 de Octubre - 21 hs. Lugar: La Trastienda",
+      "validUntil": "2026-10-03",
+      "geo": {
+        "lat": -34.898385,
+        "lng": -56.178412
+      },
+      "mapsUrl": "https://www.google.com/maps/place/La+Trastienda/@-34.8983845,-56.1784118,17z/data=!3m1!4b1!4m6!3m5!1s0x959f804a4cb5c913:0xb5518b32a0807745!8m2!3d-34.8983845!4d-56.1784118!16s%2Fg%2F11xc0qdc_",
+      "location": "Daniel Fernández Crespo 1763, Montevideo"
     },
     {
       "merchant": "Montoya Woman 6k",
