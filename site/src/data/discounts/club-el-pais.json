@@ -412,20 +412,6 @@
       "mapsUrl": "https://www.google.com/maps/place/Antel+Arena/@-34.8629745,-56.1536983,17z/data=!3m1!4b1!4m6!3m5!1s0x959f80859196b1db:0xfa0cae26c29546da!8m2!3d-34.8629745!4d-56.1536983!16s%2Fg%2F11gt__kjqx"
     },
     {
-      "merchant": "La cena de los tontos",
-      "category": "entretenimiento",
-      "percent": 50,
-      "benefitType": "2-for-1",
-      "notes": "13 y 14 de agosto - 20 hs. NUEVA FUNCIÓN: 15 de agosto - 22:30hs. Lugar: Teatro El Galpón",
-      "validUntil": "2026-08-15",
-      "geo": {
-        "lat": -34.90403,
-        "lng": -56.181082
-      },
-      "location": "Teatro El Galpón, Montevideo",
-      "mapsUrl": "https://www.google.com/maps/place/El+Galp%C3%B3n/@-34.9040305,-56.1810816,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81b5617dc4e7:0xc21c578fd5c6424f"
-    },
-    {
       "merchant": "La Dolce Vita – La Filarmónica",
       "category": "entretenimiento",
       "percent": 50,
@@ -562,8 +548,8 @@
         "lat": -34.898385,
         "lng": -56.178412
       },
-      "mapsUrl": "https://www.google.com/maps/place/La+Trastienda/@-34.8983845,-56.1784118,17z/data=!3m1!4b1!4m6!3m5!1s0x959f804a4cb5c913:0xb5518b32a0807745!8m2!3d-34.8983845!4d-56.1784118!16s%2Fg%2F11xc0qdc_",
-      "location": "Daniel Fernández Crespo 1763, Montevideo"
+      "location": "Daniel Fernández Crespo 1763, Montevideo",
+      "mapsUrl": "https://www.google.com/maps/place/La+Trastienda/@-34.8983845,-56.1784118,17z/data=!3m1!4b1!4m6!3m5!1s0x959f804a4cb5c913:0xb5518b32a0807745!8m2!3d-34.8983845!4d-56.1784118!16s%2Fg%2F11xc0qdc_"
     },
     {
       "merchant": "Montoya Woman 6k",
@@ -751,20 +737,6 @@
       },
       "location": "Sala Zitarrosa",
       "mapsUrl": "https://www.google.com/maps/place/Sala+Zitarrosa/@-34.9062213,-56.1944559,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802d2e06d853:0x80732a9b51333b20!8m2!3d-34.9062213!4d-56.1944559!16s%2Fg%2F12dpwqjqf"
-    },
-    {
-      "merchant": "Rodri Lussich – Acelerado",
-      "category": "entretenimiento",
-      "percent": 50,
-      "benefitType": "2-for-1",
-      "notes": "15 de agosto - 20 hs. Lugar: Movie Montevideo",
-      "validUntil": "2026-08-15",
-      "geo": {
-        "lat": -34.881352,
-        "lng": -56.081088
-      },
-      "location": "Movie, 5775, Avenida Italia, Punta Gorda, Montevideo, 11403",
-      "mapsUrl": "https://www.google.com/maps/dir//-34.881352,-56.081088"
     },
     {
       "merchant": "Tantoman – Porfiados",

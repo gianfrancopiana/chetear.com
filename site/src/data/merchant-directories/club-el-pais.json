@@ -2226,26 +2226,6 @@
       ]
     },
     {
-      "id": "club-el-pais-la-cena-de-los-tontos-teatro-el-galpon-locations",
-      "merchantNames": [
-        "La cena de los tontos"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "La cena de los tontos - Teatro El Galpón",
-          "geo": {
-            "lat": -34.904211,
-            "lng": -56.181104
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.904211,-56.181104",
-          "location": "El Galpón, Avenida 18 de Julio, Cordón, Montevideo, 11200"
-        }
-      ]
-    },
-    {
       "id": "club-el-pais-la-corniche-detail-locations",
       "merchantNames": [
         "La Corniche"
@@ -3809,26 +3789,6 @@
             "lng": -56.079567
           },
           "mapsUrl": "https://www.google.com/maps/dir//-34.789253,-56.079567"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-rodri-lussich-acelerado-movie-montevideo-locations",
-      "merchantNames": [
-        "Rodri Lussich – Acelerado"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "Rodri Lussich – Acelerado - Movie Montevideo",
-          "location": "Movie, 5775, Avenida Italia, Punta Gorda, Montevideo, 11403",
-          "geo": {
-            "lat": -34.881352,
-            "lng": -56.081088
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.881352,-56.081088"
         }
       ]
     },
