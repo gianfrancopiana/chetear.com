@@ -9,7 +9,7 @@
     ],
     "mode": "browser",
     "blueprintPath": "skills/discount-sync/references/provider-blueprints/itau.md",
-    "notes": "2026-08-14: Union + inst_camp.xml still missing Starbucks; Bosch y Cia and 10% Mosca also gone from both (XML only has pending 25/15 Mosca). Keep all three runtime LKG until human drop. Panels opened Movie/Freddo/Delicias/Nevada/CIR/San Roque/Riviera/El Túnel — vigencia still 2026-08-31. Pending set unchanged; no auto-promote.",
+    "notes": "2026-08-17: Union + inst_camp.xml still missing Starbucks, 15% Bosch y Cia, and 10% Mosca — keep all three runtime LKG until human drop. 25%/15% Mosca left both union and XML; dropped from pendingReview. 25% Bosch y Cia reappeared on the union (still outOfScope; not auto-promoted). Broad restaurantes/moda missed in headless h3 scrape but remain in inst_camp.xml. Panel vigencia Movie/Freddo/CIR/San Roque/Riviera/El Túnel still 2026-08-31. No auto-promote.",
     "inScope": [
       {
         "title": "15% menos en restaurantes",
@@ -104,10 +104,6 @@
           "note": "Short-window / needs detail classification — do not auto-promote"
         },
         {
-          "title": "25% y 15% menos en Mosca",
-          "note": "Toys/books/gaming selected articles; inScope currently only has 10% PB debit card"
-        },
-        {
           "title": "15% menos en Cantegrill Joyas",
           "note": "Credit jewelry discount through 2026-12-31"
         },
@@ -171,7 +167,7 @@
         },
         {
           "title": "10% menos en Mosca",
-          "note": "Gone from union and inst_camp.xml 2026-08-14; XML/union only show pending 25%/15% Mosca. Keep 10% runtime LKG pending human drop"
+          "note": "Gone from union and inst_camp.xml through 2026-08-17; 25%/15% Mosca also left both surfaces. Keep 10% runtime LKG pending human drop"
         }
       ],
       "staleOutOfScope": [
@@ -189,9 +185,6 @@
         },
         {
           "title": "25% y 15% menos en Espacio Aroma"
-        },
-        {
-          "title": "25% menos en Bosch y Cia"
         }
       ]
     }

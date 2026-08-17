@@ -120,20 +120,6 @@
       ]
     },
     {
-      "id": "club-el-pais-al-borde-del-puente-centro-cultural-terminal-goes-locations",
-      "merchantNames": [
-        "Al borde del puente"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "Al borde del puente - Centro Cultural Terminal Goes"
-        }
-      ]
-    },
-    {
       "id": "club-el-pais-alamo-rent-a-car-locations",
       "merchantNames": [
         "Alamo Rent a Car"
