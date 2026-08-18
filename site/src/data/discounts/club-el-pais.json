@@ -62,6 +62,20 @@
       "mapsUrl": "https://www.google.com/maps/place/Sala+Zitarrosa/@-34.9062213,-56.1944559,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802d2e06d853:0x80732a9b51333b20!8m2!3d-34.9062213!4d-56.1944559!16s%2Fg%2F12dpwqjqf"
     },
     {
+      "merchant": "Al borde del puente",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "17 de setiembre al 2 de octubre. Lugar: Teatro ACJ",
+      "validUntil": "2026-10-02",
+      "geo": {
+        "lat": -34.901043,
+        "lng": -56.176327
+      },
+      "mapsUrl": "https://www.google.com/maps/place/Young+Men+Christian+Association/@-34.901043,-56.176327,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81b4ad4d6ecf:0x644e47de5f46a127!8m2!3d-34.901043!4d-56.176327!16s%2Fg%2F1td7phd8",
+      "location": "Colonia 1870, Montevideo"
+    },
+    {
       "merchant": "Ave Fénix – Sala Campodónico",
       "category": "entretenimiento",
       "percent": 50,
@@ -108,6 +122,20 @@
       },
       "location": "Auditorio Nacional Adela Reta",
       "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
+    },
+    {
+      "merchant": "Bruno Roth – «Vengo del Sur»",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "9 de Octubre - 21 hs. Lugar: Magnolio Sala",
+      "validUntil": "2026-10-09",
+      "geo": {
+        "lat": -34.91042,
+        "lng": -56.170582
+      },
+      "mapsUrl": "https://www.google.com/maps/place/Magnolio+Sala/@-34.9104202,-56.1705824,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81fc0cf9823d:0x4af56e1a08f5d5c3!8m2!3d-34.9104202!4d-56.1705824!16s%2Fg%2F11fn6tjp6f",
+      "location": "Doctor Pablo de María 1015, Montevideo"
     },
     {
       "merchant": "Canto del Cisne – La Filarmónica",
@@ -214,6 +242,20 @@
       "mapsUrl": "https://www.google.com/maps/place/El+Galp%C3%B3n/@-34.9040305,-56.1810816,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81b5617dc4e7:0xc21c578fd5c6424f"
     },
     {
+      "merchant": "Daniel Drexler",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "21 de octubre - 21:00 hs. Lugar: Auditorio Adela Reta",
+      "validUntil": "2026-10-21",
+      "geo": {
+        "lat": -34.904353,
+        "lng": -56.198553
+      },
+      "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z",
+      "location": "Auditorio Nacional Adela Reta"
+    },
+    {
       "merchant": "Daniel K – Mentiras Verdaderas",
       "category": "entretenimiento",
       "percent": 50,
@@ -290,6 +332,20 @@
       },
       "location": "El Galpón",
       "mapsUrl": "https://www.google.com/maps/place/El+Galp%C3%B3n/@-34.9040305,-56.1810816,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81b5617dc4e7:0xc21c578fd5c6424f!8m2!3d-34.9040305!4d-56.1810816!16s%2Fg%2F121rjw4h"
+    },
+    {
+      "merchant": "Expo Café Uruguay 2026",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "12 y 13 de setiembre de 10 a 20 hs. Lugar: Centro de Eventos del Parque de Innovación del LATU",
+      "validUntil": "2026-09-13",
+      "geo": {
+        "lat": -34.879003,
+        "lng": -56.080881
+      },
+      "mapsUrl": "https://www.google.com/maps/place/Centro+de+Eventos+del+Parque+de+Innovaci%C3%B3n+del+LATU/@-34.8790025,-56.0808807,17z/data=!3m1!4b1!4m6!3m5!1s0x959f871cf9b86f2f:0xdcc48036c96341a6!8m2!3d-34.8790025!4d-56.0808807!16s%2Fg%2F11fk8hkzvb",
+      "location": "Av. Dra. María Luisa Saldún de Rodríguez 2037, Montevideo"
     },
     {
       "merchant": "Festival Música de la Tierra – 15 años",

@@ -9,7 +9,7 @@
     ],
     "mode": "browser",
     "blueprintPath": "skills/discount-sync/references/provider-blueprints/itau.md",
-    "notes": "2026-08-17: Union + inst_camp.xml still missing Starbucks, 15% Bosch y Cia, and 10% Mosca — keep all three runtime LKG until human drop. 25%/15% Mosca left both union and XML; dropped from pendingReview. 25% Bosch y Cia reappeared on the union (still outOfScope; not auto-promoted). Broad restaurantes/moda missed in headless h3 scrape but remain in inst_camp.xml. Panel vigencia Movie/Freddo/CIR/San Roque/Riviera/El Túnel still 2026-08-31. No auto-promote.",
+    "notes": "2026-08-18: Union + inst_camp.xml still missing Starbucks, 15% Bosch y Cia, and 10% Mosca — keep all three runtime LKG until human drop. 25% Bosch y Cia remains on union/XML (outOfScope). Masinfinito left both surfaces — dropped from pendingReview. Panel vigencia Movie/Freddo/CIR/San Roque/Riviera/El Túnel still 2026-08-31. No auto-promote.",
     "inScope": [
       {
         "title": "15% menos en restaurantes",
@@ -130,10 +130,6 @@
         {
           "title": "15% menos en Loop",
           "note": "Needs detail classification"
-        },
-        {
-          "title": "25% menos en Masinfinito",
-          "note": "New 2026-08-11 union title; needs detail classification"
         },
         {
           "title": "25% menos todos los días",
