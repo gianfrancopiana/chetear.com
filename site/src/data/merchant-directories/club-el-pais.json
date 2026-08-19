@@ -2482,27 +2482,6 @@
       ]
     },
     {
-      "id": "club-el-pais-los-fontanes-detail-locations",
-      "merchantNames": [
-        "Los Fontanes"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/comercio/los-fontanes/"
-      ],
-      "merchants": [
-        {
-          "name": "Los Fontanes - Dirección",
-          "url": "https://www.clubelpais.com.uy/comercio/los-fontanes/",
-          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900661,
-            "lng": -56.175214
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
       "id": "club-el-pais-los-lagos-locations",
       "merchantNames": [
         "Los Lagos"

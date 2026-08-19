@@ -72,8 +72,8 @@
         "lat": -34.901043,
         "lng": -56.176327
       },
-      "mapsUrl": "https://www.google.com/maps/place/Young+Men+Christian+Association/@-34.901043,-56.176327,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81b4ad4d6ecf:0x644e47de5f46a127!8m2!3d-34.901043!4d-56.176327!16s%2Fg%2F1td7phd8",
-      "location": "Colonia 1870, Montevideo"
+      "location": "Colonia 1870, Montevideo",
+      "mapsUrl": "https://www.google.com/maps/place/Young+Men+Christian+Association/@-34.901043,-56.176327,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81b4ad4d6ecf:0x644e47de5f46a127!8m2!3d-34.901043!4d-56.176327!16s%2Fg%2F1td7phd8"
     },
     {
       "merchant": "Ave Fénix – Sala Campodónico",
@@ -134,8 +134,8 @@
         "lat": -34.91042,
         "lng": -56.170582
       },
-      "mapsUrl": "https://www.google.com/maps/place/Magnolio+Sala/@-34.9104202,-56.1705824,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81fc0cf9823d:0x4af56e1a08f5d5c3!8m2!3d-34.9104202!4d-56.1705824!16s%2Fg%2F11fn6tjp6f",
-      "location": "Doctor Pablo de María 1015, Montevideo"
+      "location": "Doctor Pablo de María 1015, Montevideo",
+      "mapsUrl": "https://www.google.com/maps/place/Magnolio+Sala/@-34.9104202,-56.1705824,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81fc0cf9823d:0x4af56e1a08f5d5c3!8m2!3d-34.9104202!4d-56.1705824!16s%2Fg%2F11fn6tjp6f"
     },
     {
       "merchant": "Canto del Cisne – La Filarmónica",
@@ -252,8 +252,8 @@
         "lat": -34.904353,
         "lng": -56.198553
       },
-      "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z",
-      "location": "Auditorio Nacional Adela Reta"
+      "location": "Auditorio Nacional Adela Reta",
+      "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
     },
     {
       "merchant": "Daniel K – Mentiras Verdaderas",
@@ -344,8 +344,8 @@
         "lat": -34.879003,
         "lng": -56.080881
       },
-      "mapsUrl": "https://www.google.com/maps/place/Centro+de+Eventos+del+Parque+de+Innovaci%C3%B3n+del+LATU/@-34.8790025,-56.0808807,17z/data=!3m1!4b1!4m6!3m5!1s0x959f871cf9b86f2f:0xdcc48036c96341a6!8m2!3d-34.8790025!4d-56.0808807!16s%2Fg%2F11fk8hkzvb",
-      "location": "Av. Dra. María Luisa Saldún de Rodríguez 2037, Montevideo"
+      "location": "Av. Dra. María Luisa Saldún de Rodríguez 2037, Montevideo",
+      "mapsUrl": "https://www.google.com/maps/place/Centro+de+Eventos+del+Parque+de+Innovaci%C3%B3n+del+LATU/@-34.8790025,-56.0808807,17z/data=!3m1!4b1!4m6!3m5!1s0x959f871cf9b86f2f:0xdcc48036c96341a6!8m2!3d-34.8790025!4d-56.0808807!16s%2Fg%2F11fk8hkzvb"
     },
     {
       "merchant": "Festival Música de la Tierra – 15 años",
@@ -2006,11 +2006,6 @@
     },
     {
       "merchant": "Las Ánimas Casa de Campo",
-      "category": "restaurante",
-      "percent": 20
-    },
-    {
-      "merchant": "Los Fontanes",
       "category": "restaurante",
       "percent": 20
     },
