@@ -199,27 +199,6 @@
       ]
     },
     {
-      "id": "club-el-pais-altos-de-la-serena-apart-hotel-detail-locations",
-      "merchantNames": [
-        "Altos de la serena Apart Hotel"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/comercio/altos-de-la-serena-apart-hotel/"
-      ],
-      "merchants": [
-        {
-          "name": "Altos de la serena Apart Hotel - Dirección",
-          "url": "https://www.clubelpais.com.uy/comercio/altos-de-la-serena-apart-hotel/",
-          "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.900661,
-            "lng": -56.175214
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
       "id": "club-el-pais-amadeus-locations",
       "merchantNames": [
         "Amadeus"
@@ -2462,26 +2441,6 @@
       ]
     },
     {
-      "id": "club-el-pais-los-abuelos-de-la-nada-teatro-metro-locations",
-      "merchantNames": [
-        "Los Abuelos de la Nada"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "Los Abuelos de la Nada - Teatro Metro",
-          "location": "Teatro Metro",
-          "geo": {
-            "lat": -34.906667,
-            "lng": -56.19
-          },
-          "mapsUrl": "https://www.google.com/maps/place/Teatro+Metro/@-34.9066667,-56.19,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81cd1ea5a273:0xadadb9c7368267a1!8m2!3d-34.9066667!4d-56.19!16s%2Fg%2F11b6s19xq1"
-        }
-      ]
-    },
-    {
       "id": "club-el-pais-los-lagos-locations",
       "merchantNames": [
         "Los Lagos"
@@ -3103,26 +3062,6 @@
             "lng": -54.950199
           },
           "mapsUrl": "https://www.google.com/maps/place/Pueblo+Narakan/@-34.965829,-54.9501988,17z/data=!3m1!4b1!4m6!3m5!1s0x957505fe4891555b:0xa971232087fe3361!8m2!3d-34.965829!4d-54.9501988!16s%2Fg%2F11t6kxxp4l"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-ofm-gala-aniversario-del-teatro-solis-teatro-solis-locations",
-      "merchantNames": [
-        "OFM Gala Aniversario Del Teatro Solís"
-      ],
-      "sourceUrls": [
-        "https://nominatim.openstreetmap.org/"
-      ],
-      "merchants": [
-        {
-          "name": "OFM Gala Aniversario Del Teatro Solís - Teatro Solís",
-          "location": "Teatro Solís, Juncal, Ciudad Vieja, Montevideo, 11000",
-          "geo": {
-            "lat": -34.907879,
-            "lng": -56.201
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.907879,-56.201000"
         }
       ]
     },
@@ -4365,26 +4304,6 @@
       ]
     },
     {
-      "id": "club-el-pais-conferencia-rafa-guerrero-autoestima-vs-pantallas-y-tdah-dazzler-by-wyndham-montevideo-locations",
-      "merchantNames": [
-        "Conferencia Rafa Guerrero: Autoestima (vs pantallas) y TDAH"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "Conferencia Rafa Guerrero: Autoestima (vs pantallas) y TDAH - Dazzler by Wyndham Montevideo",
-          "geo": {
-            "lat": -34.917821,
-            "lng": -56.157347
-          },
-          "mapsUrl": "https://www.google.com/maps/place/Dazzler+by+Wyndham+Montevideo/@-34.9178211,-56.1573473,17z/data=!3m1!4b1!4m6!3m5!1s0x959f8175bd8c79a9:0x4a88ddc6cccecc22!8m2!3d-34.9178211!4d-56.1573473",
-          "location": "Dazzler by Wyndham Montevideo"
-        }
-      ]
-    },
-    {
       "id": "club-el-pais-karina-en-concierto-antel-arena-locations",
       "merchantNames": [
         "Karina en concierto"
@@ -4521,6 +4440,26 @@
           },
           "mapsUrl": "https://www.google.com/maps/place/Centro+de+Eventos+del+Parque+de+Innovaci%C3%B3n+del+LATU/@-34.8790025,-56.0808807,17z/data=!3m1!4b1!4m6!3m5!1s0x959f871cf9b86f2f:0xdcc48036c96341a6!8m2!3d-34.8790025!4d-56.0808807!16s%2Fg%2F11fk8hkzvb",
           "location": "Av. Dra. María Luisa Saldún de Rodríguez 2037, Montevideo"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-un-poco-de-ruido-prado-rural-del-prado-locations",
+      "merchantNames": [
+        "Un Poco de Ruido – Prado"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "Un Poco de Ruido – Prado - Rural del Prado",
+          "geo": {
+            "lat": -34.863049,
+            "lng": -56.203285
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Rural+del+Prado/@-34.8630492,-56.2032852,17z/data=!3m1!4b1!4m6!3m5!1s0x95a02aad48e0af2b:0xe14c76e4d71a56a3!8m2!3d-34.8630492!4d-56.2032852!16s%2Fg%2F121m84fv",
+          "location": "Rural del Prado"
         }
       ]
     }

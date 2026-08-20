@@ -3,6 +3,11 @@
   "label": "Club El País",
   "rules": [
     {
+      "merchant": "Coderhouse",
+      "category": "educacion",
+      "percent": 30
+    },
+    {
       "merchant": "Detrés Escuela de Música",
       "category": "educacion",
       "percent": 25,
@@ -15,11 +20,6 @@
     },
     {
       "merchant": "ADM",
-      "category": "educacion",
-      "percent": 20
-    },
-    {
-      "merchant": "Coderhouse",
       "category": "educacion",
       "percent": 20
     },
@@ -192,20 +192,6 @@
       },
       "location": "Auditorio Nacional Adela Reta",
       "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
-    },
-    {
-      "merchant": "Conferencia Rafa Guerrero: Autoestima (vs pantallas) y TDAH",
-      "category": "entretenimiento",
-      "percent": 50,
-      "benefitType": "2-for-1",
-      "notes": "5 de Octubre - 18:45 hs. Lugar: Dazzler by Wyndham Montevideo",
-      "validUntil": "2026-10-05",
-      "geo": {
-        "lat": -34.917821,
-        "lng": -56.157347
-      },
-      "location": "Dazzler by Wyndham Montevideo",
-      "mapsUrl": "https://www.google.com/maps/place/Dazzler+by+Wyndham+Montevideo/@-34.9178211,-56.1573473,17z/data=!3m1!4b1!4m6!3m5!1s0x959f8175bd8c79a9:0x4a88ddc6cccecc22!8m2!3d-34.9178211!4d-56.1573473"
     },
     {
       "merchant": "Conjunto Nacional de Música de Cámara",
@@ -530,20 +516,6 @@
       "mapsUrl": "https://www.google.com/maps/place/El+Galp%C3%B3n/@-34.9040305,-56.1810816,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81b5617dc4e7:0xc21c578fd5c6424f"
     },
     {
-      "merchant": "Los Abuelos de la Nada",
-      "category": "entretenimiento",
-      "percent": 50,
-      "benefitType": "2-for-1",
-      "notes": "22 de agosto - 21 hs. Lugar: Teatro Metro",
-      "validUntil": "2026-08-22",
-      "geo": {
-        "lat": -34.906667,
-        "lng": -56.19
-      },
-      "location": "Teatro Metro",
-      "mapsUrl": "https://www.google.com/maps/place/Teatro+Metro/@-34.9066667,-56.19,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81cd1ea5a273:0xadadb9c7368267a1!8m2!3d-34.9066667!4d-56.19!16s%2Fg%2F11b6s19xq1"
-    },
-    {
       "merchant": "Los Nocheros 40 años – Montevideo",
       "category": "entretenimiento",
       "percent": 50,
@@ -667,20 +639,6 @@
       },
       "location": "Pueblo Narakan",
       "mapsUrl": "https://www.google.com/maps/place/Pueblo+Narakan/@-34.965829,-54.9501988,17z/data=!3m1!4b1!4m6!3m5!1s0x957505fe4891555b:0xa971232087fe3361!8m2!3d-34.965829!4d-54.9501988!16s%2Fg%2F11t6kxxp4l"
-    },
-    {
-      "merchant": "OFM Gala Aniversario Del Teatro Solís",
-      "category": "entretenimiento",
-      "percent": 50,
-      "benefitType": "2-for-1",
-      "notes": "19 de agosto - 19:30 hs. Lugar: Teatro Solís",
-      "validUntil": "2026-08-19",
-      "geo": {
-        "lat": -34.907634,
-        "lng": -56.201123
-      },
-      "location": "Teatro Solís",
-      "mapsUrl": "https://www.google.com/maps/place/Teatro+Sol%C3%ADs/@-34.9076336,-56.2011228,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802adf27edcb:0xe9cdb804f35a1e8a!8m2!3d-34.9076336!4d-56.2011228!16s%2Fm%2F03c5d99"
     },
     {
       "merchant": "OJNS – Gala de Año Nuevo",
@@ -860,6 +818,20 @@
       },
       "location": "Teatro de Verano Ramón Collazo",
       "mapsUrl": "https://www.google.com/maps/place/Teatro+de+Verano+Ram%C3%B3n+Collazo/@-34.9198507,-56.1697255,17z/data=!3m1!4b1!4m6!3m5!1s0x959f819821d1de0f:0xb2823d7887f5540a!8m2!3d-34.9198507!4d-56.1697255!16s%2Fg%2F122fjxmh"
+    },
+    {
+      "merchant": "Un Poco de Ruido – Prado",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "7 de Noviembre - 21 hs. Lugar: Rural del Prado",
+      "validUntil": "2026-11-07",
+      "geo": {
+        "lat": -34.863049,
+        "lng": -56.203285
+      },
+      "mapsUrl": "https://www.google.com/maps/place/Rural+del+Prado/@-34.8630492,-56.2032852,17z/data=!3m1!4b1!4m6!3m5!1s0x95a02aad48e0af2b:0xe14c76e4d71a56a3!8m2!3d-34.8630492!4d-56.2032852!16s%2Fg%2F121m84fv",
+      "location": "Rural del Prado"
     },
     {
       "merchant": "Van Gogh – El Sueño Inmersivo",
@@ -2135,11 +2107,6 @@
     },
     {
       "merchant": "Alamo Rent a Car",
-      "category": "viajes",
-      "percent": 20
-    },
-    {
-      "merchant": "Altos de la serena Apart Hotel",
       "category": "viajes",
       "percent": 20
     },
