@@ -1485,26 +1485,6 @@
       ]
     },
     {
-      "id": "club-el-pais-fio-cerrone-auditorio-adela-reta-locations",
-      "merchantNames": [
-        "Fio Cerrone"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "Fio Cerrone - Auditorio Adela Reta",
-          "geo": {
-            "lat": -34.904353,
-            "lng": -56.198553
-          },
-          "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z",
-          "location": "Auditorio Nacional Adela Reta"
-        }
-      ]
-    },
-    {
       "id": "club-el-pais-florencia-nunez-gira-decada-y-media-sodre-auditorio-adela-reta-locations",
       "merchantNames": [
         "Florencia Núñez – Gira Década y Media – Sodre"
@@ -2069,26 +2049,6 @@
       ]
     },
     {
-      "id": "club-el-pais-jorge-nasser-40-anos-de-canciones-auditorio-adela-reta-locations",
-      "merchantNames": [
-        "Jorge Nasser — 40 años de canciones"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "Jorge Nasser — 40 años de canciones - Auditorio Adela Reta",
-          "location": "Auditorio Nacional Adela Reta",
-          "geo": {
-            "lat": -34.904353,
-            "lng": -56.198553
-          },
-          "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
-        }
-      ]
-    },
-    {
       "id": "club-el-pais-joyeria-revello-locations",
       "merchantNames": [
         "Joyería Revello"
@@ -2477,26 +2437,6 @@
             "lng": -56.198553
           },
           "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-los-nocheros-40-anos-san-jose-teatro-maccio-locations",
-      "merchantNames": [
-        "Los Nocheros 40 años – San José"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "Los Nocheros 40 años – San José - Teatro Macció",
-          "location": "Teatro Macció",
-          "geo": {
-            "lat": -34.338813,
-            "lng": -56.713583
-          },
-          "mapsUrl": "https://www.google.com/maps/place/Teatro+Macci%C3%B3/@-34.3388125,-56.7135832,17z/data=!3m1!4b1!4m6!3m5!1s0x95a1773e712d04e7:0x5737140d4fbe2892!8m2!3d-34.3388125!4d-56.7135832!16s%2Fg%2F11f5bnk0v2"
         }
       ]
     },
@@ -3046,26 +2986,6 @@
       ]
     },
     {
-      "id": "club-el-pais-nostalgia-i-banda-de-raul-medina-i-punta-del-este-pueblo-narakan-locations",
-      "merchantNames": [
-        "Nostalgia I Banda de Raúl Medina I Punta del Este"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "Nostalgia I Banda de Raúl Medina I Punta del Este - Pueblo Narakan",
-          "location": "Pueblo Narakan",
-          "geo": {
-            "lat": -34.965829,
-            "lng": -54.950199
-          },
-          "mapsUrl": "https://www.google.com/maps/place/Pueblo+Narakan/@-34.965829,-54.9501988,17z/data=!3m1!4b1!4m6!3m5!1s0x957505fe4891555b:0xa971232087fe3361!8m2!3d-34.965829!4d-54.9501988!16s%2Fg%2F11t6kxxp4l"
-        }
-      ]
-    },
-    {
       "id": "club-el-pais-ojns-gala-de-ano-nuevo-auditorio-adela-reta-locations",
       "merchantNames": [
         "OJNS – Gala de Año Nuevo"
@@ -3103,26 +3023,6 @@
             "lng": -56.175214
           },
           "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-opera-l-elisir-d-amore-auditorio-adela-reta-locations",
-      "merchantNames": [
-        "ÓPERA – L’elisir D’amore"
-      ],
-      "sourceUrls": [
-        "https://nominatim.openstreetmap.org/"
-      ],
-      "merchants": [
-        {
-          "name": "ÓPERA – L’elisir D’amore - Auditorio Adela Reta",
-          "location": "Auditorio Nacional \"Adela Reta\", 1455, Andes, Barrio Sur, Montevideo, 11000",
-          "geo": {
-            "lat": -34.904281,
-            "lng": -56.198708
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.904281,-56.198708"
         }
       ]
     },
@@ -4320,26 +4220,6 @@
           },
           "location": "Antel Arena",
           "mapsUrl": "https://www.google.com/maps/place/Antel+Arena/@-34.8629745,-56.1536983,17z/data=!3m1!4b1!4m6!3m5!1s0x959f80859196b1db:0xfa0cae26c29546da!8m2!3d-34.8629745!4d-56.1536983!16s%2Fg%2F11gt__kjqx"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-las-pastillas-del-abuelo-prado-la-rural-del-prado-locations",
-      "merchantNames": [
-        "Las Pastillas del Abuelo – Prado"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "Las Pastillas del Abuelo – Prado - La Rural del Prado",
-          "geo": {
-            "lat": -34.863049,
-            "lng": -56.203285
-          },
-          "mapsUrl": "https://www.google.com/maps/place/Rural+del+Prado/@-34.8630492,-56.2032852,17z/data=!3m1!4b1!4m6!3m5!1s0x95a02aad48e0af2b:0xe14c76e4d71a56a3!8m2!3d-34.8630492!4d-56.2032852!16s%2Fg%2F121m84fv",
-          "location": "Rural del Prado"
         }
       ]
     },

@@ -348,20 +348,6 @@
       "mapsUrl": "https://www.google.com/maps/place/Parque+de+la+Amistad/@-34.9022731,-56.144214,17z/data=!3m1!4b1!4m6!3m5!1s0x959f8110eee34b5d:0x1ae6547e63098ebc!8m2!3d-34.9022731!4d-56.144214!16s%2Fg%2F11bvcv5w00"
     },
     {
-      "merchant": "Fio Cerrone",
-      "category": "entretenimiento",
-      "percent": 50,
-      "benefitType": "2-for-1",
-      "notes": "20 de setiembre - 20:00 hs. Lugar: Auditorio Adela Reta",
-      "validUntil": "2026-09-20",
-      "geo": {
-        "lat": -34.904353,
-        "lng": -56.198553
-      },
-      "location": "Auditorio Nacional Adela Reta",
-      "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
-    },
-    {
       "merchant": "Florencia Núñez – Gira Década y Media – Sodre",
       "category": "entretenimiento",
       "percent": 50,
@@ -416,20 +402,6 @@
       "benefitType": "2-for-1",
       "notes": "Del 14 al 30 de agosto - 20 hs. Lugar: Piso 19 - Hospital de Clínicas de Montevideo",
       "validUntil": "2026-08-30"
-    },
-    {
-      "merchant": "Jorge Nasser — 40 años de canciones",
-      "category": "entretenimiento",
-      "percent": 50,
-      "benefitType": "2-for-1",
-      "notes": "01 de octubre - 21:00 hs. Lugar: Auditorio Adela Reta",
-      "validUntil": "2026-10-01",
-      "geo": {
-        "lat": -34.904353,
-        "lng": -56.198553
-      },
-      "location": "Auditorio Nacional Adela Reta",
-      "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
     },
     {
       "merchant": "Karina en concierto",
@@ -488,20 +460,6 @@
       "mapsUrl": "https://www.google.com/maps/dir//-34.881352,-56.081088"
     },
     {
-      "merchant": "Las Pastillas del Abuelo – Prado",
-      "category": "entretenimiento",
-      "percent": 50,
-      "benefitType": "2-for-1",
-      "notes": "10 de Octubre - 21 hs. Lugar: La Rural del Prado",
-      "validUntil": "2026-10-10",
-      "geo": {
-        "lat": -34.863049,
-        "lng": -56.203285
-      },
-      "location": "Rural del Prado",
-      "mapsUrl": "https://www.google.com/maps/place/Rural+del+Prado/@-34.8630492,-56.2032852,17z/data=!3m1!4b1!4m6!3m5!1s0x95a02aad48e0af2b:0xe14c76e4d71a56a3!8m2!3d-34.8630492!4d-56.2032852!16s%2Fg%2F121m84fv"
-    },
-    {
       "merchant": "Lorca – «El Tren del Olvido» 30° aniversario (Sala Campodónico)",
       "category": "entretenimiento",
       "percent": 50,
@@ -528,20 +486,6 @@
       },
       "location": "Auditorio Nacional Adela Reta",
       "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
-    },
-    {
-      "merchant": "Los Nocheros 40 años – San José",
-      "category": "entretenimiento",
-      "percent": 50,
-      "benefitType": "2-for-1",
-      "notes": "29 de octubre - 20:30 hs. Lugar: Teatro Macció",
-      "validUntil": "2026-10-29",
-      "geo": {
-        "lat": -34.338813,
-        "lng": -56.713583
-      },
-      "location": "Teatro Macció",
-      "mapsUrl": "https://www.google.com/maps/place/Teatro+Macci%C3%B3/@-34.3388125,-56.7135832,17z/data=!3m1!4b1!4m6!3m5!1s0x95a1773e712d04e7:0x5737140d4fbe2892!8m2!3d-34.3388125!4d-56.7135832!16s%2Fg%2F11f5bnk0v2"
     },
     {
       "merchant": "Maia Castro – 20 años",
@@ -627,40 +571,12 @@
       "mapsUrl": "https://www.google.com/maps/place/El+Galp%C3%B3n/@-34.9040305,-56.1810816,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81b5617dc4e7:0xc21c578fd5c6424f"
     },
     {
-      "merchant": "Nostalgia I Banda de Raúl Medina I Punta del Este",
-      "category": "entretenimiento",
-      "percent": 50,
-      "benefitType": "2-for-1",
-      "notes": "24 de Agosto - 21 hs. Lugar: Pueblo Narakan",
-      "validUntil": "2026-08-24",
-      "geo": {
-        "lat": -34.965829,
-        "lng": -54.950199
-      },
-      "location": "Pueblo Narakan",
-      "mapsUrl": "https://www.google.com/maps/place/Pueblo+Narakan/@-34.965829,-54.9501988,17z/data=!3m1!4b1!4m6!3m5!1s0x957505fe4891555b:0xa971232087fe3361!8m2!3d-34.965829!4d-54.9501988!16s%2Fg%2F11t6kxxp4l"
-    },
-    {
       "merchant": "OJNS – Gala de Año Nuevo",
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
       "notes": "30 de diciembre - 20:00 hs. Lugar: Auditorio Adela Reta",
       "validUntil": "2026-12-30",
-      "geo": {
-        "lat": -34.904353,
-        "lng": -56.198553
-      },
-      "location": "Auditorio Nacional Adela Reta",
-      "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
-    },
-    {
-      "merchant": "ÓPERA – L’elisir D’amore",
-      "category": "entretenimiento",
-      "percent": 50,
-      "benefitType": "2-for-1",
-      "notes": "Del 21 al 23 de agosto. Lugar: Auditorio Adela Reta",
-      "validUntil": "2026-08-23",
       "geo": {
         "lat": -34.904353,
         "lng": -56.198553
@@ -830,8 +746,8 @@
         "lat": -34.863049,
         "lng": -56.203285
       },
-      "mapsUrl": "https://www.google.com/maps/place/Rural+del+Prado/@-34.8630492,-56.2032852,17z/data=!3m1!4b1!4m6!3m5!1s0x95a02aad48e0af2b:0xe14c76e4d71a56a3!8m2!3d-34.8630492!4d-56.2032852!16s%2Fg%2F121m84fv",
-      "location": "Rural del Prado"
+      "location": "Rural del Prado",
+      "mapsUrl": "https://www.google.com/maps/place/Rural+del+Prado/@-34.8630492,-56.2032852,17z/data=!3m1!4b1!4m6!3m5!1s0x95a02aad48e0af2b:0xe14c76e4d71a56a3!8m2!3d-34.8630492!4d-56.2032852!16s%2Fg%2F121m84fv"
     },
     {
       "merchant": "Van Gogh – El Sueño Inmersivo",
