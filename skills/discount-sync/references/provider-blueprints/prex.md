@@ -56,8 +56,8 @@ and why some are excluded.
 - `beneficio=3` — Comercios (IVA-point benefit)
 - `beneficio=6` — STM (IVA-point benefit)
 - `beneficio=4` — Abitab (IVA-point benefit)
-- `beneficio=637` — Cabify App 30% with monthly code `PREXAGO30` (2026-08; cap $150 / one trip)
-- `beneficio=670` — PAX Assistance 50% on Prex + Pax web through 2026-08-31
+- `beneficio=637` — Cabify App 30% with monthly code `PREXSET30` (2026-09; cap $150 / one trip)
+- `beneficio=670` — PAX Assistance 50% on Prex + Pax web through 2026-09-30
 
 ### Inspect but currently skip from runtime
 - `beneficio=739` — DIRECTV Prepago primera recarga 20% (App Prex; June–July only) — expired after 2026-07-31; hub still shows July copy on 2026-08-04
@@ -69,6 +69,9 @@ and why some are excluded.
 - `beneficio=735` — GOL Hot Week ended on 2026-05-17; source still listed it under especiales on 2026-05-18, but the detail terms were expired, so skip until a new active window appears.
 - `beneficio=734` — Feria de dólares (FX promo without a stable runtime percent)
 - `beneficio=707` — Ahorra Fácil extra en retiro (cashback/withdrawal flow, not a spend-side discount)
+- `beneficio=748` — Promo Movilidad combustible raffle (not a stable spend-side percent)
+- `beneficio=751` — Préxtamo iPlace iPhone window (loan/landing hybrid; 7–18 Sep 2026) — skip unless a clean merchant percent appears
+- `beneficio=752` — Feria USD FX promo (ended 2026-09-15; no stable runtime percent)
 - `beneficio=696` — Transferencias gratis Uruguay-Argentina (fee waiver)
 - `beneficio=533` — Transferencias gratis Uruguay-Perú (fee waiver)
 - `beneficio=677` — Transferencias gratis Uruguay-Chile (fee waiver)

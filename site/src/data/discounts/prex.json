@@ -51,18 +51,18 @@
       "merchant": "Cabify",
       "category": "viajes",
       "percent": 30,
-      "validUntil": "2026-08-31",
+      "validUntil": "2026-09-30",
       "channels": [
         "online"
       ],
       "cap": "Tope $150, un viaje",
-      "notes": "Código del mes: PREXAGO30. App Cabify."
+      "notes": "Código del mes: PREXSET30. App Cabify."
     },
     {
       "merchant": "PAX Assistance",
       "category": "viajes",
       "percent": 50,
-      "validUntil": "2026-08-31",
+      "validUntil": "2026-09-30",
       "channels": [
         "online"
       ],

@@ -580,26 +580,6 @@
       ]
     },
     {
-      "id": "club-el-pais-bns-coppelia-auditorio-adela-reta-locations",
-      "merchantNames": [
-        "BNS – Coppelia"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "BNS – Coppelia - Auditorio Adela Reta",
-          "location": "Auditorio Nacional Adela Reta",
-          "geo": {
-            "lat": -34.904353,
-            "lng": -56.198553
-          },
-          "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
-        }
-      ]
-    },
-    {
       "id": "club-el-pais-bubba-detail-locations",
       "merchantNames": [
         "Bubba"
@@ -774,26 +754,6 @@
       ]
     },
     {
-      "id": "club-el-pais-charly-ferret-auditorio-adela-reta-locations",
-      "merchantNames": [
-        "Charly Ferret"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "Charly Ferret - Auditorio Adela Reta",
-          "geo": {
-            "lat": -34.904353,
-            "lng": -56.198553
-          },
-          "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z",
-          "location": "Auditorio Nacional Adela Reta"
-        }
-      ]
-    },
-    {
       "id": "club-el-pais-charo-cocina-y-cafe-detail-locations",
       "merchantNames": [
         "Charo Cocina y Café"
@@ -885,26 +845,6 @@
       ]
     },
     {
-      "id": "club-el-pais-cnjs-concierto-vi-auditorio-adela-reta-locations",
-      "merchantNames": [
-        "CNJS – Concierto VI"
-      ],
-      "sourceUrls": [
-        "https://nominatim.openstreetmap.org/"
-      ],
-      "merchants": [
-        {
-          "name": "CNJS – Concierto VI - Auditorio Adela Reta",
-          "location": "Auditorio Nacional \"Adela Reta\", 1455, Andes, Barrio Sur, Montevideo, 11000",
-          "geo": {
-            "lat": -34.904281,
-            "lng": -56.198708
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.904281,-56.198708"
-        }
-      ]
-    },
-    {
       "id": "club-el-pais-colonia-express-locations",
       "merchantNames": [
         "Colonia Express"
@@ -942,26 +882,6 @@
             "lng": -56.175214
           },
           "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-cuando-se-acaba-la-cuerda-auditorio-adela-reta-locations",
-      "merchantNames": [
-        "Cuando se acaba la cuerda"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "Cuando se acaba la cuerda - Auditorio Adela Reta",
-          "geo": {
-            "lat": -34.904353,
-            "lng": -56.198553
-          },
-          "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z",
-          "location": "Auditorio Nacional Adela Reta"
         }
       ]
     },
@@ -1067,26 +987,6 @@
             "lng": -56.181082
           },
           "mapsUrl": "https://www.google.com/maps/place/El+Galp%C3%B3n/@-34.9040305,-56.1810816,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81b5617dc4e7:0xc21c578fd5c6424f!8m2!3d-34.9040305!4d-56.1810816!16s%2Fg%2F121rjw4h"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-daniel-k-mentiras-verdaderas-movie-montevideo-locations",
-      "merchantNames": [
-        "Daniel K – Mentiras Verdaderas"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "Daniel K – Mentiras Verdaderas - Movie Montevideo",
-          "location": "Movie, 5775, Avenida Italia, Punta Gorda, Montevideo, 11403",
-          "geo": {
-            "lat": -34.881352,
-            "lng": -56.081088
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.881352,-56.081088"
         }
       ]
     },
@@ -1228,46 +1128,6 @@
             "lng": -56.175214
           },
           "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-edipo-en-ezeiza-auditorio-adela-reta-locations",
-      "merchantNames": [
-        "Edipo en Ezeiza"
-      ],
-      "sourceUrls": [
-        "https://nominatim.openstreetmap.org/"
-      ],
-      "merchants": [
-        {
-          "name": "Edipo en Ezeiza - Auditorio Adela Reta",
-          "location": "Auditorio Nacional \"Adela Reta\", 1455, Andes, Barrio Sur, Montevideo, 11000",
-          "geo": {
-            "lat": -34.904281,
-            "lng": -56.198708
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.904281,-56.198708"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-el-caso-inevitable-del-sr-mendez-teatro-alianza-locations",
-      "merchantNames": [
-        "El caso inevitable del Sr. Méndez"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "El caso inevitable del Sr. Méndez - Teatro Alianza",
-          "location": "Teatro Alianza",
-          "geo": {
-            "lat": -34.908478,
-            "lng": -56.192329
-          },
-          "mapsUrl": "https://www.google.com/maps/place/Teatro+Alianza/@-34.9084781,-56.1923287,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81cd80292d3b:0x8b46eed506719c94!8m2!3d-34.9084781!4d-56.1923287!16s%2Fg%2F11bwh9w_js"
         }
       ]
     },
@@ -1485,26 +1345,6 @@
       ]
     },
     {
-      "id": "club-el-pais-florencia-nunez-gira-decada-y-media-sodre-auditorio-adela-reta-locations",
-      "merchantNames": [
-        "Florencia Núñez – Gira Década y Media – Sodre"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "Florencia Núñez – Gira Década y Media – Sodre - Auditorio Adela Reta",
-          "location": "Auditorio Nacional Adela Reta",
-          "geo": {
-            "lat": -34.904353,
-            "lng": -56.198553
-          },
-          "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
-        }
-      ]
-    },
-    {
       "id": "club-el-pais-frontier-hotel-rivera-detail-locations",
       "merchantNames": [
         "Frontier Hotel Rivera"
@@ -1604,26 +1444,6 @@
             "lng": -56.175214
           },
           "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-gato-renato-esta-en-la-luna-planetario-de-montevideo-locations",
-      "merchantNames": [
-        "Gato Renato Está En La Luna"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "Gato Renato Está En La Luna - Planetario de Montevideo",
-          "location": "Planetario de Montevideo",
-          "geo": {
-            "lat": -34.901858,
-            "lng": -56.144551
-          },
-          "mapsUrl": "https://www.google.com/maps/place/Planetario+de+Montevideo/@-34.901858,-56.144551,17z/data=!3m1!4b1!4m6!3m5!1s0x959f8110fac5989f:0x7b32fd0cf4bd7a7d!8m2!3d-34.901858!4d-56.144551!16s%2Fg%2F11b7431k3_"
         }
       ]
     },
@@ -1728,40 +1548,6 @@
             "lng": -58.314947
           },
           "mapsUrl": "https://www.google.com/maps/dir//-33.113712,-58.314947"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-gustavo-casenave-teatro-solis-locations",
-      "merchantNames": [
-        "Gustavo Casenave"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "Gustavo Casenave - Teatro Solís",
-          "location": "Teatro Solís",
-          "geo": {
-            "lat": -34.907634,
-            "lng": -56.201123
-          },
-          "mapsUrl": "https://www.google.com/maps/place/Teatro+Sol%C3%ADs/@-34.9076336,-56.2011228,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802adf27edcb:0xe9cdb804f35a1e8a!8m2!3d-34.9076336!4d-56.2011228!16s%2Fm%2F03c5d99"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-hablame-de-cancer-piso-19-hospital-de-clinicas-de-montevideo-locations",
-      "merchantNames": [
-        "Hablame de Cáncer"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "Hablame de Cáncer - Piso 19 - Hospital de Clínicas de Montevideo"
         }
       ]
     },
@@ -2172,26 +1958,6 @@
       ]
     },
     {
-      "id": "club-el-pais-la-dolce-vita-la-filarmonica-teatro-solis-locations",
-      "merchantNames": [
-        "La Dolce Vita – La Filarmónica"
-      ],
-      "sourceUrls": [
-        "https://nominatim.openstreetmap.org/"
-      ],
-      "merchants": [
-        {
-          "name": "La Dolce Vita – La Filarmónica - Teatro Solís",
-          "location": "Teatro Solís, Juncal, Ciudad Vieja, Montevideo, 11000",
-          "geo": {
-            "lat": -34.907879,
-            "lng": -56.201
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.907879,-56.201000"
-        }
-      ]
-    },
-    {
       "id": "club-el-pais-la-filarmonica-los-planetas-teatro-solis-locations",
       "merchantNames": [
         "La Filarmónica – Los Planetas"
@@ -2208,26 +1974,6 @@
             "lng": -56.201123
           },
           "mapsUrl": "https://www.google.com/maps/place/Teatro+Sol%C3%ADs/@-34.9076336,-56.2011228,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802adf27edcb:0xe9cdb804f35a1e8a!8m2!3d-34.9076336!4d-56.2011228!16s%2Fm%2F03c5d99"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-la-omision-de-la-familia-coleman-movie-montevideo-locations",
-      "merchantNames": [
-        "La Omisión de la Familia Coleman"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "La Omisión de la Familia Coleman - Movie Montevideo",
-          "location": "Movie, 5775, Avenida Italia, Punta Gorda, Montevideo, 11403",
-          "geo": {
-            "lat": -34.881352,
-            "lng": -56.081088
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.881352,-56.081088"
         }
       ]
     },
@@ -2529,26 +2275,6 @@
             "lng": -55.150788
           },
           "mapsUrl": "https://www.google.com/maps/dir//-34.875396,-55.150788"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-maia-castro-20-anos-teatro-solis-locations",
-      "merchantNames": [
-        "Maia Castro – 20 años"
-      ],
-      "sourceUrls": [
-        "https://nominatim.openstreetmap.org/"
-      ],
-      "merchants": [
-        {
-          "name": "Maia Castro – 20 años - Teatro Solís",
-          "location": "Teatro Solís, Juncal, Ciudad Vieja, Montevideo, 11000",
-          "geo": {
-            "lat": -34.907879,
-            "lng": -56.201
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.907879,-56.201000"
         }
       ]
     },
@@ -2946,46 +2672,6 @@
       ]
     },
     {
-      "id": "club-el-pais-noche-de-la-nostalgia-en-plaza-de-toros-plaza-de-toros-real-de-san-carlos-locations",
-      "merchantNames": [
-        "Noche de la Nostalgia en Plaza de Toros"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "Noche de la Nostalgia en Plaza de Toros - Plaza de Toros Real de San Carlos",
-          "location": "Plaza de Toros Real de San Carlos, Colonia",
-          "geo": {
-            "lat": -34.436517,
-            "lng": -57.86514
-          },
-          "mapsUrl": "https://www.google.com/maps/place/Plaza+de+Toros+Real+de+San+Carlos/@-34.4365172,-57.8651404,17z/data=!3m1!4b1!4m6!3m5!1s0x95a312d0b33bb5ff:0x70ccaa876da3e19b!8m2!3d-34.4365172!4d-57.8651404!16s%2Fm%2F04gnk34"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-noelia-pace-teatro-el-galpon-locations",
-      "merchantNames": [
-        "Noelia Pace"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "Noelia Pace - Teatro El Galpón",
-          "location": "Teatro El Galpón, Montevideo",
-          "geo": {
-            "lat": -34.90403,
-            "lng": -56.181082
-          },
-          "mapsUrl": "https://www.google.com/maps/place/El+Galp%C3%B3n/@-34.9040305,-56.1810816,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81b5617dc4e7:0xc21c578fd5c6424f"
-        }
-      ]
-    },
-    {
       "id": "club-el-pais-ojns-gala-de-ano-nuevo-auditorio-adela-reta-locations",
       "merchantNames": [
         "OJNS – Gala de Año Nuevo"
@@ -3113,46 +2799,6 @@
             "lng": -56.198553
           },
           "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-ossodre-romantico-auditorio-adela-reta-locations",
-      "merchantNames": [
-        "OSSODRE – Romántico"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "OSSODRE – Romántico - Auditorio Adela Reta",
-          "location": "Auditorio Nacional Adela Reta",
-          "geo": {
-            "lat": -34.904353,
-            "lng": -56.198553
-          },
-          "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-pablo-picotto-i-25-anos-de-humor-quien-te-conoce-teatro-solis-locations",
-      "merchantNames": [
-        "Pablo Picotto I 25 años de humor ¿Quién te conoce?"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "Pablo Picotto I 25 años de humor ¿Quién te conoce? - Teatro Solís",
-          "location": "Teatro Solís",
-          "geo": {
-            "lat": -34.907634,
-            "lng": -56.201123
-          },
-          "mapsUrl": "https://www.google.com/maps/place/Teatro+Sol%C3%ADs/@-34.9076336,-56.2011228,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802adf27edcb:0xe9cdb804f35a1e8a!8m2!3d-34.9076336!4d-56.2011228!16s%2Fm%2F03c5d99"
         }
       ]
     },
@@ -4081,26 +3727,6 @@
       ]
     },
     {
-      "id": "club-el-pais-van-gogh-el-sueno-inmersivo-rural-del-prado-locations",
-      "merchantNames": [
-        "Van Gogh – El Sueño Inmersivo"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "Van Gogh – El Sueño Inmersivo - Rural del Prado",
-          "location": "Rural del Prado",
-          "geo": {
-            "lat": -34.863049,
-            "lng": -56.203285
-          },
-          "mapsUrl": "https://www.google.com/maps/place/Rural+del+Prado/@-34.8630492,-56.2032852,17z/data=!3m1!4b1!4m6!3m5!1s0x95a02aad48e0af2b:0xe14c76e4d71a56a3!8m2!3d-34.8630492!4d-56.2032852!16s%2Fg%2F121m84fv"
-        }
-      ]
-    },
-    {
       "id": "club-el-pais-veroca-joyas-detail-locations",
       "merchantNames": [
         "Veroca Joyas"
@@ -4304,42 +3930,724 @@
       ]
     },
     {
-      "id": "club-el-pais-expo-cafe-uruguay-2026-centro-de-eventos-del-parque-de-innovaci-locations",
+      "id": "club-el-pais-estas-ahi-teatro-el-galpon-locations",
       "merchantNames": [
-        "Expo Café Uruguay 2026"
+        "¿Estás ahí?"
       ],
       "sourceUrls": [
         "https://www.clubelpais.com.uy/"
       ],
       "merchants": [
         {
-          "name": "Expo Café Uruguay 2026 - Centro de Eventos del Parque de Innovación del LATU",
+          "name": "¿Estás ahí? - Teatro El Galpón",
           "geo": {
-            "lat": -34.879003,
-            "lng": -56.080881
+            "lat": -34.90403,
+            "lng": -56.181082
           },
-          "mapsUrl": "https://www.google.com/maps/place/Centro+de+Eventos+del+Parque+de+Innovaci%C3%B3n+del+LATU/@-34.8790025,-56.0808807,17z/data=!3m1!4b1!4m6!3m5!1s0x959f871cf9b86f2f:0xdcc48036c96341a6!8m2!3d-34.8790025!4d-56.0808807!16s%2Fg%2F11fk8hkzvb",
-          "location": "Av. Dra. María Luisa Saldún de Rodríguez 2037, Montevideo"
+          "mapsUrl": "https://www.google.com/maps/place/El+Galp%C3%B3n/@-34.9040305,-56.1810816,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81b5617dc4e7:0xc21c578fd5c6424f",
+          "location": "Teatro El Galpón, Montevideo"
         }
       ]
     },
     {
-      "id": "club-el-pais-un-poco-de-ruido-prado-rural-del-prado-locations",
+      "id": "club-el-pais-capibara-el-carpincho-teatro-acj-locations",
       "merchantNames": [
-        "Un Poco de Ruido – Prado"
+        "«Capibara» el carpincho"
       ],
       "sourceUrls": [
         "https://www.clubelpais.com.uy/"
       ],
       "merchants": [
         {
-          "name": "Un Poco de Ruido – Prado - Rural del Prado",
+          "name": "«Capibara» el carpincho - Teatro ACJ",
+          "geo": {
+            "lat": -34.901043,
+            "lng": -56.176327
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Young+Men+Christian+Association/@-34.901043,-56.176327,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81b4ad4d6ecf:0x644e47de5f46a127!8m2!3d-34.901043!4d-56.176327!16s%2Fg%2F1td7phd8",
+          "location": "Colonia 1870, Montevideo"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-alaclownddin-vacaciones-de-primavera-anima-espacio-cultural-locations",
+      "merchantNames": [
+        "Alaclownddín -Vacaciones de primavera"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "Alaclownddín -Vacaciones de primavera - Ánima Espacio Cultural",
+          "geo": {
+            "lat": -34.907534,
+            "lng": -56.198681
+          },
+          "mapsUrl": "https://www.google.com/maps/place/%C3%81nima+Espacio+Cultural/@-34.9075344,-56.1986809,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81b7743f96a1:0xf13e49a35ae4ca80!8m2!3d-34.9075344!4d-56.1986809!16s%2Fg%2F11cr_0xy45",
+          "location": "Ánima Espacio Cultural"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-alejandro-ferradas-4-decadas-sociedad-urbana-villa-dolores-locations",
+      "merchantNames": [
+        "Alejandro Ferradás: : 4 Décadas"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "Alejandro Ferradás: : 4 Décadas - Sociedad Urbana Villa Dolores",
+          "geo": {
+            "lat": -34.900614,
+            "lng": -56.146561
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Sociedad+Urbana+Villa+Dolores/@-34.9006142,-56.1465615,17z/data=!3m1!4b1!4m6!3m5!1s0x959f811e5518a2db:0xbedee45a926bf272!8m2!3d-34.9006142!4d-56.1465615!16s%2Fg%2F11s4wjb2xs",
+          "location": "Sociedad Urbana Villa Dolores"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-bandoneonas-teatro-solis-locations",
+      "merchantNames": [
+        "Bandoneonas"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "Bandoneonas - Teatro Solís",
+          "geo": {
+            "lat": -34.907634,
+            "lng": -56.201123
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Teatro+Sol%C3%ADs/@-34.9076336,-56.2011228,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802adf27edcb:0xe9cdb804f35a1e8a!8m2!3d-34.9076336!4d-56.2011228!16s%2Fm%2F03c5d99",
+          "location": "Teatro Solís"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-cenicienta-el-musical-teatro-astral-locations",
+      "merchantNames": [
+        "Cenicienta, el Musical"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "Cenicienta, el Musical - Teatro Astral",
+          "geo": {
+            "lat": -34.910147,
+            "lng": -56.183449
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Teatro+Astral/@-34.9101474,-56.1834488,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81c9081f133b:0x720659fb71045328!8m2!3d-34.9101474!4d-56.1834488!16s%2Fg%2F11bvv4qtv4",
+          "location": "Teatro Astral"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-diego-presa-auditorio-adela-reta-locations",
+      "merchantNames": [
+        "Diego Presa"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "Diego Presa - Auditorio Adela Reta",
+          "geo": {
+            "lat": -34.904353,
+            "lng": -56.198553
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z",
+          "location": "Auditorio Nacional Adela Reta"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-el-bien-teatro-stella-d-italia-locations",
+      "merchantNames": [
+        "EL BIEN"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "EL BIEN - Teatro Stella D'Italia",
+          "geo": {
+            "lat": -34.900541,
+            "lng": -56.178195
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Teatro+Stella+D'Italia.+La+Gaviota./@-34.9005409,-56.1781953,17z/data=!3m1!4b1!4m6!3m5!1s0x959f804b205423f5:0xe67f45177efa9d83!8m2!3d-34.9005409!4d-56.1781953!16s%2Fg%2F1tc_0pmw",
+          "location": "Teatro Stella D'Italia. La Gaviota., Montevideo"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-el-rey-de-los-hongos-teatro-circular-locations",
+      "merchantNames": [
+        "El rey de los hongos"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "El rey de los hongos - Teatro Circular",
+          "geo": {
+            "lat": -34.905243,
+            "lng": -56.191147
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Teatro+Circular/@-34.9052429,-56.1911468,17z/data=!3m1!4b1!4m6!3m5!1s0x959f8032b0c64a17:0x613f3768417500bd!8m2!3d-34.9052429!4d-56.1911468!16s%2Fg%2F12gh3c102",
+          "location": "Teatro Circular"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-el-teatro-teatro-solis-locations",
+      "merchantNames": [
+        "El Teatro"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "El Teatro - Teatro Solís",
+          "geo": {
+            "lat": -34.907634,
+            "lng": -56.201123
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Teatro+Sol%C3%ADs/@-34.9076336,-56.2011228,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802adf27edcb:0xe9cdb804f35a1e8a!8m2!3d-34.9076336!4d-56.2011228!16s%2Fm%2F03c5d99",
+          "location": "Teatro Solís"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-expo-prado-2026-rural-del-prado-locations",
+      "merchantNames": [
+        "Expo Prado 2026"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "Expo Prado 2026 - Rural del Prado",
           "geo": {
             "lat": -34.863049,
             "lng": -56.203285
           },
           "mapsUrl": "https://www.google.com/maps/place/Rural+del+Prado/@-34.8630492,-56.2032852,17z/data=!3m1!4b1!4m6!3m5!1s0x95a02aad48e0af2b:0xe14c76e4d71a56a3!8m2!3d-34.8630492!4d-56.2032852!16s%2Fg%2F121m84fv",
           "location": "Rural del Prado"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-extrana-pareja-sala-china-zorrilla-teatro-alianza-locations",
+      "merchantNames": [
+        "Extraña Pareja | Sala China Zorrilla"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "Extraña Pareja | Sala China Zorrilla - Teatro Alianza",
+          "geo": {
+            "lat": -34.908478,
+            "lng": -56.192329
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Teatro+Alianza/@-34.9084781,-56.1923287,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81cd80292d3b:0x8b46eed506719c94!8m2!3d-34.9084781!4d-56.1923287!16s%2Fg%2F11bwh9w_js",
+          "location": "Teatro Alianza"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-flor-infante-austero-movie-montevideo-locations",
+      "merchantNames": [
+        "Flor Infante – Austero"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "Flor Infante – Austero - Movie Montevideo"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-gabriel-rolon-auditorio-adela-reta-locations",
+      "merchantNames": [
+        "Gabriel Rolón"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "Gabriel Rolón - Auditorio Adela Reta",
+          "geo": {
+            "lat": -34.904353,
+            "lng": -56.198553
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z",
+          "location": "Auditorio Nacional Adela Reta"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-harlem-globetrotters-durazno-estadio-ernesto-de-leon-locations",
+      "merchantNames": [
+        "Harlem Globetrotters – Durazno"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "Harlem Globetrotters – Durazno - Estadio Ernesto de León",
+          "geo": {
+            "lat": -33.374417,
+            "lng": -56.520364
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Estadio+Ernesto+de+Le%C3%B3n/@-33.3744166,-56.520364,17z/data=!3m1!4b1!4m6!3m5!1s0x95a6ea8a2f08203d:0x537af7f7c45d09bf!8m2!3d-33.3744166!4d-56.520364!16s%2Fg%2F1tcws9xj",
+          "location": "Estadio Ernesto de León"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-harlem-globetrotters-montevideo-antel-arena-locations",
+      "merchantNames": [
+        "Harlem Globetrotters – Montevideo"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "Harlem Globetrotters – Montevideo - Antel Arena",
+          "geo": {
+            "lat": -34.862975,
+            "lng": -56.153698
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Antel+Arena/@-34.8629745,-56.1536983,17z/data=!3m1!4b1!4m6!3m5!1s0x959f80859196b1db:0xfa0cae26c29546da!8m2!3d-34.8629745!4d-56.1536983!16s%2Fg%2F11gt__kjqx",
+          "location": "Antel Arena"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-javier-santaolalla-teatro-el-galpon-locations",
+      "merchantNames": [
+        "Javier Santaolalla"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "Javier Santaolalla - Teatro El Galpón",
+          "geo": {
+            "lat": -34.90403,
+            "lng": -56.181082
+          },
+          "mapsUrl": "https://www.google.com/maps/place/El+Galp%C3%B3n/@-34.9040305,-56.1810816,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81b5617dc4e7:0xc21c578fd5c6424f",
+          "location": "Teatro El Galpón, Montevideo"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-julieta-laso-sala-zitarrosa-locations",
+      "merchantNames": [
+        "Julieta Laso"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "Julieta Laso - Sala Zitarrosa",
+          "geo": {
+            "lat": -34.906221,
+            "lng": -56.194456
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Sala+Zitarrosa/@-34.9062213,-56.1944559,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802d2e06d853:0x80732a9b51333b20!8m2!3d-34.9062213!4d-56.1944559!16s%2Fg%2F12dpwqjqf",
+          "location": "Sala Zitarrosa"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-la-triple-nelson-pueblo-narakan-locations",
+      "merchantNames": [
+        "La Triple Nelson"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "La Triple Nelson - Pueblo Narakan",
+          "geo": {
+            "lat": -34.965829,
+            "lng": -54.950199
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Pueblo+Narakan/@-34.965829,-54.9501988,17z/data=!3m1!4b1!4m6!3m5!1s0x957505fe4891555b:0xa971232087fe3361!8m2!3d-34.965829!4d-54.9501988!16s%2Fg%2F11t6kxxp4l",
+          "location": "Pueblo Narakan"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-lady-macbeth-sobre-el-poder-en-las-sombras-teatro-stella-d-italia-locations",
+      "merchantNames": [
+        "Lady Macbeth (Sobre el poder en las sombras)"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "Lady Macbeth (Sobre el poder en las sombras) - Teatro Stella D'Italia",
+          "geo": {
+            "lat": -34.900541,
+            "lng": -56.178195
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Teatro+Stella+D'Italia.+La+Gaviota./@-34.9005409,-56.1781953,17z/data=!3m1!4b1!4m6!3m5!1s0x959f804b205423f5:0xe67f45177efa9d83!8m2!3d-34.9005409!4d-56.1781953!16s%2Fg%2F1tc_0pmw",
+          "location": "Teatro Stella D'Italia. La Gaviota., Montevideo"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-las-camisas-blancas-teatro-el-galpon-locations",
+      "merchantNames": [
+        "Las camisas blancas"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "Las camisas blancas - Teatro El Galpón",
+          "geo": {
+            "lat": -34.90403,
+            "lng": -56.181082
+          },
+          "mapsUrl": "https://www.google.com/maps/place/El+Galp%C3%B3n/@-34.9040305,-56.1810816,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81b5617dc4e7:0xc21c578fd5c6424f",
+          "location": "Teatro El Galpón, Montevideo"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-lluvia-constante-movie-montevideo-locations",
+      "merchantNames": [
+        "Lluvia constante"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "Lluvia constante - Movie Montevideo"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-luciano-supervielle-mateo-ottonello-cuarteto-de-cuerdas-la-trastienda-locations",
+      "merchantNames": [
+        "Luciano Supervielle & Mateo Ottonello + Cuarteto de Cuerdas"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "Luciano Supervielle & Mateo Ottonello + Cuarteto de Cuerdas - La Trastienda",
+          "geo": {
+            "lat": -34.898385,
+            "lng": -56.178412
+          },
+          "mapsUrl": "https://www.google.com/maps/place/La+Trastienda/@-34.8983845,-56.1784118,17z/data=!3m1!4b1!4m6!3m5!1s0x959f804a4cb5c913:0xb5518b32a0807745!8m2!3d-34.8983845!4d-56.1784118!16s%2Fg%2F11xc0qdc_",
+          "location": "Daniel Fernández Crespo 1763, Montevideo"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-malandra-social-club-la-trastienda-locations",
+      "merchantNames": [
+        "Malandra Social Club"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "Malandra Social Club - La Trastienda",
+          "geo": {
+            "lat": -34.898385,
+            "lng": -56.178412
+          },
+          "mapsUrl": "https://www.google.com/maps/place/La+Trastienda/@-34.8983845,-56.1784118,17z/data=!3m1!4b1!4m6!3m5!1s0x959f804a4cb5c913:0xb5518b32a0807745!8m2!3d-34.8983845!4d-56.1784118!16s%2Fg%2F11xc0qdc_",
+          "location": "Daniel Fernández Crespo 1763, Montevideo"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-mandrake-y-los-druidas-presenta-un-plan-perfecto-la-trastienda-locations",
+      "merchantNames": [
+        "Mandrake y los Druidas presenta: “Un Plan Perfecto”"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "Mandrake y los Druidas presenta: “Un Plan Perfecto” - La Trastienda",
+          "geo": {
+            "lat": -34.898385,
+            "lng": -56.178412
+          },
+          "mapsUrl": "https://www.google.com/maps/place/La+Trastienda/@-34.8983845,-56.1784118,17z/data=!3m1!4b1!4m6!3m5!1s0x959f804a4cb5c913:0xb5518b32a0807745!8m2!3d-34.8983845!4d-56.1784118!16s%2Fg%2F11xc0qdc_",
+          "location": "Daniel Fernández Crespo 1763, Montevideo"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-mercedes-canas-en-concierto-la-trastienda-locations",
+      "merchantNames": [
+        "Mercedes Cañas en concierto"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "Mercedes Cañas en concierto - La Trastienda",
+          "geo": {
+            "lat": -34.898385,
+            "lng": -56.178412
+          },
+          "mapsUrl": "https://www.google.com/maps/place/La+Trastienda/@-34.8983845,-56.1784118,17z/data=!3m1!4b1!4m6!3m5!1s0x959f804a4cb5c913:0xb5518b32a0807745!8m2!3d-34.8983845!4d-56.1784118!16s%2Fg%2F11xc0qdc_",
+          "location": "Daniel Fernández Crespo 1763, Montevideo"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-mosquitos-sala-verdi-locations",
+      "merchantNames": [
+        "Mosquitos"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "Mosquitos - Sala Verdi",
+          "geo": {
+            "lat": -34.908254,
+            "lng": -56.196375
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Sala+Verdi/@-34.9082536,-56.1963746,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81d338629f9b:0xee775820331447fd!8m2!3d-34.9082536!4d-56.1963746!16s%2Fg%2F1ym_k_vk3",
+          "location": "Sala Verdi"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-murga-madre-el-reloj-no-ha-parado-nunca-teatro-el-galpon-locations",
+      "merchantNames": [
+        "Murga Madre – «El reloj no ha parado nunca»"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "Murga Madre – «El reloj no ha parado nunca» - Teatro El Galpón",
+          "geo": {
+            "lat": -34.90403,
+            "lng": -56.181082
+          },
+          "mapsUrl": "https://www.google.com/maps/place/El+Galp%C3%B3n/@-34.9040305,-56.1810816,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81b5617dc4e7:0xc21c578fd5c6424f",
+          "location": "Teatro El Galpón, Montevideo"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-natalie-perez-sala-zitarrosa-locations",
+      "merchantNames": [
+        "Natalie Perez"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "Natalie Perez - Sala Zitarrosa",
+          "geo": {
+            "lat": -34.906221,
+            "lng": -56.194456
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Sala+Zitarrosa/@-34.9062213,-56.1944559,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802d2e06d853:0x80732a9b51333b20!8m2!3d-34.9062213!4d-56.1944559!16s%2Fg%2F12dpwqjqf",
+          "location": "Sala Zitarrosa"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-nico-ibarburu-pueblo-narakan-locations",
+      "merchantNames": [
+        "Nico Ibarburu"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "Nico Ibarburu - Pueblo Narakan",
+          "geo": {
+            "lat": -34.965829,
+            "lng": -54.950199
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Pueblo+Narakan/@-34.965829,-54.9501988,17z/data=!3m1!4b1!4m6!3m5!1s0x957505fe4891555b:0xa971232087fe3361!8m2!3d-34.965829!4d-54.9501988!16s%2Fg%2F11t6kxxp4l",
+          "location": "Pueblo Narakan"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-no-te-va-a-gustar-velodromo-municipal-de-montevideo-locations",
+      "merchantNames": [
+        "No Te Va a Gustar"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "No Te Va a Gustar - Velódromo Municipal de Montevideo",
+          "geo": {
+            "lat": -34.897827,
+            "lng": -56.155907
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Vel%C3%B3dromo+Municipal+de+Montevideo/@-34.8978271,-56.1559067,17z/data=!3m1!4b1!4m6!3m5!1s0x959f8100fec869df:0xf3dac3c6881334a1!8m2!3d-34.8978271!4d-56.1559067!16s%2Fg%2F122_gbj9",
+          "location": "Velódromo Municipal de Montevideo"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-por-hoy-dejamos-aca-setiembre-tercer-espacio-ciudad-vieja-locations",
+      "merchantNames": [
+        "Por Hoy Dejamos Acá- Setiembre"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "Por Hoy Dejamos Acá- Setiembre - Tercer Espacio Ciudad Vieja"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-school-of-rock-the-musical-teatro-astral-locations",
+      "merchantNames": [
+        "School of Rock – The Musical"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "School of Rock – The Musical - Teatro Astral",
+          "geo": {
+            "lat": -34.910147,
+            "lng": -56.183449
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Teatro+Astral/@-34.9101474,-56.1834488,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81c9081f133b:0x720659fb71045328!8m2!3d-34.9101474!4d-56.1834488!16s%2Fg%2F11bvv4qtv4",
+          "location": "Teatro Astral"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-suavecita-teatro-metro-locations",
+      "merchantNames": [
+        "Suavecita"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "Suavecita - Teatro Metro",
+          "geo": {
+            "lat": -34.906667,
+            "lng": -56.19
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Teatro+Metro/@-34.9066667,-56.19,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81cd1ea5a273:0xadadb9c7368267a1!8m2!3d-34.9066667!4d-56.19!16s%2Fg%2F11b6s19xq1",
+          "location": "Teatro Metro"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-ver-el-mundo-arder-teatro-stelal-d-italia-la-gaviota-locations",
+      "merchantNames": [
+        "Ver el mundo arder"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "Ver el mundo arder - Teatro Stelal D'Italia - La Gaviota",
+          "geo": {
+            "lat": -34.900541,
+            "lng": -56.178195
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Teatro+Stella+D'Italia.+La+Gaviota./@-34.9005409,-56.1781953,17z/data=!3m1!4b1!4m6!3m5!1s0x959f804b205423f5:0xe67f45177efa9d83!8m2!3d-34.9005409!4d-56.1781953!16s%2Fg%2F1tc_0pmw",
+          "location": "Teatro Stella D'Italia. La Gaviota., Montevideo"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-yo-encarnacion-teatro-metro-locations",
+      "merchantNames": [
+        "Yo Encarnación"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "Yo Encarnación - Teatro Metro",
+          "geo": {
+            "lat": -34.906667,
+            "lng": -56.19
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Teatro+Metro/@-34.9066667,-56.19,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81cd1ea5a273:0xadadb9c7368267a1!8m2!3d-34.9066667!4d-56.19!16s%2Fg%2F11b6s19xq1",
+          "location": "Teatro Metro"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-zita-de-tango-9-edicion-sala-zitarrosa-locations",
+      "merchantNames": [
+        "Zita de Tango – 9 ª Edición"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "Zita de Tango – 9 ª Edición - Sala Zitarrosa",
+          "geo": {
+            "lat": -34.906221,
+            "lng": -56.194456
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Sala+Zitarrosa/@-34.9062213,-56.1944559,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802d2e06d853:0x80732a9b51333b20!8m2!3d-34.9062213!4d-56.1944559!16s%2Fg%2F12dpwqjqf",
+          "location": "Sala Zitarrosa"
         }
       ]
     }

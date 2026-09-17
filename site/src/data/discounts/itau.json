@@ -65,8 +65,7 @@
       ],
       "cardFamilies": [
         "Personal Bank"
-      ],
-      "validUntil": "2026-08-31"
+      ]
     },
     {
       "merchant": "Farmacia El Túnel",
@@ -86,8 +85,7 @@
       "networks": [
         "visa",
         "mastercard"
-      ],
-      "validUntil": "2026-08-31"
+      ]
     },
     {
       "id": "itau-san-roque-premium-25",
@@ -110,8 +108,7 @@
       ],
       "cardFamilies": [
         "Personal Bank"
-      ],
-      "validUntil": "2026-08-31"
+      ]
     },
     {
       "id": "itau-san-roque-general-15",
@@ -132,8 +129,7 @@
       "networks": [
         "visa",
         "mastercard"
-      ],
-      "validUntil": "2026-08-31"
+      ]
     },
     {
       "merchant": "CIR Acondicionamiento térmico",
@@ -142,7 +138,6 @@
       "tiers": [
         "todas"
       ],
-      "validUntil": "2026-08-31",
       "stackable": false,
       "networks": [
         "visa",
@@ -164,8 +159,7 @@
         "todas"
       ],
       "stackable": false,
-      "notes": "No aplica para reparaciones",
-      "validUntil": "2026-08-31"
+      "notes": "No aplica para reparaciones"
     },
     {
       "merchant": "Bosch y Cia",
@@ -175,8 +169,7 @@
         "todas"
       ],
       "stackable": false,
-      "notes": "Tarjetas de crédito Itaú. Marcas: Roca, Hansgrohe, Johnson y Portobello",
-      "validUntil": "2026-08-16"
+      "notes": "Tarjetas de crédito Itaú. Marcas: Roca, Hansgrohe, Johnson y Portobello"
     },
     {
       "merchant": "Starbucks",
@@ -222,7 +215,6 @@
       "tiers": [
         "todas"
       ],
-      "validUntil": "2026-08-31",
       "stackable": false,
       "channels": [
         "in-store"
@@ -242,7 +234,6 @@
       "tiers": [
         "todas"
       ],
-      "validUntil": "2026-08-31",
       "stackable": false,
       "channels": [
         "in-store"
@@ -272,7 +263,6 @@
         "Personal Bank"
       ],
       "notes": "2x1 en helados de kilo y cucuruchos grandes. Solo Salto. No aplica Cuenta Pocket",
-      "validUntil": "2026-08-31",
       "location": "Salto",
       "geo": {
         "lat": -31.388646,
@@ -289,7 +279,6 @@
       "tiers": [
         "todas"
       ],
-      "validUntil": "2026-08-31",
       "channels": [
         "in-store",
         "online"

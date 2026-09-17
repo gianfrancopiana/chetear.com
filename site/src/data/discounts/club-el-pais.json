@@ -34,6 +34,20 @@
       "percent": 20
     },
     {
+      "merchant": "¿Estás ahí?",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "16 de Octubre - 20:30 hs. Lugar: Teatro El Galpón",
+      "validUntil": "2026-10-16",
+      "geo": {
+        "lat": -34.90403,
+        "lng": -56.181082
+      },
+      "mapsUrl": "https://www.google.com/maps/place/El+Galp%C3%B3n/@-34.9040305,-56.1810816,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81b5617dc4e7:0xc21c578fd5c6424f",
+      "location": "Teatro El Galpón, Montevideo"
+    },
+    {
       "merchant": "¿Quién mató al patriarca?",
       "category": "entretenimiento",
       "percent": 50,
@@ -46,6 +60,20 @@
       },
       "location": "Teatro Stella D'Italia. La Gaviota., Montevideo",
       "mapsUrl": "https://www.google.com/maps/place/Teatro+Stella+D'Italia.+La+Gaviota./@-34.9005409,-56.1781953,17z/data=!3m1!4b1!4m6!3m5!1s0x959f804b205423f5:0xe67f45177efa9d83!8m2!3d-34.9005409!4d-56.1781953!16s%2Fg%2F1tc_0pmw"
+    },
+    {
+      "merchant": "«Capibara» el carpincho",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "23 al 27 de setiembre - 15hs. Lugar: Teatro ACJ",
+      "validUntil": "2026-09-27",
+      "geo": {
+        "lat": -34.901043,
+        "lng": -56.176327
+      },
+      "mapsUrl": "https://www.google.com/maps/place/Young+Men+Christian+Association/@-34.901043,-56.176327,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81b4ad4d6ecf:0x644e47de5f46a127!8m2!3d-34.901043!4d-56.176327!16s%2Fg%2F1td7phd8",
+      "location": "Colonia 1870, Montevideo"
     },
     {
       "merchant": "20a Noche de los Estrenos: Tango, Murga y Rocanrol",
@@ -76,6 +104,34 @@
       "mapsUrl": "https://www.google.com/maps/place/Young+Men+Christian+Association/@-34.901043,-56.176327,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81b4ad4d6ecf:0x644e47de5f46a127!8m2!3d-34.901043!4d-56.176327!16s%2Fg%2F1td7phd8"
     },
     {
+      "merchant": "Alaclownddín -Vacaciones de primavera",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "20 y 27 de setiembre. Lugar: Ánima Espacio Cultural",
+      "validUntil": "2026-09-27",
+      "geo": {
+        "lat": -34.907534,
+        "lng": -56.198681
+      },
+      "mapsUrl": "https://www.google.com/maps/place/%C3%81nima+Espacio+Cultural/@-34.9075344,-56.1986809,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81b7743f96a1:0xf13e49a35ae4ca80!8m2!3d-34.9075344!4d-56.1986809!16s%2Fg%2F11cr_0xy45",
+      "location": "Ánima Espacio Cultural"
+    },
+    {
+      "merchant": "Alejandro Ferradás: : 4 Décadas",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "21 de Octubre - 20:30 hs. Lugar: Sociedad Urbana Villa Dolores",
+      "validUntil": "2026-10-21",
+      "geo": {
+        "lat": -34.900614,
+        "lng": -56.146561
+      },
+      "mapsUrl": "https://www.google.com/maps/place/Sociedad+Urbana+Villa+Dolores/@-34.9006142,-56.1465615,17z/data=!3m1!4b1!4m6!3m5!1s0x959f811e5518a2db:0xbedee45a926bf272!8m2!3d-34.9006142!4d-56.1465615!16s%2Fg%2F11s4wjb2xs",
+      "location": "Sociedad Urbana Villa Dolores"
+    },
+    {
       "merchant": "Ave Fénix – Sala Campodónico",
       "category": "entretenimiento",
       "percent": 50,
@@ -96,26 +152,26 @@
       "benefitType": "2-for-1"
     },
     {
+      "merchant": "Bandoneonas",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "28 de noviembre - 20hs. Lugar: Teatro Solís",
+      "validUntil": "2026-11-28",
+      "geo": {
+        "lat": -34.907634,
+        "lng": -56.201123
+      },
+      "mapsUrl": "https://www.google.com/maps/place/Teatro+Sol%C3%ADs/@-34.9076336,-56.2011228,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802adf27edcb:0xe9cdb804f35a1e8a!8m2!3d-34.9076336!4d-56.2011228!16s%2Fm%2F03c5d99",
+      "location": "Teatro Solís"
+    },
+    {
       "merchant": "BNS – Cascanueces",
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
       "notes": "10 al 20 de diciembre. Lugar: Auditorio Adela Reta",
       "validUntil": "2026-12-20",
-      "geo": {
-        "lat": -34.904353,
-        "lng": -56.198553
-      },
-      "location": "Auditorio Nacional Adela Reta",
-      "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
-    },
-    {
-      "merchant": "BNS – Coppelia",
-      "category": "entretenimiento",
-      "percent": 50,
-      "benefitType": "2-for-1",
-      "notes": "Del 17 al 30 de setiembre. Lugar: Auditorio Adela Reta",
-      "validUntil": "2026-09-30",
       "geo": {
         "lat": -34.904353,
         "lng": -56.198553
@@ -166,52 +222,24 @@
       "mapsUrl": "https://www.google.com/maps/place/Teatro+Sol%C3%ADs/@-34.9076336,-56.2011228,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802adf27edcb:0xe9cdb804f35a1e8a!8m2!3d-34.9076336!4d-56.2011228!16s%2Fm%2F03c5d99"
     },
     {
-      "merchant": "Charly Ferret",
+      "merchant": "Cenicienta, el Musical",
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "02 de setiembre - 21:00 hs. Lugar: Auditorio Adela Reta",
-      "validUntil": "2026-09-02",
+      "notes": "19 al 26 de setiembre - 15hs. Lugar: Teatro Astral",
+      "validUntil": "2026-09-26",
       "geo": {
-        "lat": -34.904353,
-        "lng": -56.198553
+        "lat": -34.910147,
+        "lng": -56.183449
       },
-      "location": "Auditorio Nacional Adela Reta",
-      "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
-    },
-    {
-      "merchant": "CNJS – Concierto VI",
-      "category": "entretenimiento",
-      "percent": 50,
-      "benefitType": "2-for-1",
-      "notes": "26 de agosto - 20hs. Lugar: Auditorio Adela Reta",
-      "validUntil": "2026-08-26",
-      "geo": {
-        "lat": -34.904353,
-        "lng": -56.198553
-      },
-      "location": "Auditorio Nacional Adela Reta",
-      "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
+      "mapsUrl": "https://www.google.com/maps/place/Teatro+Astral/@-34.9101474,-56.1834488,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81c9081f133b:0x720659fb71045328!8m2!3d-34.9101474!4d-56.1834488!16s%2Fg%2F11bvv4qtv4",
+      "location": "Teatro Astral"
     },
     {
       "merchant": "Conjunto Nacional de Música de Cámara",
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1"
-    },
-    {
-      "merchant": "Cuando se acaba la cuerda",
-      "category": "entretenimiento",
-      "percent": 50,
-      "benefitType": "2-for-1",
-      "notes": "06 de agosto al 06 de setiembre. Lugar: Auditorio Adela Reta",
-      "validUntil": "2026-09-06",
-      "geo": {
-        "lat": -34.904353,
-        "lng": -56.198553
-      },
-      "location": "Auditorio Nacional Adela Reta",
-      "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
     },
     {
       "merchant": "Dani La Chepi – Sala Campodónico",
@@ -242,54 +270,54 @@
       "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
     },
     {
-      "merchant": "Daniel K – Mentiras Verdaderas",
+      "merchant": "Diego Presa",
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "5 de setiembre - 21 hs. Lugar: Movie Montevideo",
-      "validUntil": "2026-09-05",
-      "geo": {
-        "lat": -34.881352,
-        "lng": -56.081088
-      },
-      "location": "Movie, 5775, Avenida Italia, Punta Gorda, Montevideo, 11403",
-      "mapsUrl": "https://www.google.com/maps/dir//-34.881352,-56.081088"
-    },
-    {
-      "merchant": "Edipo en Ezeiza",
-      "category": "entretenimiento",
-      "percent": 50,
-      "benefitType": "2-for-1",
-      "notes": "Del 09 al al 13 de setiembre. Lugar: Auditorio Adela Reta",
-      "validUntil": "2026-09-13",
+      "notes": "8 de octubre - 21 hs. Lugar: Auditorio Adela Reta",
+      "validUntil": "2026-10-08",
       "geo": {
         "lat": -34.904353,
         "lng": -56.198553
       },
-      "location": "Auditorio Nacional Adela Reta",
-      "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
+      "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z",
+      "location": "Auditorio Nacional Adela Reta"
     },
     {
-      "merchant": "El caso inevitable del Sr. Méndez",
+      "merchant": "EL BIEN",
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "Del 17 de julio al 28 de agosto. Lugar: Teatro Alianza",
-      "validUntil": "2026-08-28",
+      "notes": "22 de Octubre - 20:30 hs. Lugar: Teatro Stella D'Italia. La Gaviota",
+      "validUntil": "2026-10-22",
       "geo": {
-        "lat": -34.908478,
-        "lng": -56.192329
+        "lat": -34.900541,
+        "lng": -56.178195
       },
-      "location": "Teatro Alianza",
-      "mapsUrl": "https://www.google.com/maps/place/Teatro+Alianza/@-34.9084781,-56.1923287,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81cd80292d3b:0x8b46eed506719c94!8m2!3d-34.9084781!4d-56.1923287!16s%2Fg%2F11bwh9w_js"
+      "mapsUrl": "https://www.google.com/maps/place/Teatro+Stella+D'Italia.+La+Gaviota./@-34.9005409,-56.1781953,17z/data=!3m1!4b1!4m6!3m5!1s0x959f804b205423f5:0xe67f45177efa9d83!8m2!3d-34.9005409!4d-56.1781953!16s%2Fg%2F1tc_0pmw",
+      "location": "Teatro Stella D'Italia. La Gaviota., Montevideo"
     },
     {
       "merchant": "El Jefe del Jefe",
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "26 y 27 de noviembre - 20hs. Lugar: Teatro Movie",
-      "validUntil": "2026-11-27"
+      "notes": "26, 27, 28 y 29 de noviembre - 20hs. Lugar: Teatro Movie",
+      "validUntil": "2026-11-29"
+    },
+    {
+      "merchant": "El rey de los hongos",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "19 de setiembre al 25 de octubre. Lugar: Teatro Circular",
+      "validUntil": "2026-10-25",
+      "geo": {
+        "lat": -34.905243,
+        "lng": -56.191147
+      },
+      "mapsUrl": "https://www.google.com/maps/place/Teatro+Circular/@-34.9052429,-56.1911468,17z/data=!3m1!4b1!4m6!3m5!1s0x959f8032b0c64a17:0x613f3768417500bd!8m2!3d-34.9052429!4d-56.1911468!16s%2Fg%2F12gh3c102",
+      "location": "Teatro Circular"
     },
     {
       "merchant": "El Sapo Ruperto: Una pequeña aventura musical",
@@ -306,6 +334,20 @@
       "mapsUrl": "https://www.google.com/maps/place/Auditorio+del+Sodre+Nelly+Goiti%C3%B1o/@-34.9063649,-56.1963156,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802cc182a38b:0x93bac231276c00d9!8m2!3d-34.9063649!4d-56.1963156!16s%2Fg%2F113qbbcsh"
     },
     {
+      "merchant": "El Teatro",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "9 de octubre al 22 de noviembre. Lugar: Teatro Solís",
+      "validUntil": "2026-11-22",
+      "geo": {
+        "lat": -34.907634,
+        "lng": -56.201123
+      },
+      "mapsUrl": "https://www.google.com/maps/place/Teatro+Sol%C3%ADs/@-34.9076336,-56.2011228,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802adf27edcb:0xe9cdb804f35a1e8a!8m2!3d-34.9076336!4d-56.2011228!16s%2Fm%2F03c5d99",
+      "location": "Teatro Solís"
+    },
+    {
       "merchant": "Elena Roger en Concierto",
       "category": "entretenimiento",
       "percent": 50,
@@ -320,18 +362,32 @@
       "mapsUrl": "https://www.google.com/maps/place/El+Galp%C3%B3n/@-34.9040305,-56.1810816,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81b5617dc4e7:0xc21c578fd5c6424f!8m2!3d-34.9040305!4d-56.1810816!16s%2Fg%2F121rjw4h"
     },
     {
-      "merchant": "Expo Café Uruguay 2026",
+      "merchant": "Expo Prado 2026",
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "12 y 13 de setiembre de 10 a 20 hs. Lugar: Centro de Eventos del Parque de Innovación del LATU",
-      "validUntil": "2026-09-13",
+      "notes": "11 al 20 de Setiembre de 2026. Lugar: Rural del Prado",
+      "validUntil": "2026-09-20",
       "geo": {
-        "lat": -34.879003,
-        "lng": -56.080881
+        "lat": -34.863049,
+        "lng": -56.203285
       },
-      "location": "Av. Dra. María Luisa Saldún de Rodríguez 2037, Montevideo",
-      "mapsUrl": "https://www.google.com/maps/place/Centro+de+Eventos+del+Parque+de+Innovaci%C3%B3n+del+LATU/@-34.8790025,-56.0808807,17z/data=!3m1!4b1!4m6!3m5!1s0x959f871cf9b86f2f:0xdcc48036c96341a6!8m2!3d-34.8790025!4d-56.0808807!16s%2Fg%2F11fk8hkzvb"
+      "mapsUrl": "https://www.google.com/maps/place/Rural+del+Prado/@-34.8630492,-56.2032852,17z/data=!3m1!4b1!4m6!3m5!1s0x95a02aad48e0af2b:0xe14c76e4d71a56a3!8m2!3d-34.8630492!4d-56.2032852!16s%2Fg%2F121m84fv",
+      "location": "Rural del Prado"
+    },
+    {
+      "merchant": "Extraña Pareja | Sala China Zorrilla",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "Del 5 al 27 de setiembre. Lugar: Teatro Alianza",
+      "validUntil": "2026-09-27",
+      "geo": {
+        "lat": -34.908478,
+        "lng": -56.192329
+      },
+      "mapsUrl": "https://www.google.com/maps/place/Teatro+Alianza/@-34.9084781,-56.1923287,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81cd80292d3b:0x8b46eed506719c94!8m2!3d-34.9084781!4d-56.1923287!16s%2Fg%2F11bwh9w_js",
+      "location": "Teatro Alianza"
     },
     {
       "merchant": "Festival Música de la Tierra – 15 años",
@@ -348,18 +404,12 @@
       "mapsUrl": "https://www.google.com/maps/place/Parque+de+la+Amistad/@-34.9022731,-56.144214,17z/data=!3m1!4b1!4m6!3m5!1s0x959f8110eee34b5d:0x1ae6547e63098ebc!8m2!3d-34.9022731!4d-56.144214!16s%2Fg%2F11bvcv5w00"
     },
     {
-      "merchant": "Florencia Núñez – Gira Década y Media – Sodre",
+      "merchant": "Flor Infante – Austero",
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "18 de octubre - 20:00 hs. Lugar: Auditorio Adela Reta",
-      "validUntil": "2026-10-18",
-      "geo": {
-        "lat": -34.904353,
-        "lng": -56.198553
-      },
-      "location": "Auditorio Nacional Adela Reta",
-      "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
+      "notes": "21 de noviembre - 21:30 hrs. Lugar: Movie Montevideo",
+      "validUntil": "2026-11-21"
     },
     {
       "merchant": "FutVolt",
@@ -368,40 +418,74 @@
       "benefitType": "2-for-1"
     },
     {
-      "merchant": "Gato Renato Está En La Luna",
+      "merchant": "Gabriel Rolón",
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "Del 30 de agosto al 13 de setiembre. Lugar: Planetario de Montevideo",
-      "validUntil": "2026-09-13",
+      "notes": "26 de noviembre - 21:30hs. Lugar: Auditorio Adela Reta",
+      "validUntil": "2026-11-26",
       "geo": {
-        "lat": -34.901858,
-        "lng": -56.144551
+        "lat": -34.904353,
+        "lng": -56.198553
       },
-      "location": "Planetario de Montevideo",
-      "mapsUrl": "https://www.google.com/maps/place/Planetario+de+Montevideo/@-34.901858,-56.144551,17z/data=!3m1!4b1!4m6!3m5!1s0x959f8110fac5989f:0x7b32fd0cf4bd7a7d!8m2!3d-34.901858!4d-56.144551!16s%2Fg%2F11b7431k3_"
+      "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z",
+      "location": "Auditorio Nacional Adela Reta"
     },
     {
-      "merchant": "Gustavo Casenave",
+      "merchant": "Harlem Globetrotters – Durazno",
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "21 de agosto - 20:00 hs. Lugar: Teatro Solís",
-      "validUntil": "2026-08-21",
+      "notes": "4 de Noviembre - 20 hs. Lugar: Estadio Ernesto de León",
+      "validUntil": "2026-11-04",
       "geo": {
-        "lat": -34.907634,
-        "lng": -56.201123
+        "lat": -33.374417,
+        "lng": -56.520364
       },
-      "location": "Teatro Solís",
-      "mapsUrl": "https://www.google.com/maps/place/Teatro+Sol%C3%ADs/@-34.9076336,-56.2011228,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802adf27edcb:0xe9cdb804f35a1e8a!8m2!3d-34.9076336!4d-56.2011228!16s%2Fm%2F03c5d99"
+      "mapsUrl": "https://www.google.com/maps/place/Estadio+Ernesto+de+Le%C3%B3n/@-33.3744166,-56.520364,17z/data=!3m1!4b1!4m6!3m5!1s0x95a6ea8a2f08203d:0x537af7f7c45d09bf!8m2!3d-33.3744166!4d-56.520364!16s%2Fg%2F1tcws9xj",
+      "location": "Estadio Ernesto de León"
     },
     {
-      "merchant": "Hablame de Cáncer",
+      "merchant": "Harlem Globetrotters – Montevideo",
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "Del 14 al 30 de agosto - 20 hs. Lugar: Piso 19 - Hospital de Clínicas de Montevideo",
-      "validUntil": "2026-08-30"
+      "notes": "4 de Noviembre - 20 hs. Lugar: Antel Arena",
+      "validUntil": "2026-11-04",
+      "geo": {
+        "lat": -34.862975,
+        "lng": -56.153698
+      },
+      "mapsUrl": "https://www.google.com/maps/place/Antel+Arena/@-34.8629745,-56.1536983,17z/data=!3m1!4b1!4m6!3m5!1s0x959f80859196b1db:0xfa0cae26c29546da!8m2!3d-34.8629745!4d-56.1536983!16s%2Fg%2F11gt__kjqx",
+      "location": "Antel Arena"
+    },
+    {
+      "merchant": "Javier Santaolalla",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "17 de Diciembre - 20 hs. Lugar: Teatro El Galpón",
+      "validUntil": "2026-12-17",
+      "geo": {
+        "lat": -34.90403,
+        "lng": -56.181082
+      },
+      "mapsUrl": "https://www.google.com/maps/place/El+Galp%C3%B3n/@-34.9040305,-56.1810816,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81b5617dc4e7:0xc21c578fd5c6424f",
+      "location": "Teatro El Galpón, Montevideo"
+    },
+    {
+      "merchant": "Julieta Laso",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "27 de noviembre - 20:30 hs. Lugar: Sala Zitarrosa",
+      "validUntil": "2026-11-27",
+      "geo": {
+        "lat": -34.906221,
+        "lng": -56.194456
+      },
+      "mapsUrl": "https://www.google.com/maps/place/Sala+Zitarrosa/@-34.9062213,-56.1944559,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802d2e06d853:0x80732a9b51333b20!8m2!3d-34.9062213!4d-56.1944559!16s%2Fg%2F12dpwqjqf",
+      "location": "Sala Zitarrosa"
     },
     {
       "merchant": "Karina en concierto",
@@ -418,20 +502,6 @@
       "mapsUrl": "https://www.google.com/maps/place/Antel+Arena/@-34.8629745,-56.1536983,17z/data=!3m1!4b1!4m6!3m5!1s0x959f80859196b1db:0xfa0cae26c29546da!8m2!3d-34.8629745!4d-56.1536983!16s%2Fg%2F11gt__kjqx"
     },
     {
-      "merchant": "La Dolce Vita – La Filarmónica",
-      "category": "entretenimiento",
-      "percent": 50,
-      "benefitType": "2-for-1",
-      "notes": "21 de octubre - 19:30 hs. Lugar: Teatro Solís",
-      "validUntil": "2026-10-21",
-      "geo": {
-        "lat": -34.907634,
-        "lng": -56.201123
-      },
-      "location": "Teatro Solís",
-      "mapsUrl": "https://www.google.com/maps/place/Teatro+Sol%C3%ADs/@-34.9076336,-56.2011228,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802adf27edcb:0xe9cdb804f35a1e8a!8m2!3d-34.9076336!4d-56.2011228!16s%2Fm%2F03c5d99"
-    },
-    {
       "merchant": "La Filarmónica – Los Planetas",
       "category": "entretenimiento",
       "percent": 50,
@@ -446,18 +516,54 @@
       "mapsUrl": "https://www.google.com/maps/place/Teatro+Sol%C3%ADs/@-34.9076336,-56.2011228,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802adf27edcb:0xe9cdb804f35a1e8a!8m2!3d-34.9076336!4d-56.2011228!16s%2Fm%2F03c5d99"
     },
     {
-      "merchant": "La Omisión de la Familia Coleman",
+      "merchant": "La Triple Nelson",
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "21 de agosto - 20:15 hs. Lugar: Movie Montevideo",
-      "validUntil": "2026-08-21",
+      "notes": "18 de Septiembre - 21:30 hs. Lugar: Pueblo Narakan",
+      "validUntil": "2026-09-18",
       "geo": {
-        "lat": -34.881352,
-        "lng": -56.081088
+        "lat": -34.965829,
+        "lng": -54.950199
       },
-      "location": "Movie, 5775, Avenida Italia, Punta Gorda, Montevideo, 11403",
-      "mapsUrl": "https://www.google.com/maps/dir//-34.881352,-56.081088"
+      "mapsUrl": "https://www.google.com/maps/place/Pueblo+Narakan/@-34.965829,-54.9501988,17z/data=!3m1!4b1!4m6!3m5!1s0x957505fe4891555b:0xa971232087fe3361!8m2!3d-34.965829!4d-54.9501988!16s%2Fg%2F11t6kxxp4l",
+      "location": "Pueblo Narakan"
+    },
+    {
+      "merchant": "Lady Macbeth (Sobre el poder en las sombras)",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "Del 22 de agosto al 26 de setiembre. Lugar: Teatro Stella D'Italia. La Gaviota",
+      "validUntil": "2026-09-26",
+      "geo": {
+        "lat": -34.900541,
+        "lng": -56.178195
+      },
+      "mapsUrl": "https://www.google.com/maps/place/Teatro+Stella+D'Italia.+La+Gaviota./@-34.9005409,-56.1781953,17z/data=!3m1!4b1!4m6!3m5!1s0x959f804b205423f5:0xe67f45177efa9d83!8m2!3d-34.9005409!4d-56.1781953!16s%2Fg%2F1tc_0pmw",
+      "location": "Teatro Stella D'Italia. La Gaviota., Montevideo"
+    },
+    {
+      "merchant": "Las camisas blancas",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "1 al 30 de octubre. Lugar: Teatro El Galpón",
+      "validUntil": "2026-10-30",
+      "geo": {
+        "lat": -34.90403,
+        "lng": -56.181082
+      },
+      "mapsUrl": "https://www.google.com/maps/place/El+Galp%C3%B3n/@-34.9040305,-56.1810816,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81b5617dc4e7:0xc21c578fd5c6424f",
+      "location": "Teatro El Galpón, Montevideo"
+    },
+    {
+      "merchant": "Lluvia constante",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "5 de noviembre - 21 hs. Lugar: Movie Montevideo",
+      "validUntil": "2026-11-05"
     },
     {
       "merchant": "Lorca – «El Tren del Olvido» 30° aniversario (Sala Campodónico)",
@@ -488,18 +594,32 @@
       "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
     },
     {
-      "merchant": "Maia Castro – 20 años",
+      "merchant": "Luciano Supervielle & Mateo Ottonello + Cuarteto de Cuerdas",
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "22 de agosto - 20hs. Lugar: Teatro Solís",
-      "validUntil": "2026-08-22",
+      "notes": "1 de Octubre - 21hs. Lugar: La Trastienda",
+      "validUntil": "2026-10-01",
       "geo": {
-        "lat": -34.907634,
-        "lng": -56.201123
+        "lat": -34.898385,
+        "lng": -56.178412
       },
-      "location": "Teatro Solís",
-      "mapsUrl": "https://www.google.com/maps/place/Teatro+Sol%C3%ADs/@-34.9076336,-56.2011228,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802adf27edcb:0xe9cdb804f35a1e8a!8m2!3d-34.9076336!4d-56.2011228!16s%2Fm%2F03c5d99"
+      "mapsUrl": "https://www.google.com/maps/place/La+Trastienda/@-34.8983845,-56.1784118,17z/data=!3m1!4b1!4m6!3m5!1s0x959f804a4cb5c913:0xb5518b32a0807745!8m2!3d-34.8983845!4d-56.1784118!16s%2Fg%2F11xc0qdc_",
+      "location": "Daniel Fernández Crespo 1763, Montevideo"
+    },
+    {
+      "merchant": "Malandra Social Club",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "20 de Noviembre - 21hs. Lugar: La Trastienda",
+      "validUntil": "2026-11-20",
+      "geo": {
+        "lat": -34.898385,
+        "lng": -56.178412
+      },
+      "mapsUrl": "https://www.google.com/maps/place/La+Trastienda/@-34.8983845,-56.1784118,17z/data=!3m1!4b1!4m6!3m5!1s0x959f804a4cb5c913:0xb5518b32a0807745!8m2!3d-34.8983845!4d-56.1784118!16s%2Fg%2F11xc0qdc_",
+      "location": "Daniel Fernández Crespo 1763, Montevideo"
     },
     {
       "merchant": "Malena Muyala y Ana Prada: Las mismas",
@@ -516,6 +636,34 @@
       "mapsUrl": "https://www.google.com/maps/place/La+Trastienda/@-34.8983845,-56.1784118,17z/data=!3m1!4b1!4m6!3m5!1s0x959f804a4cb5c913:0xb5518b32a0807745!8m2!3d-34.8983845!4d-56.1784118!16s%2Fg%2F11xc0qdc_"
     },
     {
+      "merchant": "Mandrake y los Druidas presenta: “Un Plan Perfecto”",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "09 de Octubre - 21 hs. Lugar: La Trastienda",
+      "validUntil": "2026-10-09",
+      "geo": {
+        "lat": -34.898385,
+        "lng": -56.178412
+      },
+      "mapsUrl": "https://www.google.com/maps/place/La+Trastienda/@-34.8983845,-56.1784118,17z/data=!3m1!4b1!4m6!3m5!1s0x959f804a4cb5c913:0xb5518b32a0807745!8m2!3d-34.8983845!4d-56.1784118!16s%2Fg%2F11xc0qdc_",
+      "location": "Daniel Fernández Crespo 1763, Montevideo"
+    },
+    {
+      "merchant": "Mercedes Cañas en concierto",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "10 de Octubre - 21 hs. Lugar: La Trastienda",
+      "validUntil": "2026-10-10",
+      "geo": {
+        "lat": -34.898385,
+        "lng": -56.178412
+      },
+      "mapsUrl": "https://www.google.com/maps/place/La+Trastienda/@-34.8983845,-56.1784118,17z/data=!3m1!4b1!4m6!3m5!1s0x959f804a4cb5c913:0xb5518b32a0807745!8m2!3d-34.8983845!4d-56.1784118!16s%2Fg%2F11xc0qdc_",
+      "location": "Daniel Fernández Crespo 1763, Montevideo"
+    },
+    {
       "merchant": "Montoya Woman 6k",
       "category": "entretenimiento",
       "percent": 50,
@@ -528,6 +676,20 @@
       },
       "location": "OH! LA BARRA, Manantiales",
       "mapsUrl": "https://www.google.com/maps/place/OH!+LA+BARRA/@-34.9150391,-54.855854,17z/data=!3m1!4b1!4m6!3m5!1s0x957503467ccd8d79:0xc9f66fb81fd5c4c!8m2!3d-34.9150391!4d-54.855854!16s%2Fg%2F1ptxhhjf3"
+    },
+    {
+      "merchant": "Mosquitos",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "Hasta el domingo 11 de octubre. Lugar: Sala Verdi",
+      "validUntil": "2026-10-11",
+      "geo": {
+        "lat": -34.908254,
+        "lng": -56.196375
+      },
+      "mapsUrl": "https://www.google.com/maps/place/Sala+Verdi/@-34.9082536,-56.1963746,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81d338629f9b:0xee775820331447fd!8m2!3d-34.9082536!4d-56.1963746!16s%2Fg%2F1ym_k_vk3",
+      "location": "Sala Verdi"
     },
     {
       "merchant": "Movie",
@@ -543,32 +705,60 @@
       "notes": "A partir de $400"
     },
     {
-      "merchant": "Noche de la Nostalgia en Plaza de Toros",
+      "merchant": "Murga Madre – «El reloj no ha parado nunca»",
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "24 de Agosto - 22 hs. Lugar: Plaza de Toros Real de San Carlos",
-      "validUntil": "2026-08-24",
-      "geo": {
-        "lat": -34.436517,
-        "lng": -57.86514
-      },
-      "location": "Plaza de Toros Real de San Carlos, Colonia",
-      "mapsUrl": "https://www.google.com/maps/place/Plaza+de+Toros+Real+de+San+Carlos/@-34.4365172,-57.8651404,17z/data=!3m1!4b1!4m6!3m5!1s0x95a312d0b33bb5ff:0x70ccaa876da3e19b!8m2!3d-34.4365172!4d-57.8651404!16s%2Fm%2F04gnk34"
-    },
-    {
-      "merchant": "Noelia Pace",
-      "category": "entretenimiento",
-      "percent": 50,
-      "benefitType": "2-for-1",
-      "notes": "8 y 9 de setiembre. Lugar: Teatro El Galpón",
-      "validUntil": "2026-09-09",
+      "notes": "12 y 13 de noviembre - 21hs. Lugar: Teatro El Galpón",
+      "validUntil": "2026-11-13",
       "geo": {
         "lat": -34.90403,
         "lng": -56.181082
       },
-      "location": "Teatro El Galpón, Montevideo",
-      "mapsUrl": "https://www.google.com/maps/place/El+Galp%C3%B3n/@-34.9040305,-56.1810816,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81b5617dc4e7:0xc21c578fd5c6424f"
+      "mapsUrl": "https://www.google.com/maps/place/El+Galp%C3%B3n/@-34.9040305,-56.1810816,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81b5617dc4e7:0xc21c578fd5c6424f",
+      "location": "Teatro El Galpón, Montevideo"
+    },
+    {
+      "merchant": "Natalie Perez",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "14 de noviembre. Lugar: Sala Zitarrosa",
+      "validUntil": "2026-11-14",
+      "geo": {
+        "lat": -34.906221,
+        "lng": -56.194456
+      },
+      "mapsUrl": "https://www.google.com/maps/place/Sala+Zitarrosa/@-34.9062213,-56.1944559,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802d2e06d853:0x80732a9b51333b20!8m2!3d-34.9062213!4d-56.1944559!16s%2Fg%2F12dpwqjqf",
+      "location": "Sala Zitarrosa"
+    },
+    {
+      "merchant": "Nico Ibarburu",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "2 de Octubre - 21:30 hs. Lugar: Pueblo Narakan",
+      "validUntil": "2026-10-02",
+      "geo": {
+        "lat": -34.965829,
+        "lng": -54.950199
+      },
+      "mapsUrl": "https://www.google.com/maps/place/Pueblo+Narakan/@-34.965829,-54.9501988,17z/data=!3m1!4b1!4m6!3m5!1s0x957505fe4891555b:0xa971232087fe3361!8m2!3d-34.965829!4d-54.9501988!16s%2Fg%2F11t6kxxp4l",
+      "location": "Pueblo Narakan"
+    },
+    {
+      "merchant": "No Te Va a Gustar",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "12 de diciembre. Lugar: Velódromo Municipal de Montevideo",
+      "validUntil": "2026-12-12",
+      "geo": {
+        "lat": -34.897827,
+        "lng": -56.155907
+      },
+      "mapsUrl": "https://www.google.com/maps/place/Vel%C3%B3dromo+Municipal+de+Montevideo/@-34.8978271,-56.1559067,17z/data=!3m1!4b1!4m6!3m5!1s0x959f8100fec869df:0xf3dac3c6881334a1!8m2!3d-34.8978271!4d-56.1559067!16s%2Fg%2F122_gbj9",
+      "location": "Velódromo Municipal de Montevideo"
     },
     {
       "merchant": "OJNS – Gala de Año Nuevo",
@@ -619,32 +809,12 @@
       "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
     },
     {
-      "merchant": "OSSODRE – Romántico",
+      "merchant": "Por Hoy Dejamos Acá- Setiembre",
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "05 de septiembre - 20:00 hs. Lugar: Auditorio Adela Reta",
-      "validUntil": "2026-09-05",
-      "geo": {
-        "lat": -34.904353,
-        "lng": -56.198553
-      },
-      "location": "Auditorio Nacional Adela Reta",
-      "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
-    },
-    {
-      "merchant": "Pablo Picotto I 25 años de humor ¿Quién te conoce?",
-      "category": "entretenimiento",
-      "percent": 50,
-      "benefitType": "2-for-1",
-      "notes": "21 de Agosto - 21:30 hs. Lugar: Teatro Solís",
-      "validUntil": "2026-08-21",
-      "geo": {
-        "lat": -34.907634,
-        "lng": -56.201123
-      },
-      "location": "Teatro Solís",
-      "mapsUrl": "https://www.google.com/maps/place/Teatro+Sol%C3%ADs/@-34.9076336,-56.2011228,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802adf27edcb:0xe9cdb804f35a1e8a!8m2!3d-34.9076336!4d-56.2011228!16s%2Fm%2F03c5d99"
+      "notes": "20 de Septiembre - 20:30 hs. Lugar: Tercer Espacio Ciudad Vieja",
+      "validUntil": "2026-09-20"
     },
     {
       "merchant": "Raly Barrionuevo",
@@ -659,6 +829,34 @@
       },
       "location": "Sala Zitarrosa",
       "mapsUrl": "https://www.google.com/maps/place/Sala+Zitarrosa/@-34.9062213,-56.1944559,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802d2e06d853:0x80732a9b51333b20!8m2!3d-34.9062213!4d-56.1944559!16s%2Fg%2F12dpwqjqf"
+    },
+    {
+      "merchant": "School of Rock – The Musical",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "19 al 27 de setiembre. Lugar: Teatro Astral",
+      "validUntil": "2026-09-27",
+      "geo": {
+        "lat": -34.910147,
+        "lng": -56.183449
+      },
+      "mapsUrl": "https://www.google.com/maps/place/Teatro+Astral/@-34.9101474,-56.1834488,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81c9081f133b:0x720659fb71045328!8m2!3d-34.9101474!4d-56.1834488!16s%2Fg%2F11bvv4qtv4",
+      "location": "Teatro Astral"
+    },
+    {
+      "merchant": "Suavecita",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "21 de Noviembre - 20:30 hs. Lugar: Teatro Metro",
+      "validUntil": "2026-11-21",
+      "geo": {
+        "lat": -34.906667,
+        "lng": -56.19
+      },
+      "mapsUrl": "https://www.google.com/maps/place/Teatro+Metro/@-34.9066667,-56.19,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81cd1ea5a273:0xadadb9c7368267a1!8m2!3d-34.9066667!4d-56.19!16s%2Fg%2F11b6s19xq1",
+      "location": "Teatro Metro"
     },
     {
       "merchant": "Tantoman – Porfiados",
@@ -736,32 +934,46 @@
       "mapsUrl": "https://www.google.com/maps/place/Teatro+de+Verano+Ram%C3%B3n+Collazo/@-34.9198507,-56.1697255,17z/data=!3m1!4b1!4m6!3m5!1s0x959f819821d1de0f:0xb2823d7887f5540a!8m2!3d-34.9198507!4d-56.1697255!16s%2Fg%2F122fjxmh"
     },
     {
-      "merchant": "Un Poco de Ruido – Prado",
+      "merchant": "Ver el mundo arder",
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "7 de Noviembre - 21 hs. Lugar: Rural del Prado",
-      "validUntil": "2026-11-07",
+      "notes": "6 de setiembre al 25 de octubre. Lugar: Teatro Stelal D'Italia - La Gaviota",
+      "validUntil": "2026-10-25",
       "geo": {
-        "lat": -34.863049,
-        "lng": -56.203285
+        "lat": -34.900541,
+        "lng": -56.178195
       },
-      "location": "Rural del Prado",
-      "mapsUrl": "https://www.google.com/maps/place/Rural+del+Prado/@-34.8630492,-56.2032852,17z/data=!3m1!4b1!4m6!3m5!1s0x95a02aad48e0af2b:0xe14c76e4d71a56a3!8m2!3d-34.8630492!4d-56.2032852!16s%2Fg%2F121m84fv"
+      "mapsUrl": "https://www.google.com/maps/place/Teatro+Stella+D'Italia.+La+Gaviota./@-34.9005409,-56.1781953,17z/data=!3m1!4b1!4m6!3m5!1s0x959f804b205423f5:0xe67f45177efa9d83!8m2!3d-34.9005409!4d-56.1781953!16s%2Fg%2F1tc_0pmw",
+      "location": "Teatro Stella D'Italia. La Gaviota., Montevideo"
     },
     {
-      "merchant": "Van Gogh – El Sueño Inmersivo",
+      "merchant": "Yo Encarnación",
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "Del 29 de Julio al 30 de agosto. Lugar: Rural del Prado",
-      "validUntil": "2026-08-30",
+      "notes": "28 de Noviembre - 20:30 hs. Lugar: Teatro Metro",
+      "validUntil": "2026-11-28",
       "geo": {
-        "lat": -34.863049,
-        "lng": -56.203285
+        "lat": -34.906667,
+        "lng": -56.19
       },
-      "location": "Rural del Prado",
-      "mapsUrl": "https://www.google.com/maps/place/Rural+del+Prado/@-34.8630492,-56.2032852,17z/data=!3m1!4b1!4m6!3m5!1s0x95a02aad48e0af2b:0xe14c76e4d71a56a3!8m2!3d-34.8630492!4d-56.2032852!16s%2Fg%2F121m84fv"
+      "mapsUrl": "https://www.google.com/maps/place/Teatro+Metro/@-34.9066667,-56.19,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81cd1ea5a273:0xadadb9c7368267a1!8m2!3d-34.9066667!4d-56.19!16s%2Fg%2F11b6s19xq1",
+      "location": "Teatro Metro"
+    },
+    {
+      "merchant": "Zita de Tango – 9 ª Edición",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "17 de octubre - 21 hs. Lugar: Sala Zitarrosa",
+      "validUntil": "2026-10-17",
+      "geo": {
+        "lat": -34.906221,
+        "lng": -56.194456
+      },
+      "mapsUrl": "https://www.google.com/maps/place/Sala+Zitarrosa/@-34.9062213,-56.1944559,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802d2e06d853:0x80732a9b51333b20!8m2!3d-34.9062213!4d-56.1944559!16s%2Fg%2F12dpwqjqf",
+      "location": "Sala Zitarrosa"
     },
     {
       "merchant": "Horneros Racket Club",
@@ -1056,11 +1268,6 @@
         "martes",
         "miercoles"
       ]
-    },
-    {
-      "merchant": "Papelería Goya",
-      "category": "hogar",
-      "percent": 20
     },
     {
       "merchant": "Punto Color",
@@ -1725,12 +1932,7 @@
     {
       "merchant": "Under Armour",
       "category": "indumentaria",
-      "percent": 20,
-      "days": [
-        "lunes",
-        "martes",
-        "miercoles"
-      ]
+      "percent": 20
     },
     {
       "merchant": "Uniform & Co",
@@ -1818,6 +2020,11 @@
       ]
     },
     {
+      "merchant": "Papelería Goya",
+      "category": "otros",
+      "percent": 20
+    },
+    {
       "merchant": "Petit Baby",
       "category": "otros",
       "percent": 20,
@@ -1826,6 +2033,11 @@
         "martes",
         "miercoles"
       ]
+    },
+    {
+      "merchant": "IBER",
+      "category": "restaurante",
+      "percent": 30
     },
     {
       "merchant": "Cauce",
@@ -1851,16 +2063,6 @@
       "merchant": "deVino",
       "category": "restaurante",
       "percent": 20
-    },
-    {
-      "merchant": "IBER",
-      "category": "restaurante",
-      "percent": 20,
-      "days": [
-        "lunes",
-        "martes",
-        "miercoles"
-      ]
     },
     {
       "merchant": "Il Baretto",
