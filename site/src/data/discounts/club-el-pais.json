@@ -814,7 +814,13 @@
       "percent": 50,
       "benefitType": "2-for-1",
       "notes": "20 de Septiembre - 20:30 hs. Lugar: Tercer Espacio Ciudad Vieja",
-      "validUntil": "2026-09-20"
+      "validUntil": "2026-09-20",
+      "geo": {
+        "lat": -34.905018,
+        "lng": -56.203875
+      },
+      "mapsUrl": "https://www.google.com/maps/place/Tercer+Espacio+Ciudad+Vieja/@-34.9050175,-56.2083813,17z/data=!4m10!1m2!2m1!1sTercer+Espacio+Ciudad+Vieja+Montevideo+Uruguay!3m6!1s0x959f7f006c7203b5:0x639d5e4c71c507a0!8m2!3d-34.9050175!4d-56.2038752",
+      "location": "Ciudad Vieja, Montevideo"
     },
     {
       "merchant": "Raly Barrionuevo",

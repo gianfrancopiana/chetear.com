@@ -318,7 +318,7 @@
       "tiers": [
         "todas"
       ],
-      "validUntil": "2026-12-31",
+      "validUntil": "2027-12-31",
       "stackable": false,
       "refundType": "point-of-sale",
       "channels": [
