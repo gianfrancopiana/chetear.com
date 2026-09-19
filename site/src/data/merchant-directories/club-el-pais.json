@@ -4284,26 +4284,6 @@
       ]
     },
     {
-      "id": "club-el-pais-la-triple-nelson-pueblo-narakan-locations",
-      "merchantNames": [
-        "La Triple Nelson"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "La Triple Nelson - Pueblo Narakan",
-          "geo": {
-            "lat": -34.965829,
-            "lng": -54.950199
-          },
-          "mapsUrl": "https://www.google.com/maps/place/Pueblo+Narakan/@-34.965829,-54.9501988,17z/data=!3m1!4b1!4m6!3m5!1s0x957505fe4891555b:0xa971232087fe3361!8m2!3d-34.965829!4d-54.9501988!16s%2Fg%2F11t6kxxp4l",
-          "location": "Pueblo Narakan"
-        }
-      ]
-    },
-    {
       "id": "club-el-pais-lady-macbeth-sobre-el-poder-en-las-sombras-teatro-stella-d-italia-locations",
       "merchantNames": [
         "Lady Macbeth (Sobre el poder en las sombras)"
