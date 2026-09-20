@@ -4538,26 +4538,6 @@
       ]
     },
     {
-      "id": "club-el-pais-school-of-rock-the-musical-teatro-astral-locations",
-      "merchantNames": [
-        "School of Rock – The Musical"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "School of Rock – The Musical - Teatro Astral",
-          "geo": {
-            "lat": -34.910147,
-            "lng": -56.183449
-          },
-          "mapsUrl": "https://www.google.com/maps/place/Teatro+Astral/@-34.9101474,-56.1834488,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81c9081f133b:0x720659fb71045328!8m2!3d-34.9101474!4d-56.1834488!16s%2Fg%2F11bvv4qtv4",
-          "location": "Teatro Astral"
-        }
-      ]
-    },
-    {
       "id": "club-el-pais-suavecita-teatro-metro-locations",
       "merchantNames": [
         "Suavecita"
