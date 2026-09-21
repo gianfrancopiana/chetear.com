@@ -9,7 +9,7 @@
     ],
     "mode": "browser",
     "blueprintPath": "skills/discount-sync/references/provider-blueprints/itau.md",
-    "notes": "2026-09-17: Union still missing Starbucks, 15% Bosch y Cia, CIR, and exact title 10% menos en Mosca (live variant: 10% menos en Mosca con Personal Bank). Keep runtime LKG until human drop. New pending: Expo Prado 2026, Candy Sweet, Prat Pádel, Librerías 25%/20%. Dropped pending gone from union: Divino, Bridgestone, Le Blanc, Soho, 25% martes, Platinum umbrella. Headless panels failed (no Detalle del beneficio) → omit past 2026-08-31 validUntil on still-listed Movie/Freddo/Delicias/Nevada/Túnel/San Roque/Riviera (source-visibility). No auto-promote.",
+    "notes": "2026-09-21: Union still missing Starbucks, 15% Bosch y Cia, CIR, and exact title 10% menos en Mosca (live variant: 10% menos en Mosca con Personal Bank). Keep runtime LKG until human drop. Panels opened for Movie/Freddo/Delicias/Nevada/Túnel/San Roque → validUntil 2026-09-30 (already in runtime). Riviera panel still ends 31/08/2026 while card live → omit validUntil. Dropped pending gone from union: Beneficios en Expo Prado 2026. New pending (do not auto-promote): Beneficios U25, 25% menos en moda, 20% menos con tarjeta Platinum, and San Roque/El Túnel title variants. No auto-promote.",
     "inScope": [
       {
         "title": "15% menos en restaurantes",
@@ -128,10 +128,6 @@
           "note": "Personal Bank seasonal — classify before runtime"
         },
         {
-          "title": "Beneficios en Expo Prado 2026",
-          "note": "Seasonal Expo Prado card — classify before runtime"
-        },
-        {
           "title": "15% menos en Candy Sweet",
           "note": "New union card 2026-09-17 — do not auto-promote"
         },
@@ -150,24 +146,60 @@
         {
           "title": "10% menos en Mosca con Personal Bank",
           "note": "Likely retitle of inScope 10% menos en Mosca; do not auto-replace inScope"
+        },
+        {
+          "title": "20% menos con tarjeta Platinum",
+          "note": "Union card 2026-09-21 — merchant/scope unclear; do not auto-promote"
+        },
+        {
+          "title": "25% 20% y 15% menos en San Roque",
+          "note": "Likely variant of inScope 25% y 15% menos en San Roque; do not auto-replace"
+        },
+        {
+          "title": "25% y 20% y 15% menos en farmacias El Túnel",
+          "note": "Likely variant of inScope Farmacia El Túnel; do not auto-replace"
+        },
+        {
+          "title": "Beneficios U25",
+          "note": "Young-customer pack 2026-09-21 — classify before runtime"
+        },
+        {
+          "title": "25% menos en moda",
+          "note": "Likely Personal Bank overlay of inScope 15% moda; do not auto-promote"
+        },
+        {
+          "title": "20% y 15% menos en farmacias El Túnel",
+          "note": "Likely variant of inScope Farmacia El Túnel; do not auto-replace"
+        },
+        {
+          "title": "20% y 15% menos en San Roque",
+          "note": "Likely variant of inScope San Roque; do not auto-replace"
+        },
+        {
+          "title": "15% menos en El Túnel",
+          "note": "Likely variant of inScope Farmacia El Túnel; do not auto-replace"
+        },
+        {
+          "title": "15% menos en San Roque",
+          "note": "Likely variant of inScope San Roque; do not auto-replace"
         }
       ],
       "disappearedFromInScope": [
         {
           "title": "15% menos en Starbucks en bebidas",
-          "note": "Still missing from #/todas-las-tarjetas and inst_camp.xml 2026-09-17; kept runtime LKG pending human drop from inScope"
+          "note": "Still missing from #/todas-las-tarjetas and inst_camp.xml 2026-09-21; kept runtime LKG pending human drop from inScope"
         },
         {
           "title": "15% menos en Bosch y Cia",
-          "note": "Still missing from union/XML 2026-09-17; 25% Bosch remains on union (outOfScope). Runtime LKG pending human drop"
+          "note": "Still missing from union/XML 2026-09-21; 25% Bosch remains on union (outOfScope). Runtime LKG pending human drop"
         },
         {
           "title": "10% menos en Mosca",
-          "note": "Exact title still missing 2026-09-17; union shows 10% menos en Mosca con Personal Bank. Keep 10% runtime LKG pending human drop/reclassify"
+          "note": "Exact title still missing 2026-09-21; union shows 10% menos en Mosca con Personal Bank. Keep 10% runtime LKG pending human drop/reclassify"
         },
         {
           "title": "15% menos en CIR Acondicionamiento térmico",
-          "note": "Missing from union 2026-09-17; keep runtime LKG pending human drop from inScope"
+          "note": "Missing from union 2026-09-21; keep runtime LKG pending human drop from inScope"
         }
       ],
       "staleOutOfScope": [
@@ -185,6 +217,9 @@
         },
         {
           "title": "25% y 15% menos en Espacio Aroma"
+        },
+        {
+          "title": "Millas x 3 en Frog"
         }
       ]
     }

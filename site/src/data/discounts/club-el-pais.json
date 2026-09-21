@@ -362,20 +362,6 @@
       "mapsUrl": "https://www.google.com/maps/place/El+Galp%C3%B3n/@-34.9040305,-56.1810816,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81b5617dc4e7:0xc21c578fd5c6424f!8m2!3d-34.9040305!4d-56.1810816!16s%2Fg%2F121rjw4h"
     },
     {
-      "merchant": "Expo Prado 2026",
-      "category": "entretenimiento",
-      "percent": 50,
-      "benefitType": "2-for-1",
-      "notes": "11 al 20 de Setiembre de 2026. Lugar: Rural del Prado",
-      "validUntil": "2026-09-20",
-      "geo": {
-        "lat": -34.863049,
-        "lng": -56.203285
-      },
-      "location": "Rural del Prado",
-      "mapsUrl": "https://www.google.com/maps/place/Rural+del+Prado/@-34.8630492,-56.2032852,17z/data=!3m1!4b1!4m6!3m5!1s0x95a02aad48e0af2b:0xe14c76e4d71a56a3!8m2!3d-34.8630492!4d-56.2032852!16s%2Fg%2F121m84fv"
-    },
-    {
       "merchant": "Extraña Pareja | Sala China Zorrilla",
       "category": "entretenimiento",
       "percent": 50,
@@ -793,20 +779,6 @@
       },
       "location": "Auditorio Nacional Adela Reta",
       "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
-    },
-    {
-      "merchant": "Por Hoy Dejamos Acá- Setiembre",
-      "category": "entretenimiento",
-      "percent": 50,
-      "benefitType": "2-for-1",
-      "notes": "20 de Septiembre - 20:30 hs. Lugar: Tercer Espacio Ciudad Vieja",
-      "validUntil": "2026-09-20",
-      "geo": {
-        "lat": -34.905018,
-        "lng": -56.203875
-      },
-      "location": "Ciudad Vieja, Montevideo",
-      "mapsUrl": "https://www.google.com/maps/place/Tercer+Espacio+Ciudad+Vieja/@-34.9050175,-56.2083813,17z/data=!4m10!1m2!2m1!1sTercer+Espacio+Ciudad+Vieja+Montevideo+Uruguay!3m6!1s0x959f7f006c7203b5:0x639d5e4c71c507a0!8m2!3d-34.9050175!4d-56.2038752"
     },
     {
       "merchant": "Raly Barrionuevo",

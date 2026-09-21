@@ -4130,26 +4130,6 @@
       ]
     },
     {
-      "id": "club-el-pais-expo-prado-2026-rural-del-prado-locations",
-      "merchantNames": [
-        "Expo Prado 2026"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "Expo Prado 2026 - Rural del Prado",
-          "geo": {
-            "lat": -34.863049,
-            "lng": -56.203285
-          },
-          "mapsUrl": "https://www.google.com/maps/place/Rural+del+Prado/@-34.8630492,-56.2032852,17z/data=!3m1!4b1!4m6!3m5!1s0x95a02aad48e0af2b:0xe14c76e4d71a56a3!8m2!3d-34.8630492!4d-56.2032852!16s%2Fg%2F121m84fv",
-          "location": "Rural del Prado"
-        }
-      ]
-    },
-    {
       "id": "club-el-pais-extrana-pareja-sala-china-zorrilla-teatro-alianza-locations",
       "merchantNames": [
         "Extraña Pareja | Sala China Zorrilla"
@@ -4514,26 +4494,6 @@
           },
           "mapsUrl": "https://www.google.com/maps/place/Vel%C3%B3dromo+Municipal+de+Montevideo/@-34.8978271,-56.1559067,17z/data=!3m1!4b1!4m6!3m5!1s0x959f8100fec869df:0xf3dac3c6881334a1!8m2!3d-34.8978271!4d-56.1559067!16s%2Fg%2F122_gbj9",
           "location": "Velódromo Municipal de Montevideo"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-por-hoy-dejamos-aca-setiembre-tercer-espacio-ciudad-vieja-locations",
-      "merchantNames": [
-        "Por Hoy Dejamos Acá- Setiembre"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "Por Hoy Dejamos Acá- Setiembre - Tercer Espacio Ciudad Vieja",
-          "geo": {
-            "lat": -34.905018,
-            "lng": -56.203875
-          },
-          "mapsUrl": "https://www.google.com/maps/place/Tercer+Espacio+Ciudad+Vieja/@-34.9050175,-56.2083813,17z/data=!4m10!1m2!2m1!1sTercer+Espacio+Ciudad+Vieja+Montevideo+Uruguay!3m6!1s0x959f7f006c7203b5:0x639d5e4c71c507a0!8m2!3d-34.9050175!4d-56.2038752",
-          "location": "Ciudad Vieja, Montevideo"
         }
       ]
     },
