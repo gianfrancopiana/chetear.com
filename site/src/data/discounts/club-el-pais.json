@@ -284,7 +284,7 @@
       "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
     },
     {
-      "merchant": "EL BIEN",
+      "merchant": "El Bien",
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
@@ -294,8 +294,8 @@
         "lat": -34.900541,
         "lng": -56.178195
       },
-      "location": "Teatro Stella D'Italia. La Gaviota., Montevideo",
-      "mapsUrl": "https://www.google.com/maps/place/Teatro+Stella+D'Italia.+La+Gaviota./@-34.9005409,-56.1781953,17z/data=!3m1!4b1!4m6!3m5!1s0x959f804b205423f5:0xe67f45177efa9d83!8m2!3d-34.9005409!4d-56.1781953!16s%2Fg%2F1tc_0pmw"
+      "mapsUrl": "https://www.google.com/maps/place/Teatro+Stella+D'Italia.+La+Gaviota./@-34.9005409,-56.1781953,17z/data=!3m1!4b1!4m6!3m5!1s0x959f804b205423f5:0xe67f45177efa9d83!8m2!3d-34.9005409!4d-56.1781953!16s%2Fg%2F1tc_0pmw",
+      "location": "Teatro Stella D'Italia. La Gaviota., Montevideo"
     },
     {
       "merchant": "El Jefe del Jefe",
@@ -795,6 +795,20 @@
       "mapsUrl": "https://www.google.com/maps/place/Sala+Zitarrosa/@-34.9062213,-56.1944559,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802d2e06d853:0x80732a9b51333b20!8m2!3d-34.9062213!4d-56.1944559!16s%2Fg%2F12dpwqjqf"
     },
     {
+      "merchant": "Sitio Te Mueve",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "13 y 14 de noviembre. Lugar: SITIO",
+      "validUntil": "2026-11-14",
+      "geo": {
+        "lat": -34.864627,
+        "lng": -56.012896
+      },
+      "mapsUrl": "https://www.google.com/maps/place/Sitio+Centro+de+Espect%C3%A1culos/@-34.8646274,-56.0128957,17z/data=!3m1!4b1!4m6!3m5!1s0x959f899da4345ab7:0xdb8fb9fc9c3a95f5!8m2!3d-34.8646274!4d-56.0128957!16s%2Fg%2F11zc_bvnpr",
+      "location": "Sitio Centro de Espectáculos, Ciudad de la Costa"
+    },
+    {
       "merchant": "Suavecita",
       "category": "entretenimiento",
       "percent": 50,
@@ -1073,12 +1087,7 @@
     {
       "merchant": "Espacio Aroma",
       "category": "hogar",
-      "percent": 20,
-      "days": [
-        "lunes",
-        "martes",
-        "miercoles"
-      ]
+      "percent": 20
     },
     {
       "merchant": "Fábrica Italiana",

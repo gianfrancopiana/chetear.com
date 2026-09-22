@@ -4072,14 +4072,14 @@
     {
       "id": "club-el-pais-el-bien-teatro-stella-d-italia-locations",
       "merchantNames": [
-        "EL BIEN"
+        "El Bien"
       ],
       "sourceUrls": [
         "https://www.clubelpais.com.uy/"
       ],
       "merchants": [
         {
-          "name": "EL BIEN - Teatro Stella D'Italia",
+          "name": "El Bien - Teatro Stella D'Italia",
           "geo": {
             "lat": -34.900541,
             "lng": -56.178195
@@ -4574,6 +4574,26 @@
           },
           "mapsUrl": "https://www.google.com/maps/place/Sala+Zitarrosa/@-34.9062213,-56.1944559,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802d2e06d853:0x80732a9b51333b20!8m2!3d-34.9062213!4d-56.1944559!16s%2Fg%2F12dpwqjqf",
           "location": "Sala Zitarrosa"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-sitio-te-mueve-sitio-locations",
+      "merchantNames": [
+        "Sitio Te Mueve"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "Sitio Te Mueve - SITIO",
+          "geo": {
+            "lat": -34.864627,
+            "lng": -56.012896
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Sitio+Centro+de+Espect%C3%A1culos/@-34.8646274,-56.0128957,17z/data=!3m1!4b1!4m6!3m5!1s0x959f899da4345ab7:0xdb8fb9fc9c3a95f5!8m2!3d-34.8646274!4d-56.0128957!16s%2Fg%2F11zc_bvnpr",
+          "location": "Sitio Centro de Espectáculos, Ciudad de la Costa"
         }
       ]
     }
