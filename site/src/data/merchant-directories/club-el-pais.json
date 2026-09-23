@@ -4596,6 +4596,26 @@
           "location": "Sitio Centro de Espectáculos, Ciudad de la Costa"
         }
       ]
+    },
+    {
+      "id": "club-el-pais-la-omision-de-la-familia-coleman-teatro-del-notariado-locations",
+      "merchantNames": [
+        "La Omisión de la Familia Coleman"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "La Omisión de la Familia Coleman - Teatro del Notariado",
+          "geo": {
+            "lat": -34.903847,
+            "lng": -56.178616
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Teatro+del+Notariado/@-34.9038466,-56.178616,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81b502330f31:0xec77d0426604657f!8m2!3d-34.9038466!4d-56.178616!16s%2Fg%2F1wv_td0h",
+          "location": "Teatro del Notariado, Montevideo"
+        }
+      ]
     }
   ]
 }
