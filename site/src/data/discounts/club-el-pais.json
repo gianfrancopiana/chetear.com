@@ -16,7 +16,8 @@
     {
       "merchant": "School Of Rock Montevideo",
       "category": "educacion",
-      "percent": 25
+      "percent": 25,
+      "notes": "Matrícula sin costo"
     },
     {
       "merchant": "ADM",
@@ -296,6 +297,20 @@
       },
       "location": "Teatro Stella D'Italia. La Gaviota., Montevideo",
       "mapsUrl": "https://www.google.com/maps/place/Teatro+Stella+D'Italia.+La+Gaviota./@-34.9005409,-56.1781953,17z/data=!3m1!4b1!4m6!3m5!1s0x959f804b205423f5:0xe67f45177efa9d83!8m2!3d-34.9005409!4d-56.1781953!16s%2Fg%2F1tc_0pmw"
+    },
+    {
+      "merchant": "EL BIEN",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "22 de Octubre - 20:30 hs. Lugar: Teatro Stella D'Italia. La Gaviota",
+      "validUntil": "2026-10-22",
+      "geo": {
+        "lat": -34.900541,
+        "lng": -56.178195
+      },
+      "mapsUrl": "https://www.google.com/maps/place/Teatro+Stella+D'Italia.+La+Gaviota./@-34.9005409,-56.1781953,17z/data=!3m1!4b1!4m6!3m5!1s0x959f804b205423f5:0xe67f45177efa9d83!8m2!3d-34.9005409!4d-56.1781953!16s%2Fg%2F1tc_0pmw",
+      "location": "Teatro Stella D'Italia. La Gaviota., Montevideo"
     },
     {
       "merchant": "El Jefe del Jefe",
@@ -794,6 +809,20 @@
       "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
     },
     {
+      "merchant": "Pulmones",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "12 de noviembre - 20:30 hs. Lugar: Auditorio Adela Reta",
+      "validUntil": "2026-11-12",
+      "geo": {
+        "lat": -34.904353,
+        "lng": -56.198553
+      },
+      "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z",
+      "location": "Auditorio Nacional Adela Reta"
+    },
+    {
       "merchant": "Raly Barrionuevo",
       "category": "entretenimiento",
       "percent": 50,
@@ -820,6 +849,20 @@
       },
       "location": "Sitio Centro de Espectáculos, Ciudad de la Costa",
       "mapsUrl": "https://www.google.com/maps/place/Sitio+Centro+de+Espect%C3%A1culos/@-34.8646274,-56.0128957,17z/data=!3m1!4b1!4m6!3m5!1s0x959f899da4345ab7:0xdb8fb9fc9c3a95f5!8m2!3d-34.8646274!4d-56.0128957!16s%2Fg%2F11zc_bvnpr"
+    },
+    {
+      "merchant": "Soy Todas",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "16 de Octubre - 20:30 hs. Lugar: Espacio Zorrilla",
+      "validUntil": "2026-10-16",
+      "geo": {
+        "lat": -34.904859,
+        "lng": -56.206546
+      },
+      "mapsUrl": "https://www.google.com/maps/place/Espacio+Zorrilla/@-34.9048588,-56.2065464,17z/data=!3m1!4b1!4m6!3m5!1s0x959f7ff168b967df:0x93a5f6a3b11e14b8!8m2!3d-34.9048588!4d-56.2065464!16s%2Fg%2F11zbl_5kzy",
+      "location": "Cerrito 475, Montevideo"
     },
     {
       "merchant": "Suavecita",

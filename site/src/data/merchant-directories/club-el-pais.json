@@ -4072,14 +4072,14 @@
     {
       "id": "club-el-pais-el-bien-teatro-stella-d-italia-locations",
       "merchantNames": [
-        "El Bien"
+        "EL BIEN"
       ],
       "sourceUrls": [
         "https://www.clubelpais.com.uy/"
       ],
       "merchants": [
         {
-          "name": "El Bien - Teatro Stella D'Italia",
+          "name": "EL BIEN - Teatro Stella D'Italia",
           "geo": {
             "lat": -34.900541,
             "lng": -56.178195
@@ -4614,6 +4614,46 @@
           },
           "mapsUrl": "https://www.google.com/maps/place/Teatro+del+Notariado/@-34.9038466,-56.178616,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81b502330f31:0xec77d0426604657f!8m2!3d-34.9038466!4d-56.178616!16s%2Fg%2F1wv_td0h",
           "location": "Teatro del Notariado, Montevideo"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-pulmones-auditorio-adela-reta-locations",
+      "merchantNames": [
+        "Pulmones"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "Pulmones - Auditorio Adela Reta",
+          "geo": {
+            "lat": -34.904353,
+            "lng": -56.198553
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z",
+          "location": "Auditorio Nacional Adela Reta"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-soy-todas-espacio-zorrilla-locations",
+      "merchantNames": [
+        "Soy Todas"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "Soy Todas - Espacio Zorrilla",
+          "geo": {
+            "lat": -34.904859,
+            "lng": -56.206546
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Espacio+Zorrilla/@-34.9048588,-56.2065464,17z/data=!3m1!4b1!4m6!3m5!1s0x959f7ff168b967df:0x93a5f6a3b11e14b8!8m2!3d-34.9048588!4d-56.2065464!16s%2Fg%2F11zbl_5kzy",
+          "location": "Cerrito 475, Montevideo"
         }
       ]
     }
