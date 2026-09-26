@@ -133,6 +133,20 @@
       "mapsUrl": "https://www.google.com/maps/place/Sociedad+Urbana+Villa+Dolores/@-34.9006142,-56.1465615,17z/data=!3m1!4b1!4m6!3m5!1s0x959f811e5518a2db:0xbedee45a926bf272!8m2!3d-34.9006142!4d-56.1465615!16s%2Fg%2F11s4wjb2xs"
     },
     {
+      "merchant": "Anita Álvarez de Toledo – Sexteto",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "30 de Octubre - 21:30 hs. Lugar: Pueblo Narakan",
+      "validUntil": "2026-10-30",
+      "geo": {
+        "lat": -34.965829,
+        "lng": -54.950199
+      },
+      "mapsUrl": "https://www.google.com/maps/place/Pueblo+Narakan/@-34.965829,-54.9501988,17z/data=!3m1!4b1!4m6!3m5!1s0x957505fe4891555b:0xa971232087fe3361!8m2!3d-34.965829!4d-54.9501988!16s%2Fg%2F11t6kxxp4l",
+      "location": "Pueblo Narakan"
+    },
+    {
       "merchant": "Ave Fénix – Sala Campodónico",
       "category": "entretenimiento",
       "percent": 50,
@@ -237,6 +251,20 @@
       "mapsUrl": "https://www.google.com/maps/place/Teatro+Astral/@-34.9101474,-56.1834488,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81c9081f133b:0x720659fb71045328!8m2!3d-34.9101474!4d-56.1834488!16s%2Fg%2F11bvv4qtv4"
     },
     {
+      "merchant": "Chinwezz",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "11 de Octubre - 21:30 hs. Lugar: Pueblo Narakan",
+      "validUntil": "2026-10-11",
+      "geo": {
+        "lat": -34.965829,
+        "lng": -54.950199
+      },
+      "mapsUrl": "https://www.google.com/maps/place/Pueblo+Narakan/@-34.965829,-54.9501988,17z/data=!3m1!4b1!4m6!3m5!1s0x957505fe4891555b:0xa971232087fe3361!8m2!3d-34.965829!4d-54.9501988!16s%2Fg%2F11t6kxxp4l",
+      "location": "Pueblo Narakan"
+    },
+    {
       "merchant": "Conjunto Nacional de Música de Cámara",
       "category": "entretenimiento",
       "percent": 50,
@@ -297,20 +325,6 @@
       },
       "location": "Teatro Stella D'Italia. La Gaviota., Montevideo",
       "mapsUrl": "https://www.google.com/maps/place/Teatro+Stella+D'Italia.+La+Gaviota./@-34.9005409,-56.1781953,17z/data=!3m1!4b1!4m6!3m5!1s0x959f804b205423f5:0xe67f45177efa9d83!8m2!3d-34.9005409!4d-56.1781953!16s%2Fg%2F1tc_0pmw"
-    },
-    {
-      "merchant": "EL BIEN",
-      "category": "entretenimiento",
-      "percent": 50,
-      "benefitType": "2-for-1",
-      "notes": "22 de Octubre - 20:30 hs. Lugar: Teatro Stella D'Italia. La Gaviota",
-      "validUntil": "2026-10-22",
-      "geo": {
-        "lat": -34.900541,
-        "lng": -56.178195
-      },
-      "mapsUrl": "https://www.google.com/maps/place/Teatro+Stella+D'Italia.+La+Gaviota./@-34.9005409,-56.1781953,17z/data=!3m1!4b1!4m6!3m5!1s0x959f804b205423f5:0xe67f45177efa9d83!8m2!3d-34.9005409!4d-56.1781953!16s%2Fg%2F1tc_0pmw",
-      "location": "Teatro Stella D'Italia. La Gaviota., Montevideo"
     },
     {
       "merchant": "El Jefe del Jefe",
@@ -526,8 +540,8 @@
         "lat": -34.903847,
         "lng": -56.178616
       },
-      "mapsUrl": "https://www.google.com/maps/place/Teatro+del+Notariado/@-34.9038466,-56.178616,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81b502330f31:0xec77d0426604657f!8m2!3d-34.9038466!4d-56.178616!16s%2Fg%2F1wv_td0h",
-      "location": "Teatro del Notariado, Montevideo"
+      "location": "Teatro del Notariado, Montevideo",
+      "mapsUrl": "https://www.google.com/maps/place/Teatro+del+Notariado/@-34.9038466,-56.178616,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81b502330f31:0xec77d0426604657f!8m2!3d-34.9038466!4d-56.178616!16s%2Fg%2F1wv_td0h"
     },
     {
       "merchant": "Lady Macbeth (Sobre el poder en las sombras)",
@@ -819,8 +833,8 @@
         "lat": -34.904353,
         "lng": -56.198553
       },
-      "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z",
-      "location": "Auditorio Nacional Adela Reta"
+      "location": "Auditorio Nacional Adela Reta",
+      "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
     },
     {
       "merchant": "Raly Barrionuevo",
@@ -861,8 +875,8 @@
         "lat": -34.904859,
         "lng": -56.206546
       },
-      "mapsUrl": "https://www.google.com/maps/place/Espacio+Zorrilla/@-34.9048588,-56.2065464,17z/data=!3m1!4b1!4m6!3m5!1s0x959f7ff168b967df:0x93a5f6a3b11e14b8!8m2!3d-34.9048588!4d-56.2065464!16s%2Fg%2F11zbl_5kzy",
-      "location": "Cerrito 475, Montevideo"
+      "location": "Cerrito 475, Montevideo",
+      "mapsUrl": "https://www.google.com/maps/place/Espacio+Zorrilla/@-34.9048588,-56.2065464,17z/data=!3m1!4b1!4m6!3m5!1s0x959f7ff168b967df:0x93a5f6a3b11e14b8!8m2!3d-34.9048588!4d-56.2065464!16s%2Fg%2F11zbl_5kzy"
     },
     {
       "merchant": "Suavecita",
@@ -966,6 +980,20 @@
       },
       "location": "Teatro Stella D'Italia. La Gaviota., Montevideo",
       "mapsUrl": "https://www.google.com/maps/place/Teatro+Stella+D'Italia.+La+Gaviota./@-34.9005409,-56.1781953,17z/data=!3m1!4b1!4m6!3m5!1s0x959f804b205423f5:0xe67f45177efa9d83!8m2!3d-34.9005409!4d-56.1781953!16s%2Fg%2F1tc_0pmw"
+    },
+    {
+      "merchant": "Viento Blanco",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "6 de Diciembre - 19:30 hs. Lugar: Teatro Stella D'Italia",
+      "validUntil": "2026-12-06",
+      "geo": {
+        "lat": -34.900541,
+        "lng": -56.178195
+      },
+      "mapsUrl": "https://www.google.com/maps/place/Teatro+Stella+D'Italia.+La+Gaviota./@-34.9005409,-56.1781953,17z/data=!3m1!4b1!4m6!3m5!1s0x959f804b205423f5:0xe67f45177efa9d83!8m2!3d-34.9005409!4d-56.1781953!16s%2Fg%2F1tc_0pmw",
+      "location": "Teatro Stella D'Italia. La Gaviota., Montevideo"
     },
     {
       "merchant": "Yo Encarnación",

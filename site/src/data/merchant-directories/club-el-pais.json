@@ -4072,14 +4072,14 @@
     {
       "id": "club-el-pais-el-bien-teatro-stella-d-italia-locations",
       "merchantNames": [
-        "EL BIEN"
+        "El Bien"
       ],
       "sourceUrls": [
         "https://www.clubelpais.com.uy/"
       ],
       "merchants": [
         {
-          "name": "EL BIEN - Teatro Stella D'Italia",
+          "name": "El Bien - Teatro Stella D'Italia",
           "geo": {
             "lat": -34.900541,
             "lng": -56.178195
@@ -4654,6 +4654,66 @@
           },
           "mapsUrl": "https://www.google.com/maps/place/Espacio+Zorrilla/@-34.9048588,-56.2065464,17z/data=!3m1!4b1!4m6!3m5!1s0x959f7ff168b967df:0x93a5f6a3b11e14b8!8m2!3d-34.9048588!4d-56.2065464!16s%2Fg%2F11zbl_5kzy",
           "location": "Cerrito 475, Montevideo"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-anita-alvarez-de-toledo-sexteto-pueblo-narakan-locations",
+      "merchantNames": [
+        "Anita Álvarez de Toledo – Sexteto"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "Anita Álvarez de Toledo – Sexteto - Pueblo Narakan",
+          "geo": {
+            "lat": -34.965829,
+            "lng": -54.950199
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Pueblo+Narakan/@-34.965829,-54.9501988,17z/data=!3m1!4b1!4m6!3m5!1s0x957505fe4891555b:0xa971232087fe3361!8m2!3d-34.965829!4d-54.9501988!16s%2Fg%2F11t6kxxp4l",
+          "location": "Pueblo Narakan"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-chinwezz-pueblo-narakan-locations",
+      "merchantNames": [
+        "Chinwezz"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "Chinwezz - Pueblo Narakan",
+          "geo": {
+            "lat": -34.965829,
+            "lng": -54.950199
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Pueblo+Narakan/@-34.965829,-54.9501988,17z/data=!3m1!4b1!4m6!3m5!1s0x957505fe4891555b:0xa971232087fe3361!8m2!3d-34.965829!4d-54.9501988!16s%2Fg%2F11t6kxxp4l",
+          "location": "Pueblo Narakan"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-viento-blanco-teatro-stella-d-italia-locations",
+      "merchantNames": [
+        "Viento Blanco"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "Viento Blanco - Teatro Stella D'Italia",
+          "geo": {
+            "lat": -34.900541,
+            "lng": -56.178195
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Teatro+Stella+D'Italia.+La+Gaviota./@-34.9005409,-56.1781953,17z/data=!3m1!4b1!4m6!3m5!1s0x959f804b205423f5:0xe67f45177efa9d83!8m2!3d-34.9005409!4d-56.1781953!16s%2Fg%2F1tc_0pmw",
+          "location": "Teatro Stella D'Italia. La Gaviota., Montevideo"
         }
       ]
     }
