@@ -237,20 +237,6 @@
       "mapsUrl": "https://www.google.com/maps/place/Teatro+Sol%C3%ADs/@-34.9076336,-56.2011228,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802adf27edcb:0xe9cdb804f35a1e8a!8m2!3d-34.9076336!4d-56.2011228!16s%2Fm%2F03c5d99"
     },
     {
-      "merchant": "Cenicienta, el Musical",
-      "category": "entretenimiento",
-      "percent": 50,
-      "benefitType": "2-for-1",
-      "notes": "19 al 26 de setiembre - 15hs. Lugar: Teatro Astral",
-      "validUntil": "2026-09-26",
-      "geo": {
-        "lat": -34.910147,
-        "lng": -56.183449
-      },
-      "location": "Teatro Astral",
-      "mapsUrl": "https://www.google.com/maps/place/Teatro+Astral/@-34.9101474,-56.1834488,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81c9081f133b:0x720659fb71045328!8m2!3d-34.9101474!4d-56.1834488!16s%2Fg%2F11bvv4qtv4"
-    },
-    {
       "merchant": "Chinwezz",
       "category": "entretenimiento",
       "percent": 50,
@@ -313,7 +299,7 @@
       "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
     },
     {
-      "merchant": "El Bien",
+      "merchant": "EL BIEN",
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
@@ -347,20 +333,6 @@
       },
       "location": "Teatro Circular",
       "mapsUrl": "https://www.google.com/maps/place/Teatro+Circular/@-34.9052429,-56.1911468,17z/data=!3m1!4b1!4m6!3m5!1s0x959f8032b0c64a17:0x613f3768417500bd!8m2!3d-34.9052429!4d-56.1911468!16s%2Fg%2F12gh3c102"
-    },
-    {
-      "merchant": "El Sapo Ruperto: Una pequeña aventura musical",
-      "category": "entretenimiento",
-      "percent": 50,
-      "benefitType": "2-for-1",
-      "notes": "19 al 26 de setiembre. Lugar: Auditorio Nelly Goitiño",
-      "validUntil": "2026-09-26",
-      "geo": {
-        "lat": -34.906365,
-        "lng": -56.196316
-      },
-      "location": "Auditorio del Sodre Nelly Goitiño, Montevideo",
-      "mapsUrl": "https://www.google.com/maps/place/Auditorio+del+Sodre+Nelly+Goiti%C3%B1o/@-34.9063649,-56.1963156,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802cc182a38b:0x93bac231276c00d9!8m2!3d-34.9063649!4d-56.1963156!16s%2Fg%2F113qbbcsh"
     },
     {
       "merchant": "El Teatro",
@@ -542,20 +514,6 @@
       },
       "location": "Teatro del Notariado, Montevideo",
       "mapsUrl": "https://www.google.com/maps/place/Teatro+del+Notariado/@-34.9038466,-56.178616,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81b502330f31:0xec77d0426604657f!8m2!3d-34.9038466!4d-56.178616!16s%2Fg%2F1wv_td0h"
-    },
-    {
-      "merchant": "Lady Macbeth (Sobre el poder en las sombras)",
-      "category": "entretenimiento",
-      "percent": 50,
-      "benefitType": "2-for-1",
-      "notes": "Del 22 de agosto al 26 de setiembre. Lugar: Teatro Stella D'Italia. La Gaviota",
-      "validUntil": "2026-09-26",
-      "geo": {
-        "lat": -34.900541,
-        "lng": -56.178195
-      },
-      "location": "Teatro Stella D'Italia. La Gaviota., Montevideo",
-      "mapsUrl": "https://www.google.com/maps/place/Teatro+Stella+D'Italia.+La+Gaviota./@-34.9005409,-56.1781953,17z/data=!3m1!4b1!4m6!3m5!1s0x959f804b205423f5:0xe67f45177efa9d83!8m2!3d-34.9005409!4d-56.1781953!16s%2Fg%2F1tc_0pmw"
     },
     {
       "merchant": "Las camisas blancas",
