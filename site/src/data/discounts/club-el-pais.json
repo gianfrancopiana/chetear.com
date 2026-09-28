@@ -49,34 +49,6 @@
       "mapsUrl": "https://www.google.com/maps/place/El+Galp%C3%B3n/@-34.9040305,-56.1810816,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81b5617dc4e7:0xc21c578fd5c6424f"
     },
     {
-      "merchant": "¿Quién mató al patriarca?",
-      "category": "entretenimiento",
-      "percent": 50,
-      "benefitType": "2-for-1",
-      "notes": "Del 23 de agosto al 27 de setiembre. Lugar: Teatro Stella D'Italia. La Gaviota.",
-      "validUntil": "2026-09-27",
-      "geo": {
-        "lat": -34.900541,
-        "lng": -56.178195
-      },
-      "location": "Teatro Stella D'Italia. La Gaviota., Montevideo",
-      "mapsUrl": "https://www.google.com/maps/place/Teatro+Stella+D'Italia.+La+Gaviota./@-34.9005409,-56.1781953,17z/data=!3m1!4b1!4m6!3m5!1s0x959f804b205423f5:0xe67f45177efa9d83!8m2!3d-34.9005409!4d-56.1781953!16s%2Fg%2F1tc_0pmw"
-    },
-    {
-      "merchant": "«Capibara» el carpincho",
-      "category": "entretenimiento",
-      "percent": 50,
-      "benefitType": "2-for-1",
-      "notes": "23 al 27 de setiembre - 15hs. Lugar: Teatro ACJ",
-      "validUntil": "2026-09-27",
-      "geo": {
-        "lat": -34.901043,
-        "lng": -56.176327
-      },
-      "location": "Colonia 1870, Montevideo",
-      "mapsUrl": "https://www.google.com/maps/place/Young+Men+Christian+Association/@-34.901043,-56.176327,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81b4ad4d6ecf:0x644e47de5f46a127!8m2!3d-34.901043!4d-56.176327!16s%2Fg%2F1td7phd8"
-    },
-    {
       "merchant": "20a Noche de los Estrenos: Tango, Murga y Rocanrol",
       "category": "entretenimiento",
       "percent": 50,
@@ -103,20 +75,6 @@
       },
       "location": "Colonia 1870, Montevideo",
       "mapsUrl": "https://www.google.com/maps/place/Young+Men+Christian+Association/@-34.901043,-56.176327,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81b4ad4d6ecf:0x644e47de5f46a127!8m2!3d-34.901043!4d-56.176327!16s%2Fg%2F1td7phd8"
-    },
-    {
-      "merchant": "Alaclownddín -Vacaciones de primavera",
-      "category": "entretenimiento",
-      "percent": 50,
-      "benefitType": "2-for-1",
-      "notes": "20 y 27 de setiembre. Lugar: Ánima Espacio Cultural",
-      "validUntil": "2026-09-27",
-      "geo": {
-        "lat": -34.907534,
-        "lng": -56.198681
-      },
-      "location": "Ánima Espacio Cultural",
-      "mapsUrl": "https://www.google.com/maps/place/%C3%81nima+Espacio+Cultural/@-34.9075344,-56.1986809,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81b7743f96a1:0xf13e49a35ae4ca80!8m2!3d-34.9075344!4d-56.1986809!16s%2Fg%2F11cr_0xy45"
     },
     {
       "merchant": "Alejandro Ferradás: : 4 Décadas",
@@ -299,7 +257,7 @@
       "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
     },
     {
-      "merchant": "EL BIEN",
+      "merchant": "El Bien",
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
@@ -361,20 +319,6 @@
       },
       "location": "El Galpón",
       "mapsUrl": "https://www.google.com/maps/place/El+Galp%C3%B3n/@-34.9040305,-56.1810816,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81b5617dc4e7:0xc21c578fd5c6424f!8m2!3d-34.9040305!4d-56.1810816!16s%2Fg%2F121rjw4h"
-    },
-    {
-      "merchant": "Extraña Pareja | Sala China Zorrilla",
-      "category": "entretenimiento",
-      "percent": 50,
-      "benefitType": "2-for-1",
-      "notes": "Del 5 al 27 de setiembre. Lugar: Teatro Alianza",
-      "validUntil": "2026-09-27",
-      "geo": {
-        "lat": -34.908478,
-        "lng": -56.192329
-      },
-      "location": "Teatro Alianza",
-      "mapsUrl": "https://www.google.com/maps/place/Teatro+Alianza/@-34.9084781,-56.1923287,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81cd80292d3b:0x8b46eed506719c94!8m2!3d-34.9084781!4d-56.1923287!16s%2Fg%2F11bwh9w_js"
     },
     {
       "merchant": "Festival Música de la Tierra – 15 años",

@@ -3122,26 +3122,6 @@
       ]
     },
     {
-      "id": "club-el-pais-quien-mato-al-patriarca-teatro-stella-d-italia-locations",
-      "merchantNames": [
-        "¿Quién mató al patriarca?"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "¿Quién mató al patriarca? - Teatro Stella D'Italia",
-          "geo": {
-            "lat": -34.900541,
-            "lng": -56.178195
-          },
-          "mapsUrl": "https://www.google.com/maps/place/Teatro+Stella+D'Italia.+La+Gaviota./@-34.9005409,-56.1781953,17z/data=!3m1!4b1!4m6!3m5!1s0x959f804b205423f5:0xe67f45177efa9d83!8m2!3d-34.9005409!4d-56.1781953!16s%2Fg%2F1tc_0pmw",
-          "location": "Teatro Stella D'Italia. La Gaviota., Montevideo"
-        }
-      ]
-    },
-    {
       "id": "club-el-pais-radisson-colonia-del-sacramento-locations",
       "merchantNames": [
         "Radisson Colonia del Sacramento"
@@ -3930,46 +3910,6 @@
       ]
     },
     {
-      "id": "club-el-pais-capibara-el-carpincho-teatro-acj-locations",
-      "merchantNames": [
-        "«Capibara» el carpincho"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "«Capibara» el carpincho - Teatro ACJ",
-          "geo": {
-            "lat": -34.901043,
-            "lng": -56.176327
-          },
-          "mapsUrl": "https://www.google.com/maps/place/Young+Men+Christian+Association/@-34.901043,-56.176327,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81b4ad4d6ecf:0x644e47de5f46a127!8m2!3d-34.901043!4d-56.176327!16s%2Fg%2F1td7phd8",
-          "location": "Colonia 1870, Montevideo"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-alaclownddin-vacaciones-de-primavera-anima-espacio-cultural-locations",
-      "merchantNames": [
-        "Alaclownddín -Vacaciones de primavera"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "Alaclownddín -Vacaciones de primavera - Ánima Espacio Cultural",
-          "geo": {
-            "lat": -34.907534,
-            "lng": -56.198681
-          },
-          "mapsUrl": "https://www.google.com/maps/place/%C3%81nima+Espacio+Cultural/@-34.9075344,-56.1986809,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81b7743f96a1:0xf13e49a35ae4ca80!8m2!3d-34.9075344!4d-56.1986809!16s%2Fg%2F11cr_0xy45",
-          "location": "Ánima Espacio Cultural"
-        }
-      ]
-    },
-    {
       "id": "club-el-pais-alejandro-ferradas-4-decadas-sociedad-urbana-villa-dolores-locations",
       "merchantNames": [
         "Alejandro Ferradás: : 4 Décadas"
@@ -4032,14 +3972,14 @@
     {
       "id": "club-el-pais-el-bien-teatro-stella-d-italia-locations",
       "merchantNames": [
-        "EL BIEN"
+        "El Bien"
       ],
       "sourceUrls": [
         "https://www.clubelpais.com.uy/"
       ],
       "merchants": [
         {
-          "name": "EL BIEN - Teatro Stella D'Italia",
+          "name": "El Bien - Teatro Stella D'Italia",
           "geo": {
             "lat": -34.900541,
             "lng": -56.178195
@@ -4086,26 +4026,6 @@
           },
           "mapsUrl": "https://www.google.com/maps/place/Teatro+Sol%C3%ADs/@-34.9076336,-56.2011228,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802adf27edcb:0xe9cdb804f35a1e8a!8m2!3d-34.9076336!4d-56.2011228!16s%2Fm%2F03c5d99",
           "location": "Teatro Solís"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-extrana-pareja-sala-china-zorrilla-teatro-alianza-locations",
-      "merchantNames": [
-        "Extraña Pareja | Sala China Zorrilla"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "Extraña Pareja | Sala China Zorrilla - Teatro Alianza",
-          "geo": {
-            "lat": -34.908478,
-            "lng": -56.192329
-          },
-          "mapsUrl": "https://www.google.com/maps/place/Teatro+Alianza/@-34.9084781,-56.1923287,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81cd80292d3b:0x8b46eed506719c94!8m2!3d-34.9084781!4d-56.1923287!16s%2Fg%2F11bwh9w_js",
-          "location": "Teatro Alianza"
         }
       ]
     },
