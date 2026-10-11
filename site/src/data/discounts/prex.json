@@ -51,18 +51,18 @@
       "merchant": "Cabify",
       "category": "viajes",
       "percent": 30,
-      "validUntil": "2026-09-30",
+      "validUntil": "2026-10-31",
       "channels": [
         "online"
       ],
       "cap": "Tope $150, un viaje",
-      "notes": "Código del mes: PREXSET30. App Cabify."
+      "notes": "Código del mes: PREXOCT30. App Cabify."
     },
     {
       "merchant": "PAX Assistance",
       "category": "viajes",
       "percent": 50,
-      "validUntil": "2026-09-30",
+      "validUntil": "2026-10-31",
       "channels": [
         "online"
       ],
@@ -70,6 +70,17 @@
         "mastercard"
       ],
       "notes": "Asistencia de viaje en web exclusiva Prex + Pax. Descuento visible en checkout."
+    },
+    {
+      "merchant": "STM",
+      "category": "otros",
+      "percent": 10,
+      "validUntil": "2026-10-31",
+      "channels": [
+        "online"
+      ],
+      "cap": "Tope $100, una recarga",
+      "notes": "10% recargando STM en la web stm.gub.uy con Prex. Una vez por usuario del 1 al 31 de octubre de 2026. Reintegro en hasta 7 días hábiles."
     }
   ]
 }

@@ -56,15 +56,17 @@ and why some are excluded.
 - `beneficio=3` — Comercios (IVA-point benefit)
 - `beneficio=6` — STM (IVA-point benefit)
 - `beneficio=4` — Abitab (IVA-point benefit)
-- `beneficio=637` — Cabify App 30% with monthly code `PREXSET30` (2026-09; cap $150 / one trip)
-- `beneficio=670` — PAX Assistance 50% on Prex + Pax web through 2026-09-30
+- `beneficio=637` — Cabify App 30% with monthly code `PREXOCT30` (2026-10; cap $150 / one trip)
+- `beneficio=670` — PAX Assistance 50% on Prex + Pax web through 2026-10-31
+- `beneficio=755` — STM web recharge 10%, cap $100, once, 1–31 Oct 2026
 
 ### Inspect but currently skip from runtime
 - `beneficio=739` — DIRECTV Prepago primera recarga 20% (App Prex; June–July only) — expired after 2026-07-31; hub still shows July copy on 2026-08-04
 - `beneficio=736` — DIRECTV Prepago recarga plan 10% + días extras (App Prex; June–July only) — expired after 2026-07-31; hub still shows July copy on 2026-08-04
 - `beneficio=744` — Ollas del Mundo 2026 event window ended 2026-07-26; skip until a new active window appears
 - `beneficio=743` — Grupocine birthday gift (pop + refresco; courtesy gift, not a stable spend-side percent)
-- `beneficio=731` — HolaSIM no longer listed under active especiales (2026-07-19)
+- `beneficio=731` — HolaSIM 20% plus courtesy eSIM is listed again (2026-10-11) but the detail has no explicit validity window; skip until the window is explicit
+- `beneficio=756` — Grupocine pop + refresco gift Mon–Wed through 2026-11-30; courtesy gift, not a stable spend-side percent
 - `beneficio=733` — PedidosYa Market June-only window ended; skip until a new active window appears
 - `beneficio=735` — GOL Hot Week ended on 2026-05-17; source still listed it under especiales on 2026-05-18, but the detail terms were expired, so skip until a new active window appears.
 - `beneficio=734` — Feria de dólares (FX promo without a stable runtime percent)
