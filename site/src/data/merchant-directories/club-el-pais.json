@@ -2509,26 +2509,6 @@
       ]
     },
     {
-      "id": "club-el-pais-montoya-woman-6k-oh-la-barra-locations",
-      "merchantNames": [
-        "Montoya Woman 6k"
-      ],
-      "sourceUrls": [
-        "https://nominatim.openstreetmap.org/"
-      ],
-      "merchants": [
-        {
-          "name": "Montoya Woman 6k - OH! LA BARRA",
-          "location": "Oh! La Barra, Avenida Eduardo Víctor Haedo, La Barra, Maldonado, 20000",
-          "geo": {
-            "lat": -34.91502,
-            "lng": -54.855632
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.915020,-54.855632"
-        }
-      ]
-    },
-    {
       "id": "club-el-pais-movie-locations",
       "merchantNames": [
         "Movie"
@@ -3997,26 +3977,6 @@
       ]
     },
     {
-      "id": "club-el-pais-mosquitos-sala-verdi-locations",
-      "merchantNames": [
-        "Mosquitos"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "Mosquitos - Sala Verdi",
-          "geo": {
-            "lat": -34.908254,
-            "lng": -56.196375
-          },
-          "mapsUrl": "https://www.google.com/maps/place/Sala+Verdi/@-34.9082536,-56.1963746,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81d338629f9b:0xee775820331447fd!8m2!3d-34.9082536!4d-56.1963746!16s%2Fg%2F1ym_k_vk3",
-          "location": "Sala Verdi"
-        }
-      ]
-    },
-    {
       "id": "club-el-pais-murga-madre-el-reloj-no-ha-parado-nunca-teatro-el-galpon-locations",
       "merchantNames": [
         "Murga Madre – «El reloj no ha parado nunca»"
@@ -4286,7 +4246,13 @@
       ],
       "merchants": [
         {
-          "name": "CLUB DE LA CUMBIA – RAMBLA GOLF - Rambla Club de Golf"
+          "name": "CLUB DE LA CUMBIA – RAMBLA GOLF - Rambla Club de Golf",
+          "geo": {
+            "lat": -34.925712,
+            "lng": -56.165869
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Rambla+Club+de+Golf/@-34.925712,-56.165869,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81150ea05d2d:0x94c578938da2e784!8m2!3d-34.9257121!4d-56.1658695!16s%2Fg%2F11h64l2fbp",
+          "location": "Rambla Presidente Wilson, Montevideo"
         }
       ]
     },
@@ -4394,7 +4360,13 @@
       ],
       "merchants": [
         {
-          "name": "No te apures Luisa - Espacio Teatro"
+          "name": "No te apures Luisa - Espacio Teatro",
+          "geo": {
+            "lat": -34.904366,
+            "lng": -56.19809
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Espacio+Teatro/@-34.904366,-56.198090,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802c76c1b689:0x49611611bc3e8eef!8m2!3d-34.9043657!4d-56.1980904!16s%2Fg%2F1tvw62vn",
+          "location": "Mercedes 865, Montevideo"
         }
       ]
     },
@@ -4468,7 +4440,13 @@
       ],
       "merchants": [
         {
-          "name": "Taller de Semiótica & Arte - Fundación de Arte Contemporáneo"
+          "name": "Taller de Semiótica & Arte - Fundación de Arte Contemporáneo",
+          "geo": {
+            "lat": -34.915177,
+            "lng": -56.165609
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Fundaci%C3%B3n+de+Arte+Contempor%C3%A1neo+-+fac/@-34.915177,-56.165609,17z/data=!3m1!4b1!4m6!3m5!1s0x959f8194da0282fb:0x347f86de5eb6d9a9!8m2!3d-34.915177!4d-56.165609!16s%2Fg%2F11g_x4jsws",
+          "location": "Av. Sarmiento 2244, Montevideo"
         }
       ]
     },
