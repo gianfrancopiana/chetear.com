@@ -43,7 +43,7 @@ sync run. This section only fixes which merchants/groups are in scope and why
 some are excluded.
 
 ### Runtime-relevant now (OCA credit)
-- `TaTa`, `Juan Construye`, `Megal`, `Burger King`, `Bela`, `Gelatería del Club`, `El Club de la Papa Frita`, `Kentucky`, `Chajá`, `Homeopatía Alemana`, `Herracor`, `Unifer`, `Briq`, `Kroser` — include when the full detail page substantiates the rule
+- `TaTa`, `Juan Construye`, `Megal`, `Burger King`, `Bela`, `Gelatería del Club`, `El Club de la Papa Frita`, `Kentucky`, `Chajá`, `Homeopatía Alemana`, `Herracor`, `Unifer`, `Briq`, `Kroser`, `Mundocolor`, `Librería Pocho`, `Cines del Este` — include when the full detail page substantiates the rule. `Librería Pocho` is the Feria del Libro window, not the year-round store. `Cines del Este` is a 2x1 that also covers OCA Blue; do not pin a parent geo (multi-local).
 - `Tiendas de tu ciudad` — broad participating-commerce rule; keep broad unless a dedicated merchant-list workflow exists
 - `Macro Mercado` — `mejor precio` + interest-free installments. Set `benefitType: "installments"` and `percent: 0`; the actual mechanic ("Mejor escala de precios Mastercard: 3 cuotas sin recargo en supermercado y 12 cuotas en non-food") goes in `notes`. The runtime renders `Cuotas` in the chip and "Cuotas sin recargo" in the headline — do not let it render as "0% de descuento".
 

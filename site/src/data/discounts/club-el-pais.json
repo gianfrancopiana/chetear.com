@@ -691,6 +691,20 @@
       "mapsUrl": "https://www.google.com/maps/place/Sitio+Centro+de+Espect%C3%A1culos/@-34.8646274,-56.0128957,17z/data=!3m1!4b1!4m6!3m5!1s0x959f899da4345ab7:0xdb8fb9fc9c3a95f5!8m2!3d-34.8646274!4d-56.0128957!16s%2Fg%2F11zc_bvnpr"
     },
     {
+      "merchant": "Sobre la marcha – El recorrido",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "11 de noviembre - 20:30 hs. Lugar: Teatro Stella D'Italia. La Gaviota",
+      "validUntil": "2026-11-11",
+      "geo": {
+        "lat": -34.900541,
+        "lng": -56.178195
+      },
+      "location": "Teatro Stella D'Italia. La Gaviota., Montevideo",
+      "mapsUrl": "https://www.google.com/maps/place/Teatro+Stella+D'Italia.+La+Gaviota./@-34.9005409,-56.1781953,17z/data=!3m1!4b1!4m6!3m5!1s0x959f804b205423f5:0xe67f45177efa9d83!8m2!3d-34.9005409!4d-56.1781953!16s%2Fg%2F1tc_0pmw"
+    },
+    {
       "merchant": "Soy Todas",
       "category": "entretenimiento",
       "percent": 50,

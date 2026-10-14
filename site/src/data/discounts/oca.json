@@ -539,6 +539,69 @@
         "oca"
       ],
       "notes": "Todos los viernes. Tarjetas de crédito Mastercard y Visa. Sucursales participantes (multi-local; no parent geo). No Mercado Pago. No acumulable."
+    },
+    {
+      "merchant": "Librería Pocho",
+      "category": "educacion",
+      "percent": 20,
+      "tiers": [
+        "todas"
+      ],
+      "validUntil": "2026-10-18",
+      "refundType": "statement-credit",
+      "channels": [
+        "in-store"
+      ],
+      "networks": [
+        "visa",
+        "mastercard",
+        "oca"
+      ],
+      "notes": "Feria del Libro, explanada, atrio y entrepiso de la Intendencia de Montevideo. Tarjetas de crédito Mastercard y Visa. Sin tope.",
+      "location": "Feria del Libro, Intendencia de Montevideo"
+    },
+    {
+      "merchant": "Cines del Este",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "tiers": [
+        "todas"
+      ],
+      "validUntil": "2027-12-31",
+      "excludedApps": [
+        "mercado-pago"
+      ],
+      "channels": [
+        "in-store",
+        "online"
+      ],
+      "networks": [
+        "visa",
+        "mastercard",
+        "oca"
+      ],
+      "cap": "4 entradas por tarjeta por compra",
+      "notes": "No aplica películas 4D, pop y refresco, ni otros eventos en el establecimiento. Web, boletería presencial y autogestión. Tarjetas de crédito Mastercard y Visa, y OCA Blue."
+    },
+    {
+      "merchant": "Mundocolor",
+      "category": "hogar",
+      "percent": 10,
+      "tiers": [
+        "todas"
+      ],
+      "validUntil": "2027-02-28",
+      "refundType": "point-of-sale",
+      "channels": [
+        "in-store"
+      ],
+      "networks": [
+        "visa",
+        "mastercard",
+        "oca"
+      ],
+      "notes": "12 cuotas válidas con tarjeta de crédito Mastercard."
     }
   ]
 }

@@ -3769,6 +3769,26 @@
       ]
     },
     {
+      "id": "club-el-pais-sobre-la-marcha-el-recorrido-teatro-stella-d-italia-locations",
+      "merchantNames": [
+        "Sobre la marcha – El recorrido"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "Sobre la marcha – El recorrido - Teatro Stella D'Italia",
+          "geo": {
+            "lat": -34.900541,
+            "lng": -56.178195
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Teatro+Stella+D'Italia.+La+Gaviota./@-34.9005409,-56.1781953,17z/data=!3m1!4b1!4m6!3m5!1s0x959f804b205423f5:0xe67f45177efa9d83!8m2!3d-34.9005409!4d-56.1781953!16s%2Fg%2F1tc_0pmw",
+          "location": "Teatro Stella D'Italia. La Gaviota., Montevideo"
+        }
+      ]
+    },
+    {
       "id": "club-el-pais-el-rey-de-los-hongos-teatro-circular-locations",
       "merchantNames": [
         "El rey de los hongos"
