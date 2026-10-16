@@ -67,6 +67,8 @@ and why some are excluded.
 - `beneficio=743` — Grupocine birthday gift (pop + refresco; courtesy gift, not a stable spend-side percent)
 - `beneficio=731` — HolaSIM 20% plus courtesy eSIM is listed again (2026-10-11) but the detail has no explicit validity window; skip until the window is explicit
 - `beneficio=756` — Grupocine pop + refresco gift Mon–Wed through 2026-11-30; courtesy gift, not a stable spend-side percent
+- `beneficio=754` — PrexWeek 25% online, cap $1.000, window 5–11 Oct 2026. Hub can still list the ID after the window; do not promote an expired week
+- `beneficio=749` — September 25–27 contactless/physical reintegro at a named event. Detail window is already past; skip until a new active window appears
 - `beneficio=733` — PedidosYa Market June-only window ended; skip until a new active window appears
 - `beneficio=735` — GOL Hot Week ended on 2026-05-17; source still listed it under especiales on 2026-05-18, but the detail terms were expired, so skip until a new active window appears.
 - `beneficio=734` — Feria de dólares (FX promo without a stable runtime percent)

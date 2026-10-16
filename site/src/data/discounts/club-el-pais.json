@@ -125,6 +125,14 @@
       "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
     },
     {
+      "merchant": "Buceo Invisible en el Planetario",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "13 de noviembre - 20:30 hs. Lugar: Planetario de Montevideo",
+      "validUntil": "2026-11-13"
+    },
+    {
       "merchant": "Canto del Cisne – La Filarmónica",
       "category": "entretenimiento",
       "percent": 50,
@@ -199,6 +207,34 @@
       },
       "location": "Auditorio Nacional Adela Reta",
       "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
+    },
+    {
+      "merchant": "Davus Grandes Éxitos (Show 360)",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "15 de noviembre - 21:00 hs. Lugar: La Trastienda",
+      "validUntil": "2026-11-15",
+      "geo": {
+        "lat": -34.898385,
+        "lng": -56.178412
+      },
+      "location": "Daniel Fernández Crespo 1763, Montevideo",
+      "mapsUrl": "https://www.google.com/maps/place/La+Trastienda/@-34.8983845,-56.1784118,17z/data=!3m1!4b1!4m6!3m5!1s0x959f804a4cb5c913:0xb5518b32a0807745!8m2!3d-34.8983845!4d-56.1784118!16s%2Fg%2F11xc0qdc_"
+    },
+    {
+      "merchant": "Digital Humans banda homenaje a Daft Punk (+18)",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "14 de noviembre - 21:00 hs. Lugar: La Trastienda",
+      "validUntil": "2026-11-14",
+      "geo": {
+        "lat": -34.898385,
+        "lng": -56.178412
+      },
+      "location": "Daniel Fernández Crespo 1763, Montevideo",
+      "mapsUrl": "https://www.google.com/maps/place/La+Trastienda/@-34.8983845,-56.1784118,17z/data=!3m1!4b1!4m6!3m5!1s0x959f804a4cb5c913:0xb5518b32a0807745!8m2!3d-34.8983845!4d-56.1784118!16s%2Fg%2F11xc0qdc_"
     },
     {
       "merchant": "El Bien",
@@ -649,6 +685,14 @@
       "location": "Pueblo Narakan"
     },
     {
+      "merchant": "Primera Jornada Internacional e Interdisciplinaria de Salud Mental y Territorio",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "4 y 5 de diciembre. Lugar: Centro de Convenciones de Punta del Este",
+      "validUntil": "2026-12-05"
+    },
+    {
       "merchant": "Pulmones",
       "category": "entretenimiento",
       "percent": 50,
@@ -689,6 +733,20 @@
       },
       "location": "Sitio Centro de Espectáculos, Ciudad de la Costa",
       "mapsUrl": "https://www.google.com/maps/place/Sitio+Centro+de+Espect%C3%A1culos/@-34.8646274,-56.0128957,17z/data=!3m1!4b1!4m6!3m5!1s0x959f899da4345ab7:0xdb8fb9fc9c3a95f5!8m2!3d-34.8646274!4d-56.0128957!16s%2Fg%2F11zc_bvnpr"
+    },
+    {
+      "merchant": "Snake",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "07 de Noviembre - 21:00 hs. Lugar: La Trastienda",
+      "validUntil": "2026-11-07",
+      "geo": {
+        "lat": -34.898385,
+        "lng": -56.178412
+      },
+      "location": "Daniel Fernández Crespo 1763, Montevideo",
+      "mapsUrl": "https://www.google.com/maps/place/La+Trastienda/@-34.8983845,-56.1784118,17z/data=!3m1!4b1!4m6!3m5!1s0x959f804a4cb5c913:0xb5518b32a0807745!8m2!3d-34.8983845!4d-56.1784118!16s%2Fg%2F11xc0qdc_"
     },
     {
       "merchant": "Sobre la marcha – El recorrido",
@@ -775,23 +833,23 @@
       "mapsUrl": "https://www.google.com/maps/place/Fundaci%C3%B3n+de+Arte+Contempor%C3%A1neo+-+fac/@-34.915177,-56.165609,17z/data=!3m1!4b1!4m6!3m5!1s0x959f8194da0282fb:0x347f86de5eb6d9a9!8m2!3d-34.915177!4d-56.165609!16s%2Fg%2F11g_x4jsws"
     },
     {
-      "merchant": "Tantoman – Porfiados",
-      "category": "entretenimiento",
-      "percent": 50,
-      "benefitType": "2-for-1",
-      "notes": "15 de octubre - 20:30 hs. Lugar: Sala Zitarrosa",
-      "validUntil": "2026-10-15",
-      "geo": {
-        "lat": -34.906221,
-        "lng": -56.194456
-      },
-      "location": "Sala Zitarrosa",
-      "mapsUrl": "https://www.google.com/maps/place/Sala+Zitarrosa/@-34.9062213,-56.1944559,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802d2e06d853:0x80732a9b51333b20!8m2!3d-34.9062213!4d-56.1944559!16s%2Fg%2F12dpwqjqf"
-    },
-    {
       "merchant": "Teatrix",
       "category": "entretenimiento",
       "percent": 50
+    },
+    {
+      "merchant": "The Police Men ¡vuelve a Uruguay!",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "17 de octubre - 21:00 hs. Lugar: La Trastienda",
+      "validUntil": "2026-10-17",
+      "geo": {
+        "lat": -34.898385,
+        "lng": -56.178412
+      },
+      "location": "Daniel Fernández Crespo 1763, Montevideo",
+      "mapsUrl": "https://www.google.com/maps/place/La+Trastienda/@-34.8983845,-56.1784118,17z/data=!3m1!4b1!4m6!3m5!1s0x959f804a4cb5c913:0xb5518b32a0807745!8m2!3d-34.8983845!4d-56.1784118!16s%2Fg%2F11xc0qdc_"
     },
     {
       "merchant": "Trotsky Vengarán y Mariano Martínez",

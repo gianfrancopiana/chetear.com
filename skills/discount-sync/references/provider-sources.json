@@ -194,6 +194,18 @@
         {
           "title": "15% menos en El Túnel",
           "note": "Likely variant of inScope Farmacia El Túnel; do not auto-replace"
+        },
+        {
+          "title": "25% menos en Infonegocios",
+          "note": "Union card 2026-10-16 — do not auto-promote"
+        },
+        {
+          "title": "Millasx3 en estaciones Disa",
+          "note": "Miles, not a stable discount percent. Union card 2026-10-16 — do not auto-promote"
+        },
+        {
+          "title": "25% en envíos de Glic",
+          "note": "Union card 2026-10-16 — do not auto-promote"
         }
       ],
       "disappearedFromInScope": [
