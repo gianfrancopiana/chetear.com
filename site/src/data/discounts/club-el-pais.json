@@ -35,20 +35,6 @@
       "percent": 20
     },
     {
-      "merchant": "¿Estás ahí?",
-      "category": "entretenimiento",
-      "percent": 50,
-      "benefitType": "2-for-1",
-      "notes": "16 de Octubre - 20:30 hs. Lugar: Teatro El Galpón",
-      "validUntil": "2026-10-16",
-      "geo": {
-        "lat": -34.90403,
-        "lng": -56.181082
-      },
-      "location": "Teatro El Galpón, Montevideo",
-      "mapsUrl": "https://www.google.com/maps/place/El+Galp%C3%B3n/@-34.9040305,-56.1810816,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81b5617dc4e7:0xc21c578fd5c6424f"
-    },
-    {
       "merchant": "Alejandro Ferradás: 4 Décadas",
       "category": "entretenimiento",
       "percent": 50,
@@ -343,6 +329,20 @@
       "mapsUrl": "https://www.google.com/maps/place/Parque+de+la+Amistad/@-34.9022731,-56.144214,17z/data=!3m1!4b1!4m6!3m5!1s0x959f8110eee34b5d:0x1ae6547e63098ebc!8m2!3d-34.9022731!4d-56.144214!16s%2Fg%2F11bvcv5w00"
     },
     {
+      "merchant": "Fiesta del Tannat y el Cordero",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "7 de noviembre - 11:00 hs. Lugar: SITIO, Parque Roosevelt",
+      "validUntil": "2026-11-07",
+      "geo": {
+        "lat": -34.864627,
+        "lng": -56.012896
+      },
+      "location": "Sitio Centro de Espectáculos, Ciudad de la Costa",
+      "mapsUrl": "https://www.google.com/maps/place/Sitio+Centro+de+Espect%C3%A1culos/@-34.8646274,-56.0128957,17z/data=!3m1!4b1!4m6!3m5!1s0x959f899da4345ab7:0xdb8fb9fc9c3a95f5!8m2!3d-34.8646274!4d-56.0128957!16s%2Fg%2F11zc_bvnpr"
+    },
+    {
       "merchant": "Flor Infante – Austero",
       "category": "entretenimiento",
       "percent": 50,
@@ -383,20 +383,6 @@
       },
       "location": "Estadio Ernesto de León",
       "mapsUrl": "https://www.google.com/maps/place/Estadio+Ernesto+de+Le%C3%B3n/@-33.3744166,-56.520364,17z/data=!3m1!4b1!4m6!3m5!1s0x95a6ea8a2f08203d:0x537af7f7c45d09bf!8m2!3d-33.3744166!4d-56.520364!16s%2Fg%2F1tcws9xj"
-    },
-    {
-      "merchant": "Harlem Globetrotters – Montevideo",
-      "category": "entretenimiento",
-      "percent": 50,
-      "benefitType": "2-for-1",
-      "notes": "4 de Noviembre - 20 hs. Lugar: Antel Arena",
-      "validUntil": "2026-11-04",
-      "geo": {
-        "lat": -34.862975,
-        "lng": -56.153698
-      },
-      "location": "Antel Arena",
-      "mapsUrl": "https://www.google.com/maps/place/Antel+Arena/@-34.8629745,-56.1536983,17z/data=!3m1!4b1!4m6!3m5!1s0x959f80859196b1db:0xfa0cae26c29546da!8m2!3d-34.8629745!4d-56.1536983!16s%2Fg%2F11gt__kjqx"
     },
     {
       "merchant": "Javier Santaolalla",
@@ -643,20 +629,6 @@
       "benefitType": "2-for-1"
     },
     {
-      "merchant": "OSSODRE – Homenaje",
-      "category": "entretenimiento",
-      "percent": 50,
-      "benefitType": "2-for-1",
-      "notes": "17 de octubre - 20hs. Lugar: Auditorio Adela Reta",
-      "validUntil": "2026-10-17",
-      "geo": {
-        "lat": -34.904353,
-        "lng": -56.198553
-      },
-      "location": "Auditorio Nacional Adela Reta",
-      "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
-    },
-    {
       "merchant": "OSSODRE – Idilio",
       "category": "entretenimiento",
       "percent": 50,
@@ -763,20 +735,6 @@
       "mapsUrl": "https://www.google.com/maps/place/Teatro+Stella+D'Italia.+La+Gaviota./@-34.9005409,-56.1781953,17z/data=!3m1!4b1!4m6!3m5!1s0x959f804b205423f5:0xe67f45177efa9d83!8m2!3d-34.9005409!4d-56.1781953!16s%2Fg%2F1tc_0pmw"
     },
     {
-      "merchant": "Soy Todas",
-      "category": "entretenimiento",
-      "percent": 50,
-      "benefitType": "2-for-1",
-      "notes": "16 de Octubre - 20:30 hs. Lugar: Espacio Zorrilla",
-      "validUntil": "2026-10-16",
-      "geo": {
-        "lat": -34.904859,
-        "lng": -56.206546
-      },
-      "location": "Cerrito 475, Montevideo",
-      "mapsUrl": "https://www.google.com/maps/place/Espacio+Zorrilla/@-34.9048588,-56.2065464,17z/data=!3m1!4b1!4m6!3m5!1s0x959f7ff168b967df:0x93a5f6a3b11e14b8!8m2!3d-34.9048588!4d-56.2065464!16s%2Fg%2F11zbl_5kzy"
-    },
-    {
       "merchant": "Suavecita",
       "category": "entretenimiento",
       "percent": 50,
@@ -838,34 +796,6 @@
       "percent": 50
     },
     {
-      "merchant": "The Police Men ¡vuelve a Uruguay!",
-      "category": "entretenimiento",
-      "percent": 50,
-      "benefitType": "2-for-1",
-      "notes": "17 de octubre - 21:00 hs. Lugar: La Trastienda",
-      "validUntil": "2026-10-17",
-      "geo": {
-        "lat": -34.898385,
-        "lng": -56.178412
-      },
-      "location": "Daniel Fernández Crespo 1763, Montevideo",
-      "mapsUrl": "https://www.google.com/maps/place/La+Trastienda/@-34.8983845,-56.1784118,17z/data=!3m1!4b1!4m6!3m5!1s0x959f804a4cb5c913:0xb5518b32a0807745!8m2!3d-34.8983845!4d-56.1784118!16s%2Fg%2F11xc0qdc_"
-    },
-    {
-      "merchant": "Trotsky Vengarán y Mariano Martínez",
-      "category": "entretenimiento",
-      "percent": 50,
-      "benefitType": "2-for-1",
-      "notes": "31 de octubre - 21:00 hs. Lugar: Teatro de Verano",
-      "validUntil": "2026-10-31",
-      "geo": {
-        "lat": -34.919851,
-        "lng": -56.169725
-      },
-      "location": "Teatro de Verano Ramón Collazo",
-      "mapsUrl": "https://www.google.com/maps/place/Teatro+de+Verano+Ram%C3%B3n+Collazo/@-34.9198507,-56.1697255,17z/data=!3m1!4b1!4m6!3m5!1s0x959f819821d1de0f:0xb2823d7887f5540a!8m2!3d-34.9198507!4d-56.1697255!16s%2Fg%2F122fjxmh"
-    },
-    {
       "merchant": "Un lugar al que volver",
       "category": "entretenimiento",
       "percent": 50,
@@ -920,20 +850,6 @@
       },
       "location": "Teatro Metro",
       "mapsUrl": "https://www.google.com/maps/place/Teatro+Metro/@-34.9066667,-56.19,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81cd1ea5a273:0xadadb9c7368267a1!8m2!3d-34.9066667!4d-56.19!16s%2Fg%2F11b6s19xq1"
-    },
-    {
-      "merchant": "Zita de Tango – 9 ª Edición",
-      "category": "entretenimiento",
-      "percent": 50,
-      "benefitType": "2-for-1",
-      "notes": "17 de octubre - 21 hs. Lugar: Sala Zitarrosa",
-      "validUntil": "2026-10-17",
-      "geo": {
-        "lat": -34.906221,
-        "lng": -56.194456
-      },
-      "location": "Sala Zitarrosa",
-      "mapsUrl": "https://www.google.com/maps/place/Sala+Zitarrosa/@-34.9062213,-56.1944559,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802d2e06d853:0x80732a9b51333b20!8m2!3d-34.9062213!4d-56.1944559!16s%2Fg%2F12dpwqjqf"
     },
     {
       "merchant": "Horneros Racket Club",

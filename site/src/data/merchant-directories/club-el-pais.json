@@ -2682,26 +2682,6 @@
       ]
     },
     {
-      "id": "club-el-pais-ossodre-homenaje-auditorio-adela-reta-locations",
-      "merchantNames": [
-        "OSSODRE – Homenaje"
-      ],
-      "sourceUrls": [
-        "https://nominatim.openstreetmap.org/"
-      ],
-      "merchants": [
-        {
-          "name": "OSSODRE – Homenaje - Auditorio Adela Reta",
-          "location": "Auditorio Nacional \"Adela Reta\", 1455, Andes, Barrio Sur, Montevideo, 11000",
-          "geo": {
-            "lat": -34.904281,
-            "lng": -56.198708
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.904281,-56.198708"
-        }
-      ]
-    },
-    {
       "id": "club-el-pais-ossodre-idilio-auditorio-adela-reta-locations",
       "merchantNames": [
         "OSSODRE – Idilio"
@@ -3424,26 +3404,6 @@
       ]
     },
     {
-      "id": "club-el-pais-trotsky-vengaran-y-mariano-martinez-teatro-de-verano-locations",
-      "merchantNames": [
-        "Trotsky Vengarán y Mariano Martínez"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "Trotsky Vengarán y Mariano Martínez - Teatro de Verano",
-          "location": "Teatro de Verano Ramón Collazo",
-          "geo": {
-            "lat": -34.919851,
-            "lng": -56.169725
-          },
-          "mapsUrl": "https://www.google.com/maps/place/Teatro+de+Verano+Ram%C3%B3n+Collazo/@-34.9198507,-56.1697255,17z/data=!3m1!4b1!4m6!3m5!1s0x959f819821d1de0f:0xb2823d7887f5540a!8m2!3d-34.9198507!4d-56.1697255!16s%2Fg%2F122fjxmh"
-        }
-      ]
-    },
-    {
       "id": "club-el-pais-tuttodeco-detail-locations",
       "merchantNames": [
         "Tuttodeco"
@@ -3689,26 +3649,6 @@
       ]
     },
     {
-      "id": "club-el-pais-estas-ahi-teatro-el-galpon-locations",
-      "merchantNames": [
-        "¿Estás ahí?"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "¿Estás ahí? - Teatro El Galpón",
-          "geo": {
-            "lat": -34.90403,
-            "lng": -56.181082
-          },
-          "mapsUrl": "https://www.google.com/maps/place/El+Galp%C3%B3n/@-34.9040305,-56.1810816,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81b5617dc4e7:0xc21c578fd5c6424f",
-          "location": "Teatro El Galpón, Montevideo"
-        }
-      ]
-    },
-    {
       "id": "club-el-pais-bandoneonas-teatro-solis-locations",
       "merchantNames": [
         "Bandoneonas"
@@ -3859,26 +3799,6 @@
           },
           "mapsUrl": "https://www.google.com/maps/place/Estadio+Ernesto+de+Le%C3%B3n/@-33.3744166,-56.520364,17z/data=!3m1!4b1!4m6!3m5!1s0x95a6ea8a2f08203d:0x537af7f7c45d09bf!8m2!3d-33.3744166!4d-56.520364!16s%2Fg%2F1tcws9xj",
           "location": "Estadio Ernesto de León"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-harlem-globetrotters-montevideo-antel-arena-locations",
-      "merchantNames": [
-        "Harlem Globetrotters – Montevideo"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "Harlem Globetrotters – Montevideo - Antel Arena",
-          "geo": {
-            "lat": -34.862975,
-            "lng": -56.153698
-          },
-          "mapsUrl": "https://www.google.com/maps/place/Antel+Arena/@-34.8629745,-56.1536983,17z/data=!3m1!4b1!4m6!3m5!1s0x959f80859196b1db:0xfa0cae26c29546da!8m2!3d-34.8629745!4d-56.1536983!16s%2Fg%2F11gt__kjqx",
-          "location": "Antel Arena"
         }
       ]
     },
@@ -4077,26 +3997,6 @@
       ]
     },
     {
-      "id": "club-el-pais-zita-de-tango-9-edicion-sala-zitarrosa-locations",
-      "merchantNames": [
-        "Zita de Tango – 9 ª Edición"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "Zita de Tango – 9 ª Edición - Sala Zitarrosa",
-          "geo": {
-            "lat": -34.906221,
-            "lng": -56.194456
-          },
-          "mapsUrl": "https://www.google.com/maps/place/Sala+Zitarrosa/@-34.9062213,-56.1944559,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802d2e06d853:0x80732a9b51333b20!8m2!3d-34.9062213!4d-56.1944559!16s%2Fg%2F12dpwqjqf",
-          "location": "Sala Zitarrosa"
-        }
-      ]
-    },
-    {
       "id": "club-el-pais-sitio-te-mueve-sitio-locations",
       "merchantNames": [
         "Sitio Te Mueve"
@@ -4153,26 +4053,6 @@
           },
           "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z",
           "location": "Auditorio Nacional Adela Reta"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-soy-todas-espacio-zorrilla-locations",
-      "merchantNames": [
-        "Soy Todas"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "Soy Todas - Espacio Zorrilla",
-          "geo": {
-            "lat": -34.904859,
-            "lng": -56.206546
-          },
-          "mapsUrl": "https://www.google.com/maps/place/Espacio+Zorrilla/@-34.9048588,-56.2065464,17z/data=!3m1!4b1!4m6!3m5!1s0x959f7ff168b967df:0x93a5f6a3b11e14b8!8m2!3d-34.9048588!4d-56.2065464!16s%2Fg%2F11zbl_5kzy",
-          "location": "Cerrito 475, Montevideo"
         }
       ]
     },
@@ -4561,22 +4441,22 @@
       ]
     },
     {
-      "id": "club-el-pais-the-police-men-vuelve-a-uruguay-la-trastienda-locations",
+      "id": "club-el-pais-fiesta-del-tannat-y-el-cordero-sitio-locations",
       "merchantNames": [
-        "The Police Men ¡vuelve a Uruguay!"
+        "Fiesta del Tannat y el Cordero"
       ],
       "sourceUrls": [
         "https://www.clubelpais.com.uy/"
       ],
       "merchants": [
         {
-          "name": "The Police Men ¡vuelve a Uruguay! - La Trastienda",
+          "name": "Fiesta del Tannat y el Cordero - SITIO",
           "geo": {
-            "lat": -34.898385,
-            "lng": -56.178412
+            "lat": -34.864627,
+            "lng": -56.012896
           },
-          "mapsUrl": "https://www.google.com/maps/place/La+Trastienda/@-34.8983845,-56.1784118,17z/data=!3m1!4b1!4m6!3m5!1s0x959f804a4cb5c913:0xb5518b32a0807745!8m2!3d-34.8983845!4d-56.1784118!16s%2Fg%2F11xc0qdc_",
-          "location": "Daniel Fernández Crespo 1763, Montevideo"
+          "mapsUrl": "https://www.google.com/maps/place/Sitio+Centro+de+Espect%C3%A1culos/@-34.8646274,-56.0128957,17z/data=!3m1!4b1!4m6!3m5!1s0x959f899da4345ab7:0xdb8fb9fc9c3a95f5!8m2!3d-34.8646274!4d-56.0128957!16s%2Fg%2F11zc_bvnpr",
+          "location": "Sitio Centro de Espectáculos, Ciudad de la Costa"
         }
       ]
     }

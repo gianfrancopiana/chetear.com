@@ -9,7 +9,7 @@
     ],
     "mode": "browser",
     "blueprintPath": "skills/discount-sync/references/provider-blueprints/itau.md",
-    "notes": "2026-10-11: Bosch is back on the union; panel vigencia through 2026-10-31. Movie, Freddo, Las Delicias, and Farmacia El Túnel panels through 2026-10-31. San Roque 25/15 panel still ends 30/09/2026 while the card is live — omit validUntil. Riviera panel still ends 31/08/2026 while live — omit validUntil. Starbucks, CIR, La Nevada - Salto, and exact 10% menos en Mosca remain off the union; keep runtime LKG. No auto-promote.",
+    "notes": "2026-10-18: Union still missing Starbucks, CIR, La Nevada - Salto, and exact 10% menos en Mosca; keep runtime LKG. Bosch panel still through 2026-10-31. Riviera panel still ends 31/08/2026 while live — omit validUntil. Movie, Freddo, Las Delicias, El Túnel, and San Roque titles still listed; those panels did not open this run, keep LKG. New pending: 25% y 15% menos en Milo. Area Design left the union. No auto-promote.",
     "inScope": [
       {
         "title": "15% menos en restaurantes",
@@ -96,6 +96,10 @@
     "reconciliation": {
       "pendingReview": [
         {
+          "title": "25% y 15% menos en Milo",
+          "note": "Union card 2026-10-18 — do not auto-promote"
+        },
+        {
           "title": "25% menos todos los días",
           "note": "Personal Bank tab overlay; confirm merchant scope"
         },
@@ -168,10 +172,6 @@
           "note": "Likely non-schema / points-style hotel benefits"
         },
         {
-          "title": "25% menos en Area Design",
-          "note": "Union card 2026-10-11 — do not auto-promote"
-        },
-        {
           "title": "Prat Pádel",
           "note": "New union card 2026-09-17 — classify before runtime"
         },
@@ -211,19 +211,19 @@
       "disappearedFromInScope": [
         {
           "title": "15% menos en Starbucks en bebidas",
-          "note": "Still missing from #/todas-las-tarjetas 2026-10-11; keep runtime LKG pending human drop"
+          "note": "Still missing from #/todas-las-tarjetas 2026-10-18; keep runtime LKG pending human drop"
         },
         {
           "title": "15% menos en CIR Acondicionamiento térmico",
-          "note": "Missing from union 2026-10-11; keep runtime LKG pending human drop"
+          "note": "Missing from union 2026-10-18; keep runtime LKG pending human drop"
         },
         {
           "title": "2x1 en Heladería La Nevada - Salto",
-          "note": "Missing from union 2026-10-11; keep runtime LKG and omit past validUntil pending human drop"
+          "note": "Missing from union 2026-10-18; keep runtime LKG and omit past validUntil pending human drop"
         },
         {
           "title": "10% menos en Mosca",
-          "note": "Exact title still missing 2026-10-11; union shows 10% menos en Mosca con Personal Bank. Keep 10% runtime LKG"
+          "note": "Exact title still missing 2026-10-18; union shows 10% menos en Mosca con Personal Bank. Keep 10% runtime LKG"
         }
       ],
       "staleOutOfScope": [
