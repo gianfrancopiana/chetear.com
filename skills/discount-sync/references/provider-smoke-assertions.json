@@ -430,7 +430,9 @@
         ]
       }
     ],
-    "mustNotContainMerchants": []
+    "mustNotContainMerchants": [
+      "Librería Pocho"
+    ]
   },
   "prex": {
     "minRules": 7,

@@ -4361,7 +4361,12 @@
       "merchants": [
         {
           "name": "Buceo Invisible en el Planetario - Planetario de Montevideo",
-          "location": "Planetario de Montevideo"
+          "location": "Avenida General Rivera 3275, Montevideo",
+          "geo": {
+            "lat": -34.901858,
+            "lng": -56.144551
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Planetario+de+Montevideo/@-34.901858,-56.144551,17z/data=!3m1!4b1!4m6!3m5!1s0x959f8110fac5989f:0x7b32fd0cf4bd7a7d!8m2!3d-34.901858!4d-56.144551!16s%2Fg%2F11b7431k3_"
         }
       ]
     },
@@ -4416,7 +4421,12 @@
       "merchants": [
         {
           "name": "Primera Jornada Internacional e Interdisciplinaria de Salud Mental y Territorio - Centro de Convenciones de Punta del Este",
-          "location": "Centro de Convenciones de Punta del Este"
+          "location": "Av. Pedragosa Sierra esq. Aparicio Saravia, Punta del Este",
+          "geo": {
+            "lat": -34.919487,
+            "lng": -54.921507
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Centro+de+Convenciones+de+Punta+del+Este/@-34.919487,-54.9215066,17z/data=!3m1!4b1!4m6!3m5!1s0x95751ad60850c14d:0x7115e9bde17fef35!8m2!3d-34.919487!4d-54.9215066!16s%2Fg%2F11cm_v4783"
         }
       ]
     },

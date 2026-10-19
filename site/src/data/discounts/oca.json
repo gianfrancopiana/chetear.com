@@ -541,26 +541,6 @@
       "notes": "Todos los viernes. Tarjetas de crédito Mastercard y Visa. Sucursales participantes (multi-local; no parent geo). No Mercado Pago. No acumulable."
     },
     {
-      "merchant": "Librería Pocho",
-      "category": "educacion",
-      "percent": 20,
-      "tiers": [
-        "todas"
-      ],
-      "validUntil": "2026-10-18",
-      "refundType": "statement-credit",
-      "channels": [
-        "in-store"
-      ],
-      "networks": [
-        "visa",
-        "mastercard",
-        "oca"
-      ],
-      "notes": "Feria del Libro, explanada, atrio y entrepiso de la Intendencia de Montevideo. Tarjetas de crédito Mastercard y Visa. Sin tope.",
-      "location": "Feria del Libro, Intendencia de Montevideo"
-    },
-    {
       "merchant": "Cines del Este",
       "category": "entretenimiento",
       "percent": 50,
