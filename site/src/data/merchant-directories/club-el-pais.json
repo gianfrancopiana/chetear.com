@@ -4469,6 +4469,26 @@
           "location": "Sitio Centro de Espectáculos, Ciudad de la Costa"
         }
       ]
+    },
+    {
+      "id": "club-el-pais-tu-hija-la-gringa-teatro-locations",
+      "merchantNames": [
+        "Tu hija"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/evento/tu-hija/"
+      ],
+      "merchants": [
+        {
+          "name": "Tu hija - La Gringa Teatro",
+          "location": "Galería de Las Américas, 18 de julio 1236, Montevideo",
+          "geo": {
+            "lat": -34.905914,
+            "lng": -56.189320
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Teatro+La+Gringa/@-34.9059143,-56.1893196,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81cca263481d:0xb6d3e1174991748!8m2!3d-34.9059143!4d-56.1893196!16s%2Fg%2F11fx7rztml"
+        }
+      ]
     }
   ]
 }

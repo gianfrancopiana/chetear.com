@@ -808,6 +808,20 @@
       "percent": 50
     },
     {
+      "merchant": "Tu hija",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "23 de octubre al 01 de noviembre - 20:00 y 21:00 hs. Lugar: La Gringa Teatro",
+      "validUntil": "2026-11-01",
+      "geo": {
+        "lat": -34.905914,
+        "lng": -56.189320
+      },
+      "location": "Galería de Las Américas, 18 de julio 1236, Montevideo",
+      "mapsUrl": "https://www.google.com/maps/place/Teatro+La+Gringa/@-34.9059143,-56.1893196,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81cca263481d:0xb6d3e1174991748!8m2!3d-34.9059143!4d-56.1893196!16s%2Fg%2F11fx7rztml"
+    },
+    {
       "merchant": "Un lugar al que volver",
       "category": "entretenimiento",
       "percent": 50,
