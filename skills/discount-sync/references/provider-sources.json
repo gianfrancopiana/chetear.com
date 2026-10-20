@@ -9,7 +9,7 @@
     ],
     "mode": "browser",
     "blueprintPath": "skills/discount-sync/references/provider-blueprints/itau.md",
-    "notes": "2026-10-19: Union still missing Starbucks, CIR, La Nevada - Salto, and exact 10% menos en Mosca; keep runtime LKG. Bosch panel still through 2026-10-31. Riviera panel still ends 31/08/2026 while live — omit validUntil. Movie, Freddo, Las Delicias, El Túnel, and San Roque titles still listed; those panels did not open this run, keep LKG. Milo left the union — dropped from pendingReview. No auto-promote.",
+    "notes": "2026-10-20: Union still missing Starbucks, CIR, La Nevada - Salto, and exact 10% menos en Mosca; keep runtime LKG. 25% y 15% menos en Mosca tecnología left the union — dropped from pendingReview. Bosch, Movie, Freddo, Las Delicias, and El Túnel still through 2026-10-31. Riviera panel still ends 31/08/2026 and San Roque panel still ends 30/09/2026 while live — omit validUntil. No auto-promote.",
     "inScope": [
       {
         "title": "15% menos en restaurantes",
@@ -145,10 +145,6 @@
         },
         {
           "title": "10% menos en Frog",
-          "note": "Union card 2026-10-11 — do not auto-promote"
-        },
-        {
-          "title": "25% y 15% menos en Mosca tecnología",
           "note": "Union card 2026-10-11 — do not auto-promote"
         },
         {
