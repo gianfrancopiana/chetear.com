@@ -140,14 +140,14 @@
     {
       "id": "club-el-pais-alfombras-zurtan-detail-locations",
       "merchantNames": [
-        "Alfombras Zurtan"
+        "Zurtan Casa"
       ],
       "sourceUrls": [
         "https://www.clubelpais.com.uy/comercio/alfombras-zurtan/"
       ],
       "merchants": [
         {
-          "name": "Alfombras Zurtan - Dirección",
+          "name": "Zurtan Casa - Dirección",
           "url": "https://www.clubelpais.com.uy/comercio/alfombras-zurtan/",
           "location": "Dirección General Impositiva, 1534, Avenida Daniel Fernández Crespo, Cordón, Montevideo, 11200",
           "geo": {
@@ -4177,26 +4177,6 @@
       ]
     },
     {
-      "id": "club-el-pais-kuropa-y-severo-auditorio-adela-reta-locations",
-      "merchantNames": [
-        "Kuropa y Severo"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "Kuropa y Severo - Auditorio Adela Reta",
-          "location": "Auditorio Nacional Adela Reta",
-          "geo": {
-            "lat": -34.904353,
-            "lng": -56.198553
-          },
-          "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
-        }
-      ]
-    },
-    {
       "id": "club-el-pais-la-puerta-azul-teatro-la-candela-locations",
       "merchantNames": [
         "La puerta azul"
@@ -4473,14 +4453,14 @@
     {
       "id": "club-el-pais-tu-hija-la-gringa-teatro-locations",
       "merchantNames": [
-        "Tu hija"
+        "Tu Hija"
       ],
       "sourceUrls": [
         "https://www.clubelpais.com.uy/evento/tu-hija/"
       ],
       "merchants": [
         {
-          "name": "Tu hija - La Gringa Teatro",
+          "name": "Tu Hija - La Gringa Teatro",
           "location": "Galería de Las Américas, 18 de julio 1236, Montevideo",
           "geo": {
             "lat": -34.905914,
