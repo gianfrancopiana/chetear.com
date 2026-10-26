@@ -297,26 +297,6 @@
       ]
     },
     {
-      "id": "club-el-pais-ave-fenix-sala-campodonico-teatro-el-galpon-locations",
-      "merchantNames": [
-        "Ave Fénix – Sala Campodónico"
-      ],
-      "sourceUrls": [
-        "https://nominatim.openstreetmap.org/"
-      ],
-      "merchants": [
-        {
-          "name": "Ave Fénix – Sala Campodónico - Teatro El Galpón",
-          "location": "El Galpón, Avenida 18 de Julio, Cordón, Montevideo, 11200",
-          "geo": {
-            "lat": -34.904211,
-            "lng": -56.181104
-          },
-          "mapsUrl": "https://www.google.com/maps/dir//-34.904211,-56.181104"
-        }
-      ]
-    },
-    {
       "id": "club-el-pais-awa-detail-locations",
       "merchantNames": [
         "AWA"
@@ -672,7 +652,7 @@
       ]
     },
     {
-      "id": "club-el-pais-cartografia-sobre-la-identidad-teatro-solis-locations",
+      "id": "club-el-pais-cartografia-sobre-la-identidad-sala-camacua-locations",
       "merchantNames": [
         "Cartografía sobre la Identidad"
       ],
@@ -681,13 +661,13 @@
       ],
       "merchants": [
         {
-          "name": "Cartografía sobre la Identidad - Teatro Solís",
-          "location": "Teatro Solís",
+          "name": "Cartografía sobre la Identidad - Sala Camacuá",
+          "location": "Sala Camacuá",
           "geo": {
-            "lat": -34.907634,
-            "lng": -56.201123
+            "lat": -34.909122,
+            "lng": -56.202256
           },
-          "mapsUrl": "https://www.google.com/maps/place/Teatro+Sol%C3%ADs/@-34.9076336,-56.2011228,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802adf27edcb:0xe9cdb804f35a1e8a!8m2!3d-34.9076336!4d-56.2011228!16s%2Fm%2F03c5d99"
+          "mapsUrl": "https://www.google.com/maps/place/Sala+Camacu%C3%A1/@-34.9091219,-56.2022557,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81d52fef30bb:0xdc43d5c1616ccb78!8m2!3d-34.9091219!4d-56.2022557!16s%2Fg%2F11c0qgj373"
         }
       ]
     },
@@ -951,26 +931,6 @@
       ]
     },
     {
-      "id": "club-el-pais-dani-la-chepi-sala-campodonico-teatro-el-galpon-locations",
-      "merchantNames": [
-        "Dani La Chepi – Sala Campodónico"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "Dani La Chepi – Sala Campodónico - Teatro El Galpón",
-          "location": "El Galpón",
-          "geo": {
-            "lat": -34.90403,
-            "lng": -56.181082
-          },
-          "mapsUrl": "https://www.google.com/maps/place/El+Galp%C3%B3n/@-34.9040305,-56.1810816,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81b5617dc4e7:0xc21c578fd5c6424f!8m2!3d-34.9040305!4d-56.1810816!16s%2Fg%2F121rjw4h"
-        }
-      ]
-    },
-    {
       "id": "club-el-pais-darko-lighting-locations",
       "merchantNames": [
         "Darko Lighting"
@@ -1143,26 +1103,6 @@
             "lng": -56.175214
           },
           "mapsUrl": "https://www.google.com/maps/dir//-34.900661,-56.175214"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-elena-roger-en-concierto-teatro-el-galpon-locations",
-      "merchantNames": [
-        "Elena Roger en Concierto"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "Elena Roger en Concierto - Teatro El Galpón",
-          "location": "El Galpón",
-          "geo": {
-            "lat": -34.90403,
-            "lng": -56.181082
-          },
-          "mapsUrl": "https://www.google.com/maps/place/El+Galp%C3%B3n/@-34.9040305,-56.1810816,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81b5617dc4e7:0xc21c578fd5c6424f!8m2!3d-34.9040305!4d-56.1810816!16s%2Fg%2F121rjw4h"
         }
       ]
     },
@@ -2062,26 +2002,6 @@
             "lng": -58.398742
           },
           "mapsUrl": "https://www.google.com/maps/dir//-33.913546,-58.398742"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-lorca-el-tren-del-olvido-30-aniversario-sala-campodonico-teatro-el-galpon-locations",
-      "merchantNames": [
-        "Lorca – «El Tren del Olvido» 30° aniversario (Sala Campodónico)"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "Lorca – «El Tren del Olvido» 30° aniversario (Sala Campodónico) - Teatro El Galpón",
-          "location": "Teatro El Galpón, Montevideo",
-          "geo": {
-            "lat": -34.90403,
-            "lng": -56.181082
-          },
-          "mapsUrl": "https://www.google.com/maps/place/El+Galp%C3%B3n/@-34.9040305,-56.1810816,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81b5617dc4e7:0xc21c578fd5c6424f"
         }
       ]
     },
@@ -3629,26 +3549,6 @@
       ]
     },
     {
-      "id": "club-el-pais-daniel-drexler-auditorio-adela-reta-locations",
-      "merchantNames": [
-        "Daniel Drexler"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "Daniel Drexler - Auditorio Adela Reta",
-          "geo": {
-            "lat": -34.904353,
-            "lng": -56.198553
-          },
-          "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z",
-          "location": "Auditorio Nacional Adela Reta"
-        }
-      ]
-    },
-    {
       "id": "club-el-pais-bandoneonas-teatro-solis-locations",
       "merchantNames": [
         "Bandoneonas"
@@ -3669,26 +3569,6 @@
       ]
     },
     {
-      "id": "club-el-pais-el-bien-teatro-stella-d-italia-locations",
-      "merchantNames": [
-        "El Bien"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "El Bien - Teatro Stella D'Italia",
-          "geo": {
-            "lat": -34.900541,
-            "lng": -56.178195
-          },
-          "mapsUrl": "https://www.google.com/maps/place/Teatro+Stella+D'Italia.+La+Gaviota./@-34.9005409,-56.1781953,17z/data=!3m1!4b1!4m6!3m5!1s0x959f804b205423f5:0xe67f45177efa9d83!8m2!3d-34.9005409!4d-56.1781953!16s%2Fg%2F1tc_0pmw",
-          "location": "Teatro Stella D'Italia. La Gaviota., Montevideo"
-        }
-      ]
-    },
-    {
       "id": "club-el-pais-sobre-la-marcha-el-recorrido-teatro-stella-d-italia-locations",
       "merchantNames": [
         "Sobre la marcha – El recorrido"
@@ -3705,26 +3585,6 @@
           },
           "mapsUrl": "https://www.google.com/maps/place/Teatro+Stella+D'Italia.+La+Gaviota./@-34.9005409,-56.1781953,17z/data=!3m1!4b1!4m6!3m5!1s0x959f804b205423f5:0xe67f45177efa9d83!8m2!3d-34.9005409!4d-56.1781953!16s%2Fg%2F1tc_0pmw",
           "location": "Teatro Stella D'Italia. La Gaviota., Montevideo"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-el-rey-de-los-hongos-teatro-circular-locations",
-      "merchantNames": [
-        "El rey de los hongos"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "El rey de los hongos - Teatro Circular",
-          "geo": {
-            "lat": -34.905243,
-            "lng": -56.191147
-          },
-          "mapsUrl": "https://www.google.com/maps/place/Teatro+Circular/@-34.9052429,-56.1911468,17z/data=!3m1!4b1!4m6!3m5!1s0x959f8032b0c64a17:0x613f3768417500bd!8m2!3d-34.9052429!4d-56.1911468!16s%2Fg%2F12gh3c102",
-          "location": "Teatro Circular"
         }
       ]
     },
@@ -3957,26 +3817,6 @@
       ]
     },
     {
-      "id": "club-el-pais-ver-el-mundo-arder-teatro-stelal-d-italia-la-gaviota-locations",
-      "merchantNames": [
-        "Ver el mundo arder"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "Ver el mundo arder - Teatro Stelal D'Italia - La Gaviota",
-          "geo": {
-            "lat": -34.900541,
-            "lng": -56.178195
-          },
-          "mapsUrl": "https://www.google.com/maps/place/Teatro+Stella+D'Italia.+La+Gaviota./@-34.9005409,-56.1781953,17z/data=!3m1!4b1!4m6!3m5!1s0x959f804b205423f5:0xe67f45177efa9d83!8m2!3d-34.9005409!4d-56.1781953!16s%2Fg%2F1tc_0pmw",
-          "location": "Teatro Stella D'Italia. La Gaviota., Montevideo"
-        }
-      ]
-    },
-    {
       "id": "club-el-pais-yo-encarnacion-teatro-metro-locations",
       "merchantNames": [
         "Yo Encarnación"
@@ -4093,26 +3933,6 @@
           },
           "mapsUrl": "https://www.google.com/maps/place/Teatro+Stella+D'Italia.+La+Gaviota./@-34.9005409,-56.1781953,17z/data=!3m1!4b1!4m6!3m5!1s0x959f804b205423f5:0xe67f45177efa9d83!8m2!3d-34.9005409!4d-56.1781953!16s%2Fg%2F1tc_0pmw",
           "location": "Teatro Stella D'Italia. La Gaviota., Montevideo"
-        }
-      ]
-    },
-    {
-      "id": "club-el-pais-alejandro-ferradas-4-decadas-sociedad-urbana-villa-dolores-locations",
-      "merchantNames": [
-        "Alejandro Ferradás: 4 Décadas"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "Alejandro Ferradás: 4 Décadas - Sociedad Urbana Villa Dolores",
-          "location": "Sociedad Urbana Villa Dolores",
-          "geo": {
-            "lat": -34.900614,
-            "lng": -56.146561
-          },
-          "mapsUrl": "https://www.google.com/maps/place/Sociedad+Urbana+Villa+Dolores/@-34.9006142,-56.1465615,17z/data=!3m1!4b1!4m6!3m5!1s0x959f811e5518a2db:0xbedee45a926bf272!8m2!3d-34.9006142!4d-56.1465615!16s%2Fg%2F11s4wjb2xs"
         }
       ]
     },
@@ -4291,26 +4111,6 @@
       ]
     },
     {
-      "id": "club-el-pais-taller-de-semiotica-arte-fundacion-de-arte-contemporaneo-locations",
-      "merchantNames": [
-        "Taller de Semiótica & Arte"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "Taller de Semiótica & Arte - Fundación de Arte Contemporáneo",
-          "geo": {
-            "lat": -34.915177,
-            "lng": -56.165609
-          },
-          "mapsUrl": "https://www.google.com/maps/place/Fundaci%C3%B3n+de+Arte+Contempor%C3%A1neo+-+fac/@-34.915177,-56.165609,17z/data=!3m1!4b1!4m6!3m5!1s0x959f8194da0282fb:0x347f86de5eb6d9a9!8m2!3d-34.915177!4d-56.165609!16s%2Fg%2F11g_x4jsws",
-          "location": "Av. Sarmiento 2244, Montevideo"
-        }
-      ]
-    },
-    {
       "id": "club-el-pais-un-lugar-al-que-volver-teatro-circular-locations",
       "merchantNames": [
         "Un lugar al que volver"
@@ -4464,9 +4264,69 @@
           "location": "Galería de Las Américas, 18 de julio 1236, Montevideo",
           "geo": {
             "lat": -34.905914,
-            "lng": -56.189320
+            "lng": -56.18932
           },
           "mapsUrl": "https://www.google.com/maps/place/Teatro+La+Gringa/@-34.9059143,-56.1893196,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81cca263481d:0xb6d3e1174991748!8m2!3d-34.9059143!4d-56.1893196!16s%2Fg%2F11fx7rztml"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-festival-fado-mvd-2026-sala-zitarrosa-locations",
+      "merchantNames": [
+        "Festival Fado Mvd 2026"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "Festival Fado Mvd 2026 - Sala Zitarrosa",
+          "location": "Sala Zitarrosa",
+          "geo": {
+            "lat": -34.906221,
+            "lng": -56.194456
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Sala+Zitarrosa/@-34.9062213,-56.1944559,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802d2e06d853:0x80732a9b51333b20!8m2!3d-34.9062213!4d-56.1944559!16s%2Fg%2F12dpwqjqf"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-noelia-pace-la-medium-teatro-el-galpon-locations",
+      "merchantNames": [
+        "Noelia Pace La Medium"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "Noelia Pace La Medium - Teatro El Galpón",
+          "location": "Teatro El Galpón, Montevideo",
+          "geo": {
+            "lat": -34.90403,
+            "lng": -56.181082
+          },
+          "mapsUrl": "https://www.google.com/maps/place/El+Galp%C3%B3n/@-34.9040305,-56.1810816,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81b5617dc4e7:0xc21c578fd5c6424f"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-pasos-largos-auditorio-adela-reta-locations",
+      "merchantNames": [
+        "Pasos Largos"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "Pasos Largos - Auditorio Adela Reta",
+          "location": "Auditorio Nacional Adela Reta",
+          "geo": {
+            "lat": -34.904353,
+            "lng": -56.198553
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
         }
       ]
     }

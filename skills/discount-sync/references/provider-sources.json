@@ -9,7 +9,7 @@
     ],
     "mode": "browser",
     "blueprintPath": "skills/discount-sync/references/provider-blueprints/itau.md",
-    "notes": "2026-10-21: Union still missing Starbucks, CIR, La Nevada - Salto, and exact 10% menos en Mosca; keep runtime LKG. 20% menos en Farmacia El Túnel left the union — dropped from pendingReview. Bosch, Movie, Freddo, Las Delicias, and El Túnel still through 2026-10-31. Riviera panel still ends 31/08/2026 and San Roque panel still ends 30/09/2026 while live — omit validUntil. No auto-promote.",
+    "notes": "2026-10-26: XML union still missing Starbucks, CIR, and exact 10% menos en Mosca; keep runtime LKG. La Nevada returned; Movie, Freddo, Las Delicias, El Túnel, Bosch, San Roque, and La Nevada through 2026-11-30. Riviera panel still ends 31/08/2026 while live — omit validUntil. No auto-promote.",
     "inScope": [
       {
         "title": "15% menos en restaurantes",
@@ -21,7 +21,7 @@
       },
       {
         "title": "15% menos en Bosch y Cia",
-        "note": "Credit cards 15%; brands Roca/Hansgrohe/Johnson/Portobello. Panel vigencia through 2026-10-31."
+        "note": "Credit cards 15%; brands Roca/Hansgrohe/Johnson/Portobello. Panel vigencia through 2026-11-30."
       },
       {
         "title": "15% menos en Starbucks en bebidas",
@@ -33,30 +33,30 @@
       },
       {
         "title": "25% y 15% menos en Farmacia El Túnel",
-        "note": "Personal Bank debit/credit. 25% Mon/Wed, 15% all days. Panel vigencia through 2026-10-31."
+        "note": "Personal Bank debit/credit. 25% Mon/Wed, 15% all days. Panel vigencia through 2026-11-30."
       },
       {
         "title": "25% y 15% menos en San Roque",
-        "note": "Panel 2026-10-11 still prints vigencia through 30/09/2026 while the card is live — omit validUntil."
+        "note": "Personal Bank 25% Tue/Thu and 15% all days. XML vigencia through 2026-11-30."
       },
       {
         "title": "15% menos en CIR Acondicionamiento térmico"
       },
       {
         "title": "2x1 en Movie",
-        "note": "benefitType=2-for-1; Débito Volar (incl. junior) all days, Débito azul + Cuenta Pocket Mon-Wed (Pocket web-only); cap 4 tickets/card per session; doesn't stack; July break skips azul; panel vigencia through 2026-10-31"
+        "note": "benefitType=2-for-1; Débito Volar (incl. junior) all days, Débito azul + Cuenta Pocket Mon-Wed (Pocket web-only); cap 4 tickets/card per session; doesn't stack; July break skips azul; panel vigencia through 2026-11-30"
       },
       {
         "title": "2x1 en Freddo",
-        "note": "benefitType=2-for-1; panel vigencia through 2026-10-31"
+        "note": "benefitType=2-for-1; panel vigencia through 2026-11-30"
       },
       {
         "title": "2x1 en Las Delicias",
-        "note": "benefitType=2-for-1; panel vigencia through 2026-10-31"
+        "note": "benefitType=2-for-1; panel vigencia through 2026-11-30"
       },
       {
         "title": "2x1 en Heladería La Nevada - Salto",
-        "note": "benefitType=2-for-1; Salto only; panel vigencia through 2026-08-31"
+        "note": "benefitType=2-for-1; Salto only; returned to XML union 2026-10-26; vigencia through 2026-11-30"
       },
       {
         "title": "10% menos en Mosca",
@@ -194,24 +194,36 @@
         {
           "title": "25% en envíos de Glic",
           "note": "Union card 2026-10-16 — do not auto-promote"
+        },
+        {
+          "title": "Sinfonía celebra sus 10 años con cuatro talleres",
+          "note": "XML union 2026-10-26 — do not auto-promote"
+        },
+        {
+          "title": "25% y 20% y 15% menos en farmacias El Túnel",
+          "note": "Likely variant of inScope Farmacia El Túnel; do not auto-replace"
+        },
+        {
+          "title": "20% menos en Librerías",
+          "note": "XML union 2026-10-26 — do not auto-promote"
+        },
+        {
+          "title": "25% menos en Librerías",
+          "note": "XML union 2026-10-26 — do not auto-promote"
         }
       ],
       "disappearedFromInScope": [
         {
           "title": "15% menos en Starbucks en bebidas",
-          "note": "Still missing from #/todas-las-tarjetas 2026-10-18; keep runtime LKG pending human drop"
+          "note": "Still missing from XML union 2026-10-26; keep runtime LKG pending human drop"
         },
         {
           "title": "15% menos en CIR Acondicionamiento térmico",
-          "note": "Missing from union 2026-10-18; keep runtime LKG pending human drop"
-        },
-        {
-          "title": "2x1 en Heladería La Nevada - Salto",
-          "note": "Missing from union 2026-10-18; keep runtime LKG and omit past validUntil pending human drop"
+          "note": "Missing from XML union 2026-10-26; keep runtime LKG pending human drop"
         },
         {
           "title": "10% menos en Mosca",
-          "note": "Exact title still missing 2026-10-18; union shows 10% menos en Mosca con Personal Bank. Keep 10% runtime LKG"
+          "note": "Exact title still missing 2026-10-26; XML shows 10% menos en Mosca con Personal Bank through 2026-11-30. Keep 10% runtime LKG"
         }
       ],
       "staleOutOfScope": [

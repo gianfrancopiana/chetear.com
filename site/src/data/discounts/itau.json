@@ -66,7 +66,7 @@
       "cardFamilies": [
         "Personal Bank"
       ],
-      "validUntil": "2026-10-31"
+      "validUntil": "2026-11-30"
     },
     {
       "merchant": "Farmacia El Túnel",
@@ -87,7 +87,7 @@
         "visa",
         "mastercard"
       ],
-      "validUntil": "2026-10-31"
+      "validUntil": "2026-11-30"
     },
     {
       "id": "itau-san-roque-premium-25",
@@ -110,7 +110,8 @@
       ],
       "cardFamilies": [
         "Personal Bank"
-      ]
+      ],
+      "validUntil": "2026-11-30"
     },
     {
       "id": "itau-san-roque-general-15",
@@ -131,7 +132,8 @@
       "networks": [
         "visa",
         "mastercard"
-      ]
+      ],
+      "validUntil": "2026-11-30"
     },
     {
       "merchant": "CIR Acondicionamiento térmico",
@@ -172,7 +174,7 @@
       ],
       "stackable": false,
       "notes": "Tarjetas de crédito Itaú. Marcas: Roca, Hansgrohe, Johnson y Portobello",
-      "validUntil": "2026-10-31"
+      "validUntil": "2026-11-30"
     },
     {
       "merchant": "Starbucks",
@@ -228,7 +230,7 @@
         "Personal Bank"
       ],
       "notes": "2x1 en helados de kilo y cucuruchos grandes. No aplica Cuenta Pocket",
-      "validUntil": "2026-10-31"
+      "validUntil": "2026-11-30"
     },
     {
       "merchant": "Las Delicias",
@@ -248,7 +250,7 @@
         "Personal Bank"
       ],
       "notes": "2x1 en helados de litro y cucuruchos grandes. Montevideo y Maldonado. No aplica Cuenta Pocket",
-      "validUntil": "2026-10-31"
+      "validUntil": "2026-11-30"
     },
     {
       "merchant": "Heladería La Nevada - Salto",
@@ -273,7 +275,8 @@
         "lat": -31.388646,
         "lng": -57.965487
       },
-      "mapsUrl": "https://www.google.com/maps/place/Helader%C3%ADa+Nevada/@-31.3886457,-57.9654871,17z/data=!3m1!4b1!4m6!3m5!1s0x95addd2ba770fef5:0xf10a98ee26e4d047!8m2!3d-31.3886457!4d-57.9654871!16s%2Fg%2F11rvs_1jr"
+      "mapsUrl": "https://www.google.com/maps/place/Helader%C3%ADa+Nevada/@-31.3886457,-57.9654871,17z/data=!3m1!4b1!4m6!3m5!1s0x95addd2ba770fef5:0xf10a98ee26e4d047!8m2!3d-31.3886457!4d-57.9654871!16s%2Fg%2F11rvs_1jr",
+      "validUntil": "2026-11-30"
     },
     {
       "id": "itau-movie-debito-volar-2x1",
@@ -294,7 +297,7 @@
       "stackable": false,
       "cap": "4 entradas por tarjeta por función",
       "notes": "Débito Volar incluye junior. Débito por pago de sueldos (azules) y Cuenta Pocket aplican solo lunes a miércoles. Cuenta Pocket únicamente en compras web.",
-      "validUntil": "2026-10-31"
+      "validUntil": "2026-11-30"
     }
   ]
 }
