@@ -58,7 +58,7 @@ A fresh clone should tell the agent:
 
 Required scheduled job names:
 - `chetear:discounts-daily`
-- `chetear:prices-daily`
+- `chetear:prices-daily` (paused; do not resume)
 
 Those jobs should stay thin and point back to the repo runbooks instead of re-embedding project-specific logic elsewhere.
 

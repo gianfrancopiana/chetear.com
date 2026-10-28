@@ -16,8 +16,8 @@ If this repo has just been cloned into the infra workspace, the agent operating 
 The executable source of truth for those jobs is `automation/install-hermes-crons.py`; the surrounding contract is in `automation/hermes-bootstrap.md`.
 
 Required job names:
-- `chetear:discounts-daily`
-- `chetear:prices-daily`
+- `chetear:discounts-daily` — must stay scheduled
+- `chetear:prices-daily` — installed but paused. Do not resume it. precios.uy is returning HTTP 200 with body `Error interno`. Re-enable only when asked.
 
 Check or repair them from the repo:
 

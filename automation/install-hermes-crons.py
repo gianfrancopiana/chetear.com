@@ -34,6 +34,9 @@ CRON_JOBS = [
             "Run the repo's daily prices sync. Follow AGENTS.md and "
             "automation/daily-sync.md. No-op/routine: [SILENT]. Otherwise short summary."
         ),
+        # Paused while precios.uy returns HTTP 200 + "Error interno". Do not resume
+        # from this installer. Re-enable only when asked.
+        "enabled": False,
     },
 ]
 
@@ -92,10 +95,12 @@ def job_drift(existing, desired):
         drift.append(("script", existing.get("script"), None))
     if bool(existing.get("no_agent", False)):
         drift.append(("no_agent", existing.get("no_agent"), False))
-    if not existing.get("enabled", True):
-        drift.append(("enabled", existing.get("enabled"), True))
-    if existing.get("state") == "paused":
+    want_enabled = desired.get("enabled", True)
+    is_paused = existing.get("state") == "paused" or not existing.get("enabled", True)
+    if want_enabled and is_paused:
         drift.append(("state", existing.get("state"), "scheduled"))
+    if not want_enabled and not is_paused:
+        drift.append(("state", existing.get("state"), "paused"))
     return drift
 
 
@@ -150,8 +155,12 @@ def apply_job(hermes_bin: str, desired, existing, dry_run: bool):
         ],
         dry_run,
     )
-    if existing.get("state") == "paused" or not existing.get("enabled", True):
+    want_enabled = desired.get("enabled", True)
+    is_paused = existing.get("state") == "paused" or not existing.get("enabled", True)
+    if want_enabled and is_paused:
         run([hermes_bin, "cron", "resume", existing["id"]], dry_run)
+    if not want_enabled and not is_paused:
+        run([hermes_bin, "cron", "pause", existing["id"]], dry_run)
 
 
 def main() -> int:

@@ -34,7 +34,7 @@ The exact install/repair contract lives in `automation/hermes-bootstrap.md`, and
 
 Required job names:
 - `chetear:discounts-daily`
-- `chetear:prices-daily`
+- `chetear:prices-daily` (paused; do not resume)
 
 Check or repair them from the repo:
 

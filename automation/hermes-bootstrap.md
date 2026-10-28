@@ -61,10 +61,10 @@ Default delivery is `origin`, which falls back to Hermes' home channel when the 
 
 ## Required jobs
 
-The installer must ensure exactly one active job for each responsibility:
+The installer must ensure exactly one job for each responsibility. Discounts stays scheduled. Prices stays installed and paused.
 
 - `chetear:discounts-daily` — daily discount sync at `0 5 * * *`
-- `chetear:prices-daily` — daily prices sync at `30 5 * * *`
+- `chetear:prices-daily` — installed at `30 5 * * *`, but paused. The installer must not resume it.
 
 Each job must stay a thin dispatcher:
 
