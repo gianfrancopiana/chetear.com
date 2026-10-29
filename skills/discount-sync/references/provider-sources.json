@@ -9,7 +9,7 @@
     ],
     "mode": "browser",
     "blueprintPath": "skills/discount-sync/references/provider-blueprints/itau.md",
-    "notes": "2026-10-26: XML union still missing Starbucks, CIR, and exact 10% menos en Mosca; keep runtime LKG. La Nevada returned; Movie, Freddo, Las Delicias, El Túnel, Bosch, San Roque, and La Nevada through 2026-11-30. Riviera panel still ends 31/08/2026 while live — omit validUntil. No auto-promote.",
+    "notes": "2026-10-29: XML union still missing Starbucks, CIR, and exact 10% menos en Mosca; keep runtime LKG. Live in-scope vigencia still through 2026-11-30. Riviera bases still end 31/08/2026 while live — omit validUntil. New pending: 25% y 15% menos en Carters (2026-10-29 to 2026-11-01). No auto-promote.",
     "inScope": [
       {
         "title": "15% menos en restaurantes",
@@ -210,20 +210,24 @@
         {
           "title": "25% menos en Librerías",
           "note": "XML union 2026-10-26 — do not auto-promote"
+        },
+        {
+          "title": "25% y 15% menos en Carters",
+          "note": "XML union 2026-10-29 — 25% Platinum/Infinite/Black and Personal Bank, 15% all credit, window 2026-10-29 to 2026-11-01. Do not auto-promote."
         }
       ],
       "disappearedFromInScope": [
         {
           "title": "15% menos en Starbucks en bebidas",
-          "note": "Still missing from XML union 2026-10-26; keep runtime LKG pending human drop"
+          "note": "Still missing from XML union 2026-10-29; keep runtime LKG pending human drop"
         },
         {
           "title": "15% menos en CIR Acondicionamiento térmico",
-          "note": "Missing from XML union 2026-10-26; keep runtime LKG pending human drop"
+          "note": "Missing from XML union 2026-10-29; keep runtime LKG pending human drop"
         },
         {
           "title": "10% menos en Mosca",
-          "note": "Exact title still missing 2026-10-26; XML shows 10% menos en Mosca con Personal Bank through 2026-11-30. Keep 10% runtime LKG"
+          "note": "Exact title still missing 2026-10-29; XML shows 10% menos en Mosca con Personal Bank. Keep 10% runtime LKG"
         }
       ],
       "staleOutOfScope": [

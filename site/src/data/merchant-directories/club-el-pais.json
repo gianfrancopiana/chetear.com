@@ -2026,26 +2026,6 @@
       ]
     },
     {
-      "id": "club-el-pais-los-nocheros-40-anos-montevideo-auditorio-adela-reta-locations",
-      "merchantNames": [
-        "Los Nocheros 40 años – Montevideo"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "Los Nocheros 40 años – Montevideo - Auditorio Adela Reta",
-          "location": "Auditorio Nacional Adela Reta",
-          "geo": {
-            "lat": -34.904353,
-            "lng": -56.198553
-          },
-          "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
-        }
-      ]
-    },
-    {
       "id": "club-el-pais-ludovic-detail-locations",
       "merchantNames": [
         "Ludovic"
