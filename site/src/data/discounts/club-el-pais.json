@@ -117,11 +117,11 @@
       "benefitType": "2-for-1",
       "notes": "5 de noviembre al 14 de noviembre. Lugar: Sala Camacuá",
       "validUntil": "2026-11-14",
-      "location": "Sala Camacuá",
       "geo": {
         "lat": -34.909122,
         "lng": -56.202256
       },
+      "location": "Sala Camacuá",
       "mapsUrl": "https://www.google.com/maps/place/Sala+Camacu%C3%A1/@-34.9091219,-56.2022557,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81d52fef30bb:0xdc43d5c1616ccb78!8m2!3d-34.9091219!4d-56.2022557!16s%2Fg%2F11c0qgj373"
     },
     {
@@ -229,11 +229,11 @@
       "benefitType": "2-for-1",
       "notes": "12 de noviembre - 20:30 hs. Lugar: Sala Zitarrosa",
       "validUntil": "2026-11-12",
-      "location": "Sala Zitarrosa",
       "geo": {
         "lat": -34.906221,
         "lng": -56.194456
       },
+      "location": "Sala Zitarrosa",
       "mapsUrl": "https://www.google.com/maps/place/Sala+Zitarrosa/@-34.9062213,-56.1944559,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802d2e06d853:0x80732a9b51333b20!8m2!3d-34.9062213!4d-56.1944559!16s%2Fg%2F12dpwqjqf"
     },
     {
@@ -363,19 +363,6 @@
       "mapsUrl": "https://www.google.com/maps/place/Teatro+Sol%C3%ADs/@-34.9076336,-56.2011228,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802adf27edcb:0xe9cdb804f35a1e8a!8m2!3d-34.9076336!4d-56.2011228!16s%2Fm%2F03c5d99"
     },
     {
-      "merchant": "La Omisión de la Familia Coleman",
-      "category": "entretenimiento",
-      "percent": 50,
-      "benefitType": "2-for-1",
-      "notes": "Jueves de Octubre - 20:30 hs. Lugar: Teatro del Notariado",
-      "geo": {
-        "lat": -34.903847,
-        "lng": -56.178616
-      },
-      "location": "Teatro del Notariado, Montevideo",
-      "mapsUrl": "https://www.google.com/maps/place/Teatro+del+Notariado/@-34.9038466,-56.178616,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81b502330f31:0xec77d0426604657f!8m2!3d-34.9038466!4d-56.178616!16s%2Fg%2F1wv_td0h"
-    },
-    {
       "merchant": "La puerta azul",
       "category": "entretenimiento",
       "percent": 50,
@@ -495,11 +482,11 @@
       "benefitType": "2-for-1",
       "notes": "17 de noviembre - 20:00 hs. Lugar: Teatro El Galpón",
       "validUntil": "2026-11-17",
-      "location": "Teatro El Galpón, Montevideo",
       "geo": {
         "lat": -34.90403,
         "lng": -56.181082
       },
+      "location": "Teatro El Galpón, Montevideo",
       "mapsUrl": "https://www.google.com/maps/place/El+Galp%C3%B3n/@-34.9040305,-56.1810816,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81b5617dc4e7:0xc21c578fd5c6424f"
     },
     {
@@ -557,11 +544,11 @@
       "benefitType": "2-for-1",
       "notes": "8 de diciembre - 21:00 hs. Lugar: Auditorio Adela Reta",
       "validUntil": "2026-12-08",
-      "location": "Auditorio Nacional Adela Reta",
       "geo": {
         "lat": -34.904353,
         "lng": -56.198553
       },
+      "location": "Auditorio Nacional Adela Reta",
       "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
     },
     {
@@ -605,6 +592,20 @@
       },
       "location": "Sala Zitarrosa",
       "mapsUrl": "https://www.google.com/maps/place/Sala+Zitarrosa/@-34.9062213,-56.1944559,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802d2e06d853:0x80732a9b51333b20!8m2!3d-34.9062213!4d-56.1944559!16s%2Fg%2F12dpwqjqf"
+    },
+    {
+      "merchant": "Semiótica & Arte",
+      "category": "entretenimiento",
+      "percent": 50,
+      "benefitType": "2-for-1",
+      "notes": "7 de noviembre al 28 de noviembre - 11:00 hs. Lugar: Fundación de Arte Contemporáneo",
+      "validUntil": "2026-11-28",
+      "geo": {
+        "lat": -34.915177,
+        "lng": -56.165609
+      },
+      "location": "Av. Sarmiento 2244, Montevideo",
+      "mapsUrl": "https://www.google.com/maps/place/Fundaci%C3%B3n+de+Arte+Contempor%C3%A1neo+-+fac/@-34.915177,-56.165609,17z/data=!3m1!4b1!4m6!3m5!1s0x959f8194da0282fb:0x347f86de5eb6d9a9!8m2!3d-34.915177!4d-56.165609!16s%2Fg%2F11g_x4jsws"
     },
     {
       "merchant": "Sitio Te Mueve",
@@ -1961,11 +1962,6 @@
     },
     {
       "merchant": "Olivia Restó",
-      "category": "restaurante",
-      "percent": 20
-    },
-    {
-      "merchant": "Ovo Beach",
       "category": "restaurante",
       "percent": 20
     },

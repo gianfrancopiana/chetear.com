@@ -3837,26 +3837,6 @@
       ]
     },
     {
-      "id": "club-el-pais-la-omision-de-la-familia-coleman-teatro-del-notariado-locations",
-      "merchantNames": [
-        "La Omisión de la Familia Coleman"
-      ],
-      "sourceUrls": [
-        "https://www.clubelpais.com.uy/"
-      ],
-      "merchants": [
-        {
-          "name": "La Omisión de la Familia Coleman - Teatro del Notariado",
-          "geo": {
-            "lat": -34.903847,
-            "lng": -56.178616
-          },
-          "mapsUrl": "https://www.google.com/maps/place/Teatro+del+Notariado/@-34.9038466,-56.178616,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81b502330f31:0xec77d0426604657f!8m2!3d-34.9038466!4d-56.178616!16s%2Fg%2F1wv_td0h",
-          "location": "Teatro del Notariado, Montevideo"
-        }
-      ]
-    },
-    {
       "id": "club-el-pais-pulmones-auditorio-adela-reta-locations",
       "merchantNames": [
         "Pulmones"
@@ -4307,6 +4287,26 @@
             "lng": -56.198553
           },
           "mapsUrl": "https://www.google.com/maps/place/Auditorio+Nacional+Adela+Reta/@-34.904353,-56.1985532,17z/data=!3m1!4b1!4m6!3m5!1s0x959f802bec196d19:0xdb770c4ab4f2cde9!8m2!3d-34.904353!4d-56.1985532!16s%2Fg%2F11b6_7337z"
+        }
+      ]
+    },
+    {
+      "id": "club-el-pais-semiotica-arte-fundacion-de-arte-contemporaneo-locations",
+      "merchantNames": [
+        "Semiótica & Arte"
+      ],
+      "sourceUrls": [
+        "https://www.clubelpais.com.uy/"
+      ],
+      "merchants": [
+        {
+          "name": "Semiótica & Arte - Fundación de Arte Contemporáneo",
+          "geo": {
+            "lat": -34.915177,
+            "lng": -56.165609
+          },
+          "mapsUrl": "https://www.google.com/maps/place/Fundaci%C3%B3n+de+Arte+Contempor%C3%A1neo+-+fac/@-34.915177,-56.165609,17z/data=!3m1!4b1!4m6!3m5!1s0x959f8194da0282fb:0x347f86de5eb6d9a9!8m2!3d-34.915177!4d-56.165609!16s%2Fg%2F11g_x4jsws",
+          "location": "Av. Sarmiento 2244, Montevideo"
         }
       ]
     }
