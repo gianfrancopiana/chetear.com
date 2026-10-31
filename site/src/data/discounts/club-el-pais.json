@@ -35,12 +35,12 @@
       "percent": 20
     },
     {
-      "merchant": "Anita Álvarez de Toledo – Sexteto",
+      "merchant": "Afro Sound Choir | Gospel Experience",
       "category": "entretenimiento",
       "percent": 50,
       "benefitType": "2-for-1",
-      "notes": "30 de Octubre - 21:30 hs. Lugar: Pueblo Narakan",
-      "validUntil": "2026-10-30",
+      "notes": "20 de noviembre - 20:30 hs. Lugar: Pueblo Narakan",
+      "validUntil": "2026-11-20",
       "geo": {
         "lat": -34.965829,
         "lng": -54.950199
@@ -369,20 +369,6 @@
       "benefitType": "2-for-1",
       "notes": "17 de octubre al 01 de noviembre. Lugar: Teatro la Candela",
       "validUntil": "2026-11-01"
-    },
-    {
-      "merchant": "Las camisas blancas",
-      "category": "entretenimiento",
-      "percent": 50,
-      "benefitType": "2-for-1",
-      "notes": "1 al 30 de octubre. Lugar: Teatro El Galpón",
-      "validUntil": "2026-10-30",
-      "geo": {
-        "lat": -34.90403,
-        "lng": -56.181082
-      },
-      "location": "Teatro El Galpón, Montevideo",
-      "mapsUrl": "https://www.google.com/maps/place/El+Galp%C3%B3n/@-34.9040305,-56.1810816,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81b5617dc4e7:0xc21c578fd5c6424f"
     },
     {
       "merchant": "Lluvia constante",

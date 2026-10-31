@@ -9,7 +9,7 @@
     ],
     "mode": "browser",
     "blueprintPath": "skills/discount-sync/references/provider-blueprints/itau.md",
-    "notes": "2026-10-29: XML union still missing Starbucks, CIR, and exact 10% menos en Mosca; keep runtime LKG. Live in-scope vigencia still through 2026-11-30. Riviera bases still end 31/08/2026 while live — omit validUntil. New pending: 25% y 15% menos en Carters (2026-10-29 to 2026-11-01). No auto-promote.",
+    "notes": "2026-10-31: XML union still missing Starbucks, CIR, and exact 10% menos en Mosca; keep runtime LKG. Live in-scope vigencia still through 2026-11-30. Riviera bases still end 31/08/2026 while live — omit validUntil. Pending add: 6x3 en vinos con Master Black (2026-10-30 to 2026-11-03). Mas Infinito left the union. No auto-promote.",
     "inScope": [
       {
         "title": "15% menos en restaurantes",
@@ -102,10 +102,6 @@
         {
           "title": "20% menos con tarjeta Platinum",
           "note": "Union card 2026-09-21 — merchant/scope unclear; do not auto-promote"
-        },
-        {
-          "title": "15% y 10% menos en Mas Infinito",
-          "note": "Union card 2026-10-11 — do not auto-promote"
         },
         {
           "title": "25% y 15% menos en Samsonite",
@@ -214,6 +210,10 @@
         {
           "title": "25% y 15% menos en Carters",
           "note": "XML union 2026-10-29 — 25% Platinum/Infinite/Black and Personal Bank, 15% all credit, window 2026-10-29 to 2026-11-01. Do not auto-promote."
+        },
+        {
+          "title": "6x3 en vinos con Master Black",
+          "note": "XML union 2026-10-31 — Mastercard Black bundle, window 2026-10-30 to 2026-11-03. Not a stable percent. Do not auto-promote."
         }
       ],
       "disappearedFromInScope": [
